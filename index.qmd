@@ -53,6 +53,11 @@ Pembelajaran dilaksanakan melalui kombinasi **kuliah interaktif dan diskusi krit
 
 ## Rencana Pertemuan
 
+::: {.callout-important}
+### Rencana pembelajaran
+[Cek rencana pembelajaran dan kontrak di sini](https://docs.google.com/document/d/1OahEUEYjGrSzAE5KI2qFYb3K-VvR45lZ/edit?usp=sharing&ouid=100126014993390956583&rtpof=true&sd=true). Mohon diingat, kontrak ini hanya **berlaku terbatas di Kelas A-2.** 
+:::
+
 Pertemuan 1–10 dilaksanakan **daring** melalui [Microsoft Teams](https://teams.microsoft.com/meet/478707954412300?p=L6yBo8dgrtE0gZNtiw), setiap **Rabu pukul 15.30 WIB**. Pertemuan 11–15 dilaksanakan **luring di Ruang 303**, setiap **Senin pukul 13.00 WIB**.
 
 | # | Tanggal | Topik | Moda | Dosen | Materi |
@@ -94,7 +99,7 @@ Unduh dan pasang **versi terbaru** jamovi (*latest release*, bukan versi *solid*
 Beberapa modul yang kita pakai hanya tersedia di rilis terbaru, jadi **jangan** memakai jamovi versi lama yang mungkin sudah terpasang di laptop atau di komputer laboratorium. Jika jamovi sudah terpasang, periksa versinya lewat menu ☰ → **About**, lalu perbarui bila perlu.
 :::
 
-**Langkah singkat:**
+**Cara install:**
 
 1. Buka <https://www.jamovi.org/download.html> dan pilih pemasang sesuai sistem operasi Anda (Windows / macOS / Linux).
 2. Ambil versi pada kolom ***current*** (rilis terbaru), bukan kolom *solid*.
