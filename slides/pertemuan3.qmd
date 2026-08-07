@@ -1,5 +1,5 @@
 ---
-title: "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory"
+title: "Variabel Laten: *Classical Test Theory* dan Sekilas *Item Response Theory*"
 subtitle: "Penyusunan Skala Psikologi"
 author: "Rizqy Amelia Zein & Dian Kartika Amelia Arbi"
 institute:
@@ -41,11 +41,11 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 
 # Dari asumsi ke model {background-color="#14497F" .center}
 
-## Di mana posisi kita sekarang
+## Posisi Anda saat ini
 
 ::: {.incremental}
 
-* **Pertemuan 1**: pengukuran psikologis bersifat tidak langsung, dan tidak semua kumpulan item itu dapat disebut sebagai skala psikologi.
+* **Pertemuan 1**: pengukuran psikologis bersifat tidak langsung, dan tidak semua kumpulan item dapat serta-merta disebut sebagai skala psikologi.
 
 * **Pertemuan 2**: ada enam asumsi yang kita pakai, sebagian besar implisit tanpa disadari.
 
@@ -57,10 +57,10 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 
 ::: {.callout-note}
 #### Kenapa perlu model
-Selama asumsi hanya berupa daftar, kita tidak bisa menghitung apa pun darinya. Begitu asumsinya dituliskan sebagai persamaan matematika, kita bisa **menakar konsekuensinya**, termasuk rumus reliabilitas yang akan Anda pakai di Pertemuan 13.
+Selama asumsi hanya berupa daftar, kita tidak bisa melakukan apapun untuk mengujinya. Begitu asumsinya dituliskan sebagai persamaan matematika, kita bisa **menguji konsekuensinya**, termasuk rumus reliabilitas yang akan Anda pakai di Pertemuan 13.
 :::
 
-# Apa itu variabel laten {background-color="#14497F" .center}
+# Definisi variabel laten {background-color="#14497F" .center}
 
 ## Dua kata, dua ciri
 
@@ -73,7 +73,7 @@ Selama asumsi hanya berupa daftar, kita tidak bisa menghitung apa pun darinya. B
 
 * ***Variabel***, bukan konstanta. Ada sesuatu yang berubah — kekuatannya, besarannya — antar-orang, antar-waktu, antar-situasi.
 
-* Variabel laten biasanya merupakan **karakteristik orang yang menjadi sumber data**, bukan karakteristik objek yang ditanyakan.
+* Variabel laten biasanya merupakan **karakteristik orang yang menjadi sumber data** (e.g., orangtua), bukan karakteristik objek yang ditanyakan (e.g., prestasi anak).
 
 :::
 
@@ -117,7 +117,7 @@ Nama konstruk Anda harus mencerminkan **siapa yang datanya diambil** (e.g., *est
 * Misalnya item *"Tidak ada pengorbanan yang terlalu besar demi keberhasilan anak saya"*. 
   + Seberapa kuat partisipan menyetujuinya ditentukan oleh seberapa kuat aspirasi yang mereka miliki.
 
-* Perhatikan arah panahnya: dari konstruk **ke** item. Bukan sebaliknya.
+* Perhatikan arah panahnya: dari konstruk **ke** item (e.g., ["Model Reflektif"](slides/pertemuan1.html#/skala-item-sebagai-akibat)). Bukan sebaliknya.
 
 :::
 
@@ -125,12 +125,12 @@ Nama konstruk Anda harus mencerminkan **siapa yang datanya diambil** (e.g., *est
 
 ::: {.callout-tip}
 #### Penting diperhatikan
-Kalau satu sebab yang sama menggerakkan sepuluh item, maka kesepuluh item itu **harus berkorelasi satu sama lain**.
+Kalau satu sebab yang sama menyebabkan sepuluh item, maka kesepuluh item itu **harus berkorelasi satu sama lain**.
 
 Korelasi antar-item bisa kita hitung. Variabel latennya tidak. Jadi korelasi antar-item adalah **satu-satunya pintu masuk** untuk mengestimasi sesuatu yang tidak bisa kita amati.
 :::
 
-## Inilah yang membuat analisis item mungkin
+## Asumsi ini memungkinkan analisis item
 
 ::: {.incremental}
 
@@ -138,7 +138,7 @@ Korelasi antar-item bisa kita hitung. Variabel latennya tidak. Jadi korelasi ant
 
 * Tetapi kita bisa menghitung korelasi **antar-item**.
 
-* Dari pola korelasi antar-item itu, kita bisa menyimpulkan seberapa erat tiap item terhubung dengan variabel latennya.
+* Dari pola korelasi antar-item itu, kita bisa menyimpulkan seberapa kuat tiap item terhubung dengan variabel latennya.
 
 :::
 
@@ -150,7 +150,7 @@ Prosedur yang akan Anda jalankan di Pertemuan 13 — *corrected item-total corre
 
 # Classical Test Theory {background-color="#14497F" .center}
 
-## Persamaan yang menopang seluruh mata kuliah ini
+## Persamaannya
 
 $$X = T + E$$
 
@@ -177,7 +177,7 @@ Kondisi fisik responden saat mengisi, suasana hati sesaat, ambiguitas kalimat it
 
 ::: {.incremental}
 
-1. **Rata-rata *error* adalah nol**: $E(e) = 0$. Kalau pengukuran diulang tak terhingga kali, *error* saling meniadakan.
+1. **Rata-rata *error* adalah nol**: $E(e) = 0$. Kalau pengukuran diulang sebanyak ~ kali, *error* saling meniadakan.
 
 2. ***Error* tidak berkorelasi dengan *true score***: $\text{Cov}(T, E) = 0$. Orang dengan kecemasan tinggi tidak otomatis punya *error* yang lebih besar.
 
@@ -189,9 +189,7 @@ Kondisi fisik responden saat mengisi, suasana hati sesaat, ambiguitas kalimat it
 
 ::: {.callout-warning}
 #### Perhatikan apa yang diasumsikan di sini
-Ketiganya menyatakan bahwa *error* bersifat **acak**, bukan sistematis. Bias yang konsisten — misalnya seluruh responden menjawab lebih positif karena *social desirability* — **tidak** masuk ke dalam $E$.
-
-Kita lihat sebentar lagi apa akibatnya.
+Ketiganya menyatakan bahwa *error* bersifat **acak**, bukan sistematis. Bias yang konsisten — misalnya seluruh responden menjawab lebih positif karena *social desirability* — **tidak masuk ke dalam** $E$.
 :::
 
 ## Dari skor ke varians
@@ -222,13 +220,13 @@ $$\rho_{XX'} = \frac{\sigma^2_T}{\sigma^2_X} = \frac{\sigma^2_T}{\sigma^2_T + \s
 
 * $\rho = 0{,}80$ berarti **80% variasi skor** berasal dari perbedaan yang sesungguhnya antar-orang, dan 20% dari *error*.
 
-* Perhatikan bahwa ini definisi tentang **seberapa konsisten** skornya, bukan tentang seberapa benar.
+* Perhatikan bahwa ini definisi tentang **seberapa konsisten** skornya, bukan tentang seberapa "benar" skor tersebut mewakili objek ukurnya.
 
 :::
 
 ## Contoh terhitung
 
-Misalkan skala Anda punya simpangan baku skor total $\sigma_X = 5$, sehingga $\sigma^2_X = 25$. Reliabilitasnya $\rho = 0{,}80$.
+Misalkan skala Anda punya standar deviasi skor total $\sigma_X = 5$, sehingga $\sigma^2_X = 25$. Reliabilitasnya $\rho = 0{,}80$.
 
 . . .
 
@@ -236,7 +234,7 @@ $$\sigma^2_T = 0{,}80 \times 25 = 20 \qquad \sigma^2_E = 25 - 20 = 5$$
 
 . . .
 
-***Standard error of measurement*** (SEM), yaitu simpangan baku dari *error*:
+***Standard error of measurement*** (SEM), yaitu standar deviasi dari *error*:
 
 $$SEM = \sigma_X\sqrt{1-\rho} = 5\sqrt{0{,}20} = 2{,}24$$
 
@@ -257,7 +255,7 @@ $$30 \pm 1{,}96 \times 2{,}24 \;\approx\; 25{,}6 \text{ sampai } 34{,}4$$
 
 * Padahal skala dengan $\rho = 0{,}80$ sudah tergolong baik menurut kriteria yang lazim dipakai.
 
-* Semakin rendah reliabilitasnya, semakin lebar rentangnya, dan semakin sedikit yang bisa kita katakan tentang seseorang.
+* Semakin rendah reliabilitasnya, semakin lebar rentangnya, dan semakin sedikit yang bisa kita simpulkan tentang kondisi psikologis seseorang.
 
 :::
 
@@ -265,16 +263,16 @@ $$30 \pm 1{,}96 \times 2{,}24 \;\approx\; 25{,}6 \text{ sampai } 34{,}4$$
 
 ::: {.callout-warning}
 #### Ingat ini saat menyusun norma
-Di Pertemuan 14 Anda akan mengubah skor menjadi kategori. Kalau batas kategorinya lebih sempit daripada $SEM$ skala Anda, kategori itu **tidak bermakna** — orang yang sama bisa masuk kategori berbeda hanya karena mengisi di hari yang berbeda.
+Di Pertemuan 14 Anda akan mengubah skor menjadi kategori. Kalau batas kategorinya lebih sempit daripada $SEM$ skala Anda, kategori itu **tidak bermakna**: orang yang sama bisa masuk kategori berbeda hanya karena mengisi di hari yang berbeda.
 :::
 
-# Apa sebenarnya *true score* itu? {background-color="#14497F" .center}
+# Apa sebenarnya true score ini? {background-color="#14497F" .center}
 
-## Definisinya lebih sempit daripada yang biasa dibayangkan
+## Definisinya
 
 ::: {.incremental}
 
-* Dalam CTT, *true score* didefinisikan sebagai **nilai harapan (*expected value*) dari *observed score***, kalau orang yang sama diukur berulang kali secara independen dengan alat yang sama.
+* Dalam CTT, *true score* didefinisikan sebagai **nilai yang diharapkan (*expected value*) dari *observed score***, kalau orang yang sama diukur berulang kali secara independen dengan alat yang sama.
 
 * Perhatikan: definisinya **melekat pada alat ukurnya**, bukan pada konstruknya.
 
@@ -313,9 +311,9 @@ Artinya: **alat ukur yang reliabel bisa saja mengukur hal yang salah, secara san
 
 * **Reliabilitas** adalah sifat **skor**: seberapa konsisten skor itu kalau pengukurannya diulang.
 
-* **Validitas** juga sifat skor — lebih tepatnya, sifat dari **tafsiran atas skor untuk tujuan tertentu**.
+* **Validitas** juga sifat skor, lebih tepatnya, sifat dari **tafsiran atas skor untuk tujuan tertentu**.
 
-* Yang pertama **tidak menjamin** yang kedua. Skala Anda bisa punya $\alpha = 0{,}92$ dan skornya tetap menunjukkan konstruk yang berbeda dari yang Anda klaim.
+* Yang pertama **tidak menjamin** yang kedua. Skala Anda bisa punya $\alpha = 0{.}92$ dan skornya tetap menunjukkan konstruk yang berbeda dari yang Anda klaim.
 
 :::
 
@@ -327,7 +325,7 @@ Reliabilitas memberi **batas atas** bagi *koefisien validitas*, yaitu korelasi a
 
 $$r_{XY} \leq \sqrt{\rho_{XX'} \times \rho_{YY'}}$$
 
-Ini melibatkan reliabilitas kriterianya juga. Kalau kriteria diasumsikan diukur tanpa error ($\rho_{YY'}=1$), rumusnya menyederhana jadi $r_{XY} \leq \sqrt{\rho_{XX'}}$: dengan $\rho_{XX'} = 0{,}64$, korelasi maksimum yang mungkin Anda peroleh adalah $0{,}80$ — berapa pun kuatnya hubungan yang sesungguhnya. Kalau kriterianya sendiri juga *fallible*, batas atasnya turun lebih jauh.
+Ini melibatkan reliabilitas kriterianya juga. Kalau kriteria diasumsikan diukur tanpa *error* ($\rho_{YY'}=1$), rumusnya menyederhana jadi $r_{XY} \leq \sqrt{\rho_{XX'}}$: dengan $\rho_{XX'} = 0{.}64$, korelasi maksimum yang mungkin Anda peroleh adalah $0{.}80$ — berapa pun kuatnya hubungan yang sesungguhnya. Kalau kriterianya sendiri juga *fallible*, batas atasnya turun lebih jauh.
 :::
 
 ## Validitas bukan sifat skala
@@ -342,11 +340,11 @@ Ini melibatkan reliabilitas kriterianya juga. Kalau kriteria diasumsikan diukur 
 
 * Kalimat "skala kami valid" sebenarnya **tidak lengkap**. Yang bisa didukung atau tidak didukung oleh bukti adalah **tafsiran atas skor**, untuk **tujuan tertentu**, pada **populasi tertentu**.
 
-* Messick (1989) menyebut validitas sebagai penilaian menyeluruh atas sejauh mana bukti dan teori mendukung **kesimpulan dan tindakan** yang diambil berdasarkan skor.
+* [Messick (1989)](https://psycnet.apa.org/record/1996-10004-001) menyebut validitas sebagai penilaian menyeluruh atas sejauh mana bukti dan teori mendukung **kesimpulan dan tindakan** yang diambil berdasarkan skor.
 
 :::
 
-## Kenapa pembedaan ini praktis, bukan sekadar soal istilah
+## Kenapa pembedaan ini penting
 
 ::: {.incremental}
 
@@ -354,7 +352,7 @@ Ini melibatkan reliabilitas kriterianya juga. Kalau kriteria diasumsikan diukur 
 
 * Begitu populasi, tujuan, atau cara penggunaannya berubah, buktinya perlu diperiksa ulang.
 
-* Karena itu validitas **tidak pernah selesai**. Ia tidak dicap sekali lalu berlaku selamanya.
+* Karena itu validitas **tidak pernah selesai**. Ia tidak bisa diuji sekali lalu berlaku selamanya.
 
 :::
 
@@ -368,25 +366,19 @@ Hindari kalimat "skala kami valid". Tulis seperti ini:
 
 Jenis-jenis buktinya kita bahas di Pertemuan 7.
 :::
-
+ 
 ## Hubungkan dengan Pertemuan 1
 
 ::: {.incremental}
 
 * Ingat kritik Michell: apakah atribut psikologis benar-benar kuantitatif?
 
-* Persamaan $X = T + E$ **mengandaikan jawabannya "ya"**. Kita menjumlahkan dan mengurangkan $T$ dan $E$ seolah-olah keduanya besaran.
+* Persamaan $X = T + E$ **mengandaikan jawabannya "ya"**. Kita menjumlahkan dan mengurangkan $T$ dan $E$ seolah-olah keduanya adalah benar-benar angka yang bermakna.
 
-* CTT tidak membuktikan asumsi itu. CTT **membangun di atasnya**.
+* CTT tidak menguji asumsi ini, tetapi CTT **dibangun di atas asumsi ini**.
 
 :::
 
-. . .
-
-::: {.callout-tip}
-#### Sikap yang kita pakai
-Kita akan memakai CTT sepanjang semester ini karena ia berguna dan bisa dikerjakan. Tetapi Anda sekarang tahu persis **di atas apa** ia berdiri.
-:::
 
 # Konsekuensi CTT {background-color="#14497F" .center}
 
@@ -417,9 +409,9 @@ Rumusnya (*Spearman-Brown*) kita bahas di Pertemuan 6.
 
 * Menambah item hanya menolong kalau item barunya **benar-benar mengukur konstruk yang sama**.
 
-* Menambah item yang isinya nyaris sama akan menaikkan $\alpha$ tanpa menambah informasi apa pun — ini pelanggaran *local independence* dari Pertemuan 2.
+* Menambah item yang isinya nyaris sama akan menaikkan $\alpha$ tanpa menambah informasi apa pun dan ini pelanggaran *local independence* dari Pertemuan 2.
 
-* Dan kuesioner yang terlalu panjang memunculkan masalah baru: kelelahan responden dan jawaban asal.
+* Dan kuesioner yang terlalu panjang memunculkan masalah baru: kelelahan responden dan jawaban yang asal-asalan.
 
 :::
 
@@ -427,12 +419,12 @@ Rumusnya (*Spearman-Brown*) kita bahas di Pertemuan 6.
 
 ::: {.callout-warning}
 #### Untuk proyek Anda
-Angka $\alpha$ yang tinggi **bukan** bukti bahwa skala Anda bagus. Ia bisa dicapai hanya dengan menulis sepuluh parafrase dari kalimat yang sama.
+Angka $\alpha$ atau $\omega$ yang tinggi **bukan** bukti bahwa skala Anda bagus. Ia bisa dicapai hanya dengan menulis sepuluh parafrase dari kalimat yang sama.
 :::
 
 ## Sekarang atenuasi bisa kita pahami
 
-Di Pertemuan 1 kita memakai rumus ini tanpa penjelasan:
+Di Pertemuan 1 kita memakai rumus ini tanpa penjelasan yang memadai:
 
 $$r_{XY} = \rho_{T_X T_Y} \times \sqrt{\rho_{XX'} \times \rho_{YY'}}$$
 
@@ -442,7 +434,7 @@ $$r_{XY} = \rho_{T_X T_Y} \times \sqrt{\rho_{XX'} \times \rho_{YY'}}$$
 
 * Sekarang asalnya jelas: yang kita korelasikan adalah $X$, dan $X$ mengandung $E$.
 
-* Bagian $E$ tidak berkorelasi dengan apa pun — menurut asumsi kedua CTT.
+* Bagian $E$ tidak berkorelasi dengan apa pun, menurut asumsi kedua CTT.
 
 * Jadi *error* hanya menambah penyebut tanpa menambah pembilang, dan korelasinya mengecil.
 
@@ -451,7 +443,7 @@ $$r_{XY} = \rho_{T_X T_Y} \times \sqrt{\rho_{XX'} \times \rho_{YY'}}$$
 . . .
 
 ::: {.callout-tip}
-Semakin besar porsi *noise* dalam skor Anda, semakin kecil semua korelasi yang Anda laporkan. Ini berlaku otomatis, tanpa kesalahan apa pun dari pihak Anda.
+Semakin besar porsi *noise* dalam skor Anda, semakin kecil semua korelasi yang Anda laporkan. 
 :::
 
 ## Kelemahan CTT yang paling serius
@@ -474,7 +466,7 @@ DeVellis & Thorpe (2022), Bab 8.
 
 ::: {.callout-warning}
 #### Konsekuensi praktis untuk uji coba Anda
-Reliabilitas yang Anda laporkan **bukan sifat alat ukur Anda semata** — ia sebagian juga sifat sampel Anda. Karena itu, laporkan **karakteristik sampel** bersama koefisien reliabilitasnya, selalu.
+Reliabilitas yang Anda laporkan **bukan sifat alat ukur Anda semata** — ia juga sebagian merupakan sifat sampel Anda. Karena itu, laporkan **karakteristik sampel** bersama koefisien reliabilitasnya, selalu.
 :::
 
 ## Bukan hanya reliabilitas
@@ -492,7 +484,7 @@ Reliabilitas yang Anda laporkan **bukan sifat alat ukur Anda semata** — ia seb
 . . .
 
 ::: {.callout-note}
-Inilah persoalan yang ingin dipecahkan oleh *Item Response Theory*. Kita bahas di bagian terakhir.
+Inilah masalah yang ingin dipecahkan oleh *Item Response Theory*. Kita bahas di bagian terakhir.
 :::
 
 # Keluarga model dalam CTT {background-color="#14497F" .center}
@@ -539,7 +531,7 @@ Perhatikan bahwa ketiganya adalah asumsi tentang **item Anda**, bukan tentang or
 
 ::: {.callout-tip}
 #### Yang perlu Anda simpan sekarang
-Anda belum perlu menghitung apa pun. Yang perlu Anda bawa dari slide ini adalah: **$\alpha$ punya asumsi, dan asumsinya jarang terpenuhi.** Kita cek konsekuensinya di Pertemuan 6.
+Anda belum perlu menghitung apa pun. Yang perlu Anda bawa dari slide ini adalah: **$\alpha$ punya asumsi, dan asumsinya jarang terpenuhi.** Kita akan periksa konsekuensinya di Pertemuan 6.
 :::
 
 # Sekilas Item Response Theory {background-color="#14497F" .center}
@@ -548,7 +540,7 @@ Anda belum perlu menghitung apa pun. Yang perlu Anda bawa dari slide ini adalah:
 
 ::: {.incremental}
 
-* Dalam pengukuran fisik, **20 kilogram berarti sama** apa pun yang ditimbang. Sifat alat ukurnya tidak bergantung pada objeknya.
+* Dalam pengukuran fisik, **20 kilogram berarti sama** apa pun yang ditimbang. Sifat alat ukurnya tidak bergantung pada objeknya (e.g., [*specific objectivity*](https://www.rasch.org/rmt/rmt83e.htm)).
 
 * IRT ingin mencapai hal yang sama untuk item kuesioner: menetapkan sifat item yang **tidak bergantung pada siapa yang mengisinya**.
 
@@ -586,7 +578,7 @@ Reliabilitas dinaikkan dengan **memilih item yang lebih baik**.
 . . .
 
 ::: {.callout-note}
-Perbedaan ini punya konsekuensi praktis yang besar: CTT cenderung menghasilkan skala yang panjang dan banyak mengulang, IRT cenderung menghasilkan skala yang lebih pendek tetapi itemnya terpilih.
+Perbedaan ini punya konsekuensi praktis: CTT cenderung menghasilkan skala yang panjang dan banyak mengulang, IRT cenderung menghasilkan skala yang lebih pendek tetapi itemnya yang benar-benar bagus.
 :::
 
 ## Perbedaan kedua: item punya "tingkat kesulitan"
@@ -604,8 +596,8 @@ Perbedaan ini punya konsekuensi praktis yang besar: CTT cenderung menghasilkan s
 . . .
 
 ::: {.callout-tip}
-#### Gagasan intinya
-Setiap item **peka pada bagian tertentu** dari rentang konstruk. IRT membuat hal itu eksplisit dan bisa dihitung.
+#### Intinya
+Setiap item **sensitif pada bagian tertentu** dari rentang konstruk. IRT membuat hal itu eksplisit dan bisa dihitung.
 :::
 
 ## Kurva karakteristik item (*item characteristic curve*)
@@ -693,7 +685,7 @@ IRT lebih tepat disebut **keluarga model**, bukan satu prosedur tunggal.
 
 ::: {.callout-note}
 #### Perhatikan
-Dua asumsi pertama itu persis asumsi nomor 4 dari Pertemuan 2. IRT **tidak menghapus** asumsi, melainkan mensyaratkannya lebih ketat dan memberi lebih banyak sebagai imbalannya.
+Dua asumsi pertama itu persis asumsi nomor 4 dari Pertemuan 2. IRT **tidak menghapus** asumsi, melainkan mensyaratkannya lebih ketat.
 :::
 
 ## Kenapa mata kuliah ini tetap memakai CTT
@@ -765,17 +757,17 @@ Pertanyaan nomor 3 akan kita pakai lagi secara langsung ketika menyusun *bluepri
 
 # Rangkuman {background-color="#14497F" .center}
 
-## Enam poin utama
+## 6️⃣ poin utama
 
 ::: {.incremental}
 
 1. **Variabel laten adalah sebab**, dan itulah alasan item dalam satu skala harus berkorelasi.
 
-2. **$X = T + E$**, dengan asumsi bahwa *error* bersifat acak — bukan sistematis.
+2. **$X = T + E$**, dengan asumsi bahwa *error* bersifat acak, bukan sistematis.
 
 3. **Reliabilitas adalah proporsi varians**: bagian dari variasi skor yang bukan *noise*.
 
-4. ***True score* melekat pada alat ukur**, bukan pada konstruk. Alat yang bias secara konsisten tetap bisa sangat reliabel — dan reliabilitas maupun validitas sama-sama sifat **skor**, bukan sifat skala.
+4. ***True score* melekat pada alat ukur**, bukan pada konstruk. Alat yang bias secara konsisten tetap bisa sangat reliabel dan reliabilitas maupun validitas sama-sama sifat **skor**, bukan sifat skala.
 
 5. **Statistik item dalam CTT bergantung pada sampel.** Laporkan karakteristik sampel bersama koefisiennya.
 
@@ -785,7 +777,7 @@ Pertanyaan nomor 3 akan kita pakai lagi secara langsung ketika menyusun *bluepri
 
 ## Untuk Pertemuan 4
 
-Kita turun ke tingkat yang paling praktis: **format respons**.
+Kita turun ke tingkat yang paling konkrit: **format respons**.
 
 ::: {.incremental}
 
@@ -800,7 +792,7 @@ Kita turun ke tingkat yang paling praktis: **format respons**.
 
 ::: {.callout-tip}
 #### Persiapan
-Baca **DeVellis & Thorpe (2022), Bab 5** bagian tentang format respons. Kalau ingin melihat versi formal dari materi hari ini, Bab 3 buku yang sama membahas reliabilitas secara penuh.
+Baca **DeVellis & Thorpe (2022), Bab 5** bagian tentang format respons. Kalau ingin melihat versi formal dari materi hari ini, Bab 3 buku yang sama membahas reliabilitas secara lengkap.
 :::
 
 ## Ada pertanyaan❓

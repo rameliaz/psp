@@ -401,7 +401,7 @@ Hanya bisa **disimpulkan** dari hal lain yang bisa diamati.
 
 * Tekanan darah dan suhu tubuh **terlihat** seperti bisa diamati langsung. Padahal yang benar-benar kita amati adalah **kolom air raksa** atau **angka pada layar digital**.
 
-* Kita menyebut ketinggian air raksa itu "suhu", padahal itu hanya **wujud yang bisa kita lihat** dari energi termal.
+* Kita menyebut ketinggian air raksa itu adalah "suhu", padahal ini hanya **wujud yang bisa kita lihat** dari energi termal, yang sebenarnya ingin kita ukur.
 
 * Pada termometer, penyederhanaan ini **hampir tidak bermasalah**, karena hubungan antara proksi dan atributnya sangat kuat.
 
@@ -587,7 +587,7 @@ Pembedaan *effect* vs *cause indicator* berasal dari Bollen (1989); lihat DeVell
 
 * Bagaimana seseorang merespons *"Saya merasa sedih"* dan *"Hidup saya terasa hampa"* sebagian besar **ditentukan oleh kondisi afektifnya saat itu**.
 
-* Item-itemnya **punya sebab yang sama**: kondisi depresif orang tersebut.
+* Item-itemnya **punya sebab yang sama** (reflektif): kondisi depresif orang tersebut.
 
 :::
 
@@ -597,6 +597,10 @@ Pembedaan *effect* vs *cause indicator* berasal dari Bollen (1989); lihat DeVell
 #### Implikasinya 
 Karena semua item disebabkan oleh sebab yang sama, item-itemnya **seharusnya saling berkorelasi tinggi** dan sebagian besar **bisa saling ditukar**. Ini yang membuat koefisien seperti $\alpha$ dan $\omega$ masuk akal untuk mengecek reliabilitas skala. Kita akan bahas lebih lanjut di Pertemuan 6.
 :::
+
+## Model reflektif
+
+![](libs/reflektif.png){fig-align="center"}
 
 ## Indeks: item sebagai sebab
 
@@ -617,13 +621,17 @@ Karena semua item disebabkan oleh sebab yang sama, item-itemnya **seharusnya sal
 Pada indeks, item **tidak harus** berkorelasi tinggi dan **tidak bisa** saling dipertukarkan. Menghitung *Cronbach's alpha* untuk sebuah indeks itu **keliru secara konseptual**, meskipun *software*-nya tetap akan mengeluarkan angkanya.
 :::
 
+## Model formatif
+
+![](libs/formatif.png){fig-align="center"}
+
 ## *Emergent variable*: sekadar dikelompokkan
 
 ::: {.incremental}
 
-* Kalimat yang diawali kata dengan kurang dari lima huruf bisa dengan mudah dikelompokkan bersama.
+* Kalimat yang **diawali kata dengan kurang dari lima huruf** bisa dengan mudah dikelompokkan bersama.
 
-* Kelompok itu **tidak punya sebab yang sama** dan **tidak punya akibat yang sama**. Kelompok itu muncul semata karena ada individu atau sebuah *software* yang **melihat adanya kemiripan** antara item-item ini.
+* Kelompok itu **tidak punya sebab yang sama** dan **tidak punya akibat yang sama**. Kelompok itu muncul semata karena ada individu atau sebuah *software* yang **melihat adanya pola kemiripan** antara item-item ini.
 
 :::
 
@@ -651,15 +659,15 @@ Yang menentukan apakah kumpulan item Anda adalah skala, indeks, atau sekadar *em
 Sebuah **skala**, dengan *effect indicators*, berlandaskan *Classical Test Theory*. Tetapi Anda perlu tahu bahwa dua bentuk lainnya ada, supaya Anda tidak keliru memperlakukan konstruk yang sebenarnya formatif seolah-olah reflektif.
 :::
 
-## "Assembly", bukan "development"
+## *Assembly*, bukan *development*
 
 ::: {.incremental}
 
-* DeVellis & Thorpe mengamati bahwa untuk banyak kumpulan item, ***assembly*** (merakit) adalah istilah yang lebih tepat daripada ***development*** (mengembangkan).
+* DeVellis & Thorpe mengamati bahwa untuk banyak kumpulan item, ***assembly*** (merakit) adalah istilah yang lebih tepat daripada ***development*** (mengembangkan), **dalam banyak konteks**.
 
 * Peneliti sering mengumpulkan **item seadanya** lalu mengasumsikan hasilnya adalah skala yang layak.
 
-* Tanpa pernah memeriksa apakah item-item itu punya sebab yang sama (skala), punya akibat yang sama (indeks), atau sekadar masuk dalam satu kategori yang sama (*emergent variable*).
+* Tetapi, tanpa pernah memeriksa apakah item-item itu punya sebab yang sama (skala), punya akibat yang sama (indeks), atau sekadar masuk dalam satu kategori yang sama (*emergent variable*).
 
 :::
 

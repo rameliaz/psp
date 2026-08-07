@@ -1929,84 +1929,84 @@
     "href": "slides/pertemuan2.html#outline",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Outline",
-    "text": "Outline\n\nKenapa asumsi perlu diperiksa, dan kenapa bukan berarti kita harus berhenti mengukur\nAsumsi 1: atribut psikologis bervariasi secara kuantitatif\nAsumsi 2: atributnya terdistribusi normal\nAsumsi 3: atributnya kontinu, bukan kategorikal\nAsumsi 4: semua item mengukur satu hal yang sama\nAsumsi 5: item bekerja dengan cara yang sama untuk semua kelompok\nAsumsi 6: responden bisa dan mau melaporkan kondisi internalnya\nApa yang bisa kita lakukan terhadap asumsi-asumsi ini\n\n\n\nDisclosure penggunaan akal imitasi (AI)\nKami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk brainstorming materi, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini."
+    "text": "Outline\n\nKenapa asumsi perlu diperiksa\nAsumsi 1: atribut psikologis bervariasi secara kuantitatif\nAsumsi 2: atributnya terdistribusi normal\nAsumsi 3: atributnya kontinu, bukan kategorikal\nAsumsi 4: semua item mengukur satu hal yang sama\nAsumsi 5: item bekerja dengan cara yang sama untuk semua kelompok\nAsumsi 6: responden bisa dan mau melaporkan kondisi internalnya\nApa yang bisa kita lakukan terhadap asumsi-asumsi ini\n\n\n\nDisclosure penggunaan akal imitasi (AI)\nKami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk brainstorming materi, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini."
   },
   {
     "objectID": "slides/pertemuan2.html#yang-sudah-kita-sepakati-minggu-lalu",
     "href": "slides/pertemuan2.html#yang-sudah-kita-sepakati-minggu-lalu",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Yang sudah kita sepakati minggu lalu",
-    "text": "Yang sudah kita sepakati minggu lalu\n\nPengukuran psikologis dilakukan secara tidak langsung, lewat proksi.\nDefinisi pengukuran sendiri masih diperdebatkan, dan kritik Michell soal apakah atribut psikologis benar-benar kuantitatif belum benar-benar tuntas dijawab.\nSebagian besar data psikologi itu ordinal, tetapi diperlakukan sebagai interval.\nYang menentukan apakah kumpulan item Anda adalah skala adalah teori, bukan output software.\n\n\n\n\n\n\n\n\nBenang merahnya\n\n\nSemua asumsi ini punya kesamaan: ada asumsi-asumsi yang kita anggap benar tanpa pernah kita periksa. Hari ini kita periksa satu per satu."
+    "text": "Yang sudah kita sepakati minggu lalu\n\nPengukuran psikologis dilakukan secara tidak langsung, lewat indikator sebagai “proksi.”\nDefinisi pengukuran sendiri masih diperdebatkan, dan kritik Michell soal apakah atribut psikologis benar-benar kuantitatif belum benar-benar tuntas dijawab.\nSebagian besar data psikologi bentuknya ordinal, tetapi diperlakukan sebagai interval.\nYang menentukan apakah kumpulan item Anda adalah skala adalah teori, bukan output software statistik.\n\n\n\n\n\n\n\n\nBenang merahnya\n\n\nSemua asumsi ini punya kesamaan: ada asumsi-asumsi yang kita anggap benar tanpa pernah kita periksa."
   },
   {
-    "objectID": "slides/pertemuan2.html#kenapa-satu-pertemuan-penuh-untuk-asumsi",
-    "href": "slides/pertemuan2.html#kenapa-satu-pertemuan-penuh-untuk-asumsi",
+    "objectID": "slides/pertemuan2.html#kenapa-satu-pertemuan-penuh-hanya-untuk-membahas-asumsi",
+    "href": "slides/pertemuan2.html#kenapa-satu-pertemuan-penuh-hanya-untuk-membahas-asumsi",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
-    "section": "Kenapa satu pertemuan penuh untuk asumsi?",
-    "text": "Kenapa satu pertemuan penuh untuk asumsi?\n\nKarena asumsi-asumsi ini tidak muncul di laporan penelitian. Yang muncul hanya hasilnya.\nKarena software tidak akan memperingatkan Anda kalau asumsinya dilanggar. Ia tetap mengeluarkan angka.\nKarena di Pertemuan 9–15 nanti, Anda akan mengambil keputusan teknis yang semuanya bersandar pada asumsi-asumsi ini."
+    "section": "Kenapa satu pertemuan penuh hanya untuk membahas asumsi?",
+    "text": "Kenapa satu pertemuan penuh hanya untuk membahas asumsi?\n\nKarena asumsi-asumsi ini tidak muncul di laporan penelitian. Yang muncul hanya hasilnya.\nKarena software tidak akan memperingatkan Anda kalau asumsinya dilanggar. Ia tetap mengeluarkan angka.\nKarena di Pertemuan 9–15 nanti, Anda akan mengambil keputusan teknis yang semuanya bersandar pada asumsi-asumsi ini."
   },
   {
-    "objectID": "slides/pertemuan2.html#asumsi-bukan-hal-yang-buruk",
-    "href": "slides/pertemuan2.html#asumsi-bukan-hal-yang-buruk",
+    "objectID": "slides/pertemuan2.html#asumsi-sebenarnya-bukan-kelemahan",
+    "href": "slides/pertemuan2.html#asumsi-sebenarnya-bukan-kelemahan",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
-    "section": "Asumsi bukan hal yang buruk",
-    "text": "Asumsi bukan hal yang buruk\n\nTidak ada pengukuran yang bebas asumsi. Termometer pun mengasumsikan bahwa pemuaian air raksa bersifat linear terhadap suhu.\nAsumsi adalah harga yang kita bayar supaya bisa mengukur sesuatu sama sekali.\nYang bermasalah bukan keberadaan asumsinya, melainkan asumsi yang tidak disadari.\n\n\n\n\n\n\n\n\nPerbedaan yang penting\n\n\n“Saya mengasumsikan atribut ini kontinu, dan berikut alasannya” adalah pernyataan ilmiah.\n“Saya menjumlahkan itemnya karena begitulah caranya” bukan."
+    "section": "Asumsi sebenarnya bukan kelemahan",
+    "text": "Asumsi sebenarnya bukan kelemahan\n\nTidak ada pengukuran yang bebas asumsi. Termometer pun mengasumsikan bahwa pemuaian air raksa bersifat linear terhadap suhu.\nAsumsi adalah pegangan yang harus kita punya agar bisa mengukur yang apa ingin kita ukur.\nYang bermasalah bukan ada atau tidaknya asumsi, melainkan asumsi yang tidak disadari dan tidak pernah dideklarasikan.\n\n\n\n\n\n\n\n\nPerbedaan yang penting\n\n\n“Saya mengasumsikan atribut ini continuous, dan berikut alasannya” adalah pernyataan ilmiah.\n“Saya menjumlahkan itemnya karena begitulah caranya” bukan pernyataan ilmiah."
   },
   {
     "objectID": "slides/pertemuan2.html#tiga-kemungkinan-status-sebuah-asumsi",
     "href": "slides/pertemuan2.html#tiga-kemungkinan-status-sebuah-asumsi",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Tiga kemungkinan status sebuah asumsi",
-    "text": "Tiga kemungkinan status sebuah asumsi\n\nAsumsinya benar. Tidak ada masalah.\nAsumsinya salah, tapi kesimpulannya tidak banyak berubah. Metode yang seperti ini disebut robust terhadap pelanggaran asumsi tersebut.\nAsumsinya salah, dan kesimpulannya berubah total.\n\n\n\n\n\n\n\n\nTugas kita\n\n\nMembedakan mana yang nomor 2 dan mana yang nomor 3. Ini tidak bisa ditentukan dari data saja — perlu pemahaman tentang konstruk yang sedang diukur."
+    "text": "Tiga kemungkinan status sebuah asumsi\n\nAsumsinya benar. Tidak ada masalah.\nAsumsinya salah, tapi kesimpulannya tidak banyak berubah. Metode yang seperti ini disebut robust terhadap pelanggaran asumsi tersebut.\nAsumsinya salah, dan kesimpulannya berubah total. Masalah ini yang perlu diatasi."
   },
   {
     "objectID": "slides/pertemuan2.html#enam-asumsi-yang-akan-kita-bahas",
     "href": "slides/pertemuan2.html#enam-asumsi-yang-akan-kita-bahas",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Enam asumsi yang akan kita bahas",
-    "text": "Enam asumsi yang akan kita bahas\n\n\n\n\n\n\n\n\n#\nAsumsi\nBisa diperiksa dengan data?\n\n\n\n\n1\nAtributnya bervariasi secara kuantitatif\nSangat sulit\n\n\n2\nSebarannya normal\nYa\n\n\n3\nAtributnya kontinu, bukan kategoris\nSebagian\n\n\n4\nSemua item mengukur satu hal yang sama\nYa\n\n\n5\nItem bekerja sama untuk semua kelompok\nYa, kalau datanya cukup\n\n\n6\nResponden bisa dan mau menjawab akurat\nSebagian\n\n\n\n\n\n\n\n\n\n\nNote\n\n\nPerhatikan bahwa asumsi yang paling mendasar (nomor 1) justru yang paling sulit diperiksa."
+    "text": "Enam asumsi yang akan kita bahas\n\n\n\n\n\n\n\n\n#\nAsumsi\nBisa diperiksa dengan data?\n\n\n\n\n1\nAtribut psikologis bervariasi secara kuantitatif\nSangat sulit\n\n\n2\nSebaran datanya normal\nYa\n\n\n3\nAtributnya ****continuous****, bukan kategorikal\nSebagian\n\n\n4\nSemua item mengukur satu konstruk yang sama\nYa\n\n\n5\nCara item bekerja, sama untuk semua kelompok (invariance)\nYa, kalau datanya cukup\n\n\n6\nResponden bisa dan mau menjawab secara akurat\nSebagian\n\n\n\n\n\n\n\n\n\n\nNote\n\n\nPerhatikan bahwa asumsi yang paling mendasar (nomor 1) justru yang paling sulit diperiksa."
   },
   {
     "objectID": "slides/pertemuan2.html#apa-yang-kita-lakukan-ketika-kita-menjumlahkan-item",
     "href": "slides/pertemuan2.html#apa-yang-kita-lakukan-ketika-kita-menjumlahkan-item",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Apa yang kita lakukan ketika kita menjumlahkan item",
-    "text": "Apa yang kita lakukan ketika kita menjumlahkan item\nBayangkan skala kecemasan dengan 10 item, masing-masing 1–5. Anda menjumlahkannya menjadi satu skor 10–50.\n\nDengan menjumlahkan, Anda sudah mengasumsikan setidaknya tiga hal:\n\nSetiap item punya bobot yang sama. Item 1 dianggap menyumbang sama besar dengan item 7.\nJarak antar-kategori respons setara. Selisih 1→2 dianggap sama dengan selisih 4→5.\nSkor bisa dijumlahkan. Orang dengan skor 40 dianggap punya kecemasan “dua kali lipat” orang dengan skor 20 — atau setidaknya, selisih 10 poin punya arti yang sama di seluruh rentang skala."
+    "text": "Apa yang kita lakukan ketika kita menjumlahkan item\nBayangkan skala kecemasan dengan 10 item, masing-masing 1–5. Anda menjumlahkannya menjadi satu skor 10–50.\n\nDengan menjumlahkan, Anda sudah mengasumsikan setidaknya tiga hal:\n\nSetiap item punya bobot yang sama. Item 1 dianggap menyumbang sama besar dengan item 7.\nJarak antar-kategori respons setara. Selisih skor depresi 1→2 dianggap sama dengan selisih skor 4→5.\nSkor bisa dijumlahkan. Orang dengan skor 40 dianggap punya kecemasan “dua kali lipat” orang dengan skor 20, atau setidaknya, selisih 10 poin punya arti yang sama di seluruh rentang skala."
   },
   {
-    "objectID": "slides/pertemuan2.html#kenapa-asumsi-bobot-yang-sama-itu-berani",
-    "href": "slides/pertemuan2.html#kenapa-asumsi-bobot-yang-sama-itu-berani",
+    "objectID": "slides/pertemuan2.html#semua-item-punya-bobot-sama-bold-assumption",
+    "href": "slides/pertemuan2.html#semua-item-punya-bobot-sama-bold-assumption",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
-    "section": "Kenapa asumsi bobot yang sama itu berani",
-    "text": "Kenapa asumsi bobot yang sama itu berani\n\nItem “Saya kadang merasa gugup sebelum presentasi” dan item “Saya sering merasa akan mati karena panik” jelas menandakan tingkat keparahan yang berbeda.\nTetapi dalam penjumlahan biasa (unit weighting), keduanya bernilai maksimum 5 poin.\nArtinya, skala kita memperlakukan dua pernyataan itu sebagai indikator yang setara.\n\n\n\n\n\n\n\n\nKabar baiknya\n\n\nIni persis yang membedakan Classical Test Theory dari Item Response Theory. IRT mengizinkan tiap item punya “tingkat kesulitan” dan “daya diskriminasi” sendiri. Kita bahas sekilas di Pertemuan 3.\nMata kuliah ini memakai CTT — jadi unit weighting adalah asumsi yang akan Anda pakai. Yang penting, Anda tahu Anda memakainya."
+    "section": "Semua item punya bobot sama = bold assumption",
+    "text": "Semua item punya bobot sama = bold assumption\n\nItem “Saya kadang merasa gugup sebelum presentasi” dan item “Saya sering merasa akan mati karena panik” jelas menandakan tingkat keparahan yang berbeda.\nTetapi dalam penjumlahan biasa (unit weighting), keduanya bernilai maksimum 5 poin.\nArtinya, skala kita memperlakukan dua pernyataan itu sebagai indikator yang setara.\n\n\n\n\n\n\n\n\nTetapi…\n\n\nIni persis yang membedakan Classical Test Theory dari Item Response Theory. IRT memungkinkan tiap item punya “tingkat kesulitan” dan “daya diskriminasi” sendiri. Kita bahas sekilas di Pertemuan 3.\nMata kuliah ini memakai CTT, jadi unit weighting adalah asumsi yang akan Anda pakai. Yang penting, Anda tahu bahwa asumsi ini yang dipakai."
   },
   {
     "objectID": "slides/pertemuan2.html#dari-mana-asumsi-normalitas-berasal",
     "href": "slides/pertemuan2.html#dari-mana-asumsi-normalitas-berasal",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Dari mana asumsi normalitas berasal?",
-    "text": "Dari mana asumsi normalitas berasal?\n\nAdolphe Quetelet (1835) memperkenalkan gagasan l’homme moyen — “manusia rata-rata”. Ia menerapkan kurva normal, yang saat itu dipakai untuk memodelkan error pengamatan astronomi, pada karakteristik manusia.\nPergeserannya halus tapi besar: kurva normal berpindah dari model tentang error menjadi model tentang manusia.\nGalton kemudian memakainya untuk sifat-sifat psikologis, dan sejak itu normalitas menjadi semacam bawaan dalam psikometri.\n\n\n\n\n\n\n\n\nYang perlu disadari\n\n\nTidak pernah ada bukti kuat bahwa atribut psikologis harus terdistribusi normal. Yang ada adalah kebiasaan yang diwariskan dari konteks yang berbeda."
+    "text": "Dari mana asumsi normalitas berasal?\n\nAdolphe Quetelet (1835) memperkenalkan gagasan l’homme moyen — “manusia rata-rata”. Ia menerapkan kurva normal, yang saat itu dipakai untuk memodelkan error pengamatan astronomi, pada karakteristik manusia.\nImplikasinya: kurva normal berpindah dari model tentang error menjadi model tentang manusia.\nGalton kemudian memakainya untuk sifat-sifat psikologis, dan sejak itu normalitas menjadi semacam bawaan dalam psikometri.\n\nInilah yang menjustifikasi pandangan eugenics yang amat rasis.\n\n\n\n\n\n\n\n\n\nYang perlu disadari\n\n\nTidak pernah ada bukti kuat bahwa atribut psikologis harus terdistribusi normal. Yang ada adalah kebiasaan yang diwariskan tetapi dari konteks yang amat berbeda."
   },
   {
     "objectID": "slides/pertemuan2.html#ada-sirkularitas-yang-jarang-dibicarakan",
     "href": "slides/pertemuan2.html#ada-sirkularitas-yang-jarang-dibicarakan",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Ada sirkularitas yang jarang dibicarakan",
-    "text": "Ada sirkularitas yang jarang dibicarakan\n\nDalam penyusunan skala, kita membuang item yang terlalu mudah atau terlalu sulit disetujui — item yang hampir semua orang jawab “5”, atau hampir semua orang jawab “1”.\nItem yang tersisa adalah item yang membelah responden di tengah.\nHasilnya: sebaran skor total menjadi lebih simetris dan menumpuk di tengah.\n\n\n\n\n\n\n\n\nPerhatikan urutannya\n\n\nKita memilih item supaya sebarannya normal, lalu memperlakukan normalitas itu sebagai temuan tentang manusia. Padahal sebagian besarnya adalah konsekuensi dari cara kita menyusun skalanya."
+    "text": "Ada sirkularitas yang jarang dibicarakan\n\nDalam penyusunan skala, kita membuang item yang terlalu mudah atau terlalu sulit disetujui — item yang hampir semua orang jawab “5”, atau hampir semua orang jawab “1”.\nItem yang tersisa adalah item yang membelah responden di tengah.\nHasilnya: sebaran skor total menjadi lebih simetris dan menumpuk di tengah.\n\n\n\n\n\n\n\n\nPerhatikan urutannya\n\n\nKita memilih item supaya sebarannya normal, lalu memperlakukan normalitas itu sebagai temuan tentang manusia. Padahal bagaimana cara partisipan merespon skala kita adalah konsekuensi dari cara kita menyusun skalanya."
   },
   {
-    "objectID": "slides/pertemuan2.html#mari-lihat-data-sungguhan",
-    "href": "slides/pertemuan2.html#mari-lihat-data-sungguhan",
+    "objectID": "slides/pertemuan2.html#mari-lihat-data-yang-sebenarnya",
+    "href": "slides/pertemuan2.html#mari-lihat-data-yang-sebenarnya",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
-    "section": "Mari lihat data sungguhan",
-    "text": "Mari lihat data sungguhan\nData IPIP Big Five (data/data.csv di repositori mata kuliah ini), 50 item, skala 1–5, n = 19.719 responden.\nPertama, lihat tiga item secara terpisah:\n\n\n\n\n\n\n\n\n\n\nItem\nIsi\nRata-rata\nSkewness\nKurtosis\n\n\n\n\nN3\nI worry about things\n3.84\n−0.83\n−0.16\n\n\nO2\nI have difficulty understanding abstract ideas\n2.15\n+0.78\n−0.23\n\n\nE1\nI am the life of the party\n2.63\n+0.21\n−0.96\n\n\n\n\n\n\n\n\n\n\nNote\n\n\nItem-itemnya jelas tidak normal. N3 menumpuk di ujung “setuju” (69% menjawab 4 atau 5), O2 menumpuk di ujung sebaliknya (67% menjawab 1 atau 2)."
+    "section": "Mari lihat data yang sebenarnya",
+    "text": "Mari lihat data yang sebenarnya\nData IPIP Big Five (data/data.csv di repositori mata kuliah ini), 50 item, skala 1–5, n = 19.719 responden.\nPertama, lihat tiga item secara terpisah:\n\n\n\n\n\n\n\n\n\n\nItem\nIsi\nRata-rata\nSkewness\nKurtosis\n\n\n\n\nN3\nI worry about things\n3.84\n−0.83\n−0.16\n\n\nO2\nI have difficulty understanding abstract ideas\n2.15\n+0.78\n−0.23\n\n\nE1\nI am the life of the party\n2.63\n+0.21\n−0.96\n\n\n\n\n\n\n\n\n\n\nNote\n\n\nItem-itemnya jelas tidak normal. N3 menumpuk di ujung “setuju” (69% menjawab 4 atau 5), O2 menumpuk di ujung sebaliknya (67% menjawab 1 atau 2)."
   },
   {
     "objectID": "slides/pertemuan2.html#sekarang-lihat-skor-totalnya",
     "href": "slides/pertemuan2.html#sekarang-lihat-skor-totalnya",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Sekarang lihat skor totalnya",
-    "text": "Sekarang lihat skor totalnya\nSkor total tiap dimensi (10 item, rentang 10–50), data yang sama:\n\n\n\nDimensi\nRata-rata\nSD\nSkewness\nKurtosis\n\n\n\n\nExtraversion\n30.11\n9.22\n−0.04\n−0.71\n\n\nNeuroticism\n30.97\n8.62\n−0.08\n−0.60\n\n\nConscientiousness\n33.47\n7.31\n−0.09\n−0.38\n\n\n\n\n\nSkewness mendekati nol — sebarannya jadi simetris.\nTetapi kurtosis-nya negatif semua: sebarannya lebih datar daripada kurva normal."
+    "text": "Sekarang lihat skor totalnya\nSkor total tiap dimensi (10 item, rentang 10–50), data yang sama:\n\n\n\nDimensi\nRata-rata\nSD\nSkewness\nKurtosis\n\n\n\n\nExtraversion\n30.11\n9.22\n−0.04\n−0.71\n\n\nNeuroticism\n30.97\n8.62\n−0.08\n−0.60\n\n\nConscientiousness\n33.47\n7.31\n−0.09\n−0.38\n\n\n\n\n\nSkewness mendekati nol, sebarannya jadi simetris.\nTetapi kurtosis-nya negatif semua: sebarannya lebih datar daripada kurva normal."
   },
   {
     "objectID": "slides/pertemuan2.html#apa-yang-baru-saja-terjadi",
@@ -2020,70 +2020,70 @@
     "href": "slides/pertemuan2.html#bukan-cuma-di-data-ini",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Bukan cuma di data ini",
-    "text": "Bukan cuma di data ini\n\nMicceri (1989) memeriksa 440 sebaran skor dari tes prestasi dan alat ukur psikologis bersampel besar.\nJudul artikelnya: “The unicorn, the normal curve, and other improbable creatures.”\nTemuannya: tidak satu pun sebaran itu memenuhi kriteria normalitas. Sebagian besar menunjukkan asimetri, ekor yang berat, atau multimodalitas.\n\n\n\n\n\n\n\n\nKenapa ini penting untuk proyek Anda\n\n\nNorma dan skor standar bergantung pada asumsi ini. Persentil, z-score, dan T-score yang akan Anda susun di Pertemuan 14 diturunkan dengan mengandaikan bentuk sebaran tertentu.\nKalau sebaran empirisnya tidak seperti itu, norma Anda akan salah menempatkan orang — dan yang paling parah justru di ujung-ujung sebaran, tempat keputusan biasanya diambil."
+    "text": "Bukan cuma di data ini\n\nMicceri (1989) memeriksa 440 sebaran skor dari tes prestasi dan alat ukur psikologis bersampel besar.\nJudul artikelnya: “The unicorn, the normal curve, and other improbable creatures.”\nTemuannya: tidak satu pun sebaran itu memenuhi kriteria normalitas. Sebagian besar menunjukkan asimetri, ekor yang skewed, atau multimodalitas.\n\n\n\n\n\n\n\n\nKenapa ini penting untuk proyek Anda\n\n\nNorma dan skor standar bergantung pada asumsi ini. Persentil, z-score, dan T-score yang akan Anda susun di Pertemuan 14 diturunkan dengan mengandaikan bentuk sebaran tertentu.\nKalau sebaran empirisnya tidak seperti itu, norma Anda akan salah menempatkan orang dan yang paling parah justru di ujung-ujung sebaran, tempat keputusan biasanya diambil."
   },
   {
     "objectID": "slides/pertemuan2.html#dua-kemungkinan-bentuk-konstruk",
     "href": "slides/pertemuan2.html#dua-kemungkinan-bentuk-konstruk",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Dua kemungkinan bentuk konstruk",
-    "text": "Dua kemungkinan bentuk konstruk\n\n\nDimensional\nOrang berbeda dalam derajat.\nTidak ada batas alami; yang ada hanya titik potong yang kita tetapkan sendiri.\nContoh: tinggi badan.\n\nTaksonik (kategoris)\nAda dua kelompok yang benar-benar berbeda secara alami.\nBatasnya bukan buatan peneliti.\nContoh: hamil / tidak hamil.\n\n\n\nPertanyaannya bukan “mana yang lebih praktis”, melainkan mana yang benar untuk konstruk ini.\nIni pertanyaan empiris, dan ada metodenya: taxometrics, dikembangkan Paul Meehl."
+    "text": "Dua kemungkinan bentuk konstruk\n\n\nDimensional/kontinum\nOrang berbeda dalam derajat.\nTidak ada batas alami; yang ada hanya titik potong yang kita tetapkan sendiri.\nContoh: tinggi badan.\n\nTaksonik (kategoris)\nAda dua kelompok yang benar-benar berbeda secara alami.\nBatasnya bukan buatan peneliti.\nContoh: hamil/tidak hamil.\n\n\n\nPertanyaannya bukan “mana yang lebih praktis”, melainkan mana yang benar secara teoretis untuk konstruk ini.\nIni pertanyaan empiris, dan ada metodenya: taxometrics, dikembangkan Paul Meehl."
   },
   {
-    "objectID": "slides/pertemuan2.html#apa-kata-datanya",
-    "href": "slides/pertemuan2.html#apa-kata-datanya",
+    "objectID": "slides/pertemuan2.html#bagaimana-statusnya-di-literatur",
+    "href": "slides/pertemuan2.html#bagaimana-statusnya-di-literatur",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
-    "section": "Apa kata datanya?",
-    "text": "Apa kata datanya?\n\nHaslam, Holland, & Kuppens (2012) meninjau 177 artikel taxometric (311 temuan) atas konstruk kepribadian dan psikopatologi.\nKesimpulannya: sebagian besar konstruk tampak dimensional. Setelah faktor pengganggu dikendalikan, mereka memperkirakan hanya sekitar 14% temuan yang benar-benar taksonik.\nArtinya, sebagian besar “gangguan” yang kita perlakukan sebagai kategori sebenarnya lebih tepat digambarkan sebagai derajat.\n\n\n\n\n\n\n\n\nHubungkan dengan Pertemuan 1\n\n\nIni persis ketegangan yang kita lihat pada DSM: sistem klasifikasi yang kategoris, dipakai untuk konstruk yang buktinya menunjukkan kontinum. Itu juga yang melatarbelakangi proyek RDoC."
+    "section": "Bagaimana statusnya di literatur?",
+    "text": "Bagaimana statusnya di literatur?\n\nHaslam, Holland, & Kuppens (2012) meninjau 177 artikel taxometric (311 temuan) atas konstruk kepribadian dan psikopatologi.\nKesimpulannya: sebagian besar konstruk tampak dimensional. Setelah faktor pengganggu dikendalikan, mereka memperkirakan hanya sekitar 14% temuan yang benar-benar taksonik.\nArtinya, sebagian besar “gangguan” yang kita perlakukan sebagai kategori sebenarnya lebih tepat digambarkan sebagai kontinum.\n\n\n\n\n\n\n\n\nHubungkan dengan Pertemuan 1\n\n\nIni persis ketegangan yang kita lihat pada DSM: sistem klasifikasi yang kategoris, dipakai untuk konstruk yang buktinya menunjukkan kontinum. Itu juga yang melatarbelakangi project Research Domain Criteria (RDoC)."
   },
   {
     "objectID": "slides/pertemuan2.html#kenapa-ini-penting-untuk-skala-anda",
     "href": "slides/pertemuan2.html#kenapa-ini-penting-untuk-skala-anda",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Kenapa ini penting untuk skala Anda",
-    "text": "Kenapa ini penting untuk skala Anda\n\nKalau konstruk Anda dimensional tetapi Anda memaksakan kategori (“tinggi/sedang/rendah”), Anda membuang informasi dan menciptakan batas yang tidak ada di alam.\nKalau konstruk Anda taksonik tetapi Anda menskalakannya, skor tengah Anda menggambarkan orang yang sebenarnya tidak ada.\nSebagian besar skala psikologis — termasuk yang akan Anda susun — mengasumsikan dimensional. Itu asumsi yang wajar, tapi tetap asumsi.\n\n\n\n\n\n\n\n\nYang perlu Anda tulis di laporan\n\n\nSatu kalimat saja sudah cukup: “Konstruk ini kami perlakukan sebagai dimensional, dengan alasan …” — bukan sekadar melakukannya tanpa keterangan."
+    "text": "Kenapa ini penting untuk skala Anda\n\nKalau konstruk Anda dimensional tetapi Anda memaksakan kategori dalam norma Anda (“tinggi/sedang/rendah”), Anda membuang informasi dan menciptakan batas yang sebenarnya tidak ada di populasi.\nKalau konstruk Anda taksonik tetapi Anda menskalakannya, skor tengah Anda menggambarkan orang yang sebenarnya tidak ada.\nSebagian besar skala psikologis — termasuk yang akan Anda susun — mengasumsikan dimensional. Itu asumsi yang umum, tapi tetap asumsi yang harus diuji."
   },
   {
     "objectID": "slides/pertemuan2.html#kenapa-item-item-dalam-satu-skala-harus-berkorelasi",
     "href": "slides/pertemuan2.html#kenapa-item-item-dalam-satu-skala-harus-berkorelasi",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Kenapa item-item dalam satu skala harus berkorelasi",
-    "text": "Kenapa item-item dalam satu skala harus berkorelasi\n\nIngat logika skala dari Pertemuan 1: konstruk laten adalah penyebab jawaban atas item.\nKalau satu penyebab yang sama menggerakkan sepuluh item, kesepuluh item itu harus saling berkorelasi.\nKorelasi antar-item itulah satu-satunya jejak yang bisa kita amati dari variabel yang tidak bisa kita amati.\n\n\n\n\n\n\n\n\n\nKonsekuensi yang akan sering Anda pakai\n\n\nKarena itu, korelasi antar-item bisa dipakai untuk mengestimasi seberapa kuat hubungan tiap item dengan konstruk latennya — meskipun konstruknya sendiri tidak pernah kita ukur langsung. Ini dasar dari analisis item di Pertemuan 13.\n\n\n\n\n\nDeVellis & Thorpe (2022), Bab 2."
+    "text": "Kenapa item-item dalam satu skala harus berkorelasi\n\nIngat logika skala dari Pertemuan 1: konstruk laten adalah penyebab respon partisipan atas item dari skala.\nKalau satu penyebab yang sama menyebabkan sepuluh item, kesepuluh item itu harus saling berkorelasi.\nKorelasi antar-item itulah satu-satunya tanda yang bisa kita amati dari variabel yang tidak bisa kita amati.\nKetika mengasumsikan bahwa ada “penyebab yang sama” yang membuat item saling berkorelasi, maka item-item ini tidak boleh berkorelasi lagi (local independence).\n\n\n\n\n\n\n\n\n\nKonsekuensi yang akan sering Anda pakai\n\n\nKarena itu, korelasi antar-item bisa dipakai untuk mengestimasi seberapa kuat hubungan tiap item dengan konstruk latennya, meskipun konstruknya sendiri tidak pernah kita ukur langsung.\n\n\n\n\n\nDeVellis & Thorpe (2022), Bab 2."
   },
   {
     "objectID": "slides/pertemuan2.html#asumsi-unidimensionalitas",
     "href": "slides/pertemuan2.html#asumsi-unidimensionalitas",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Asumsi unidimensionalitas",
-    "text": "Asumsi unidimensionalitas\n\nUnidimensionalitas: seluruh item dalam satu skala digerakkan oleh satu variabel laten.\nKalau ternyata ada dua konstruk yang bercampur dalam satu skala, skor totalnya menjadi campuran yang tidak jelas artinya.\nDua orang bisa mendapat skor total yang sama persis dengan alasan yang sama sekali berbeda.\n\n\n\n\n\n\n\n\nContoh yang sering terjadi\n\n\nSkala “kesejahteraan psikologis” yang mencampur item tentang suasana hati dan item tentang kondisi keuangan. Keduanya mungkin berkorelasi, tapi keduanya bukan satu hal yang sama.\nSkor 40 bisa berarti “hati tenang, ekonomi sulit” atau “ekonomi mapan, hati gelisah”. Angkanya sama, orangnya sangat berbeda."
+    "text": "Asumsi unidimensionalitas\n\nUnidimensionalitas: seluruh item dalam satu skala disebabkan oleh satu variabel laten.\nKalau ternyata ada dua konstruk yang bercampur dalam satu skala, skor totalnya menjadi campuran yang tidak jelas maknanya.\nDua orang bisa mendapat skor total yang sama persis dengan alasan yang sama sekali berbeda.\n\n\n\n\n\n\n\n\nContoh yang sering terjadi\n\n\nSkala “kesejahteraan psikologis” yang mencampur item tentang suasana hati dan item tentang kondisi keuangan. Keduanya mungkin berkorelasi, tapi keduanya bukan satu hal yang sama.\nSkor 40 bisa berarti “hati tenang, ekonomi sulit” atau “ekonomi mapan, hati gelisah”. Angkanya sama, kondisi orangnya sangat berbeda."
   },
   {
     "objectID": "slides/pertemuan2.html#asumsi-local-independence",
     "href": "slides/pertemuan2.html#asumsi-local-independence",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Asumsi local independence",
-    "text": "Asumsi local independence\n\nSetelah kita memperhitungkan variabel latennya, item-item seharusnya tidak lagi saling berhubungan.\nArtinya: seluruh alasan dua item berkorelasi harus berasal dari konstruk laten, bukan dari hal lain.\nPelanggaran yang paling umum: dua item yang isinya nyaris sama.\n\n\n\n\n\n\n\n\nContoh pelanggaran\n\n\n“Saya sering merasa sedih” dan “Saya kerap merasa murung”.\nKedua item ini akan berkorelasi tinggi — tapi sebagian karena keduanya memang kalimat yang hampir sama, bukan hanya karena depresi. Reliabilitas skala Anda akan terlihat bagus secara semu.\nKita bahas cara menghindarinya saat menulis item di Pertemuan 10."
+    "text": "Asumsi local independence\n\nSetelah kita memperhitungkan variabel latennya, item-item seharusnya tidak lagi saling berhubungan.\nArtinya: seluruh alasan dua item berkorelasi harus berasal dari konstruk laten, bukan dari hal lain.\nPelanggaran yang paling umum: dua item yang isinya nyaris sama.\n\n\n\n\n\n\n\n\nContoh pelanggaran\n\n\n“Saya sering merasa sedih” dan “Saya kerap merasa murung”.\nKedua item ini akan berkorelasi tinggi, tapi sebagian karena keduanya memang kalimat yang hampir sama, bukan hanya karena depresi. Reliabilitas skala Anda akan terlihat bagus secara artifisial.\nKita bahas cara menghindarinya saat menulis item di Pertemuan 10."
   },
   {
     "objectID": "slides/pertemuan2.html#satu-item-arti-yang-berbeda",
     "href": "slides/pertemuan2.html#satu-item-arti-yang-berbeda",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Satu item, arti yang berbeda",
-    "text": "Satu item, arti yang berbeda\n\nKita mengasumsikan bahwa item yang sama berarti sama bagi laki-laki dan perempuan, bagi mahasiswa dan pekerja, bagi orang Jawa dan orang Papua.\nKalau asumsi ini tidak terpenuhi, membandingkan skor antar-kelompok menjadi tidak sah — seperti membandingkan suhu yang diukur dengan dua termometer yang skalanya berbeda.\nDalam psikometri, properti ini disebut measurement invariance; pelanggarannya di tingkat item disebut differential item functioning (DIF).\n\n\n\n\n\n\n\n\nNote\n\n\nUji formalnya membutuhkan analisis faktor dan sampel besar, jadi kita tidak akan menghitungnya di mata kuliah ini. Yang perlu Anda punya sekarang adalah kesadaran bahwa asumsinya ada."
+    "text": "Satu item, arti yang berbeda\n\nKita mengasumsikan bahwa item yang sama artinya sama bagi laki-laki dan perempuan, bagi mahasiswa dan pekerja, bagi orang Jawa dan orang Papua.\nKalau asumsi ini tidak terpenuhi, membandingkan skor antar-kelompok menjadi tidak sah dilakukan, ini mirip seperti membandingkan suhu yang diukur dengan dua termometer yang skalanya berbeda (e.g., termometer Kelvin dan Celcius).\nDalam psikometri, properti ini disebut measurement invariance; pelanggarannya di tingkat item disebut differential item functioning (DIF).\n\n\n\n\n\n\n\n\nNote\n\n\nUji formalnya membutuhkan analisis faktor dan sampel besar, jadi kita tidak akan mempelajarinya di mata kuliah ini. Yang perlu Anda punya sekarang adalah kesadaran bahwa asumsi ini Anda gunakan."
   },
   {
     "objectID": "slides/pertemuan2.html#reference-group-effect",
     "href": "slides/pertemuan2.html#reference-group-effect",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Reference-group effect",
-    "text": "Reference-group effect\n\nHeine, Lehman, Peng, & Greenholtz (2002) menunjukkan masalah serius pada perbandingan skala Likert antar-budaya.\nKetika seseorang menjawab “Saya orang yang teliti”, ia menilai dirinya relatif terhadap orang-orang di sekitarnya — bukan terhadap standar universal.\nAkibatnya, responden dari budaya yang standarnya tinggi bisa memberi skor diri lebih rendah, meskipun perilakunya justru lebih sesuai dengan konstruk itu.\n\n\n\n\n\n\n\n\nImplikasinya cukup mengganggu\n\n\nPerbandingan rata-rata skor antar-negara pada skala self-report bisa berkebalikan dengan keadaan sebenarnya. Dan tidak ada yang tampak salah pada datanya."
+    "text": "Reference-group effect\n\nHeine, Lehman, Peng, & Greenholtz (2002) menunjukkan masalah serius pada perbandingan skala Likert antar-budaya.\nKetika seseorang menjawab “Saya orang yang teliti”, ia menilai dirinya relatif terhadap orang-orang di sekitarnya, bukan terhadap standar universal.\nAkibatnya, responden dari budaya yang standarnya tinggi bisa memberi skor diri lebih rendah, meskipun perilakunya justru lebih sesuai dengan konstruk itu.\n\n\n\n\n\n\n\n\nImplikasinya cukup mengganggu\n\n\nPerbandingan rata-rata skor antar-negara pada skala self-report bisa berkebalikan dengan keadaan sebenarnya, tetapi anehnya, datanya kelihatannya baik-baik saja."
   },
   {
     "objectID": "slides/pertemuan2.html#kenapa-ini-sangat-relevan-untuk-anda",
     "href": "slides/pertemuan2.html#kenapa-ini-sangat-relevan-untuk-anda",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Kenapa ini sangat relevan untuk Anda",
-    "text": "Kenapa ini sangat relevan untuk Anda\n\nBanyak skala yang beredar di Indonesia adalah adaptasi dari skala berbahasa Inggris.\nBack-translation memastikan katanya setara. Ia tidak memastikan maknanya setara, apalagi bahwa itemnya berfungsi sama pada responden Indonesia.\nKalau kelompok Anda memilih mengadaptasi skala yang sudah ada, ini bukan pekerjaan penerjemahan — ini pekerjaan psikometrik.\n\n\n\n\n\n\n\n\nPertanyaan yang harus dijawab kelompok Anda\n\n\nSiapa populasi sasaran skala Anda, dan apakah item Anda masuk akal untuk seluruh subkelompok di dalamnya? Kita pakai pertanyaan ini lagi saat menetapkan sampel uji coba di Pertemuan 12."
+    "text": "Kenapa ini sangat relevan untuk Anda\n\nBanyak skala yang beredar di Indonesia adalah adaptasi dari skala berbahasa Inggris.\nBack-translation memastikan katanya setara. Ia tidak memastikan maknanya setara, apalagi bahwa itemnya berfungsi sama pada responden Indonesia.\nKalau kelompok Anda memilih mengadaptasi skala yang sudah ada, ini bukan masalah penerjemahan, tetapi masalah psikometrik.\n\n\n\n\n\n\n\n\nPertanyaan yang harus dijawab kelompok Anda\n\n\nSiapa populasi sasaran skala Anda, dan apakah item Anda masuk akal untuk seluruh subkelompok di dalamnya? Kita pakai pertanyaan ini lagi saat menetapkan sampel uji coba di Pertemuan 12."
   },
   {
     "objectID": "slides/pertemuan2.html#asumsi-yang-paling-sering-dilupakan",
@@ -2097,77 +2097,63 @@
     "href": "slides/pertemuan2.html#soal-kemampuan-akses-ke-proses-mental-itu-terbatas",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Soal kemampuan: akses ke proses mental itu terbatas",
-    "text": "Soal kemampuan: akses ke proses mental itu terbatas\n\nNisbett & Wilson (1977), dalam artikel berjudul “Telling more than we can know”, menunjukkan bahwa orang sering tidak punya akses terhadap proses mental yang sebenarnya memengaruhi perilaku mereka.\nKetika ditanya alasan, mereka tetap menjawab — tetapi jawabannya sering berupa teori awam yang masuk akal, bukan laporan atas proses yang sesungguhnya terjadi.\n\n\n\n\n\n\n\n\nImplikasi untuk penulisan item\n\n\nItem yang menanyakan perilaku konkret (“Berapa kali seminggu Anda …”) umumnya lebih dapat diandalkan daripada item yang menanyakan sebab (“Mengapa Anda …”).\nKita pakai prinsip ini saat menulis item di Pertemuan 10."
+    "text": "Soal kemampuan: akses ke proses mental itu terbatas\n\nNisbett & Wilson (1977), dalam artikel berjudul “Telling more than we can know”, menunjukkan bahwa orang sering tidak punya akses terhadap proses mental yang sebenarnya memengaruhi perilaku mereka.\nKetika ditanya alasan, mereka tetap menjawab, tetapi jawabannya sering berupa teori awam yang masuk akal, bukan laporan atas proses psikologis yang sesungguhnya terjadi.\n\n\n\n\n\n\n\n\nImplikasi untuk penulisan item\n\n\nItem yang menanyakan perilaku konkret (“Berapa kali seminggu Anda …”) umumnya lebih dapat diandalkan daripada item yang menanyakan sebab (“Mengapa Anda …”).\nKita pakai prinsip ini saat menulis item di Pertemuan 10."
   },
   {
     "objectID": "slides/pertemuan2.html#soal-kesediaan-social-desirability",
     "href": "slides/pertemuan2.html#soal-kesediaan-social-desirability",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Soal kesediaan: social desirability",
-    "text": "Soal kesediaan: social desirability\n\nResponden cenderung menjawab dengan cara yang membuat dirinya tampak baik — kadang sadar, kadang tidak.\nEfeknya paling kuat pada konstruk yang punya muatan moral: kejujuran, prasangka, kepatuhan beragama, penggunaan zat, perilaku seksual.\nJaminan anonimitas membantu, tetapi tidak menghapusnya.\n\n\n\n\n\n\n\n\nYang perlu diantisipasi kelompok Anda\n\n\nKalau konstruk yang Anda pilih punya “jawaban yang benar” secara sosial, sebaran skor Anda akan menumpuk di satu ujung — dan Anda akan kesulitan membedakan responden satu sama lain. Ini akan langsung terlihat di analisis item Pertemuan 13."
+    "text": "Soal kesediaan: social desirability\n\nResponden cenderung menjawab dengan cara yang membuat dirinya tampak baik: kadang sadar, kadang tidak.\nEfeknya paling kuat pada konstruk yang punya muatan moral: kejujuran, prasangka, kepatuhan beragama, penggunaan zat, perilaku seksual.\nJaminan anonimitas membantu, tetapi tidak menghilangkannya sama sekali.\n\n\n\n\n\n\n\n\nYang perlu diantisipasi kelompok Anda\n\n\nKalau konstruk yang Anda pilih punya “jawaban yang diterima” secara sosial, sebaran skor Anda akan menumpuk di satu ujung (e.g., ceiling atau floor effect). Anda akan kesulitan membedakan responden satu sama lain karena data Anda variansnya rendah."
   },
   {
     "objectID": "slides/pertemuan2.html#gaya-menjawab-response-styles",
     "href": "slides/pertemuan2.html#gaya-menjawab-response-styles",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Gaya menjawab (response styles)",
-    "text": "Gaya menjawab (response styles)\n\nAcquiescence: kecenderungan menyetujui pernyataan apa pun, terlepas dari isinya.\nExtreme responding: kecenderungan memilih ujung skala (1 atau 5).\nMidpoint responding: kecenderungan bertahan di tengah (3) untuk menghindari komitmen.\nKetiganya berbeda antar-budaya, sehingga bercampur dengan persoalan invariance di asumsi sebelumnya.\n\n\n\n\n\n\n\n\nSatu solusi parsial, dengan biayanya sendiri\n\n\nAcquiescence biasanya diredam dengan menyisipkan item bernada terbalik (reverse-worded).\nTetapi item terbalik punya masalahnya sendiri: sebagian responden salah membacanya, dan seringkali item-item terbalik justru mengelompok sendiri dalam analisis faktor seolah-olah membentuk dimensi terpisah. Kita bahas untung-ruginya di Pertemuan 10."
+    "text": "Gaya menjawab (response styles)\n\nAcquiescence: kecenderungan menyetujui pernyataan apa pun, terlepas dari isinya.\nExtreme responding: kecenderungan memilih ujung skala (1 atau 5).\nMidpoint responding: kecenderungan bertahan di tengah (3) untuk menghindari komitmen.\nKetiganya berbeda antar-budaya, sehingga bercampur dengan persoalan invariance di asumsi sebelumnya.\n\n\n\n\n\n\n\n\nSatu solusi parsial, dengan biayanya sendiri\n\n\nAcquiescence biasanya diredam dengan menyisipkan item bernada terbalik (unfavorable atau reverse-worded).\nTetapi item terbalik punya masalahnya sendiri: sebagian responden salah membacanya, dan seringkali item-item terbalik justru mengelompok sendiri dalam analisis faktor seolah-olah membentuk dimensi terpisah. Kita bahas plus-minusnya di Pertemuan 10."
   },
   {
-    "objectID": "slides/pertemuan2.html#responden-yang-menjawab-asal",
-    "href": "slides/pertemuan2.html#responden-yang-menjawab-asal",
+    "objectID": "slides/pertemuan2.html#partisipan-yang-menjawab-asal-asalan",
+    "href": "slides/pertemuan2.html#partisipan-yang-menjawab-asal-asalan",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
-    "section": "Responden yang menjawab asal",
-    "text": "Responden yang menjawab asal\n\nSebagian responden mengisi tanpa membaca — terutama pada kuesioner panjang, daring, dan tanpa insentif.\nMeade & Craig (2012) menunjukkan bahwa proporsinya bisa cukup besar untuk mengubah hasil analisis faktor dan estimasi reliabilitas.\nIni bukan persoalan sikap responden semata, melainkan konsekuensi dari desain instrumen yang membebani.\n\n\n\n\n\n\n\n\nYang bisa Anda lakukan saat uji coba\n\n\nCatat waktu pengerjaan, perhatikan pola jawaban yang seragam (misalnya semua “3”), dan tetapkan aturan pembersihan data sebelum melihat hasilnya. Kita rancang ini bersama di Pertemuan 12."
+    "section": "Partisipan yang menjawab asal-asalan",
+    "text": "Partisipan yang menjawab asal-asalan\n\nSebagian responden mengisi tanpa membaca, terutama pada kuesioner panjang, daring, dan tanpa insentif.\nMeade & Craig (2012) menunjukkan bahwa proporsinya bisa cukup besar untuk mengubah hasil analisis faktor dan estimasi reliabilitas.\nIni adalah konsekuensi dari desain instrumen yang terlalu membebani partisipan secara kognitif.\n\n\n\n\n\n\n\n\nYang bisa Anda lakukan saat uji coba\n\n\nCatat waktu pengerjaan, perhatikan pola jawaban yang seragam (misalnya semua “3”), dan tetapkan aturan pembersihan data sebelum melihat hasilnya. Kita rancang ini bersama di Pertemuan 12."
   },
   {
-    "objectID": "slides/pertemuan2.html#bukan-berarti-berhenti-mengukur",
-    "href": "slides/pertemuan2.html#bukan-berarti-berhenti-mengukur",
+    "objectID": "slides/pertemuan2.html#konsekuensinya",
+    "href": "slides/pertemuan2.html#konsekuensinya",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
-    "section": "Bukan berarti berhenti mengukur",
-    "text": "Bukan berarti berhenti mengukur\n\nSemua yang kita bahas hari ini juga berlaku pada alat ukur yang sudah mapan dan dipakai luas.\nKesimpulan yang keliru dari materi ini adalah: “berarti pengukuran psikologis tidak ada gunanya.”\nKesimpulan yang tepat: pengukuran psikologis berguna sejauh kita jujur tentang batasannya.\n\n\n\n\n\n\n\n\nYang membedakan pekerjaan yang baik\n\n\nBukan skala yang bebas asumsi — itu tidak ada. Melainkan skala yang asumsinya dinyatakan, diperiksa sejauh bisa diperiksa, dan dilaporkan apa adanya."
+    "section": "Konsekuensinya",
+    "text": "Konsekuensinya\n\nSemua yang kita bahas hari ini juga berlaku pada alat ukur yang sudah mapan dan dipakai luas.\nIni bukan berarti “pengukuran psikologis tidak ada gunanya.”\nKesimpulan yang tepat: pengukuran psikologis berguna sejauh kita jujur tentang batasannya.\n\n\n\n\n\n\n\n\nApa yang bisa diusahakan\n\n\nBukan berarti Anda diminta untuk membuat skala yang bebas asumsi, karena ini tidak mungkin dilakukan. Melainkan Anda harus membuat skala yang asumsinya dinyatakan, diperiksa sejauh bisa diperiksa, dan dilaporkan apa adanya."
   },
   {
     "objectID": "slides/pertemuan2.html#kenapa-banyak-orang-tidak-melakukannya",
     "href": "slides/pertemuan2.html#kenapa-banyak-orang-tidak-melakukannya",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Kenapa banyak orang tidak melakukannya?",
-    "text": "Kenapa banyak orang tidak melakukannya?\n\nPsychometrics is one of the most successful branches of psychology . . . [yet] the average psychologist is not aware of the developments in the field.\n— Borsboom (2006)\n\n\n\nBorsboom berargumen bahwa psikometri dan psikologi substantif berjalan makin terpisah.\nAlat untuk memeriksa asumsi-asumsi ini sudah tersedia sejak lama, tetapi jarang dipakai oleh peneliti yang bukan psikometrikawan.\nSalah satu tujuan mata kuliah ini adalah memperkecil jarak itu untuk Anda."
+    "text": "Kenapa banyak orang tidak melakukannya?\n\nPsychometrics is one of the most successful branches of psychology . . . [yet] the average psychologist is not aware of the developments in the field.\n— Borsboom (2006)\n\n\n\nBorsboom berargumen bahwa psikometri dan psikologi substantif berjalan makin terpisah.\nAlat untuk memeriksa asumsi-asumsi ini sudah tersedia sejak lama, tetapi jarang dipakai oleh peneliti yang tidak memiliki training psikometri.\nSalah satu tujuan mata kuliah ini adalah mencegah agar ini tidak terjadi pada Anda."
   },
   {
-    "objectID": "slides/pertemuan2.html#daftar-periksa-untuk-laporan-proyek-anda",
-    "href": "slides/pertemuan2.html#daftar-periksa-untuk-laporan-proyek-anda",
+    "objectID": "slides/pertemuan2.html#checklist-untuk-laporan-proyek-anda",
+    "href": "slides/pertemuan2.html#checklist-untuk-laporan-proyek-anda",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
-    "section": "Daftar periksa untuk laporan proyek Anda",
-    "text": "Daftar periksa untuk laporan proyek Anda\n\nBentuk konstruk — dimensional atau kategoris? Apa alasannya?\nDimensionalitas — apakah item Anda mengukur satu hal? Bagaimana Anda memeriksanya?\nSebaran — bagaimana bentuk sebaran skor Anda yang sebenarnya? Jangan diasumsikan, lihat.\nKelompok — siapa populasi Anda, dan adakah subkelompok yang itemnya mungkin berfungsi berbeda?\nSumber bias respons — apakah konstruk Anda rawan social desirability? Apa yang Anda lakukan soal itu?\n\n\n\n\n\n\n\n\nTip\n\n\nLima poin ini akan menjadi bagian dari laporan akhir Anda. Mulailah mencatat jawabannya sejak sekarang, bukan di minggu terakhir."
+    "section": "Checklist untuk laporan proyek Anda",
+    "text": "Checklist untuk laporan proyek Anda\n\nBentuk konstruk — dimensional atau kategorikal? Apa alasannya?\nDimensionalitas — apakah item Anda mengukur satu hal? Bagaimana Anda memeriksanya?\nSebaran — bagaimana bentuk sebaran skor Anda yang sebenarnya? Jangan diasumsikan, lihat datanya.\nKelompok — siapa populasi Anda, dan adakah subkelompok yang itemnya mungkin berfungsi berbeda?\nSumber bias respons — apakah konstruk Anda rawan social desirability? Apa yang Anda lakukan soal itu?\n\n\n\n\n\n\n\n\nTip\n\n\nLima poin ini akan menjadi bagian dari laporan akhir Anda."
   },
   {
-    "objectID": "slides/pertemuan2.html#audit-asumsi",
-    "href": "slides/pertemuan2.html#audit-asumsi",
+    "objectID": "slides/pertemuan2.html#asumsi-pengukuran-psikologi",
+    "href": "slides/pertemuan2.html#asumsi-pengukuran-psikologi",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
-    "section": "Audit asumsi",
-    "text": "Audit asumsi\n\nBekerja dalam kelompok proyek yang sudah Anda bentuk minggu lalu.\nPakai konstruk yang kelompok Anda pilih di Pertemuan 1.\nWaktu diskusi 25 menit, lalu tiap kelompok memaparkan satu asumsi yang menurut mereka paling berisiko untuk konstruknya, dalam 3 menit.\n\n\nKalau ada kelompok yang menjawab “semua asumsi aman untuk konstruk kami”, minta mereka membayangkan responden yang paling ekstrem: orang yang akan menjawab paling tinggi, dan orang yang akan menjawab paling rendah. Biasanya asumsi yang bermasalah langsung kelihatan dari situ. Sisakan sekitar 20 menit untuk pemaparan dan penutup."
-  },
-  {
-    "objectID": "slides/pertemuan2.html#empat-pertanyaan",
-    "href": "slides/pertemuan2.html#empat-pertanyaan",
-    "title": "Asumsi Umum dalam Pengukuran Psikologis",
-    "section": "Empat pertanyaan",
-    "text": "Empat pertanyaan\n\nDari enam asumsi hari ini, mana yang paling berisiko untuk konstruk Anda? Jelaskan kenapa, bukan sekadar menyebut namanya.\nApakah konstruk Anda punya “jawaban yang benar” secara sosial? Kalau ya, bagaimana itu akan memengaruhi sebaran skor Anda?\nSebutkan dua subkelompok dalam populasi sasaran Anda yang mungkin memaknai satu item dengan cara berbeda. Tulis itemnya, dan tulis dua pemaknaan itu.\nMana dari asumsi-asumsi tersebut yang benar-benar bisa Anda periksa dengan data uji coba yang realistis Anda kumpulkan semester ini? Mana yang hanya bisa Anda argumentasikan?\n\n\n\n\n\n\n\n\nPertanyaan nomor 4 yang paling menentukan\n\n\nMembedakan asumsi yang bisa diuji dari asumsi yang hanya bisa dipertanggungjawabkan lewat argumen adalah inti dari pekerjaan psikometrik yang jujur."
-  },
-  {
-    "objectID": "slides/pertemuan2.html#enam-asumsi",
-    "href": "slides/pertemuan2.html#enam-asumsi",
-    "title": "Asumsi Umum dalam Pengukuran Psikologis",
-    "section": "Enam asumsi",
-    "text": "Enam asumsi\n\nKuantitatif — menjumlahkan item mengasumsikan bobot yang sama dan jarak yang setara.\nNormal — asumsi warisan, bukan temuan. Sebaran skor total yang simetris sebagian besar adalah efek penjumlahan.\nKontinu — sebagian besar konstruk psikologis tampak dimensional, tetapi ini tetap perlu dinyatakan.\nSatu hal yang sama — unidimensionalitas dan local independence menentukan apakah skor total Anda punya meaning.\nBerlaku untuk semua kelompok — item yang sama tidak selalu berarti sama; ini melampaui sekadar masalah penerjemahan.\nResponden akurat — orang punya keterbatasan akses ke dirinya sendiri, dan punya alasan untuk tidak berterus terang."
+    "section": "6️⃣ asumsi pengukuran psikologi",
+    "text": "6️⃣ asumsi pengukuran psikologi\n\nKuantitatif — menjumlahkan item mengasumsikan bobot yang sama dan jarak yang setara.\nNormal — asumsi warisan dari konteks lain, bukan temuan empirik. Sebaran skor total yang simetris sebagian besar adalah efek penjumlahan.\nContinuous — sebagian besar konstruk psikologis tampak dimensional, tetapi ini tetap perlu dideklarasikan.\nPenyebab variabel laten yang sama — unidimensionalitas dan local independence menentukan apakah skor total Anda bermakna.\nBerlaku untuk semua kelompok — item yang sama tidak selalu berarti sama untuk semua kelompok.\nPartisipan tidak selalu bisa menjawab akurat — orang punya keterbatasan akses ke dirinya sendiri, dan punya alasan untuk tidak berterus terang."
   },
   {
     "objectID": "slides/pertemuan2.html#untuk-pertemuan-3",
     "href": "slides/pertemuan2.html#untuk-pertemuan-3",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Untuk Pertemuan 3",
-    "text": "Untuk Pertemuan 3\nKita masuk ke kerangka utama mata kuliah ini: variabel laten.\n\nApa artinya menyebut sesuatu “variabel laten”, dan apa konsekuensinya.\nClassical Test Theory: \\(X = T + E\\), dan asumsi-asumsi yang menyertainya.\nKenapa reliabilitas bisa didefinisikan sebagai proporsi varians.\nSekilas Item Response Theory sebagai kerangka alternatif — dan apa yang ditawarkannya ketika asumsi unit weighting dilepaskan.\n\n\n\n\n\n\n\n\nPersiapan\n\n\nBaca DeVellis & Thorpe (2022), Bab 2. Kalau sempat, Bab 3 dari Petersen tentang konstruk."
+    "text": "Untuk Pertemuan 3\nKita masuk ke kerangka utama mata kuliah ini: variabel laten.\n\nApa artinya menyebut sesuatu “variabel laten”, dan apa konsekuensinya.\nClassical Test Theory: \\(X = T + E\\), dan asumsi-asumsi yang menyertainya.\nKenapa reliabilitas bisa didefinisikan sebagai proporsi varians.\nSekilas Item Response Theory sebagai kerangka teori pengukuran alternatif dan apa yang ditawarkannya ketika asumsi unit weighting dilepaskan.\n\n\n\n\n\n\n\n\nPersiapan\n\n\nBaca DeVellis & Thorpe (2022), Bab 2. Kalau sempat, Bab 3 dari Petersen tentang konstruk."
   },
   {
     "objectID": "slides/pertemuan2.html#ada-pertanyaan",
@@ -2384,7 +2370,7 @@
     "href": "slides/pertemuan1.html#fisika-sebenarnya-juga-memakai-proksi",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Fisika sebenarnya juga memakai proksi",
-    "text": "Fisika sebenarnya juga memakai proksi\n\nTekanan darah dan suhu tubuh terlihat seperti bisa diamati langsung. Padahal yang benar-benar kita amati adalah kolom air raksa atau angka pada layar digital.\nKita menyebut ketinggian air raksa itu “suhu”, padahal itu hanya wujud yang bisa kita lihat dari energi termal.\nPada termometer, penyederhanaan ini hampir tidak bermasalah, karena hubungan antara proksi dan atributnya sangat kuat.\n\n\n\n\n\n\n\n\nKalau hubungannya tidak sekuat itu?\n\n\nKetika hubungan antara variabel dan indikatornya jauh lebih lemah daripada pada contoh termometer, tertukarnya alat ukur dengan fenomena yang ingin diukur bisa membawa kita ke kesimpulan yang keliru sama sekali."
+    "text": "Fisika sebenarnya juga memakai proksi\n\nTekanan darah dan suhu tubuh terlihat seperti bisa diamati langsung. Padahal yang benar-benar kita amati adalah kolom air raksa atau angka pada layar digital.\nKita menyebut ketinggian air raksa itu adalah “suhu”, padahal ini hanya wujud yang bisa kita lihat dari energi termal, yang sebenarnya ingin kita ukur.\nPada termometer, penyederhanaan ini hampir tidak bermasalah, karena hubungan antara proksi dan atributnya sangat kuat.\n\n\n\n\n\n\n\n\nKalau hubungannya tidak sekuat itu?\n\n\nKetika hubungan antara variabel dan indikatornya jauh lebih lemah daripada pada contoh termometer, tertukarnya alat ukur dengan fenomena yang ingin diukur bisa membawa kita ke kesimpulan yang keliru sama sekali."
   },
   {
     "objectID": "slides/pertemuan1.html#contoh-dukungan-sosial-atau-status-pernikahan",
@@ -2454,7 +2440,14 @@
     "href": "slides/pertemuan1.html#skala-item-sebagai-akibat",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Skala: item sebagai akibat",
-    "text": "Skala: item sebagai akibat\n\nContoh: alat ukur depresi.\nBagaimana seseorang merespons “Saya merasa sedih” dan “Hidup saya terasa hampa” sebagian besar ditentukan oleh kondisi afektifnya saat itu.\nItem-itemnya punya sebab yang sama: kondisi depresif orang tersebut.\n\n\n\n\n\n\n\n\nImplikasinya\n\n\nKarena semua item disebabkan oleh sebab yang sama, item-itemnya seharusnya saling berkorelasi tinggi dan sebagian besar bisa saling ditukar. Ini yang membuat koefisien seperti \\(\\alpha\\) dan \\(\\omega\\) masuk akal untuk mengecek reliabilitas skala. Kita akan bahas lebih lanjut di Pertemuan 6."
+    "text": "Skala: item sebagai akibat\n\nContoh: alat ukur depresi.\nBagaimana seseorang merespons “Saya merasa sedih” dan “Hidup saya terasa hampa” sebagian besar ditentukan oleh kondisi afektifnya saat itu.\nItem-itemnya punya sebab yang sama (reflektif): kondisi depresif orang tersebut.\n\n\n\n\n\n\n\n\nImplikasinya\n\n\nKarena semua item disebabkan oleh sebab yang sama, item-itemnya seharusnya saling berkorelasi tinggi dan sebagian besar bisa saling ditukar. Ini yang membuat koefisien seperti \\(\\alpha\\) dan \\(\\omega\\) masuk akal untuk mengecek reliabilitas skala. Kita akan bahas lebih lanjut di Pertemuan 6."
+  },
+  {
+    "objectID": "slides/pertemuan1.html#model-reflektif",
+    "href": "slides/pertemuan1.html#model-reflektif",
+    "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
+    "section": "Model reflektif",
+    "text": "Model reflektif"
   },
   {
     "objectID": "slides/pertemuan1.html#indeks-item-sebagai-sebab",
@@ -2464,11 +2457,18 @@
     "text": "Indeks: item sebagai sebab\n\nContoh: elektabilitas seorang kandidat presiden.\nItemnya bisa berupa: efektivitas berbicara di depan publik, rekam jejak militer, daya tarik fisik, kemampuan menggerakkan relawan, potensi sumber daya finansial.\nKarakteristik-karakteristik itu tidak punya sebab yang sama, tetapi punya akibat yang sama: meningkatnya peluang presiden tersebut terpilih.\n\n\n\n\n\n\n\n\nKonsekuensi yang sering diabaikan\n\n\nPada indeks, item tidak harus berkorelasi tinggi dan tidak bisa saling dipertukarkan. Menghitung Cronbach’s alpha untuk sebuah indeks itu keliru secara konseptual, meskipun software-nya tetap akan mengeluarkan angkanya."
   },
   {
+    "objectID": "slides/pertemuan1.html#model-formatif",
+    "href": "slides/pertemuan1.html#model-formatif",
+    "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
+    "section": "Model formatif",
+    "text": "Model formatif"
+  },
+  {
     "objectID": "slides/pertemuan1.html#emergent-variable-sekadar-dikelompokkan",
     "href": "slides/pertemuan1.html#emergent-variable-sekadar-dikelompokkan",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Emergent variable: sekadar dikelompokkan",
-    "text": "Emergent variable: sekadar dikelompokkan\n\nKalimat yang diawali kata dengan kurang dari lima huruf bisa dengan mudah dikelompokkan bersama.\nKelompok itu tidak punya sebab yang sama dan tidak punya akibat yang sama. Kelompok itu muncul semata karena ada individu atau sebuah software yang melihat adanya kemiripan antara item-item ini.\n\n\n\n\n\n\n\n\nPeringatan yang paling relevan untuk proyek Anda\n\n\nSoftware analisis tidak bisa membedakan ketiganya. Anda bisa memasukkan apa saja ke jamovi dan ia akan memberi Anda \\(\\alpha\\), memberi Anda faktor, memberi Anda skor total.\nYang menentukan apakah kumpulan item Anda adalah skala, indeks, atau sekadar emergent variable adalah teori Anda, bukan output software-nya."
+    "text": "Emergent variable: sekadar dikelompokkan\n\nKalimat yang diawali kata dengan kurang dari lima huruf bisa dengan mudah dikelompokkan bersama.\nKelompok itu tidak punya sebab yang sama dan tidak punya akibat yang sama. Kelompok itu muncul semata karena ada individu atau sebuah software yang melihat adanya pola kemiripan antara item-item ini.\n\n\n\n\n\n\n\n\nPeringatan yang paling relevan untuk proyek Anda\n\n\nSoftware analisis tidak bisa membedakan ketiganya. Anda bisa memasukkan apa saja ke jamovi dan ia akan memberi Anda \\(\\alpha\\), memberi Anda faktor, memberi Anda skor total.\nYang menentukan apakah kumpulan item Anda adalah skala, indeks, atau sekadar emergent variable adalah teori Anda, bukan output software-nya."
   },
   {
     "objectID": "slides/pertemuan1.html#ringkasnya",
@@ -2481,8 +2481,8 @@
     "objectID": "slides/pertemuan1.html#assembly-bukan-development",
     "href": "slides/pertemuan1.html#assembly-bukan-development",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
-    "section": "“Assembly”, bukan “development”",
-    "text": "“Assembly”, bukan “development”\n\nDeVellis & Thorpe mengamati bahwa untuk banyak kumpulan item, assembly (merakit) adalah istilah yang lebih tepat daripada development (mengembangkan).\nPeneliti sering mengumpulkan item seadanya lalu mengasumsikan hasilnya adalah skala yang layak.\nTanpa pernah memeriksa apakah item-item itu punya sebab yang sama (skala), punya akibat yang sama (indeks), atau sekadar masuk dalam satu kategori yang sama (emergent variable).\n\n\n\n\n\n\n\n\nSelama 16 minggu ke depan\n\n\nKita akan mengerjakan yang development, bukan yang assembly. Itu sebabnya prosesnya panjang."
+    "section": "Assembly, bukan development",
+    "text": "Assembly, bukan development\n\nDeVellis & Thorpe mengamati bahwa untuk banyak kumpulan item, assembly (merakit) adalah istilah yang lebih tepat daripada development (mengembangkan), dalam banyak konteks.\nPeneliti sering mengumpulkan item seadanya lalu mengasumsikan hasilnya adalah skala yang layak.\nTetapi, tanpa pernah memeriksa apakah item-item itu punya sebab yang sama (skala), punya akibat yang sama (indeks), atau sekadar masuk dalam satu kategori yang sama (emergent variable).\n\n\n\n\n\n\n\n\nSelama 16 minggu ke depan\n\n\nKita akan mengerjakan yang development, bukan yang assembly. Itu sebabnya prosesnya panjang."
   },
   {
     "objectID": "slides/pertemuan1.html#ada-batas-yang-tidak-bisa-dilampaui",
@@ -2517,7 +2517,7 @@
     "href": "slides/pertemuan1.html#sisi-etisnya",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Sisi etisnya",
-    "text": "Sisi etisnya\n\nPeneliti sering “berhemat” dengan memakai instrumen yang terlalu pendek, dengan harapan mengurangi beban responden.\nTetapi kuesioner yang terlalu pendek untuk bisa reliabel tetap saja pilihan yang buruk, meskipun terasa praktis.\nKuesioner reliabel yang diisi separuh responden memberi lebih banyak informasi daripada kuesioner tidak reliabel yang diisi semua responden.\n\n\n\n\n\n\n\n\nMeminta waktu partisipan ada konsekuensi etisnya\n\n\nKalau datanya pada akhirnya tidak bisa dimaknai, seberapa banyak pun data yang terkumpul jadi tidak ada gunanya. Meminta 300 orang mengisi instrumen yang tidak mungkin menghasilkan kesimpulan yang sahih adalah persoalan etis."
+    "text": "Sisi etisnya\n\nPeneliti sering “berhemat” dengan memakai instrumen yang terlalu pendek, dengan harapan mengurangi beban partisipan.\nTetapi kuesioner yang terlalu pendek untuk bisa reliabel tetap saja pilihan yang buruk, meskipun terasa praktis.\nKuesioner reliabel yang diisi separuh partisipan memberi lebih banyak informasi daripada kuesioner tidak reliabel yang diisi semua partisipan.\n\n\n\n\n\n\n\n\nMeminta waktu partisipan ada konsekuensi etisnya\n\n\nKalau datanya pada akhirnya tidak bisa dimaknai, seberapa banyak pun data yang terkumpul jadi tidak ada gunanya. Meminta 300 orang mengisi instrumen yang tidak mungkin menghasilkan kesimpulan yang sahih adalah persoalan etis."
   },
   {
     "objectID": "slides/pertemuan1.html#lima-poin-utama",
@@ -2555,18 +2555,18 @@
     "text": "Outline\n\nApa yang dimaksud dengan variabel laten, dan kenapa ia disebut sebagai penyebab\nClassical Test Theory: \\(X = T + E\\) dan asumsi-asumsinya\nKenapa reliabilitas bisa didefinisikan sebagai proporsi varians\nApa sebenarnya arti true score dan kenapa ia bukan “nilai konstruk yang sesungguhnya”\nKonsekuensi CTT: jumlah item, atenuasi, dan ketergantungan pada sampel\nKeluarga model dalam CTT: parallel, tau-equivalent, congeneric\nSekilas Item Response Theory dan apa yang ditawarkannya\n\n\n\nDisclosure penggunaan akal imitasi (AI)\nKami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk brainstorming materi, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini."
   },
   {
-    "objectID": "slides/pertemuan3.html#di-mana-posisi-kita-sekarang",
-    "href": "slides/pertemuan3.html#di-mana-posisi-kita-sekarang",
+    "objectID": "slides/pertemuan3.html#posisi-anda-saat-ini",
+    "href": "slides/pertemuan3.html#posisi-anda-saat-ini",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
-    "section": "Di mana posisi kita sekarang",
-    "text": "Di mana posisi kita sekarang\n\nPertemuan 1: pengukuran psikologis bersifat tidak langsung, dan tidak semua kumpulan item itu dapat disebut sebagai skala psikologi.\nPertemuan 2: ada enam asumsi yang kita pakai, sebagian besar implisit tanpa disadari.\nHari ini: asumsi-asumsi itu kita rapikan menjadi sebuah model matematika formal\n\n\n\n\n\n\n\n\nKenapa perlu model\n\n\nSelama asumsi hanya berupa daftar, kita tidak bisa menghitung apa pun darinya. Begitu asumsinya dituliskan sebagai persamaan matematika, kita bisa menakar konsekuensinya, termasuk rumus reliabilitas yang akan Anda pakai di Pertemuan 13."
+    "section": "Posisi Anda saat ini",
+    "text": "Posisi Anda saat ini\n\nPertemuan 1: pengukuran psikologis bersifat tidak langsung, dan tidak semua kumpulan item dapat serta-merta disebut sebagai skala psikologi.\nPertemuan 2: ada enam asumsi yang kita pakai, sebagian besar implisit tanpa disadari.\nHari ini: asumsi-asumsi itu kita rapikan menjadi sebuah model matematika formal\n\n\n\n\n\n\n\n\nKenapa perlu model\n\n\nSelama asumsi hanya berupa daftar, kita tidak bisa melakukan apapun untuk mengujinya. Begitu asumsinya dituliskan sebagai persamaan matematika, kita bisa menguji konsekuensinya, termasuk rumus reliabilitas yang akan Anda pakai di Pertemuan 13."
   },
   {
     "objectID": "slides/pertemuan3.html#dua-kata-dua-ciri",
     "href": "slides/pertemuan3.html#dua-kata-dua-ciri",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Dua kata, dua ciri",
-    "text": "Dua kata, dua ciri\n\n\n\nLaten, bukan manifes. Tidak bisa diamati langsung. Aspirasi orang tua terhadap prestasi anaknya tidak bisa dilihat, hanya bisa disimpulkan.\nVariabel, bukan konstanta. Ada sesuatu yang berubah — kekuatannya, besarannya — antar-orang, antar-waktu, antar-situasi.\nVariabel laten biasanya merupakan karakteristik orang yang menjadi sumber data, bukan karakteristik objek yang ditanyakan.\n\n\n\n\n\n\n\n\n\n\nDeVellis & Thorpe (2022), Bab 2."
+    "text": "Dua kata, dua ciri\n\n\n\nLaten, bukan manifes. Tidak bisa diamati langsung. Aspirasi orang tua terhadap prestasi anaknya tidak bisa dilihat, hanya bisa disimpulkan.\nVariabel, bukan konstanta. Ada sesuatu yang berubah — kekuatannya, besarannya — antar-orang, antar-waktu, antar-situasi.\nVariabel laten biasanya merupakan karakteristik orang yang menjadi sumber data (e.g., orangtua), bukan karakteristik objek yang ditanyakan (e.g., prestasi anak).\n\n\n\n\n\n\n\n\n\n\nDeVellis & Thorpe (2022), Bab 2."
   },
   {
     "objectID": "slides/pertemuan3.html#perhatikan-siapa-yang-diukur",
@@ -2580,28 +2580,28 @@
     "href": "slides/pertemuan3.html#variabel-laten-sebagai-penyebab",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Variabel laten sebagai penyebab",
-    "text": "Variabel laten sebagai penyebab\n\nIntinya: kekuatan variabel laten menyebabkan item punya skor tertentu.\nMisalnya item “Tidak ada pengorbanan yang terlalu besar demi keberhasilan anak saya”.\n\nSeberapa kuat partisipan menyetujuinya ditentukan oleh seberapa kuat aspirasi yang mereka miliki.\n\nPerhatikan arah panahnya: dari konstruk ke item. Bukan sebaliknya.\n\n\n\n\n\n\n\n\nPenting diperhatikan\n\n\nKalau satu sebab yang sama menggerakkan sepuluh item, maka kesepuluh item itu harus berkorelasi satu sama lain.\nKorelasi antar-item bisa kita hitung. Variabel latennya tidak. Jadi korelasi antar-item adalah satu-satunya pintu masuk untuk mengestimasi sesuatu yang tidak bisa kita amati."
+    "text": "Variabel laten sebagai penyebab\n\nIntinya: kekuatan variabel laten menyebabkan item punya skor tertentu.\nMisalnya item “Tidak ada pengorbanan yang terlalu besar demi keberhasilan anak saya”.\n\nSeberapa kuat partisipan menyetujuinya ditentukan oleh seberapa kuat aspirasi yang mereka miliki.\n\nPerhatikan arah panahnya: dari konstruk ke item (e.g., “Model Reflektif”). Bukan sebaliknya.\n\n\n\n\n\n\n\n\nPenting diperhatikan\n\n\nKalau satu sebab yang sama menyebabkan sepuluh item, maka kesepuluh item itu harus berkorelasi satu sama lain.\nKorelasi antar-item bisa kita hitung. Variabel latennya tidak. Jadi korelasi antar-item adalah satu-satunya pintu masuk untuk mengestimasi sesuatu yang tidak bisa kita amati."
   },
   {
-    "objectID": "slides/pertemuan3.html#inilah-yang-membuat-analisis-item-mungkin",
-    "href": "slides/pertemuan3.html#inilah-yang-membuat-analisis-item-mungkin",
+    "objectID": "slides/pertemuan3.html#asumsi-ini-memungkinkan-analisis-item",
+    "href": "slides/pertemuan3.html#asumsi-ini-memungkinkan-analisis-item",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
-    "section": "Inilah yang membuat analisis item mungkin",
-    "text": "Inilah yang membuat analisis item mungkin\n\nKita tidak pernah bisa menghitung korelasi antara item dan true score, karena true score tidak teramati.\nTetapi kita bisa menghitung korelasi antar-item.\nDari pola korelasi antar-item itu, kita bisa menyimpulkan seberapa erat tiap item terhubung dengan variabel latennya.\n\n\n\n\n\n\n\n\nNote\n\n\nProsedur yang akan Anda jalankan di Pertemuan 13 — corrected item-total correlation, membuang item yang lemah — seluruhnya bersandar pada logika ini."
+    "section": "Asumsi ini memungkinkan analisis item",
+    "text": "Asumsi ini memungkinkan analisis item\n\nKita tidak pernah bisa menghitung korelasi antara item dan true score, karena true score tidak teramati.\nTetapi kita bisa menghitung korelasi antar-item.\nDari pola korelasi antar-item itu, kita bisa menyimpulkan seberapa kuat tiap item terhubung dengan variabel latennya.\n\n\n\n\n\n\n\n\nNote\n\n\nProsedur yang akan Anda jalankan di Pertemuan 13 — corrected item-total correlation, membuang item yang lemah — seluruhnya bersandar pada logika ini."
   },
   {
-    "objectID": "slides/pertemuan3.html#persamaan-yang-menopang-seluruh-mata-kuliah-ini",
-    "href": "slides/pertemuan3.html#persamaan-yang-menopang-seluruh-mata-kuliah-ini",
+    "objectID": "slides/pertemuan3.html#persamaannya",
+    "href": "slides/pertemuan3.html#persamaannya",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
-    "section": "Persamaan yang menopang seluruh mata kuliah ini",
-    "text": "Persamaan yang menopang seluruh mata kuliah ini\n\\[X = T + E\\]\n\n\n\\(X\\) — observed score. Skor yang benar-benar Anda dapatkan dari responden.\n\\(T\\) — true score. Skor yang akan diperoleh seseorang kalau pengukurannya sempurna.\n\\(E\\) — error. Semua yang membuat \\(X\\) menyimpang dari \\(T\\).\n\n\n\n\n\n\n\n\n\nYang masuk ke dalam \\(E\\)\n\n\nKondisi fisik responden saat mengisi, suasana hati sesaat, ambiguitas kalimat item, gangguan di ruangan, salah klik. CTT tidak memisahkan sumber-sumber ini. Semuanya dikumpulkan menjadi satu suku error."
+    "section": "Persamaannya",
+    "text": "Persamaannya\n\\[X = T + E\\]\n\n\n\\(X\\) — observed score. Skor yang benar-benar Anda dapatkan dari responden.\n\\(T\\) — true score. Skor yang akan diperoleh seseorang kalau pengukurannya sempurna.\n\\(E\\) — error. Semua yang membuat \\(X\\) menyimpang dari \\(T\\).\n\n\n\n\n\n\n\n\n\nYang masuk ke dalam \\(E\\)\n\n\nKondisi fisik responden saat mengisi, suasana hati sesaat, ambiguitas kalimat item, gangguan di ruangan, salah klik. CTT tidak memisahkan sumber-sumber ini. Semuanya dikumpulkan menjadi satu suku error."
   },
   {
     "objectID": "slides/pertemuan3.html#tiga-asumsi-ctt",
     "href": "slides/pertemuan3.html#tiga-asumsi-ctt",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Tiga asumsi CTT",
-    "text": "Tiga asumsi CTT\n\nRata-rata error adalah nol: \\(E(e) = 0\\). Kalau pengukuran diulang tak terhingga kali, error saling meniadakan.\nError tidak berkorelasi dengan true score: \\(\\text{Cov}(T, E) = 0\\). Orang dengan kecemasan tinggi tidak otomatis punya error yang lebih besar.\nError antar-pengukuran tidak saling berkorelasi: \\(\\text{Cov}(E_1, E_2) = 0\\).\n\n\n\n\n\n\n\n\nPerhatikan apa yang diasumsikan di sini\n\n\nKetiganya menyatakan bahwa error bersifat acak, bukan sistematis. Bias yang konsisten — misalnya seluruh responden menjawab lebih positif karena social desirability — tidak masuk ke dalam \\(E\\).\nKita lihat sebentar lagi apa akibatnya."
+    "text": "Tiga asumsi CTT\n\nRata-rata error adalah nol: \\(E(e) = 0\\). Kalau pengukuran diulang sebanyak ~ kali, error saling meniadakan.\nError tidak berkorelasi dengan true score: \\(\\text{Cov}(T, E) = 0\\). Orang dengan kecemasan tinggi tidak otomatis punya error yang lebih besar.\nError antar-pengukuran tidak saling berkorelasi: \\(\\text{Cov}(E_1, E_2) = 0\\).\n\n\n\n\n\n\n\n\nPerhatikan apa yang diasumsikan di sini\n\n\nKetiganya menyatakan bahwa error bersifat acak, bukan sistematis. Bias yang konsisten — misalnya seluruh responden menjawab lebih positif karena social desirability — tidak masuk ke dalam \\(E\\)."
   },
   {
     "objectID": "slides/pertemuan3.html#dari-skor-ke-varians",
@@ -2615,28 +2615,28 @@
     "href": "slides/pertemuan3.html#reliabilitas-sebagai-proporsi-varians",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Reliabilitas sebagai proporsi varians",
-    "text": "Reliabilitas sebagai proporsi varians\n\\[\\rho_{XX'} = \\frac{\\sigma^2_T}{\\sigma^2_X} = \\frac{\\sigma^2_T}{\\sigma^2_T + \\sigma^2_E}\\]\n\n\nNilainya antara 0 dan 1, karena ini sebuah proporsi.\n\\(\\rho = 0{,}80\\) berarti 80% variasi skor berasal dari perbedaan yang sesungguhnya antar-orang, dan 20% dari error.\nPerhatikan bahwa ini definisi tentang seberapa konsisten skornya, bukan tentang seberapa benar."
+    "text": "Reliabilitas sebagai proporsi varians\n\\[\\rho_{XX'} = \\frac{\\sigma^2_T}{\\sigma^2_X} = \\frac{\\sigma^2_T}{\\sigma^2_T + \\sigma^2_E}\\]\n\n\nNilainya antara 0 dan 1, karena ini sebuah proporsi.\n\\(\\rho = 0{,}80\\) berarti 80% variasi skor berasal dari perbedaan yang sesungguhnya antar-orang, dan 20% dari error.\nPerhatikan bahwa ini definisi tentang seberapa konsisten skornya, bukan tentang seberapa “benar” skor tersebut mewakili objek ukurnya."
   },
   {
     "objectID": "slides/pertemuan3.html#contoh-terhitung",
     "href": "slides/pertemuan3.html#contoh-terhitung",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Contoh terhitung",
-    "text": "Contoh terhitung\nMisalkan skala Anda punya simpangan baku skor total \\(\\sigma_X = 5\\), sehingga \\(\\sigma^2_X = 25\\). Reliabilitasnya \\(\\rho = 0{,}80\\).\n\n\\[\\sigma^2_T = 0{,}80 \\times 25 = 20 \\qquad \\sigma^2_E = 25 - 20 = 5\\]\n\n\nStandard error of measurement (SEM), yaitu simpangan baku dari error:\n\\[SEM = \\sigma_X\\sqrt{1-\\rho} = 5\\sqrt{0{,}20} = 2{,}24\\]\n\n\n\n\n\n\n\n\nKenapa angka ini berguna\n\n\nSeseorang yang mendapat skor 30 sebenarnya berada di suatu rentang, bukan di satu titik. Dengan tingkat kepercayaan 95%:\n\\[30 \\pm 1{,}96 \\times 2{,}24 \\;\\approx\\; 25{,}6 \\text{ sampai } 34{,}4\\]"
+    "text": "Contoh terhitung\nMisalkan skala Anda punya standar deviasi skor total \\(\\sigma_X = 5\\), sehingga \\(\\sigma^2_X = 25\\). Reliabilitasnya \\(\\rho = 0{,}80\\).\n\n\\[\\sigma^2_T = 0{,}80 \\times 25 = 20 \\qquad \\sigma^2_E = 25 - 20 = 5\\]\n\n\nStandard error of measurement (SEM), yaitu standar deviasi dari error:\n\\[SEM = \\sigma_X\\sqrt{1-\\rho} = 5\\sqrt{0{,}20} = 2{,}24\\]\n\n\n\n\n\n\n\n\nKenapa angka ini berguna\n\n\nSeseorang yang mendapat skor 30 sebenarnya berada di suatu rentang, bukan di satu titik. Dengan tingkat kepercayaan 95%:\n\\[30 \\pm 1{,}96 \\times 2{,}24 \\;\\approx\\; 25{,}6 \\text{ sampai } 34{,}4\\]"
   },
   {
     "objectID": "slides/pertemuan3.html#apa-artinya-rentang-ini",
     "href": "slides/pertemuan3.html#apa-artinya-rentang-ini",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Apa artinya rentang ini",
-    "text": "Apa artinya rentang ini\n\nDua orang dengan skor 30 dan 33 tidak bisa kita katakan berbeda. Rentang keduanya bertumpang tindih hampir seluruhnya.\nPadahal skala dengan \\(\\rho = 0{,}80\\) sudah tergolong baik menurut kriteria yang lazim dipakai.\nSemakin rendah reliabilitasnya, semakin lebar rentangnya, dan semakin sedikit yang bisa kita katakan tentang seseorang.\n\n\n\n\n\n\n\n\nIngat ini saat menyusun norma\n\n\nDi Pertemuan 14 Anda akan mengubah skor menjadi kategori. Kalau batas kategorinya lebih sempit daripada \\(SEM\\) skala Anda, kategori itu tidak bermakna — orang yang sama bisa masuk kategori berbeda hanya karena mengisi di hari yang berbeda."
+    "text": "Apa artinya rentang ini\n\nDua orang dengan skor 30 dan 33 tidak bisa kita katakan berbeda. Rentang keduanya bertumpang tindih hampir seluruhnya.\nPadahal skala dengan \\(\\rho = 0{,}80\\) sudah tergolong baik menurut kriteria yang lazim dipakai.\nSemakin rendah reliabilitasnya, semakin lebar rentangnya, dan semakin sedikit yang bisa kita simpulkan tentang kondisi psikologis seseorang.\n\n\n\n\n\n\n\n\nIngat ini saat menyusun norma\n\n\nDi Pertemuan 14 Anda akan mengubah skor menjadi kategori. Kalau batas kategorinya lebih sempit daripada \\(SEM\\) skala Anda, kategori itu tidak bermakna: orang yang sama bisa masuk kategori berbeda hanya karena mengisi di hari yang berbeda."
   },
   {
-    "objectID": "slides/pertemuan3.html#definisinya-lebih-sempit-daripada-yang-biasa-dibayangkan",
-    "href": "slides/pertemuan3.html#definisinya-lebih-sempit-daripada-yang-biasa-dibayangkan",
+    "objectID": "slides/pertemuan3.html#definisinya",
+    "href": "slides/pertemuan3.html#definisinya",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
-    "section": "Definisinya lebih sempit daripada yang biasa dibayangkan",
-    "text": "Definisinya lebih sempit daripada yang biasa dibayangkan\n\nDalam CTT, true score didefinisikan sebagai nilai harapan (expected value) dari observed score, kalau orang yang sama diukur berulang kali secara independen dengan alat yang sama.\nPerhatikan: definisinya melekat pada alat ukurnya, bukan pada konstruknya.\nTrue score adalah “skor yang stabil yang dihasilkan oleh suatu skala”, bukan “kadar konstruk yang sesungguhnya ada pada partisipan/responden”.\n\n\n\nLord & Novick (1968/2008); DeVellis & Thorpe (2022), Bab 3."
+    "section": "Definisinya",
+    "text": "Definisinya\n\nDalam CTT, true score didefinisikan sebagai nilai yang diharapkan (expected value) dari observed score, kalau orang yang sama diukur berulang kali secara independen dengan alat yang sama.\nPerhatikan: definisinya melekat pada alat ukurnya, bukan pada konstruknya.\nTrue score adalah “skor yang stabil yang dihasilkan oleh suatu skala”, bukan “kadar konstruk yang sesungguhnya ada pada partisipan/responden”.\n\n\n\nLord & Novick (1968/2008); DeVellis & Thorpe (2022), Bab 3."
   },
   {
     "objectID": "slides/pertemuan3.html#analogi-timbangan-yang-meleset",
@@ -2650,7 +2650,7 @@
     "href": "slides/pertemuan3.html#reliabilitas-bukan-validitas",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Reliabilitas bukan validitas",
-    "text": "Reliabilitas bukan validitas\n\nReliabilitas adalah sifat skor: seberapa konsisten skor itu kalau pengukurannya diulang.\nValiditas juga sifat skor — lebih tepatnya, sifat dari tafsiran atas skor untuk tujuan tertentu.\nYang pertama tidak menjamin yang kedua. Skala Anda bisa punya \\(\\alpha = 0{,}92\\) dan skornya tetap menunjukkan konstruk yang berbeda dari yang Anda klaim.\n\n\n\n\n\n\n\n\nTapi ada hubungannya\n\n\nReliabilitas memberi batas atas bagi koefisien validitas, yaitu korelasi antara skor Anda dan suatu kriteria:\n\\[r_{XY} \\leq \\sqrt{\\rho_{XX'} \\times \\rho_{YY'}}\\]\nIni melibatkan reliabilitas kriterianya juga. Kalau kriteria diasumsikan diukur tanpa error (\\(\\rho_{YY'}=1\\)), rumusnya menyederhana jadi \\(r_{XY} \\leq \\sqrt{\\rho_{XX'}}\\): dengan \\(\\rho_{XX'} = 0{,}64\\), korelasi maksimum yang mungkin Anda peroleh adalah \\(0{,}80\\) — berapa pun kuatnya hubungan yang sesungguhnya. Kalau kriterianya sendiri juga fallible, batas atasnya turun lebih jauh."
+    "text": "Reliabilitas bukan validitas\n\nReliabilitas adalah sifat skor: seberapa konsisten skor itu kalau pengukurannya diulang.\nValiditas juga sifat skor, lebih tepatnya, sifat dari tafsiran atas skor untuk tujuan tertentu.\nYang pertama tidak menjamin yang kedua. Skala Anda bisa punya \\(\\alpha = 0{.}92\\) dan skornya tetap menunjukkan konstruk yang berbeda dari yang Anda klaim.\n\n\n\n\n\n\n\n\nTapi ada hubungannya\n\n\nReliabilitas memberi batas atas bagi koefisien validitas, yaitu korelasi antara skor Anda dan suatu kriteria:\n\\[r_{XY} \\leq \\sqrt{\\rho_{XX'} \\times \\rho_{YY'}}\\]\nIni melibatkan reliabilitas kriterianya juga. Kalau kriteria diasumsikan diukur tanpa error (\\(\\rho_{YY'}=1\\)), rumusnya menyederhana jadi \\(r_{XY} \\leq \\sqrt{\\rho_{XX'}}\\): dengan \\(\\rho_{XX'} = 0{.}64\\), korelasi maksimum yang mungkin Anda peroleh adalah \\(0{.}80\\) — berapa pun kuatnya hubungan yang sesungguhnya. Kalau kriterianya sendiri juga fallible, batas atasnya turun lebih jauh."
   },
   {
     "objectID": "slides/pertemuan3.html#validitas-bukan-sifat-skala",
@@ -2660,18 +2660,18 @@
     "text": "Validitas bukan sifat skala\n\nValidity refers to the degree to which evidence and theory support the interpretations of test scores for proposed uses of tests.\n— AERA, APA, & NCME (2014), Standards for Educational and Psychological Testing\n\n\n\nKalimat “skala kami valid” sebenarnya tidak lengkap. Yang bisa didukung atau tidak didukung oleh bukti adalah tafsiran atas skor, untuk tujuan tertentu, pada populasi tertentu.\nMessick (1989) menyebut validitas sebagai penilaian menyeluruh atas sejauh mana bukti dan teori mendukung kesimpulan dan tindakan yang diambil berdasarkan skor."
   },
   {
-    "objectID": "slides/pertemuan3.html#kenapa-pembedaan-ini-praktis-bukan-sekadar-soal-istilah",
-    "href": "slides/pertemuan3.html#kenapa-pembedaan-ini-praktis-bukan-sekadar-soal-istilah",
+    "objectID": "slides/pertemuan3.html#kenapa-pembedaan-ini-penting",
+    "href": "slides/pertemuan3.html#kenapa-pembedaan-ini-penting",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
-    "section": "Kenapa pembedaan ini praktis, bukan sekadar soal istilah",
-    "text": "Kenapa pembedaan ini praktis, bukan sekadar soal istilah\n\nBukti validitas tidak otomatis berpindah. Skala yang tafsiran skornya terdukung untuk penelitian pada mahasiswa belum tentu terdukung untuk seleksi kerja atau penegakan diagnosis.\nBegitu populasi, tujuan, atau cara penggunaannya berubah, buktinya perlu diperiksa ulang.\nKarena itu validitas tidak pernah selesai. Ia tidak dicap sekali lalu berlaku selamanya.\n\n\n\n\n\n\n\n\nCara menuliskannya di laporan Anda\n\n\nHindari kalimat “skala kami valid”. Tulis seperti ini:\n“Terdapat bukti yang mendukung tafsiran skor skala X sebagai indikator konstruk Y, pada populasi Z, untuk keperluan W.”\nJenis-jenis buktinya kita bahas di Pertemuan 7."
+    "section": "Kenapa pembedaan ini penting",
+    "text": "Kenapa pembedaan ini penting\n\nBukti validitas tidak otomatis berpindah. Skala yang tafsiran skornya terdukung untuk penelitian pada mahasiswa belum tentu terdukung untuk seleksi kerja atau penegakan diagnosis.\nBegitu populasi, tujuan, atau cara penggunaannya berubah, buktinya perlu diperiksa ulang.\nKarena itu validitas tidak pernah selesai. Ia tidak bisa diuji sekali lalu berlaku selamanya.\n\n\n\n\n\n\n\n\nCara menuliskannya di laporan Anda\n\n\nHindari kalimat “skala kami valid”. Tulis seperti ini:\n“Terdapat bukti yang mendukung tafsiran skor skala X sebagai indikator konstruk Y, pada populasi Z, untuk keperluan W.”\nJenis-jenis buktinya kita bahas di Pertemuan 7."
   },
   {
     "objectID": "slides/pertemuan3.html#hubungkan-dengan-pertemuan-1",
     "href": "slides/pertemuan3.html#hubungkan-dengan-pertemuan-1",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Hubungkan dengan Pertemuan 1",
-    "text": "Hubungkan dengan Pertemuan 1\n\nIngat kritik Michell: apakah atribut psikologis benar-benar kuantitatif?\nPersamaan \\(X = T + E\\) mengandaikan jawabannya “ya”. Kita menjumlahkan dan mengurangkan \\(T\\) dan \\(E\\) seolah-olah keduanya besaran.\nCTT tidak membuktikan asumsi itu. CTT membangun di atasnya.\n\n\n\n\n\n\n\n\nSikap yang kita pakai\n\n\nKita akan memakai CTT sepanjang semester ini karena ia berguna dan bisa dikerjakan. Tetapi Anda sekarang tahu persis di atas apa ia berdiri."
+    "text": "Hubungkan dengan Pertemuan 1\n\nIngat kritik Michell: apakah atribut psikologis benar-benar kuantitatif?\nPersamaan \\(X = T + E\\) mengandaikan jawabannya “ya”. Kita menjumlahkan dan mengurangkan \\(T\\) dan \\(E\\) seolah-olah keduanya adalah benar-benar angka yang bermakna.\nCTT tidak menguji asumsi ini, tetapi CTT dibangun di atas asumsi ini."
   },
   {
     "objectID": "slides/pertemuan3.html#kenapa-menambah-item-menaikkan-reliabilitas",
@@ -2685,28 +2685,28 @@
     "href": "slides/pertemuan3.html#tapi-ada-batasnya",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Tapi ada batasnya",
-    "text": "Tapi ada batasnya\n\nMenambah item hanya menolong kalau item barunya benar-benar mengukur konstruk yang sama.\nMenambah item yang isinya nyaris sama akan menaikkan \\(\\alpha\\) tanpa menambah informasi apa pun — ini pelanggaran local independence dari Pertemuan 2.\nDan kuesioner yang terlalu panjang memunculkan masalah baru: kelelahan responden dan jawaban asal.\n\n\n\n\n\n\n\n\nUntuk proyek Anda\n\n\nAngka \\(\\alpha\\) yang tinggi bukan bukti bahwa skala Anda bagus. Ia bisa dicapai hanya dengan menulis sepuluh parafrase dari kalimat yang sama."
+    "text": "Tapi ada batasnya\n\nMenambah item hanya menolong kalau item barunya benar-benar mengukur konstruk yang sama.\nMenambah item yang isinya nyaris sama akan menaikkan \\(\\alpha\\) tanpa menambah informasi apa pun dan ini pelanggaran local independence dari Pertemuan 2.\nDan kuesioner yang terlalu panjang memunculkan masalah baru: kelelahan responden dan jawaban yang asal-asalan.\n\n\n\n\n\n\n\n\nUntuk proyek Anda\n\n\nAngka \\(\\alpha\\) atau \\(\\omega\\) yang tinggi bukan bukti bahwa skala Anda bagus. Ia bisa dicapai hanya dengan menulis sepuluh parafrase dari kalimat yang sama."
   },
   {
     "objectID": "slides/pertemuan3.html#sekarang-atenuasi-bisa-kita-pahami",
     "href": "slides/pertemuan3.html#sekarang-atenuasi-bisa-kita-pahami",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Sekarang atenuasi bisa kita pahami",
-    "text": "Sekarang atenuasi bisa kita pahami\nDi Pertemuan 1 kita memakai rumus ini tanpa penjelasan:\n\\[r_{XY} = \\rho_{T_X T_Y} \\times \\sqrt{\\rho_{XX'} \\times \\rho_{YY'}}\\]\n\n\nSekarang asalnya jelas: yang kita korelasikan adalah \\(X\\), dan \\(X\\) mengandung \\(E\\).\nBagian \\(E\\) tidak berkorelasi dengan apa pun — menurut asumsi kedua CTT.\nJadi error hanya menambah penyebut tanpa menambah pembilang, dan korelasinya mengecil.\n\n\n\n\n\n\n\n\n\nTip\n\n\nSemakin besar porsi noise dalam skor Anda, semakin kecil semua korelasi yang Anda laporkan. Ini berlaku otomatis, tanpa kesalahan apa pun dari pihak Anda."
+    "text": "Sekarang atenuasi bisa kita pahami\nDi Pertemuan 1 kita memakai rumus ini tanpa penjelasan yang memadai:\n\\[r_{XY} = \\rho_{T_X T_Y} \\times \\sqrt{\\rho_{XX'} \\times \\rho_{YY'}}\\]\n\n\nSekarang asalnya jelas: yang kita korelasikan adalah \\(X\\), dan \\(X\\) mengandung \\(E\\).\nBagian \\(E\\) tidak berkorelasi dengan apa pun, menurut asumsi kedua CTT.\nJadi error hanya menambah penyebut tanpa menambah pembilang, dan korelasinya mengecil.\n\n\n\n\n\n\n\n\n\nTip\n\n\nSemakin besar porsi noise dalam skor Anda, semakin kecil semua korelasi yang Anda laporkan."
   },
   {
     "objectID": "slides/pertemuan3.html#kelemahan-ctt-yang-paling-serius",
     "href": "slides/pertemuan3.html#kelemahan-ctt-yang-paling-serius",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Kelemahan CTT yang paling serius",
-    "text": "Kelemahan CTT yang paling serius\n\nReliabilitas dalam CTT bergantung pada sampel.\nKalau responden Anda sangat seragam pada atribut yang diukur, rentang true score mereka sempit. Korelasi antar-item ikut mengecil, dan reliabilitas terhitung menjadi rendah — padahal alat ukurnya sama saja.\nSebaliknya, sampel yang sangat beragam akan membuat alat yang sama tampak lebih reliabel.\n\n\n\n\n\n\n\n\n\nKonsekuensi praktis untuk uji coba Anda\n\n\nReliabilitas yang Anda laporkan bukan sifat alat ukur Anda semata — ia sebagian juga sifat sampel Anda. Karena itu, laporkan karakteristik sampel bersama koefisien reliabilitasnya, selalu.\n\n\n\n\n\nDeVellis & Thorpe (2022), Bab 8."
+    "text": "Kelemahan CTT yang paling serius\n\nReliabilitas dalam CTT bergantung pada sampel.\nKalau responden Anda sangat seragam pada atribut yang diukur, rentang true score mereka sempit. Korelasi antar-item ikut mengecil, dan reliabilitas terhitung menjadi rendah — padahal alat ukurnya sama saja.\nSebaliknya, sampel yang sangat beragam akan membuat alat yang sama tampak lebih reliabel.\n\n\n\n\n\n\n\n\n\nKonsekuensi praktis untuk uji coba Anda\n\n\nReliabilitas yang Anda laporkan bukan sifat alat ukur Anda semata — ia juga sebagian merupakan sifat sampel Anda. Karena itu, laporkan karakteristik sampel bersama koefisien reliabilitasnya, selalu.\n\n\n\n\n\nDeVellis & Thorpe (2022), Bab 8."
   },
   {
     "objectID": "slides/pertemuan3.html#bukan-hanya-reliabilitas",
     "href": "slides/pertemuan3.html#bukan-hanya-reliabilitas",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Bukan hanya reliabilitas",
-    "text": "Bukan hanya reliabilitas\n\nTingkat kesulitan item dalam CTT diukur sebagai proporsi responden yang menyetujuinya. Angka ini berubah kalau sampelnya berubah.\nDaya diskriminasi item diukur sebagai korelasi item dengan skor total. Ini pun berubah mengikuti sampel.\nArtinya, hampir semua statistik item dalam CTT bersifat relatif terhadap kelompok yang kebetulan Anda ukur.\n\n\n\n\n\n\n\n\nNote\n\n\nInilah persoalan yang ingin dipecahkan oleh Item Response Theory. Kita bahas di bagian terakhir."
+    "text": "Bukan hanya reliabilitas\n\nTingkat kesulitan item dalam CTT diukur sebagai proporsi responden yang menyetujuinya. Angka ini berubah kalau sampelnya berubah.\nDaya diskriminasi item diukur sebagai korelasi item dengan skor total. Ini pun berubah mengikuti sampel.\nArtinya, hampir semua statistik item dalam CTT bersifat relatif terhadap kelompok yang kebetulan Anda ukur.\n\n\n\n\n\n\n\n\nNote\n\n\nInilah masalah yang ingin dipecahkan oleh Item Response Theory. Kita bahas di bagian terakhir."
   },
   {
     "objectID": "slides/pertemuan3.html#tiga-model-pengukuran",
@@ -2727,28 +2727,28 @@
     "href": "slides/pertemuan3.html#kenapa-ini-akan-penting-di-pertemuan-6",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Kenapa ini akan penting di Pertemuan 6",
-    "text": "Kenapa ini akan penting di Pertemuan 6\n\nCronbach’s alpha mengasumsikan model tau-equivalent — bahwa semua item menyumbang sama kuat.\nKalau item Anda sebenarnya congeneric (dan hampir selalu begitu), \\(\\alpha\\) akan mengestimasi reliabilitas lebih rendah daripada yang sesungguhnya.\nKoefisien omega (\\(\\omega\\)) tidak mensyaratkan asumsi itu, sehingga umumnya lebih tepat.\n\n\n\n\n\n\n\n\nYang perlu Anda simpan sekarang\n\n\nAnda belum perlu menghitung apa pun. Yang perlu Anda bawa dari slide ini adalah: \\(\\alpha\\) punya asumsi, dan asumsinya jarang terpenuhi. Kita cek konsekuensinya di Pertemuan 6."
+    "text": "Kenapa ini akan penting di Pertemuan 6\n\nCronbach’s alpha mengasumsikan model tau-equivalent — bahwa semua item menyumbang sama kuat.\nKalau item Anda sebenarnya congeneric (dan hampir selalu begitu), \\(\\alpha\\) akan mengestimasi reliabilitas lebih rendah daripada yang sesungguhnya.\nKoefisien omega (\\(\\omega\\)) tidak mensyaratkan asumsi itu, sehingga umumnya lebih tepat.\n\n\n\n\n\n\n\n\nYang perlu Anda simpan sekarang\n\n\nAnda belum perlu menghitung apa pun. Yang perlu Anda bawa dari slide ini adalah: \\(\\alpha\\) punya asumsi, dan asumsinya jarang terpenuhi. Kita akan periksa konsekuensinya di Pertemuan 6."
   },
   {
     "objectID": "slides/pertemuan3.html#masalah-yang-ingin-dipecahkan",
     "href": "slides/pertemuan3.html#masalah-yang-ingin-dipecahkan",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Masalah yang ingin dipecahkan",
-    "text": "Masalah yang ingin dipecahkan\n\nDalam pengukuran fisik, 20 kilogram berarti sama apa pun yang ditimbang. Sifat alat ukurnya tidak bergantung pada objeknya.\nIRT ingin mencapai hal yang sama untuk item kuesioner: menetapkan sifat item yang tidak bergantung pada siapa yang mengisinya.\nDalam CTT, sifat alat ukur dan karakteristik orang yang diukur selalu terikat satu sama lain. IRT, setidaknya secara teori, tidak.\n\n\n\nDeVellis & Thorpe (2022), Bab 8."
+    "text": "Masalah yang ingin dipecahkan\n\nDalam pengukuran fisik, 20 kilogram berarti sama apa pun yang ditimbang. Sifat alat ukurnya tidak bergantung pada objeknya (e.g., specific objectivity).\nIRT ingin mencapai hal yang sama untuk item kuesioner: menetapkan sifat item yang tidak bergantung pada siapa yang mengisinya.\nDalam CTT, sifat alat ukur dan karakteristik orang yang diukur selalu terikat satu sama lain. IRT, setidaknya secara teori, tidak.\n\n\n\nDeVellis & Thorpe (2022), Bab 8."
   },
   {
     "objectID": "slides/pertemuan3.html#perbedaan-pertama-fokus-pada-item",
     "href": "slides/pertemuan3.html#perbedaan-pertama-fokus-pada-item",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Perbedaan pertama: fokus pada item",
-    "text": "Perbedaan pertama: fokus pada item\n\n\nCTT\nMenekankan sifat skala secara keseluruhan.\nReliabilitas dinaikkan terutama dengan menambah item.\n\nIRT\nMenekankan sifat tiap item.\nReliabilitas dinaikkan dengan memilih item yang lebih baik.\n\n\n\n\n\n\n\n\nNote\n\n\nPerbedaan ini punya konsekuensi praktis yang besar: CTT cenderung menghasilkan skala yang panjang dan banyak mengulang, IRT cenderung menghasilkan skala yang lebih pendek tetapi itemnya terpilih."
+    "text": "Perbedaan pertama: fokus pada item\n\n\nCTT\nMenekankan sifat skala secara keseluruhan.\nReliabilitas dinaikkan terutama dengan menambah item.\n\nIRT\nMenekankan sifat tiap item.\nReliabilitas dinaikkan dengan memilih item yang lebih baik.\n\n\n\n\n\n\n\n\nNote\n\n\nPerbedaan ini punya konsekuensi praktis: CTT cenderung menghasilkan skala yang panjang dan banyak mengulang, IRT cenderung menghasilkan skala yang lebih pendek tetapi itemnya yang benar-benar bagus."
   },
   {
     "objectID": "slides/pertemuan3.html#perbedaan-kedua-item-punya-tingkat-kesulitan",
     "href": "slides/pertemuan3.html#perbedaan-kedua-item-punya-tingkat-kesulitan",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Perbedaan kedua: item punya “tingkat kesulitan”",
-    "text": "Perbedaan kedua: item punya “tingkat kesulitan”\n\nItem “Saya kadang merasa sedih” mengukur level depresi yang lebih rendah daripada item “Saya merasa hidup tidak layak dijalani”.\nItem pertama membedakan orang yang jarang sedih dari orang yang agak sering sedih. Item ini tidak berguna untuk membedakan orang yang depresinya berat dari yang jauh lebih berat.\nItem kedua hanya membedakan orang-orang di ujung atas kontinum.\n\n\n\n\n\n\n\n\nGagasan intinya\n\n\nSetiap item peka pada bagian tertentu dari rentang konstruk. IRT membuat hal itu eksplisit dan bisa dihitung."
+    "text": "Perbedaan kedua: item punya “tingkat kesulitan”\n\nItem “Saya kadang merasa sedih” mengukur level depresi yang lebih rendah daripada item “Saya merasa hidup tidak layak dijalani”.\nItem pertama membedakan orang yang jarang sedih dari orang yang agak sering sedih. Item ini tidak berguna untuk membedakan orang yang depresinya berat dari yang jauh lebih berat.\nItem kedua hanya membedakan orang-orang di ujung atas kontinum.\n\n\n\n\n\n\n\n\nIntinya\n\n\nSetiap item sensitif pada bagian tertentu dari rentang konstruk. IRT membuat hal itu eksplisit dan bisa dihitung."
   },
   {
     "objectID": "slides/pertemuan3.html#kurva-karakteristik-item-item-characteristic-curve",
@@ -2783,7 +2783,7 @@
     "href": "slides/pertemuan3.html#apa-yang-disyaratkan-irt",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Apa yang disyaratkan IRT",
-    "text": "Apa yang disyaratkan IRT\n\nUnidimensionalitas — sama seperti CTT. Item harus berbagi satu variabel laten.\nLocal independence — disyaratkan secara formal, bukan sekadar dianjurkan.\nSampel besar dan beragam. Keunggulan teoretis IRT hanya terwujud kalau itemnya dikalibrasi pada sampel yang besar dan heterogen.\n\n\n\n\n\n\n\n\nPerhatikan\n\n\nDua asumsi pertama itu persis asumsi nomor 4 dari Pertemuan 2. IRT tidak menghapus asumsi, melainkan mensyaratkannya lebih ketat dan memberi lebih banyak sebagai imbalannya."
+    "text": "Apa yang disyaratkan IRT\n\nUnidimensionalitas — sama seperti CTT. Item harus berbagi satu variabel laten.\nLocal independence — disyaratkan secara formal, bukan sekadar dianjurkan.\nSampel besar dan beragam. Keunggulan teoretis IRT hanya terwujud kalau itemnya dikalibrasi pada sampel yang besar dan heterogen.\n\n\n\n\n\n\n\n\nPerhatikan\n\n\nDua asumsi pertama itu persis asumsi nomor 4 dari Pertemuan 2. IRT tidak menghapus asumsi, melainkan mensyaratkannya lebih ketat."
   },
   {
     "objectID": "slides/pertemuan3.html#kenapa-mata-kuliah-ini-tetap-memakai-ctt",
@@ -2807,18 +2807,18 @@
     "text": "Lalu diskusikan\n\nApa dasar yang kelompok Anda pakai untuk mengurutkannya? Anda tidak punya data sama sekali — jadi dari mana penilaian itu datang?\nBagian mana dari rentang kecemasan sosial yang tidak tercakup oleh keenam item ini?\nSekarang lihat konstruk kelompok Anda sendiri. Apakah item yang sudah terbayang di kepala Anda menumpuk di satu bagian rentang, atau tersebar?\nKalau seluruh item Anda “mudah disetujui”, apa yang akan terjadi pada sebaran skor dan pada kemampuan skala Anda membedakan responden?\n\n\n\n\n\n\n\n\nTip\n\n\nPertanyaan nomor 3 akan kita pakai lagi secara langsung ketika menyusun blueprint di Pertemuan 10."
   },
   {
-    "objectID": "slides/pertemuan3.html#enam-poin-utama",
-    "href": "slides/pertemuan3.html#enam-poin-utama",
+    "objectID": "slides/pertemuan3.html#poin-utama",
+    "href": "slides/pertemuan3.html#poin-utama",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
-    "section": "Enam poin utama",
-    "text": "Enam poin utama\n\nVariabel laten adalah sebab, dan itulah alasan item dalam satu skala harus berkorelasi.\n\\(X = T + E\\), dengan asumsi bahwa error bersifat acak — bukan sistematis.\nReliabilitas adalah proporsi varians: bagian dari variasi skor yang bukan noise.\nTrue score melekat pada alat ukur, bukan pada konstruk. Alat yang bias secara konsisten tetap bisa sangat reliabel — dan reliabilitas maupun validitas sama-sama sifat skor, bukan sifat skala.\nStatistik item dalam CTT bergantung pada sampel. Laporkan karakteristik sampel bersama koefisiennya.\n\\(\\alpha\\) mengasumsikan model tau-equivalent, yang jarang terpenuhi."
+    "section": "6️⃣ poin utama",
+    "text": "6️⃣ poin utama\n\nVariabel laten adalah sebab, dan itulah alasan item dalam satu skala harus berkorelasi.\n\\(X = T + E\\), dengan asumsi bahwa error bersifat acak, bukan sistematis.\nReliabilitas adalah proporsi varians: bagian dari variasi skor yang bukan noise.\nTrue score melekat pada alat ukur, bukan pada konstruk. Alat yang bias secara konsisten tetap bisa sangat reliabel dan reliabilitas maupun validitas sama-sama sifat skor, bukan sifat skala.\nStatistik item dalam CTT bergantung pada sampel. Laporkan karakteristik sampel bersama koefisiennya.\n\\(\\alpha\\) mengasumsikan model tau-equivalent, yang jarang terpenuhi."
   },
   {
     "objectID": "slides/pertemuan3.html#untuk-pertemuan-4",
     "href": "slides/pertemuan3.html#untuk-pertemuan-4",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Untuk Pertemuan 4",
-    "text": "Untuk Pertemuan 4\nKita turun ke tingkat yang paling praktis: format respons.\n\nLikert — berapa titik yang sebaiknya dipakai, dan apakah perlu titik tengah?\nSemantic Differential — kapan pasangan kata sifat lebih tepat daripada pernyataan.\nGuttman — ketika item memang berjenjang secara logis.\nDan pertanyaan yang menghubungkannya dengan hari ini: pilihan format respons itu mengubah asumsi apa?\n\n\n\n\n\n\n\n\nPersiapan\n\n\nBaca DeVellis & Thorpe (2022), Bab 5 bagian tentang format respons. Kalau ingin melihat versi formal dari materi hari ini, Bab 3 buku yang sama membahas reliabilitas secara penuh."
+    "text": "Untuk Pertemuan 4\nKita turun ke tingkat yang paling konkrit: format respons.\n\nLikert — berapa titik yang sebaiknya dipakai, dan apakah perlu titik tengah?\nSemantic Differential — kapan pasangan kata sifat lebih tepat daripada pernyataan.\nGuttman — ketika item memang berjenjang secara logis.\nDan pertanyaan yang menghubungkannya dengan hari ini: pilihan format respons itu mengubah asumsi apa?\n\n\n\n\n\n\n\n\nPersiapan\n\n\nBaca DeVellis & Thorpe (2022), Bab 5 bagian tentang format respons. Kalau ingin melihat versi formal dari materi hari ini, Bab 3 buku yang sama membahas reliabilitas secara lengkap."
   },
   {
     "objectID": "slides/pertemuan3.html#ada-pertanyaan",

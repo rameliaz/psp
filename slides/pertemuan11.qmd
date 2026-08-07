@@ -45,7 +45,7 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 
 ::: {.incremental}
 
-* **Pertemuan 9** menghasilkan dokumen spesifikasi konstruk: definisi, batas, estimand, aspek, dan indikator.
+* **Pertemuan 9** menghasilkan dokumen spesifikasi konstruk: definisi, batas, *estimand*, aspek, dan indikator.
 
 * **Pertemuan 10** menghasilkan kisi-kisi dan daftar item, beserta format responsnya.
 
