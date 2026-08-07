@@ -1,5 +1,5 @@
 ---
-title: "Pendahuluan: Pengukuran dalam Psikologi"
+title: "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons"
 subtitle: "Penyusunan Skala Psikologi"
 author: "Rizqy Amelia Zein & Dian Kartika Amelia Arbi"
 institute:
@@ -22,6 +22,13 @@ execute:
 
 ::: {.incremental}
 
+* Menyusun **kisi-kisi**: berapa item untuk tiap aspek, dan kenapa sebanyak itu
+* Kaidah menulis item, dengan contoh yang salah dan perbaikannya
+* **Item bernada terbalik**: apa kata datanya, dan kapan sebaiknya dipakai
+* Menetapkan **format respons** untuk seluruh skala
+* Merakit kuesionernya: pengantar, petunjuk, tata letak
+* Workshop dan saling menelaah antar-kelompok
+
 :::
 
 ::: aside
@@ -29,6 +36,460 @@ execute:
 
 Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* materi, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini.
 
+:::
+
+# Dari spesifikasi konstruk ke item {background-color="#14497F" .center}
+
+## Yang Anda bawa hari ini
+
+::: {.incremental}
+
+* Dokumen spesifikasi konstruk dari Pertemuan 9: definisi, batas, estimand, dimensi, aspek, dan indikator.
+
+* Hari ini indikator itu berubah menjadi **item**, dan item disusun menjadi **kuesioner**.
+
+* Ini pertemuan terakhir bersama saya sebelum Anda melanjutkan bersama Dian.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+Kalau kelompok Anda belum punya dokumen spesifikasi konstruk, kerjakan itu lebih dulu hari ini. Menulis item tanpa definisi konstruk hanya akan menghasilkan pekerjaan yang harus diulang.
+:::
+
+# Kisi-kisi {background-color="#14497F" .center}
+
+## Apa yang dilakukan kisi-kisi
+
+::: {.incremental}
+
+* Kisi-kisi menghubungkan **aspek konstruk** dengan **jumlah item** yang akan mewakilinya.
+
+* Fungsinya menjaga agar cakupan isi sesuai dengan definisi Anda, bukan mengikuti aspek mana yang paling mudah ditulis itemnya.
+
+* Ini adalah bentuk paling awal dari bukti isi yang kita bahas di Pertemuan 7.
+
+:::
+
+. . .
+
+::: {.callout-note}
+Tanpa kisi-kisi, hampir selalu terjadi hal yang sama: aspek yang paling gampang dibayangkan mendapat sepuluh item, sementara aspek yang sulit hanya kebagian dua.
+:::
+
+## Contoh kisi-kisi
+
+Konstruk: **kecemasan sosial** pada mahasiswa S1.
+
+| Aspek | Bobot | Indikator | Item ditulis | Target akhir |
+|---|:--:|:--:|:--:|:--:|
+| Ketakutan akan penilaian negatif | 40% | 3 | 12 | 6 |
+| Penghindaran situasi sosial | 35% | 3 | 10 | 5 |
+| Gejala fisiologis | 25% | 2 | 8 | 4 |
+| **Total** | **100%** | **8** | **30** | **15** |
+
+. . .
+
+::: {.incremental}
+
+* **Bobot** ditentukan oleh definisi konstruk Anda, bukan oleh selera.
+
+* Perhatikan dua kolom terakhir: Anda menulis **jauh lebih banyak** daripada yang akan dipakai.
+
+:::
+
+## Kenapa menulis berlebih
+
+::: {.incremental}
+
+* Sebagian item akan gugur di review ahli (Pertemuan 11), sebagian lagi gugur di analisis item (Pertemuan 13).
+
+* Kalau Anda hanya menulis 15 item untuk target 15, Anda tidak punya ruang untuk membuang apa pun.
+
+* Patokan yang lazim: tulislah **dua sampai tiga kali** jumlah item yang Anda targetkan.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+#### Jumlah item akhir
+Ingat dari Pertemuan 6: reliabilitas ditentukan oleh jumlah item dan rata-rata korelasi antar-item. Untuk skala dengan rata-rata korelasi sedang, **10–20 item** biasanya memadai.
+
+Menambah item terus-menerus punya hasil yang makin kecil, dan menambah beban responden.
+:::
+
+## Sebarkan itemnya
+
+::: {.incremental}
+
+* Ingat pembahasan tingkat kesulitan item di Pertemuan 3: item sebaiknya **tersebar** di sepanjang rentang konstruk.
+
+* Untuk tiap aspek, tulis sebagian item yang **mudah disetujui** (menandakan tingkat rendah) dan sebagian yang **sulit disetujui** (menandakan tingkat tinggi).
+
+* Kalau semua item Anda menggambarkan tingkat yang parah, responden dengan tingkat sedang tidak akan terbedakan satu sama lain.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+Ini juga yang mencegah *ceiling effect* dan *floor effect* yang akan langsung terlihat pada sebaran skor di Pertemuan 13.
+:::
+
+# Kaidah menulis item {background-color="#14497F" .center}
+
+## Satu item, satu gagasan
+
+::: {.incremental}
+
+* Item ganda (*double-barrelled*) memuat dua gagasan sekaligus, sehingga responden yang setuju pada satu bagian saja tidak punya jawaban yang benar.
+
+* Kata **"dan"**, **"karena"**, serta **"kalau"** sering menjadi penanda item ganda.
+
+:::
+
+. . .
+
+| Bermasalah | Perbaikannya |
+|---|---|
+| "Saya gugup dan berkeringat saat presentasi." | Pisahkan menjadi dua item. |
+| "Saya menghindari acara kampus karena takut dinilai." | "Saya menghindari acara kampus." + item terpisah tentang alasannya. |
+
+## Pendek dan lugas
+
+::: {.incremental}
+
+* Item yang panjang memaksa responden mengingat awal kalimat saat membaca bagian akhirnya.
+
+* Hindari **negasi ganda**. *"Saya tidak keberatan kalau tidak diajak berdiskusi"* sulit diproses siapa pun.
+
+* Hindari kata ganti yang tidak jelas rujukannya, dan keterangan yang salah tempat.
+
+:::
+
+. . .
+
+::: {.callout-note}
+DeVellis menyarankan tingkat keterbacaan setara kelas 5–7 untuk instrumen yang dipakai pada masyarakat umum. Untuk responden mahasiswa, Anda punya sedikit kelonggaran, tetapi kalimat pendek tetap lebih baik.
+:::
+
+## Perilaku konkret, bukan sebabnya
+
+::: {.incremental}
+
+* Ingat Pertemuan 2: Nisbett & Wilson menunjukkan bahwa orang sering tidak punya akses pada alasan sebenarnya di balik perilakunya.
+
+* Item yang menanyakan **apa yang terjadi** umumnya lebih dapat diandalkan daripada item yang menanyakan **mengapa**.
+
+:::
+
+. . .
+
+| Bermasalah | Perbaikannya |
+|---|---|
+| "Saya cemas karena takut dinilai orang lain." | "Saya khawatir orang lain menilai saya negatif." |
+| "Saya introver, jadi saya menghindari keramaian." | "Saya menghindari acara yang ramai." |
+
+## Kurun waktu diambil dari estimand
+
+::: {.incremental}
+
+* Kalimat estimand Anda di Pertemuan 9 sudah menyebutkan kurun waktunya. Kurun itu harus muncul di itemnya.
+
+* *"Dalam sebulan terakhir, saya …"* mengukur hal yang berbeda dari *"Saya biasanya …"*.
+
+* Pastikan kurun waktunya **sama untuk semua item** dalam satu skala.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+Mencampur item berkurun waktu berbeda dalam satu skala menambah sumber variasi yang tidak Anda maksud, dan biasanya muncul sebagai faktor tambahan pada analisis di Pertemuan 13.
+:::
+
+## Seberapa kuat kalimatnya
+
+::: {.incremental}
+
+* Dari Pertemuan 4: untuk format Likert, pernyataan sebaiknya **cukup kuat, tetapi tidak ekstrem**, karena derajatnya sudah diwakili opsi respons.
+
+* Kalimat yang terlalu lunak akan disetujui hampir semua orang, dan item itu berhenti membedakan siapa pun.
+
+* Kalimat yang terlalu ekstrem akan ditolak hampir semua orang, dengan akibat yang sama.
+
+:::
+
+## Hindari kata bermuatan nilai
+
+::: {.incremental}
+
+* Kata seperti *"wajar"*, *"seharusnya"*, *"berlebihan"*, atau *"gagal"* mengarahkan jawaban.
+
+* Item juga sebaiknya tidak membuat responden merasa dihakimi, terutama untuk konstruk yang rawan *social desirability* (Pertemuan 2).
+
+:::
+
+. . .
+
+| Bermasalah | Perbaikannya |
+|---|---|
+| "Saya berlebihan dalam mencemaskan pendapat orang." | "Saya sering memikirkan pendapat orang lain tentang saya." |
+| "Saya gagal mengendalikan rasa cemas saya." | "Saya sulit menenangkan diri ketika cemas." |
+
+# Item bernada terbalik {background-color="#14497F" .center}
+
+## Kenapa dipakai sejak awal
+
+::: {.incremental}
+
+* Gagasannya berasal dari Likert (1932) sendiri: untuk menekan kecenderungan responden menyetujui apa saja, separuh item dibuat searah dan separuh berlawanan arah.
+
+* Kalau responden hanya mengiyakan, polanya akan terlihat: ia menyetujui item yang searah **dan** yang berlawanan sekaligus.
+
+:::
+
+. . .
+
+::: {.callout-note}
+Sampai di sini gagasannya masuk akal. Persoalannya muncul pada pelaksanaannya.
+:::
+
+## Apa kata datanya
+
+::: {.incremental}
+
+* Skala yang seluruh itemnya searah menghasilkan jawaban yang **lebih akurat** dibandingkan skala campuran.
+
+* Skor pada item searah dan item terbalik **tidak simetris**: sangat tidak setuju pada pernyataan positif tidak sama dengan sangat setuju pada pernyataan negatifnya.
+
+* Item terbalik sering **membentuk faktornya sendiri** pada analisis faktor. Yang muncul di situ adalah cara penulisannya, bukan konstruknya.
+
+:::
+
+::: aside
+Ringkasan dari Chyung, Barkin, & Shamsy (2018); lihat juga Weijters, Baumgartner, & Schillewaert (2013).
+:::
+
+## Dan responden berhenti memperhatikan
+
+::: {.incremental}
+
+* Performa responden menurun sekitar **12 menit** setelah mulai mengisi.
+
+* Setelah itu, banyak yang tidak lagi menyadari adanya kata "tidak" di dalam item — bahkan ketika kata itu ditebalkan atau digarisbawahi.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+#### Kalau tetap dipakai
+* Letakkan item terbalik **di bagian awal** kuesioner.
+* Pastikan item terbalik benar-benar **lawan yang setara**, bukan sekadar penambahan kata "tidak".
+* **Periksa pengaruhnya** saat analisis: lihat apakah item terbalik mengelompok sendiri.
+:::
+
+## Jebakan kata "tidak"
+
+::: {.incremental}
+
+* *"Saya merasa cemas saat presentasi"* dan *"Saya tidak merasa cemas saat presentasi"* **bukan** dua ujung dari satu kontinum.
+
+* Tidak merasa cemas bukan berarti merasa tenang. Ada banyak keadaan di antaranya.
+
+* Kalau ingin item berlawanan arah, baliklah **isinya**, bukan tata bahasanya: *"Saya merasa tenang saat presentasi."*
+
+:::
+
+. . .
+
+::: {.callout-warning}
+#### Untuk konstruk tertentu, item searah justru lebih tepat
+Untuk konstruk yang sifatnya memang negatif — kecemasan, depresi — kalimat bernada negatif adalah bentuk yang paling wajar. Memaksakan item terbalik di sini justru membuat kalimatnya berbelit.
+:::
+
+# Format respons {background-color="#14497F" .center}
+
+## Keputusan yang sudah Anda pelajari
+
+Dari Pertemuan 4, tetapkan sekarang untuk **seluruh skala**:
+
+::: {.incremental}
+
+* **Berapa pilihan.** Wilayah 5–7 masuk akal untuk sebagian besar keperluan.
+* **Titik tengah atau tidak.** Pakai kalau posisi tengah memang bermakna untuk konstruk Anda.
+* **Label.** Beri label pada semua pilihan, bukan hanya ujungnya.
+* **Jangkar.** Persetujuan, frekuensi, atau jangkar khusus per item.
+
+:::
+
+. . .
+
+::: {.callout-note}
+#### Soal titik tengah
+Chyung dkk. (2017) menyarankan pertanyaannya diubah: bukan *"perlu titik tengah atau tidak"*, melainkan *"kapan titik tengah itu tepat"*. Titik tengah tepat kalau ia benar-benar posisi tengah, bukan tempat responden menghindar.
+
+Kalau yang Anda antisipasi adalah ketidaktahuan, sediakan pilihan terpisah seperti "tidak tahu", jangan campur dengan titik tengah.
+:::
+
+## Konsistensi dan urutan
+
+::: {.incremental}
+
+* Pakai **satu format respons** untuk seluruh item dalam satu skala. Berganti format di tengah menambah beban dan menyulitkan penjumlahan skor.
+
+* Susun pilihan responsnya dalam **urutan menaik**, dari yang paling rendah ke paling tinggi.
+
+* Pastikan arahnya konsisten dari awal sampai akhir kuesioner.
+
+:::
+
+::: aside
+Chyung, Kennedy, & Campbell (2018).
+:::
+
+# Merakit kuesionernya {background-color="#14497F" .center}
+
+## Bagian-bagiannya
+
+::: {.incremental}
+
+* **Judul** — mencerminkan isi, singkat, dan tidak membuat responden segan mengisi.
+
+* **Pengantar** — tujuan singkat, pernyataan kerahasiaan dan persetujuan, serta **perkiraan waktu pengisian**.
+
+* **Petunjuk pengisian** — lengkap, tidak ambigu, termasuk cara mengirimkan jawabannya.
+
+* **Item** — dikelompokkan dan diberi nomor.
+
+* **Penutup** — ucapan terima kasih dan langkah berikutnya kalau ada.
+
+:::
+
+::: aside
+Bikos, *ReCentering Psych Stats: Psychometrics*, Bab 2.
+:::
+
+## Ini bukan formalitas
+
+::: {.incremental}
+
+* Pershing & Pershing (2001) memeriksa 50 kuesioner yang dipakai di sebuah sekolah kedokteran ternama.
+
+* **72%** tidak punya pengantar sama sekali. **78%** tidak punya penutup. **30%** tidak punya petunjuk pengisian, dan 54% lainnya hanya seadanya.
+
+* Hanya **8%** yang tampilannya rapi secara profesional.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+Tampilan yang berantakan menurunkan kesungguhan responden, dan itu langsung berpengaruh pada reliabilitas serta validitas skor Anda. Ini bukan soal estetika.
+:::
+
+## Tata letak
+
+::: {.incremental}
+
+* Beri **ruang kosong** yang cukup; jangan padat.
+* **Beri nomor** dan **judul bagian** supaya responden tahu sudah sampai mana.
+* Beri jeda tiap **4–6 item**, atau selang-seling warna latar barisnya.
+* Untuk pengisian daring, pastikan tampilannya terbaca di layar ponsel.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+#### Data demografis
+Letakkan di bagian **akhir**, kecuali kalau diperlukan untuk menyaring responden di awal. Pertanyaan demografis di awal membuat sebagian responden merasa diidentifikasi sebelum mereka tahu isi kuesionernya.
+:::
+
+# Workshop {background-color="#14497F" .center}
+
+## Bagian 1: menulis item
+
+::: {.incremental}
+
+* **15 menit** — Lengkapi kisi-kisi kelompok Anda: aspek, bobot, indikator, dan jumlah item yang akan ditulis.
+
+* **40 menit** — Tulis itemnya. Kejar jumlah pada kolom "item ditulis", bukan kolom target akhir.
+
+* **10 menit** — Tetapkan format respons dan tulis petunjuk pengisiannya.
+
+:::
+
+::: {.notes}
+Kesalahan yang paling sering muncul di sesi ini: kelompok menulis sepuluh parafrase dari satu
+indikator, lalu mengira sudah selesai. Ingatkan bahwa item yang nyaris sama melanggar
+local independence dari Pertemuan 2 dan menaikkan alpha tanpa menambah informasi.
+Kesalahan kedua: semua item menggambarkan tingkat yang parah. Minta mereka membayangkan
+responden dengan tingkat sedang, lalu tanya item mana yang bisa membedakannya.
+:::
+
+## Bagian 2: saling menelaah
+
+Tukarkan daftar item dengan kelompok lain. **25 menit.**
+
+Untuk tiap item, periksa:
+
+::: {.incremental}
+
+1. Apakah item ini memuat **lebih dari satu gagasan**?
+2. Apakah ada **negasi ganda** atau kata ganti yang rujukannya tidak jelas?
+3. Apakah item ini menanyakan **perilaku** atau menanyakan **alasan**?
+4. Apakah **kurun waktunya** sama dengan item lain?
+5. Apakah ada **kata bermuatan nilai** yang mengarahkan jawaban?
+6. Apakah item ini bisa dijawab sama oleh orang dengan tingkat konstruk yang berbeda? Kalau ya, item itu tidak membedakan apa pun.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+Kembalikan daftarnya dengan **catatan tertulis**, bukan penilaian umum. "Item 7 ganda: gugup dan berkeringat" jauh lebih berguna daripada "itemnya kurang jelas".
+:::
+
+## Yang harus dihasilkan
+
+::: {.incremental}
+
+* **Kisi-kisi** dalam bentuk tabel, lengkap dengan bobot dan jumlah item.
+* **Daftar item** yang sudah diperbaiki setelah telaah antar-kelompok, disertai penanda aspek untuk tiap item.
+* **Format respons** beserta labelnya.
+* **Draf kuesioner** lengkap dengan pengantar dan petunjuk pengisian.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+Bawa semuanya ke Pertemuan 11. Panel ahli tidak bisa menilai relevansi item tanpa membaca definisi konstruk dan kisi-kisi Anda.
+:::
+
+## Untuk Pertemuan 11
+
+::: {.incremental}
+
+* Anda melanjutkan bersama **Dian Kartika Amelia Arbi, M.Psi., psikolog**.
+
+* **Senin, pukul 13.00 WIB, Ruang 303** — hari, jam, dan tempatnya berbeda dari yang selama ini. Periksa lagi jadwalnya.
+
+* Materinya: review ahli dan perhitungan *Content Validity Index*.
+
+* Bawa dokumen spesifikasi konstruk, kisi-kisi, dan daftar item kelompok Anda.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+#### Persiapan
+Baca **Polit & Beck (2006)** kalau sempat. Yang lebih penting: pastikan daftar item kelompok Anda sudah rapi, karena itulah yang akan dinilai panel.
 :::
 
 ## Ada pertanyaan❓
@@ -41,3 +502,27 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 * Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
 * Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
 :::
+
+## Rujukan {.smaller}
+
+Bikos, L. H. *ReCentering psych stats: Psychometrics*. <https://lhbikos.github.io/ReC_Psychometrics/>
+
+Boateng, G. O., Neilands, T. B., Frongillo, E. A., Melgar-Quiñonez, H. R., & Young, S. L. (2018). Best practices for developing and validating scales for health, social, and behavioral research: A primer. *Frontiers in Public Health, 6*, 149.
+
+Chyung, S. Y., Barkin, J. R., & Shamsy, J. A. (2018). Evidence-based survey design: The use of negatively worded items in surveys. *Performance Improvement, 57*(3), 16–25.
+
+Chyung, S. Y., Kennedy, M., & Campbell, I. (2018). Evidence-based survey design: The use of ascending or descending order of Likert-type response options. *Performance Improvement, 57*(9), 9–16.
+
+Chyung, S. Y., Roberts, K., Swanson, I., & Hankinson, A. (2017). Evidence-based survey design: The use of a midpoint on the Likert scale. *Performance Improvement, 56*(10), 15–23.
+
+DeVellis, R. F., & Thorpe, C. T. (2022). *Scale development: Theory and applications* (5th ed.). SAGE.
+
+Krosnick, J. A., & Presser, S. (2010). Question and questionnaire design. In P. V. Marsden & J. D. Wright (Eds.), *Handbook of survey research* (2nd ed., pp. 263–313). Emerald.
+
+Likert, R. (1932). A technique for the measurement of attitudes. *Archives of Psychology, 22*(140), 1–55.
+
+Pershing, J. A., & Pershing, J. L. (2001). Ineffective reaction evaluation. *Performance Improvement Quarterly, 14*(1), 73–90.
+
+Swain, S. D., Weathers, D., & Niedrich, R. W. (2008). Assessing three sources of misresponse to reversed Likert items. *Journal of Marketing Research, 45*(1), 116–131.
+
+Weijters, B., Baumgartner, H., & Schillewaert, N. (2013). Reversed item bias: An integrative model. *Psychological Methods, 18*(3), 320–334.

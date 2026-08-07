@@ -12,7 +12,7 @@
 
   <meta name="author" content="Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi">
   <meta name="dcterms.date" content="2026-08-07">
-  <title>Penyusunan Skala Psikologi – Reliabilitas: Konsep Dasar dan Implementasinya</title>
+  <title>Penyusunan Skala Psikologi – Reliability: Core Concepts and Implementation</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -136,8 +136,8 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Reliabilitas: Konsep Dasar dan Implementasinya</h1>
-  <p class="subtitle">Penyusunan Skala Psikologi</p>
+  <h1 class="title">Reliability: Core Concepts and Implementation</h1>
+  <p class="subtitle">Psychological Scale Construction</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -145,7 +145,7 @@
 Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi 
 </div>
         <p class="quarto-title-affiliation">
-            <a href="https://psikologi.unair.ac.id/dosen-rizqy-amelia-zein/"><em>Departemen Psikologi, Universitas Airlangga</em></a>
+            <a href="https://psikologi.unair.ac.id/dosen-rizqy-amelia-zein/"><em>Department of Psychology, Universitas Airlangga</em></a>
           </p>
     </div>
 </div>
@@ -155,31 +155,31 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <section id="outline" class="slide level2">
 <h2><em>Outline</em></h2>
 <ul>
-<li class="fragment">Reliabilitas bukan satu hal: <strong>tiga pertanyaan yang berbeda</strong></li>
-<li class="fragment"><em>Split-half</em> dan rumus <strong>Spearman-Brown</strong> yang sudah dua kali kita tunda</li>
-<li class="fragment"><strong><em>Cronbach’s alpha</em></strong>: apa yang sebenarnya diukurnya, dan apa yang tidak</li>
-<li class="fragment">Demonstrasi dengan data riil: <strong><span class="math inline">\(\alpha\)</span> tidak bisa mendeteksi multidimensionalitas</strong></li>
-<li class="fragment">Koefisien <strong><em>omega</em></strong> dan asumsi <em>tau-equivalent</em> dari Pertemuan 3</li>
-<li class="fragment">Menghitungnya di <strong>jamovi</strong>, dan apa yang sebaiknya Anda laporkan</li>
+<li class="fragment">Reliability is not one thing: <strong>three different questions</strong></li>
+<li class="fragment"><em>Split-half</em> and the <strong>Spearman-Brown</strong> formula we have twice deferred</li>
+<li class="fragment"><strong><em>Cronbach’s alpha</em></strong>: what it actually measures, and what it does not</li>
+<li class="fragment">A demonstration with real data: <strong><span class="math inline">\(\alpha\)</span> cannot detect multidimensionality</strong></li>
+<li class="fragment">The <strong><em>omega</em></strong> coefficient and the tau-equivalence assumption from Session 3</li>
+<li class="fragment">Computing it in <strong>jamovi</strong>, and what you should report</li>
 </ul>
 
 <aside><div>
-<p><strong><em>Disclosure</em> penggunaan akal imitasi (AI)</strong></p>
-<p>Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk <em>brainstorming</em> materi, mencari referensi, dan melakukan <em>troubleshooting</em> kode <code>quarto</code> dan <code>git</code>. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini.</p>
+<p><strong><em>Disclosure</em> on the use of artificial intelligence (AI)</strong></p>
+<p>We used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate references, and troubleshoot <code>quarto</code> and <code>git</code> code. We (Amel and Dian) take full responsibility for the substance and presentation of these slides.</p>
 </div></aside></section>
 <section>
-<section id="dari-definisi-ke-perhitungan" class="title-slide slide level1 center" data-background-color="#14497F">
-<h1>Dari definisi ke perhitungan</h1>
+<section id="from-a-definition-to-a-computation" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1>From a definition to a computation</h1>
 
 </section>
-<section id="yang-sudah-kita-punya" class="slide level2">
-<h2>Yang sudah kita punya</h2>
-<p>Di Pertemuan 3 kita mendefinisikan reliabilitas sebagai proporsi varians:</p>
+<section id="what-we-already-have" class="slide level2">
+<h2>What we already have</h2>
+<p>In Session 3 we defined reliability as a proportion of variance:</p>
 <p><span class="math display">\[\rho_{XX'} = \frac{\sigma^2_T}{\sigma^2_X}\]</span></p>
 <div class="fragment">
 <ul>
-<li class="fragment"><p>Masalahnya, <span class="math inline">\(\sigma^2_T\)</span> <strong>tidak bisa kita amati</strong>. Jadi rumus itu tidak bisa langsung dihitung.</p></li>
-<li class="fragment"><p>Seluruh isi pertemuan hari ini adalah tentang <strong>cara mengestimasinya</strong> dari sesuatu yang bisa kita amati: korelasi.</p></li>
+<li class="fragment"><p>The problem is that <span class="math inline">\(\sigma^2_T\)</span> is <strong>unobservable</strong>. So that formula cannot be computed directly.</p></li>
+<li class="fragment"><p>Everything in today’s session is about <strong>estimating it</strong> from something we can observe: correlations.</p></li>
 </ul>
 </div>
 <div class="fragment">
@@ -189,22 +189,22 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Data yang kita pakai hari ini</strong></p>
+<p><strong>The data we use today</strong></p>
 </div>
 <div class="callout-content">
-<p>Semua angka pada slide-slide berikut dihitung dari <code>data/data.csv</code> di repositori mata kuliah ini — 50 item IPIP <em>Big Five</em>, <strong>n = 19.718</strong>. Anda bisa menghitung ulang semuanya sendiri di jamovi.</p>
+<p>Every number on the following slides is computed from <code>data/data.csv</code> in this course repository — 50 IPIP <em>Big Five</em> items, <strong>n = 19,718</strong>. You can reproduce all of it in jamovi.</p>
 </div>
 </div>
 </div>
 </div>
 </section></section>
 <section>
-<section id="reliabilitas-bukan-satu-hal" class="title-slide slide level1 center" data-background-color="#14497F">
-<h1>Reliabilitas bukan satu hal</h1>
+<section id="reliability-is-not-one-thing" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1>Reliability is not one thing</h1>
 
 </section>
-<section id="tiga-pertanyaan-yang-berbeda" class="slide level2">
-<h2>Tiga pertanyaan yang berbeda</h2>
+<section id="three-different-questions" class="slide level2">
+<h2>Three different questions</h2>
 <table class="caption-top">
 <colgroup>
 <col style="width: 33%">
@@ -213,25 +213,25 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Pertanyaan</th>
-<th>Sumber <em>error</em> yang diperiksa</th>
-<th>Metode</th>
+<th>Question</th>
+<th>Source of error examined</th>
+<th>Method</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Apakah skornya stabil <strong>lintas waktu</strong>?</td>
-<td>Fluktuasi sesaat</td>
+<td>Are scores stable <strong>over time</strong>?</td>
+<td>Momentary fluctuation</td>
 <td><em>Test-retest</em></td>
 </tr>
 <tr class="even">
-<td>Apakah skornya setara <strong>lintas bentuk tes</strong>?</td>
-<td>Pemilihan item</td>
+<td>Are scores equivalent <strong>across forms</strong>?</td>
+<td>Item selection</td>
 <td><em>Alternate forms</em></td>
 </tr>
 <tr class="odd">
-<td>Apakah item-itemnya <strong>saling konsisten</strong>?</td>
-<td>Variasi antar-item</td>
+<td>Are the items <strong>consistent with each other</strong>?</td>
+<td>Variation between items</td>
 <td><em>Split-half</em>, <span class="math inline">\(\alpha\)</span>, <span class="math inline">\(\omega\)</span></td>
 </tr>
 </tbody>
@@ -243,11 +243,11 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Ini bukan tiga cara menghitung hal yang sama</strong></p>
+<p><strong>These are not three ways of computing the same thing</strong></p>
 </div>
 <div class="callout-content">
-<p>Ketiganya memeriksa <strong>sumber <em>error</em> yang berbeda</strong>. Sebuah skala bisa sangat konsisten secara internal tetapi sama sekali tidak stabil dari minggu ke minggu.</p>
-<p>Melaporkan <span class="math inline">\(\alpha\)</span> <strong>tidak mengatakan apa pun</strong> tentang stabilitas skor Anda lintas waktu.</p>
+<p>Each examines a <strong>different source of error</strong>. A scale can be highly internally consistent and yet completely unstable from one week to the next.</p>
+<p>Reporting <span class="math inline">\(\alpha\)</span> tells you <strong>nothing</strong> about the stability of your scores over time.</p>
 </div>
 </div>
 </div>
@@ -256,9 +256,9 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <section id="test-retest" class="slide level2">
 <h2>Test-retest</h2>
 <ul>
-<li class="fragment"><p>Ukur orang yang sama dua kali, lalu korelasikan kedua skornya.</p></li>
-<li class="fragment"><p><strong>Jarak waktunya sangat menentukan.</strong> Terlalu dekat, responden masih ingat jawabannya. Terlalu jauh, atributnya mungkin memang sudah berubah.</p></li>
-<li class="fragment"><p>Ada satu persoalan yang tidak bisa dihindari: kalau korelasinya rendah, kita <strong>tidak bisa membedakan</strong> apakah alat ukurnya tidak reliabel atau orangnya memang berubah.</p></li>
+<li class="fragment"><p>Measure the same people twice and correlate the two scores.</p></li>
+<li class="fragment"><p><strong>The interval matters a great deal.</strong> Too short and respondents remember their answers; too long and the attribute may genuinely have changed.</p></li>
+<li class="fragment"><p>There is one problem that cannot be avoided: if the correlation is low, we <strong>cannot tell</strong> whether the instrument is unreliable or the people have changed.</p></li>
 </ul>
 <div class="fragment">
 <div class="callout callout-note callout-titled callout-style-default">
@@ -267,39 +267,39 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Untuk proyek Anda</strong></p>
+<p><strong>For your project</strong></p>
 </div>
 <div class="callout-content">
-<p><em>Test-retest</em> mengharuskan Anda menemui responden yang sama dua kali. Dengan jadwal semester ini, itu <strong>tidak realistis</strong>.</p>
-<p>Yang perlu Anda catat: konsistensi internal yang akan Anda hitung <strong>tidak menggantikan</strong> informasi ini.</p>
+<p>Test-retest requires reaching the same respondents twice. Given this semester’s schedule, that is <strong>not realistic</strong>.</p>
+<p>What matters is that you know the internal consistency you will compute <strong>does not substitute</strong> for this information.</p>
 </div>
 </div>
 </div>
 </div>
 </section></section>
 <section>
-<section id="split-half-dan-spearman-brown" class="title-slide slide level1 center" data-background-color="#14497F">
-<h1>Split-half dan Spearman-Brown</h1>
+<section id="split-half-and-spearman-brown" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1>Split-half and Spearman-Brown</h1>
 
 </section>
-<section id="gagasannya-sederhana" class="slide level2">
-<h2>Gagasannya sederhana</h2>
+<section id="a-simple-idea" class="slide level2">
+<h2>A simple idea</h2>
 <ul>
-<li class="fragment"><p>Belah skala menjadi dua bagian — misalnya item ganjil dan item genap.</p></li>
-<li class="fragment"><p>Hitung skor total tiap bagian, lalu korelasikan keduanya.</p></li>
-<li class="fragment"><p>Kalau kedua bagian mengukur hal yang sama, korelasinya harus tinggi.</p></li>
+<li class="fragment"><p>Split the scale into two halves — say odd-numbered and even-numbered items.</p></li>
+<li class="fragment"><p>Compute a total for each half and correlate them.</p></li>
+<li class="fragment"><p>If both halves measure the same thing, the correlation should be high.</p></li>
 </ul>
 <div class="fragment">
-<p>Pada skala Extraversion IPIP (10 item), korelasi antara belahan ganjil dan genap adalah:</p>
-<p><span class="math display">\[r = 0{,}748\]</span></p>
+<p>For the IPIP Extraversion scale (10 items), the odd-even correlation is:</p>
+<p><span class="math display">\[r = 0.748\]</span></p>
 </div>
 </section>
-<section id="tetapi-ada-masalah" class="slide level2">
-<h2>Tetapi ada masalah</h2>
+<section id="but-there-is-a-problem" class="slide level2">
+<h2>But there is a problem</h2>
 <ul>
-<li class="fragment"><p>Korelasi itu adalah reliabilitas <strong>tes sepanjang 5 item</strong>, bukan 10 item.</p></li>
-<li class="fragment"><p>Kita baru saja memotong skala kita menjadi separuhnya, lalu melaporkan reliabilitas versi separuh itu.</p></li>
-<li class="fragment"><p>Ingat dari Pertemuan 3: makin sedikit item, makin besar porsi <em>error</em>. Jadi angka 0,748 <strong>lebih rendah</strong> daripada reliabilitas skala yang sebenarnya.</p></li>
+<li class="fragment"><p>That correlation is the reliability of a <strong>5-item test</strong>, not a 10-item one.</p></li>
+<li class="fragment"><p>We have just cut our scale in half and then reported the reliability of the halved version.</p></li>
+<li class="fragment"><p>Recall from Session 3: fewer items means a larger share of error. So 0.748 <strong>underestimates</strong> the real reliability of the scale.</p></li>
 </ul>
 <div class="fragment">
 <div class="callout callout-tip callout-titled callout-style-default">
@@ -308,22 +308,22 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Yang dibutuhkan</strong></p>
+<p><strong>What we need</strong></p>
 </div>
 <div class="callout-content">
-<p>Sebuah rumus yang menjawab: <em>“kalau tes sepanjang ini punya reliabilitas sekian, berapa reliabilitasnya kalau panjangnya dilipatgandakan?”</em></p>
+<p>A formula that answers: <em>“if a test of this length has reliability X, what would its reliability be if we doubled its length?”</em></p>
 </div>
 </div>
 </div>
 </div>
 </section>
-<section id="rumus-spearman-brown" class="slide level2">
-<h2>Rumus Spearman-Brown</h2>
-<p>Untuk <em>split-half</em>, koreksi dari separuh ke panjang penuh:</p>
-<p><span class="math display">\[\rho_{\text{penuh}} = \frac{2r}{1+r}\]</span></p>
+<section id="the-spearman-brown-formula" class="slide level2">
+<h2>The Spearman-Brown formula</h2>
+<p>For split-half, correcting from half length to full length:</p>
+<p><span class="math display">\[\rho_{\text{full}} = \frac{2r}{1+r}\]</span></p>
 <div class="fragment">
-<p>Dengan <span class="math inline">\(r = 0{,}748\)</span>:</p>
-<p><span class="math display">\[\rho = \frac{2 \times 0{,}748}{1 + 0{,}748} = \frac{1{,}496}{1{,}748} = \mathbf{0{,}856}\]</span></p>
+<p>With <span class="math inline">\(r = 0.748\)</span>:</p>
+<p><span class="math display">\[\rho = \frac{2 \times 0.748}{1 + 0.748} = \frac{1.496}{1.748} = \mathbf{0.856}\]</span></p>
 </div>
 <div class="fragment">
 <div class="callout callout-note callout-titled callout-style-default">
@@ -335,18 +335,18 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <p><strong>Note</strong></p>
 </div>
 <div class="callout-content">
-<p>Rumus ini diturunkan secara terpisah oleh <strong>Spearman (1910)</strong> dan <strong>Brown (1910)</strong> pada tahun dan jurnal yang sama, sehingga namanya digabung.</p>
+<p>The formula was derived independently by <strong>Spearman (1910)</strong> and <strong>Brown (1910)</strong> in the same year and the same journal, which is why both names are attached.</p>
 </div>
 </div>
 </div>
 </div>
 </section>
-<section id="bentuk-umumnya" class="slide level2">
-<h2>Bentuk umumnya</h2>
-<p>Kalau panjang tes dikalikan <span class="math inline">\(n\)</span> kali:</p>
+<section id="the-general-form" class="slide level2">
+<h2>The general form</h2>
+<p>If test length is multiplied by <span class="math inline">\(n\)</span>:</p>
 <p><span class="math display">\[\rho^* = \frac{n\rho}{1 + (n-1)\rho}\]</span></p>
 <div class="fragment">
-<p>Inilah rumus yang <strong>dua kali kita tunda</strong> — di Pertemuan 1 ketika membahas anak panah Bernoulli, dan di Pertemuan 3 ketika membahas kenapa menambah item menaikkan reliabilitas.</p>
+<p>This is the formula we have <strong>deferred twice</strong> — in Session 1 with Bernoulli’s arrows, and in Session 3 when explaining why adding items raises reliability.</p>
 </div>
 <div class="fragment">
 <div class="callout callout-warning callout-titled callout-style-default">
@@ -355,21 +355,21 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Syarat yang sering dilupakan</strong></p>
+<p><strong>The condition people forget</strong></p>
 </div>
 <div class="callout-content">
-<p>Rumus ini mengasumsikan item tambahannya <strong>setara</strong> dengan item yang sudah ada. Menambah sepuluh item asal-asalan tidak akan memberi hasil seperti ini.</p>
+<p>The formula assumes the added items are <strong>equivalent</strong> to the existing ones. Adding ten careless items will not produce this result.</p>
 </div>
 </div>
 </div>
 </div>
 </section>
-<section id="belahan-yang-mana" class="slide level2">
-<h2>Belahan yang mana?</h2>
+<section id="but-which-half" class="slide level2">
+<h2>But which half?</h2>
 <ul>
-<li class="fragment"><p>Skala 10 item bisa dibelah menjadi dua bagian dengan <strong>126 cara berbeda</strong>. Ganjil-genap hanyalah salah satunya.</p></li>
-<li class="fragment"><p>Kami mencoba <strong>500 pembelahan acak</strong> pada skala Extraversion. Hasil Spearman-Brown-nya berkisar dari <strong>0,845 sampai 0,920</strong>.</p></li>
-<li class="fragment"><p>Jadi jawabannya bergantung pada belahan mana yang kebetulan Anda pilih. Ini tentu bukan situasi yang ideal.</p></li>
+<li class="fragment"><p>A 10-item scale can be split into halves in <strong>126 different ways</strong>. Odd-even is only one of them.</p></li>
+<li class="fragment"><p>We tried <strong>500 random splits</strong> of the Extraversion scale. The Spearman-Brown results ranged from <strong>0.845 to 0.920</strong>.</p></li>
+<li class="fragment"><p>So the answer depends on which split you happen to choose. That is not an ideal situation.</p></li>
 </ul>
 <div class="fragment">
 <div class="callout callout-tip callout-titled callout-style-default">
@@ -378,11 +378,11 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Jalan keluarnya</strong></p>
+<p><strong>The way out</strong></p>
 </div>
 <div class="callout-content">
-<p>Kalau tiap pembelahan memberi jawaban yang berbeda, <strong>ambil saja rata-rata dari semuanya</strong>.</p>
-<p>Itulah yang dilakukan Cronbach’s alpha.</p>
+<p>If every split gives a different answer, <strong>take the average of all of them</strong>.</p>
+<p>That is what Cronbach’s alpha does.</p>
 </div>
 </div>
 </div>
@@ -393,24 +393,24 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <h1>Cronbach’s alpha</h1>
 
 </section>
-<section id="rumusnya" class="slide level2">
-<h2>Rumusnya</h2>
+<section id="the-formula" class="slide level2">
+<h2>The formula</h2>
 <p><span class="math display">\[\alpha = \frac{k}{k-1}\left(1 - \frac{\sum \sigma^2_i}{\sigma^2_X}\right)\]</span></p>
-<p>dengan <span class="math inline">\(k\)</span> = jumlah item, <span class="math inline">\(\sigma^2_i\)</span> = varians tiap item, <span class="math inline">\(\sigma^2_X\)</span> = varians skor total.</p>
+<p>where <span class="math inline">\(k\)</span> is the number of items, <span class="math inline">\(\sigma^2_i\)</span> each item’s variance, and <span class="math inline">\(\sigma^2_X\)</span> the variance of the total score.</p>
 <div class="fragment">
 <ul>
-<li class="fragment"><p>Perhatikan apa yang dibandingkan: <strong>jumlah varians item</strong> dengan <strong>varians skor total</strong>.</p></li>
-<li class="fragment"><p>Kalau item-itemnya tidak berkorelasi, varians total hanya sebesar jumlah varians item, dan <span class="math inline">\(\alpha\)</span> mendekati nol.</p></li>
-<li class="fragment"><p>Kalau item-itemnya berkorelasi kuat, varians total jauh lebih besar, dan <span class="math inline">\(\alpha\)</span> mendekati satu.</p></li>
+<li class="fragment"><p>Note what is being compared: <strong>the sum of item variances</strong> against <strong>the variance of the total</strong>.</p></li>
+<li class="fragment"><p>If items do not correlate, the total variance is just the sum of item variances, and <span class="math inline">\(\alpha\)</span> approaches zero.</p></li>
+<li class="fragment"><p>If items correlate strongly, the total variance is much larger, and <span class="math inline">\(\alpha\)</span> approaches one.</p></li>
 </ul>
 </div>
 </section>
-<section id="alpha-adalah-rata-rata-dari-semua-pembelahan" class="slide level2">
-<h2><span class="math inline">\(\alpha\)</span> adalah rata-rata dari semua pembelahan</h2>
+<section id="alpha-is-the-average-of-all-splits" class="slide level2">
+<h2><span class="math inline">\(\alpha\)</span> is the average of all splits</h2>
 <ul>
-<li class="fragment"><p>Dari 500 pembelahan acak tadi, rata-rata koefisien Spearman-Brown-nya adalah <strong>0,892</strong>.</p></li>
-<li class="fragment"><p>Cronbach’s alpha untuk skala yang sama adalah <strong>0,892</strong>.</p></li>
-<li class="fragment"><p>Angkanya sama persis.</p></li>
+<li class="fragment"><p>Across those 500 random splits, the mean Spearman-Brown coefficient was <strong>0.892</strong>.</p></li>
+<li class="fragment"><p>Cronbach’s alpha for the same scale is <strong>0.892</strong>.</p></li>
+<li class="fragment"><p>Exactly the same number.</p></li>
 </ul>
 <div class="fragment">
 <div class="callout callout-note callout-titled callout-style-default">
@@ -419,33 +419,33 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Apa arti <span class="math inline">\(\alpha\)</span> sebenarnya</strong></p>
+<p><strong>What <span class="math inline">\(\alpha\)</span> actually is</strong></p>
 </div>
 <div class="callout-content">
-<p><span class="math inline">\(\alpha\)</span> bukan koefisien istimewa. Ia adalah <strong>rata-rata dari seluruh kemungkinan <em>split-half</em></strong> pada skala Anda (Cronbach, 1951).</p>
-<p>Itu sebabnya ia menyelesaikan masalah “belahan yang mana”: ia memakai semuanya.</p>
+<p><span class="math inline">\(\alpha\)</span> is not a special coefficient. It is <strong>the average of all possible split-halves</strong> of your scale (Cronbach, 1951).</p>
+<p>That is how it solves the “which half?” problem: it uses all of them.</p>
 </div>
 </div>
 </div>
 </div>
 </section>
-<section id="apa-yang-menentukan-besarnya-alpha" class="slide level2">
-<h2>Apa yang menentukan besarnya <span class="math inline">\(\alpha\)</span></h2>
+<section id="what-determines-the-size-of-alpha" class="slide level2">
+<h2>What determines the size of <span class="math inline">\(\alpha\)</span></h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="libs/alpha-curve.svg" class="quarto-figure quarto-figure-center" style="width:68.0%"></p>
+<p><img data-src="libs/alpha-curve-en.svg" class="quarto-figure quarto-figure-center" style="width:68.0%"></p>
 </figure>
 </div>
 </section>
-<section id="hanya-dua-hal" class="slide level2">
-<h2>Hanya dua hal</h2>
+<section id="only-two-things" class="slide level2">
+<h2>Only two things</h2>
 <ul>
-<li class="fragment"><strong>Jumlah item</strong> (<span class="math inline">\(k\)</span>) dan <strong>rata-rata korelasi antar-item</strong> (<span class="math inline">\(\bar{r}\)</span>). Tidak ada yang lain.</li>
+<li class="fragment">The <strong>number of items</strong> (<span class="math inline">\(k\)</span>) and the <strong>mean inter-item correlation</strong> (<span class="math inline">\(\bar{r}\)</span>). Nothing else.</li>
 </ul>
 <p><span class="math display">\[\alpha = \frac{k\bar{r}}{1 + (k-1)\bar{r}}\]</span></p>
 <ul>
-<li class="fragment"><p>Skala Extraversion: <span class="math inline">\(\bar{r} = 0{,}45\)</span> dengan 10 item, menghasilkan <span class="math inline">\(\alpha = 0{,}89\)</span>.</p></li>
-<li class="fragment"><p>Perhatikan kurva paling bawah: dengan <span class="math inline">\(\bar{r} = 0{,}10\)</span>, Anda butuh <strong>lebih dari 35 item</strong> untuk menembus 0,80.</p></li>
+<li class="fragment"><p>The Extraversion scale: <span class="math inline">\(\bar{r} = .45\)</span> with 10 items gives <span class="math inline">\(\alpha = .89\)</span>.</p></li>
+<li class="fragment"><p>Look at the bottom curve: with <span class="math inline">\(\bar{r} = .10\)</span> you would need <strong>more than 35 items</strong> to pass .80.</p></li>
 </ul>
 <div class="fragment">
 <div class="callout callout-warning callout-titled callout-style-default">
@@ -454,57 +454,57 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Konsekuensi yang perlu diperhatikan</strong></p>
+<p><strong>A consequence worth noting</strong></p>
 </div>
 <div class="callout-content">
-<p>Karena <span class="math inline">\(k\)</span> ikut menentukan, <strong><span class="math inline">\(\alpha\)</span> yang tinggi bisa dibeli hanya dengan menambah item</strong>. Anda tidak perlu item yang lebih baik; cukup item yang lebih banyak.</p>
+<p>Because <span class="math inline">\(k\)</span> is part of it, <strong>a high <span class="math inline">\(\alpha\)</span> can be bought simply by adding items</strong>. You do not need better items; you just need more of them.</p>
 </div>
 </div>
 </div>
 </div>
 </section>
-<section id="proyeksi-spearman-brown-pada-skala-kita" class="slide level2">
-<h2>Proyeksi Spearman-Brown pada skala kita</h2>
-<p>Mulai dari <span class="math inline">\(\alpha = 0{,}892\)</span> pada 10 item:</p>
+<section id="spearman-brown-projections-for-our-scale" class="slide level2">
+<h2>Spearman-Brown projections for our scale</h2>
+<p>Starting from <span class="math inline">\(\alpha = .892\)</span> at 10 items:</p>
 <table class="caption-top">
 <thead>
 <tr class="header">
-<th style="text-align: center;">Jumlah item</th>
-<th style="text-align: center;">Proyeksi <span class="math inline">\(\alpha\)</span></th>
+<th style="text-align: center;">Number of items</th>
+<th style="text-align: center;">Projected <span class="math inline">\(\alpha\)</span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: center;">5</td>
-<td style="text-align: center;">0,805</td>
+<td style="text-align: center;">.805</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">10</td>
-<td style="text-align: center;"><strong>0,892</strong></td>
+<td style="text-align: center;"><strong>.892</strong></td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">20</td>
-<td style="text-align: center;">0,943</td>
+<td style="text-align: center;">.943</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">30</td>
-<td style="text-align: center;">0,961</td>
+<td style="text-align: center;">.961</td>
 </tr>
 </tbody>
 </table>
 <div class="fragment">
 <ul>
-<li class="fragment"><p>Menggandakan panjang skala menaikkan <span class="math inline">\(\alpha\)</span> sebesar 0,05. Menggandakannya lagi hanya menambah 0,018.</p></li>
-<li class="fragment"><p><strong>Tambahan keuntungannya makin lama makin kecil</strong>, sementara beban responden terus bertambah.</p></li>
+<li class="fragment"><p>Doubling the scale raises <span class="math inline">\(\alpha\)</span> by .05. Doubling it again adds only .018.</p></li>
+<li class="fragment"><p><strong>The returns keep shrinking</strong> while respondent burden keeps growing.</p></li>
 </ul>
 </div>
 </section>
-<section id="soal-ambang-070" class="slide level2">
-<h2>Soal ambang 0,70</h2>
+<section id="about-the-.70-threshold" class="slide level2">
+<h2>About the .70 threshold</h2>
 <ul>
-<li class="fragment"><p>Hampir semua orang mengutip <strong>0,70</strong> sebagai batas minimum, dan menyebut Nunnally sebagai sumbernya.</p></li>
-<li class="fragment"><p>Lance, Butts, &amp; Michels (2006) memeriksa sumber aslinya. Nunnally menyebut 0,70 sebagai batas untuk <strong>penelitian tahap awal</strong> — untuk pengambilan keputusan tentang individu, ia menyarankan <strong>0,90 atau lebih</strong>.</p></li>
-<li class="fragment"><p>Angka 0,70 yang dipakai di mana-mana sebenarnya berasal dari <strong>kutipan yang tidak tepat</strong>.</p></li>
+<li class="fragment"><p>Almost everyone cites <strong>.70</strong> as the minimum, and attributes it to Nunnally.</p></li>
+<li class="fragment"><p>Lance, Butts, &amp; Michels (2006) went back to the source. Nunnally proposed .70 for <strong>early-stage research</strong> — for decisions about individuals he recommended <strong>.90 or higher</strong>.</p></li>
+<li class="fragment"><p>The .70 used everywhere is, in effect, <strong>a misapplied citation</strong>.</p></li>
 </ul>
 <div class="fragment">
 <div class="callout callout-warning callout-titled callout-style-default">
@@ -513,40 +513,40 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Yang perlu Anda lakukan</strong></p>
+<p><strong>What to do instead</strong></p>
 </div>
 <div class="callout-content">
-<p>Jangan memperlakukan 0,70 sebagai batas lulus atau tidak lulus. <strong>Sesuaikan dengan tujuan penggunaan skor Anda</strong>: untuk penelitian kelompok, 0,70 memang memadai; untuk keputusan tentang individu, jauh dari cukup.</p>
-<p>Ingat perhitungan SEM di Pertemuan 3 — itulah cara memeriksanya secara konkret.</p>
+<p>Do not treat .70 as pass or fail. <strong>Match it to what your scores are for</strong>: for group-level research .70 is adequate; for decisions about individuals it is nowhere near enough.</p>
+<p>Recall the SEM computation from Session 3 — that is how to check it concretely.</p>
 </div>
 </div>
 </div>
 </div>
 </section></section>
 <section>
-<section id="apa-yang-tidak-diukur-oleh-alpha" class="title-slide slide level1 center" data-background-color="#14497F">
-<h1>Apa yang tidak diukur oleh <span class="math inline">\(\alpha\)</span></h1>
+<section id="what-alpha-does-not-measure" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1>What <span class="math inline">\(\alpha\)</span> does not measure</h1>
 
 </section>
-<section id="sebuah-percobaan" class="slide level2">
-<h2>Sebuah percobaan</h2>
+<section id="an-experiment" class="slide level2">
+<h2>An experiment</h2>
 <ul>
-<li class="fragment"><p>Kami mengambil <strong>5 item Extraversion</strong> dan <strong>5 item Neuroticism</strong> dari data yang sama.</p></li>
-<li class="fragment"><p>Keduanya jelas mengukur konstruk yang <strong>berbeda</strong>. Skala gabungan ini secara substantif tidak masuk akal.</p></li>
-<li class="fragment"><p>Lalu kami memperlakukannya sebagai satu skala 10 item dan menghitung <span class="math inline">\(\alpha\)</span>.</p></li>
+<li class="fragment"><p>We took <strong>5 Extraversion items</strong> and <strong>5 Neuroticism items</strong> from the same dataset.</p></li>
+<li class="fragment"><p>They clearly measure <strong>different</strong> constructs. The combined scale makes no substantive sense.</p></li>
+<li class="fragment"><p>We then treated them as a single 10-item scale and computed <span class="math inline">\(\alpha\)</span>.</p></li>
 </ul>
 <div class="fragment">
 <div class="r-fit-text">
-<p><span class="math inline">\(\alpha = 0{,}616\)</span></p>
+<p><span class="math inline">\(\alpha = 0.616\)</span></p>
 </div>
 </div>
 </section>
-<section id="perhatikan-angka-itu" class="slide level2">
-<h2>Perhatikan angka itu</h2>
+<section id="look-at-that-number" class="slide level2">
+<h2>Look at that number</h2>
 <ul>
-<li class="fragment"><p>Angka 0,616 <strong>tidak terlihat bermasalah</strong>. Ia terlihat seperti skala yang sedang-sedang saja dan masih bisa diperbaiki.</p></li>
-<li class="fragment"><p>Banyak laporan akan menuliskannya sebagai “cukup memadai” dan melanjutkan analisis.</p></li>
-<li class="fragment"><p>Padahal skala itu <strong>mencampur dua konstruk yang berbeda</strong>, dan kita tahu persis bahwa ia mencampurnya, karena kita sendiri yang menyusunnya.</p></li>
+<li class="fragment"><p>0.616 <strong>does not look problematic</strong>. It looks like a middling scale that could be improved.</p></li>
+<li class="fragment"><p>Many reports would describe it as “acceptable” and carry on with the analysis.</p></li>
+<li class="fragment"><p>Yet that scale <strong>mixes two different constructs</strong>, and we know it does, because we built it that way on purpose.</p></li>
 </ul>
 <div class="fragment">
 <div class="callout callout-warning callout-titled callout-style-default">
@@ -555,58 +555,58 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Poin utama pertemuan hari ini</strong></p>
+<p><strong>The main point of today’s session</strong></p>
 </div>
 <div class="callout-content">
-<p><strong><span class="math inline">\(\alpha\)</span> tidak dirancang untuk mendeteksi berapa banyak dimensi yang ada di dalam skala Anda.</strong> Ia hanya melihat rata-rata korelasi antar-item dan jumlah item.</p>
+<p><strong><span class="math inline">\(\alpha\)</span> was never designed to detect how many dimensions live inside your scale.</strong> It looks only at the mean inter-item correlation and the number of items.</p>
 </div>
 </div>
 </div>
 </div>
 </section>
-<section id="apa-yang-sebenarnya-terjadi-di-dalamnya" class="slide level2">
-<h2>Apa yang sebenarnya terjadi di dalamnya</h2>
+<section id="what-is-actually-going-on-inside" class="slide level2">
+<h2>What is actually going on inside</h2>
 <table class="caption-top">
 <thead>
 <tr class="header">
 <th></th>
-<th style="text-align: center;">Rata-rata korelasi</th>
+<th style="text-align: center;">Mean correlation</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Antar-item di dalam blok Extraversion</td>
-<td style="text-align: center;">0,507</td>
+<td>Between items within the Extraversion block</td>
+<td style="text-align: center;">.507</td>
 </tr>
 <tr class="even">
-<td>Antar-item di dalam blok Neuroticism</td>
-<td style="text-align: center;">0,421</td>
+<td>Between items within the Neuroticism block</td>
+<td style="text-align: center;">.421</td>
 </tr>
 <tr class="odd">
-<td><strong>Antar-blok</strong></td>
-<td style="text-align: center;"><strong>−0,125</strong></td>
+<td><strong>Between blocks</strong></td>
+<td style="text-align: center;"><strong>−.125</strong></td>
 </tr>
 </tbody>
 </table>
 <div class="fragment">
 <ul>
-<li class="fragment"><p>Di dalam tiap blok, korelasinya tinggi. Itu sudah cukup untuk mengangkat <span class="math inline">\(\alpha\)</span> ke 0,616.</p></li>
-<li class="fragment"><p>Korelasi antar-blok negatif dan kecil — tanda bahwa keduanya bukan satu hal.</p></li>
-<li class="fragment"><p><em>Eigenvalue</em> matriks korelasinya: <strong>3,53 — 2,23 — 0,79</strong>. Dua yang pertama sama-sama besar, artinya ada <strong>dua</strong> dimensi, bukan satu.</p></li>
+<li class="fragment"><p>Within each block the correlations are high. That alone is enough to lift <span class="math inline">\(\alpha\)</span> to .616.</p></li>
+<li class="fragment"><p>The between-block correlation is small and negative — a sign that these are not one thing.</p></li>
+<li class="fragment"><p>The eigenvalues of the correlation matrix: <strong>3.53 — 2.23 — 0.79</strong>. The first two are both large, meaning <strong>two</strong> dimensions, not one.</p></li>
 </ul>
 </div>
 </section>
-<section id="sekarang-hitung-omega" class="slide level2">
-<h2>Sekarang hitung <span class="math inline">\(\omega\)</span></h2>
+<section id="now-compute-omega" class="slide level2">
+<h2>Now compute <span class="math inline">\(\omega\)</span></h2>
 <div class="r-fit-text">
-<p><span class="math inline">\(\alpha = 0{,}616\)</span> tetapi <span class="math inline">\(\omega = 0{,}151\)</span></p>
+<p><span class="math inline">\(\alpha = 0.616\)</span> but <span class="math inline">\(\omega = 0.151\)</span></p>
 </div>
 <p><br></p>
 <div class="fragment">
 <ul>
-<li class="fragment"><p><span class="math inline">\(\omega\)</span> menanyakan hal yang berbeda: <strong>berapa proporsi varians skor total yang berasal dari satu faktor umum?</strong></p></li>
-<li class="fragment"><p>Pada set campuran ini, jawabannya nyaris tidak ada — karena memang tidak ada satu faktor umum di sana.</p></li>
-<li class="fragment"><p>Perbedaan antara 0,616 dan 0,151 adalah perbedaan antara <em>“item-item ini saling berkorelasi”</em> dan <em>“item-item ini mengukur satu hal yang sama”</em>.</p></li>
+<li class="fragment"><p><span class="math inline">\(\omega\)</span> asks a different question: <strong>what proportion of total score variance comes from one general factor?</strong></p></li>
+<li class="fragment"><p>For this mixed set the answer is almost none — because there is no single general factor there.</p></li>
+<li class="fragment"><p>The gap between .616 and .151 is the gap between <em>“these items correlate”</em> and <em>“these items measure one thing”</em>.</p></li>
 </ul>
 </div>
 </section></section>
@@ -615,47 +615,47 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <h1>Omega</h1>
 
 </section>
-<section id="kenapa-alpha-butuh-pendamping" class="slide level2">
-<h2>Kenapa <span class="math inline">\(\alpha\)</span> butuh pendamping</h2>
+<section id="why-alpha-needs-a-companion" class="slide level2">
+<h2>Why <span class="math inline">\(\alpha\)</span> needs a companion</h2>
 <ul>
-<li class="fragment"><p>Ingat dari Pertemuan 3: <span class="math inline">\(\alpha\)</span> mengasumsikan model <strong>tau-equivalent</strong>, yaitu semua item punya hubungan yang <strong>sama kuat</strong> dengan variabel laten.</p></li>
-<li class="fragment"><p>Kalau item Anda sebenarnya <em>congeneric</em> — dan hampir selalu begitu — asumsi itu tidak terpenuhi.</p></li>
-<li class="fragment"><p><span class="math inline">\(\omega\)</span> tidak mensyaratkan asumsi tersebut. Perhitungannya memakai <em>loading</em> tiap item apa adanya.</p></li>
+<li class="fragment"><p>Recall from Session 3: <span class="math inline">\(\alpha\)</span> assumes the <strong>tau-equivalent</strong> model, in which every item relates <strong>equally strongly</strong> to the latent variable.</p></li>
+<li class="fragment"><p>If your items are really congeneric — and they almost always are — that assumption does not hold.</p></li>
+<li class="fragment"><p><span class="math inline">\(\omega\)</span> makes no such assumption. It uses each item’s loading as it is.</p></li>
 </ul>
 <div class="fragment">
 <p><span class="math display">\[\omega = \frac{\left(\sum \lambda_i\right)^2}{\left(\sum \lambda_i\right)^2 + \sum \psi_i}\]</span></p>
-<p>dengan <span class="math inline">\(\lambda_i\)</span> = <em>loading</em> item ke-<span class="math inline">\(i\)</span>, dan <span class="math inline">\(\psi_i\)</span> = varians <em>error</em> item tersebut.</p>
+<p>where <span class="math inline">\(\lambda_i\)</span> is item <span class="math inline">\(i\)</span>’s loading and <span class="math inline">\(\psi_i\)</span> its error variance.</p>
 </div>
 </section>
-<section id="pada-skala-yang-benar-benar-satu-dimensi" class="slide level2">
-<h2>Pada skala yang benar-benar satu dimensi</h2>
-<p>Skala Extraversion IPIP, 10 item:</p>
+<section id="on-a-genuinely-unidimensional-scale" class="slide level2">
+<h2>On a genuinely unidimensional scale</h2>
+<p>The IPIP Extraversion scale, 10 items:</p>
 <table class="caption-top">
 <thead>
 <tr class="header">
 <th></th>
-<th style="text-align: center;">Nilai</th>
+<th style="text-align: center;">Value</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Cronbach’s <span class="math inline">\(\alpha\)</span></td>
-<td style="text-align: center;">0,892</td>
+<td style="text-align: center;">.892</td>
 </tr>
 <tr class="even">
 <td>McDonald’s <span class="math inline">\(\omega\)</span></td>
-<td style="text-align: center;">0,893</td>
+<td style="text-align: center;">.893</td>
 </tr>
 <tr class="odd">
-<td>Rentang <em>loading</em></td>
-<td style="text-align: center;">0,55 – 0,76</td>
+<td>Loading range</td>
+<td style="text-align: center;">.55 – .76</td>
 </tr>
 </tbody>
 </table>
 <div class="fragment">
 <ul>
-<li class="fragment"><p>Keduanya <strong>hampir sama</strong>. Ini bukan kebetulan.</p></li>
-<li class="fragment"><p><em>Loading</em>-nya cukup seragam (0,55 sampai 0,76), sehingga pelanggaran asumsi <em>tau-equivalent</em> di sini <strong>kecil</strong>.</p></li>
+<li class="fragment"><p>The two are <strong>almost identical</strong>. That is not a coincidence.</p></li>
+<li class="fragment"><p>The loadings are fairly uniform (.55 to .76), so the violation of tau-equivalence here is <strong>small</strong>.</p></li>
 </ul>
 </div>
 <div class="fragment">
@@ -665,20 +665,20 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Catatan</strong></p>
+<p><strong>A note on this</strong></p>
 </div>
 <div class="callout-content">
-<p><span class="math inline">\(\omega\)</span> <strong>bukan</strong> selalu lebih besar atau lebih kecil dari <span class="math inline">\(\alpha\)</span>. Ketika itemnya seragam, keduanya berdekatan. Perbedaannya muncul justru ketika ada sesuatu yang perlu Anda ketahui.</p>
+<p><span class="math inline">\(\omega\)</span> is <strong>not</strong> always larger or smaller than <span class="math inline">\(\alpha\)</span>. When items are uniform, the two sit close together. The difference appears precisely when there is something you need to know about.</p>
 </div>
 </div>
 </div>
 </div>
 </section>
-<section id="kapan-keduanya-berbeda-jauh" class="slide level2">
-<h2>Kapan keduanya berbeda jauh</h2>
+<section id="when-they-diverge" class="slide level2">
+<h2>When they diverge</h2>
 <ul>
-<li class="fragment"><p><strong>Ketika <em>loading</em> item sangat beragam.</strong> Di sini <span class="math inline">\(\alpha\)</span> cenderung lebih rendah daripada reliabilitas yang sesungguhnya.</p></li>
-<li class="fragment"><p><strong>Ketika skalanya multidimensional.</strong> Di sini <span class="math inline">\(\alpha\)</span> tetap terlihat wajar, sementara <span class="math inline">\(\omega\)</span> jatuh — persis seperti demonstrasi tadi.</p></li>
+<li class="fragment"><p><strong>When item loadings vary widely.</strong> Here <span class="math inline">\(\alpha\)</span> tends to fall below the true reliability.</p></li>
+<li class="fragment"><p><strong>When the scale is multidimensional.</strong> Here <span class="math inline">\(\alpha\)</span> still looks reasonable while <span class="math inline">\(\omega\)</span> collapses — exactly as in the demonstration.</p></li>
 </ul>
 <div class="fragment">
 <div class="callout callout-tip callout-titled callout-style-default">
@@ -687,21 +687,21 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Cara memakainya secara praktis</strong></p>
+<p><strong>How to use this in practice</strong></p>
 </div>
 <div class="callout-content">
-<p>Hitung <strong>keduanya</strong>. Kalau <span class="math inline">\(\alpha\)</span> dan <span class="math inline">\(\omega\)</span> berdekatan, Anda punya bukti tambahan bahwa struktur skala Anda cukup rapi. Kalau jaraknya jauh, itu <strong>tanda bahwa ada yang perlu diperiksa</strong>, bukan pilihan angka mana yang mau dipakai.</p>
+<p>Compute <strong>both</strong>. If <span class="math inline">\(\alpha\)</span> and <span class="math inline">\(\omega\)</span> are close, you have additional evidence that your scale’s structure is reasonably clean. If they are far apart, that is <strong>a sign that something needs checking</strong>, not a choice of which number to use.</p>
 </div>
 </div>
 </div>
 </div>
 </section>
-<section id="tetapi-keduanya-tidak-menggantikan-pemeriksaan-dimensi" class="slide level2">
-<h2>Tetapi keduanya tidak menggantikan pemeriksaan dimensi</h2>
+<section id="but-neither-replaces-checking-dimensionality" class="slide level2">
+<h2>But neither replaces checking dimensionality</h2>
 <ul>
-<li class="fragment"><p>Baik <span class="math inline">\(\alpha\)</span> maupun <span class="math inline">\(\omega\)</span> adalah <strong>satu angka</strong> yang meringkas keseluruhan skala.</p></li>
-<li class="fragment"><p>Satu angka tidak bisa memberi tahu Anda <strong>ada berapa dimensi</strong> di dalam item Anda.</p></li>
-<li class="fragment"><p>Untuk itu Anda perlu melihat struktur korelasinya sendiri: <em>eigenvalue</em>, <em>scree plot</em>, atau analisis faktor.</p></li>
+<li class="fragment"><p>Both <span class="math inline">\(\alpha\)</span> and <span class="math inline">\(\omega\)</span> are <strong>single numbers</strong> summarising an entire scale.</p></li>
+<li class="fragment"><p>A single number cannot tell you <strong>how many dimensions</strong> live in your items.</p></li>
+<li class="fragment"><p>For that you have to look at the correlation structure itself: eigenvalues, a scree plot, or a factor analysis.</p></li>
 </ul>
 <div class="fragment">
 <div class="callout callout-warning callout-titled callout-style-default">
@@ -713,24 +713,24 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <p><strong>Warning</strong></p>
 </div>
 <div class="callout-content">
-<p>Di Pertemuan 13 Anda akan melakukan ini pada data uji coba kelompok Anda. Urutannya penting: <strong>periksa dimensinya dulu, baru hitung koefisien reliabilitasnya</strong> — untuk tiap dimensi secara terpisah.</p>
+<p>In Session 13 you will do this on your group’s pilot data. The order matters: <strong>check dimensionality first, then compute reliability</strong> — separately for each dimension.</p>
 </div>
 </div>
 </div>
 </div>
 </section></section>
 <section>
-<section id="ketepatan-pada-tingkat-individu" class="title-slide slide level1 center" data-background-color="#14497F">
-<h1>Ketepatan pada tingkat individu</h1>
+<section id="precision-at-the-individual-level" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1>Precision at the individual level</h1>
 
 </section>
-<section id="sem-dengan-angka-yang-nyata" class="slide level2">
-<h2>SEM dengan angka yang nyata</h2>
-<p>Skala Extraversion IPIP: <span class="math inline">\(\sigma_X = 9{,}22\)</span> dan <span class="math inline">\(\alpha = 0{,}892\)</span>.</p>
-<p><span class="math display">\[SEM = \sigma_X\sqrt{1-\alpha} = 9{,}22 \times \sqrt{0{,}108} = \mathbf{3{,}03}\]</span></p>
+<section id="sem-with-real-numbers" class="slide level2">
+<h2>SEM with real numbers</h2>
+<p>The IPIP Extraversion scale: <span class="math inline">\(\sigma_X = 9.22\)</span> and <span class="math inline">\(\alpha = .892\)</span>.</p>
+<p><span class="math display">\[SEM = \sigma_X\sqrt{1-\alpha} = 9.22 \times \sqrt{0.108} = \mathbf{3.03}\]</span></p>
 <div class="fragment">
-<p>Interval kepercayaan (<em>confidence interval</em>) 95% untuk seseorang yang mendapat skor <strong>30</strong>:</p>
-<p><span class="math display">\[30 \pm 1{,}96 \times 3{,}03 \;\approx\; 24{,}1 \text{ sampai } 35{,}9\]</span></p>
+<p>A 95% interval for someone scoring <strong>30</strong>:</p>
+<p><span class="math display">\[30 \pm 1.96 \times 3.03 \;\approx\; 24.1 \text{ to } 35.9\]</span></p>
 </div>
 <div class="fragment">
 <div class="callout callout-warning callout-titled callout-style-default">
@@ -739,37 +739,37 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Perhatikan lebar intervalnya</strong></p>
+<p><strong>Note the width of that interval</strong></p>
 </div>
 <div class="callout-content">
-<p>Ini adalah skala dengan <span class="math inline">\(\alpha = 0{,}89\)</span> — tergolong sangat baik menurut kriteria mana pun. Namun interval kepercayaan satu orang <strong>selebar hampir 12 poin</strong> pada skala yang rentangnya 10 sampai 50.</p>
-<p>Dua orang dengan skor 30 dan 35 <strong>tidak bisa</strong> Anda katakan berbeda.</p>
+<p>This is a scale with <span class="math inline">\(\alpha = .89\)</span> — excellent by any criterion. Yet one person’s confidence interval is <strong>nearly 12 points wide</strong> on a scale running from 10 to 50.</p>
+<p>Two people scoring 30 and 35 <strong>cannot</strong> be said to differ.</p>
 </div>
 </div>
 </div>
 </div>
 </section>
-<section id="kenapa-ini-penting-untuk-pertemuan-14" class="slide level2">
-<h2>Kenapa ini penting untuk Pertemuan 14</h2>
+<section id="why-this-matters-for-session-14" class="slide level2">
+<h2>Why this matters for Session 14</h2>
 <ul>
-<li class="fragment"><p>Ketika Anda menyusun norma nanti, Anda akan memotong sebaran skor menjadi kategori.</p></li>
-<li class="fragment"><p>Kalau lebar kategorinya lebih kecil daripada SEM, kategori itu <strong>tidak stabil</strong>: orang yang sama bisa berpindah kategori hanya karena mengisi di hari yang berbeda.</p></li>
-<li class="fragment"><p><span class="math inline">\(\alpha\)</span> yang tinggi <strong>tidak</strong> membebaskan Anda dari persoalan ini.</p></li>
+<li class="fragment"><p>When you build norms, you will cut the score distribution into categories.</p></li>
+<li class="fragment"><p>If a category is narrower than the SEM, that category is <strong>unstable</strong>: the same person can move between categories simply by responding on a different day.</p></li>
+<li class="fragment"><p>A high <span class="math inline">\(\alpha\)</span> does <strong>not</strong> exempt you from this.</p></li>
 </ul>
 </section></section>
 <section>
-<section id="implementasi-di-jamovi" class="title-slide slide level1 center" data-background-color="#14497F">
-<h1>Implementasi di jamovi</h1>
+<section id="implementation-in-jamovi" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1>Implementation in jamovi</h1>
 
 </section>
-<section id="langkah-langkahnya" class="slide level2">
-<h2>Langkah-langkahnya</h2>
+<section id="the-steps" class="slide level2">
+<h2>The steps</h2>
 <ol type="1">
-<li class="fragment"><p>Buka datanya, lalu <strong>Analyses → Factor → Reliability Analysis</strong>.</p></li>
-<li class="fragment"><p>Pindahkan seluruh item skala Anda ke kotak <strong>Items</strong>.</p></li>
-<li class="fragment"><p>Buka panel <strong>Reverse Scored Items</strong>, lalu pindahkan item yang <strong>arah pernyataannya terbalik</strong> ke sana. Jangan lupakan langkah ini.</p></li>
-<li class="fragment"><p>Pada <strong>Scale Statistics</strong>, centang <strong>Cronbach’s α</strong> dan <strong>McDonald’s ω</strong>.</p></li>
-<li class="fragment"><p>Pada <strong>Item Statistics</strong>, centang <strong>item-rest correlation</strong> serta <strong>Cronbach’s α</strong> dan <strong>McDonald’s ω</strong> <em>if item dropped</em>.</p></li>
+<li class="fragment"><p>Open the data, then <strong>Analyses → Factor → Reliability Analysis</strong>.</p></li>
+<li class="fragment"><p>Move all of your scale’s items into the <strong>Items</strong> box.</p></li>
+<li class="fragment"><p>Open the <strong>Reverse Scored Items</strong> panel and move any <strong>reverse-worded</strong> items into it. Do not skip this step.</p></li>
+<li class="fragment"><p>Under <strong>Scale Statistics</strong>, tick <strong>Cronbach’s α</strong> and <strong>McDonald’s ω</strong>.</p></li>
+<li class="fragment"><p>Under <strong>Item Statistics</strong>, tick <strong>item-rest correlation</strong> plus <strong>Cronbach’s α</strong> and <strong>McDonald’s ω</strong> <em>if item dropped</em>.</p></li>
 </ol>
 <div class="fragment">
 <div class="callout callout-warning callout-titled callout-style-default">
@@ -778,18 +778,18 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Kesalahan yang paling sering terjadi</strong></p>
+<p><strong>The most common mistake</strong></p>
 </div>
 <div class="callout-content">
-<p>Lupa membalik item yang terbalik. Kalau itu terjadi, <span class="math inline">\(\alpha\)</span> Anda akan turun drastis dan Anda akan mengira skalanya bermasalah — padahal yang bermasalah adalah penskorannya.</p>
-<p>Tandanya khas: <strong>korelasi item-rest bernilai negatif</strong>.</p>
+<p>Forgetting to reverse the reverse-worded items. When that happens, your <span class="math inline">\(\alpha\)</span> drops sharply and you conclude the scale is faulty — when what is faulty is the scoring.</p>
+<p>The tell-tale sign: <strong>a negative item-rest correlation</strong>.</p>
 </div>
 </div>
 </div>
 </div>
 </section>
-<section id="apa-yang-akan-anda-lihat" class="slide level2">
-<h2>Apa yang akan Anda lihat</h2>
+<section id="what-you-will-see" class="slide level2">
+<h2>What you will see</h2>
 <p><strong>Scale Reliability Statistics</strong></p>
 <table class="caption-top">
 <thead>
@@ -803,60 +803,60 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 </thead>
 <tbody>
 <tr class="odd">
-<td>skala</td>
-<td style="text-align: center;">30,1</td>
-<td style="text-align: center;">9,22</td>
-<td style="text-align: center;">0,892</td>
-<td style="text-align: center;">0,893</td>
+<td>scale</td>
+<td style="text-align: center;">30.1</td>
+<td style="text-align: center;">9.22</td>
+<td style="text-align: center;">.892</td>
+<td style="text-align: center;">.893</td>
 </tr>
 </tbody>
 </table>
 <div class="fragment">
-<p><strong>Item Reliability Statistics</strong> (sebagian)</p>
+<p><strong>Item Reliability Statistics</strong> (extract)</p>
 <table class="caption-top">
 <thead>
 <tr class="header">
 <th>Item</th>
 <th style="text-align: center;">item-rest correlation</th>
-<th style="text-align: center;">α jika item dibuang</th>
+<th style="text-align: center;">α if item dropped</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>E5</td>
-<td style="text-align: center;">0,71</td>
-<td style="text-align: center;">0,876</td>
+<td style="text-align: center;">.71</td>
+<td style="text-align: center;">.876</td>
 </tr>
 <tr class="even">
 <td>E7</td>
-<td style="text-align: center;">0,70</td>
-<td style="text-align: center;">0,877</td>
+<td style="text-align: center;">.70</td>
+<td style="text-align: center;">.877</td>
 </tr>
 <tr class="odd">
 <td>E4</td>
-<td style="text-align: center;">0,68</td>
-<td style="text-align: center;">0,878</td>
+<td style="text-align: center;">.68</td>
+<td style="text-align: center;">.878</td>
 </tr>
 <tr class="even">
 <td>E1</td>
-<td style="text-align: center;">0,63</td>
-<td style="text-align: center;">0,882</td>
+<td style="text-align: center;">.63</td>
+<td style="text-align: center;">.882</td>
 </tr>
 <tr class="odd">
 <td>E8</td>
-<td style="text-align: center;">0,52</td>
-<td style="text-align: center;">0,889</td>
+<td style="text-align: center;">.52</td>
+<td style="text-align: center;">.889</td>
 </tr>
 </tbody>
 </table>
 </div>
 </section>
-<section id="cara-membacanya" class="slide level2">
-<h2>Cara membacanya</h2>
+<section id="how-to-read-it" class="slide level2">
+<h2>How to read it</h2>
 <ul>
-<li class="fragment"><p><strong>Item-rest correlation</strong> — korelasi antara item tersebut dan jumlah item lainnya. Nilai di bawah <strong>0,30</strong> biasanya dianggap lemah; nilai <strong>negatif</strong> hampir selalu berarti salah penskoran.</p></li>
-<li class="fragment"><p><strong>α jika item dibuang</strong> — bandingkan dengan α keseluruhan. Kalau membuang sebuah item <strong>menaikkan</strong> α, item itu perlu diperiksa.</p></li>
-<li class="fragment"><p>Pada tabel ini, <strong>tidak ada</strong> item yang kalau dibuang menaikkan α dari 0,892. Bahkan item terlemah, E8, tetap memberi sumbangan.</p></li>
+<li class="fragment"><p><strong>Item-rest correlation</strong> — the correlation between that item and the sum of the others. Below <strong>.30</strong> is usually considered weak; a <strong>negative</strong> value almost always means a scoring error.</p></li>
+<li class="fragment"><p><strong>α if item dropped</strong> — compare with the overall α. If dropping an item <strong>raises</strong> α, that item needs examining.</p></li>
+<li class="fragment"><p>In this table, <strong>no</strong> item raises α above .892 when dropped. Even the weakest, E8, is still earning its place.</p></li>
 </ul>
 <div class="fragment">
 <div class="callout callout-tip callout-titled callout-style-default">
@@ -865,22 +865,22 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Yang perlu diperhatikan</strong></p>
+<p><strong>Something to be careful about</strong></p>
 </div>
 <div class="callout-content">
-<p>Jangan membuang item hanya karena angkanya. Kalau sebuah item <strong>penting secara konseptual</strong> untuk mendefinisikan konstruk Anda, membuangnya demi menaikkan α berarti Anda menukar validitas isi dengan koefisien yang lebih tinggi.</p>
-<p>Kita bahas persoalan ini lebih jauh di Pertemuan 7 dan Pertemuan 11.</p>
+<p>Do not drop items purely on the numbers. If an item is <strong>conceptually essential</strong> to defining your construct, removing it to raise α means trading content validity for a higher coefficient.</p>
+<p>We take this up further in Sessions 7 and 11.</p>
 </div>
 </div>
 </div>
 </div>
 </section>
-<section id="memeriksa-dimensinya" class="slide level2">
-<h2>Memeriksa dimensinya</h2>
+<section id="checking-dimensionality" class="slide level2">
+<h2>Checking dimensionality</h2>
 <ul>
-<li class="fragment"><p><strong>Analyses → Factor → Exploratory Factor Analysis</strong>, lalu perhatikan <em>eigenvalue</em> dan <em>scree plot</em>-nya.</p></li>
-<li class="fragment"><p>Kalau hanya ada satu <em>eigenvalue</em> yang jauh lebih besar dari sisanya, skala Anda kemungkinan satu dimensi.</p></li>
-<li class="fragment"><p>Kalau ada dua atau lebih, hitung reliabilitasnya <strong>per dimensi</strong>, bukan untuk keseluruhan item.</p></li>
+<li class="fragment"><p><strong>Analyses → Factor → Exploratory Factor Analysis</strong>, then look at the <strong>eigenvalues</strong> and the <strong>scree plot</strong>.</p></li>
+<li class="fragment"><p>If only one eigenvalue is much larger than the rest, your scale is probably unidimensional.</p></li>
+<li class="fragment"><p>If there are two or more, compute reliability <strong>per dimension</strong>, not across all items.</p></li>
 </ul>
 <div class="fragment">
 <div class="callout callout-note callout-titled callout-style-default">
@@ -892,25 +892,25 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <p><strong>Note</strong></p>
 </div>
 <div class="callout-content">
-<p>Pada set campuran tadi, <em>eigenvalue</em>-nya 3,53 dan 2,23 — dua-duanya besar. Itulah yang tidak bisa dilihat dari <span class="math inline">\(\alpha = 0{,}616\)</span>.</p>
+<p>For the mixed set earlier, the eigenvalues were 3.53 and 2.23 — both large. That is precisely what <span class="math inline">\(\alpha = .616\)</span> could not reveal.</p>
 </div>
 </div>
 </div>
 </div>
 </section></section>
 <section>
-<section id="apa-yang-sebaiknya-anda-laporkan" class="title-slide slide level1 center" data-background-color="#14497F">
-<h1>Apa yang sebaiknya Anda laporkan</h1>
+<section id="what-you-should-report" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1>What you should report</h1>
 
 </section>
-<section id="daftar-minimum" class="slide level2">
-<h2>Daftar minimum</h2>
+<section id="the-minimum-list" class="slide level2">
+<h2>The minimum list</h2>
 <ul>
-<li class="fragment"><p><strong>Koefisien yang dipakai dan nilainya</strong> — sebutkan <span class="math inline">\(\alpha\)</span>, <span class="math inline">\(\omega\)</span>, atau keduanya. Jangan cuma menulis “reliabilitas”.</p></li>
-<li class="fragment"><p><strong>Jumlah item</strong> yang dihitung, dan <strong>item mana yang dibalik</strong>.</p></li>
-<li class="fragment"><p><strong>Ukuran dan karakteristik sampel</strong> — ingat dari Pertemuan 3 bahwa koefisien ini bergantung pada sampel.</p></li>
-<li class="fragment"><p><strong>Bukti tentang dimensinya</strong>, sekurang-kurangnya <em>eigenvalue</em> atau <em>scree plot</em>.</p></li>
-<li class="fragment"><p><strong>SEM</strong>, kalau skor Anda akan dipakai untuk menafsirkan individu.</p></li>
+<li class="fragment"><p><strong>Which coefficient and its value</strong> — name <span class="math inline">\(\alpha\)</span>, <span class="math inline">\(\omega\)</span>, or both. Do not just write “reliability”.</p></li>
+<li class="fragment"><p><strong>How many items</strong> were included, and <strong>which were reverse-keyed</strong>.</p></li>
+<li class="fragment"><p><strong>Sample size and characteristics</strong> — recall from Session 3 that these coefficients depend on the sample.</p></li>
+<li class="fragment"><p><strong>Evidence about dimensionality</strong>, at minimum eigenvalues or a scree plot.</p></li>
+<li class="fragment"><p><strong>SEM</strong>, if your scores will be used to interpret individuals.</p></li>
 </ul>
 <div class="fragment">
 <div class="callout callout-tip callout-titled callout-style-default">
@@ -919,29 +919,29 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Contoh kalimat pelaporan</strong></p>
+<p><strong>An example of how to report it</strong></p>
 </div>
 <div class="callout-content">
-<p><em>“Skala 10 item ini memiliki <span class="math inline">\(\alpha = 0{,}89\)</span> dan <span class="math inline">\(\omega = 0{,}89\)</span> pada n = 200 mahasiswa S1 (usia 18–23). Analisis faktor eksploratori menunjukkan satu faktor dominan (eigenvalue 4,5 berbanding 0,9). SEM = 3,0.”</em></p>
+<p><em>“This 10-item scale had <span class="math inline">\(\alpha = .89\)</span> and <span class="math inline">\(\omega = .89\)</span> in n = 200 undergraduates (aged 18–23). Exploratory factor analysis indicated one dominant factor (eigenvalue 4.5 versus 0.9). SEM = 3.0.”</em></p>
 </div>
 </div>
 </div>
 </div>
 </section></section>
 <section>
-<section id="diskusi-kelompok" class="title-slide slide level1 center" data-background-color="#14497F">
-<h1>Diskusi kelompok</h1>
+<section id="group-discussion" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1>Group discussion</h1>
 
 </section>
-<section id="empat-situasi" class="slide level2">
-<h2>Empat situasi</h2>
-<p>Diskusikan dalam kelompok, <strong>25 menit</strong>. Untuk tiap situasi: <strong>apa yang Anda simpulkan, dan apa langkah berikutnya?</strong></p>
-<p><strong>A.</strong> Skala 30 item, <span class="math inline">\(\alpha = 0{,}95\)</span>, rata-rata korelasi antar-item 0,42. Peneliti menyimpulkan skalanya sangat baik.</p>
-<p><strong>B.</strong> Skala 10 item, <span class="math inline">\(\alpha = 0{,}62\)</span>, <span class="math inline">\(\omega = 0{,}20\)</span>, dua <em>eigenvalue</em> besar.</p>
-<p><strong>C.</strong> Skala 4 item, <span class="math inline">\(\alpha = 0{,}55\)</span>. Kelompok ingin menaikkannya sampai di atas 0,70.</p>
-<p><strong>D.</strong> Satu item punya <em>item-rest correlation</em> sebesar <strong>−0,38</strong>.</p>
+<section id="four-situations" class="slide level2">
+<h2>Four situations</h2>
+<p>Discuss in your group, <strong>25 minutes</strong>. For each: <strong>what do you conclude, and what would you do next?</strong></p>
+<p><strong>A.</strong> A 30-item scale, <span class="math inline">\(\alpha = .95\)</span>, mean inter-item correlation .42. The researcher concludes the scale is excellent.</p>
+<p><strong>B.</strong> A 10-item scale, <span class="math inline">\(\alpha = .62\)</span>, <span class="math inline">\(\omega = .20\)</span>, two large eigenvalues.</p>
+<p><strong>C.</strong> A 4-item scale, <span class="math inline">\(\alpha = .55\)</span>. The group wants to push it above .70.</p>
+<p><strong>D.</strong> One item has an item-rest correlation of <strong>−.38</strong>.</p>
 <aside class="notes">
-<p>Jawaban yang diharapkan — A: α tinggi sebagian besar karena k = 30; perlu dicek apakah itemnya redundan (pelanggaran local independence dari Pertemuan 2), dan apakah beban responden sepadan. B: jelas dua dimensi; pisahkan dulu, jangan laporkan satu koefisien. C: naikkan lewat penulisan item yang lebih baik atau tambah item setara — bukan dengan membuang item, karena k sudah kecil; tunjukkan proyeksi Spearman-Brown. D: hampir pasti item terbalik yang lupa dibalik; periksa penskorannya sebelum menyimpulkan apa pun tentang itemnya.</p>
+<p>Expected answers — A: the high α is largely because k = 30; check whether the items are redundant (a local independence violation from Session 2) and whether the respondent burden is justified. B: clearly two dimensions; separate them first, do not report a single coefficient. C: raise it by writing better items or adding equivalent ones — not by dropping items, since k is already small; show them the Spearman-Brown projection. D: almost certainly a reverse-worded item that was not reversed; check the scoring before concluding anything about the item.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -954,12 +954,12 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
           display:block!important;
       }</style></aside>
 </section>
-<section id="pertanyaan-penutup" class="slide level2">
-<h2>Pertanyaan penutup</h2>
+<section id="closing-questions" class="slide level2">
+<h2>Closing questions</h2>
 <ol type="1">
-<li class="fragment"><p>Dari keempat situasi tadi, mana yang <strong>paling bermasalah</strong> kalau lolos ke laporan akhir? Kenapa?</p></li>
-<li class="fragment"><p>Untuk konstruk kelompok Anda, berapa banyak item yang realistis Anda tulis, dan <strong>rata-rata korelasi antar-item</strong> seperti apa yang Anda harapkan?</p></li>
-<li class="fragment"><p>Skor kelompok Anda akan dipakai untuk apa — <strong>menggambarkan kelompok</strong> atau <strong>menafsirkan individu</strong>? Bagaimana itu mengubah standar reliabilitas yang Anda kejar?</p></li>
+<li class="fragment"><p>Of the four situations, which would be <strong>most problematic</strong> if it reached a final report? Why?</p></li>
+<li class="fragment"><p>For your group’s construct, how many items can you realistically write, and what <strong>mean inter-item correlation</strong> do you expect?</p></li>
+<li class="fragment"><p>Will your group’s scores be used to <strong>describe a group</strong> or to <strong>interpret individuals</strong>? How does that change the reliability standard you should aim for?</p></li>
 </ol>
 <div class="fragment">
 <div class="callout callout-tip callout-titled callout-style-default">
@@ -971,36 +971,36 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <p><strong>Tip</strong></p>
 </div>
 <div class="callout-content">
-<p>Pertanyaan nomor 3 sangat menentukan, tetapi sering tidak ditanyakan.</p>
+<p>Question 3 is decisive, but is rarely asked.</p>
 </div>
 </div>
 </div>
 </div>
 </section></section>
 <section>
-<section id="rangkuman" class="title-slide slide level1 center" data-background-color="#14497F">
-<h1>Rangkuman</h1>
+<section id="summary" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1>Summary</h1>
 
 </section>
-<section id="enam-poin-utama" class="slide level2">
-<h2>Enam poin utama</h2>
+<section id="six-key-points" class="slide level2">
+<h2>Six key points</h2>
 <ol type="1">
-<li class="fragment"><p><strong>Reliabilitas bukan satu hal.</strong> Stabilitas lintas waktu dan konsistensi internal adalah pertanyaan yang berbeda.</p></li>
-<li class="fragment"><p><strong>Spearman-Brown</strong> mengoreksi <em>split-half</em> ke panjang penuh, dan menjelaskan kenapa menambah item menaikkan reliabilitas.</p></li>
-<li class="fragment"><p><strong><span class="math inline">\(\alpha\)</span> adalah rata-rata dari seluruh kemungkinan <em>split-half</em></strong>, dan hanya ditentukan oleh <span class="math inline">\(k\)</span> dan <span class="math inline">\(\bar{r}\)</span>.</p></li>
-<li class="fragment"><p><strong><span class="math inline">\(\alpha\)</span> yang tinggi bisa dibeli dengan menambah item</strong>, dan <strong><span class="math inline">\(\alpha\)</span> tidak bisa mendeteksi multidimensionalitas</strong> — <span class="math inline">\(\alpha = 0{,}62\)</span> dengan <span class="math inline">\(\omega = 0{,}15\)</span> adalah buktinya.</p></li>
-<li class="fragment"><p><strong>Hitung <span class="math inline">\(\alpha\)</span> dan <span class="math inline">\(\omega\)</span> bersama-sama</strong>, dan periksa dimensinya secara terpisah.</p></li>
-<li class="fragment"><p><strong>Ambang 0,70 bukan aturan baku.</strong> Standarnya ditentukan oleh tujuan penggunaan skornya.</p></li>
+<li class="fragment"><p><strong>Reliability is not one thing.</strong> Stability over time and internal consistency are different questions.</p></li>
+<li class="fragment"><p><strong>Spearman-Brown</strong> corrects split-half to full length, and explains why adding items raises reliability.</p></li>
+<li class="fragment"><p><strong><span class="math inline">\(\alpha\)</span> is the average of all possible split-halves</strong>, and is determined only by <span class="math inline">\(k\)</span> and <span class="math inline">\(\bar{r}\)</span>.</p></li>
+<li class="fragment"><p><strong>A high <span class="math inline">\(\alpha\)</span> can be bought by adding items</strong>, and <strong><span class="math inline">\(\alpha\)</span> cannot detect multidimensionality</strong> — <span class="math inline">\(\alpha = .62\)</span> with <span class="math inline">\(\omega = .15\)</span> is the proof.</p></li>
+<li class="fragment"><p><strong>Compute <span class="math inline">\(\alpha\)</span> and <span class="math inline">\(\omega\)</span> together</strong>, and check dimensionality separately.</p></li>
+<li class="fragment"><p><strong>The .70 threshold is not a fixed rule.</strong> The standard depends on what the scores are for.</p></li>
 </ol>
 </section>
-<section id="untuk-pertemuan-7" class="slide level2">
-<h2>Untuk Pertemuan 7</h2>
-<p>Kita masuk ke <strong>validitas</strong> — dan pertanyaan yang jauh lebih sulit.</p>
+<section id="for-session-7" class="slide level2">
+<h2>For Session 7</h2>
+<p>We turn to <strong>validity</strong> — and a much harder question.</p>
 <ul>
-<li class="fragment">Kenapa validitas adalah sifat <strong>tafsiran atas skor</strong>, bukan sifat skala. Kita sudah menyinggungnya di Pertemuan 3; minggu depan kita bahas penuh.</li>
-<li class="fragment">Jenis-jenis <strong>bukti</strong> validitas, dan kenapa pembagian lama (isi, kriteria, konstruk) sudah ditinggalkan.</li>
-<li class="fragment">Validitas isi dan hubungannya dengan CVI yang akan Anda kerjakan di Pertemuan 11.</li>
-<li class="fragment">Kenapa reliabilitas tinggi <strong>tidak menjamin apa pun</strong> tentang validitas.</li>
+<li class="fragment">Why validity is a property of <strong>score interpretations</strong>, not of a scale. We touched on it in Session 3; next week we take it in full.</li>
+<li class="fragment">The kinds of <strong>evidence</strong> for validity, and why the old three-way division (content, criterion, construct) has been abandoned.</li>
+<li class="fragment">Content validity and its connection to the CVI you will compute in Session 11.</li>
+<li class="fragment">Why high reliability <strong>guarantees nothing</strong> about validity.</li>
 </ul>
 <div class="fragment">
 <div class="callout callout-tip callout-titled callout-style-default">
@@ -1009,17 +1009,17 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Persiapan</strong></p>
+<p><strong>Preparation</strong></p>
 </div>
 <div class="callout-content">
-<p>Baca <strong>DeVellis &amp; Thorpe (2022), Bab 4</strong>. Kalau sempat, bab <em>Psychometric Validity</em> pada <a href="https://lhbikos.github.io/ReC_Psychometrics/">Bikos</a>.</p>
+<p>Read <strong>DeVellis &amp; Thorpe (2022), Chapter 4</strong>. If you have time, the <em>Psychometric Validity</em> chapter of <a href="https://lhbikos.github.io/ReC_Psychometrics/">Bikos</a>.</p>
 </div>
 </div>
 </div>
 </div>
 </section>
-<section id="ada-pertanyaan" class="slide level2">
-<h2>Ada pertanyaan❓</h2>
+<section id="any-questions" class="slide level2">
+<h2>Any questions❓</h2>
 
 <img data-src="libs/closing.JPG" class="quarto-figure quarto-figure-center r-stretch"><div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
@@ -1027,19 +1027,19 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Catatan</strong></p>
+<p><strong>Notes</strong></p>
 </div>
 <div class="callout-content">
 <ul>
-<li>Paparan disusun dengan menggunakan <i class="fa-brands fa-r-project" aria-label="r-project"></i> dan <a href="https://quarto.org"><strong>Quarto</strong></a> dengan <em>template</em> dari <a href="https://github.com/rameliaz/quarto-unair-theme">UNAIR Theme</a>.</li>
-<li>Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a></li>
+<li>These slides were built with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org"><strong>Quarto</strong></a>, using the <a href="https://github.com/rameliaz/quarto-unair-theme">UNAIR Theme</a> template.</li>
+<li>Reach me at <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a></li>
 </ul>
 </div>
 </div>
 </div>
 </section>
-<section id="rujukan" class="slide level2 smaller">
-<h2>Rujukan</h2>
+<section id="references" class="slide level2 smaller">
+<h2>References</h2>
 <p>Brown, W. (1910). Some experimental results in the correlation of mental abilities. <em>British Journal of Psychology, 3</em>(3), 296–322.</p>
 <p>Cortina, J. M. (1993). What is coefficient alpha? An examination of theory and applications. <em>Journal of Applied Psychology, 78</em>(1), 98–104.</p>
 <p>Cronbach, L. J. (1951). Coefficient alpha and the internal structure of tests. <em>Psychometrika, 16</em>(3), 297–334.</p>
@@ -1055,7 +1055,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 
 
 <aside><div>
-<p>Data contoh: IPIP <em>Big Five Factor Markers</em>, <a href="https://openpsychometrics.org/_rawdata/">Open Psychometrics</a> (n = 19.718 setelah <em>listwise deletion</em>).</p>
+<p>Example data: IPIP <em>Big Five Factor Markers</em>, <a href="https://openpsychometrics.org/_rawdata/">Open Psychometrics</a> (n = 19,718 after listwise deletion).</p>
 </div></aside></section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">

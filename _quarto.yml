@@ -53,6 +53,16 @@ website:
             href: slides/pertemuan4-en.html
           - text: "5. Response Formats II"
             href: slides/pertemuan5-en.html
+          - text: "6. Reliability"
+            href: slides/pertemuan6-en.html
+          - text: "7. Validity"
+            href: slides/pertemuan7-en.html
+          - text: "9. Construct and Estimand"
+            href: slides/pertemuan9-en.html
+          - text: "10. Item-Writing Workshop"
+            href: slides/pertemuan10-en.html
+          - text: "11. Content Validity Index"
+            href: slides/pertemuan11-en.html
       - icon: envelope
         href: "mailto:amelia.zein@psikologi.unair.ac.id"
   search:

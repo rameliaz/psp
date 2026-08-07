@@ -1,5 +1,5 @@
 ---
-title: "Pendahuluan: Pengukuran dalam Psikologi"
+title: "Review Ahli dan Validitas Isi: Perhitungan dan Interpretasi CVI"
 subtitle: "Penyusunan Skala Psikologi"
 author: "Rizqy Amelia Zein & Dian Kartika Amelia Arbi"
 institute:
@@ -22,6 +22,14 @@ execute:
 
 ::: {.incremental}
 
+* Kenapa item perlu dinilai oleh panel ahli sebelum diujicobakan
+* Menyusun panel: siapa yang dianggap ahli, dan berapa orang
+* Formulir penilaian relevansi dan cara mengirimkannya
+* Menghitung **I-CVI** dan **S-CVI**, dan kenapa keduanya bisa memberi kesan berbeda
+* Mengoreksi **kesepakatan yang terjadi secara kebetulan**
+* Apa yang dilakukan terhadap item yang tidak lolos
+* Batas kemampuan CVI
+
 :::
 
 ::: aside
@@ -29,6 +37,469 @@ execute:
 
 Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* materi, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini.
 
+:::
+
+# Memulai paruh praktik {background-color="#14497F" .center}
+
+## Di mana posisi kita
+
+::: {.incremental}
+
+* **Pertemuan 9** menghasilkan dokumen spesifikasi konstruk: definisi, batas, estimand, aspek, dan indikator.
+
+* **Pertemuan 10** menghasilkan kisi-kisi dan daftar item, beserta format responsnya.
+
+* **Hari ini** daftar item itu dinilai orang lain, sebelum satu pun responden mengisinya.
+
+:::
+
+. . .
+
+::: {.callout-note}
+Mulai pertemuan ini sampai Pertemuan 15, kelas berlangsung di Ruang 303 pada hari dan jam yang berbeda dari paruh pertama.
+:::
+
+::: {.notes}
+Perkenalan singkat kalau ini pertemuan pertama dengan kelas ini. Pastikan tiap kelompok sudah
+membawa dokumen spesifikasi konstruk dan daftar item. Kelompok yang belum membawa tidak bisa
+mengikuti praktik hari ini secara penuh; minta mereka mengerjakannya di sesi ini juga.
+:::
+
+## Kaitannya dengan yang sudah dipelajari
+
+::: {.incremental}
+
+* Di **Pertemuan 7**, validitas dibahas sebagai kumpulan bukti, bukan satu angka. Salah satu sumbernya adalah **bukti berdasarkan isi**.
+
+* CVI adalah cara membuat bukti isi itu **bisa dihitung dan dilaporkan**.
+
+* Di **Pertemuan 5**, mahasiswa sudah menjalankan bentuk sederhananya ketika menjadi juri Thurstone: menilai tiap pernyataan, lalu membuang yang tidak disepakati.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+Prosedurnya sama. Yang berbeda hanya kriterianya: bukan posisi pernyataan pada kontinum, melainkan **relevansi item terhadap konstruk**.
+:::
+
+# Menyusun panel {background-color="#14497F" .center}
+
+## Siapa yang dianggap ahli
+
+::: {.incremental}
+
+* **Ahli isi** — orang yang menguasai konstruknya: dosen, peneliti, atau praktisi di bidang tersebut.
+
+* **Ahli metode** — orang yang menguasai penyusunan skala, yang bisa menilai apakah item ditulis dengan baik.
+
+* **Wakil populasi sasaran** — bukan ahli dalam arti akademis, tetapi paling tahu apakah kalimatnya masuk akal bagi calon responden.
+
+:::
+
+. . .
+
+::: {.callout-note}
+Ketiganya memberi masukan yang berbeda. Panel yang seluruhnya berisi dosen cenderung melewatkan persoalan keterbacaan yang langsung terlihat oleh calon responden.
+:::
+
+## Berapa orang
+
+::: {.incremental}
+
+* **Minimal 3 orang.** Di bawah itu, kesepakatan hampir tidak berarti apa-apa.
+
+* **5 sampai 10 orang** adalah wilayah yang lazim dan lebih aman.
+
+* Jumlah panel menentukan kriteria kelulusan itemnya, jadi tetapkan jumlahnya lebih dulu.
+
+:::
+
+::: aside
+Lynn (1986).
+:::
+
+. . .
+
+::: {.callout-warning}
+#### Jumlah ganjil lebih praktis
+Dengan jumlah genap, kesepakatan bisa terbelah tepat separuh, dan Anda tidak punya dasar untuk memutuskan.
+:::
+
+::: {.notes}
+Untuk proyek semester ini, 3–5 penilai realistis: dosen mata kuliah terkait, mahasiswa pascasarjana,
+dan satu atau dua wakil populasi sasaran. Tekankan bahwa dengan panel kecil, kriterianya justru
+lebih ketat — semua penilai harus sepakat.
+:::
+
+## Apa yang dikirim ke panel
+
+::: {.incremental}
+
+1. **Definisi konstruk** dari Pertemuan 9, lengkap dengan batas konstruknya.
+2. **Kisi-kisi**, supaya penilai tahu tiap item dimaksudkan mewakili aspek yang mana.
+3. **Daftar item** dengan penomoran yang jelas.
+4. **Formulir penilaian** beserta petunjuk pengisiannya.
+5. **Tenggat** yang jelas.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+#### Yang paling sering dilupakan
+Mengirim daftar item **tanpa definisi konstruknya**. Penilai kemudian menilai relevansi berdasarkan pemahaman masing-masing tentang konstruk itu — dan hasilnya tidak bisa ditafsirkan.
+:::
+
+# Formulir penilaian {background-color="#14497F" .center}
+
+## Skala relevansi empat poin
+
+| Nilai | Keterangan |
+|:--:|---|
+| 1 | Tidak relevan |
+| 2 | Kurang relevan, perlu banyak perbaikan |
+| 3 | Cukup relevan, perlu sedikit perbaikan |
+| 4 | Sangat relevan |
+
+::: aside
+Waltz & Bausell (1981); Davis (1992).
+:::
+
+. . .
+
+::: {.incremental}
+
+* Empat poin, **tanpa titik tengah**. Penilai harus memihak: relevan atau tidak.
+
+* Untuk perhitungan, nilai **3 dan 4** dihitung sebagai "relevan", nilai **1 dan 2** sebagai "tidak relevan".
+
+:::
+
+## Tambahkan dua hal ini
+
+::: {.incremental}
+
+* **Kolom komentar** untuk tiap item. Angka saja tidak memberi tahu apa yang harus diperbaiki.
+
+* **Satu pertanyaan di akhir**: *"Menurut Anda, adakah aspek penting dari konstruk ini yang belum tercakup oleh item-item di atas?"*
+
+:::
+
+. . .
+
+::: {.callout-tip}
+#### Kenapa pertanyaan terakhir itu penting
+CVI hanya memeriksa apakah item yang **ada** itu relevan. Ia tidak bisa memeriksa apakah ada bagian konstruk yang **tidak tercakup sama sekali**.
+
+Itulah *construct underrepresentation* dari Pertemuan 7. Satu-satunya cara memeriksanya lewat panel adalah dengan menanyakannya secara langsung.
+:::
+
+# Menghitung I-CVI {background-color="#14497F" .center}
+
+## Rumusnya
+
+$$\text{I-CVI} = \frac{\text{jumlah penilai yang memberi nilai 3 atau 4}}{\text{jumlah seluruh penilai}}$$
+
+. . .
+
+::: {.incremental}
+
+* Dihitung **untuk tiap item**, satu angka per item.
+
+* Nilainya antara 0 dan 1.
+
+* Contoh: dari 6 penilai, 5 memberi nilai 3 atau 4. Maka I-CVI = 5/6 = **0,83**.
+
+:::
+
+## Contoh: 8 item, 6 penilai
+
+| Item | Penilai yang menilai relevan | I-CVI |
+|:--:|:--:|:--:|
+| A1 | 6 | 1,00 |
+| A2 | 6 | 1,00 |
+| A3 | 5 | 0,83 |
+| A4 | 6 | 1,00 |
+| A5 | 4 | 0,67 |
+| A6 | 5 | 0,83 |
+| A7 | 6 | 1,00 |
+| A8 | 3 | 0,50 |
+
+::: {.notes}
+Minta mahasiswa menghitung sendiri kolom I-CVI sebelum ditampilkan. Ini cepat dan membuat
+rumusnya melekat. Tanyakan mana yang menurut mereka bermasalah sebelum kriteria diperkenalkan.
+:::
+
+## Kriteria kelulusan
+
+::: {.incremental}
+
+* Dengan **3 sampai 5 penilai**: I-CVI harus **1,00**. Semua penilai harus sepakat.
+
+* Dengan **6 sampai 10 penilai**: I-CVI minimal **0,78**.
+
+:::
+
+::: aside
+Lynn (1986); Polit & Beck (2006).
+:::
+
+. . .
+
+Pada contoh tadi, dengan 6 penilai, dua item tidak lolos: **A5** (0,67) dan **A8** (0,50).
+
+. . .
+
+::: {.callout-note}
+Perhatikan bahwa kriterianya **lebih ketat kalau penilainya sedikit**. Alasannya ada di slide berikutnya.
+:::
+
+# Kesepakatan yang kebetulan {background-color="#14497F" .center}
+
+## Persoalannya
+
+::: {.incremental}
+
+* Kalau penilai memberi nilai secara asal, sebagian kesepakatan tetap akan muncul **secara kebetulan**.
+
+* Dengan penilai yang sedikit, peluang kebetulan itu besar. Dengan 3 penilai, peluang ketiganya kebetulan sama-sama menilai "relevan" adalah 12,5%.
+
+* Karena itu I-CVI saja bisa memberi kesan yang terlalu baik.
+
+:::
+
+## Kappa yang dimodifikasi
+
+Peluang kesepakatan kebetulan:
+
+$$p_c = \binom{N}{A} \times 0{,}5^N$$
+
+Lalu:
+
+$$\kappa^* = \frac{\text{I-CVI} - p_c}{1 - p_c}$$
+
+dengan $N$ = jumlah penilai dan $A$ = jumlah penilai yang menilai relevan.
+
+::: aside
+Polit, Beck, & Owen (2007).
+:::
+
+## Hasilnya pada contoh tadi
+
+| Item | $A$ | I-CVI | $p_c$ | $\kappa^*$ | Penilaian |
+|:--:|:--:|:--:|:--:|:--:|---|
+| A1 | 6 | 1,00 | 0,016 | 1,00 | sangat baik |
+| A3 | 5 | 0,83 | 0,094 | 0,82 | sangat baik |
+| A5 | 4 | 0,67 | 0,234 | 0,56 | cukup |
+| A8 | 3 | 0,50 | 0,313 | 0,27 | kurang |
+
+. . .
+
+::: {.callout-note}
+Patokan yang lazim: $\kappa^* > 0{,}74$ sangat baik, $0{,}60$–$0{,}74$ baik, $0{,}40$–$0{,}59$ cukup, di bawah itu kurang.
+
+Perhatikan A8: I-CVI 0,50 terlihat seperti "setengah setuju", tetapi setelah dikoreksi, kesepakatannya nyaris tidak lebih baik daripada tebakan.
+:::
+
+# Menghitung S-CVI {background-color="#14497F" .center}
+
+## Dua cara, dua angka
+
+::: {.incremental}
+
+* **S-CVI/Ave** — rata-rata dari seluruh I-CVI. Menggambarkan relevansi rata-rata.
+
+* **S-CVI/UA** — proporsi item yang disepakati **semua** penilai (*universal agreement*). Jauh lebih ketat.
+
+:::
+
+. . .
+
+Pada contoh tadi:
+
+$$\text{S-CVI/Ave} = \frac{6{,}83}{8} = 0{,}85 \qquad \text{S-CVI/UA} = \frac{4}{8} = 0{,}50$$
+
+## Data yang sama, kesan yang berbeda
+
+::: {.r-fit-text}
+0,85 terlihat memadai.
+
+0,50 terlihat bermasalah.
+:::
+
+<br>
+
+. . .
+
+::: {.incremental}
+
+* Keduanya dihitung dari tabel yang persis sama.
+
+* Polit & Beck (2006) menulis artikel khusus tentang kekacauan ini: banyak laporan menyebut "CVI" tanpa menjelaskan yang mana.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+#### Yang harus kelompok Anda lakukan
+Sebutkan **secara eksplisit** cara perhitungan yang dipakai. Menulis "CVI = 0,85" tanpa keterangan membuat angka itu tidak bisa ditafsirkan orang lain.
+
+Yang lazim dilaporkan adalah **S-CVI/Ave**, dengan patokan minimal **0,90**.
+:::
+
+::: {.notes}
+Ini bagian yang paling sering salah di laporan mahasiswa. Tekankan bahwa keduanya sah, asalkan
+disebutkan yang mana. Kalau ada waktu, minta satu kelompok menghitung kedua angka itu dari data
+mereka sendiri dan membandingkannya.
+:::
+
+# Apa yang dilakukan selanjutnya {background-color="#14497F" .center}
+
+## Item yang tidak lolos
+
+::: {.incremental}
+
+* **Perbaiki dulu, jangan langsung dibuang.** Baca komentar penilai. Sering kali masalahnya ada pada kalimatnya, bukan pada gagasannya.
+
+* **Buang** kalau item itu memang mengukur hal lain, atau kalau aspeknya sudah diwakili item lain yang lebih baik.
+
+* **Pertahankan dengan alasan** kalau item itu penting secara konseptual dan tidak ada penggantinya. Tuliskan alasannya di laporan.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+Ingat paradoks atenuasi dari Pertemuan 7. Membuang item hanya demi angka yang lebih rapi bisa mempersempit cakupan isi, dan itu justru merugikan.
+:::
+
+## Hitung ulang setelah perbaikan
+
+Kalau A5 dan A8 diperbaiki lalu dinilai ulang, atau dikeluarkan:
+
+::: {.incremental}
+
+* Enam item tersisa punya I-CVI: 1,00 — 1,00 — 0,83 — 1,00 — 0,83 — 1,00
+
+* $\text{S-CVI/Ave} = 5{,}67 / 6 = \mathbf{0{,}94}$
+
+* Sekarang melewati patokan 0,90.
+
+:::
+
+. . .
+
+::: {.callout-note}
+Laporkan **kedua-duanya**: hasil sebelum perbaikan dan sesudahnya, beserta keputusan yang diambil untuk tiap item. Yang dinilai adalah prosesnya, bukan hanya angka akhirnya.
+:::
+
+# Batas kemampuan CVI {background-color="#14497F" .center}
+
+## Tiga hal yang tidak diperiksa CVI
+
+::: {.incremental}
+
+* **Kelengkapan.** CVI menilai item yang ada, bukan item yang seharusnya ada. Untuk itu Anda perlu bertanya langsung kepada panel.
+
+* **Kejelasan bagi responden.** Penilai ahli membaca item dengan cara yang berbeda dari calon responden. Pemeriksaan kejelasan dilakukan lewat wawancara kognitif, seperti dibahas di Pertemuan 7.
+
+* **Apakah konstruknya sendiri masuk akal.** Kalau definisi konstruk Anda bermasalah, panel akan menilai relevansi terhadap definisi yang bermasalah itu.
+
+:::
+
+::: aside
+Haynes, Richard, & Kubany (1995); Rubio dkk. (2003).
+:::
+
+. . .
+
+::: {.callout-tip}
+CVI adalah satu sumber bukti, bukan penentu akhir. Ia menempati satu baris pada tabel bukti validitas di Pertemuan 7 — bukan seluruh tabelnya.
+:::
+
+# Praktik {background-color="#14497F" .center}
+
+## Bagian 1: menyiapkan berkas panel
+
+**30 menit.** Tiap kelompok menyiapkan:
+
+::: {.incremental}
+
+1. Berkas untuk penilai: definisi konstruk, kisi-kisi, daftar item bernomor.
+2. Formulir penilaian dengan skala 4 poin, kolom komentar, dan pertanyaan tentang kelengkapan.
+3. Daftar calon penilai beserta perannya: ahli isi, ahli metode, atau wakil populasi.
+4. Tenggat pengembalian.
+
+:::
+
+::: {.notes}
+Berkeliling dan periksa apakah definisi konstruk benar-benar disertakan — ini yang paling sering
+terlewat. Periksa juga penomoran itemnya konsisten dengan kisi-kisi.
+Kalau memungkinkan, sarankan tiap kelompok mengirim berkas ke penilai paling lambat akhir minggu
+ini, supaya hasilnya sudah kembali sebelum uji coba di Pertemuan 12.
+:::
+
+## Bagian 2: berlatih menghitung
+
+**25 menit.** Kelompok saling bertukar peran sebagai penilai.
+
+::: {.incremental}
+
+* Tiap anggota kelompok menilai **10 item milik kelompok lain** dengan skala 4 poin.
+
+* Kumpulkan penilaiannya, lalu hitung: **I-CVI tiap item**, **$\kappa^*$**, serta **S-CVI/Ave** dan **S-CVI/UA**.
+
+* Tentukan item mana yang tidak lolos, dan tuliskan satu saran perbaikan untuk masing-masing.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+Latihan ini memakai kelompok sebagai penilai, jadi hasilnya bukan bukti validitas yang sesungguhnya. Tujuannya adalah memastikan perhitungannya sudah benar sebelum data dari panel yang sebenarnya masuk.
+:::
+
+::: {.notes}
+Perhitungan bisa dilakukan di kertas atau di spreadsheet. Kesalahan yang paling sering: lupa bahwa
+nilai 3 dan 4 dihitung sebagai relevan, dan salah membedakan S-CVI/Ave dari S-CVI/UA.
+Sisakan 15 menit untuk membahas hasil satu atau dua kelompok di depan kelas.
+:::
+
+## Yang harus dihasilkan
+
+::: {.incremental}
+
+* **Berkas panel** yang siap dikirim.
+* **Tabel perhitungan** berisi I-CVI, $\kappa^*$, S-CVI/Ave, dan S-CVI/UA.
+* **Catatan keputusan** untuk tiap item: dipertahankan, diperbaiki, atau dikeluarkan, beserta alasannya.
+* **Daftar item hasil revisi**, siap dipakai untuk uji coba.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+Tabel dan catatan keputusan ini masuk ke laporan akhir, dan mengisi baris **Review Item/CVI** pada rubrik penilaian.
+:::
+
+## Untuk Pertemuan 12
+
+::: {.incremental}
+
+* Merancang **uji coba**: siapa respondennya, berapa banyak, dan bagaimana menjangkaunya.
+* Menyusun aturan pembersihan data **sebelum** data masuk.
+* Menyertakan **satu skala pembanding** yang pendek, untuk bukti hubungan dengan variabel lain.
+* Menyiapkan wawancara kognitif singkat dengan 3–5 orang sebelum kuesioner disebar.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+#### Persiapan
+Bawa daftar item hasil revisi hari ini. Kalau hasil penilaian dari panel yang sebenarnya sudah kembali, bawa juga.
 :::
 
 ## Ada pertanyaan❓
@@ -39,5 +510,25 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 ### Catatan
 
 * Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
-* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+* Kontak kami via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
 :::
+
+## Rujukan {.smaller}
+
+AERA, APA, & NCME. (2014). *Standards for educational and psychological testing*. American Educational Research Association.
+
+Cicchetti, D. V., & Sparrow, S. A. (1981). Developing criteria for establishing interrater reliability of specific items. *American Journal of Mental Deficiency, 86*(2), 127–137.
+
+Davis, L. L. (1992). Instrument review: Getting the most from a panel of experts. *Applied Nursing Research, 5*(4), 194–197.
+
+Haynes, S. N., Richard, D. C. S., & Kubany, E. S. (1995). Content validity in psychological assessment: A functional approach to concepts and methods. *Psychological Assessment, 7*(3), 238–247.
+
+Lynn, M. R. (1986). Determination and quantification of content validity. *Nursing Research, 35*(6), 382–385.
+
+Polit, D. F., & Beck, C. T. (2006). The content validity index: Are you sure you know what's being reported? *Research in Nursing & Health, 29*(5), 489–497.
+
+Polit, D. F., Beck, C. T., & Owen, S. V. (2007). Is the CVI an acceptable indicator of content validity? Appraisal and recommendations. *Research in Nursing & Health, 30*(4), 459–467.
+
+Rubio, D. M., Berg-Weger, M., Tebb, S. S., Lee, E. S., & Rauch, S. (2003). Objectifying content validity: Conducting a content validity study in social work research. *Social Work Research, 27*(2), 94–104.
+
+Waltz, C. F., & Bausell, R. B. (1981). *Nursing research: Design, statistics, and computer analysis*. F. A. Davis.

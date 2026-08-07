@@ -1,0 +1,528 @@
+---
+title: "Expert Review and Content Validity: Computing and Interpreting the CVI"
+subtitle: "Psychological Scale Construction"
+author: "Rizqy Amelia Zein & Dian Kartika Amelia Arbi"
+institute:
+  - "[_Department of Psychology, Universitas Airlangga_](https://psikologi.unair.ac.id/dosen-rizqy-amelia-zein/)"
+date: today
+format:
+  unair-revealjs:
+    slide-number: true
+    progress: true
+    transition: slide
+    center: false
+    css: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css
+    chalkboard: true
+execute:
+  eval: false
+  echo: true
+---
+
+## _Outline_
+
+::: {.incremental}
+
+* Why items need to be rated by an expert panel before piloting
+* Assembling the panel: who counts as an expert, and how many
+* The relevance rating form and how to send it out
+* Computing **I-CVI** and **S-CVI**, and why the two can give different impressions
+* Correcting for **agreement that occurs by chance**
+* What to do with items that do not pass
+* What the CVI cannot tell you
+
+:::
+
+::: aside
+***Disclosure* on the use of artificial intelligence (AI)**
+
+We used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate references, and troubleshoot `quarto` and `git` code. We (Amel and Dian) take full responsibility for the substance and presentation of these slides.
+
+:::
+
+# Starting the practical half {background-color="#14497F" .center}
+
+## Where we are
+
+::: {.incremental}
+
+* **Session 9** produced the construct specification: definition, boundary, estimand, facets, and indicators.
+
+* **Session 10** produced the blueprint and the item list, with a response format.
+
+* **Today** that item list is judged by other people, before any respondent completes it.
+
+:::
+
+::: {.notes}
+Brief introduction if this is the first session with this class. Check that every group has brought
+its construct specification and item list. Groups without them cannot fully take part in today's
+practical work; have them complete it during this session.
+:::
+
+## How this connects to what came before
+
+::: {.incremental}
+
+* In **Session 7**, validity was treated as a body of evidence rather than a single number. One source of that evidence is **test content**.
+
+* The CVI is a way of making content evidence **computable and reportable**.
+
+* In **Session 5**, students already ran a simple version of this as Thurstone judges: rating each statement, then discarding those they could not agree on.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+The procedure is the same. Only the criterion differs: not where a statement sits on a continuum, but **how relevant an item is to the construct**.
+:::
+
+# Assembling the panel {background-color="#14497F" .center}
+
+## Who counts as an expert
+
+::: {.incremental}
+
+* **Content experts** — people who know the construct: lecturers, researchers, or practitioners in the field.
+
+* **Method experts** — people who know scale construction and can judge whether an item is well written.
+
+* **Representatives of the target population** — not experts in the academic sense, but the best judges of whether the wording makes sense to prospective respondents.
+
+:::
+
+. . .
+
+::: {.callout-note}
+These three give different kinds of feedback. A panel made up entirely of academics tends to miss readability problems that a prospective respondent spots immediately.
+:::
+
+## How many
+
+::: {.incremental}
+
+* **At least 3.** Below that, agreement means very little.
+
+* **5 to 10** is the usual and safer range.
+
+* The size of the panel determines the pass criterion for each item, so decide the number first.
+
+:::
+
+::: aside
+Lynn (1986).
+:::
+
+. . .
+
+::: {.callout-warning}
+#### An odd number is more practical
+With an even number, agreement can split exactly down the middle, leaving you with no basis for a decision.
+:::
+
+::: {.notes}
+For a one-semester project, 3–5 raters is realistic: a lecturer from a related course, a postgraduate
+student, and one or two representatives of the target population. Stress that with a small panel the
+criterion is actually stricter — every rater must agree.
+:::
+
+## What to send the panel
+
+::: {.incremental}
+
+1. The **construct definition** from Session 9, including the construct boundary.
+2. The **blueprint**, so raters can see which facet each item is meant to represent.
+3. The **item list**, clearly numbered.
+4. The **rating form** with its instructions.
+5. A clear **deadline**.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+#### The most commonly forgotten item
+Sending the item list **without the construct definition**. Raters then judge relevance against their own understanding of the construct — and the result cannot be interpreted.
+:::
+
+# The rating form {background-color="#14497F" .center}
+
+## A four-point relevance scale
+
+| Rating | Meaning |
+|:--:|---|
+| 1 | Not relevant |
+| 2 | Somewhat relevant, needs major revision |
+| 3 | Quite relevant, needs minor revision |
+| 4 | Highly relevant |
+
+::: aside
+Waltz & Bausell (1981); Davis (1992).
+:::
+
+. . .
+
+::: {.incremental}
+
+* Four points, **with no midpoint**. Raters have to commit: relevant or not.
+
+* For the computation, ratings of **3 and 4** count as "relevant"; **1 and 2** count as "not relevant".
+
+:::
+
+## Add these two things
+
+::: {.incremental}
+
+* **A comment box** for each item. A number alone does not tell you what to fix.
+
+* **One question at the end**: *"Is there any important aspect of this construct that the items above do not cover?"*
+
+:::
+
+. . .
+
+::: {.callout-tip}
+#### Why that last question matters
+The CVI only checks whether the items that **exist** are relevant. It cannot check whether part of the construct is **not covered at all**.
+
+That is construct underrepresentation from Session 7. The only way to check it through a panel is to ask directly.
+:::
+
+# Computing the I-CVI {background-color="#14497F" .center}
+
+## The formula
+
+$$\text{I-CVI} = \frac{\text{number of raters giving a 3 or 4}}{\text{total number of raters}}$$
+
+. . .
+
+::: {.incremental}
+
+* Computed **for each item**, one value per item.
+
+* It ranges from 0 to 1.
+
+* Example: of 6 raters, 5 give a 3 or 4. Then I-CVI = 5/6 = **0.83**.
+
+:::
+
+## An example: 8 items, 6 raters
+
+| Item | Raters judging it relevant | I-CVI |
+|:--:|:--:|:--:|
+| A1 | 6 | 1.00 |
+| A2 | 6 | 1.00 |
+| A3 | 5 | 0.83 |
+| A4 | 6 | 1.00 |
+| A5 | 4 | 0.67 |
+| A6 | 5 | 0.83 |
+| A7 | 6 | 1.00 |
+| A8 | 3 | 0.50 |
+
+::: {.notes}
+Have students compute the I-CVI column themselves before showing it. It is quick and it makes the
+formula stick. Ask which items they think are problematic before introducing the criteria.
+:::
+
+## The pass criteria
+
+::: {.incremental}
+
+* With **3 to 5 raters**: I-CVI must be **1.00**. Every rater must agree.
+
+* With **6 to 10 raters**: I-CVI must be at least **0.78**.
+
+:::
+
+::: aside
+Lynn (1986); Polit & Beck (2006).
+:::
+
+. . .
+
+In the example above, with 6 raters, two items fail: **A5** (0.67) and **A8** (0.50).
+
+. . .
+
+::: {.callout-note}
+Note that the criterion is **stricter when there are fewer raters**. The reason is on the next slide.
+:::
+
+# Agreement by chance {background-color="#14497F" .center}
+
+## The problem
+
+::: {.incremental}
+
+* If raters answered at random, some agreement would still appear **by chance**.
+
+* With few raters, that chance is substantial. With 3 raters, the probability that all three happen to rate an item "relevant" is 12.5%.
+
+* So I-CVI on its own can look better than it should.
+
+:::
+
+## Modified kappa
+
+The probability of chance agreement:
+
+$$p_c = \binom{N}{A} \times 0.5^N$$
+
+Then:
+
+$$\kappa^* = \frac{\text{I-CVI} - p_c}{1 - p_c}$$
+
+where $N$ is the number of raters and $A$ the number judging the item relevant.
+
+::: aside
+Polit, Beck, & Owen (2007).
+:::
+
+## Applied to the example
+
+| Item | $A$ | I-CVI | $p_c$ | $\kappa^*$ | Verdict |
+|:--:|:--:|:--:|:--:|:--:|---|
+| A1 | 6 | 1.00 | 0.016 | 1.00 | excellent |
+| A3 | 5 | 0.83 | 0.094 | 0.82 | excellent |
+| A5 | 4 | 0.67 | 0.234 | 0.56 | fair |
+| A8 | 3 | 0.50 | 0.313 | 0.27 | poor |
+
+. . .
+
+::: {.callout-note}
+The usual benchmarks: $\kappa^* > 0.74$ excellent, $0.60$–$0.74$ good, $0.40$–$0.59$ fair, below that poor.
+
+Note A8: an I-CVI of 0.50 looks like "half agreed", but once corrected, the agreement is barely better than guessing.
+:::
+
+# Computing the S-CVI {background-color="#14497F" .center}
+
+## Two methods, two numbers
+
+::: {.incremental}
+
+* **S-CVI/Ave** — the average of all the I-CVIs. It describes average relevance.
+
+* **S-CVI/UA** — the proportion of items on which **all** raters agreed (universal agreement). Considerably stricter.
+
+:::
+
+. . .
+
+For the example above:
+
+$$\text{S-CVI/Ave} = \frac{6.83}{8} = 0.85 \qquad \text{S-CVI/UA} = \frac{4}{8} = 0.50$$
+
+## Same data, different impression
+
+::: {.r-fit-text}
+0.85 looks adequate.
+
+0.50 looks poor.
+:::
+
+<br>
+
+. . .
+
+::: {.incremental}
+
+* Both come from exactly the same table.
+
+* Polit & Beck (2006) wrote a paper specifically about this confusion: many reports cite "the CVI" without saying which one.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+#### What your group must do
+State **explicitly** which computation you used. Writing "CVI = 0.85" without qualification leaves the number uninterpretable.
+
+The one usually reported is **S-CVI/Ave**, with a benchmark of at least **0.90**.
+:::
+
+::: {.notes}
+This is the most common error in student reports. Stress that both are legitimate as long as the
+method is named. If time allows, have one group compute both figures from their own data and
+compare them.
+:::
+
+# What comes next {background-color="#14497F" .center}
+
+## Items that do not pass
+
+::: {.incremental}
+
+* **Revise first, do not delete straight away.** Read the raters' comments. The problem is often the wording rather than the idea.
+
+* **Delete** if the item really measures something else, or if the facet is already better represented by another item.
+
+* **Keep it with a stated reason** if it is conceptually essential and has no replacement. Write that reason into the report.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+Recall the attenuation paradox from Session 7. Dropping items purely to produce tidier numbers can narrow content coverage, which does more harm than good.
+:::
+
+## Recompute after revision
+
+If A5 and A8 are revised and re-rated, or removed:
+
+::: {.incremental}
+
+* The six remaining items have I-CVIs of 1.00 — 1.00 — 0.83 — 1.00 — 0.83 — 1.00
+
+* $\text{S-CVI/Ave} = 5.67 / 6 = \mathbf{0.94}$
+
+* That now passes the 0.90 benchmark.
+
+:::
+
+. . .
+
+::: {.callout-note}
+Report **both**: the result before revision and after, together with the decision taken on each item. What is assessed is the process, not only the final number.
+:::
+
+# What the CVI cannot do {background-color="#14497F" .center}
+
+## Three things it does not check
+
+::: {.incremental}
+
+* **Completeness.** The CVI judges the items that exist, not the items that should exist. For that you have to ask the panel directly.
+
+* **Clarity for respondents.** Expert raters read items differently from prospective respondents. Clarity is checked through cognitive interviewing, as covered in Session 7.
+
+* **Whether the construct itself makes sense.** If your construct definition is flawed, the panel will rate relevance against that flawed definition.
+
+:::
+
+::: aside
+Haynes, Richard, & Kubany (1995); Rubio et al. (2003).
+:::
+
+. . .
+
+::: {.callout-tip}
+The CVI is one source of evidence, not a verdict. It occupies one row of the validity evidence table from Session 7 — not the whole table.
+:::
+
+# Practical work {background-color="#14497F" .center}
+
+## Part 1: preparing the panel pack
+
+**30 minutes.** Each group prepares:
+
+::: {.incremental}
+
+1. The pack for raters: construct definition, blueprint, numbered item list.
+2. A rating form with the 4-point scale, comment boxes, and the completeness question.
+3. A list of prospective raters and their role: content expert, method expert, or population representative.
+4. A return deadline.
+
+:::
+
+::: {.notes}
+Circulate and check that the construct definition is actually included — this is the step most often
+missed. Check too that item numbering is consistent with the blueprint.
+If possible, encourage each group to send the pack to raters by the end of this week, so responses
+are back before the pilot in Session 12.
+:::
+
+## Part 2: practising the computation
+
+**25 minutes.** Groups swap and act as raters for one another.
+
+::: {.incremental}
+
+* Each group member rates **10 items belonging to another group** using the 4-point scale.
+
+* Collect the ratings and compute: **I-CVI for each item**, **$\kappa^*$**, and both **S-CVI/Ave** and **S-CVI/UA**.
+
+* Identify which items fail, and write one revision suggestion for each.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+This exercise uses classmates as raters, so the result is not genuine validity evidence. The point is to make sure the computation is correct before the real panel data arrives.
+:::
+
+::: {.notes}
+The computation can be done on paper or in a spreadsheet. The most frequent mistakes: forgetting
+that ratings of 3 and 4 both count as relevant, and confusing S-CVI/Ave with S-CVI/UA.
+Leave 15 minutes to work through one or two groups' results with the whole class.
+:::
+
+## What you must produce
+
+::: {.incremental}
+
+* A **panel pack** ready to send.
+* A **computation table** with I-CVI, $\kappa^*$, S-CVI/Ave, and S-CVI/UA.
+* A **decision record** for each item: kept, revised, or removed, with the reason.
+* A **revised item list**, ready for the pilot.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+The table and decision record go into the final report and fill the **Item review / CVI** row of the assessment rubric.
+:::
+
+## For Session 12
+
+::: {.incremental}
+
+* Designing the **pilot study**: who the respondents are, how many, and how to reach them.
+* Setting data-cleaning rules **before** the data arrives.
+* Including **one short comparison scale** for evidence on relations to other variables.
+* Running short cognitive interviews with 3–5 people before distributing the questionnaire.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+#### Preparation
+Bring today's revised item list. If ratings from your actual panel have come back, bring those too.
+:::
+
+## Any questions❓
+
+![](libs/closing.JPG){fig-align="center"}
+
+::: {.callout-note}
+### Notes
+
+* These slides were built with {{< fa brands r-project >}} and [**Quarto**](https://quarto.org), using the [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme) template.
+* Reach us at <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+:::
+
+## References {.smaller}
+
+AERA, APA, & NCME. (2014). *Standards for educational and psychological testing*. American Educational Research Association.
+
+Cicchetti, D. V., & Sparrow, S. A. (1981). Developing criteria for establishing interrater reliability of specific items. *American Journal of Mental Deficiency, 86*(2), 127–137.
+
+Davis, L. L. (1992). Instrument review: Getting the most from a panel of experts. *Applied Nursing Research, 5*(4), 194–197.
+
+Haynes, S. N., Richard, D. C. S., & Kubany, E. S. (1995). Content validity in psychological assessment: A functional approach to concepts and methods. *Psychological Assessment, 7*(3), 238–247.
+
+Lynn, M. R. (1986). Determination and quantification of content validity. *Nursing Research, 35*(6), 382–385.
+
+Polit, D. F., & Beck, C. T. (2006). The content validity index: Are you sure you know what's being reported? *Research in Nursing & Health, 29*(5), 489–497.
+
+Polit, D. F., Beck, C. T., & Owen, S. V. (2007). Is the CVI an acceptable indicator of content validity? Appraisal and recommendations. *Research in Nursing & Health, 30*(4), 459–467.
+
+Rubio, D. M., Berg-Weger, M., Tebb, S. S., Lee, E. S., & Rauch, S. (2003). Objectifying content validity: Conducting a content validity study in social work research. *Social Work Research, 27*(2), 94–104.
+
+Waltz, C. F., & Bausell, R. B. (1981). *Nursing research: Design, statistics, and computer analysis*. F. A. Davis.

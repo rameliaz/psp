@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="470" viewBox="0 0 940 470" font-family="Segoe UI, Inter, Helvetica, sans-serif">
+<defs><marker id="ar" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#999999"/></marker></defs>
+<text x="40" y="34" font-size="20" font-weight="600" fill="#14497F">Alur kerja Pertemuan 9</text>
+<rect x="40" y="62" width="300" height="56" rx="6" fill="#EAF0F7" stroke="#14497F" stroke-width="2"/>
+<text x="58" y="97" font-size="18" font-weight="600" fill="#14497F">1. Tinjauan pustaka</text>
+<line x1="348" y1="90.0" x2="384" y2="90.0" stroke="#999999" stroke-width="2" marker-end="url(#ar)"/>
+<text x="396" y="96.0" font-size="16" fill="#333333">5–10 definisi yang sudah ada, dikutip utuh</text>
+<line x1="190.0" y1="121" x2="190.0" y2="130" stroke="#999999" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="40" y="134" width="300" height="56" rx="6" fill="#EAF0F7" stroke="#14497F" stroke-width="2"/>
+<text x="58" y="169" font-size="18" font-weight="600" fill="#14497F">2. Definisi konstruk</text>
+<line x1="348" y1="162.0" x2="384" y2="162.0" stroke="#999999" stroke-width="2" marker-end="url(#ar)"/>
+<text x="396" y="168.0" font-size="16" fill="#333333">satu paragraf: milik siapa, jenisnya apa, cirinya apa</text>
+<line x1="190.0" y1="193" x2="190.0" y2="202" stroke="#999999" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="40" y="206" width="300" height="56" rx="6" fill="#EAF0F7" stroke="#14497F" stroke-width="2"/>
+<text x="58" y="241" font-size="18" font-weight="600" fill="#14497F">3. Batas konstruk</text>
+<line x1="348" y1="234.0" x2="384" y2="234.0" stroke="#999999" stroke-width="2" marker-end="url(#ar)"/>
+<text x="396" y="240.0" font-size="16" fill="#333333">daftar yang tidak termasuk + konstruk tetangga</text>
+<line x1="190.0" y1="265" x2="190.0" y2="274" stroke="#999999" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="40" y="278" width="300" height="56" rx="6" fill="#EAF0F7" stroke="#14497F" stroke-width="2"/>
+<text x="58" y="313" font-size="18" font-weight="600" fill="#14497F">4. Estimand</text>
+<line x1="348" y1="306.0" x2="384" y2="306.0" stroke="#999999" stroke-width="2" marker-end="url(#ar)"/>
+<text x="396" y="312.0" font-size="16" fill="#333333">besaran apa, pada siapa, dalam kondisi apa</text>
+<line x1="190.0" y1="337" x2="190.0" y2="346" stroke="#999999" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="40" y="350" width="300" height="56" rx="6" fill="#EAF0F7" stroke="#14497F" stroke-width="2"/>
+<text x="58" y="385" font-size="18" font-weight="600" fill="#14497F">5. Definisi operasional</text>
+<line x1="348" y1="378.0" x2="384" y2="378.0" stroke="#999999" stroke-width="2" marker-end="url(#ar)"/>
+<text x="396" y="384.0" font-size="16" fill="#333333">indikator yang bisa diamati</text>
+<line x1="190.0" y1="409" x2="190.0" y2="418" stroke="#999999" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="40" y="422" width="300" height="56" rx="6" fill="none" stroke="#C79A00" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="58" y="457" font-size="18" font-weight="600" fill="#C79A00">Pertemuan 10</text>
+<line x1="348" y1="450.0" x2="384" y2="450.0" stroke="#999999" stroke-width="2" marker-end="url(#ar)"/>
+<text x="396" y="456.0" font-size="16" fill="#333333">kisi-kisi dan penulisan item</text>
+<text x="40" y="458" font-size="14" fill="#333333">Keluaran tiap langkah menjadi masukan langkah berikutnya.</text>
+</svg>

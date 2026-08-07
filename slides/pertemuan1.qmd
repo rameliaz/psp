@@ -57,7 +57,7 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 
 ::: {.callout-tip}
 #### Penting dicatat
-Paruh pertama **bukan** sekadar pengantar. Hampir setiap keputusan teknis yang akan Anda ambil di paruh kedua, misalnya berapa banyak item yang harus disertakan, format responsnya seperti apa, koefisien mana yang dilaporkan, adalah konsekuensi dari posisi konseptual yang kita bahas di paruh pertama.
+Paruh pertama **bukan** sekadar pengantar. Hampir setiap keputusan teknis yang akan Anda akan ambil di paruh kedua, misalnya berapa banyak item yang harus disertakan, format responsnya seperti apa, koefisien mana yang dilaporkan, adalah konsekuensi dari posisi konseptual yang kita bahas di paruh pertama.
 :::
 
 # Mari mulai dari pertanyaan yang paling dasar {background-color="#14497F" .center}
@@ -66,11 +66,11 @@ Paruh pertama **bukan** sekadar pengantar. Hampir setiap keputusan teknis yang a
 
 ::: {.incremental}
 
-1. Seorang psikolog kesehatan ingin membedakan **apa yang pasien *inginkan*** dari **apa yang pasien *harapkan*** terjadi saat berkonsultasi dengan dokter. Skala yang ada mencampuradukkan keduanya. Ia bisa saja menyusun sendiri beberapa pertanyaan — tapi apa jaminannya pertanyaan itu mengukur sesuatu?
+1. Seorang psikolog kesehatan ingin membedakan **apa yang pasien *inginkan*** dari **apa yang pasien *harapkan*** terjadi saat berkonsultasi dengan dokter. Skala yang tersedia saat ini mencampuradukkan keduanya. Ia bisa saja menyusun sendiri beberapa pertanyaan — tapi apa jaminannya pertanyaan itu mengukur sesuatu yang sesungguhnya ia ingin ukur?
 
-2. Seorang epidemiolog punya data survei nasional yang besar, tapi tidak ada satu pun skala stres di dalamnya. Ada beberapa item yang *sepertinya* menyinggung stres. Bolehkah ia menjumlahkan item-item itu dan menyebutnya "skala stres"?
+2. Seorang epidemiolog punya data survei nasional yang besar, tapi tidak ada satu pun skala stres di dalamnya. Ada beberapa item yang *sepertinya* menyinggung stres. Bolehkah ia menjumlahkan item-item itu dan menyebutnya "skor stres"?
 
-3. Sebuah tim pemasaran menemukan bahwa keputusan orang tua membeli mainan mahal dipengaruhi oleh sesuatu yang tidak bisa mereka namai, apalagi ukur.
+3. Sebuah tim pemasaran menemukan bahwa keputusan orang tua membeli mainan mahal dipengaruhi oleh sesuatu yang tidak bisa mereka sebut secara eksplisit, apalagi ukur.
 
 :::
 
@@ -78,7 +78,7 @@ Paruh pertama **bukan** sekadar pengantar. Hampir setiap keputusan teknis yang a
 Diadaptasi dari DeVellis & Thorpe (2022), Bab 1.
 :::
 
-## Apa yang menyatukan ketiganya?
+## Apa yang kesamaan dari 3️⃣ contoh tersebut?
 
 ::: {.incremental}
 
@@ -86,7 +86,7 @@ Diadaptasi dari DeVellis & Thorpe (2022), Bab 1.
 
 * Ketiganya adalah persoalan **pengukuran**: apakah angka yang kita hasilkan benar-benar mewakili atribut yang kita klaim sedang diukur?
 
-* Ketiganya juga punya jalan pintas yang sama: **susun saja itemnya, jumlahkan, beri nama**.
+* Ketiganya juga punya jalan pintas yang sama: **susun saja itemnya, jumlahkan, lalu beri nama konstruknya**.
 
 :::
 
@@ -109,7 +109,7 @@ Apa yang membuat sebuah angka
 
 <br>
 
-Perhatikan bahwa ini pertanyaan **normatif** ("layak"), bukan pertanyaan teknis. Jawabannya tidak ada di dalam data.
+Perhatikan bahwa ini pertanyaan **normatif** ("layak") sangat berbeda dengan pertanyaan teknis ("berapa koefisien reliabilitas skalanya?"). Jawabannya tidak dapat ditemui di dalam data.
 
 # Pengukuran lahir sebelum sains {background-color="#14497F" .center}
 
@@ -125,9 +125,9 @@ Perhatikan bahwa ini pertanyaan **normatif** ("layak"), bukan pertanyaan teknis.
 
 * Duncan berargumen bahwa akar pengukuran ada pada **proses sosial**, dan proses itu **mendahului** sains.
 
-* Pemungutan suara, sensus, sistem kenaikan pangkat — semuanya muncul untuk memenuhi kebutuhan sehari-hari, bukan sebagai eksperimen untuk memuaskan rasa ingin tahu ilmiah.
+* Pemungutan suara, sensus, sistem kenaikan pangkat muncul untuk memenuhi kebutuhan sehari-hari, bukan sebagai eksperimen untuk memuaskan rasa ingin tahu ilmuwan.
 
-* Pengukuran panjang, luas, volume, berat, dan waktu dikembangkan masyarakat kuno **untuk menyelesaikan masalah praktis** — dan fisika kemudian dibangun di atas fondasi itu.
+* Pengukuran atribut fisik seperti panjang, luas, volume, berat, dan waktu dikembangkan manusia sejak peradaban kuno **untuk menyelesaikan masalah praktis** dan fisika kemudian dibangun di atas fondasi itu.
 
 :::
 
@@ -154,7 +154,7 @@ Perhatikan bahwa ini pertanyaan **normatif** ("layak"), bukan pertanyaan teknis.
 Semuanya soal **keadilan**, bukan soal akurasi ilmiah. Sejak awal, pengukuran adalah alat kekuasaan dan pembagian sumber daya. Hal ini akan muncul lagi ketika kita membahas *test bias* dan penggunaan tes psikologi untuk seleksi.
 :::
 
-## Gagasan bahwa pengukuran *bisa* keliru itu relatif baru
+## Gagasan bahwa pengukuran *bisa* keliru justru relatif baru
 
 ::: {.incremental}
 

@@ -544,9 +544,9 @@ Kalau waktu mepet, cukup bahas A dan C — keduanya paling sering muncul di draf
 
 4. **Pilihan tengah punya kelebihan dan kekurangan.** Tidak ada format yang otomatis lebih baik — dan "netral", "ragu-ragu", serta "kurang setuju" bukan hal yang sama.
 
-5. **Semantic Differential** menuntut pasangan kata sifat yang benar-benar berlawanan dalam bahasa responden.
+5. **Semantic Differential** memerlukan pasangan kata sifat yang benar-benar berlawanan dalam bahasa responden.
 
-6. **Guttman** menuntut urutan kumulatif yang deterministik, sehingga jarang cocok untuk konstruk psikologis, tetapi ide dasarnya masih bisa dieksekusi dengan IRT.
+6. **Guttman** memerlukan urutan kumulatif yang deterministik, sehingga jarang cocok untuk konstruk psikologis, tetapi ide dasarnya masih bisa dieksekusi dengan IRT.
 
 :::
 

@@ -127,7 +127,7 @@ Nama konstruk Anda harus mencerminkan **siapa yang datanya diambil** (e.g., *est
 #### Penting diperhatikan
 Kalau satu sebab yang sama menggerakkan sepuluh item, maka kesepuluh item itu **harus berkorelasi satu sama lain**.
 
-Korelasi antar-item bisa kita hitung. Variabel latennya tidak. Jadi korelasi antar-item adalah **satu-satunya pintu masuk** untuk menaksir sesuatu yang tidak bisa kita amati.
+Korelasi antar-item bisa kita hitung. Variabel latennya tidak. Jadi korelasi antar-item adalah **satu-satunya pintu masuk** untuk mengestimasi sesuatu yang tidak bisa kita amati.
 :::
 
 ## Inilah yang membuat analisis item mungkin
@@ -531,7 +531,7 @@ Perhatikan bahwa ketiganya adalah asumsi tentang **item Anda**, bukan tentang or
 
 * Kalau item Anda sebenarnya *congeneric* (dan hampir selalu begitu), $\alpha$ akan **mengestimasi reliabilitas lebih rendah** daripada yang sesungguhnya.
 
-* Koefisien ***omega*** ($\omega$) tidak menuntut asumsi itu, sehingga umumnya lebih tepat.
+* Koefisien ***omega*** ($\omega$) tidak mensyaratkan asumsi itu, sehingga umumnya lebih tepat.
 
 :::
 
@@ -677,13 +677,13 @@ Dalam CTT, padanan terdekat dari daya diskriminasi adalah **korelasi item dengan
 IRT lebih tepat disebut **keluarga model**, bukan satu prosedur tunggal.
 :::
 
-## Apa yang dituntut IRT
+## Apa yang disyaratkan IRT
 
 ::: {.incremental}
 
 * **Unidimensionalitas** — sama seperti CTT. Item harus berbagi satu variabel laten.
 
-* ***Local independence*** — dituntut secara formal, bukan sekadar dianjurkan.
+* ***Local independence*** — disyaratkan secara formal, bukan sekadar dianjurkan.
 
 * **Sampel besar dan beragam.** Keunggulan teoretis IRT hanya terwujud kalau itemnya dikalibrasi pada sampel yang besar dan heterogen.
 
@@ -693,7 +693,7 @@ IRT lebih tepat disebut **keluarga model**, bukan satu prosedur tunggal.
 
 ::: {.callout-note}
 #### Perhatikan
-Dua asumsi pertama itu persis asumsi nomor 4 dari Pertemuan 2. IRT **tidak menghapus** asumsi, melainkan menuntutnya lebih ketat dan memberi lebih banyak sebagai imbalannya.
+Dua asumsi pertama itu persis asumsi nomor 4 dari Pertemuan 2. IRT **tidak menghapus** asumsi, melainkan mensyaratkannya lebih ketat dan memberi lebih banyak sebagai imbalannya.
 :::
 
 ## Kenapa mata kuliah ini tetap memakai CTT
@@ -773,7 +773,7 @@ Pertanyaan nomor 3 akan kita pakai lagi secara langsung ketika menyusun *bluepri
 
 2. **$X = T + E$**, dengan asumsi bahwa *error* bersifat acak — bukan sistematis.
 
-3. **Reliabilitas adalah proporsi varians**: bagian dari keragaman skor yang bukan *noise*.
+3. **Reliabilitas adalah proporsi varians**: bagian dari variasi skor yang bukan *noise*.
 
 4. ***True score* melekat pada alat ukur**, bukan pada konstruk. Alat yang bias secara konsisten tetap bisa sangat reliabel — dan reliabilitas maupun validitas sama-sama sifat **skor**, bukan sifat skala.
 

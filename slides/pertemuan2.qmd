@@ -392,7 +392,7 @@ DeVellis & Thorpe (2022), Bab 2.
 
 ::: {.callout-note}
 #### Konsekuensi yang akan sering Anda pakai
-Karena itu, korelasi antar-item bisa dipakai untuk **menaksir** seberapa kuat hubungan tiap item dengan konstruk latennya — meskipun konstruknya sendiri tidak pernah kita ukur langsung. Ini dasar dari analisis item di Pertemuan 13.
+Karena itu, korelasi antar-item bisa dipakai untuk **mengestimasi** seberapa kuat hubungan tiap item dengan konstruk latennya — meskipun konstruknya sendiri tidak pernah kita ukur langsung. Ini dasar dari analisis item di Pertemuan 13.
 :::
 
 ## Asumsi unidimensionalitas

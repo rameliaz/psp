@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="470" viewBox="0 0 900 470" font-family="Segoe UI, Inter, Helvetica, sans-serif">
+<defs>
+<pattern id="hl" width="9" height="9" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="0" y2="9" stroke="#14497F" stroke-width="3" opacity="0.35"/></pattern>
+<pattern id="hr" width="9" height="9" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="0" y2="9" stroke="#E6282B" stroke-width="3" opacity="0.35"/></pattern>
+<clipPath id="cL"><circle cx="330" cy="230" r="165"/></clipPath>
+<clipPath id="cR"><circle cx="570" cy="230" r="165"/></clipPath>
+</defs>
+<circle cx="330" cy="230" r="165" fill="url(#hl)"/>
+<circle cx="570" cy="230" r="165" fill="url(#hr)"/>
+<g clip-path="url(#cR)"><circle cx="330" cy="230" r="165" fill="#14497F" opacity="0.80"/></g>
+<circle cx="330" cy="230" r="165" fill="none" stroke="#14497F" stroke-width="3.5"/>
+<circle cx="570" cy="230" r="165" fill="none" stroke="#E6282B" stroke-width="3.5"/>
+<text x="238" y="23" font-size="17" font-weight="600" fill="#14497F" text-anchor="middle">Konstruk yang</text>
+<text x="238" y="45" font-size="17" font-weight="600" fill="#14497F" text-anchor="middle">ingin diukur</text>
+<text x="662" y="23" font-size="17" font-weight="600" fill="#E6282B" text-anchor="middle">Isi tes</text>
+<text x="662" y="45" font-size="17" font-weight="600" fill="#E6282B" text-anchor="middle">(item yang ditulis)</text>
+<text x="450" y="224" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle">Varians</text>
+<text x="450" y="244" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle">yang relevan</text>
+<line x1="150" y1="348" x2="242" y2="288" stroke="#333333" stroke-width="1.2"/>
+<text x="20" y="370" font-size="15" font-weight="600" fill="#14497F">Construct underrepresentation</text>
+<text x="20" y="392" font-size="14" fill="#333333">bagian konstruk yang</text>
+<text x="20" y="411" font-size="14" fill="#333333">tidak tertangkap item</text>
+<line x1="750" y1="348" x2="658" y2="288" stroke="#333333" stroke-width="1.2"/>
+<text x="880" y="370" font-size="15" font-weight="600" fill="#E6282B" text-anchor="end">Construct-irrelevant variance</text>
+<text x="880" y="392" font-size="14" fill="#333333" text-anchor="end">hal lain yang ikut</text>
+<text x="880" y="411" font-size="14" fill="#333333" text-anchor="end">terukur oleh item</text>
+<text x="450" y="460" font-size="14" fill="#333333" text-anchor="middle">Dua bentuk ancaman terhadap tafsiran skor (Messick, 1989).</text>
+</svg>

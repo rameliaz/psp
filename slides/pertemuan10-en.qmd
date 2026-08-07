@@ -1,0 +1,524 @@
+---
+title: "Item-Writing Workshop: Blueprint and Choosing a Response Format"
+subtitle: "Psychological Scale Construction"
+author: "Rizqy Amelia Zein & Dian Kartika Amelia Arbi"
+institute:
+  - "[_Department of Psychology, Universitas Airlangga_](https://psikologi.unair.ac.id/dosen-rizqy-amelia-zein/)"
+date: today
+format:
+  unair-revealjs:
+    slide-number: true
+    progress: true
+    transition: slide
+    center: false
+    css: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css
+    chalkboard: true
+execute:
+  eval: false
+  echo: true
+---
+
+## _Outline_
+
+::: {.incremental}
+
+* Building a **blueprint**: how many items per facet, and why that many
+* Item-writing principles, with faulty examples and their repairs
+* **Reverse-worded items**: what the evidence says, and when to use them
+* Settling the **response format** for the whole scale
+* Assembling the questionnaire: introduction, instructions, layout
+* Workshop and peer review between groups
+
+:::
+
+::: aside
+***Disclosure* on the use of artificial intelligence (AI)**
+
+We used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate references, and troubleshoot `quarto` and `git` code. We (Amel and Dian) take full responsibility for the substance and presentation of these slides.
+
+:::
+
+# From construct specification to items {background-color="#14497F" .center}
+
+## What you bring today
+
+::: {.incremental}
+
+* The construct specification from Session 9: definition, boundary, estimand, dimensions, facets, and indicators.
+
+* Today those indicators become **items**, and the items become a **questionnaire**.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+If your group does not yet have a construct specification, do that first today. Writing items without a construct definition only produces work that has to be redone.
+:::
+
+# The blueprint {background-color="#14497F" .center}
+
+## What a blueprint does
+
+::: {.incremental}
+
+* It links **facets of the construct** to **the number of items** representing each one.
+
+* Its job is to keep content coverage aligned with your definition, rather than with whichever facet is easiest to write items for.
+
+* This is the earliest form of the content evidence discussed in Session 7.
+
+:::
+
+. . .
+
+::: {.callout-note}
+Without a blueprint, the same thing happens almost every time: the facet that is easiest to picture gets ten items, while the difficult one gets two.
+:::
+
+## An example blueprint
+
+Construct: **social anxiety** in undergraduates.
+
+| Facet | Weight | Indicators | Items written | Final target |
+|---|:--:|:--:|:--:|:--:|
+| Fear of negative evaluation | 40% | 3 | 12 | 6 |
+| Avoidance of social situations | 35% | 3 | 10 | 5 |
+| Physiological symptoms | 25% | 2 | 8 | 4 |
+| **Total** | **100%** | **8** | **30** | **15** |
+
+. . .
+
+::: {.incremental}
+
+* **Weights** come from your construct definition, not from preference.
+
+* Note the last two columns: you write **considerably more** than you will use.
+
+:::
+
+## Why write a surplus
+
+::: {.incremental}
+
+* Some items will be dropped at expert review (Session 11), others at item analysis (Session 13).
+
+* If you write exactly 15 items for a 15-item target, you have no room to discard anything.
+
+* A common rule of thumb: write **two to three times** your target number.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+#### How many items in the end
+Recall from Session 6: reliability is driven by the number of items and the mean inter-item correlation. For a scale with moderate inter-item correlations, **10–20 items** is usually enough.
+
+Adding items indefinitely gives shrinking returns and increases respondent burden.
+:::
+
+## Spread the items out
+
+::: {.incremental}
+
+* Recall the discussion of item difficulty in Session 3: items should be **spread** across the range of the construct.
+
+* For each facet, write some items that are **easy to endorse** (indicating a low level) and some that are **hard to endorse** (indicating a high level).
+
+* If every item describes a severe level, respondents at moderate levels will not be distinguished from one another.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+This is also what prevents the ceiling and floor effects that will show up immediately in the score distribution in Session 13.
+:::
+
+# Item-writing principles {background-color="#14497F" .center}
+
+## One item, one idea
+
+::: {.incremental}
+
+* A double-barrelled item contains two ideas at once, so a respondent who agrees with only one half has no correct answer available.
+
+* The words **"and"**, **"because"**, and **"if"** are frequent signs of a double-barrelled item.
+
+:::
+
+. . .
+
+| Problematic | Repair |
+|---|---|
+| "I feel nervous and sweaty when presenting." | Split into two items. |
+| "I avoid campus events because I fear being judged." | "I avoid campus events." + a separate item about the reason. |
+
+## Short and plain
+
+::: {.incremental}
+
+* A long item forces the respondent to hold the start of the sentence in mind while reading the end.
+
+* Avoid **double negatives**. *"I do not mind not being invited to discussions"* is hard for anyone to process.
+
+* Avoid ambiguous pronoun references and misplaced modifiers.
+
+:::
+
+. . .
+
+::: {.callout-note}
+DeVellis suggests a reading level around grades 5–7 for instruments used with the general population. With undergraduate respondents you have a little more room, but short sentences are still better.
+:::
+
+## Concrete behaviour, not its causes
+
+::: {.incremental}
+
+* Recall Session 2: Nisbett & Wilson showed that people often have no access to the real reasons behind their behaviour.
+
+* Items asking **what happens** are generally more dependable than items asking **why**.
+
+:::
+
+. . .
+
+| Problematic | Repair |
+|---|---|
+| "I feel anxious because I fear others' judgement." | "I worry that others judge me negatively." |
+| "I am introverted, so I avoid crowds." | "I avoid crowded events." |
+
+## The time frame comes from the estimand
+
+::: {.incremental}
+
+* Your estimand sentence from Session 9 already names a time frame. That time frame has to appear in the items.
+
+* *"In the past month, I have …"* measures something different from *"I usually …"*.
+
+* Make sure the time frame is **the same across all items** in a scale.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+Mixing time frames within one scale adds a source of variation you did not intend, and it usually appears as an extra factor in the analysis in Session 13.
+:::
+
+## How strongly to word the stem
+
+::: {.incremental}
+
+* From Session 4: for a Likert format, statements should be **fairly strong but not extreme**, because degree is already carried by the response options.
+
+* A statement that is too mild will be endorsed by nearly everyone, and stops distinguishing anyone.
+
+* A statement that is too extreme will be rejected by nearly everyone, with the same result.
+
+:::
+
+## Avoid loaded words
+
+::: {.incremental}
+
+* Words such as *"reasonable"*, *"should"*, *"excessive"*, or *"fail"* steer the answer.
+
+* Items should also avoid making respondents feel judged, particularly for constructs vulnerable to social desirability (Session 2).
+
+:::
+
+. . .
+
+| Problematic | Repair |
+|---|---|
+| "I worry excessively about others' opinions." | "I often think about what others think of me." |
+| "I fail to control my anxiety." | "I find it hard to calm myself when anxious." |
+
+# Reverse-worded items {background-color="#14497F" .center}
+
+## Why they were introduced
+
+::: {.incremental}
+
+* The idea comes from Likert (1932) himself: to reduce the tendency to agree with anything, half the items were worded in one direction and half in the other.
+
+* If a respondent is simply agreeing, the pattern becomes visible: they endorse both the forward and the reversed items.
+
+:::
+
+. . .
+
+::: {.callout-note}
+So far the idea is sound. The difficulty is in the execution.
+:::
+
+## What the evidence shows
+
+::: {.incremental}
+
+* Scales with all items worded in one direction produce **more accurate** responses than mixed-worded scales.
+
+* Scores on forward and reversed items are **not symmetric**: strongly disagreeing with a positive statement is not the same as strongly agreeing with its negative counterpart.
+
+* Reversed items often **form their own factor** in factor analysis. What appears there is the wording, not the construct.
+
+:::
+
+::: aside
+Summarised from Chyung, Barkin, & Shamsy (2018); see also Weijters, Baumgartner, & Schillewaert (2013).
+:::
+
+## And respondents stop noticing
+
+::: {.incremental}
+
+* Respondent performance declines roughly **12 minutes** after starting a survey.
+
+* After that, many stop registering the word "not" in an item — even when it is bolded, underlined, or capitalised.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+#### If you use them anyway
+* Place reversed items **early** in the questionnaire.
+* Make sure they are genuine **polar opposites**, not just a "not" added to the sentence.
+* **Check their effect** during analysis: see whether they cluster on their own.
+:::
+
+## The "not" trap
+
+::: {.incremental}
+
+* *"I feel anxious when presenting"* and *"I do not feel anxious when presenting"* are **not** two ends of one continuum.
+
+* Not feeling anxious is not the same as feeling calm. There is a great deal in between.
+
+* If you want a reversed item, reverse the **content**, not the grammar: *"I feel calm when presenting."*
+
+:::
+
+. . .
+
+::: {.callout-warning}
+#### For some constructs, one-directional items are more appropriate
+For constructs that are themselves negative — anxiety, depression — negatively worded statements are the natural form. Forcing reversals here only makes the sentences convoluted.
+:::
+
+# Response format {background-color="#14497F" .center}
+
+## The decisions you already know
+
+From Session 4, settle these now for **the whole scale**:
+
+::: {.incremental}
+
+* **How many options.** The 5–7 range is sensible for most purposes.
+* **Midpoint or not.** Use one if a middle position is genuinely meaningful for your construct.
+* **Labels.** Label every option, not only the endpoints.
+* **Anchors.** Agreement, frequency, or item-specific anchors.
+
+:::
+
+. . .
+
+::: {.callout-note}
+#### On the midpoint
+Chyung et al. (2017) suggest reframing the question: not *"should there be a midpoint"* but *"when is a midpoint appropriate"*. A midpoint is appropriate when it is a genuine middle position, not somewhere to hedge.
+
+If what you expect is genuine uncertainty, provide a separate "don't know" option rather than folding it into the midpoint.
+:::
+
+## Consistency and order
+
+::: {.incremental}
+
+* Use **one response format** across all items in a scale. Switching midway increases burden and complicates summing.
+
+* Present the response options in **ascending order**, from lowest to highest.
+
+* Keep the direction consistent from beginning to end.
+
+:::
+
+::: aside
+Chyung, Kennedy, & Campbell (2018).
+:::
+
+# Assembling the questionnaire {background-color="#14497F" .center}
+
+## Its parts
+
+::: {.incremental}
+
+* **Title** — reflects the content, concise, and not off-putting.
+
+* **Introductory statement** — brief purpose, confidentiality and consent, and **the approximate time required**.
+
+* **Instructions** — complete, unambiguous, including how to submit responses.
+
+* **Items** — grouped and numbered.
+
+* **Closing statement** — thanks, and next steps if any.
+
+:::
+
+::: aside
+Bikos, *ReCentering Psych Stats: Psychometrics*, Chapter 2.
+:::
+
+## This is not a formality
+
+::: {.incremental}
+
+* Pershing & Pershing (2001) examined 50 questionnaires used at a well-regarded medical school.
+
+* **72%** had no introductory statement at all. **78%** had no closing statement. **30%** had no instructions, and another 54% had minimal ones.
+
+* Only **8%** were professional in appearance.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+A cluttered questionnaire reduces respondent engagement, and that feeds directly into the reliability and validity of your scores. This is not about aesthetics.
+:::
+
+## Layout
+
+::: {.incremental}
+
+* Leave enough **white space**; do not crowd the page.
+* **Number** items and use section headings so respondents can see their progress.
+* Insert a break every **4–6 items**, or shade alternate rows.
+* For online administration, check that it reads well on a phone screen.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+#### Demographic questions
+Put them at the **end**, unless they are needed to screen respondents at the start. Demographic questions at the beginning make some respondents feel identified before they know what the questionnaire is about.
+:::
+
+# Workshop {background-color="#14497F" .center}
+
+## Part 1: writing items
+
+::: {.incremental}
+
+* **15 minutes** — Complete your group's blueprint: facets, weights, indicators, and the number of items to write.
+
+* **40 minutes** — Write the items. Aim for the "items written" column, not the final target.
+
+* **10 minutes** — Settle the response format and draft the instructions.
+
+:::
+
+::: {.notes}
+The most common problem in this session: a group writes ten paraphrases of one indicator and
+thinks it is done. Remind them that near-identical items violate local independence from Session 2
+and raise alpha without adding information.
+The second: every item describes a severe level. Ask them to picture a respondent at a moderate
+level, then ask which item would distinguish that person.
+:::
+
+## Part 2: peer review
+
+Swap item lists with another group. **25 minutes.**
+
+For each item, check:
+
+::: {.incremental}
+
+1. Does it contain **more than one idea**?
+2. Are there **double negatives** or unclear pronoun references?
+3. Does it ask about **behaviour** or about **reasons**?
+4. Is the **time frame** the same as in the other items?
+5. Are there **loaded words** steering the answer?
+6. Could people at different levels of the construct answer this identically? If so, it distinguishes nothing.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+Return the list with **written notes**, not a general verdict. "Item 7 is double-barrelled: nervous and sweaty" is far more useful than "the items are unclear".
+:::
+
+## What you must produce
+
+::: {.incremental}
+
+* A **blueprint** table, with weights and item counts.
+* An **item list** revised after peer review, each item tagged with its facet.
+* The **response format** and its labels.
+* A **draft questionnaire** with introduction and instructions.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+Bring all of it to Session 11. The expert panel cannot judge item relevance without reading your construct definition and blueprint.
+:::
+
+## For Session 11
+
+::: {.incremental}
+
+* The topic is expert review and computing the *Content Validity Index*.
+
+* Bring your construct specification, blueprint, and item list.
+
+* Check the schedule — the day, time, and room for the remaining sessions may differ from the first half.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+#### Preparation
+Read **Polit & Beck (2006)** if you have time. More importantly, make sure your item list is tidy, because that is what the panel will be rating.
+:::
+
+## Any questions❓
+
+![](libs/closing.JPG){fig-align="center"}
+
+::: {.callout-note}
+### Notes
+
+* These slides were built with {{< fa brands r-project >}} and [**Quarto**](https://quarto.org), using the [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme) template.
+* Reach me at <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+:::
+
+## References {.smaller}
+
+Bikos, L. H. *ReCentering psych stats: Psychometrics*. <https://lhbikos.github.io/ReC_Psychometrics/>
+
+Boateng, G. O., Neilands, T. B., Frongillo, E. A., Melgar-Quiñonez, H. R., & Young, S. L. (2018). Best practices for developing and validating scales for health, social, and behavioral research: A primer. *Frontiers in Public Health, 6*, 149.
+
+Chyung, S. Y., Barkin, J. R., & Shamsy, J. A. (2018). Evidence-based survey design: The use of negatively worded items in surveys. *Performance Improvement, 57*(3), 16–25.
+
+Chyung, S. Y., Kennedy, M., & Campbell, I. (2018). Evidence-based survey design: The use of ascending or descending order of Likert-type response options. *Performance Improvement, 57*(9), 9–16.
+
+Chyung, S. Y., Roberts, K., Swanson, I., & Hankinson, A. (2017). Evidence-based survey design: The use of a midpoint on the Likert scale. *Performance Improvement, 56*(10), 15–23.
+
+DeVellis, R. F., & Thorpe, C. T. (2022). *Scale development: Theory and applications* (5th ed.). SAGE.
+
+Krosnick, J. A., & Presser, S. (2010). Question and questionnaire design. In P. V. Marsden & J. D. Wright (Eds.), *Handbook of survey research* (2nd ed., pp. 263–313). Emerald.
+
+Likert, R. (1932). A technique for the measurement of attitudes. *Archives of Psychology, 22*(140), 1–55.
+
+Pershing, J. A., & Pershing, J. L. (2001). Ineffective reaction evaluation. *Performance Improvement Quarterly, 14*(1), 73–90.
+
+Swain, S. D., Weathers, D., & Niedrich, R. W. (2008). Assessing three sources of misresponse to reversed Likert items. *Journal of Marketing Research, 45*(1), 116–131.
+
+Weijters, B., Baumgartner, H., & Schillewaert, N. (2013). Reversed item bias: An integrative model. *Psychological Methods, 18*(3), 320–334.
