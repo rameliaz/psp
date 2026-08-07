@@ -25,10 +25,10 @@ execute:
 * Kenapa asumsi perlu diperiksa
 * **Asumsi 1**: atribut psikologis bervariasi secara kuantitatif
 * **Asumsi 2**: atributnya terdistribusi normal
-* **Asumsi 3**: atributnya kontinu, bukan kategorikal
+* **Asumsi 3**: atributnya *continuous*, bukan kategorikal
 * **Asumsi 4**: semua item mengukur satu hal yang sama
 * **Asumsi 5**: item bekerja dengan cara yang sama untuk semua kelompok
-* **Asumsi 6**: responden bisa dan mau melaporkan kondisi internalnya
+* **Asumsi 6**: responden **bisa** dan **mau** melaporkan kondisi internalnya
 * Apa yang bisa kita lakukan terhadap asumsi-asumsi ini
 
 :::
@@ -42,7 +42,7 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 
 # Dari Pertemuan 1 ke Pertemuan 2 {background-color="#14497F" .center}
 
-## Yang sudah kita sepakati minggu lalu
+## Yang sudah Anda pelajari minggu lalu
 
 ::: {.incremental}
 
@@ -60,7 +60,7 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 
 ::: {.callout-note}
 #### Benang merahnya
-Semua asumsi ini punya kesamaan: **ada asumsi-asumsi yang kita anggap benar tanpa pernah kita periksa**.
+Semua asumsi yang Anda lihat di awal punya kesamaan: **asumsi-asumsi ini kita anggap benar tanpa pernah kita periksa**.
 :::
 
 ## Kenapa satu pertemuan penuh hanya untuk membahas asumsi?
@@ -116,10 +116,12 @@ Semua asumsi ini punya kesamaan: **ada asumsi-asumsi yang kita anggap benar tanp
 |:-:|--------|:---------------------------:|
 | 1 | Atribut psikologis bervariasi secara **kuantitatif** | Sangat sulit |
 | 2 | Sebaran datanya **normal** | Ya |
-| 3 | Atributnya ****continuous****, bukan kategorikal | Sebagian |
+| 3 | Atributnya **continuous**, bukan kategorikal | Sebagian |
 | 4 | Semua item mengukur **satu konstruk yang sama** | Ya |
 | 5 | Cara item bekerja, sama untuk **semua kelompok** (*invariance*) | Ya, kalau datanya cukup |
 | 6 | Responden **bisa dan mau** menjawab secara akurat | Sebagian |
+
+: {tbl-colwidths="[8,62,30]"}
 
 . . .
 
@@ -221,9 +223,12 @@ Pertama, lihat tiga **item** secara terpisah:
 | O2 | *I have difficulty understanding abstract ideas* | 2.15 | **+0.78** | −0.23 |
 | E1 | *I am the life of the party* | 2.63 | +0.21 | **−0.96** |
 
+: {tbl-colwidths="[10,45,15,15,15]"}
+
 . . .
 
 ::: {.callout-note}
+### Perhatikan
 Item-itemnya **jelas tidak normal**. N3 menumpuk di ujung "setuju" (69% menjawab 4 atau 5), O2 menumpuk di ujung sebaliknya (67% menjawab 1 atau 2).
 :::
 
@@ -247,7 +252,7 @@ Skor total tiap dimensi (10 item, rentang 10–50), data yang sama:
 
 :::
 
-## Apa yang baru saja terjadi?
+## Apa yang terjadi?
 
 ::: {.incremental}
 
@@ -380,7 +385,7 @@ DeVellis & Thorpe (2022), Bab 2.
 . . .
 
 ::: {.callout-note}
-#### Konsekuensi yang akan sering Anda pakai
+#### Konsekuensinya
 Karena itu, korelasi antar-item bisa dipakai untuk **mengestimasi** seberapa kuat hubungan tiap item dengan konstruk latennya, meskipun konstruknya sendiri tidak pernah kita ukur langsung.
 :::
 
@@ -430,7 +435,7 @@ Kita bahas cara menghindarinya saat menulis item di Pertemuan 10.
 
 # Asumsi 5: item bekerja dengan cara yang sama untuk semua kelompok {background-color="#14497F" .center}
 
-## Satu item, arti yang berbeda
+## Satu item, artinya dapat berbeda
 
 ::: {.incremental}
 
@@ -445,6 +450,7 @@ Kita bahas cara menghindarinya saat menulis item di Pertemuan 10.
 . . .
 
 ::: {.callout-note}
+### Bagaimana cara mengujinya?
 Uji formalnya membutuhkan analisis faktor dan sampel besar, jadi kita tidak akan mempelajarinya di mata kuliah ini. Yang perlu Anda punya sekarang adalah **kesadaran bahwa asumsi ini Anda gunakan**.
 :::
 
@@ -504,7 +510,7 @@ Skala *self-report* mengandaikan dua hal sekaligus:
 
 Keduanya bisa gagal, dan gagalnya dengan cara yang berbeda.
 
-## Soal kemampuan: akses ke proses mental itu terbatas
+## Soal kemampuan: akses ke proses mental cenderung terbatas
 
 ::: {.incremental}
 
@@ -559,7 +565,7 @@ Kalau konstruk yang Anda pilih punya "jawaban yang diterima" secara sosial, seba
 . . .
 
 ::: {.callout-tip}
-#### Satu solusi parsial, dengan biayanya sendiri
+#### Satu solusi parsial, dengan risikonya sendiri
 *Acquiescence* biasanya diredam dengan menyisipkan **item bernada terbalik** (*unfavorable* atau *reverse-worded*).
 
 Tetapi item terbalik punya masalahnya sendiri: sebagian responden salah membacanya, dan seringkali item-item terbalik justru mengelompok sendiri dalam analisis faktor seolah-olah membentuk dimensi terpisah. Kita bahas plus-minusnya di Pertemuan 10.
@@ -642,6 +648,7 @@ Bukan berarti Anda diminta untuk membuat skala yang bebas asumsi, karena ini tid
 . . .
 
 ::: {.callout-tip}
+### Tips
 Lima poin ini akan menjadi bagian dari laporan akhir Anda.
 :::
 

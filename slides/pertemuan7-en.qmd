@@ -57,6 +57,31 @@ We used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate referen
 Recall the bathroom scale from Session 3. A scale that is always 2 kg out can be *internally consistent*. Internal consistency can never detect a systematic measurement error.
 :::
 
+## An illustration you have probably seen before
+
+![](libs/rel_val.JPG){.nostretch fig-align="center" width="90%"}
+
+::: aside
+A common illustration from psychological measurement textbooks.
+:::
+
+## Why this illustration is factually wrong
+
+::: {.incremental}
+
+* The labels *"Reliable"* and *"Valid"* are attached to the **target board itself** — as if these were properties of the instrument. That is the same mistake as writing "this scale is valid."
+
+* The *"Valid, Not reliable"* panel is also questionable, specifically for criterion validity: reliability sets an **upper bound** on the validity coefficient (recall the attenuation formula from Session 3, $r_{XY} \leq \sqrt{\rho_{XX'} \times \rho_{YY'}}$). Inconsistent scores automatically cap how strongly they can correlate with any criterion.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+#### A more accurate reading
+Horizontal axis: **consistency of the scores** (reliability). Vertical axis: **how well the scores track what you intend to measure** (validity). Both are properties of scores for a given use, not something an instrument simply "has" or "lacks."
+:::
+
 # Validity is a property of score interpretations {background-color="#14497F" .center}
 
 ## The formal definition
@@ -473,7 +498,7 @@ $$r_{XY} \leq \sqrt{\rho_{XX'} \times \rho_{YY'}}$$
 
 * [**Loevinger (1954)**](https://psycnet.apa.org/record/1955-03299-001) showed that beyond a certain point, raising internal consistency actually **lowers** validity.
 
-* The reason is visible in the earlier figure. The easiest way to raise $\alpha$ is to write items that resemble one another.
+* The reason: the easiest way to raise $\alpha$ is to write items that resemble one another, and that is exactly the strategy that weakens validity.
 
 * Items that resemble one another cover one small corner of the construct very tightly and leave the rest untouched. That is construct underrepresentation.
 
@@ -514,11 +539,6 @@ Check $\alpha$ alongside content coverage. A very high value on a short scale of
 | Relations to other variables | S12 | Include one short established scale |
 | Consequences | S14 | Limits of use, stated in the manual |
 
-. . .
-
-::: {.callout-tip}
-These five rows are the skeleton of the validity section of your final report. If you cannot do one of them, **say that you did not do it** — that is far better than leaving it unmentioned.
-:::
 
 # Group discussion {background-color="#14497F" .center}
 
@@ -612,8 +632,6 @@ The most useful way to revise: take any scale you can find and answer the seven 
 * **Session 9** — the project begins: defining the construct and the *estimand*, from literature review to operational definition.
 
 * **Session 10** — building the blueprint and writing items.
-
-* **Session 11 onward** — with Dian, in a different room, on a different day and time. Check the schedule again.
 
 :::
 

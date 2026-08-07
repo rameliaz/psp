@@ -118,7 +118,7 @@ Terdapat tiga komponen penilaian utama, sebagaimana tercantum dalam RPP:
 | Hasil Proyek | 65% | Proyek kelompok penyusunan skala, Pertemuan 9–16 |
 | **Total** | **100%** | |
 
-: Komponen penilaian {.striped tbl-colwidths="[26,12,62]"}
+: Komponen penilaian {.striped tbl-colwidths="[18,12,70]"}
 
 ### Hasil Proyek (60%)
 
@@ -137,7 +137,7 @@ Penilaian menggunakan rubrik resmi pada RTM:
 | Skoring & norma | 15 |
 | **Total** | **100** |
 
-: Rubrik penilaian Hasil Proyek (RTM) {.striped tbl-colwidths="[76,24]"}
+: Rubrik penilaian Hasil Proyek (RTM) {.striped tbl-colwidths="[85,15]"}
 
 ### Kriteria nilai akhir
 
@@ -153,7 +153,7 @@ Mengikuti peraturan akademik Universitas Airlangga:
 | 40 – <54 | D |
 | 0 – <40 | E |
 
-: Konversi nilai {.striped tbl-colwidths="[50,50]"}
+: Konversi nilai {.striped tbl-colwidths="[65,35]"}
 
 ## Ketentuan Lain
 

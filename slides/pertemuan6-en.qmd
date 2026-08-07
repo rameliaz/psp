@@ -370,7 +370,9 @@ $\alpha = 0.616$ but $\omega = 0.151$
 
 * For this mixed set the answer is almost none — because there is no single general factor there.
 
-* The gap between .616 and .151 is the gap between *"these items correlate"* and *"these items measure one thing"*.
+* In short
+  + $\alpha$ = 0.616 means *"these items correlate with each other"*
+  + $\omega$ = 0.151 means *"these items do **not** measure the same construct"*
 
 :::
 

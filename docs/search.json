@@ -25,7 +25,7 @@
     "href": "slides/pertemuan11-en.html#who-counts-as-an-expert",
     "title": "Expert Review and Content Validity: Computing and Interpreting the CVI",
     "section": "Who counts as an expert",
-    "text": "Who counts as an expert\n\nContent experts — people who know the construct: lecturers, researchers, or practitioners in the field.\nMethod experts — people who know scale construction and can judge whether an item is well written.\nRepresentatives of the target population — not experts in the academic sense, but the best judges of whether the wording makes sense to prospective respondents.\n\n\n\n\n\n\n\n\nNote\n\n\nThese three give different kinds of feedback. A panel made up entirely of academics tends to miss readability problems that a prospective respondent spots immediately."
+    "text": "Who counts as an expert\n\nContent experts — people who know the construct: lecturers, researchers, or practitioners in the field.\nMethod experts — people who know scale construction and can judge whether an item is well written.\nRepresentatives of the target population — people whose characteristics resemble those of your respondents.\n\n\n\n\n\n\n\n\nNote\n\n\nThese three give different kinds of feedback. A panel made up entirely of academics tends to miss readability problems that a prospective respondent spots immediately."
   },
   {
     "objectID": "slides/pertemuan11-en.html#how-many",
@@ -186,7 +186,7 @@
     "href": "slides/pertemuan9-en.html#outline",
     "title": "Identifying the Construct and Setting the Estimand",
     "section": "Outline",
-    "text": "Outline\n\nWhat your group has to produce today\nThe kind of literature review that helps scale construction (and the kind that does not)\nHow to write a construct definition you can actually use\nConstruct boundary: what is excluded, and neighbouring constructs\nEstimand: which quantity, in whom, under what conditions\nFrom construct definition to operational definition\n\n\n\nDisclosure on the use of artificial intelligence (AI)\nWe used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate references, and troubleshoot quarto and git code. We (Amel and Dian) take full responsibility for the substance and presentation of these slides."
+    "text": "Outline\n\nWhat your group has to produce today\nThe kind of literature review that helps scale construction (and the kind that does not)\nHow to write a construct definition you can actually use\nConstruct boundary: what is excluded, and sibling constructs\nEstimand: which quantity, in whom, under what conditions\nFrom construct definition to operational definition\n\n\n\nDisclosure on the use of artificial intelligence (AI)\nWe used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate references, and troubleshoot quarto and git code. We (Amel and Dian) take full responsibility for the substance and presentation of these slides."
   },
   {
     "objectID": "slides/pertemuan9-en.html#what-changes-from-today",
@@ -214,14 +214,14 @@
     "href": "slides/pertemuan9-en.html#not-the-usual-kind-of-review",
     "title": "Identifying the Construct and Setting the Estimand",
     "section": "Not the usual kind of review",
-    "text": "Not the usual kind of review\n\nYou are not summarising all the research on the construct.\nWhat you are looking for is narrow: how other people define this construct, and where those definitions differ from one another.\nThe target is simple: 5 to 10 definitions, quoted in full, with their sources.\n\n\n\n\n\n\n\n\nHow to record them\n\n\nMake a three-column table: source, definition (quoted exactly), what it emphasises. Do not paraphrase yet — the differences between definitions often lie in the exact wording."
+    "text": "Not the usual kind of review\n\nYou are not summarising all the research on the construct you have chosen.\nWhat you are looking for is narrow: how other people define this construct, and where those definitions differ from one another.\nThe target is simple: 5 to 10 definitions, quoted in full, with their sources.\n\n\n\n\n\n\n\n\nHow to record them\n\n\nMake a three-column table: source, definition (quoted exactly), what it emphasises. Do not paraphrase yet — the differences between definitions often lie in the exact wording."
   },
   {
-    "objectID": "slides/pertemuan9-en.html#what-to-look-for-in-that-table",
-    "href": "slides/pertemuan9-en.html#what-to-look-for-in-that-table",
+    "objectID": "slides/pertemuan9-en.html#what-to-look-for-in-the-table",
+    "href": "slides/pertemuan9-en.html#what-to-look-for-in-the-table",
     "title": "Identifying the Construct and Setting the Estimand",
-    "section": "What to look for in that table",
-    "text": "What to look for in that table\n\nPoints of agreement. Which elements appear in nearly every definition? Those are probably the core of the construct.\nPoints of disagreement. Which elements appear in only some? That is where you have to take a position.\nWhat nobody mentions. Sometimes an obviously relevant aspect appears in no definition at all. That can be your group’s contribution — as long as you say so openly.\n\n\n\n\n\n\n\n\nNote\n\n\nRecall Fried’s (2017) finding from Session 1: seven depression scales contained 52 different symptoms. Disagreement between definitions is not rare; it is the norm."
+    "section": "What to look for in the table",
+    "text": "What to look for in the table\n\nPoints of agreement. Which elements appear in nearly every definition? Those are probably the core of the construct.\nPoints of disagreement. Which elements appear in only some? That is where you have to take a position.\nWhat nobody mentions. Sometimes an obviously relevant aspect appears in no definition at all. That can be your group’s contribution — as long as you say so openly.\n\n\n\n\n\n\n\n\nNote\n\n\nRecall Fried’s (2017) finding from Session 1: seven depression scales contained 52 different symptoms. Disagreement between definitions is not rare; it is the norm."
   },
   {
     "objectID": "slides/pertemuan9-en.html#three-things-it-must-state",
@@ -259,11 +259,11 @@
     "text": "Naming what is excluded\n\nWe have raised this since Session 1: stating what is not included does more for a scale’s quality than stating what is.\nThe reason is visible in the Session 7 figure. Without a clear boundary, scale content easily drifts into territory you did not intend, and that becomes construct-irrelevant variance.\n\n\n\n\n\n\n\n\nHow to do it\n\n\nWrite two lists side by side: included and excluded. Fill both with concrete examples, not abstract categories."
   },
   {
-    "objectID": "slides/pertemuan9-en.html#neighbouring-constructs",
-    "href": "slides/pertemuan9-en.html#neighbouring-constructs",
+    "objectID": "slides/pertemuan9-en.html#sibling-construct",
+    "href": "slides/pertemuan9-en.html#sibling-construct",
     "title": "Identifying the Construct and Setting the Estimand",
-    "section": "Neighbouring constructs",
-    "text": "Neighbouring constructs\n\nFor each similar construct, write one sentence: how is it different from mine?\nExample: social anxiety and shyness. Both involve discomfort in social situations. The difference lies in fear of negative evaluation and in the degree of avoidance.\nIf you cannot write down the difference, you probably cannot separate them through items either.\n\n\n\n\n\n\n\n\nNote\n\n\nThis list becomes directly useful in Session 12, when you choose a comparison scale for discriminant evidence."
+    "section": "Sibling construct",
+    "text": "Sibling construct\n\nFor each similar construct, write one sentence: how is it different from mine?\nExample: social anxiety and shyness. Both involve discomfort in social situations. The difference lies in fear of negative evaluation and in the degree of avoidance.\nIf you cannot write down the difference, you probably cannot separate them through items either.\n\n\n\n\n\n\n\n\nNote\n\n\nThis list becomes directly useful in Session 12, when you choose a comparison scale for discriminant evidence."
   },
   {
     "objectID": "slides/pertemuan9-en.html#two-classic-errors",
@@ -284,7 +284,7 @@
     "href": "slides/pertemuan9-en.html#four-questions",
     "title": "Identifying the Construct and Setting the Estimand",
     "section": "Four questions",
-    "text": "Four questions\n\nWhich quantity? A person’s level of the attribute? Their standing relative to others? The presence or absence of a condition?\nIn whom? The target population must be named specifically — not “the public”, but for instance “enrolled undergraduates in Surabaya, aged 18–24”.\nUnder what conditions? Are you measuring a present state, a general tendency, or experience within a particular period?\nCompared with what? Will scores be interpreted relative to other people (norms) or against a fixed standard (criterion)?"
+    "text": "Four questions\n\nWhat is the attribute called? A person’s level of it? Their standing relative to others? The presence or absence of a condition?\nIn whom? The target population must be named specifically — not “the public”, but for instance “enrolled undergraduates in Surabaya, aged 18–24”.\nUnder what conditions? Are you measuring a present state, a general tendency, or experience within a particular period?\nCompared with what? Will scores be interpreted relative to other people (norms) or against a fixed standard (criterion)?"
   },
   {
     "objectID": "slides/pertemuan9-en.html#an-example-estimand",
@@ -308,11 +308,11 @@
     "text": "Its job is to bridge\n\nThe construct definition says what you mean. The operational definition says how that shows up in something observable.\nIt consists of indicators: concrete behaviours, thoughts, or feelings that signal a high level of the attribute.\nThese are not yet items. Items come in Session 10, built from these indicators."
   },
   {
-    "objectID": "slides/pertemuan9-en.html#a-worked-progression",
-    "href": "slides/pertemuan9-en.html#a-worked-progression",
+    "objectID": "slides/pertemuan9-en.html#example",
+    "href": "slides/pertemuan9-en.html#example",
     "title": "Identifying the Construct and Setting the Estimand",
-    "section": "A worked progression",
-    "text": "A worked progression\n\nConstruct: social anxiety\nFacet: fear of negative evaluation\nIndicators: worrying about seeming foolish when speaking; replaying conversations afterwards; avoiding asking questions in class even when confused\nItem (Session 10): “After speaking in front of the class, I replay what I said in my head.”\n\n\n\n\n\n\n\n\nNote\n\n\nEach indicator should yield more than one item. Recall from Session 6 that the number of items affects reliability, and from Session 7 that content coverage affects validity."
+    "section": "Example",
+    "text": "Example\n\nConstruct: social anxiety\nFacet: fear of negative evaluation\nIndicators: worrying about seeming foolish when speaking; replaying conversations afterwards; avoiding asking questions in class even when confused\nItem (Session 10): “After speaking in front of the class, I replay what I said in my head.”\n\n\n\n\n\n\n\n\nNote\n\n\nEach indicator should yield more than one item. Recall from Session 6 that the number of items affects reliability, and from Session 7 that content coverage affects validity."
   },
   {
     "objectID": "slides/pertemuan9-en.html#dimensional-structure",
@@ -326,21 +326,21 @@
     "href": "slides/pertemuan9-en.html#todays-tasks",
     "title": "Identifying the Construct and Setting the Estimand",
     "section": "Today’s tasks",
-    "text": "Today’s tasks\n\n15 minutes — Collect existing definitions. At least five, quoted in full with sources.\n20 minutes — Write your group’s construct definition. One paragraph, containing the three elements above.\n20 minutes — Build the two lists: included and excluded. Add two neighbouring constructs and how yours differs.\n20 minutes — Write one estimand sentence answering the four questions.\n20 minutes — Set out facets and indicators. At least two indicators per facet.\n\n\nThe two most common problems: circular definitions, and target populations that are far too broad (“the general public”, “adolescents”). For the second, ask directly: “who can you realistically reach for a pilot next month?” The answer is usually much narrower, and that is the more honest estimand. If a group still has no settled construct, steer them toward one with an adequate literature — not the one they find most interesting. Leave 20 minutes for brief presentations."
+    "text": "Today’s tasks\n\n15 minutes — Collect existing definitions. At least five, quoted in full with sources.\n20 minutes — Write your group’s construct definition. One paragraph, containing the three elements above.\n20 minutes — Build the two lists: included and excluded. Add two sibling constructs and how yours differs.\n20 minutes — Write one estimand sentence answering the four questions.\n20 minutes — Set out facets and indicators. At least two indicators per facet.\n\n\nThe two most common problems: circular definitions, and target populations that are far too broad (“the general public”, “adolescents”). For the second, ask directly: “who can you realistically reach for a pilot next month?” The answer is usually much narrower, and that is the more honest estimand. If a group still has no settled construct, steer them toward one with an adequate literature — not the one they find most interesting. Leave 20 minutes for brief presentations."
   },
   {
     "objectID": "slides/pertemuan9-en.html#brief-presentations",
     "href": "slides/pertemuan9-en.html#brief-presentations",
     "title": "Identifying the Construct and Setting the Estimand",
     "section": "Brief presentations",
-    "text": "Brief presentations\nEach group presents two things only, one minute each:\n\nYour estimand sentence.\nOne neighbouring construct and how yours differs from it.\n\n\n\n\n\n\n\n\nTip\n\n\nOther groups may ask one question: “what makes you confident your items will not also measure that neighbouring construct?”"
+    "text": "Brief presentations\nEach group presents two things only, one minute each:\n\nYour estimand sentence.\nOne sibling construct and how yours differs from it.\n\n\n\n\n\n\n\n\nTip\n\n\nOther groups may ask one question: “what makes you confident your items will not also measure that sibling construct?”"
   },
   {
     "objectID": "slides/pertemuan9-en.html#the-construct-specification",
     "href": "slides/pertemuan9-en.html#the-construct-specification",
     "title": "Identifying the Construct and Setting the Estimand",
     "section": "The construct specification",
-    "text": "The construct specification\nOne page, containing:\n\nConstruct definition — one paragraph, with references.\nConstruct boundary — the included and excluded lists.\nNeighbouring constructs — at least two, with the distinctions.\nEstimand — one sentence.\nDimensional structure — one or several dimensions, and why.\nFacets and indicators — as a table.\n\n\n\n\n\n\n\n\nNote\n\n\nThis document becomes an appendix to your final report, and the material the expert panel reads in Session 11. The panel cannot judge item relevance without first reading the construct definition."
+    "text": "The construct specification\nOne page, containing:\n\nConstruct definition — one paragraph, with references.\nConstruct boundary — the included and excluded lists.\nSibling constructs — at least two, with the distinctions.\nEstimand — one sentence.\nDimensional structure — one or several dimensions, and why.\nFacets and indicators — as a table.\n\n\n\n\n\n\n\n\nNote\n\n\nThis specification becomes an appendix to your final report, and the material the expert panel reads in Session 11. The panel cannot judge item relevance without first reading the construct definition."
   },
   {
     "objectID": "slides/pertemuan9-en.html#for-session-10",
@@ -494,7 +494,7 @@
     "href": "slides/pertemuan6-en.html#now-compute-omega",
     "title": "Reliability: Core Concepts and Implementation",
     "section": "Now compute \\(\\omega\\)",
-    "text": "Now compute \\(\\omega\\)\n\n\\(\\alpha = 0.616\\) but \\(\\omega = 0.151\\)\n\n\n\n\n\\(\\omega\\) asks a different question: what proportion of total score variance comes from one general factor?\nFor this mixed set the answer is almost none — because there is no single general factor there.\nThe gap between .616 and .151 is the gap between “these items correlate” and “these items measure one thing”."
+    "text": "Now compute \\(\\omega\\)\n\n\\(\\alpha = 0.616\\) but \\(\\omega = 0.151\\)\n\n\n\n\n\\(\\omega\\) asks a different question: what proportion of total score variance comes from one general factor?\nFor this mixed set the answer is almost none — because there is no single general factor there.\nIn short\n\n\\(\\alpha\\) = 0.616 means “these items correlate with each other”\n\\(\\omega\\) = 0.151 means “these items do not measure the same construct”"
   },
   {
     "objectID": "slides/pertemuan6-en.html#why-alpha-needs-a-companion",
@@ -655,7 +655,7 @@
     "href": "slides/pertemuan4-en.html#decision-1-how-many-points",
     "title": "Response Formats I: Likert, Semantic Differential, and Guttman",
     "section": "Decision 1: how many points?",
-    "text": "Decision 1: how many points?\n\nFour points or fewer compresses variation between respondents and lowers precision. Preston & Colman (2000) found 2-, 3-, and 4-point scales all performed poorly.\nAround 5–7 points is the range most often recommended. Lozano et al. (2008) recommend a range of 4 to 7, with scarce gains beyond 7.\nAbove 6–7 points, the added benefit is small. Simms et al. (2019) found almost no psychometric improvement beyond 6 options.\n\n\n\n\n\n\n\n\nTwo further considerations from DeVellis\n\n\nFirst, whether respondents can actually discriminate. If they cannot tell seven levels apart, seven points only add noise.\nSecond, whether you will use that precision. If you are going to collapse the scores into three categories anyway, why ask for ten points of resolution?"
+    "text": "Decision 1: how many points?\n\nFour points or fewer compresses variation between respondents and lowers precision.\n\nPreston & Colman (2000) found 2-, 3-, and 4-point scales all performed poorly.\n\nAround 5–7 points is the range most often recommended.\n\nLozano et al. (2008) recommend a range of 4 to 7, with scarce gains beyond 7.\n\nAbove 6–7 points, the added benefit is small.\n\nSimms et al. (2019) found almost no psychometric improvement beyond 6 options.\n\n\n\n\n\n\n\n\n\nTwo further considerations from DeVellis\n\n\nFirst, whether respondents can actually discriminate. If they cannot tell seven levels apart, seven points only add noise.\nSecond, whether you will use that precision. If you are going to collapse the scores into three categories anyway, why ask for ten points of resolution?"
   },
   {
     "objectID": "slides/pertemuan4-en.html#decision-2-midpoint-or-no-midpoint",
@@ -683,14 +683,14 @@
     "href": "slides/pertemuan4-en.html#decision-3-label-every-point-or-only-the-ends",
     "title": "Response Formats I: Likert, Semantic Differential, and Guttman",
     "section": "Decision 3: label every point, or only the ends?",
-    "text": "Decision 3: label every point, or only the ends?\n\nLabelling every point generally yields better reliability and validity than labelling only the endpoints (Krosnick & Presser, 2010).\nThe reason is simple: if only the ends are labelled, each respondent decides for themselves what the points in between mean.\nBut the labels you choose have to be genuinely distinguishable.\n\n\n\n\n\n\n\n\nAn example of problematic labels\n\n\nConsider this arrangement, from DeVellis:\n\n\n\nVery Helpful\nNot Very Helpful\n\n\nSomewhat Helpful\nNot at All Helpful\n\n\n\nTwo problems at once. First, “somewhat” and “not very” are hard to tell apart under the best of circumstances. Second, reading down the columns makes “Somewhat Helpful” look higher than “Not Very Helpful”; reading across the rows reverses that ordering."
+    "text": "Decision 3: label every point, or only the ends?\n\nLabelling every point generally yields better reliability and validity than labelling only the endpoints (Krosnick et al., 2010).\nThe reason is simple: if only the ends are labelled, each respondent decides for themselves what the points in between mean.\nBut the labels you choose have to be genuinely distinguishable.\n\n\n\n\n\n\n\n\nAn example of problematic labels\n\n\nConsider this arrangement, from DeVellis:\n\n\n\nVery Helpful\nNot Very Helpful\n\n\nSomewhat Helpful\nNot at All Helpful\n\n\n\nTwo problems at once. First, “somewhat” and “not very” are hard to tell apart under the best of circumstances. Second, reading down the columns makes “Somewhat Helpful” look higher than “Not Very Helpful”; reading across the rows reverses that ordering."
   },
   {
     "objectID": "slides/pertemuan4-en.html#decision-4-which-anchors",
     "href": "slides/pertemuan4-en.html#decision-4-which-anchors",
     "title": "Response Formats I: Likert, Semantic Differential, and Guttman",
     "section": "Decision 4: which anchors?",
-    "text": "Decision 4: which anchors?\n\nAgreement — “Strongly Disagree” to “Strongly Agree”. The most common, and the most vulnerable to acquiescence (Session 2).\nFrequency — “Never” to “Always”. More concrete, but it needs an explicit time referent: “often” within a week, or within a year?\nItem-specific anchors — for example “How often do you feel nervous before a presentation?” with “Never / Once or twice / Several times / Almost every time / Always”.\n\n\n\n\n\n\n\n\nA tendency worth knowing\n\n\nAgreement anchors invite respondents simply to agree. Anchors written specifically for the item’s content generally suppress that, because respondents have to read the options properly.\nWeijters et al. (2010) show that scale format itself shapes which response styles appear."
+    "text": "Decision 4: which anchors?\n\nAgreement — “Strongly Disagree” to “Strongly Agree”. The most common, and the most vulnerable to acquiescence (Session 2).\nFrequency — “Never” to “Always”. More concrete, but it needs an explicit time referent: “often” within a week, or within a year?\nItem-specific anchors — for example “How often do you feel nervous before a presentation?” with “Never / Once or twice / Several times / Almost every time / Always”.\n\n\n\n\n\n\n\n\nA tendency worth knowing\n\n\nAgreement anchors invite respondents simply to agree. Weijters et al. (2010) reinforce this point, showing that scale format itself shapes which response styles appear."
   },
   {
     "objectID": "slides/pertemuan4-en.html#how-strongly-should-the-stem-be-worded",
@@ -753,7 +753,7 @@
     "href": "slides/pertemuan4-en.html#where-guttman-works",
     "title": "Response Formats I: Likert, Semantic Differential, and Guttman",
     "section": "Where Guttman works",
-    "text": "Where Guttman works\n\nWhen the hierarchy is a logical necessity: 20 cigarettes a day always implies more than 10.\nPhysical functioning: can get out of bed → can walk indoors → can climb stairs → can walk a kilometre.\nSocial distance (Bogardus, 1925): willing to live in the same country → the same city → the same neighbourhood → be close friends → marry into the family.\n\n\n\n\n\n\n\n\nTip\n\n\nNote that all three concern concrete behaviour or capability, not abstract attitudes."
+    "text": "Where Guttman works\n\nWhen the hierarchy is a logical necessity: eating ten bowls of bakso (Indonesian meatball soup) is always more than eating five.\nPhysical functioning: can get out of bed → can walk indoors → can climb stairs → can walk a kilometre.\nSocial distance (Bogardus, 1925): willing to live in the same country → the same city → the same neighbourhood → be close friends → marry into the family.\n\n\n\n\n\n\n\n\nTip\n\n\nNote that all three concern concrete behaviour or capability, not abstract attitudes."
   },
   {
     "objectID": "slides/pertemuan4-en.html#where-guttman-fails",
@@ -774,7 +774,7 @@
     "href": "slides/pertemuan4-en.html#summary",
     "title": "Response Formats I: Likert, Semantic Differential, and Guttman",
     "section": "Summary",
-    "text": "Summary\n\n\n\n\n\n\n\n\n\n\nLikert\nSemantic Differential\nGuttman\n\n\n\n\nItem form\nStatement + degree of agreement\nAdjective pair\nOrdered statements, yes/no\n\n\nScore\nSum of all items\nSum of all pairs\nPoint of transition\n\n\nSuited to\nAttitudes, beliefs, traits\nImpressions of an object\nOrdered behaviour/capability\n\n\nFits CTT\nYes\nYes\nNot directly\n\n\nMain weakness\nAcquiescence, unequal intervals\nFinding true antonyms, ambiguous midpoint\nPattern deviations\n\n\n\n\n\n\n\n\n\n\nNote\n\n\nFor your project this semester, Likert and Semantic Differential are the realistic options. Guttman only makes sense if your construct really is logically ordered."
+    "text": "Summary\n\n\n\n\n\n\n\n\n\n\nLikert\nSemantic Differential\nGuttman\n\n\n\n\nItem form\nStatement + degree of agreement\nAdjective pair\nOrdered statements, yes/no\n\n\nScore\nSum of all items\nSum of all pairs\nPoint of transition\n\n\nSuited to\nAttitudes, beliefs, traits\nImpressions of an object\nOrdered behaviour/capability\n\n\nFits CTT\nYes\nYes\nNot directly\n\n\nMain weakness\nAcquiescence, unequal intervals\nFinding true antonyms, ambiguous midpoint\nPattern deviations"
   },
   {
     "objectID": "slides/pertemuan4-en.html#choosing-a-format-means-choosing-assumptions",
@@ -823,14 +823,14 @@
     "href": "slides/pertemuan2-en.html#outline",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "Outline",
-    "text": "Outline\n\nWhy assumptions need scrutiny, and why that does not mean we stop measuring\nAssumption 1: psychological attributes vary quantitatively\nAssumption 2: the attribute is normally distributed\nAssumption 3: the attribute is continuous, not categorical\nAssumption 4: all items measure the same single thing\nAssumption 5: items work the same way for every group\nAssumption 6: respondents can and will report their internal states\nWhat we can actually do about all of this\n\n\n\nDisclosure on the use of artificial intelligence (AI)\nWe used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate references, and troubleshoot quarto and git code. We (Amel and Dian) take full responsibility for the substance and presentation of these slides."
+    "text": "Outline\n\nWhy assumptions need checking\nAssumption 1: psychological attributes vary quantitatively\nAssumption 2: the attribute is normally distributed\nAssumption 3: the attribute is continuous, not categorical\nAssumption 4: all items measure the same single thing\nAssumption 5: items work the same way for every group\nAssumption 6: respondents can and will report their internal states\nWhat we can actually do about all of this\n\n\n\nDisclosure on the use of artificial intelligence (AI)\nWe used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate references, and troubleshoot quarto and git code. We (Amel and Dian) take full responsibility for the substance and presentation of these slides."
   },
   {
     "objectID": "slides/pertemuan2-en.html#what-we-settled-last-week",
     "href": "slides/pertemuan2-en.html#what-we-settled-last-week",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "What we settled last week",
-    "text": "What we settled last week\n\nPsychological measurement is indirect. We work through proxies.\nThe definition of measurement is itself contested, and Michell’s objection — whether psychological attributes are genuinely quantitative — has not really been resolved.\nMost psychological data are ordinal but are treated as interval.\nWhat decides whether your item set is a scale is theory, not software output.\n\n\n\n\n\n\n\n\nThe common thread\n\n\nEvery one of those points has the same shape: something we take to be true without ever checking it. Today we check them one at a time."
+    "text": "What we settled last week\n\nPsychological measurement is indirect. We work through proxies.\nThe definition of measurement is itself contested, and Michell’s objection — whether psychological attributes are genuinely quantitative — has not really been resolved.\nMost psychological data are ordinal but are treated as interval.\nWhat decides whether your item set is a scale is theory, not software output.\n\n\n\n\n\n\n\n\nThe common thread\n\n\nEvery one of those points has the same shape: something we take to be true without ever checking it."
   },
   {
     "objectID": "slides/pertemuan2-en.html#why-spend-a-whole-session-on-assumptions",
@@ -858,7 +858,7 @@
     "href": "slides/pertemuan2-en.html#the-six-assumptions",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "The six assumptions",
-    "text": "The six assumptions\n\n\n\n#\nAssumption\nCheckable with data?\n\n\n\n\n1\nThe attribute varies quantitatively\nVery hard\n\n\n2\nIts distribution is normal\nYes\n\n\n3\nThe attribute is continuous, not categorical\nPartly\n\n\n4\nAll items measure one and the same thing\nYes\n\n\n5\nItems work the same for every group\nYes, with enough data\n\n\n6\nRespondents can and will answer accurately\nPartly\n\n\n\n\n\n\n\n\n\n\nNote\n\n\nNote that the most fundamental assumption (number 1) is also the hardest to check."
+    "text": "The six assumptions\n\n\n\n\n\n\n\n\n#\nAssumption\nCheckable with data?\n\n\n\n\n1\nThe attribute varies quantitatively\nVery hard\n\n\n2\nIts distribution is normal\nYes\n\n\n3\nThe attribute is continuous, not categorical\nPartly\n\n\n4\nAll items measure one and the same thing\nYes\n\n\n5\nItems work the same for every group\nYes, with enough data\n\n\n6\nRespondents can and will answer accurately\nPartly\n\n\n\n\n\n\n\n\n\n\nNote\n\n\nNote that the most fundamental assumption (number 1) is also the hardest to check."
   },
   {
     "objectID": "slides/pertemuan2-en.html#what-we-do-when-we-sum-items",
@@ -872,14 +872,14 @@
     "href": "slides/pertemuan2-en.html#why-equal-weighting-is-a-bold-assumption",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "Why equal weighting is a bold assumption",
-    "text": "Why equal weighting is a bold assumption\n\nThe item “I sometimes feel nervous before a presentation” and the item “I often feel I am going to die from panic” clearly indicate different levels of severity.\nBut under ordinary summing (unit weighting), both are worth a maximum of 5 points.\nOur scale therefore treats those two statements as equivalent indicators.\n\n\n\n\n\n\n\n\nThe good news\n\n\nThis is precisely what separates Classical Test Theory from Item Response Theory. IRT lets each item have its own difficulty and discrimination. We will get a brief look at it in Session 3.\nThis course uses CTT, so unit weighting is an assumption you will be making. What matters is that you know you are making it."
+    "text": "Why equal weighting is a bold assumption\n\nThe item “I sometimes feel nervous before a presentation” and the item “I often feel I am going to die from panic” clearly indicate different levels of severity.\nBut under ordinary summing (unit weighting), both are worth a maximum of 5 points.\nOur scale therefore treats those two statements as equivalent indicators.\n\n\n\n\n\n\n\n\nBut…\n\n\nThis is precisely what separates Classical Test Theory from Item Response Theory. IRT lets each item have its own difficulty and discrimination. We will get a brief look at it in Session 3.\nThis course uses CTT, so unit weighting is an assumption you will be making. What matters is that you know you are making it."
   },
   {
     "objectID": "slides/pertemuan2-en.html#where-the-normality-assumption-came-from",
     "href": "slides/pertemuan2-en.html#where-the-normality-assumption-came-from",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "Where the normality assumption came from",
-    "text": "Where the normality assumption came from\n\nAdolphe Quetelet (1835) introduced l’homme moyen, “the average man”. He applied the normal curve — at the time a model of observational error in astronomy — to human characteristics.\nThe shift is subtle but large: the normal curve moved from being a model of error to being a model of people.\nGalton then extended it to psychological traits, and normality has been built into psychometrics ever since.\n\nThis is what justified the deeply racist worldview of eugenics.\n\n\n\n\n\n\n\n\n\nWorth noticing\n\n\nThere was never strong evidence that psychological attributes must be normally distributed. What there was, was a habit inherited from a different context."
+    "text": "Where the normality assumption came from\n\nAdolphe Quetelet (1835) introduced l’homme moyen, “the average man”. He applied the normal curve — at the time a model of observational error in astronomy — to human characteristics.\nThe implication: the normal curve moved from being a model of error to being a model of people.\nGalton then extended it to psychological traits, and normality has been built into psychometrics ever since.\n\nThis is what justified the deeply racist worldview of eugenics.\n\n\n\n\n\n\n\n\n\nWorth noticing\n\n\nThere was never strong evidence that psychological attributes must be normally distributed. What there was, was a habit inherited from a different context."
   },
   {
     "objectID": "slides/pertemuan2-en.html#there-is-a-circularity-here-that-is-rarely-discussed",
@@ -942,7 +942,7 @@
     "href": "slides/pertemuan2-en.html#why-items-in-one-scale-must-correlate",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "Why items in one scale must correlate",
-    "text": "Why items in one scale must correlate\n\nRecall the logic of a scale from Session 1: the latent construct is the cause of the item responses.\nIf one common cause drives ten items, those ten items must correlate with each other.\nThose inter-item correlations are the only observable trace of a variable we cannot observe.\nIf we are assuming a “common cause” is what makes the items correlate, those items should not correlate with each other for any other reason (local independence).\n\n\n\n\n\n\n\n\n\nA consequence you will use constantly\n\n\nBecause of this, inter-item correlations can be used to estimate how strongly each item relates to its latent construct — even though we never measure the construct directly.\n\n\n\n\n\nDeVellis & Thorpe (2022), Chapter 2."
+    "text": "Why items in one scale must correlate\n\nRecall the logic of a scale from Session 1: the latent construct is the cause of the item responses.\nIf one common cause drives ten items, those ten items must correlate with each other.\nThose inter-item correlations are the only observable trace of a variable we cannot observe.\nIf we are assuming a “common cause” is what makes the items correlate, those items should not correlate with each other for any other reason (local independence).\n\n\n\n\n\n\n\n\n\nThe consequence\n\n\nBecause of this, inter-item correlations can be used to estimate how strongly each item relates to its latent construct — even though we never measure the construct directly.\n\n\n\n\n\nDeVellis & Thorpe (2022), Chapter 2."
   },
   {
     "objectID": "slides/pertemuan2-en.html#the-unidimensionality-assumption",
@@ -963,7 +963,7 @@
     "href": "slides/pertemuan2-en.html#one-item-different-meanings",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "One item, different meanings",
-    "text": "One item, different meanings\n\nWe assume the same item means the same thing to men and women, to students and workers, to respondents from different regions and language backgrounds.\nIf that fails, comparing scores between groups is not legitimate — like comparing temperatures read off two thermometers with different scales.\nIn psychometrics this property is called measurement invariance; a violation at the item level is called differential item functioning (DIF).\n\n\n\n\n\n\n\n\nNote\n\n\nThe formal test requires factor analysis and a large sample, so we will not compute it in this course. What you need now is awareness that the assumption is there."
+    "text": "One item, different meanings\n\nWe assume the same item means the same thing to men and women, to students and workers, to respondents from different regions and language backgrounds.\nIf that fails, comparing scores between groups is not legitimate — like comparing temperatures read off two thermometers with different scales.\nIn psychometrics this property is called measurement invariance; a violation at the item level is called differential item functioning (DIF).\n\n\n\n\n\n\n\n\nHow would you test this?\n\n\nThe formal test requires factor analysis and a large sample, so we will not compute it in this course. What you need now is awareness that the assumption is there."
   },
   {
     "objectID": "slides/pertemuan2-en.html#the-reference-group-effect",
@@ -1033,14 +1033,14 @@
     "href": "slides/pertemuan2-en.html#a-checklist-for-your-project-report",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "A checklist for your project report",
-    "text": "A checklist for your project report\n\nShape of the construct — dimensional or categorical? On what grounds?\nDimensionality — do your items measure one thing? How did you check?\nDistribution — what shape is your score distribution actually? Do not assume it; look.\nGroups — who is your population, and are there subgroups for whom items may function differently?\nSources of response bias — is your construct prone to social desirability? What did you do about it?\n\n\n\n\n\n\n\n\nTip\n\n\nThese five points will form part of your final report."
+    "text": "A checklist for your project report\n\nShape of the construct — dimensional or categorical? On what grounds?\nDimensionality — do your items measure one thing? How did you check?\nDistribution — what shape is your score distribution actually? Do not assume it; look.\nGroups — who is your population, and are there subgroups for whom items may function differently?\nSources of response bias — is your construct prone to social desirability? What did you do about it?\n\n\n\n\n\n\n\n\nTips\n\n\nThese five points will form part of your final report."
   },
   {
     "objectID": "slides/pertemuan2-en.html#six-assumptions-one-stance",
     "href": "slides/pertemuan2-en.html#six-assumptions-one-stance",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "Six assumptions, one stance",
-    "text": "Six assumptions, one stance\n\nQuantitative — summing items assumes equal weights and equal intervals.\nNormal — an inherited assumption, not a finding. A symmetric total-score distribution is largely an effect of aggregation.\nContinuous — most psychological constructs appear dimensional, but this still needs stating.\nOne and the same thing — unidimensionality and local independence determine whether your total score means anything.\nThe same for every group — an identical item does not always mean the same thing; this is not a translation problem.\nAccurate respondents — people have limited access to themselves, and reasons not to be candid."
+    "text": "Six assumptions, one stance\n\nQuantitative — summing items assumes equal weights and equal intervals.\nNormal — an inherited assumption, not a finding. A symmetric total-score distribution is largely an effect of aggregation.\nContinuous — most psychological constructs appear dimensional, but this still needs stating.\nOne and the same thing — unidimensionality and local independence determine whether your total score means anything.\nThe same for every group — an identical item does not always mean the same thing for everyone.\nAccurate respondents — people have limited access to themselves, and reasons not to be candid."
   },
   {
     "objectID": "slides/pertemuan2-en.html#for-session-3",
@@ -1061,7 +1061,7 @@
     "href": "slides/pertemuan2-en.html#references",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "References",
-    "text": "References\nBorsboom, D. (2006). The attack of the psychometricians. Psychometrika, 71(3), 425–440.\nDeVellis, R. F., & Thorpe, C. T. (2022). Scale development: Theory and applications (5th ed.). SAGE.\nHaslam, N., Holland, E., & Kuppens, P. (2012). Categories versus dimensions in personality and psychopathology: A quantitative review of taxometric research. Psychological Medicine, 42(5), 903–920.\nHeine, S. J., Lehman, D. R., Peng, K., & Greenholtz, J. (2002). What’s wrong with cross-cultural comparisons of subjective Likert scales? The reference-group effect. Journal of Personality and Social Psychology, 82(6), 903–918.\nMeade, A. W., & Craig, S. B. (2012). Identifying careless responses in survey data. Psychological Methods, 17(3), 437–455.\nMeehl, P. E. (1995). Bootstraps taxometrics: Solving the classification problem in psychopathology. American Psychologist, 50(4), 266–275.\nMicceri, T. (1989). The unicorn, the normal curve, and other improbable creatures. Psychological Bulletin, 105(1), 156–166.\nNisbett, R. E., & Wilson, T. D. (1977). Telling more than we can know: Verbal reports on mental processes. Psychological Review, 84(3), 231–259.\nPetersen, I. T. Principles of psychological assessment: With applied examples in R. https://isaactpetersen.github.io/Principles-Psychological-Assessment/\nQuetelet, A. (1835). Sur l’homme et le développement de ses facultés. Bachelier.\n\n\n\n\nExample data: IPIP Big Five Factor Markers, Open Psychometrics (n = 19,719 raw rows; Session 6 uses n = 19,718 after listwise deletion)."
+    "text": "References\nBorsboom, D. (2006). The attack of the psychometricians. Psychometrika, 71(3), 425–440.\nDeVellis, R. F., & Thorpe, C. T. (2022). Scale development: Theory and applications (5th ed.). SAGE.\nHaslam, N., Holland, E., & Kuppens, P. (2012). Categories versus dimensions in personality and psychopathology: A quantitative review of taxometric research. Psychological Medicine, 42(5), 903–920.\nHeine, S. J., Lehman, D. R., Peng, K., & Greenholtz, J. (2002). What’s wrong with cross-cultural comparisons of subjective Likert scales? The reference-group effect. Journal of Personality and Social Psychology, 82(6), 903–918.\nMeade, A. W., & Craig, S. B. (2012). Identifying careless responses in survey data. Psychological Methods, 17(3), 437–455.\nMeehl, P. E. (1995). Bootstraps taxometrics: Solving the classification problem in psychopathology. American Psychologist, 50(4), 266–275.\nMicceri, T. (1989). The unicorn, the normal curve, and other improbable creatures. Psychological Bulletin, 105(1), 156–166.\nNisbett, R. E., & Wilson, T. D. (1977). Telling more than we can know: Verbal reports on mental processes. Psychological Review, 84(3), 231–259.\nPetersen, I. T. Principles of psychological assessment: With applied examples in R. https://isaactpetersen.github.io/Principles-Psychological-Assessment/\nQuetelet, A. (1835). Sur l’homme et le développement de ses facultés. Bachelier.\n\n\n\n\nExample data: IPIP Big Five Factor Markers, Open Psychometrics (n = 19,719)."
   },
   {
     "objectID": "slides/pertemuan10.html#outline",
@@ -1075,14 +1075,14 @@
     "href": "slides/pertemuan10.html#yang-anda-bawa-hari-ini",
     "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
     "section": "Yang Anda bawa hari ini",
-    "text": "Yang Anda bawa hari ini\n\nUraian spesifikasi konstruk dari Pertemuan 9: definisi, batas, estimand, dimensi, aspek, dan indikator.\nHari ini indikator itu berubah menjadi item, dan item disusun menjadi kuesioner.\n\n\n\n\n\n\n\n\nWarning\n\n\nKalau kelompok Anda belum punya uraian spesifikasi konstruk, kerjakan itu lebih dulu hari ini. Menulis item tanpa definisi konstruk hanya akan menghasilkan pekerjaan yang harus diulang."
+    "text": "Yang Anda bawa hari ini\n\nUraian spesifikasi konstruk dari Pertemuan 9: definisi, batas, estimand, dimensi, aspek, dan indikator.\nHari ini indikator itu berubah menjadi item, dan item disusun menjadi kuesioner.\n\n\n\n\n\n\n\n\nPerhatikan\n\n\nKalau kelompok Anda belum punya uraian spesifikasi konstruk, kerjakan itu lebih dulu hari ini. Menulis item tanpa definisi konstruk membuat Anda kerja dua kali."
   },
   {
     "objectID": "slides/pertemuan10.html#apa-yang-dicakup-oleh-kisi-kisi",
     "href": "slides/pertemuan10.html#apa-yang-dicakup-oleh-kisi-kisi",
     "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
     "section": "Apa yang dicakup oleh kisi-kisi",
-    "text": "Apa yang dicakup oleh kisi-kisi\n\nKisi-kisi menghubungkan aspek konstruk dengan jumlah item yang akan mewakilinya.\nFungsinya menjaga agar cakupan isi sesuai dengan definisi Anda, bukan mengikuti aspek mana yang paling mudah ditulis itemnya.\nIni adalah bentuk paling awal dari bukti isi yang kita bahas di Pertemuan 7.\n\n\n\n\n\n\n\n\nNote\n\n\nTanpa kisi-kisi, hampir selalu terjadi hal yang sama: aspek yang paling gampang dibayangkan mendapat sepuluh item, sementara aspek yang sulit hanya kebagian dua."
+    "text": "Apa yang dicakup oleh kisi-kisi\n\nKisi-kisi menghubungkan aspek konstruk dengan jumlah item yang akan mewakilinya.\nFungsinya menjaga agar cakupan isi item sesuai dengan definisi Anda, bukan mengikuti aspek mana yang paling mudah ditulis itemnya.\n\n\n\n\n\n\n\n\nNote\n\n\nTanpa kisi-kisi, hampir selalu terjadi hal yang sama: aspek yang paling gampang dibayangkan mendapat sepuluh item, sementara aspek yang sulit hanya kebagian dua."
   },
   {
     "objectID": "slides/pertemuan10.html#contoh-kisi-kisi",
@@ -1103,14 +1103,14 @@
     "href": "slides/pertemuan10.html#sebarkan-itemnya",
     "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
     "section": "Sebarkan itemnya",
-    "text": "Sebarkan itemnya\n\nIngat pembahasan tingkat kesulitan item di Pertemuan 3: item sebaiknya tersebar di sepanjang rentang konstruk.\nUntuk tiap aspek, tulis sebagian item yang mudah disetujui (menandakan tingkat rendah) dan sebagian yang sulit disetujui (menandakan tingkat tinggi).\nKalau semua item Anda menggambarkan tingkat yang ekstrim, responden dengan tingkat sedang tidak akan bisa dibedakan satu sama lain.\n\n\n\n\n\n\n\n\nWarning\n\n\nIni juga yang mencegah ceiling effect dan floor effect yang akan langsung terlihat pada sebaran skor di Pertemuan 13."
+    "text": "Sebarkan itemnya\n\nIngat pembahasan tingkat kesulitan item di Pertemuan 3: item sebaiknya tersebar di sepanjang rentang konstruk.\nUntuk tiap aspek, tulis sebagian item yang mudah disetujui (menandakan tingkat rendah) dan sebagian yang sulit disetujui (menandakan tingkat tinggi).\nKalau semua item Anda menggambarkan tingkat yang ekstrim, responden dengan tingkat sedang tidak akan bisa dibedakan satu sama lain.\n\n\n\n\n\n\n\n\nTips\n\n\nIni juga yang mencegah ceiling effect dan floor effect yang akan langsung terlihat pada sebaran skor di Pertemuan 13."
   },
   {
-    "objectID": "slides/pertemuan10.html#satu-item-satu-gagasan",
-    "href": "slides/pertemuan10.html#satu-item-satu-gagasan",
+    "objectID": "slides/pertemuan10.html#satu-item-satu-ide-pokok",
+    "href": "slides/pertemuan10.html#satu-item-satu-ide-pokok",
     "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
-    "section": "Satu item, satu gagasan",
-    "text": "Satu item, satu gagasan\n\nItem ganda (double-barrelled) memuat dua gagasan sekaligus, sehingga responden yang setuju pada satu bagian saja tidak punya jawaban yang benar.\nKata “dan”, “karena”, serta “kalau” sering menjadi penanda item ganda.\n\n\n\n\n\n\n\n\n\nBermasalah\nPerbaikannya\n\n\n\n\n“Saya gugup dan berkeringat saat presentasi.”\nPisahkan menjadi dua item.\n\n\n“Saya menghindari acara kampus karena takut dinilai.”\n“Saya menghindari acara kampus.” + item terpisah tentang alasannya."
+    "section": "Satu item, satu ide pokok",
+    "text": "Satu item, satu ide pokok\n\nItem ganda (double-barrelled) memuat dua gagasan sekaligus, sehingga responden yang setuju pada satu bagian saja tidak punya jawaban yang benar.\nKata “dan”, “karena”, serta “kalau” sering menjadi penanda item ganda.\n\n\n\n\n\n\n\n\n\nBermasalah\nPerbaikannya\n\n\n\n\n“Saya gugup dan berkeringat saat presentasi.”\nPisahkan menjadi dua item.\n\n\n“Saya menghindari acara kampus karena takut dinilai.”\n“Saya menghindari acara kampus.” + item terpisah tentang alasannya."
   },
   {
     "objectID": "slides/pertemuan10.html#pendek-dan-lugas",
@@ -1131,7 +1131,7 @@
     "href": "slides/pertemuan10.html#kurun-waktu-diambil-dari-estimand",
     "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
     "section": "Kurun waktu diambil dari estimand",
-    "text": "Kurun waktu diambil dari estimand\n\nKalimat estimand Anda di Pertemuan 9 sudah menyebutkan kurun waktunya. Kurun itu harus muncul di itemnya.\n“Dalam sebulan terakhir, saya …” mengukur hal yang berbeda dari “Saya biasanya …”.\nPastikan kurun waktunya sama untuk semua item dalam satu skala.\n\n\n\n\n\n\n\n\nWarning\n\n\nMencampur item berkurun waktu berbeda dalam satu skala menambah sumber variasi yang tidak Anda maksud, dan biasanya muncul sebagai faktor tambahan pada analisis di Pertemuan 13."
+    "text": "Kurun waktu diambil dari estimand\n\nKalimat estimand Anda di Pertemuan 9 sudah menyebutkan kurun waktunya. Kurun itu harus muncul di itemnya.\n“Dalam sebulan terakhir, saya …” mengukur hal yang berbeda dari “Saya biasanya …”.\nPastikan kurun waktunya sama untuk semua item dalam satu skala.\n\n\n\n\n\n\n\n\nPenting diingat\n\n\nMencampur item berkurun waktu berbeda dalam satu skala menambah sumber variasi yang tidak Anda maksud, dan biasanya muncul sebagai faktor tambahan pada analisis di Pertemuan 13."
   },
   {
     "objectID": "slides/pertemuan10.html#seberapa-kuat-kalimatnya",
@@ -1148,11 +1148,11 @@
     "text": "Hindari kata bermuatan nilai\n\nKata seperti “wajar”, “seharusnya”, “berlebihan”, atau “gagal” mengarahkan jawaban.\nItem juga sebaiknya tidak membuat responden merasa dihakimi, terutama untuk konstruk yang rawan social desirability (Pertemuan 2).\n\n\n\n\n\n\n\n\n\nBermasalah\nPerbaikannya\n\n\n\n\n“Saya berlebihan dalam mencemaskan pendapat orang.”\n“Saya sering memikirkan pendapat orang lain tentang saya.”\n\n\n“Saya gagal mengendalikan rasa cemas saya.”\n“Saya sulit menenangkan diri ketika cemas.”"
   },
   {
-    "objectID": "slides/pertemuan10.html#kenapa-dipakai-sejak-awal",
-    "href": "slides/pertemuan10.html#kenapa-dipakai-sejak-awal",
+    "objectID": "slides/pertemuan10.html#kenapa-dipakai",
+    "href": "slides/pertemuan10.html#kenapa-dipakai",
     "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
-    "section": "Kenapa dipakai sejak awal",
-    "text": "Kenapa dipakai sejak awal\n\nGagasannya berasal dari Likert (1932) sendiri: untuk menekan kecenderungan responden menyetujui apa saja, separuh item dibuat searah dan separuh berlawanan arah.\nKalau responden hanya mengiyakan, polanya akan terlihat: ia menyetujui item yang searah dan yang berlawanan sekaligus.\n\n\n\n\n\n\n\n\nNote\n\n\nSampai di sini gagasannya masuk akal. Tetapi, persoalannya muncul pada pelaksanaannya."
+    "section": "Kenapa dipakai",
+    "text": "Kenapa dipakai\n\nGagasannya berasal dari Likert (1932) sendiri: untuk menekan kecenderungan responden menyetujui apa saja, separuh item dibuat searah dan separuh berlawanan arah.\nKalau responden hanya mengiyakan, polanya akan terlihat: ia menyetujui item yang searah dan yang berlawanan sekaligus.\n\n\n\n\n\n\n\n\nNote\n\n\nSampai di sini gagasannya masuk akal. Tetapi, persoalannya muncul pada pelaksanaannya."
   },
   {
     "objectID": "slides/pertemuan10.html#bagaimana-bukti-empiriknya",
@@ -1258,6 +1258,20 @@
     "title": "Validitas: Konsep Dasar dan Implementasinya",
     "section": "Yang belum terjawab",
     "text": "Yang belum terjawab\n\nPertemuan 6 memberi kita cara menghitung konsistensi internal: \\(\\alpha\\), \\(\\omega\\), split-half.\nSemua koefisien itu menjawab pertanyaan yang sama: apakah skornya stabil?\nTidak satu pun dari koefisien itu menjawab: apakah skornya benar-benar menunjukkan konstruk yang ingin kita ukur?\n\n\n\n\n\n\n\n\nNote\n\n\nIngat analogi timbangan dari Pertemuan 3. Timbangan yang selalu meleset 2 kg bisa internally consistent. Konsistensi internal tidak pernah bisa mendeteksi kesalahan pengukuran yang sistematis."
+  },
+  {
+    "objectID": "slides/pertemuan7.html#ilustrasi-yang-sering-dipakai",
+    "href": "slides/pertemuan7.html#ilustrasi-yang-sering-dipakai",
+    "title": "Validitas: Konsep Dasar dan Implementasinya",
+    "section": "Ilustrasi yang sering dipakai",
+    "text": "Ilustrasi yang sering dipakai\n\n\n\n\n\n\n\nIlustrasi yang umum muncul di buku ajar pengukuran psikologi."
+  },
+  {
+    "objectID": "slides/pertemuan7.html#kenapa-ilustrasi-ini-sebenarnya-keliru-secara-faktual",
+    "href": "slides/pertemuan7.html#kenapa-ilustrasi-ini-sebenarnya-keliru-secara-faktual",
+    "title": "Validitas: Konsep Dasar dan Implementasinya",
+    "section": "Kenapa Ilustrasi ini (sebenarnya) keliru secara faktual",
+    "text": "Kenapa Ilustrasi ini (sebenarnya) keliru secara faktual\n\nLabel “Reliable” dan “Valid” melekat pada papan targetnya, seolah-olah keduanya properti skalanya. Ini kesalahan yang sama seperti menulis “skala ini valid.”\nPanel “Valid, Not reliable” juga bermasalah untuk validitas kriteria secara khusus: reliabilitas jadi batas atas bagi koefisien validitas (ingat rumus atenuasi di Pertemuan 3, \\(r_{XY} \\leq \\sqrt{\\rho_{XX'} \\times \\rho_{YY'}}\\)). Skor yang tidak konsisten otomatis membatasi seberapa tinggi korelasinya dengan kriteria manapun.\n\n\n\n\n\n\n\n\nCara membacanya yang lebih tepat\n\n\nSumbu horizontal: konsistensi skor (reliabilitas). Sumbu vertikal: ketepatan skor terhadap apa yang ingin diukur (validitas). Keduanya sifat skor pada suatu penggunaan tertentu, bukan sesuatu yang “dimiliki” atau “tidak dimiliki” oleh instrumennya."
   },
   {
     "objectID": "slides/pertemuan7.html#definisi-resminya",
@@ -1425,7 +1439,7 @@
     "href": "slides/pertemuan7.html#paradoks-atenuasi",
     "title": "Validitas: Konsep Dasar dan Implementasinya",
     "section": "Paradoks atenuasi",
-    "text": "Paradoks atenuasi\n\nLoevinger (1954) menunjukkan bahwa setelah titik tertentu, menaikkan konsistensi internal justru menurunkan validitas.\nAlasannya bisa dilihat dari gambar tadi. Cara termudah menaikkan \\(\\alpha\\) adalah menulis item yang mirip.\nItem yang mirip mengukur satu bagian kecil dari konstruk dengan sangat rapat, dan meninggalkan sisanya. Ini berarti terjadi construct underrepresentation.\n\n\n\n\n\n\n\n\nContohnya\n\n\nSepuluh item ini akan menghasilkan \\(\\alpha\\) yang sangat tinggi: “Saya merasa sedih”, “Saya kerap murung”, “Hati saya sering muram”, dan seterusnya.\nSkala itu mengukur suasana hati sedih dengan sangat konsisten, tetapi tidak mengukur gangguan tidur, kehilangan minat, rasa bersalah, atau perubahan nafsu makan sama sekali."
+    "text": "Paradoks atenuasi\n\nLoevinger (1954) menunjukkan bahwa setelah titik tertentu, menaikkan konsistensi internal justru menurunkan validitas.\nAlasannya, cara termudah menaikkan \\(\\alpha\\) adalah menulis item yang mirip dan strategi inilah yang membuat validitas menjadi lebih lemah.\nItem yang mirip mengukur satu bagian kecil dari konstruk dengan sangat rapat, dan meninggalkan sisanya. Ini berarti terjadi construct underrepresentation.\n\n\n\n\n\n\n\n\nContohnya\n\n\nSepuluh item skala depresi ini akan menghasilkan \\(\\alpha\\) yang sangat tinggi: “Saya merasa sedih”, “Saya kerap murung”, “Hati saya sering muram”, dan seterusnya.\nSkala ini mengukur suasana hati sedih dengan sangat konsisten, tetapi tidak mengukur gangguan tidur, kehilangan minat, rasa bersalah, atau perubahan nafsu makan (yang juga merupakan gejala Depresi) sama sekali."
   },
   {
     "objectID": "slides/pertemuan7.html#kesimpulannya",
@@ -1439,7 +1453,7 @@
     "href": "slides/pertemuan7.html#yang-realistis-dikerjakan-semester-ini",
     "title": "Validitas: Konsep Dasar dan Implementasinya",
     "section": "Yang realistis dikerjakan semester ini",
-    "text": "Yang realistis dikerjakan semester ini\n\n\n\n\n\n\n\n\nSumber bukti\nKapan\nCaranya\n\n\n\n\nIsi\nTM11\nCVI dari panel ahli\n\n\nProses respons\nSebelum TM12\nWawancara kognitif, 3–5 orang\n\n\nStruktur internal\nTM13\nAnalisis faktor + reliabilitas per dimensi\n\n\nHubungan dengan variabel lain\nTM12\nSertakan satu skala mapan yang pendek\n\n\nKonsekuensi\nTM14\nBatasan penggunaan, ditulis di manual\n\n\n\n\n\n\n\n\n\n\nTip\n\n\nLima baris ini adalah kerangka bagian validitas pada laporan akhir Anda. Kalau ada baris yang tidak bisa Anda kerjakan, tuliskan bahwa Anda tidak mengerjakannya."
+    "text": "Yang realistis dikerjakan semester ini\n\n\n\n\n\n\n\n\nSumber bukti\nKapan\nCaranya\n\n\n\n\nIsi\nTM11\nCVI dari panel ahli\n\n\nProses respons\nSebelum TM12\nWawancara kognitif, 3–5 orang\n\n\nStruktur internal\nTM13\nAnalisis faktor + reliabilitas per dimensi\n\n\nHubungan dengan variabel lain\nTM12\nSertakan satu skala mapan yang pendek\n\n\nKonsekuensi\nTM14\nBatasan penggunaan, ditulis di manual"
   },
   {
     "objectID": "slides/pertemuan7.html#bagian-1-menilai-klaim-validitas",
@@ -1449,18 +1463,18 @@
     "text": "Bagian 1: menilai klaim validitas\nDiskusikan 15 menit. Untuk tiap klaim: bukti apa yang sebenarnya ditunjukkan, dan bukti apa yang belum ada?\nA. “Skala kami valid karena semua item memiliki korelasi item-total di atas 0.30.”\nB. “Validitas skala kami terbukti karena berkorelasi 0.88 dengan skala kecemasan yang sudah mapan.”\nC. “Skala ini sudah divalidasi pada mahasiswa, jadi bisa dipakai untuk asesmen karyawan.”\n\nJawaban yang diharapkan — A: item-total correlation adalah bukti struktur internal yang lemah, sama sekali bukan bukti isi atau hubungan dengan variabel lain. B: korelasi setinggi itu justru memunculkan pertanyaan diskriminan; kalau memang mengukur hal yang sama, apa gunanya skala baru? C: bukti tidak berpindah antar-populasi dan antar-tujuan penggunaan. Kalau waktu sempit, cukup bahas A dan C."
   },
   {
-    "objectID": "slides/pertemuan7.html#bagian-2-merancang-bukti-kelompok-anda",
-    "href": "slides/pertemuan7.html#bagian-2-merancang-bukti-kelompok-anda",
+    "objectID": "slides/pertemuan7.html#bagian-2-merancang-bukti-validitas-proyek-anda",
+    "href": "slides/pertemuan7.html#bagian-2-merancang-bukti-validitas-proyek-anda",
     "title": "Validitas: Konsep Dasar dan Implementasinya",
-    "section": "Bagian 2: merancang bukti kelompok Anda",
-    "text": "Bagian 2: merancang bukti kelompok Anda\n\nSebutkan dua aspek konstruk Anda yang paling berisiko tidak tertangkap oleh item yang sudah Anda bayangkan (construct underrepresentation).\nSebutkan satu hal lain yang mungkin ikut terukur oleh item Anda (construct-irrelevant variance).\nSkala mapan mana yang akan Anda sertakan di uji coba sebagai pembanding? Apakah untuk bukti konvergen atau diskriminan?\nUntuk keperluan apa skor kelompok Anda tidak boleh dipakai? Tuliskan satu kalimat.\n\n\n\n\n\n\n\n\nTip\n\n\nJawaban nomor 1 dan 2 akan langsung Anda pakai ketika menyusun kisi-kisi di Pertemuan 10."
+    "section": "Bagian 2: merancang bukti validitas proyek Anda",
+    "text": "Bagian 2: merancang bukti validitas proyek Anda\n\nSebutkan dua aspek konstruk Anda yang paling berisiko tidak tertangkap oleh item yang sudah Anda bayangkan (construct underrepresentation).\nSebutkan satu hal lain yang mungkin ikut terukur oleh item Anda (construct-irrelevant variance).\nSkala mapan mana yang akan Anda sertakan di uji coba sebagai pembanding? Apakah untuk bukti konvergen atau diskriminan?\nUntuk keperluan apa skor kelompok Anda tidak boleh dipakai? Tuliskan satu kalimat.\n\n\n\n\n\n\n\n\nTip\n\n\nJawaban nomor 1 dan 2 akan langsung Anda pakai ketika menyusun kisi-kisi di Pertemuan 10."
   },
   {
     "objectID": "slides/pertemuan7.html#yang-sudah-dipelajari-di-pertengahan-semester-ini",
     "href": "slides/pertemuan7.html#yang-sudah-dipelajari-di-pertengahan-semester-ini",
     "title": "Validitas: Konsep Dasar dan Implementasinya",
     "section": "Yang sudah dipelajari di pertengahan semester ini",
-    "text": "Yang sudah dipelajari di pertengahan semester ini\n\nPengukuran psikologis bersifat tidak langsung, dan definisinya masih diperdebatkan.\nAda enam asumsi yang kita pakai, sebagian besar tanpa disadari.\nCTT merapikan asumsi itu menjadi \\(X = T + E\\).\nFormat respons menentukan asumsi mana yang Anda pakai.\nFormat lain melepaskan asumsi yang berbeda, dengan biayanya masing-masing.\nReliabilitas bisa dihitung, dan \\(\\alpha\\) punya batas yang jelas.\nValiditas adalah argumen yang dibangun dari beberapa sumber bukti.\n\n\n\n\n\n\n\n\nPenting diingat\n\n\nTujuh kesimpulan ini dapat dirangkum menjadi satu kalimat: Anda perlu tahu asumsi apa yang sedang Anda pakai, dan apa akibatnya kalau asumsi itu salah."
+    "text": "Yang sudah dipelajari di pertengahan semester ini\n\nPengukuran psikologis bersifat tidak langsung, dan definisinya masih diperdebatkan.\nAda enam asumsi yang kita pakai, sebagian besar tanpa disadari.\nCTT merapikan asumsi ini menjadi \\(X = T + E\\).\nFormat respons menentukan asumsi mana yang Anda pakai.\nFormat lain melepaskan asumsi yang berbeda, dengan risikonya masing-masing.\nReliabilitas bisa dihitung, dan \\(\\alpha\\) punya batas yang jelas.\nValiditas adalah argumen yang dibangun dari beberapa sumber bukti.\n\n\n\n\n\n\n\n\nPenting diingat\n\n\nTujuh kesimpulan ini dapat dirangkum menjadi satu kalimat: Anda perlu tahu asumsi apa yang sedang Anda pakai, dan apa akibatnya kalau asumsi itu salah."
   },
   {
     "objectID": "slides/pertemuan7.html#ujian-tengah-semester",
@@ -1509,14 +1523,14 @@
     "href": "slides/pertemuan5.html#peta-hari-ini",
     "title": "Format Respons II: Thurstone, Situational Judgement Test, dan Forced-Choice",
     "section": "Peta hari ini",
-    "text": "Peta hari ini\n\n\n\n\n\n\n\n\nFormat\nYang ditolak\nYang diasumsikan\n\n\n\n\nThurstone\nBobot item yang sama\nItem terkalibrasi di sepanjang kontinum\n\n\nSJT\nPernyataan diri yang abstrak\nKonteks dan penilaian yang lebih konkret\n\n\nForced-choice\nKebebasan menjawab tiap item\nMenangkal problem social desirability\n\n\n\n\n\n\n\n\n\n\nPerlu diingat\n\n\nKetiganya kelihatannya menarik secara konseptual, tetapi jauh lebih sulit dikerjakan daripada Likert, dan dua di antaranya berlawanan dengan asumsi yang kita bangun di Pertemuan 3."
+    "text": "Peta hari ini\n\n\n\n\n\n\n\n\nFormat\nYang ditolak\nYang diasumsikan\n\n\n\n\nThurstone\nBobot item yang sama\nItem terkalibrasi di sepanjang kontinum\n\n\nSJT\nPernyataan diri yang abstrak\nKonteks dan penilaian yang lebih konkret\n\n\nForced-choice\nKebebasan menjawab tiap item\nMenangkal problem social desirability\n\n\n\n\n\n\n\n\n\n\nPerlu diingat\n\n\nKetiganya kelihatannya menarik secara konseptual, tetapi jauh lebih sulit dikembangkan daripada Likert, dan dua di antaranya berlawanan dengan asumsi yang kita bangun di Pertemuan 3."
   },
   {
     "objectID": "slides/pertemuan5.html#analogi-garpu-tala",
     "href": "slides/pertemuan5.html#analogi-garpu-tala",
     "title": "Format Respons II: Thurstone, Situational Judgement Test, dan Forced-Choice",
     "section": "Analogi garpu tala",
-    "text": "Analogi garpu tala\n\nSebuah garpu tala dirancang bergetar pada frekuensi tertentu. Kalau ada nada dengan frekuensi yang sama di dekatnya, garpu itu ikut bergetar. Kalau frekuensinya berbeda, ia diam.\nBayangkan sederet garpu tala yang tersusun dari frekuensi rendah ke tinggi. Untuk mengetahui frekuensi sebuah nada, Anda cukup melihat garpu mana yang bergetar.\nSkala Thurstone bekerja persis seperti ini: tiap item “disetel” untuk merespons level atribut tertentu.\n\n\n\n\n\n\n\n\n\nTip\n\n\nBandingkan dengan Likert, di mana semua item pada dasarnya adalah detektor yang sama dan yang berbeda hanya derajat pilihan responnya.\n\n\n\n\n\nAnalogi dari DeVellis & Thorpe (2022), Bab 5."
+    "text": "Analogi garpu tala\n\nSebuah garpu tala dirancang bergetar pada frekuensi tertentu. Kalau ada nada dengan frekuensi yang sama di dekatnya, garpu itu ikut bergetar. Kalau frekuensinya berbeda, ia diam.\nBayangkan sederet garpu tala yang tersusun dari frekuensi rendah ke tinggi. Untuk mengetahui frekuensi sebuah nada, Anda cukup melihat garpu mana yang bergetar.\nSkala Thurstone bekerja persis seperti ini: tiap item “disetel” untuk merespons level atribut tertentu.\n\n\n\n\n\n\n\n\n\nTips\n\n\nBandingkan dengan Likert, di mana semua item pada dasarnya adalah detektor yang sama dan yang berbeda hanya derajat pilihan responnya.\n\n\n\n\n\nAnalogi dari DeVellis & Thorpe (2022), Bab 5."
   },
   {
     "objectID": "slides/pertemuan5.html#bagaimana-skala-thurstone-dibuat",
@@ -1533,18 +1547,18 @@
     "text": "Seperti apa hasilnya"
   },
   {
-    "objectID": "slides/pertemuan5.html#membaca-gambar-tadi",
-    "href": "slides/pertemuan5.html#membaca-gambar-tadi",
+    "objectID": "slides/pertemuan5.html#membaca-ilustrasi-sebelumnya",
+    "href": "slides/pertemuan5.html#membaca-ilustrasi-sebelumnya",
     "title": "Format Respons II: Thurstone, Situational Judgement Test, dan Forced-Choice",
-    "section": "Membaca gambar tadi",
-    "text": "Membaca gambar tadi\n\nTiap pernyataan punya satu angka yang menandai posisinya di kontinum. Angka inilah yang mencerminkan kalibrasinya.\nPernyataan 4 punya rentang antar-kuartil yang sangat lebar: para anggota panel tidak sepakat pernyataan itu ada di posisi mana. Pernyataan seperti ini dibuang, sebagus apapun penulisan kalimatnya.\nPernyataan yang lolos tersebar dari ujung ke ujung.\n\n\n\n\n\n\n\n\nPerhatikan yang baru saja terjadi\n\n\nKita sudah menentukan “tingkat kesulitan” tiap item sebelum partisipan mengisinya. Ini adalah sesuatu yang tidak bisa dilakukan dengan CTT."
+    "section": "Membaca ilustrasi sebelumnya",
+    "text": "Membaca ilustrasi sebelumnya\n\nTiap pernyataan punya satu angka yang menandai posisinya di kontinum. Angka inilah yang mencerminkan kalibrasinya.\nPernyataan 4 punya rentang antar-kuartil yang sangat lebar: para anggota panel tidak sepakat pernyataan itu ada di posisi mana. Pernyataan seperti ini dibuang, sebagus apapun penulisan kalimatnya.\nPernyataan yang lolos tersebar dari ujung ke ujung.\n\n\n\n\n\n\n\n\nPerhatikan yang baru saja terjadi\n\n\nKita sudah menentukan “tingkat kesulitan” tiap item sebelum partisipan mengisinya. Ini adalah sesuatu yang tidak bisa dilakukan dengan CTT."
   },
   {
     "objectID": "slides/pertemuan5.html#cara-partisipan-menjawab-dan-cara-menskornya",
     "href": "slides/pertemuan5.html#cara-partisipan-menjawab-dan-cara-menskornya",
     "title": "Format Respons II: Thurstone, Situational Judgement Test, dan Forced-Choice",
     "section": "Cara partisipan menjawab dan cara menskornya",
-    "text": "Cara partisipan menjawab dan cara menskornya\n\nResponden hanya diminta setuju atau tidak setuju (ya/tidak) pada tiap pernyataan.\nSkor responden adalah rata-rata nilai skala dari pernyataan yang ia setujui.\nJadi orang yang menyetujui pernyataan dengan nilai skala 8,5 dan 10,5 mendapat skor 9,5 — tanpa perlu menjumlahkan apa pun.\n\n\n\n\n\n\n\n\nBedanya mendasar dengan Likert\n\n\nPada Likert, informasi ada pada derajat jawaban. Pada Thurstone, informasi ada pada item mana yang disetujui — jawabannya sendiri cuma ya atau tidak."
+    "text": "Cara partisipan menjawab dan cara menskornya\n\nResponden hanya diminta setuju atau tidak setuju (ya/tidak) pada tiap pernyataan.\nSkor responden adalah rata-rata nilai skala dari pernyataan yang ia setujui.\nJadi orang yang menyetujui pernyataan dengan nilai skala 8.5 dan 10.5 mendapat skor 9.5 — tanpa perlu menjumlahkan apa pun.\n\n\n\n\n\n\n\n\nBedanya mendasar dengan Likert\n\n\nPada Likert, informasi ada pada derajat jawaban. Pada Thurstone, informasi ada pada item mana yang disetujui — jawabannya sendiri cuma ya atau tidak."
   },
   {
     "objectID": "slides/pertemuan5.html#kenapa-thurstone-jarang-dipakai",
@@ -1575,11 +1589,11 @@
     "text": "Contoh\n\nSituasi. Anda memimpin kelompok tugas beranggotakan lima orang. Dua hari sebelum tenggat, satu anggota memberi tahu bahwa bagiannya belum dikerjakan sama sekali karena ada urusan keluarga.\n\n\nSeberapa efektif tiap tindakan berikut?\n\n\n\n\n\n\n\n\n\nTindakan\n\n\n\n\n\nA\nMengerjakan sendiri bagian itu agar tenggat terkejar\n1–5\n\n\nB\nMembagi bagian tersebut ke anggota lain yang sudah selesai\n1–5\n\n\nC\nMeminta perpanjangan waktu kepada dosen\n1–5\n\n\nD\nMenyerahkan tugas apa adanya dan menuliskan siapa yang tidak berkontribusi\n1–5"
   },
   {
-    "objectID": "slides/pertemuan5.html#satu-perubahan-kecil-yang-mengubah-segalanya",
-    "href": "slides/pertemuan5.html#satu-perubahan-kecil-yang-mengubah-segalanya",
+    "objectID": "slides/pertemuan5.html#perhatikan-perbedaannya",
+    "href": "slides/pertemuan5.html#perhatikan-perbedaannya",
     "title": "Format Respons II: Thurstone, Situational Judgement Test, dan Forced-Choice",
-    "section": "Satu perubahan kecil yang mengubah segalanya",
-    "text": "Satu perubahan kecil yang mengubah segalanya\n\n\n“Apa yang akan Anda lakukan?”\nMengukur kecenderungan perilaku.\nLebih dekat ke kepribadian.\nLebih rawan dipoles responden.\n\n“Apa yang sebaiknya dilakukan?”\nMengukur pengetahuan tentang tindakan yang efektif.\nLebih dekat ke kemampuan kognitif.\nLebih tahan terhadap pemolesan.\n\n\n\n\n\n\n\n\nIni bukan perbedaan kosmetik\n\n\nPloyhart & Ehrhart (2003) menunjukkan bahwa mengganti instruksi respons mengubah properti psikometrik tesnya — reliabilitas maupun konstruk yang terukur.\nInstruksi respons harus Anda tetapkan lebih dulu, bukan dipilih belakangan."
+    "section": "Perhatikan perbedaannya",
+    "text": "Perhatikan perbedaannya\n\n\n“Apa yang akan Anda lakukan?”\nMengukur kecenderungan perilaku.\nLebih dekat ke kepribadian.\nLebih rawan dipoles responden.\n\n“Apa yang sebaiknya dilakukan?”\nMengukur pengetahuan tentang tindakan yang efektif.\nLebih dekat ke kemampuan kognitif.\nLebih tahan terhadap pemolesan.\n\n\n\n\n\n\n\n\nIni perbendaan ynag mendasar\n\n\nPloyhart & Ehrhart (2003) menunjukkan bahwa mengganti instruksi respons mengubah properti psikometrik tesnya — reliabilitas maupun konstruk yang terukur.\nInstruksi respons harus Anda tetapkan lebih dulu, bukan dipilih belakangan."
   },
   {
     "objectID": "slides/pertemuan5.html#cara-menskornya",
@@ -1600,7 +1614,7 @@
     "href": "slides/pertemuan5.html#masalah-psikometriknya",
     "title": "Format Respons II: Thurstone, Situational Judgement Test, dan Forced-Choice",
     "section": "Masalah psikometriknya",
-    "text": "Masalah psikometriknya\n\nSJT hampir selalu multidimensional. Satu skenario bisa sekaligus melibatkan pengetahuan, kepribadian, dan penalaran.\nAkibatnya, konsistensi internalnya sering rendah — dan itu memang seharusnya begitu.\nIni melanggar asumsi unidimensionalitas dari Pertemuan 2, dan membuat model CTT di Pertemuan 3 tidak cocok diterapkan apa adanya.\n\n\n\n\n\n\n\n\n\nKesalahan yang sering dilakukan orang\n\n\nMelaporkan Cronbach’s alpha untuk sebuah SJT lalu menyimpulkan tesnya buruk karena angkanya rendah.\n\\(\\alpha\\) mengasumsikan semua item digerakkan oleh satu variabel laten yang sama. Pada SJT, asumsi itu memang tidak dimaksudkan untuk terpenuhi. Koefisien yang salah menghasilkan kesimpulan yang salah, bukan alat ukur yang buruk.\n\n\n\n\n\nWhetzel & McDaniel (2009)."
+    "text": "Masalah psikometriknya\n\nSJT hampir selalu multidimensional. Satu skenario bisa sekaligus melibatkan pengetahuan, kepribadian, dan penalaran.\nAkibatnya, konsistensi internalnya sering rendah.\nIni melanggar asumsi unidimensionalitas dari Pertemuan 2, dan membuat model CTT di Pertemuan 3 tidak cocok diterapkan apa adanya.\n\n\n\n\n\n\n\n\n\nKesalahan yang sering dilakukan orang\n\n\nMelaporkan Cronbach’s alpha untuk sebuah SJT lalu menyimpulkan tesnya buruk karena angkanya rendah.\n\\(\\alpha\\) mengasumsikan semua item digerakkan oleh satu variabel laten yang sama. Pada SJT, asumsi itu memang tidak dimaksudkan untuk terpenuhi. Koefisien yang salah menghasilkan kesimpulan yang salah, bukan alat ukur yang buruk.\n\n\n\n\n\nWhetzel & McDaniel (2009)."
   },
   {
     "objectID": "slides/pertemuan5.html#masalah-yang-ingin-dipecahkan",
@@ -1621,49 +1635,42 @@
     "href": "slides/pertemuan5.html#syarat-yang-sering-dilupakan",
     "title": "Format Respons II: Thurstone, Situational Judgement Test, dan Forced-Choice",
     "section": "Syarat yang sering dilupakan",
-    "text": "Syarat yang sering dilupakan\n\nPasangan pernyataan harus disetarakan tingkat kemenarikannya lebih dulu — dan itu perlu penelitian pendahuluan tersendiri.\nKalau tidak disetarakan, format ini tidak menyelesaikan apa pun: responden akan tetap memilih yang terdengar lebih baik.\nMenyetarakan kemenarikan sama saja dengan mengkalibrasi item — sekali lagi, pekerjaan bergaya Thurstone."
+    "text": "Syarat yang sering dilupakan\n\nPasangan pernyataan harus disetarakan tingkat kemenarikannya lebih dulu — dan ini membutuhkan penelitian pendahuluan tersendiri.\nKalau tidak disetarakan, format ini tidak menyelesaikan apa pun: responden akan tetap memilih yang terdengar lebih baik.\nMenyetarakan kemenarikan sama saja dengan mengkalibrasi item — sekali lagi, mirip dengan Thurstone."
   },
   {
-    "objectID": "slides/pertemuan5.html#harga-yang-harus-dibayar",
-    "href": "slides/pertemuan5.html#harga-yang-harus-dibayar",
+    "objectID": "slides/pertemuan5.html#risiko-yang-harus-diterima",
+    "href": "slides/pertemuan5.html#risiko-yang-harus-diterima",
     "title": "Format Respons II: Thurstone, Situational Judgement Test, dan Forced-Choice",
-    "section": "Harga yang harus dibayar",
-    "text": "Harga yang harus dibayar\n\nSetiap kali responden memilih satu pernyataan, ia otomatis tidak memilih yang lain.\nAkibatnya, total skor semua skala menjadi konstan untuk setiap responden. Kalau skor satu skala naik, skor skala lain harus turun.\nData dengan sifat ini disebut ipsatif: skornya bermakna di dalam diri seseorang, bukan antar-orang.\n\n\n\n\n\n\n\n\nKalimat yang perlu Anda ingat\n\n\nPada data ipsatif, skor menjawab pertanyaan “dari semua hal ini, mana yang paling menonjol pada diri saya?” — bukan “seberapa banyak sifat ini saya miliki dibandingkan orang lain?”"
+    "section": "Risiko yang harus diterima",
+    "text": "Risiko yang harus diterima\n\nSetiap kali responden memilih satu pernyataan, ia otomatis tidak memilih yang lain.\nAkibatnya, total skor semua skala menjadi konstan untuk setiap responden. Kalau skor satu skala naik, skor skala lain harus turun.\nData dengan sifat ini disebut ipsatif: skornya bermakna di dalam diri seseorang, bukan antar-orang.\n\n\n\n\n\n\n\n\nKalimat yang perlu Anda ingat\n\n\nPada data ipsatif, skor menjawab pertanyaan “dari semua hal ini, mana yang paling menonjol pada diri saya?” — bukan “seberapa banyak sifat ini saya miliki dibandingkan orang lain?”"
   },
   {
     "objectID": "slides/pertemuan5.html#kenapa-ini-merusak-analisis",
     "href": "slides/pertemuan5.html#kenapa-ini-merusak-analisis",
     "title": "Format Respons II: Thurstone, Situational Judgement Test, dan Forced-Choice",
     "section": "Kenapa ini merusak analisis",
-    "text": "Kenapa ini merusak analisis\n\nKarena totalnya dipaksa konstan, korelasi antar-skala dipaksa menjadi negatif — bahkan kalau konstruk yang sesungguhnya sama sekali tidak berhubungan.\nUntuk instrumen ipsatif dengan \\(k\\) skala, rata-rata korelasi antar-skalanya adalah:\n\n\\[\\bar{r} = -\\frac{1}{k-1}\\]\n\n\n\n\nJumlah skala (\\(k\\))\nRata-rata korelasi yang dipaksakan\n\n\n\n\n3\n−0,50\n\n\n5\n−0,25\n\n\n10\n−0,11\n\n\n\n\n\n\n\n\n\n\n\nWarning\n\n\nAngka-angka itu muncul dari formatnya, bukan dari psikologi respondennya."
+    "text": "Kenapa ini merusak analisis\n\nKarena skor totalnya dipaksa konstan, korelasi antar-skala dipaksa menjadi negatif — bahkan kalau konstruk yang sesungguhnya sama sekali tidak berhubungan.\nUntuk instrumen ipsatif dengan \\(k\\) skala, rata-rata korelasi antar-skalanya adalah:\n\n\\[\\bar{r} = -\\frac{1}{k-1}\\]\n\n\n\n\nJumlah skala (\\(k\\))\nRata-rata korelasi yang dipaksakan\n\n\n\n\n3\n−0,50\n\n\n5\n−0,25\n\n\n10\n−0,11\n\n\n\n\n\n\n\n\n\n\n\nWarning\n\n\nAngka-angka itu muncul dari formatnya, bukan dari proses psikologis partisipannya."
   },
   {
     "objectID": "slides/pertemuan5.html#akibat-lanjutannya",
     "href": "slides/pertemuan5.html#akibat-lanjutannya",
     "title": "Format Respons II: Thurstone, Situational Judgement Test, dan Forced-Choice",
     "section": "Akibat lanjutannya",
-    "text": "Akibat lanjutannya\n\nPerbandingan antar-orang jadi tidak sah. Skor 8 pada skala ketelitian milik A tidak bisa langsung dibandingkan dengan skor 8 milik B.\nAnalisis faktor menjadi menyesatkan, karena struktur korelasinya sudah dirusak lebih dulu oleh formatnya.\nKoefisien reliabilitas klasik jadi sulit ditafsirkan — model CTT di Pertemuan 3 mengandaikan skor yang bebas bergerak, dan di sini skornya tidak bebas.\n\n\n\n\n\n\n\n\n\nKesimpulan praktisnya\n\n\nInstrumen ipsatif tidak boleh dipakai untuk seleksi, pemeringkatan, atau perbandingan antar-individu — padahal justru untuk itulah instrumen semacam ini sering dijual.\n\n\n\n\n\nHicks (1970) merangkum persoalan ini secara menyeluruh."
+    "text": "Akibat lanjutannya\n\nPerbandingan antar-orang menjadi tidak memungkinkan. Skor 8 pada skala ketelitian milik A tidak bisa langsung dibandingkan dengan skor 8 milik B.\nAnalisis faktor menjadi menyesatkan, karena struktur korelasinya sudah diganggu lebih dulu oleh formatnya.\nKoefisien reliabilitas klasik jadi sulit ditafsirkan — model CTT di Pertemuan 3 mengandaikan skor yang bebas bergerak, dan di sini skornya tidak bebas.\n\n\n\n\n\n\n\n\n\nKesimpulan praktisnya\n\n\nInstrumen ipsatif tidak boleh dipakai untuk seleksi, pemeringkatan, atau perbandingan antar-individu — padahal justru untuk itulah instrumen semacam ini sering dijual.\n\n\n\n\n\nHicks (1970) merangkum persoalan ini secara menyeluruh."
   },
   {
     "objectID": "slides/pertemuan5.html#ada-jalan-keluarnya",
     "href": "slides/pertemuan5.html#ada-jalan-keluarnya",
     "title": "Format Respons II: Thurstone, Situational Judgement Test, dan Forced-Choice",
     "section": "Ada jalan keluarnya",
-    "text": "Ada jalan keluarnya\n\nBrown & Maydeu-Olivares (2011) menunjukkan bahwa dengan pemodelan IRT, skor normatif bisa dipulihkan dari respons forced-choice.\nPendekatannya disebut Thurstonian IRT, karena berangkat dari model Thurstone tentang perbandingan berpasangan.\nJadi format ini tetap bisa dipakai — asalkan analisisnya memakai model yang tepat, bukan penjumlahan sederhana.\n\n\n\n\n\n\n\n\nPerhatikan siapa yang muncul lagi\n\n\nKita membuka hari ini dengan Thurstone, dan menutupnya dengan Thurstone. Gagasan tahun 1920-an itu ternyata yang menyelamatkan format yang paling bermasalah di antara ketiganya."
+    "text": "Ada jalan keluarnya\n\nBrown & Maydeu-Olivares (2011) menunjukkan bahwa dengan pemodelan IRT, skor normatif bisa dipulihkan dari respons forced-choice.\nPendekatannya disebut Thurstonian IRT, karena berangkat dari model Thurstone tentang perbandingan berpasangan.\nJadi format ini tetap bisa dipakai — asalkan analisisnya memakai model yang tepat, bukan penjumlahan sederhana.\n\n\n\n\n\n\n\n\nPerhatikan siapa yang muncul lagi\n\n\nKita membuka hari ini dengan Thurstone, dan menutupnya dengan Thurstone. Ide Thurstone di tahun 1920-an itu ternyata yang menjadi solusi untuk masalah ini."
   },
   {
-    "objectID": "slides/pertemuan5.html#jawaban-jujurnya",
-    "href": "slides/pertemuan5.html#jawaban-jujurnya",
+    "objectID": "slides/pertemuan5.html#ketiganya-tidak-realistis",
+    "href": "slides/pertemuan5.html#ketiganya-tidak-realistis",
     "title": "Format Respons II: Thurstone, Situational Judgement Test, dan Forced-Choice",
-    "section": "Jawaban jujurnya",
-    "text": "Jawaban jujurnya\n\nThurstone — tidak realistis. Anda perlu panel juri terpisah sebelum pengambilan data, dan waktunya tidak ada.\nSJT — tidak realistis untuk semester ini. Menulis skenario yang baik dan menyusun kunci jawabannya adalah proyek tersendiri.\nForced-choice — bisa dibuat, tetapi jangan. Analisis yang benar untuk data ipsatif berada di luar cakupan mata kuliah ini.\n\n\n\n\n\n\n\n\nJadi kenapa kita membahasnya?\n\n\nKarena Anda akan menemui ketiganya dalam praktik — terutama SJT dan forced-choice, yang banyak dipakai dalam asesmen dan seleksi kerja di Indonesia.\nYang perlu Anda bawa dari hari ini bukan kemampuan membuatnya, melainkan kemampuan menilai apakah alat semacam itu dipakai secara benar."
-  },
-  {
-    "objectID": "slides/pertemuan5.html#tetapi-satu-hal-tetap-berlaku-untuk-anda",
-    "href": "slides/pertemuan5.html#tetapi-satu-hal-tetap-berlaku-untuk-anda",
-    "title": "Format Respons II: Thurstone, Situational Judgement Test, dan Forced-Choice",
-    "section": "Tetapi satu hal tetap berlaku untuk Anda",
-    "text": "Tetapi satu hal tetap berlaku untuk Anda\n\nDi Pertemuan 2 Anda sudah mengidentifikasi apakah konstruk kelompok Anda rawan social desirability.\nKalau jawabannya ya, Anda tidak perlu beralih ke forced-choice. Yang perlu Anda lakukan adalah:\n\nmenuliskannya sebagai keterbatasan di laporan,\nmemilih kalimat item yang tidak menghakimi,\ndan menjamin anonimitas dengan sungguh-sungguh saat uji coba.\n\n\n\n\n\n\n\n\n\nTip\n\n\nMenyadari ancaman dan menuliskannya secara terbuka jauh lebih baik daripada memakai format rumit yang analisisnya tidak Anda kuasai."
+    "section": "Ketiganya tidak realistis",
+    "text": "Ketiganya tidak realistis\n\nThurstone — tidak realistis. Anda perlu panel juri terpisah sebelum pengambilan data, dan waktunya tidak ada.\nSJT — tidak realistis untuk semester ini. Menulis skenario yang baik dan menyusun kunci jawabannya adalah proyek tersendiri.\nForced-choice — tidak realistis. Analisis yang benar untuk data ipsatif berada di luar cakupan mata kuliah ini.\n\n\n\n\n\n\n\n\nJadi kenapa kita membahasnya?\n\n\nKarena Anda akan menemui ketiganya dalam praktiknya, terutama SJT dan forced-choice, yang banyak dipakai dalam asesmen dan seleksi kerja di Indonesia.\nYang perlu Anda pelajari hari ini bukan kemampuan membuatnya, melainkan kemampuan menilai apakah alat semacam ini dipakai secara benar."
   },
   {
     "objectID": "slides/pertemuan5.html#bagian-1-menjadi-juri-thurstone",
@@ -1747,14 +1754,14 @@
     "href": "slides/pertemuan9.html#tinjauan-pustaka",
     "title": "Pengenalan Konstruk dan Penetapan Estimand",
     "section": "Tinjauan pustaka",
-    "text": "Tinjauan pustaka\n\nAnda tidak sedang merangkum semua penelitian tentang konstruk itu.\nYang Anda cari sangat spesifik: bagaimana orang lain mendefinisikan konstruk ini, dan di mana definisi-definisi itu berbeda satu sama lain.\nTargetnya sederhana: 5 sampai 10 definisi, dikutip utuh, lengkap dengan sumbernya.\n\n\n\n\n\n\n\n\nCara mencatatnya\n\n\nBuat tabel tiga kolom: sumber, definisi (dikutip persis), apa yang ditekankan. Jangan diparafrasekan dulu. Perbedaan antar-definisi sering terletak pada kata-kata yang tepat."
+    "text": "Tinjauan pustaka\n\nAnda tidak sedang merangkum semua penelitian tentang konstruk yang Anda pilih.\nYang Anda cari sangat spesifik: bagaimana orang lain mendefinisikan konstruk ini, dan di mana definisi-definisi itu berbeda satu sama lain.\nTargetnya sederhana: 5 sampai 10 definisi, dikutip utuh, lengkap dengan sumbernya.\n\n\n\n\n\n\n\n\nCara mencatatnya\n\n\nBuat tabel tiga kolom: sumber, definisi (dikutip persis), apa yang ditekankan. Jangan diparafrasekan dulu. Perbedaan antar-definisi sering terletak pada kata-kata yang tepat."
   },
   {
-    "objectID": "slides/pertemuan9.html#yang-anda-cari-di-dalam-tabel-itu",
-    "href": "slides/pertemuan9.html#yang-anda-cari-di-dalam-tabel-itu",
+    "objectID": "slides/pertemuan9.html#yang-anda-cari-di-dalam-tabel",
+    "href": "slides/pertemuan9.html#yang-anda-cari-di-dalam-tabel",
     "title": "Pengenalan Konstruk dan Penetapan Estimand",
-    "section": "Yang Anda cari di dalam tabel itu",
-    "text": "Yang Anda cari di dalam tabel itu\n\nTitik temu. Unsur apa yang muncul di hampir semua definisi? Itu kemungkinan besar inti konstruknya.\nTitik beda. Unsur apa yang hanya muncul di sebagian definisi? Di situlah Anda harus mengambil sikap.\nYang tidak pernah disebut. Kadang ada aspek yang jelas relevan tetapi tidak muncul di definisi mana pun. Itu bisa menjadi kontribusi kelompok Anda, asalkan Anda menyatakannya secara terbuka.\n\n\n\n\n\n\n\n\nNote\n\n\nIngat temuan Fried (2017) dari Pertemuan 1: tujuh skala depresi memuat 52 gejala berbeda. Perbedaan definisi sebenarnya adalah hal yang biasa."
+    "section": "Yang Anda cari di dalam tabel",
+    "text": "Yang Anda cari di dalam tabel\n\nTitik temu. Unsur apa yang muncul di hampir semua definisi? Itu kemungkinan besar inti konstruknya.\nTitik beda. Unsur apa yang hanya muncul di sebagian definisi? Di situlah Anda harus mengambil sikap.\nYang tidak pernah disebut. Kadang ada aspek yang jelas relevan tetapi tidak muncul di definisi mana pun. Itu bisa menjadi kontribusi kelompok Anda, asalkan Anda menyatakannya secara terbuka.\n\n\n\n\n\n\n\n\nNote\n\n\nIngat temuan Fried (2017) dari Pertemuan 1: tujuh skala depresi memuat 52 gejala berbeda. Perbedaan definisi sebenarnya adalah hal yang biasa."
   },
   {
     "objectID": "slides/pertemuan9.html#tiga-hal-yang-harus-ada",
@@ -1817,7 +1824,7 @@
     "href": "slides/pertemuan9.html#empat-pertanyaan",
     "title": "Pengenalan Konstruk dan Penetapan Estimand",
     "section": "Empat pertanyaan",
-    "text": "Empat pertanyaan\n\nBesaran apa? Tingkat atribut pada seseorang? Posisi relatif dibanding orang lain? Ada atau tidaknya suatu kondisi?\nPada siapa? Populasi sasarannya harus disebut secara spesifik — bukan “masyarakat”, melainkan misalnya “mahasiswa S1 aktif di Surabaya, usia 18–24”.\nDalam kondisi apa? Apakah yang diukur keadaan sekarang, kecenderungan umum, atau pengalaman dalam kurun waktu tertentu?\nDibandingkan dengan apa? Skor akan ditafsirkan relatif terhadap orang lain (norma), atau relatif terhadap suatu patokan tetap (kriteria)?"
+    "text": "Empat pertanyaan\n\nApa nama atribut ukurnya? Tingkat atribut pada seseorang? Posisi relatif dibanding orang lain? Ada atau tidaknya suatu kondisi?\nPada siapa? Populasi sasarannya harus disebut secara spesifik — bukan “masyarakat”, melainkan misalnya “mahasiswa S1 aktif di Surabaya, usia 18–24”.\nDalam kondisi apa? Apakah yang diukur keadaan sekarang, kecenderungan umum, atau pengalaman dalam kurun waktu tertentu?\nDibandingkan dengan apa? Skor akan ditafsirkan relatif terhadap orang lain (norma), atau relatif terhadap suatu patokan tetap (kriteria)?"
   },
   {
     "objectID": "slides/pertemuan9.html#contoh-kalimat-estimand",
@@ -1841,11 +1848,11 @@
     "text": "Fungsinya sebagai jembatan\n\nDefinisi konstruk menjelaskan apa yang Anda maksud. Definisi operasional menjelaskan bagaimana hal itu muncul dalam sesuatu yang bisa diamati.\nIsinya berupa indikator: perilaku, pikiran, atau perasaan konkret yang menandakan tingginya atribut tersebut.\nBelum berupa item. Item disusun di Pertemuan 10, berdasarkan indikator ini."
   },
   {
-    "objectID": "slides/pertemuan9.html#contoh-bertahap",
-    "href": "slides/pertemuan9.html#contoh-bertahap",
+    "objectID": "slides/pertemuan9.html#contohnya",
+    "href": "slides/pertemuan9.html#contohnya",
     "title": "Pengenalan Konstruk dan Penetapan Estimand",
-    "section": "Contoh bertahap",
-    "text": "Contoh bertahap\n\nKonstruk: kecemasan sosial\nAspek: ketakutan akan penilaian negatif\nIndikator: khawatir dinilai bodoh ketika berbicara; memikirkan ulang percakapan setelah selesai; menghindari bertanya di kelas meski tidak paham\nItem (Pertemuan 10): “Setelah berbicara di depan kelas, saya memikirkan ulang apa yang tadi saya katakan.”\n\n\n\n\n\n\n\n\nNote\n\n\nTiap indikator sebaiknya menghasilkan lebih dari satu item. Ingat dari Pertemuan 6 bahwa jumlah item ikut menentukan reliabilitas, dan dari Pertemuan 7 bahwa cakupan isi menentukan validitasnya."
+    "section": "Contohnya",
+    "text": "Contohnya\n\nKonstruk: kecemasan sosial\nAspek: ketakutan akan penilaian negatif\nIndikator: khawatir dinilai bodoh ketika berbicara; memikirkan ulang percakapan setelah selesai; menghindari bertanya di kelas meski tidak paham\nItem (Pertemuan 10): “Setelah berbicara di depan kelas, saya memikirkan ulang apa yang tadi saya katakan.”\n\n\n\n\n\n\n\n\nNote\n\n\nTiap indikator sebaiknya menghasilkan lebih dari satu item. Ingat dari Pertemuan 6 bahwa jumlah item ikut menentukan reliabilitas, dan dari Pertemuan 7 bahwa cakupan isi menentukan validitasnya."
   },
   {
     "objectID": "slides/pertemuan9.html#struktur-dimensinya",
@@ -1859,21 +1866,21 @@
     "href": "slides/pertemuan9.html#yang-dikerjakan-hari-ini",
     "title": "Pengenalan Konstruk dan Penetapan Estimand",
     "section": "Yang dikerjakan hari ini",
-    "text": "Yang dikerjakan hari ini\n\n15 menit — Kumpulkan definisi yang sudah ada. Minimal lima, dikutip utuh dengan sumbernya.\n20 menit — Tulis definisi konstruk kelompok Anda. Satu paragraf, memuat tiga unsur dari tadi.\n20 menit — Buat dua daftar: termasuk dan tidak termasuk. Tambahkan dua konstruk tetangga beserta pembedanya.\n20 menit — Tulis satu kalimat estimand, menjawab empat pertanyaan tadi.\n20 menit — Uraikan aspek dan indikator. Minimal dua indikator per aspek.\n\n\nKesalahan yang paling sering muncul: definisi yang melingkar, dan populasi sasaran yang terlalu luas (“masyarakat umum”, “remaja”). Untuk yang kedua, tanyakan langsung: “siapa yang benar-benar bisa kalian jangkau untuk uji coba bulan depan?” Biasanya jawabannya jauh lebih sempit, dan itu justru estimand yang lebih jujur. Kalau ada kelompok yang belum punya konstruk yang mantap, arahkan mereka memilih konstruk yang sudah punya literatur memadai — bukan yang paling menarik. Sisakan 20 menit untuk pemaparan singkat tiap kelompok."
+    "text": "Yang dikerjakan hari ini\n\n15 menit — Kumpulkan definisi yang sudah ada. Minimal lima, dikutip utuh dengan sumbernya.\n20 menit — Tulis definisi konstruk kelompok Anda. Satu paragraf, memuat tiga unsur dari tadi.\n20 menit — Buat dua daftar: termasuk dan tidak termasuk. Tambahkan dua sibling construct beserta pembedanya.\n20 menit — Tulis satu kalimat estimand, menjawab empat pertanyaan tadi.\n20 menit — Uraikan aspek dan indikator. Minimal dua indikator per aspek.\n\n\nKesalahan yang paling sering muncul: definisi yang melingkar, dan populasi sasaran yang terlalu luas (“masyarakat umum”, “remaja”). Untuk yang kedua, tanyakan langsung: “siapa yang benar-benar bisa kalian jangkau untuk uji coba bulan depan?” Biasanya jawabannya jauh lebih sempit, dan itu justru estimand yang lebih jujur. Kalau ada kelompok yang belum punya konstruk yang mantap, arahkan mereka memilih konstruk yang sudah punya literatur memadai — bukan yang paling menarik. Sisakan 20 menit untuk pemaparan singkat tiap kelompok."
   },
   {
     "objectID": "slides/pertemuan9.html#pemaparan-singkat",
     "href": "slides/pertemuan9.html#pemaparan-singkat",
     "title": "Pengenalan Konstruk dan Penetapan Estimand",
     "section": "Pemaparan singkat",
-    "text": "Pemaparan singkat\nTiap kelompok menyampaikan dua hal saja, masing-masing satu menit:\n\nKalimat estimand Anda.\nSatu konstruk sibling dan apa bedanya dengan konstruk Anda.\n\n\n\n\n\n\n\n\nTip\n\n\nKelompok lain dipersilakan bertanya satu hal: “apa yang membuat kalian yakin item kalian tidak akan ikut mengukur konstruk tetangga itu?”"
+    "text": "Pemaparan singkat\nTiap kelompok menyampaikan dua hal saja, masing-masing satu menit:\n\nKalimat estimand Anda.\nSatu konstruk sibling dan apa bedanya dengan konstruk Anda.\n\n\n\n\n\n\n\n\nTip\n\n\nKelompok lain dipersilakan bertanya satu hal: “apa yang membuat kalian yakin item kalian tidak akan ikut mengukur sibling construct itu?”"
   },
   {
     "objectID": "slides/pertemuan9.html#uraian-spesifikasi-konstruk",
     "href": "slides/pertemuan9.html#uraian-spesifikasi-konstruk",
     "title": "Pengenalan Konstruk dan Penetapan Estimand",
     "section": "Uraian spesifikasi konstruk",
-    "text": "Uraian spesifikasi konstruk\nSatu halaman, memuat:\n\nDefinisi konstruk — satu paragraf, dengan rujukan.\nBatas konstruk — daftar termasuk dan tidak termasuk.\nKonstruk tetangga — minimal dua, beserta pembedanya.\nEstimand — satu kalimat.\nStruktur dimensi — satu atau beberapa dimensi, dan alasannya.\nAspek dan indikator — dalam bentuk tabel.\n\n\n\n\n\n\n\n\nNote\n\n\nDokumen ini menjadi lampiran laporan akhir Anda, dan menjadi bahan yang dinilai oleh panel ahli di Pertemuan 11. Panel tidak bisa menilai relevansi item tanpa membaca definisi konstruknya lebih dulu."
+    "text": "Uraian spesifikasi konstruk\nSatu halaman, memuat:\n\nDefinisi konstruk — satu paragraf, dengan rujukan.\nBatas konstruk — daftar termasuk dan tidak termasuk.\nSibling construct — minimal dua, beserta pembedanya.\nEstimand — satu kalimat.\nStruktur dimensi — satu atau beberapa dimensi, dan alasannya.\nAspek dan indikator — dalam bentuk tabel.\n\n\n\n\n\n\n\n\nNote\n\n\nUraian ini menjadi lampiran laporan akhir Anda, dan menjadi bahan yang dinilai oleh panel ahli di Pertemuan 11. Panel tidak bisa menilai relevansi item tanpa membaca definisi konstruknya lebih dulu."
   },
   {
     "objectID": "slides/pertemuan9.html#untuk-pertemuan-10",
@@ -1901,14 +1908,14 @@
     "href": "slides/pertemuan2.html#outline",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Outline",
-    "text": "Outline\n\nKenapa asumsi perlu diperiksa\nAsumsi 1: atribut psikologis bervariasi secara kuantitatif\nAsumsi 2: atributnya terdistribusi normal\nAsumsi 3: atributnya kontinu, bukan kategorikal\nAsumsi 4: semua item mengukur satu hal yang sama\nAsumsi 5: item bekerja dengan cara yang sama untuk semua kelompok\nAsumsi 6: responden bisa dan mau melaporkan kondisi internalnya\nApa yang bisa kita lakukan terhadap asumsi-asumsi ini\n\n\n\nDisclosure penggunaan akal imitasi (AI)\nKami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk brainstorming materi, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini."
+    "text": "Outline\n\nKenapa asumsi perlu diperiksa\nAsumsi 1: atribut psikologis bervariasi secara kuantitatif\nAsumsi 2: atributnya terdistribusi normal\nAsumsi 3: atributnya continuous, bukan kategorikal\nAsumsi 4: semua item mengukur satu hal yang sama\nAsumsi 5: item bekerja dengan cara yang sama untuk semua kelompok\nAsumsi 6: responden bisa dan mau melaporkan kondisi internalnya\nApa yang bisa kita lakukan terhadap asumsi-asumsi ini\n\n\n\nDisclosure penggunaan akal imitasi (AI)\nKami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk brainstorming materi, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini."
   },
   {
-    "objectID": "slides/pertemuan2.html#yang-sudah-kita-sepakati-minggu-lalu",
-    "href": "slides/pertemuan2.html#yang-sudah-kita-sepakati-minggu-lalu",
+    "objectID": "slides/pertemuan2.html#yang-sudah-anda-pelajari-minggu-lalu",
+    "href": "slides/pertemuan2.html#yang-sudah-anda-pelajari-minggu-lalu",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
-    "section": "Yang sudah kita sepakati minggu lalu",
-    "text": "Yang sudah kita sepakati minggu lalu\n\nPengukuran psikologis dilakukan secara tidak langsung, lewat indikator sebagai “proksi.”\nDefinisi pengukuran sendiri masih diperdebatkan, dan kritik Michell soal apakah atribut psikologis benar-benar kuantitatif belum benar-benar tuntas dijawab.\nSebagian besar data psikologi bentuknya ordinal, tetapi diperlakukan sebagai interval.\nYang menentukan apakah kumpulan item Anda adalah skala adalah teori, bukan output software statistik.\n\n\n\n\n\n\n\n\nBenang merahnya\n\n\nSemua asumsi ini punya kesamaan: ada asumsi-asumsi yang kita anggap benar tanpa pernah kita periksa."
+    "section": "Yang sudah Anda pelajari minggu lalu",
+    "text": "Yang sudah Anda pelajari minggu lalu\n\nPengukuran psikologis dilakukan secara tidak langsung, lewat indikator sebagai “proksi.”\nDefinisi pengukuran sendiri masih diperdebatkan, dan kritik Michell soal apakah atribut psikologis benar-benar kuantitatif belum benar-benar tuntas dijawab.\nSebagian besar data psikologi bentuknya ordinal, tetapi diperlakukan sebagai interval.\nYang menentukan apakah kumpulan item Anda adalah skala adalah teori, bukan output software statistik.\n\n\n\n\n\n\n\n\nBenang merahnya\n\n\nSemua asumsi yang Anda lihat di awal punya kesamaan: asumsi-asumsi ini kita anggap benar tanpa pernah kita periksa."
   },
   {
     "objectID": "slides/pertemuan2.html#kenapa-satu-pertemuan-penuh-hanya-untuk-membahas-asumsi",
@@ -1936,7 +1943,7 @@
     "href": "slides/pertemuan2.html#enam-asumsi-yang-akan-kita-bahas",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Enam asumsi yang akan kita bahas",
-    "text": "Enam asumsi yang akan kita bahas\n\n\n\n\n\n\n\n\n#\nAsumsi\nBisa diperiksa dengan data?\n\n\n\n\n1\nAtribut psikologis bervariasi secara kuantitatif\nSangat sulit\n\n\n2\nSebaran datanya normal\nYa\n\n\n3\nAtributnya ****continuous****, bukan kategorikal\nSebagian\n\n\n4\nSemua item mengukur satu konstruk yang sama\nYa\n\n\n5\nCara item bekerja, sama untuk semua kelompok (invariance)\nYa, kalau datanya cukup\n\n\n6\nResponden bisa dan mau menjawab secara akurat\nSebagian\n\n\n\n\n\n\n\n\n\n\nNote\n\n\nPerhatikan bahwa asumsi yang paling mendasar (nomor 1) justru yang paling sulit diperiksa."
+    "text": "Enam asumsi yang akan kita bahas\n\n\n\n\n\n\n\n\n#\nAsumsi\nBisa diperiksa dengan data?\n\n\n\n\n1\nAtribut psikologis bervariasi secara kuantitatif\nSangat sulit\n\n\n2\nSebaran datanya normal\nYa\n\n\n3\nAtributnya continuous, bukan kategorikal\nSebagian\n\n\n4\nSemua item mengukur satu konstruk yang sama\nYa\n\n\n5\nCara item bekerja, sama untuk semua kelompok (invariance)\nYa, kalau datanya cukup\n\n\n6\nResponden bisa dan mau menjawab secara akurat\nSebagian\n\n\n\n\n\n\n\n\n\n\nNote\n\n\nPerhatikan bahwa asumsi yang paling mendasar (nomor 1) justru yang paling sulit diperiksa."
   },
   {
     "objectID": "slides/pertemuan2.html#apa-yang-kita-lakukan-ketika-kita-menjumlahkan-item",
@@ -1971,7 +1978,7 @@
     "href": "slides/pertemuan2.html#mari-lihat-data-yang-sebenarnya",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Mari lihat data yang sebenarnya",
-    "text": "Mari lihat data yang sebenarnya\nData IPIP Big Five (data/data.csv di repositori mata kuliah ini), 50 item, skala 1–5, n = 19.719 responden (jumlah baris mentah; Pertemuan 6 memakai n = 19.718 setelah listwise deletion).\nPertama, lihat tiga item secara terpisah:\n\n\n\n\n\n\n\n\n\n\nItem\nIsi\nRata-rata\nSkewness\nKurtosis\n\n\n\n\nN3\nI worry about things\n3.84\n−0.83\n−0.16\n\n\nO2\nI have difficulty understanding abstract ideas\n2.15\n+0.78\n−0.23\n\n\nE1\nI am the life of the party\n2.63\n+0.21\n−0.96\n\n\n\n\n\n\n\n\n\n\nNote\n\n\nItem-itemnya jelas tidak normal. N3 menumpuk di ujung “setuju” (69% menjawab 4 atau 5), O2 menumpuk di ujung sebaliknya (67% menjawab 1 atau 2)."
+    "text": "Mari lihat data yang sebenarnya\nData IPIP Big Five (data/data.csv di repositori mata kuliah ini), 50 item, skala 1–5, n = 19.719 responden (jumlah baris mentah; Pertemuan 6 memakai n = 19.718 setelah listwise deletion).\nPertama, lihat tiga item secara terpisah:\n\n\n\n\n\n\n\n\n\n\nItem\nIsi\nRata-rata\nSkewness\nKurtosis\n\n\n\n\nN3\nI worry about things\n3.84\n−0.83\n−0.16\n\n\nO2\nI have difficulty understanding abstract ideas\n2.15\n+0.78\n−0.23\n\n\nE1\nI am the life of the party\n2.63\n+0.21\n−0.96\n\n\n\n\n\n\n\n\n\n\nPerhatikan\n\n\nItem-itemnya jelas tidak normal. N3 menumpuk di ujung “setuju” (69% menjawab 4 atau 5), O2 menumpuk di ujung sebaliknya (67% menjawab 1 atau 2)."
   },
   {
     "objectID": "slides/pertemuan2.html#sekarang-lihat-skor-totalnya",
@@ -1981,11 +1988,11 @@
     "text": "Sekarang lihat skor totalnya\nSkor total tiap dimensi (10 item, rentang 10–50), data yang sama:\n\n\n\nDimensi\nRata-rata\nSD\nSkewness\nKurtosis\n\n\n\n\nExtraversion\n30.11\n9.22\n−0.04\n−0.71\n\n\nNeuroticism\n30.97\n8.62\n−0.08\n−0.60\n\n\nConscientiousness\n33.47\n7.31\n−0.09\n−0.38\n\n\n\n\n\nSkewness mendekati nol, sebarannya jadi simetris.\nTetapi kurtosis-nya negatif semua: sebarannya lebih datar daripada kurva normal."
   },
   {
-    "objectID": "slides/pertemuan2.html#apa-yang-baru-saja-terjadi",
-    "href": "slides/pertemuan2.html#apa-yang-baru-saja-terjadi",
+    "objectID": "slides/pertemuan2.html#apa-yang-terjadi",
+    "href": "slides/pertemuan2.html#apa-yang-terjadi",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
-    "section": "Apa yang baru saja terjadi?",
-    "text": "Apa yang baru saja terjadi?\n\nItem-itemnya miring ke kiri dan ke kanan. Ketika dijumlahkan, kemiringan itu saling meniadakan.\nHasilnya terlihat simetris, tetapi bukan berarti atributnya normal. Yang terjadi adalah efek penjumlahan.\nDan sebarannya tetap tidak persis normal: bentuknya lebih datar, dengan responden yang lebih menyebar di rentang tengah daripada yang diperkirakan kurva normal.\n\n\n\n\n\n\n\n\nPoin utamanya\n\n\nSebaran skor total yang “terlihat normal” bukan bukti bahwa atribut psikologisnya terdistribusi normal. Itu sebagian besar konsekuensi dari menjumlahkan banyak item."
+    "section": "Apa yang terjadi?",
+    "text": "Apa yang terjadi?\n\nItem-itemnya miring ke kiri dan ke kanan. Ketika dijumlahkan, kemiringan itu saling meniadakan.\nHasilnya terlihat simetris, tetapi bukan berarti atributnya normal. Yang terjadi adalah efek penjumlahan.\nDan sebarannya tetap tidak persis normal: bentuknya lebih datar, dengan responden yang lebih menyebar di rentang tengah daripada yang diperkirakan kurva normal.\n\n\n\n\n\n\n\n\nPoin utamanya\n\n\nSebaran skor total yang “terlihat normal” bukan bukti bahwa atribut psikologisnya terdistribusi normal. Itu sebagian besar konsekuensi dari menjumlahkan banyak item."
   },
   {
     "objectID": "slides/pertemuan2.html#bukan-cuma-di-data-ini",
@@ -2020,7 +2027,7 @@
     "href": "slides/pertemuan2.html#kenapa-item-item-dalam-satu-skala-harus-berkorelasi",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Kenapa item-item dalam satu skala harus berkorelasi",
-    "text": "Kenapa item-item dalam satu skala harus berkorelasi\n\nIngat logika skala dari Pertemuan 1: konstruk laten adalah penyebab respon partisipan atas item dari skala.\nKalau satu penyebab yang sama menyebabkan sepuluh item, kesepuluh item itu harus saling berkorelasi.\nKorelasi antar-item itulah satu-satunya tanda yang bisa kita amati dari variabel yang tidak bisa kita amati.\nKetika mengasumsikan bahwa ada “penyebab yang sama” yang membuat item saling berkorelasi, maka item-item ini tidak boleh berkorelasi lagi (local independence).\n\n\n\n\n\n\n\n\n\nKonsekuensi yang akan sering Anda pakai\n\n\nKarena itu, korelasi antar-item bisa dipakai untuk mengestimasi seberapa kuat hubungan tiap item dengan konstruk latennya, meskipun konstruknya sendiri tidak pernah kita ukur langsung.\n\n\n\n\n\nDeVellis & Thorpe (2022), Bab 2."
+    "text": "Kenapa item-item dalam satu skala harus berkorelasi\n\nIngat logika skala dari Pertemuan 1: konstruk laten adalah penyebab respon partisipan atas item dari skala.\nKalau satu penyebab yang sama menyebabkan sepuluh item, kesepuluh item itu harus saling berkorelasi.\nKorelasi antar-item itulah satu-satunya tanda yang bisa kita amati dari variabel yang tidak bisa kita amati.\nKetika mengasumsikan bahwa ada “penyebab yang sama” yang membuat item saling berkorelasi, maka item-item ini tidak boleh berkorelasi lagi (local independence).\n\n\n\n\n\n\n\n\n\nKonsekuensinya\n\n\nKarena itu, korelasi antar-item bisa dipakai untuk mengestimasi seberapa kuat hubungan tiap item dengan konstruk latennya, meskipun konstruknya sendiri tidak pernah kita ukur langsung.\n\n\n\n\n\nDeVellis & Thorpe (2022), Bab 2."
   },
   {
     "objectID": "slides/pertemuan2.html#asumsi-unidimensionalitas",
@@ -2037,11 +2044,11 @@
     "text": "Asumsi local independence\n\nSetelah kita memperhitungkan variabel latennya, item-item seharusnya tidak lagi saling berhubungan.\nArtinya: seluruh alasan dua item berkorelasi harus berasal dari konstruk laten, bukan dari hal lain.\nPelanggaran yang paling umum: dua item yang isinya nyaris sama.\n\n\n\n\n\n\n\n\nContoh pelanggaran\n\n\n“Saya sering merasa sedih” dan “Saya kerap merasa murung”.\nKedua item ini akan berkorelasi tinggi, tapi sebagian karena keduanya memang kalimat yang hampir sama, bukan hanya karena depresi. Reliabilitas skala Anda akan terlihat bagus secara artifisial.\nKita bahas cara menghindarinya saat menulis item di Pertemuan 10."
   },
   {
-    "objectID": "slides/pertemuan2.html#satu-item-arti-yang-berbeda",
-    "href": "slides/pertemuan2.html#satu-item-arti-yang-berbeda",
+    "objectID": "slides/pertemuan2.html#satu-item-artinya-dapat-berbeda",
+    "href": "slides/pertemuan2.html#satu-item-artinya-dapat-berbeda",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
-    "section": "Satu item, arti yang berbeda",
-    "text": "Satu item, arti yang berbeda\n\nKita mengasumsikan bahwa item yang sama artinya sama bagi laki-laki dan perempuan, bagi mahasiswa dan pekerja, bagi orang Jawa dan orang Papua.\nKalau asumsi ini tidak terpenuhi, membandingkan skor antar-kelompok menjadi tidak sah dilakukan, ini mirip seperti membandingkan suhu yang diukur dengan dua termometer yang skalanya berbeda (e.g., termometer Kelvin dan Celcius).\nDalam psikometri, properti ini disebut measurement invariance; pelanggarannya di tingkat item disebut differential item functioning (DIF).\n\n\n\n\n\n\n\n\nNote\n\n\nUji formalnya membutuhkan analisis faktor dan sampel besar, jadi kita tidak akan mempelajarinya di mata kuliah ini. Yang perlu Anda punya sekarang adalah kesadaran bahwa asumsi ini Anda gunakan."
+    "section": "Satu item, artinya dapat berbeda",
+    "text": "Satu item, artinya dapat berbeda\n\nKita mengasumsikan bahwa item yang sama artinya sama bagi laki-laki dan perempuan, bagi mahasiswa dan pekerja, bagi orang Jawa dan orang Papua.\nKalau asumsi ini tidak terpenuhi, membandingkan skor antar-kelompok menjadi tidak sah dilakukan, ini mirip seperti membandingkan suhu yang diukur dengan dua termometer yang skalanya berbeda (e.g., termometer Kelvin dan Celcius).\nDalam psikometri, properti ini disebut measurement invariance; pelanggarannya di tingkat item disebut differential item functioning (DIF).\n\n\n\n\n\n\n\n\nBagaimana cara mengujinya?\n\n\nUji formalnya membutuhkan analisis faktor dan sampel besar, jadi kita tidak akan mempelajarinya di mata kuliah ini. Yang perlu Anda punya sekarang adalah kesadaran bahwa asumsi ini Anda gunakan."
   },
   {
     "objectID": "slides/pertemuan2.html#reference-group-effect",
@@ -2065,11 +2072,11 @@
     "text": "Asumsi yang paling sering dilupakan\nSkala self-report mengandaikan dua hal sekaligus:\n\nResponden mampu mengamati kondisi internalnya dan melaporkannya.\nResponden bersedia melaporkannya apa adanya.\n\n\nKeduanya bisa gagal, dan gagalnya dengan cara yang berbeda."
   },
   {
-    "objectID": "slides/pertemuan2.html#soal-kemampuan-akses-ke-proses-mental-itu-terbatas",
-    "href": "slides/pertemuan2.html#soal-kemampuan-akses-ke-proses-mental-itu-terbatas",
+    "objectID": "slides/pertemuan2.html#soal-kemampuan-akses-ke-proses-mental-cenderung-terbatas",
+    "href": "slides/pertemuan2.html#soal-kemampuan-akses-ke-proses-mental-cenderung-terbatas",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
-    "section": "Soal kemampuan: akses ke proses mental itu terbatas",
-    "text": "Soal kemampuan: akses ke proses mental itu terbatas\n\nNisbett & Wilson (1977), dalam artikel berjudul “Telling more than we can know”, menunjukkan bahwa orang sering tidak punya akses terhadap proses mental yang sebenarnya memengaruhi perilaku mereka.\nKetika ditanya alasan, mereka tetap menjawab, tetapi jawabannya sering berupa teori awam yang masuk akal, bukan laporan atas proses psikologis yang sesungguhnya terjadi.\n\n\n\n\n\n\n\n\nImplikasi untuk penulisan item\n\n\nItem yang menanyakan perilaku konkret (“Berapa kali seminggu Anda …”) umumnya lebih dapat diandalkan daripada item yang menanyakan sebab (“Mengapa Anda …”).\nKita pakai prinsip ini saat menulis item di Pertemuan 10."
+    "section": "Soal kemampuan: akses ke proses mental cenderung terbatas",
+    "text": "Soal kemampuan: akses ke proses mental cenderung terbatas\n\nNisbett & Wilson (1977), dalam artikel berjudul “Telling more than we can know”, menunjukkan bahwa orang sering tidak punya akses terhadap proses mental yang sebenarnya memengaruhi perilaku mereka.\nKetika ditanya alasan, mereka tetap menjawab, tetapi jawabannya sering berupa teori awam yang masuk akal, bukan laporan atas proses psikologis yang sesungguhnya terjadi.\n\n\n\n\n\n\n\n\nImplikasi untuk penulisan item\n\n\nItem yang menanyakan perilaku konkret (“Berapa kali seminggu Anda …”) umumnya lebih dapat diandalkan daripada item yang menanyakan sebab (“Mengapa Anda …”).\nKita pakai prinsip ini saat menulis item di Pertemuan 10."
   },
   {
     "objectID": "slides/pertemuan2.html#soal-kesediaan-social-desirability",
@@ -2083,7 +2090,7 @@
     "href": "slides/pertemuan2.html#gaya-menjawab-response-styles",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Gaya menjawab (response styles)",
-    "text": "Gaya menjawab (response styles)\n\nAcquiescence: kecenderungan menyetujui pernyataan apa pun, terlepas dari isinya.\nExtreme responding: kecenderungan memilih ujung skala (1 atau 5).\nMidpoint responding: kecenderungan bertahan di tengah (3) untuk menghindari komitmen.\nKetiganya berbeda antar-budaya, sehingga bercampur dengan persoalan invariance di asumsi sebelumnya.\n\n\n\n\n\n\n\n\nSatu solusi parsial, dengan biayanya sendiri\n\n\nAcquiescence biasanya diredam dengan menyisipkan item bernada terbalik (unfavorable atau reverse-worded).\nTetapi item terbalik punya masalahnya sendiri: sebagian responden salah membacanya, dan seringkali item-item terbalik justru mengelompok sendiri dalam analisis faktor seolah-olah membentuk dimensi terpisah. Kita bahas plus-minusnya di Pertemuan 10."
+    "text": "Gaya menjawab (response styles)\n\nAcquiescence: kecenderungan menyetujui pernyataan apa pun, terlepas dari isinya.\nExtreme responding: kecenderungan memilih ujung skala (1 atau 5).\nMidpoint responding: kecenderungan bertahan di tengah (3) untuk menghindari komitmen.\nKetiganya berbeda antar-budaya, sehingga bercampur dengan persoalan invariance di asumsi sebelumnya.\n\n\n\n\n\n\n\n\nSatu solusi parsial, dengan risikonya sendiri\n\n\nAcquiescence biasanya diredam dengan menyisipkan item bernada terbalik (unfavorable atau reverse-worded).\nTetapi item terbalik punya masalahnya sendiri: sebagian responden salah membacanya, dan seringkali item-item terbalik justru mengelompok sendiri dalam analisis faktor seolah-olah membentuk dimensi terpisah. Kita bahas plus-minusnya di Pertemuan 10."
   },
   {
     "objectID": "slides/pertemuan2.html#partisipan-yang-menjawab-asal-asalan",
@@ -2093,8 +2100,8 @@
     "text": "Partisipan yang menjawab asal-asalan\n\nSebagian responden mengisi tanpa membaca, terutama pada kuesioner panjang, daring, dan tanpa insentif.\nMeade & Craig (2012) menunjukkan bahwa proporsinya bisa cukup besar untuk mengubah hasil analisis faktor dan estimasi reliabilitas.\nIni adalah konsekuensi dari desain instrumen yang terlalu membebani partisipan secara kognitif.\n\n\n\n\n\n\n\n\nYang bisa Anda lakukan saat uji coba\n\n\nCatat waktu pengerjaan, perhatikan pola jawaban yang seragam (misalnya semua “3”), dan tetapkan aturan pembersihan data sebelum melihat hasilnya. Kita rancang ini bersama di Pertemuan 12."
   },
   {
-    "objectID": "slides/pertemuan2.html#konsekuensinya",
-    "href": "slides/pertemuan2.html#konsekuensinya",
+    "objectID": "slides/pertemuan2.html#konsekuensinya-1",
+    "href": "slides/pertemuan2.html#konsekuensinya-1",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Konsekuensinya",
     "text": "Konsekuensinya\n\nSemua yang kita bahas hari ini juga berlaku pada alat ukur yang sudah mapan dan dipakai luas.\nIni bukan berarti “pengukuran psikologis tidak ada gunanya.”\nKesimpulan yang tepat: pengukuran psikologis berguna sejauh kita jujur tentang batasannya.\n\n\n\n\n\n\n\n\nApa yang bisa diusahakan\n\n\nBukan berarti Anda diminta untuk membuat skala yang bebas asumsi, karena ini tidak mungkin dilakukan. Melainkan Anda harus membuat skala yang asumsinya dinyatakan, diperiksa sejauh bisa diperiksa, dan dilaporkan apa adanya."
@@ -2111,7 +2118,7 @@
     "href": "slides/pertemuan2.html#checklist-untuk-laporan-proyek-anda",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Checklist untuk laporan proyek Anda",
-    "text": "Checklist untuk laporan proyek Anda\n\nBentuk konstruk — dimensional atau kategorikal? Apa alasannya?\nDimensionalitas — apakah item Anda mengukur satu hal? Bagaimana Anda memeriksanya?\nSebaran — bagaimana bentuk sebaran skor Anda yang sebenarnya? Jangan diasumsikan, lihat datanya.\nKelompok — siapa populasi Anda, dan adakah subkelompok yang itemnya mungkin berfungsi berbeda?\nSumber bias respons — apakah konstruk Anda rawan social desirability? Apa yang Anda lakukan soal itu?\n\n\n\n\n\n\n\n\nTip\n\n\nLima poin ini akan menjadi bagian dari laporan akhir Anda."
+    "text": "Checklist untuk laporan proyek Anda\n\nBentuk konstruk — dimensional atau kategorikal? Apa alasannya?\nDimensionalitas — apakah item Anda mengukur satu hal? Bagaimana Anda memeriksanya?\nSebaran — bagaimana bentuk sebaran skor Anda yang sebenarnya? Jangan diasumsikan, lihat datanya.\nKelompok — siapa populasi Anda, dan adakah subkelompok yang itemnya mungkin berfungsi berbeda?\nSumber bias respons — apakah konstruk Anda rawan social desirability? Apa yang Anda lakukan soal itu?\n\n\n\n\n\n\n\n\nTips\n\n\nLima poin ini akan menjadi bagian dari laporan akhir Anda."
   },
   {
     "objectID": "slides/pertemuan2.html#asumsi-pengukuran-psikologi",
@@ -2251,7 +2258,7 @@
     "href": "slides/pertemuan1.html#jejak-paling-awal",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Jejak paling awal",
-    "text": "Jejak paling awal\n\n±2200 SM, Tiongkok — ujian untuk seleksi pegawai negeri.\nTimbangan yang curang adalah persoalan moral.\n\nQS. Al Muthoffifin: 1-3 — “Kecelakaan besarlah bagi orang-orang yang curang (yaitu) orang-orang yang apabila menerima takaran dari orang lain mereka minta dipenuhi dan apabila mereka menakar atau menimbang untuk orang lain, mereka mengurangi.”\nQS. Al Isra’: 35 — “Dan sempurnakanlah takaran apabila kamu menakar, dan timbanglah dengan neraca yang benar. Itulah yang lebih utama (bagimu) dan lebih baik akibatnya.”\nQS. Al An’am: 152 - “Dan sempurnakanlah takaran dan timbangan dengan adil. Kami tidak memikulkan beban kepada sesorang melainkan sekedar kesanggupannya.”\nKitab Amsal 11:1 — “A false balance is an abomination to the Lord, but a just weight is a delight.”\n\nRevolusi Prancis — sebagian dipicu kekesalan petani terhadap praktik penimbangan yang tidak adil.\n\n\n\n\n\n\n\n\nYang menarik dari contoh di atas\n\n\nSemuanya soal keadilan, bukan soal akurasi ilmiah. Sejak awal, pengukuran adalah alat kekuasaan dan pembagian sumber daya. Isu soal keadilan dalam pengukuran akan muncul lagi ketika kita membahas test bias dan penggunaan tes psikologi untuk seleksi."
+    "text": "Jejak paling awal\n\n±2200 SM, Tiongkok — ujian untuk seleksi pegawai negeri.\nTimbangan yang curang adalah persoalan moral.\n\nQS. Al Muthoffifin: 1-3 — “Kecelakaan besarlah bagi orang-orang yang curang (yaitu) orang-orang yang apabila menerima takaran dari orang lain mereka minta dipenuhi dan apabila mereka menakar atau menimbang untuk orang lain, mereka mengurangi.”\nQS. Al An’am: 152 - “Dan sempurnakanlah takaran dan timbangan dengan adil. Kami tidak memikulkan beban kepada sesorang melainkan sekedar kesanggupannya.”\nKitab Amsal 11:1 — “A false balance is an abomination to the Lord, but a just weight is a delight.”\n\nRevolusi Prancis — sebagian dipicu kekesalan petani terhadap praktik penimbangan yang tidak adil.\n\n\n\n\n\n\n\n\nYang menarik dari contoh di atas\n\n\nSemuanya soal keadilan, bukan soal akurasi ilmiah. Sejak awal, pengukuran adalah alat kekuasaan dan pembagian sumber daya. Isu soal keadilan dalam pengukuran akan muncul lagi ketika kita membahas test bias dan penggunaan tes psikologi untuk seleksi."
   },
   {
     "objectID": "slides/pertemuan1.html#gagasan-bahwa-pengukuran-bisa-keliru-justru-relatif-baru",
@@ -2261,11 +2268,11 @@
     "text": "Gagasan bahwa pengukuran bisa keliru justru relatif baru\n\nAkhir 1660-an: Isaac Newton, waktu itu masih berusia 20-an, merupakan orang pertama yang merata-ratakan pengamatan berulang untuk mendapatkan nilai yang lebih akurat.\nTetapi ia menyembunyikan praktik itu selama puluhan tahun dan tidak mendokumentasikannya di laporan awalnya.\nKenapa disembunyikan? Karena waktu itu, perbedaan antar-pengamatan tidak dipahami sebagai bagian yang melekat pada proses pengukuran, melainkan sebagai tanda bahwa si pengamat kurang kompeten."
   },
   {
-    "objectID": "slides/pertemuan1.html#error-dan-penilaian-moral",
-    "href": "slides/pertemuan1.html#error-dan-penilaian-moral",
+    "objectID": "slides/pertemuan1.html#error-pengukuran-dan-penilaian-moral",
+    "href": "slides/pertemuan1.html#error-pengukuran-dan-penilaian-moral",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
-    "section": "Error dan penilaian moral",
-    "text": "Error dan penilaian moral\n\n[17th- and early 18th-century scientists’] way of working regarded differences not as the inevitable byproducts of the measuring process itself, but as evidence of failed or inadequate skill. Error in measurement was potentially little different from faulty behavior of any kind: it could have moral consequences.\n— Buchwald (2006, p. 566)\n\n\n\n\n\n\n\n\nPerhatikan jaraknya\n\n\nButuh waktu satu abad setelah Newton sampai para ilmuwan secara luas menerima bahwa semua pengukuran mengandung error, dan bahwa merata-ratakan pengamatan yang dilakukan berulang justru praktik yang baik karena mengurangi dampak error pengukuran (Buchwald, 2006)."
+    "section": "Error pengukuran dan penilaian moral",
+    "text": "Error pengukuran dan penilaian moral\n\n[17th- and early 18th-century scientists’] way of working regarded differences not as the inevitable byproducts of the measuring process itself, but as evidence of failed or inadequate skill. Error in measurement was potentially little different from faulty behavior of any kind: it could have moral consequences.\n— Buchwald (2006, p. 566)\n\n\n\n\n\n\n\n\nPerhatikan jaraknya\n\n\nButuh waktu satu abad setelah Newton sampai para ilmuwan secara luas menerima bahwa semua pengukuran mengandung error, dan bahwa merata-ratakan pengamatan yang dilakukan berulang justru praktik yang baik karena mengurangi dampak error pengukuran (Buchwald, 2006)."
   },
   {
     "objectID": "slides/pertemuan1.html#perubahan-paradigma-dan-perkembangan-psikometri",
@@ -2321,14 +2328,14 @@
     "href": "slides/pertemuan1.html#anda-tidak-harus-setuju-dengan-michell",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Anda tidak harus setuju dengan Michell",
-    "text": "Anda tidak harus setuju dengan Michell\n\nBanyak ahli psikometri tidak setuju dengan Michell, dan bantahan mereka juga sama kuatnya.\nTetapi Anda perlu tahu bahwa kritik ini benar-benar ada, dan Anda harus bisa menyebutkan asumsi apa yang sedang Anda pakai ketika Anda menjumlahkan 10 item Likert menjadi satu skor.\n\n\n\n\n\n\n\n\nSikap yang kita latih di mata kuliah ini\n\n\nBukan “menolak psikometri”, dan juga bukan “menerimanya bulat-bulat”. Melainkan: tahu persis asumsi apa yang sedang saya pakai, dan apa akibatnya kalau asumsi itu salah."
+    "text": "Anda tidak harus setuju dengan Michell\n\nBanyak ahli psikometri tidak setuju dengan Michell, dan bantahan mereka juga sama kuatnya.\nTetapi Anda perlu tahu bahwa kritik ini benar-benar ada, dan Anda harus bisa menyebutkan asumsi apa yang sedang Anda pakai ketika Anda menjumlahkan 10 item Likert menjadi satu skor.\n\n\n\n\n\n\n\n\nSikap yang kita latih di mata kuliah ini\n\n\nBukan “menolak teori psikometri mentah-mentah”, dan juga bukan “menerimanya bulat-bulat”. Melainkan: tahu persis asumsi apa yang sedang saya pakai, dan apa akibatnya kalau asumsi itu salah."
   },
   {
-    "objectID": "slides/pertemuan1.html#pengukuran-vs-asesmen",
-    "href": "slides/pertemuan1.html#pengukuran-vs-asesmen",
+    "objectID": "slides/pertemuan1.html#pengukuran-vs.-asesmen",
+    "href": "slides/pertemuan1.html#pengukuran-vs.-asesmen",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
-    "section": "Pengukuran vs asesmen",
-    "text": "Pengukuran vs asesmen\n\n\nPengukuran\nPemberian angka pada objek atau peristiwa berdasarkan aturan tertentu.\nHasilnya: skor.\n\nAsesmen\nKegiatan yang lebih luas: memadukan pengukuran dengan interpretasi dan pengambilan keputusan.\nHasilnya: kesimpulan dan tindakan.\n\n\n\n\n\n\n\n\n\nKenapa pembedaan ini penting untuk proyek Anda\n\n\nYang Anda susun semester ini adalah alat ukur. Tetapi manual yang Anda tulis di Pertemuan 14 adalah dokumen asesmen. Manual itu harus memberi tahu penggunanya bagaimana menafsirkan skor, dan keputusan apa yang boleh (dan tidak boleh) diambil dari skor itu.\n\n\n\n\n\nPetersen, Principles of Psychological Assessment, Bab 1."
+    "section": "Pengukuran vs. asesmen",
+    "text": "Pengukuran vs. asesmen\n\n\nPengukuran\nPemberian angka pada objek atau peristiwa berdasarkan aturan tertentu.\nHasilnya: skor.\n\nAsesmen\nKegiatan yang lebih luas: memadukan pengukuran dengan interpretasi dan pengambilan keputusan.\nHasilnya: kesimpulan dan tindakan.\n\n\n\n\n\n\n\n\n\nKenapa pembedaan ini penting untuk proyek Anda\n\n\nYang Anda susun semester ini adalah alat ukur. Tetapi manual yang Anda tulis di Pertemuan 14 adalah dokumen asesmen. Manual itu harus memberi tahu penggunanya bagaimana menafsirkan skor, dan keputusan apa yang boleh (dan tidak boleh) diambil dari skor itu.\n\n\n\n\n\nPetersen, Principles of Psychological Assessment, Bab 1."
   },
   {
     "objectID": "slides/pertemuan1.html#fisika-vs-psikologi",
@@ -2524,14 +2531,14 @@
     "href": "slides/pertemuan3.html#outline",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Outline",
-    "text": "Outline\n\nApa yang dimaksud dengan variabel laten, dan kenapa ia disebut sebagai penyebab\nClassical Test Theory: \\(X = T + E\\) dan asumsi-asumsinya\nKenapa reliabilitas bisa didefinisikan sebagai proporsi varians\nApa sebenarnya arti true score dan kenapa ia bukan “nilai konstruk yang sesungguhnya”\nKonsekuensi CTT: jumlah item, atenuasi, dan ketergantungan pada sampel\nKeluarga model dalam CTT: parallel, tau-equivalent, congeneric\nSekilas Item Response Theory dan apa yang ditawarkannya\n\n\n\nDisclosure penggunaan akal imitasi (AI)\nKami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk brainstorming materi, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini."
+    "text": "Outline\n\nApa yang dimaksud dengan variabel laten, dan kenapa ia disebut sebagai penyebab\nClassical Test Theory: \\(X = T + E\\) dan asumsi-asumsinya\nKenapa reliabilitas bisa didefinisikan sebagai proporsi varians\nApa sebenarnya arti true score dan kenapa ia bukan “nilai konstruk yang sesungguhnya”\nKonsekuensi CTT: jumlah item, atenuasi, dan ketergantungan pada sampel\nKeluarga model dalam CTT: parallel, tau-equivalent, congeneric\nSekilas Item Response Theory dan apa perbaikan yang ditawarkannya\n\n\n\nDisclosure penggunaan akal imitasi (AI)\nKami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk brainstorming materi, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini."
   },
   {
-    "objectID": "slides/pertemuan3.html#posisi-anda-saat-ini",
-    "href": "slides/pertemuan3.html#posisi-anda-saat-ini",
+    "objectID": "slides/pertemuan3.html#apa-yang-sudah-anda-pelajari",
+    "href": "slides/pertemuan3.html#apa-yang-sudah-anda-pelajari",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
-    "section": "Posisi Anda saat ini",
-    "text": "Posisi Anda saat ini\n\nPertemuan 1: pengukuran psikologis bersifat tidak langsung, dan tidak semua kumpulan item dapat serta-merta disebut sebagai skala psikologi.\nPertemuan 2: ada enam asumsi yang kita pakai, sebagian besar implisit tanpa disadari.\nHari ini: asumsi-asumsi itu kita rapikan menjadi sebuah model matematika formal\n\n\n\n\n\n\n\n\nKenapa perlu model\n\n\nSelama asumsi hanya berupa daftar, kita tidak bisa melakukan apapun untuk mengujinya. Begitu asumsinya dituliskan sebagai persamaan matematika, kita bisa menguji konsekuensinya, termasuk rumus reliabilitas yang akan Anda pakai di Pertemuan 13."
+    "section": "Apa yang sudah Anda pelajari",
+    "text": "Apa yang sudah Anda pelajari\n\nPertemuan 1: pengukuran psikologis bersifat tidak langsung, dan tidak semua kumpulan item dapat serta-merta disebut sebagai skala psikologi.\nPertemuan 2: ada enam asumsi yang kita pakai, sebagian besar implisit tanpa disadari.\nHari ini: asumsi-asumsi itu kita rapikan menjadi sebuah model matematika formal\n\n\n\n\n\n\n\n\nKenapa perlu model\n\n\nSelama asumsi hanya berupa daftar, kita tidak bisa melakukan apapun untuk mengujinya. Begitu asumsinya dituliskan sebagai persamaan matematika, kita bisa menguji konsekuensinya, termasuk rumus reliabilitas yang akan Anda pakai di Pertemuan 13."
   },
   {
     "objectID": "slides/pertemuan3.html#dua-kata-dua-ciri",
@@ -2552,14 +2559,14 @@
     "href": "slides/pertemuan3.html#variabel-laten-sebagai-penyebab",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Variabel laten sebagai penyebab",
-    "text": "Variabel laten sebagai penyebab\n\nIntinya: kekuatan variabel laten menyebabkan item punya skor tertentu.\nMisalnya item “Tidak ada pengorbanan yang terlalu besar demi keberhasilan anak saya”.\n\nSeberapa kuat partisipan menyetujuinya ditentukan oleh seberapa kuat aspirasi yang mereka miliki.\n\nPerhatikan arah panahnya: dari konstruk ke item (e.g., “Model Reflektif”). Bukan sebaliknya.\n\n\n\n\n\n\n\n\nPenting diperhatikan\n\n\nKalau satu sebab yang sama menyebabkan sepuluh item, maka kesepuluh item itu harus berkorelasi satu sama lain.\nKorelasi antar-item bisa kita hitung. Variabel latennya tidak. Jadi korelasi antar-item adalah satu-satunya pintu masuk untuk mengestimasi sesuatu yang tidak bisa kita amati."
+    "text": "Variabel laten sebagai penyebab\n\n\n\nIntinya: kekuatan variabel laten menyebabkan item punya skor tertentu.\nMisalnya item “Tidak ada pengorbanan yang terlalu besar demi keberhasilan anak saya”.\n\nSeberapa kuat partisipan menyetujuinya ditentukan oleh seberapa kuat aspirasi yang mereka miliki.\n\nPerhatikan arah panahnya: dari konstruk ke item (e.g., “Model Reflektif”). Bukan sebaliknya.\n\n. . .\n\n\n\n\n\n\nPenting diperhatikan\n\n\nKalau satu sebab yang sama menyebabkan sepuluh item, maka kesepuluh item itu harus berkorelasi satu sama lain.\nKorelasi antar-item bisa kita hitung. Variabel latennya tidak. Jadi korelasi antar-item adalah satu-satunya pintu masuk untuk mengestimasi sesuatu yang tidak bisa kita amati."
   },
   {
     "objectID": "slides/pertemuan3.html#asumsi-ini-memungkinkan-analisis-item",
     "href": "slides/pertemuan3.html#asumsi-ini-memungkinkan-analisis-item",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Asumsi ini memungkinkan analisis item",
-    "text": "Asumsi ini memungkinkan analisis item\n\nKita tidak pernah bisa menghitung korelasi antara item dan true score, karena true score tidak teramati.\nTetapi kita bisa menghitung korelasi antar-item.\nDari pola korelasi antar-item itu, kita bisa menyimpulkan seberapa kuat tiap item terhubung dengan variabel latennya.\n\n\n\n\n\n\n\n\nNote\n\n\nProsedur yang akan Anda jalankan di Pertemuan 13 — corrected item-total correlation, membuang item yang lemah — seluruhnya bersandar pada logika ini."
+    "text": "Asumsi ini memungkinkan analisis item\n\nKita tidak pernah bisa menghitung korelasi antara item dan true score, karena true score tidak teramati.\nTetapi kita bisa menghitung korelasi antar-item.\nDari pola korelasi antar-item itu, kita bisa menyimpulkan seberapa kuat tiap item terhubung dengan variabel latennya.\n\n\n\n\n\n\n\n\nPenting diingat\n\n\nProsedur yang akan Anda jalankan di Pertemuan 13 — corrected item-total correlation, membuang item yang korelasinya lemah — seluruhnya bersandar pada logika ini."
   },
   {
     "objectID": "slides/pertemuan3.html#persamaannya",
@@ -2587,21 +2594,21 @@
     "href": "slides/pertemuan3.html#reliabilitas-sebagai-proporsi-varians",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Reliabilitas sebagai proporsi varians",
-    "text": "Reliabilitas sebagai proporsi varians\n\\[\\rho_{XX'} = \\frac{\\sigma^2_T}{\\sigma^2_X} = \\frac{\\sigma^2_T}{\\sigma^2_T + \\sigma^2_E}\\]\n\n\nNilainya antara 0 dan 1, karena ini sebuah proporsi.\n\\(\\rho = 0{,}80\\) berarti 80% variasi skor berasal dari perbedaan yang sesungguhnya antar-orang, dan 20% dari error.\nPerhatikan bahwa ini definisi tentang seberapa konsisten skornya, bukan tentang seberapa “benar” skor tersebut mewakili objek ukurnya."
+    "text": "Reliabilitas sebagai proporsi varians\n\\[\\rho_{XX'} = \\frac{\\sigma^2_T}{\\sigma^2_X} = \\frac{\\sigma^2_T}{\\sigma^2_T + \\sigma^2_E}\\]\n\n\nNilainya antara 0 dan 1, karena ini sebuah proporsi.\n\\(\\rho = 0{.}80\\) berarti 80% variasi skor berasal dari perbedaan yang sesungguhnya antar-orang, dan 20% dari error.\nPerhatikan bahwa ini definisi tentang seberapa konsisten skornya, bukan tentang seberapa “benar” skor tersebut mewakili objek ukurnya."
   },
   {
-    "objectID": "slides/pertemuan3.html#contoh-terhitung",
-    "href": "slides/pertemuan3.html#contoh-terhitung",
+    "objectID": "slides/pertemuan3.html#contoh",
+    "href": "slides/pertemuan3.html#contoh",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
-    "section": "Contoh terhitung",
-    "text": "Contoh terhitung\nMisalkan skala Anda punya standar deviasi skor total \\(\\sigma_X = 5\\), sehingga \\(\\sigma^2_X = 25\\). Reliabilitasnya \\(\\rho = 0{,}80\\).\n\n\\[\\sigma^2_T = 0{,}80 \\times 25 = 20 \\qquad \\sigma^2_E = 25 - 20 = 5\\]\n\n\nStandard error of measurement (SEM), yaitu standar deviasi dari error:\n\\[SEM = \\sigma_X\\sqrt{1-\\rho} = 5\\sqrt{0{,}20} = 2{,}24\\]\n\n\n\n\n\n\n\n\nKenapa angka ini berguna\n\n\nSeseorang yang mendapat skor 30 sebenarnya berada di suatu rentang, bukan di satu titik. Dengan tingkat kepercayaan 95%:\n\\[30 \\pm 1{,}96 \\times 2{,}24 \\;\\approx\\; 25{,}6 \\text{ sampai } 34{,}4\\]"
+    "section": "Contoh",
+    "text": "Contoh\nMisalkan skala Anda punya standar deviasi skor total \\(\\sigma_X = 5\\), sehingga \\(\\sigma^2_X = 25\\). Reliabilitasnya \\(\\rho = 0{.}80\\).\n\n\\[\\sigma^2_T = 0{.}80 \\times 25 = 20 \\qquad \\sigma^2_E = 25 - 20 = 5\\]\n\n\nStandard error of measurement (SEM), yaitu standar deviasi dari error:\n\\[SEM = \\sigma_X\\sqrt{1-\\rho} = 5\\sqrt{0{.}20} = 2{.}24\\]\n\n\n\n\n\n\n\n\nKenapa angka ini berguna\n\n\nSeseorang yang mendapat skor 30 sebenarnya berada di suatu rentang, bukan di satu titik. Dengan tingkat kepercayaan 95%:\n\\[30 \\pm 1{.}96 \\times 2{.}24 \\;\\approx\\; 25{.}6 \\text{ sampai } 34{.}4\\]"
   },
   {
     "objectID": "slides/pertemuan3.html#apa-artinya-rentang-ini",
     "href": "slides/pertemuan3.html#apa-artinya-rentang-ini",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Apa artinya rentang ini",
-    "text": "Apa artinya rentang ini\n\nDua orang dengan skor 30 dan 33 tidak bisa kita katakan berbeda. Rentang keduanya bertumpang tindih hampir seluruhnya.\nPadahal skala dengan \\(\\rho = 0{,}80\\) sudah tergolong baik menurut kriteria yang lazim dipakai.\nSemakin rendah reliabilitasnya, semakin lebar rentangnya, dan semakin sedikit yang bisa kita simpulkan tentang kondisi psikologis seseorang.\n\n\n\n\n\n\n\n\nIngat ini saat menyusun norma\n\n\nDi Pertemuan 14 Anda akan mengubah skor menjadi kategori. Kalau batas kategorinya lebih sempit daripada \\(SEM\\) skala Anda, kategori itu tidak bermakna: orang yang sama bisa masuk kategori berbeda hanya karena mengisi di hari yang berbeda."
+    "text": "Apa artinya rentang ini\n\nDua orang dengan skor 30 dan 33 tidak bisa kita katakan berbeda. Rentang keduanya bertumpang tindih hampir seluruhnya.\nPadahal skala dengan \\(\\rho = 0{.}80\\) sudah tergolong baik menurut kriteria yang lazim dipakai.\nSemakin rendah reliabilitasnya, semakin lebar rentangnya, dan semakin sedikit yang bisa kita simpulkan tentang kondisi psikologis seseorang.\n\n\n\n\n\n\n\n\nIngat ini saat menyusun norma\n\n\nDi Pertemuan 14 Anda akan mengubah skor menjadi kategori. Kalau batas kategorinya lebih sempit daripada \\(SEM\\) skala Anda, kategori itu tidak bermakna: orang yang sama bisa masuk kategori berbeda hanya karena mengisi di hari yang berbeda."
   },
   {
     "objectID": "slides/pertemuan3.html#definisinya",
@@ -2664,7 +2671,7 @@
     "href": "slides/pertemuan3.html#sekarang-atenuasi-bisa-kita-pahami",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Sekarang atenuasi bisa kita pahami",
-    "text": "Sekarang atenuasi bisa kita pahami\nDi Pertemuan 1 kita memakai rumus ini tanpa penjelasan yang memadai:\n\\[r_{XY} = \\rho_{T_X T_Y} \\times \\sqrt{\\rho_{XX'} \\times \\rho_{YY'}}\\]\n\n\nSekarang asalnya jelas: yang kita korelasikan adalah \\(X\\), dan \\(X\\) mengandung \\(E\\).\nBagian \\(E\\) tidak berkorelasi dengan apa pun, menurut asumsi kedua CTT.\nJadi error hanya menambah penyebut tanpa menambah pembilang, dan korelasinya mengecil.\n\n\n\n\n\n\n\n\n\nTip\n\n\nSemakin besar porsi noise dalam skor Anda, semakin kecil semua korelasi yang Anda laporkan."
+    "text": "Sekarang atenuasi bisa kita pahami\nDi Pertemuan 1 kita memakai rumus ini tanpa penjelasan yang memadai:\n\\[r_{XY} = \\rho_{T_X T_Y} \\times \\sqrt{\\rho_{XX'} \\times \\rho_{YY'}}\\]\n\n\nSekarang asalnya jelas: yang kita korelasikan adalah \\(X\\) sedangkan \\(X\\) mengandung \\(E\\).\nBagian \\(E\\) tidak berkorelasi dengan apa pun, menurut asumsi kedua CTT.\nJadi error hanya menambah penyebut tanpa menambah pembilang, dan korelasinya mengecil.\n\n\n\n\n\n\n\n\n\nKesimpulannya\n\n\nSemakin besar porsi noise/error pengukuran dalam skor kasar Anda, semakin kecil koefisien korelasi yang Anda laporkan."
   },
   {
     "objectID": "slides/pertemuan3.html#kelemahan-ctt-yang-paling-serius",
@@ -2678,7 +2685,7 @@
     "href": "slides/pertemuan3.html#bukan-hanya-reliabilitas",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Bukan hanya reliabilitas",
-    "text": "Bukan hanya reliabilitas\n\nTingkat kesulitan item dalam CTT diukur sebagai proporsi responden yang menyetujuinya. Angka ini berubah kalau sampelnya berubah.\nDaya diskriminasi item diukur sebagai korelasi item dengan skor total. Ini pun berubah mengikuti sampel.\nArtinya, hampir semua statistik item dalam CTT bersifat relatif terhadap kelompok yang kebetulan Anda ukur.\n\n\n\n\n\n\n\n\nNote\n\n\nInilah masalah yang ingin dipecahkan oleh Item Response Theory. Kita bahas di bagian terakhir."
+    "text": "Bukan hanya reliabilitas\n\nTingkat kesulitan item dalam CTT diukur sebagai proporsi responden yang menyetujuinya. Angka ini berubah kalau sampelnya berubah.\nDaya diskriminasi item diukur sebagai korelasi item dengan skor total. Ini pun berubah mengikuti sampel.\nArtinya, hampir semua statistik item dalam CTT bersifat relatif terhadap kelompok yang kebetulan Anda ukur."
   },
   {
     "objectID": "slides/pertemuan3.html#tiga-model-pengukuran",
@@ -2688,11 +2695,11 @@
     "text": "Tiga model pengukuran\n\n\n\n\n\n\n\nAngka 1 menandai reference indicator; huruf a menandai loading yang dibatasi agar sama; huruf b menandai varians error yang dibatasi agar sama; \\(\\lambda_2, \\lambda_3\\) menandai loading yang bebas (boleh berbeda satu sama lain) pada model congeneric."
   },
   {
-    "objectID": "slides/pertemuan3.html#apa-bedanya",
-    "href": "slides/pertemuan3.html#apa-bedanya",
+    "objectID": "slides/pertemuan3.html#apa-perbedaan-tiga-model-tadi",
+    "href": "slides/pertemuan3.html#apa-perbedaan-tiga-model-tadi",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
-    "section": "Apa bedanya",
-    "text": "Apa bedanya\n\nCongeneric — setiap item boleh punya hubungan yang berbeda kekuatannya dengan konstruk, dan varians error yang berbeda pula. Paling longgar, paling realistis.\nTau-equivalent — semua item diasumsikan punya hubungan yang sama kuatnya dengan konstruk, tetapi varians error-nya boleh berbeda.\nParallel — semua item punya hubungan yang sama kuat dan varians error yang sama. Paling ketat, paling jarang terpenuhi.\n\n\n\n\n\n\n\n\nNote\n\n\nPerhatikan bahwa ketiganya adalah asumsi tentang item Anda, bukan tentang orangnya. Ini kelanjutan langsung dari asumsi unit weighting di Pertemuan 2."
+    "section": "Apa perbedaan tiga model tadi",
+    "text": "Apa perbedaan tiga model tadi\n\nCongeneric — setiap item boleh punya hubungan yang berbeda kekuatannya dengan konstruk, dan varians error yang berbeda pula. Paling longgar, paling realistis.\nTau-equivalent — semua item diasumsikan punya hubungan yang sama kuatnya dengan konstruk, tetapi varians error-nya boleh berbeda.\nParallel — semua item punya hubungan yang sama kuat dan varians error yang sama. Paling ketat, paling jarang terpenuhi.\n\n\n\n\n\n\n\n\nNote\n\n\nPerhatikan bahwa ketiganya adalah asumsi tentang item Anda, bukan tentang orangnya. Ini kelanjutan langsung dari asumsi unit weighting di Pertemuan 2."
   },
   {
     "objectID": "slides/pertemuan3.html#kenapa-ini-akan-penting-di-pertemuan-6",
@@ -2734,21 +2741,21 @@
     "href": "slides/pertemuan3.html#cara-membaca-grafiknya",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Cara membaca grafiknya",
-    "text": "Cara membaca grafiknya\n\nItem A (\\(b = -1{,}2\\)) mudah disetujui. Bahkan orang dengan level konstruk di bawah rata-rata pun cenderung menyetujuinya.\nItem C (\\(b = +1{,}5\\)) sulit disetujui. Hanya orang di ujung atas yang cenderung menyetujuinya.\nSkala yang baik memuat item yang tersebar di sepanjang rentang, bukan menumpuk di satu titik.\n\n\n\n\n\n\n\n\nKelemahan yang sering luput\n\n\nKalau semua item Anda “mudah”, skala Anda tidak bisa membedakan orang di ujung atas. Semuanya akan mendapat skor mendekati maksimum. Ini disebut ceiling effect, dan tidak akan terdeteksi oleh \\(\\alpha\\) yang tinggi."
+    "text": "Cara membaca grafiknya\n\nItem A (\\(b = -1{,}2\\)) mudah disetujui. Bahkan orang dengan level konstruk di bawah rata-rata pun cenderung menyetujuinya.\nItem C (\\(b = +1{,}5\\)) sulit disetujui. Hanya orang di ujung atas yang cenderung menyetujuinya.\nSkala yang baik memuat item yang tersebar di sepanjang rentang, bukan menumpuk di satu titik.\n\n\n\n\n\n\n\n\nKesalahan yang sering dilupakan\n\n\nKalau semua item Anda “mudah”, skala Anda tidak bisa membedakan orang di ujung atas. Semuanya akan mendapat skor mendekati maksimum. Ini disebut ceiling effect, dan tidak akan terdeteksi oleh \\(\\alpha\\) yang tinggi."
   },
   {
     "objectID": "slides/pertemuan3.html#parameter-kedua-daya-diskriminasi",
     "href": "slides/pertemuan3.html#parameter-kedua-daya-diskriminasi",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Parameter kedua: daya diskriminasi",
-    "text": "Parameter kedua: daya diskriminasi\n\n\n\n\n\n\nKurva Item D curam: perubahan kecil pada \\(\\theta\\) langsung mengubah peluang menyetujuinya. Item ini membedakan orang dengan tajam.\nKurva Item E landai: peluangnya berubah pelan. Item ini hampir tidak membedakan siapa pun.\n\n\n\n\n\n\n\n\nNote\n\n\nDalam CTT, padanan terdekat dari daya diskriminasi adalah korelasi item dengan skor total — yang akan Anda hitung di Pertemuan 13."
+    "text": "Parameter kedua: daya diskriminasi\n\n\n\n\n\n\nKurva Item D curam: perubahan kecil pada \\(\\theta\\) langsung mengubah peluang menyetujuinya. Item ini membedakan orang dengan lebih presisi.\nKurva Item E landai: peluangnya berubah pelan. Item ini hampir tidak dapat membedakan siapapun.\n\n\n\n\n\n\n\n\nNote\n\n\nDalam CTT, padanan terdekat dari daya diskriminasi adalah korelasi item dengan skor total — yang akan Anda hitung di Pertemuan 13."
   },
   {
     "objectID": "slides/pertemuan3.html#keluarga-model-irt",
     "href": "slides/pertemuan3.html#keluarga-model-irt",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Keluarga model IRT",
-    "text": "Keluarga model IRT\n\nRasch / 1PL — hanya memodelkan kesulitan (\\(b\\)).\n2PL — memodelkan kesulitan dan daya diskriminasi (\\(a\\)).\n3PL — menambahkan parameter tebakan (\\(c\\)), berguna untuk soal pilihan ganda.\nUntuk item Likert yang pilihan jawabannya berjenjang, dipakai model politomus (polytomous) seperti Graded Response Model.\n\n\n\n\n\n\n\n\nNote\n\n\nIRT lebih tepat disebut keluarga model, bukan satu prosedur tunggal."
+    "text": "Keluarga model IRT\n\nRasch / 1PL — hanya memodelkan kesulitan (\\(b\\)).\n2PL — memodelkan kesulitan dan daya diskriminasi (\\(a\\)).\n3PL — menambahkan parameter tebakan (\\(c\\)), berguna untuk soal pilihan ganda.\nUntuk item Likert yang pilihan jawabannya berjenjang, dipakai model politomus (polytomous) seperti Graded Response Model."
   },
   {
     "objectID": "slides/pertemuan3.html#apa-yang-disyaratkan-irt",
@@ -2762,7 +2769,7 @@
     "href": "slides/pertemuan3.html#kenapa-mata-kuliah-ini-tetap-memakai-ctt",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Kenapa mata kuliah ini tetap memakai CTT",
-    "text": "Kenapa mata kuliah ini tetap memakai CTT\n\nUkuran sampel. Uji coba yang realistis bagi kelompok Anda semester ini belum cukup besar untuk mengalibrasi parameter IRT secara stabil.\nPerangkat lunak. Kita memakai jamovi, dan alur kerja CTT di sana jauh lebih sederhana untuk dipelajari dalam satu semester.\nHasilnya tetap baik. Untuk penyusunan skala Likert dengan tujuan penelitian, metode klasik sudah memadai.\n\n\n\n\n\n\n\n\nYang perlu Anda bawa dari bagian ini\n\n\nBukan kemampuan menjalankan analisis IRT, melainkan kesadaran bahwa statistik item dalam CTT bersifat relatif terhadap sampel Anda — dan bahwa ada kerangka lain yang menangani persoalan itu secara langsung."
+    "text": "Kenapa mata kuliah ini tetap memakai CTT\n\nUkuran sampel. Uji coba yang realistis bagi kelompok Anda semester ini belum cukup besar untuk mengalibrasi parameter IRT secara stabil.\nPerangkat lunak. Kita akan memakai jamovi, dan alur kerja CTT di sana jauh lebih sederhana untuk dipelajari dalam satu semester.\nHasilnya tetap baik. Untuk penyusunan skala Likert dengan tujuan penelitian, metode klasik sudah memadai.\n\n\n\n\n\n\n\n\nYang perlu Anda bawa dari bagian ini\n\n\nBukan kemampuan menjalankan analisis IRT, melainkan kesadaran bahwa statistik item dalam CTT bersifat relatif terhadap sampel Anda — dan bahwa ada kerangka lain yang menangani persoalan itu secara langsung."
   },
   {
     "objectID": "slides/pertemuan3.html#mengurutkan-item-berdasarkan-kesulitan",
@@ -2790,7 +2797,7 @@
     "href": "slides/pertemuan3.html#untuk-pertemuan-4",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Untuk Pertemuan 4",
-    "text": "Untuk Pertemuan 4\nKita turun ke tingkat yang paling konkrit: format respons.\n\nLikert — berapa titik yang sebaiknya dipakai, dan apakah perlu titik tengah?\nSemantic Differential — kapan pasangan kata sifat lebih tepat daripada pernyataan.\nGuttman — ketika item memang berjenjang secara logis.\nDan pertanyaan yang menghubungkannya dengan hari ini: pilihan format respons itu mengubah asumsi apa?\n\n\n\n\n\n\n\n\nPersiapan\n\n\nBaca DeVellis & Thorpe (2022), Bab 5 bagian tentang format respons. Kalau ingin melihat versi formal dari materi hari ini, Bab 3 buku yang sama membahas reliabilitas secara lengkap."
+    "text": "Untuk Pertemuan 4\nKita turun ke tingkat yang paling konkrit: format respons.\n\nLikert — berapa titik yang sebaiknya dipakai, dan apakah perlu titik tengah?\nSemantic Differential — kapan pasangan kata sifat lebih tepat daripada pernyataan.\nGuttman — ketika item memang berjenjang secara logis.\nDan pertanyaan yang menghubungkannya dengan hari ini: pilihan format respons itu mengubah asumsi apa?\n\n\n\n\n\n\n\n\nPersiapan untuk pertemuan minggu depan\n\n\nBaca DeVellis & Thorpe (2022), Bab 5 bagian tentang format respons. Kalau ingin melihat versi formal dari materi hari ini, Bab 3 buku yang sama membahas reliabilitas secara lengkap."
   },
   {
     "objectID": "slides/pertemuan3.html#ada-pertanyaan",
@@ -2811,14 +2818,14 @@
     "href": "slides/pertemuan4.html#outline",
     "title": "Format Respons I: Likert, Semantic Differential, dan Guttman",
     "section": "Outline",
-    "text": "Outline\n\nApa yang sebenarnya kita pilih ketika memilih format respons\nLikert: asal-usulnya, dan 4️⃣ keputusan yang harus Anda ambil\nSemantic Differential: kapan pasangan kata sifat lebih tepat digunakan daripada pernyataan\nGuttman: ketika item memang berjenjang secara logis dan kenapa jarang berhasil\nMembandingkan ketiganya\nPertanyaan penutup: memilih format respons berkaitan dengan asumsi pengukuran yang mana?\n\n\n\nDisclosure penggunaan akal imitasi (AI)\nKami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk brainstorming materi, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini."
+    "text": "Outline\n\nApa yang sebenarnya kita lakukan ketika memilih format respons\nLikert: asal-usulnya, dan 4️⃣ keputusan yang harus Anda ambil\nSemantic Differential: kapan pasangan kata sifat lebih tepat digunakan daripada pernyataan\nGuttman: ketika item memang berjenjang secara logis dan kenapa jarang berhasil\nMembandingkan ketiganya\nPertanyaan penutup: memilih format respons berkaitan dengan asumsi pengukuran yang mana?\n\n\n\nDisclosure penggunaan akal imitasi (AI)\nKami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk brainstorming materi, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini."
   },
   {
-    "objectID": "slides/pertemuan4.html#posisi-anda-saat-ini",
-    "href": "slides/pertemuan4.html#posisi-anda-saat-ini",
+    "objectID": "slides/pertemuan4.html#yang-sudah-anda-pelajari",
+    "href": "slides/pertemuan4.html#yang-sudah-anda-pelajari",
     "title": "Format Respons I: Likert, Semantic Differential, dan Guttman",
-    "section": "Posisi Anda saat ini",
-    "text": "Posisi Anda saat ini\n\nDi Pertemuan 3, Anda sudah belajar model formalnya: \\(X = T + E\\), variabel laten sebagai sebab, dan reliabilitas sebagai proporsi varians.\nSampai di sini semuanya masih terasa sangat abstrak.\nFormat respons adalah lokasi pertama di mana teori pengukuran (yang abstrak) berubah menjadi sesuatu yang lebih konkrit dan terlihat di kuesioner.\n\n\n\n\n\n\n\n\nYang perlu dipegang hari ini\n\n\nFormat respons bukan soal selera atau kebiasaan. Setiap format membawa asumsinya sendiri, dan asumsi-asumsi ini menentukan analisis apa yang nanti boleh Anda pakai."
+    "section": "Yang sudah Anda pelajari",
+    "text": "Yang sudah Anda pelajari\n\nDi Pertemuan 3, Anda sudah belajar model formalnya: \\(X = T + E\\), variabel laten sebagai sebab, dan reliabilitas sebagai proporsi varians.\nSampai di sini semuanya masih terasa sangat abstrak.\nFormat respons adalah lokasi pertama di mana teori pengukuran (yang abstrak) berubah menjadi sesuatu yang lebih konkrit dan terlihat di kuesioner.\n\n\n\n\n\n\n\n\nYang perlu dipegang hari ini\n\n\nFormat respons bukan soal selera atau kebiasaan. Setiap format membawa asumsinya sendiri, dan asumsi-asumsi ini menentukan analisis apa yang nanti boleh Anda pakai."
   },
   {
     "objectID": "slides/pertemuan4.html#apa-yang-dilakukan-sebuah-format-respons",
@@ -2944,7 +2951,7 @@
     "href": "slides/pertemuan4.html#pada-situasi-seperti-apa-skala-guttman-berguna",
     "title": "Format Respons I: Likert, Semantic Differential, dan Guttman",
     "section": "Pada situasi seperti apa Skala Guttman berguna",
-    "text": "Pada situasi seperti apa Skala Guttman berguna\n\nKetika hierarkinya merupakan konsekuensi logis: makan sepuluh mangkok bakso selalu berarti lebih banyak daripada lima mangkok.\nFungsi fisik: bisa bangun dari tempat tidur → bisa berjalan di dalam rumah → bisa naik tangga → bisa berjalan satu kilometer.\nJarak sosial (Bogardus, 1924): bersedia tinggal senegara → sekota → bertetangga → berteman dekat → menjadi keluarga lewat pernikahan.\n\n\n\n\n\n\n\n\nTip\n\n\nPerhatikan bahwa ketiganya berhubungan dengan perilaku atau kemampuan yang konkret, bukan dengan sikap/konstruk psikologis yang sangat abstrak."
+    "text": "Pada situasi seperti apa Skala Guttman berguna\n\nKetika hierarkinya merupakan konsekuensi logis: makan sepuluh mangkok bakso selalu berarti lebih banyak daripada lima mangkok.\nFungsi fisik: bisa bangun dari tempat tidur → bisa berjalan di dalam rumah → bisa naik tangga → bisa berjalan satu kilometer.\nJarak sosial (Bogardus, 1925): bersedia tinggal senegara → sekota → bertetangga → berteman dekat → menjadi keluarga lewat pernikahan.\n\n\n\n\n\n\n\n\nTip\n\n\nPerhatikan bahwa ketiganya berhubungan dengan perilaku atau kemampuan yang konkret, bukan dengan sikap/konstruk psikologis yang sangat abstrak."
   },
   {
     "objectID": "slides/pertemuan4.html#pada-situasi-seperti-apa-guttman-tidak-berguna-sama-sekali",
@@ -2965,7 +2972,7 @@
     "href": "slides/pertemuan4.html#ringkasan",
     "title": "Format Respons I: Likert, Semantic Differential, dan Guttman",
     "section": "Ringkasan",
-    "text": "Ringkasan\n\n\n\n\n\n\n\n\n\n\nLikert\nSemantic Differential\nGuttman\n\n\n\n\nBentuk item\nPernyataan + derajat persetujuan\nPasangan kata sifat\nPernyataan berjenjang, ya/tidak\n\n\nSkor\nJumlah semua item\nJumlah semua pasangan\nTitik peralihan\n\n\nCocok untuk\nSikap, keyakinan, sifat\nKesan terhadap objek\nPerilaku/kemampuan berjenjang\n\n\nCocok dengan CTT\nYa\nYa\nTidak langsung\n\n\nKelemahan utama\nAcquiescence, jarak tak setara\nPadanan antonim, ambiguitas pilihan tengah\nPenyimpangan pola\n\n\n\n\n\n\n\n\n\n\nNote\n\n\nUntuk proyek Anda semester ini, Likert dan Semantic Differential adalah pilihan yang realistis. Guttman hanya masuk akal kalau konstruk Anda memang berjenjang secara teoretis."
+    "text": "Ringkasan\n\n\n\n\n\n\n\n\n\n\nLikert\nSemantic Differential\nGuttman\n\n\n\n\nBentuk item\nPernyataan + derajat persetujuan\nPasangan kata sifat\nPernyataan berjenjang, ya/tidak\n\n\nSkor\nJumlah semua item\nJumlah semua pasangan\nTitik peralihan\n\n\nCocok untuk\nSikap, keyakinan, sifat\nKesan terhadap objek\nPerilaku/kemampuan berjenjang\n\n\nCocok dengan CTT\nYa\nYa\nTidak langsung\n\n\nKelemahan utama\nAcquiescence, jarak tak setara\nPadanan antonim, ambiguitas pilihan tengah\nPenyimpangan pola"
   },
   {
     "objectID": "slides/pertemuan4.html#memilih-format-respons-berarti-memilih-asumsi",
@@ -3098,7 +3105,7 @@
     "href": "slides/pertemuan6.html#hanya-dua-hal",
     "title": "Reliabilitas: Konsep Dasar dan Implementasinya",
     "section": "Hanya dua hal",
-    "text": "Hanya dua hal\n\nJumlah item (\\(k\\)) dan rata-rata korelasi antar-item (\\(\\bar{r}\\)). Tidak ada yang lain.\n\n\\[\\alpha = \\frac{k\\bar{r}}{1 + (k-1)\\bar{r}}\\]\n\nSkala Extraversion: \\(\\bar{r} = 0{,}45\\) dengan 10 item, menghasilkan \\(\\alpha = 0{.}89\\).\nPerhatikan kurva paling bawah: dengan \\(\\bar{r} = 0{,}10\\), Anda butuh lebih dari 35 item untuk menembus 0.80.\n\n\n\n\n\n\n\n\nKonsekuensi yang perlu diperhatikan\n\n\nKarena \\(k\\) ikut menentukan, \\(\\alpha\\) yang tinggi bisa dibeli hanya dengan menambah item. Anda tidak perlu item yang lebih baik; cukup item yang lebih banyak."
+    "text": "Hanya dua hal\n\nJumlah item (\\(k\\)) dan rata-rata korelasi antar-item (\\(\\bar{r}\\)). Tidak ada yang lain.\n\n\\[\\alpha = \\frac{k\\bar{r}}{1 + (k-1)\\bar{r}}\\]\n\nSkala Extraversion: \\(\\bar{r} = 0{.}45\\) dengan 10 item, menghasilkan \\(\\alpha = 0{.}89\\).\nPerhatikan kurva paling bawah: dengan \\(\\bar{r} = 0{.}10\\), Anda butuh lebih dari 35 item untuk mencapai 0.80.\n\n\n\n\n\n\n\n\nKonsekuensi yang perlu diperhatikan\n\n\nKarena \\(k\\) ikut menentukan, \\(\\alpha\\) yang tinggi bisa dicapai hanya dengan menambah item. Anda tidak perlu item yang lebih baik; cukup item yang lebih banyak."
   },
   {
     "objectID": "slides/pertemuan6.html#proyeksi-spearman-brown-pada-skala-ipip",
@@ -3140,7 +3147,7 @@
     "href": "slides/pertemuan6.html#sekarang-hitung-omega",
     "title": "Reliabilitas: Konsep Dasar dan Implementasinya",
     "section": "Sekarang hitung \\(\\omega\\)",
-    "text": "Sekarang hitung \\(\\omega\\)\n\n\\(\\alpha = 0{.}616\\) tetapi \\(\\omega = 0{.}151\\)\n\n\n\n\n\\(\\omega\\) menanyakan hal yang berbeda dibandingkan \\(\\alpha\\): berapa proporsi varians skor total yang berasal dari satu faktor laten yang general?\nPada campuran dua subskala ini, jawabannya nyaris tidak ada, karena memang tidak ada satu faktor umum di sana.\nKesimpulannsa\n\n\\(\\alpha\\) = 0.616 artinya “item-item ini saling berkorelasi”\n\\(\\omega\\) = 0.151 artinya “item-item ini tidak mengukur satu konstruk yang sama”"
+    "text": "Sekarang hitung \\(\\omega\\)\n\n\\(\\alpha = 0{.}616\\) tetapi \\(\\omega = 0{.}151\\)\n\n\n\n\n\\(\\omega\\) menanyakan hal yang berbeda dibandingkan \\(\\alpha\\): berapa proporsi varians skor total yang berasal dari satu faktor laten yang general?\nPada campuran dua subskala ini, jawabannya nyaris tidak ada, karena memang tidak ada satu faktor umum di sana.\nKesimpulannya\n\n\\(\\alpha\\) = 0.616 artinya “item-item ini saling berkorelasi”\n\\(\\omega\\) = 0.151 artinya “item-item ini tidak mengukur satu konstruk yang sama”"
   },
   {
     "objectID": "slides/pertemuan6.html#kenapa-alpha-saja-tidak-cukup",
@@ -3171,11 +3178,11 @@
     "text": "Tetapi keduanya tidak menggantikan pemeriksaan struktur konstruk\n\nBaik \\(\\alpha\\) maupun \\(\\omega\\) adalah satu koefisien yang meringkas keseluruhan skala.\nSatu angka tidak bisa memberi tahu Anda ada berapa dimensi di dalam item Anda.\nUntuk itu Anda perlu melihat struktur korelasinya sendiri: eigenvalue, scree plot, dengan analisis faktor."
   },
   {
-    "objectID": "slides/pertemuan6.html#sem-dengan-angka-yang-nyata",
-    "href": "slides/pertemuan6.html#sem-dengan-angka-yang-nyata",
+    "objectID": "slides/pertemuan6.html#standard-error-of-measurement-sem-pada-dataset-ipip",
+    "href": "slides/pertemuan6.html#standard-error-of-measurement-sem-pada-dataset-ipip",
     "title": "Reliabilitas: Konsep Dasar dan Implementasinya",
-    "section": "SEM dengan angka yang nyata",
-    "text": "SEM dengan angka yang nyata\nSkala Extraversion IPIP: \\(\\sigma_X = 9{.}22\\) dan \\(\\alpha = 0{.}892\\).\n\\[SEM = \\sigma_X\\sqrt{1-\\alpha} = 9{.}22 \\times \\sqrt{0{.}108} = \\mathbf{3{.}03}\\]\n\nInterval kepercayaan (confidence interval) 95% untuk seseorang yang mendapat skor 30:\n\\[30 \\pm 1{.}96 \\times 3{.}03 \\;\\approx\\; 24{.}1 \\text{ sampai } 35{.}9\\]\n\n\n\n\n\n\n\n\nPerhatikan lebar intervalnya\n\n\nIni adalah skala dengan \\(\\alpha = 0{.}89\\) — tergolong sangat baik. Namun interval kepercayaan satu orang selebar hampir 12 poin pada skala yang rentangnya 10 sampai 50.\nDua orang dengan skor 30 dan 35 tidak bisa Anda katakan berbeda signifikan."
+    "section": "Standard error of measurement (SEM) pada dataset IPIP",
+    "text": "Standard error of measurement (SEM) pada dataset IPIP\nSkala Extraversion IPIP: \\(\\sigma_X = 9{.}22\\) dan \\(\\alpha = 0{.}892\\).\n\\[SEM = \\sigma_X\\sqrt{1-\\alpha} = 9{.}22 \\times \\sqrt{0{.}108} = \\mathbf{3{.}03}\\]\n\nInterval kepercayaan (confidence interval) 95% untuk seseorang yang mendapat skor 30:\n\\[30 \\pm 1{.}96 \\times 3{.}03 \\;\\approx\\; 24{.}1 \\text{ sampai } 35{.}9\\]\n\n\n\n\n\n\n\n\nPerhatikan lebar intervalnya\n\n\nIni adalah skala dengan \\(\\alpha = 0{.}89\\) — tergolong sangat baik. Namun interval kepercayaan satu orang selebar hampir 12 poin pada skala yang rentangnya 10 sampai 50.\nDua orang dengan skor 30 dan 35 tidak bisa Anda katakan berbeda signifikan."
   },
   {
     "objectID": "slides/pertemuan6.html#kenapa-ini-penting-untuk-pertemuan-14",
@@ -3213,11 +3220,11 @@
     "text": "Memeriksa dimensinya (‘nice to know’)\n\nAnalyses → Factor → Exploratory Factor Analysis, lalu perhatikan eigenvalue dan scree plot-nya.\nKalau hanya ada satu eigenvalue yang jauh lebih besar dari sisanya, skala Anda kemungkinan satu dimensi.\nKalau ada dua atau lebih, hitung reliabilitasnya per dimensi, bukan untuk keseluruhan item.\n\n\n\n\n\n\n\n\nNote\n\n\nPada set campuran tadi, eigenvalue-nya 3.53 dan 2.23 — dua-duanya besar. Itulah yang tidak bisa dilihat dari \\(\\alpha = 0{.}616\\)."
   },
   {
-    "objectID": "slides/pertemuan6.html#daftar-minimum",
-    "href": "slides/pertemuan6.html#daftar-minimum",
+    "objectID": "slides/pertemuan6.html#checklist",
+    "href": "slides/pertemuan6.html#checklist",
     "title": "Reliabilitas: Konsep Dasar dan Implementasinya",
-    "section": "Daftar minimum",
-    "text": "Daftar minimum\n\nKoefisien yang dipakai dan nilainya — sebutkan \\(\\alpha\\), \\(\\omega\\), atau keduanya. Jangan cuma menulis “reliabilitas”.\nJumlah item yang dihitung, dan item mana yang diskor balik.\nUkuran dan karakteristik sampel — ingat dari Pertemuan 3 bahwa koefisien ini bergantung pada sampel.\nBukti tentang dimensinya (apabila memungkinkan), sekurang-kurangnya eigenvalue atau scree plot.\nSEM, kalau skor Anda akan dipakai untuk menafsirkan individu.\n\n\n\n\n\n\n\n\nContoh kalimat pelaporan\n\n\n“Skala 10 item ini memiliki \\(\\alpha = 0{.}89\\) dan \\(\\omega = 0{.}89\\) pada n = 200 mahasiswa S1 (usia 18–23). Analisis faktor eksploratori menunjukkan satu faktor dominan (eigenvalue 4,5 berbanding 0.9). SEM = 3.0.”"
+    "section": "Checklist",
+    "text": "Checklist\n\nKoefisien yang dipakai dan nilainya — sebutkan \\(\\alpha\\), \\(\\omega\\), atau keduanya. Jangan cuma menulis “reliabilitas”.\nJumlah item yang dihitung, dan item mana yang diskor balik.\nUkuran dan karakteristik sampel — ingat dari Pertemuan 3 bahwa koefisien ini bergantung pada sampel.\nBukti tentang dimensinya (apabila memungkinkan), sekurang-kurangnya eigenvalue atau scree plot.\nSEM, kalau skor Anda akan dipakai untuk menafsirkan individu.\n\n\n\n\n\n\n\n\nContoh kalimat pelaporan\n\n\n“Skala 10 item ini memiliki \\(\\alpha = 0{.}89\\) dan \\(\\omega = 0{.}89\\) pada n = 200 mahasiswa S1 (usia 18–23). Analisis faktor eksploratori menunjukkan satu faktor dominan (eigenvalue 4,5 berbanding 0.9). SEM = 3.0.”"
   },
   {
     "objectID": "slides/pertemuan6.html#empat-situasi",
@@ -3266,7 +3273,7 @@
     "href": "slides/pertemuan11.html#outline",
     "title": "Review Ahli dan Validitas Isi: Perhitungan dan Interpretasi CVI",
     "section": "Outline",
-    "text": "Outline\n\nKenapa item perlu dinilai oleh panel ahli sebelum diujicobakan\nMenyusun panel: siapa yang dianggap ahli, dan berapa orang\nFormulir penilaian relevansi dan cara mengirimkannya\nMenghitung I-CVI dan S-CVI, dan kenapa keduanya bisa memberi kesan berbeda\nMengoreksi kesepakatan yang terjadi secara kebetulan\nApa yang dilakukan terhadap item yang tidak lolos\nBatas kemampuan CVI\n\n\n\nDisclosure penggunaan akal imitasi (AI)\nKami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk brainstorming materi, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini."
+    "text": "Outline\n\nKenapa item perlu dinilai oleh panel ahli sebelum diujicobakan\nMenyusun panel: siapa yang dianggap ahli, dan berapa orang\nFormulir penilaian relevansi dan cara mengirimkannya\nMenghitung I-CVI dan S-CVI, dan kenapa keduanya memberikan informasi yang berbeda\nMengoreksi kesepakatan yang terjadi secara kebetulan\nApa yang dilakukan terhadap item yang tidak lolos\nKeterbatasan CVI\n\n\n\nDisclosure penggunaan akal imitasi (AI)\nKami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk brainstorming materi, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini."
   },
   {
     "objectID": "slides/pertemuan11.html#posisi-anda-saat-ini",
@@ -3374,11 +3381,11 @@
     "text": "I-CVI vs. S-CVI\n\nS-CVI/Ave — rata-rata dari seluruh I-CVI. Menggambarkan relevansi rata-rata.\nS-CVI/UA — proporsi item yang disepakati semua penilai (universal agreement), yang jauh lebih ketat daripada S-CVI(Ave).\n\n\nPada contoh tadi:\n\\[\\text{S-CVI/Ave} = \\frac{6{.}83}{8} = 0{.}85 \\qquad \\text{S-CVI/UA} = \\frac{4}{8} = 0{.}50\\]"
   },
   {
-    "objectID": "slides/pertemuan11.html#data-yang-sama-tapi-kesan-yang-berbeda",
-    "href": "slides/pertemuan11.html#data-yang-sama-tapi-kesan-yang-berbeda",
+    "objectID": "slides/pertemuan11.html#data-yang-sama-tapi-informasi-yang-berbeda",
+    "href": "slides/pertemuan11.html#data-yang-sama-tapi-informasi-yang-berbeda",
     "title": "Review Ahli dan Validitas Isi: Perhitungan dan Interpretasi CVI",
-    "section": "Data yang sama, tapi kesan yang berbeda",
-    "text": "Data yang sama, tapi kesan yang berbeda\n\n0.85 terlihat memadai.\n0.50 terlihat bermasalah.\n\n\n\n\nKeduanya dihitung dari tabel yang persis sama.\nPolit & Beck (2006) menulis artikel khusus tentang keruwetan ini: banyak laporan menyebut “CVI” tanpa menjelaskan CVI yang versi mana.\n\n\n\n\n\n\n\n\n\nYang harus kelompok Anda lakukan\n\n\nSebutkan secara eksplisit cara perhitungan yang dipakai. Menulis “CVI = 0.85” tanpa keterangan membuat angka itu tidak bisa ditafsirkan orang lain.\nYang lazim dilaporkan adalah S-CVI/Ave, dengan patokan minimal 0.90.\n\n\n\n\nIni bagian yang paling sering salah di laporan mahasiswa. Tekankan bahwa keduanya sah, asalkan disebutkan yang mana. Kalau ada waktu, minta satu kelompok menghitung kedua angka itu dari data mereka sendiri dan membandingkannya."
+    "section": "Data yang sama, tapi informasi yang berbeda",
+    "text": "Data yang sama, tapi informasi yang berbeda\n\n0.85 terlihat memadai.\n0.50 terlihat bermasalah.\n\n\n\nKeduanya dihitung dari tabel yang persis sama.\nPolit & Beck (2006) menulis artikel khusus tentang keruwetan ini: banyak laporan menyebut “CVI” tanpa menjelaskan CVI yang versi mana.\n\n\n\n\n\n\n\n\n\nYang harus kelompok Anda lakukan\n\n\nSebutkan secara eksplisit cara perhitungan yang dipakai. Menulis “CVI = 0.85” tanpa keterangan membuat angka itu tidak bisa ditafsirkan orang lain.\nYang lazim dilaporkan adalah S-CVI/Ave, dengan patokan minimal 0.90.\n\n\n\n\nIni bagian yang paling sering salah di laporan mahasiswa. Tekankan bahwa keduanya sah, asalkan disebutkan yang mana. Kalau ada waktu, minta satu kelompok menghitung kedua angka itu dari data mereka sendiri dan membandingkannya."
   },
   {
     "objectID": "slides/pertemuan11.html#item-yang-tidak-lolos",
@@ -3490,7 +3497,7 @@
     "href": "slides/pertemuan1-en.html#the-earliest-traces",
     "title": "What Is Measurement? Foundations and Philosophy of Psychological Measurement",
     "section": "The earliest traces",
-    "text": "The earliest traces\n\nc. 2200 BCE, China — civil service examinations for selecting officials.\nA dishonest scale was treated as a moral failing, not merely a technical one — a concern that recurs across religious traditions.\n\nQur’an, Al-Muttaffifin 1–3 — condemns those who demand full measure from others but give less when they weigh or measure for others.\nQur’an, Al-Isra’ 35 — instructs believers to give full measure and to weigh with an even balance.\nQur’an, Al-An’am 152 — commands giving full measure and weight, in justice.\nProverbs 11:1 — “A false balance is an abomination to the Lord, but a just weight is a delight.”\n\nThe French Revolution — driven in part by peasants fed up with unfair measurement practices.\n\n\n\n\n\n\n\n\nWhat is striking about this list\n\n\nEvery entry is about fairness, and less about scientific accuracy. Measurement has been an instrument of power and distribution from the very beginning, something that becomes relevant again when we discuss test bias and the use of psychological tests for selection."
+    "text": "The earliest traces\n\nc. 2200 BCE, China — civil service examinations for selecting officials.\nA dishonest scale was treated as a moral failing, not merely a technical one — a concern that recurs across religious traditions.\n\nQur’an, Al-Muttaffifin 1–3 — condemns those who demand full measure from others but give less when they weigh or measure for others.\nQur’an, Al-An’am 152 — commands giving full measure and weight, in justice.\nProverbs 11:1 — “A false balance is an abomination to the Lord, but a just weight is a delight.”\n\nThe French Revolution — driven in part by peasants fed up with unfair measurement practices.\n\n\n\n\n\n\n\n\nWhat is striking about this list\n\n\nEvery entry is about fairness, and less about scientific accuracy. Measurement has been an instrument of power and distribution from the very beginning, something that becomes relevant again when we discuss test bias and the use of psychological tests for selection."
   },
   {
     "objectID": "slides/pertemuan1-en.html#the-idea-that-measurement-can-be-wrong-is-relatively-recent",
@@ -3525,7 +3532,7 @@
     "href": "slides/pertemuan1-en.html#how-psychometrics-was-born",
     "title": "What Is Measurement? Foundations and Philosophy of Psychological Measurement",
     "section": "How psychometrics was born",
-    "text": "How psychometrics was born\n\nDarwin observed and measured systematic variation across species.\nHis cousin Sir Francis Galton extended the systematic observation of differences to humans — chiefly concerned with the inheritance of anatomical and intellectual traits.\nKarl Pearson, Galton’s junior colleague, developed the mathematical tools — including the Product-Moment Correlation Coefficient that bears his name.\nCharles Spearman carried the tradition forward and set the stage for factor analysis.\nAlfred Binet developed tests of mental ability in France in the early 1900s.\n\n\n\n\n\n\n\n\nAn inheritance that is not neutral\n\n\nMany early contributors to psychometrics worked within a eugenics framework. We still use their statistical tools today, BUT we cannot obliged to inherit the political assumptions behind them. Knowing this history is part of being critical about the theories we use."
+    "text": "How psychometrics was born\n\nDarwin observed and measured systematic variation across species.\nHis cousin Sir Francis Galton extended the systematic observation of differences to humans — chiefly concerned with the inheritance of anatomical and intellectual traits.\nKarl Pearson, Galton’s junior colleague, developed the mathematical tools — including the Product-Moment Correlation Coefficient that bears his name.\nCharles Spearman carried the tradition forward and set the stage for factor analysis.\nAlfred Binet developed tests of mental ability in France in the early 1900s.\n\n\n\n\n\n\n\n\nAn inheritance that is not neutral\n\n\nMany early contributors to psychometrics worked within a eugenics framework. We still use their statistical tools today, but we are not obligated to carry forward the political assumptions and consequences behind them (e.g., forced sterilization or restricted reproduction for groups deemed “inferior”, among others). Knowing this history is part of being critical about the theories we use."
   },
   {
     "objectID": "slides/pertemuan1-en.html#when-psychology-was-declared-unmeasurable",
@@ -3791,14 +3798,14 @@
     "href": "slides/pertemuan3-en.html#the-latent-variable-as-a-cause",
     "title": "Latent Variables: Classical Test Theory and a Glimpse of Item Response Theory",
     "section": "The latent variable as a cause",
-    "text": "The latent variable as a cause\n\nThe core idea: the strength of the latent variable causes an item to take a particular value.\nTake the item “No sacrifice is too great if it helps my child succeed.” How strongly someone agrees is determined by how strong their aspiration is.\nNote the direction of the arrow: from construct to item (e.g., “Reflective Model”). Not the other way round.\n\n\n\n\n\n\n\n\nEverything else follows from this\n\n\nIf one common cause drives ten items, those ten items must correlate with one another.\nInter-item correlations can be computed. The latent variable cannot. So those correlations are the only way in to estimating something we cannot observe."
+    "text": "The latent variable as a cause\n\n\n\nThe core idea: the strength of the latent variable causes an item to take a particular value.\nTake the item “No sacrifice is too great if it helps my child succeed.” How strongly someone agrees is determined by how strong their aspiration is.\nNote the direction of the arrow: from construct to item (e.g., “Reflective Model”). Not the other way round.\n\n. . .\n\n\n\n\n\n\nEverything else follows from this\n\n\nIf one common cause drives ten items, those ten items must correlate with one another.\nInter-item correlations can be computed. The latent variable cannot. So those correlations are the only way in to estimating something we cannot observe."
   },
   {
     "objectID": "slides/pertemuan3-en.html#this-is-what-makes-item-analysis-possible",
     "href": "slides/pertemuan3-en.html#this-is-what-makes-item-analysis-possible",
     "title": "Latent Variables: Classical Test Theory and a Glimpse of Item Response Theory",
     "section": "This is what makes item analysis possible",
-    "text": "This is what makes item analysis possible\n\nWe can never compute the correlation between an item and the true score, because the true score is unobserved.\nBut we can compute the correlations between items.\nFrom the pattern of inter-item correlations, we can infer how strongly each item is tied to the latent variable.\n\n\n\n\n\n\n\n\nNote\n\n\nThe procedures you will run in Session 13 — corrected item-total correlations, dropping weak items — rest entirely on this logic."
+    "text": "This is what makes item analysis possible\n\nWe can never compute the correlation between an item and the true score, because the true score is unobserved.\nBut we can compute the correlations between items.\nFrom the pattern of inter-item correlations, we can infer how strongly each item is tied to the latent variable.\n\n\n\n\n\n\n\n\nWorth remembering\n\n\nThe procedures you will run in Session 13 — corrected item-total correlations, dropping weak items — rest entirely on this logic."
   },
   {
     "objectID": "slides/pertemuan3-en.html#the-equation",
@@ -3903,7 +3910,7 @@
     "href": "slides/pertemuan3-en.html#now-attenuation-makes-sense",
     "title": "Latent Variables: Classical Test Theory and a Glimpse of Item Response Theory",
     "section": "Now attenuation makes sense",
-    "text": "Now attenuation makes sense\nIn Session 1 we used this formula without explaining it:\n\\[r_{XY} = \\rho_{T_X T_Y} \\times \\sqrt{\\rho_{XX'} \\times \\rho_{YY'}}\\]\n\n\nIts origin is now clear: what we correlate is \\(X\\), and \\(X\\) contains \\(E\\).\nThe \\(E\\) part correlates with nothing — by CTT’s second assumption.\nSo error adds to the denominator without adding to the numerator, and the correlation shrinks.\n\n\n\n\n\n\n\n\n\nTip\n\n\nThe larger the share of noise in your scores, the smaller every correlation you report."
+    "text": "Now attenuation makes sense\nIn Session 1 we used this formula without explaining it:\n\\[r_{XY} = \\rho_{T_X T_Y} \\times \\sqrt{\\rho_{XX'} \\times \\rho_{YY'}}\\]\n\n\nIts origin is now clear: what we correlate is \\(X\\), and \\(X\\) contains \\(E\\).\nThe \\(E\\) part correlates with nothing — by CTT’s second assumption.\nSo error adds to the denominator without adding to the numerator, and the correlation shrinks.\n\n\n\n\n\n\n\n\n\nThe takeaway\n\n\nThe larger the share of noise in your scores, the smaller every correlation you report."
   },
   {
     "objectID": "slides/pertemuan3-en.html#the-most-serious-weakness-of-ctt",
@@ -3917,7 +3924,7 @@
     "href": "slides/pertemuan3-en.html#and-not-only-reliability",
     "title": "Latent Variables: Classical Test Theory and a Glimpse of Item Response Theory",
     "section": "And not only reliability",
-    "text": "And not only reliability\n\nItem difficulty in CTT is the proportion of respondents endorsing an item. That number changes when the sample changes.\nItem discrimination is the item’s correlation with the total score. That shifts with the sample too.\nSo nearly every item statistic in CTT is relative to whichever group you happened to measure.\n\n\n\n\n\n\n\n\nNote\n\n\nThis is exactly the problem Item Response Theory sets out to solve. We turn to it in the final section."
+    "text": "And not only reliability\n\nItem difficulty in CTT is the proportion of respondents endorsing an item. That number changes when the sample changes.\nItem discrimination is the item’s correlation with the total score. That shifts with the sample too.\nSo nearly every item statistic in CTT is relative to whichever group you happened to measure."
   },
   {
     "objectID": "slides/pertemuan3-en.html#three-measurement-models",
@@ -3987,7 +3994,7 @@
     "href": "slides/pertemuan3-en.html#the-irt-family-of-models",
     "title": "Latent Variables: Classical Test Theory and a Glimpse of Item Response Theory",
     "section": "The IRT family of models",
-    "text": "The IRT family of models\n\nRasch / 1PL — models difficulty (\\(b\\)) only.\n2PL — models difficulty and discrimination (\\(a\\)).\n3PL — adds a guessing parameter (\\(c\\)), useful for multiple-choice tests.\nFor Likert items with ordered categories, polytomous models such as the Graded Response Model are used.\n\n\n\n\n\n\n\n\nNote\n\n\nIRT is better described as a family of models than as a single procedure."
+    "text": "The IRT family of models\n\nRasch / 1PL — models difficulty (\\(b\\)) only.\n2PL — models difficulty and discrimination (\\(a\\)).\n3PL — adds a guessing parameter (\\(c\\)), useful for multiple-choice tests.\nFor Likert items with ordered categories, polytomous models such as the Graded Response Model are used."
   },
   {
     "objectID": "slides/pertemuan3-en.html#what-irt-demands-in-return",
@@ -4064,7 +4071,7 @@
     "href": "slides/pertemuan5-en.html#todays-map",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
     "section": "Today’s map",
-    "text": "Today’s map\n\n\n\n\n\n\n\n\nFormat\nWhat it gives up\nWhat it gains\n\n\n\n\nThurstone\nEqual item weights\nItems calibrated across the continuum\n\n\nSJT\nAbstract self-description\nConcrete context and judgement\n\n\nForced-choice\nIndependent responding\nProtection from social desirability\n\n\n\n\n\n\n\n\n\n\nWarning\n\n\nAll three are conceptually attractive. All three are also far harder to build than Likert, and two of them break assumptions we established in Session 3. We will see exactly where."
+    "text": "Today’s map\n\n\n\n\n\n\n\n\nFormat\nWhat it gives up\nWhat it gains\n\n\n\n\nThurstone\nEqual item weights\nItems calibrated across the continuum\n\n\nSJT\nAbstract self-description\nConcrete context and judgement\n\n\nForced-choice\nIndependent responding\nProtection from social desirability\n\n\n\n\n\n\n\n\n\n\nKeep in mind\n\n\nAll three are conceptually attractive, but far harder to build than Likert, and two of them break assumptions we established in Session 3."
   },
   {
     "objectID": "slides/pertemuan5-en.html#the-tuning-fork-analogy",
@@ -4127,14 +4134,14 @@
     "href": "slides/pertemuan5-en.html#an-example",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
     "section": "An example",
-    "text": "An example\n\nSituation. You are leading a five-person group assignment. Two days before the deadline, one member tells you they have not started their section at all because of a family emergency.\n\n\nHow effective is each of the following actions?\n\n\n\n\nAction\n\n\n\n\n\nA\nDo that section yourself so the deadline is met\n1–5\n\n\nB\nRedistribute the section to members who have finished\n1–5\n\n\nC\nAsk the lecturer for an extension\n1–5\n\n\nD\nSubmit as is and note who did not contribute\n1–5"
+    "text": "An example\n\nSituation. You are leading a five-person group assignment. Two days before the deadline, one member tells you they have not started their section at all because of a family emergency.\n\n\nHow effective is each of the following actions?\n\n\n\n\n\n\n\n\n\nAction\n\n\n\n\n\nA\nDo that section yourself so the deadline is met\n1–5\n\n\nB\nRedistribute the section to members who have finished\n1–5\n\n\nC\nAsk the lecturer for an extension\n1–5\n\n\nD\nSubmit as is and note who did not contribute\n1–5"
   },
   {
-    "objectID": "slides/pertemuan5-en.html#one-small-change-that-changes-everything",
-    "href": "slides/pertemuan5-en.html#one-small-change-that-changes-everything",
+    "objectID": "slides/pertemuan5-en.html#notice-the-difference",
+    "href": "slides/pertemuan5-en.html#notice-the-difference",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
-    "section": "One small change that changes everything",
-    "text": "One small change that changes everything\n\n\n“What would you do?”\nMeasures behavioural tendency.\nCloser to personality.\nMore open to impression management.\n\n“What should be done?”\nMeasures knowledge of effective action.\nCloser to cognitive ability.\nMore resistant to impression management.\n\n\n\n\n\n\n\n\nThis is not a cosmetic difference\n\n\nPloyhart & Ehrhart (2003) showed that changing the response instruction changes the test’s psychometric properties — both its reliability and the construct it measures.\nThe response instruction must be decided in advance, not chosen afterwards."
+    "section": "Notice the difference",
+    "text": "Notice the difference\n\n\n“What would you do?”\nMeasures behavioural tendency.\nCloser to personality.\nMore open to impression management.\n\n“What should be done?”\nMeasures knowledge of effective action.\nCloser to cognitive ability.\nMore resistant to impression management.\n\n\n\n\n\n\n\n\nThis is not a cosmetic difference\n\n\nPloyhart & Ehrhart (2003) showed that changing the response instruction changes the test’s psychometric properties — both its reliability and the construct it measures.\nThe response instruction must be decided in advance, not chosen afterwards."
   },
   {
     "objectID": "slides/pertemuan5-en.html#how-it-is-scored",
@@ -4207,18 +4214,11 @@
     "text": "There is a way out\n\nBrown & Maydeu-Olivares (2011) showed that with IRT modelling, normative scores can be recovered from forced-choice responses.\nThe approach is called Thurstonian IRT, because it builds on Thurstone’s model of paired comparisons.\nSo the format remains usable — provided the analysis uses the right model rather than simple summing.\n\n\n\n\n\n\n\n\nNotice who reappears\n\n\nWe opened today with Thurstone and we close with Thurstone. A 1920s idea turns out to be what rescues the most problematic of the three formats."
   },
   {
-    "objectID": "slides/pertemuan5-en.html#the-honest-answer",
-    "href": "slides/pertemuan5-en.html#the-honest-answer",
+    "objectID": "slides/pertemuan5-en.html#all-three-are-unrealistic",
+    "href": "slides/pertemuan5-en.html#all-three-are-unrealistic",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
-    "section": "The honest answer",
-    "text": "The honest answer\n\nThurstone — not realistic. You would need a separate judge panel before data collection, and there is no time.\nSJT — not realistic this semester. Writing good scenarios and building a scoring key is a project in itself.\nForced-choice — buildable, but do not. The correct analysis of ipsative data is outside this course.\n\n\n\n\n\n\n\n\nSo why cover them?\n\n\nBecause you will encounter all three in practice — especially SJTs and forced-choice instruments, which are widely used in assessment and recruitment.\nWhat you should take from today is not the ability to build them, but the ability to judge whether such an instrument is being used properly."
-  },
-  {
-    "objectID": "slides/pertemuan5-en.html#but-one-thing-does-apply-to-you",
-    "href": "slides/pertemuan5-en.html#but-one-thing-does-apply-to-you",
-    "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
-    "section": "But one thing does apply to you",
-    "text": "But one thing does apply to you\n\nIn Session 2 you identified whether your group’s construct is vulnerable to social desirability.\nIf it is, you do not need to switch to forced-choice. What you should do is:\n\nstate it as a limitation in your report,\nwrite item stems that are not judgemental,\nand guarantee anonymity properly during the pilot.\n\n\n\n\n\n\n\n\n\nTip\n\n\nRecognising a threat and stating it openly is far better than adopting a complex format whose analysis you cannot carry out."
+    "section": "All three are unrealistic",
+    "text": "All three are unrealistic\n\nThurstone — not realistic. You would need a separate judge panel before data collection, and there is no time.\nSJT — not realistic this semester. Writing good scenarios and building a scoring key is a project in itself.\nForced-choice — not realistic. The correct analysis of ipsative data is outside the scope of this course.\n\n\n\n\n\n\n\n\nSo why cover them?\n\n\nBecause you will encounter all three in practice — especially SJTs and forced-choice instruments, which are widely used in assessment and recruitment.\nWhat you should take from today is not the ability to build them, but the ability to judge whether such an instrument is being used properly."
   },
   {
     "objectID": "slides/pertemuan5-en.html#part-1-be-a-thurstone-judge",
@@ -4282,6 +4282,20 @@
     "title": "Validity: Core Concepts and Implementation",
     "section": "The question still open",
     "text": "The question still open\n\nSession 6 gave us ways to compute consistency: \\(\\alpha\\), \\(\\omega\\), split-half.\nAll of those coefficients answer the same question: are the scores stable?\nNone of them answers: do the scores reflect what we intended?\n\n\n\n\n\n\n\n\nNote\n\n\nRecall the bathroom scale from Session 3. A scale that is always 2 kg out can be internally consistent. Internal consistency can never detect a systematic measurement error."
+  },
+  {
+    "objectID": "slides/pertemuan7-en.html#an-illustration-you-have-probably-seen-before",
+    "href": "slides/pertemuan7-en.html#an-illustration-you-have-probably-seen-before",
+    "title": "Validity: Core Concepts and Implementation",
+    "section": "An illustration you have probably seen before",
+    "text": "An illustration you have probably seen before\n\n\n\n\n\n\n\nA common illustration from psychological measurement textbooks."
+  },
+  {
+    "objectID": "slides/pertemuan7-en.html#why-this-illustration-is-factually-wrong",
+    "href": "slides/pertemuan7-en.html#why-this-illustration-is-factually-wrong",
+    "title": "Validity: Core Concepts and Implementation",
+    "section": "Why this illustration is factually wrong",
+    "text": "Why this illustration is factually wrong\n\nThe labels “Reliable” and “Valid” are attached to the target board itself — as if these were properties of the instrument. That is the same mistake as writing “this scale is valid.”\nThe “Valid, Not reliable” panel is also questionable, specifically for criterion validity: reliability sets an upper bound on the validity coefficient (recall the attenuation formula from Session 3, \\(r_{XY} \\leq \\sqrt{\\rho_{XX'} \\times \\rho_{YY'}}\\)). Inconsistent scores automatically cap how strongly they can correlate with any criterion.\n\n\n\n\n\n\n\n\nA more accurate reading\n\n\nHorizontal axis: consistency of the scores (reliability). Vertical axis: how well the scores track what you intend to measure (validity). Both are properties of scores for a given use, not something an instrument simply “has” or “lacks.”"
   },
   {
     "objectID": "slides/pertemuan7-en.html#the-formal-definition",
@@ -4449,7 +4463,7 @@
     "href": "slides/pertemuan7-en.html#the-attenuation-paradox",
     "title": "Validity: Core Concepts and Implementation",
     "section": "The attenuation paradox",
-    "text": "The attenuation paradox\n\nLoevinger (1954) showed that beyond a certain point, raising internal consistency actually lowers validity.\nThe reason is visible in the earlier figure. The easiest way to raise \\(\\alpha\\) is to write items that resemble one another.\nItems that resemble one another cover one small corner of the construct very tightly and leave the rest untouched. That is construct underrepresentation.\n\n\n\n\n\n\n\n\nAn example\n\n\nThese ten items would produce a very high \\(\\alpha\\): “I feel sad”, “I often feel down”, “My mood is frequently low”, and so on.\nThat scale measures sad mood very consistently — and does not measure sleep disturbance, loss of interest, guilt, or appetite change at all."
+    "text": "The attenuation paradox\n\nLoevinger (1954) showed that beyond a certain point, raising internal consistency actually lowers validity.\nThe reason: the easiest way to raise \\(\\alpha\\) is to write items that resemble one another, and that is exactly the strategy that weakens validity.\nItems that resemble one another cover one small corner of the construct very tightly and leave the rest untouched. That is construct underrepresentation.\n\n\n\n\n\n\n\n\nAn example\n\n\nThese ten items would produce a very high \\(\\alpha\\): “I feel sad”, “I often feel down”, “My mood is frequently low”, and so on.\nThat scale measures sad mood very consistently — and does not measure sleep disturbance, loss of interest, guilt, or appetite change at all."
   },
   {
     "objectID": "slides/pertemuan7-en.html#the-conclusion",
@@ -4463,7 +4477,7 @@
     "href": "slides/pertemuan7-en.html#what-is-realistic-this-semester",
     "title": "Validity: Core Concepts and Implementation",
     "section": "What is realistic this semester",
-    "text": "What is realistic this semester\n\n\n\n\n\n\n\n\nSource of evidence\nWhen\nHow\n\n\n\n\nContent\nS11\nCVI from an expert panel\n\n\nResponse processes\nBefore S12\nCognitive interviews, 3–5 people\n\n\nInternal structure\nS13\nFactor analysis + reliability per dimension\n\n\nRelations to other variables\nS12\nInclude one short established scale\n\n\nConsequences\nS14\nLimits of use, stated in the manual\n\n\n\n\n\n\n\n\n\n\nTip\n\n\nThese five rows are the skeleton of the validity section of your final report. If you cannot do one of them, say that you did not do it — that is far better than leaving it unmentioned."
+    "text": "What is realistic this semester\n\n\n\n\n\n\n\n\nSource of evidence\nWhen\nHow\n\n\n\n\nContent\nS11\nCVI from an expert panel\n\n\nResponse processes\nBefore S12\nCognitive interviews, 3–5 people\n\n\nInternal structure\nS13\nFactor analysis + reliability per dimension\n\n\nRelations to other variables\nS12\nInclude one short established scale\n\n\nConsequences\nS14\nLimits of use, stated in the manual"
   },
   {
     "objectID": "slides/pertemuan7-en.html#part-1-assessing-claims",
@@ -4498,7 +4512,7 @@
     "href": "slides/pertemuan7-en.html#after-the-midterm",
     "title": "Validity: Core Concepts and Implementation",
     "section": "After the midterm",
-    "text": "After the midterm\n\nSession 9 — the project begins: defining the construct and the estimand, from literature review to operational definition.\nSession 10 — building the blueprint and writing items.\nSession 11 onward — with Dian, in a different room, on a different day and time. Check the schedule again.\n\n\n\n\n\n\n\n\nNote\n\n\nFrom Session 9 onward, everything from the first half turns into decisions you have to make yourselves."
+    "text": "After the midterm\n\nSession 9 — the project begins: defining the construct and the estimand, from literature review to operational definition.\nSession 10 — building the blueprint and writing items.\n\n\n\n\n\n\n\n\nNote\n\n\nFrom Session 9 onward, everything from the first half turns into decisions you have to make yourselves."
   },
   {
     "objectID": "slides/pertemuan7-en.html#any-questions",
@@ -4533,7 +4547,7 @@
     "href": "slides/pertemuan10-en.html#what-a-blueprint-does",
     "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
     "section": "What a blueprint does",
-    "text": "What a blueprint does\n\nIt links facets of the construct to the number of items representing each one.\nIts job is to keep content coverage aligned with your definition, rather than with whichever facet is easiest to write items for.\nThis is the earliest form of the content evidence discussed in Session 7.\n\n\n\n\n\n\n\n\nNote\n\n\nWithout a blueprint, the same thing happens almost every time: the facet that is easiest to picture gets ten items, while the difficult one gets two."
+    "text": "What a blueprint does\n\nIt links facets of the construct to the number of items representing each one.\nIts job is to keep content coverage aligned with your definition, rather than with whichever facet is easiest to write items for.\n\n\n\n\n\n\n\n\nNote\n\n\nWithout a blueprint, the same thing happens almost every time: the facet that is easiest to picture gets ten items, while the difficult one gets two."
   },
   {
     "objectID": "slides/pertemuan10-en.html#an-example-blueprint",
@@ -4554,7 +4568,7 @@
     "href": "slides/pertemuan10-en.html#spread-the-items-out",
     "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
     "section": "Spread the items out",
-    "text": "Spread the items out\n\nRecall the discussion of item difficulty in Session 3: items should be spread across the range of the construct.\nFor each facet, write some items that are easy to endorse (indicating a low level) and some that are hard to endorse (indicating a high level).\nIf every item describes a severe level, respondents at moderate levels will not be distinguished from one another.\n\n\n\n\n\n\n\n\nWarning\n\n\nThis is also what prevents the ceiling and floor effects that will show up immediately in the score distribution in Session 13."
+    "text": "Spread the items out\n\nRecall the discussion of item difficulty in Session 3: items should be spread across the range of the construct.\nFor each facet, write some items that are easy to endorse (indicating a low level) and some that are hard to endorse (indicating a high level).\nIf every item describes a severe level, respondents at moderate levels will not be distinguished from one another.\n\n\n\n\n\n\n\n\nTip\n\n\nThis is also what prevents the ceiling and floor effects that will show up immediately in the score distribution in Session 13."
   },
   {
     "objectID": "slides/pertemuan10-en.html#one-item-one-idea",
@@ -4652,7 +4666,7 @@
     "href": "slides/pertemuan10-en.html#this-is-not-a-formality",
     "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
     "section": "This is not a formality",
-    "text": "This is not a formality\n\nPershing & Pershing (2001) examined 50 training-evaluation forms used at a well-regarded medical school.\n72% had no introductory statement at all. 78% had no closing statement. 30% had no instructions, and another 54% had minimal ones.\nOnly 8% were professional in appearance.\n\n\n\n\n\n\n\n\nWarning\n\n\nA cluttered questionnaire reduces respondent engagement, and that feeds directly into the reliability and validity of your scores. This is not about aesthetics."
+    "text": "This is not a formality\n\nPershing & Pershing (2001) examined 50 training-evaluation forms used at a well-regarded medical school.\n72% had no introductory statement at all. 78% had no closing statement. 30% had no instructions, and another 54% had minimal ones.\nOnly 8% were professional in appearance.\n\n\n\n\n\n\n\n\nWarning\n\n\nA cluttered questionnaire reduces respondent engagement, and that feeds directly into the reliability and validity of your scores."
   },
   {
     "objectID": "slides/pertemuan10-en.html#layout",

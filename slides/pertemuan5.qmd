@@ -72,7 +72,7 @@ Tiga format yang masing-masing **menolak** ketiga asumsi ini.
 
 ::: {.callout-warning}
 ### Perlu diingat
-Ketiganya kelihatannya menarik secara konseptual, tetapi **jauh lebih sulit dikerjakan** daripada Likert, dan dua di antaranya berlawanan dengan asumsi yang kita bangun di Pertemuan 3.
+Ketiganya kelihatannya menarik secara konseptual, tetapi **jauh lebih sulit dikembangkan** daripada Likert, dan dua di antaranya berlawanan dengan asumsi yang kita bangun di Pertemuan 3.
 :::
 
 # Thurstone {background-color="#14497F" .center}
@@ -96,6 +96,7 @@ Analogi dari DeVellis & Thorpe (2022), Bab 5.
 . . .
 
 ::: {.callout-tip}
+### Tips
 Bandingkan dengan Likert, di mana semua item pada dasarnya adalah **detektor yang sama** dan yang berbeda hanya derajat pilihan responnya.
 :::
 
@@ -119,7 +120,7 @@ Bandingkan dengan Likert, di mana semua item pada dasarnya adalah **detektor yan
 
 ![](libs/thurstone-scale-values.svg){.nostretch fig-align="center" width="80%"}
 
-## Membaca gambar tadi
+## Membaca ilustrasi sebelumnya
 
 ::: {.incremental}
 
@@ -146,7 +147,7 @@ Kita sudah menentukan "tingkat kesulitan" tiap item **sebelum partisipan mengisi
 
 * Skor responden adalah **rata-rata nilai skala dari pernyataan yang ia setujui**.
 
-* Jadi orang yang menyetujui pernyataan dengan nilai skala 8,5 dan 10,5 mendapat skor 9,5 — tanpa perlu menjumlahkan apa pun.
+* Jadi orang yang menyetujui pernyataan dengan nilai skala 8.5 dan 10.5 mendapat skor 9.5 — tanpa perlu menjumlahkan apa pun.
 
 :::
 
@@ -224,7 +225,9 @@ Jadi Anda akan mengerjakan versi Thurstone tanpa menyadarinya.
 | C | Meminta perpanjangan waktu kepada dosen | 1–5 |
 | D | Menyerahkan tugas apa adanya dan menuliskan siapa yang tidak berkontribusi | 1–5 |
 
-## Satu perubahan kecil yang mengubah segalanya
+: {tbl-colwidths="[8,77,15]"}
+
+## Perhatikan perbedaannya
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -254,8 +257,8 @@ Lebih tahan terhadap pemolesan.
 . . .
 
 ::: {.callout-warning}
-#### Ini bukan perbedaan kosmetik
-Ployhart & Ehrhart (2003) menunjukkan bahwa **mengganti instruksi respons mengubah properti psikometrik tesnya** — reliabilitas maupun konstruk yang terukur.
+#### Ini perbendaan ynag mendasar
+[Ployhart & Ehrhart (2003)](https://onlinelibrary.wiley.com/doi/abs/10.1111/1468-2389.00222) menunjukkan bahwa **mengganti instruksi respons mengubah properti psikometrik tesnya** — reliabilitas maupun konstruk yang terukur.
 
 Instruksi respons harus Anda tetapkan lebih dulu, bukan dipilih belakangan.
 :::
@@ -296,7 +299,7 @@ Perhatikan bahwa dua yang pertama **membutuhkan panel**, persis seperti Thurston
 
 * SJT hampir selalu **multidimensional**. Satu skenario bisa sekaligus melibatkan pengetahuan, kepribadian, dan penalaran.
 
-* Akibatnya, konsistensi internalnya sering **rendah** — dan itu **memang seharusnya begitu**.
+* Akibatnya, konsistensi internalnya sering **rendah**.
 
 * Ini melanggar asumsi unidimensionalitas dari Pertemuan 2, dan membuat model CTT di Pertemuan 3 tidak cocok diterapkan apa adanya.
 
@@ -365,17 +368,17 @@ Contoh klasiknya adalah *Edwards Personal Preference Schedule* (Edwards, 1959), 
 
 ::: {.incremental}
 
-* Pasangan pernyataan harus **disetarakan tingkat kemenarikannya** lebih dulu — dan itu perlu penelitian pendahuluan tersendiri.
+* Pasangan pernyataan harus **disetarakan tingkat kemenarikannya** lebih dulu — dan ini membutuhkan penelitian pendahuluan tersendiri.
 
 * Kalau tidak disetarakan, format ini **tidak menyelesaikan apa pun**: responden akan tetap memilih yang terdengar lebih baik.
 
-* Menyetarakan kemenarikan sama saja dengan mengkalibrasi item — sekali lagi, pekerjaan bergaya Thurstone.
+* Menyetarakan kemenarikan sama saja dengan mengkalibrasi item — sekali lagi, mirip dengan Thurstone.
 
 :::
 
 # Ipsativitas {background-color="#14497F" .center}
 
-## Harga yang harus dibayar
+## Risiko yang harus diterima
 
 ::: {.incremental}
 
@@ -398,7 +401,7 @@ Pada data ipsatif, skor menjawab pertanyaan *"dari semua hal ini, mana yang pali
 
 ::: {.incremental}
 
-* Karena totalnya dipaksa konstan, **korelasi antar-skala dipaksa menjadi negatif** — bahkan kalau konstruk yang sesungguhnya sama sekali tidak berhubungan.
+* Karena skor totalnya dipaksa konstan, **korelasi antar-skala dipaksa menjadi negatif** — bahkan kalau konstruk yang sesungguhnya sama sekali tidak berhubungan.
 
 * Untuk instrumen ipsatif dengan $k$ skala, rata-rata korelasi antar-skalanya adalah:
 
@@ -417,16 +420,16 @@ $$\bar{r} = -\frac{1}{k-1}$$
 . . .
 
 ::: {.callout-warning}
-Angka-angka itu **muncul dari formatnya**, bukan dari psikologi respondennya.
+Angka-angka itu **muncul dari formatnya**, bukan dari proses psikologis partisipannya.
 :::
 
 ## Akibat lanjutannya
 
 ::: {.incremental}
 
-* **Perbandingan antar-orang jadi tidak sah.** Skor 8 pada skala ketelitian milik A tidak bisa langsung dibandingkan dengan skor 8 milik B.
+* **Perbandingan antar-orang menjadi tidak memungkinkan.** Skor 8 pada skala ketelitian milik A tidak bisa langsung dibandingkan dengan skor 8 milik B.
 
-* **Analisis faktor menjadi menyesatkan**, karena struktur korelasinya sudah dirusak lebih dulu oleh formatnya.
+* **Analisis faktor menjadi menyesatkan**, karena struktur korelasinya sudah diganggu lebih dulu oleh formatnya.
 
 * **Koefisien reliabilitas klasik jadi sulit ditafsirkan** — model CTT di Pertemuan 3 mengandaikan skor yang bebas bergerak, dan di sini skornya tidak bebas.
 
@@ -447,7 +450,7 @@ Instrumen ipsatif **tidak boleh** dipakai untuk seleksi, pemeringkatan, atau per
 
 ::: {.incremental}
 
-* Brown & Maydeu-Olivares (2011) menunjukkan bahwa dengan pemodelan **IRT**, skor normatif bisa dipulihkan dari respons *forced-choice*.
+* [Brown & Maydeu-Olivares (2011)](https://journals.sagepub.com/doi/abs/10.1177/0013164410375112) menunjukkan bahwa dengan pemodelan **IRT**, skor normatif bisa dipulihkan dari respons *forced-choice*.
 
 * Pendekatannya disebut ***Thurstonian IRT***, karena berangkat dari model Thurstone tentang perbandingan berpasangan.
 
@@ -459,12 +462,12 @@ Instrumen ipsatif **tidak boleh** dipakai untuk seleksi, pemeringkatan, atau per
 
 ::: {.callout-tip}
 #### Perhatikan siapa yang muncul lagi
-Kita membuka hari ini dengan Thurstone, dan menutupnya dengan Thurstone. Gagasan tahun 1920-an itu ternyata yang menyelamatkan format yang paling bermasalah di antara ketiganya.
+Kita membuka hari ini dengan Thurstone, dan menutupnya dengan Thurstone. Ide Thurstone di tahun 1920-an itu ternyata yang menjadi solusi untuk masalah ini.
 :::
 
 # Apa yang realistis untuk proyek Anda {background-color="#14497F" .center}
 
-## Jawaban jujurnya
+## Ketiganya tidak realistis
 
 ::: {.incremental}
 
@@ -472,7 +475,7 @@ Kita membuka hari ini dengan Thurstone, dan menutupnya dengan Thurstone. Gagasan
 
 * **SJT** — tidak realistis untuk semester ini. Menulis skenario yang baik dan menyusun kunci jawabannya adalah proyek tersendiri.
 
-* ***Forced-choice*** — bisa dibuat, tetapi **jangan**. Analisis yang benar untuk data ipsatif berada di luar cakupan mata kuliah ini.
+* ***Forced-choice*** — tidak realistis. Analisis yang benar untuk data ipsatif berada di luar cakupan mata kuliah ini.
 
 :::
 
@@ -480,28 +483,9 @@ Kita membuka hari ini dengan Thurstone, dan menutupnya dengan Thurstone. Gagasan
 
 ::: {.callout-note}
 #### Jadi kenapa kita membahasnya?
-Karena Anda akan **menemui ketiganya** dalam praktik — terutama SJT dan *forced-choice*, yang banyak dipakai dalam asesmen dan seleksi kerja di Indonesia.
+Karena Anda akan **menemui ketiganya** dalam praktiknya, terutama SJT dan *forced-choice*, yang banyak dipakai dalam asesmen dan seleksi kerja di Indonesia.
 
-Yang perlu Anda bawa dari hari ini bukan kemampuan membuatnya, melainkan kemampuan **menilai apakah alat semacam itu dipakai secara benar**.
-:::
-
-## Tetapi satu hal tetap berlaku untuk Anda
-
-::: {.incremental}
-
-* Di Pertemuan 2 Anda sudah mengidentifikasi apakah konstruk kelompok Anda **rawan *social desirability***.
-
-* Kalau jawabannya ya, Anda **tidak** perlu beralih ke *forced-choice*. Yang perlu Anda lakukan adalah:
-  - menuliskannya sebagai keterbatasan di laporan,
-  - memilih kalimat item yang tidak menghakimi,
-  - dan menjamin anonimitas dengan sungguh-sungguh saat uji coba.
-
-:::
-
-. . .
-
-::: {.callout-tip}
-Menyadari ancaman dan menuliskannya secara terbuka jauh lebih baik daripada memakai format rumit yang analisisnya tidak Anda kuasai.
+Yang perlu Anda pelajari hari ini bukan kemampuan membuatnya, melainkan kemampuan **menilai apakah alat semacam ini dipakai secara benar**.
 :::
 
 # Demo dan latihan {background-color="#14497F" .center}

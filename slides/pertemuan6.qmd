@@ -240,9 +240,9 @@ $\alpha$ bukan koefisien istimewa. Ia adalah **rata-rata dari seluruh kemungkina
 
 $$\alpha = \frac{k\bar{r}}{1 + (k-1)\bar{r}}$$
 
-* Skala Extraversion: $\bar{r} = 0{,}45$ dengan 10 item, menghasilkan $\alpha = 0{.}89$.
+* Skala Extraversion: $\bar{r} = 0{.}45$ dengan 10 item, menghasilkan $\alpha = 0{.}89$.
 
-* Perhatikan kurva paling bawah: dengan $\bar{r} = 0{,}10$, Anda butuh **lebih dari 35 item** untuk menembus 0.80.
+* Perhatikan kurva paling bawah: dengan $\bar{r} = 0{.}10$, Anda butuh **lebih dari 35 item** untuk mencapai 0.80.
 
 :::
 
@@ -250,7 +250,7 @@ $$\alpha = \frac{k\bar{r}}{1 + (k-1)\bar{r}}$$
 
 ::: {.callout-warning}
 #### Konsekuensi yang perlu diperhatikan
-Karena $k$ ikut menentukan, **$\alpha$ yang tinggi bisa dibeli hanya dengan menambah item**. Anda tidak perlu item yang lebih baik; cukup item yang lebih banyak.
+Karena $k$ ikut menentukan, **$\alpha$ yang tinggi bisa dicapai hanya dengan menambah item**. Anda tidak perlu item yang lebih baik; cukup item yang lebih banyak.
 :::
 
 ## Proyeksi Spearman-Brown pada skala IPIP
@@ -368,7 +368,7 @@ $\alpha = 0{.}616$ tetapi $\omega = 0{.}151$
 
 * Pada campuran dua subskala ini, jawabannya nyaris tidak ada, karena memang tidak ada satu faktor umum di sana.
 
-* Kesimpulannsa
+* Kesimpulannya
   + $\alpha$ = 0.616 artinya *"item-item ini saling berkorelasi"*
   + $\omega$ = 0.151 artinya *"item-item ini **tidak** mengukur satu konstruk yang sama"*
  
@@ -452,7 +452,7 @@ Hitung **keduanya**. Kalau $\alpha$ dan $\omega$ berdekatan, Anda punya bukti ta
 
 # Ketepatan pada tingkat individu {background-color="#14497F" .center}
 
-## SEM dengan angka yang nyata
+## *Standard error of measurement* (SEM) pada dataset IPIP
 
 Skala Extraversion IPIP: $\sigma_X = 9{.}22$ dan $\alpha = 0{.}892$.
 
@@ -571,7 +571,7 @@ Pada set campuran tadi, *eigenvalue*-nya 3.53 dan 2.23 — dua-duanya besar. Itu
 
 # Apa yang sebaiknya Anda laporkan {background-color="#14497F" .center}
 
-## Daftar minimum
+## *Checklist*
 
 ::: {.incremental}
 

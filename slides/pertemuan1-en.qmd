@@ -139,7 +139,6 @@ Note that this is a **normative** question ("deserve"), not a technical one. The
 
 * A dishonest scale was treated as a moral failing, not merely a technical one — a concern that recurs across religious traditions.
   + **Qur'an, Al-Muttaffifin 1–3** — condemns those who demand full measure from others but give less when they weigh or measure for others.
-  + **Qur'an, Al-Isra' 35** — instructs believers to give full measure and to weigh with an even balance.
   + **Qur'an, Al-An'am 152** — commands giving full measure and weight, in justice.
   + **Proverbs 11:1** — *"A false balance is an abomination to the Lord, but a just weight is a delight."*
 
@@ -232,7 +231,7 @@ Bernoulli's comparison describes what we will later call ***random error***, and
 
 ::: {.callout-warning}
 #### An inheritance that is not neutral
-Many early contributors to psychometrics worked within a **[eugenics](https://www.genome.gov/about-genomics/fact-sheets/Eugenics-and-Scientific-Racism)** framework. We still use their statistical tools today, **BUT** we **cannot obliged to inherit** the political assumptions behind them. Knowing this history is part of being critical about the theories we use.
+Many early contributors to psychometrics worked within a **[eugenics](https://www.genome.gov/about-genomics/fact-sheets/Eugenics-and-Scientific-Racism)** framework. We still use their statistical tools today, but we are **not obligated to carry forward** the political assumptions and consequences behind them (e.g., forced sterilization or restricted reproduction for groups deemed "inferior", among others). Knowing this history is part of being critical about the theories we use.
 :::
 
 ## When psychology was declared unmeasurable

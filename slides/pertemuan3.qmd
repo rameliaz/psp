@@ -28,7 +28,7 @@ execute:
 * Apa sebenarnya arti *true score* dan kenapa ia **bukan** "nilai konstruk yang sesungguhnya"
 * Konsekuensi CTT: jumlah item, atenuasi, dan ketergantungan pada sampel
 * Keluarga model dalam CTT: *parallel*, *tau-equivalent*, *congeneric*
-* Sekilas ***Item Response Theory*** dan apa yang ditawarkannya
+* Sekilas ***Item Response Theory*** dan apa perbaikan yang ditawarkannya
 
 :::
 
@@ -41,7 +41,7 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 
 # Dari asumsi ke model {background-color="#14497F" .center}
 
-## Posisi Anda saat ini
+## Apa yang sudah Anda pelajari
 
 ::: {.incremental}
 
@@ -110,6 +110,9 @@ Nama konstruk Anda harus mencerminkan **siapa yang datanya diambil** (e.g., *est
 
 ## Variabel laten sebagai *penyebab*
 
+::: {.columns}
+::: {.column width="70%"}
+
 ::: {.incremental}
 
 * Intinya: **kekuatan variabel laten menyebabkan item punya skor tertentu.**
@@ -130,6 +133,15 @@ Kalau satu sebab yang sama menyebabkan sepuluh item, maka kesepuluh item itu **h
 Korelasi antar-item bisa kita hitung. Variabel latennya tidak. Jadi korelasi antar-item adalah **satu-satunya pintu masuk** untuk mengestimasi sesuatu yang tidak bisa kita amati.
 :::
 
+
+:::
+::: {.column width="30%"}
+
+![](libs/reflektif.png){fig-align="center" width="60%"}
+
+:::
+:::
+
 ## Asumsi ini memungkinkan analisis item
 
 ::: {.incremental}
@@ -145,7 +157,8 @@ Korelasi antar-item bisa kita hitung. Variabel latennya tidak. Jadi korelasi ant
 . . .
 
 ::: {.callout-note}
-Prosedur yang akan Anda jalankan di Pertemuan 13 — *corrected item-total correlation*, membuang item yang lemah — seluruhnya bersandar pada logika ini.
+### Penting diingat
+Prosedur yang akan Anda jalankan di Pertemuan 13 — *corrected item-total correlation*, membuang item yang korelasinya lemah — seluruhnya bersandar pada logika ini.
 :::
 
 # Classical Test Theory {background-color="#14497F" .center}
@@ -218,25 +231,25 @@ $$\rho_{XX'} = \frac{\sigma^2_T}{\sigma^2_X} = \frac{\sigma^2_T}{\sigma^2_T + \s
 
 * Nilainya antara 0 dan 1, karena ini sebuah proporsi.
 
-* $\rho = 0{,}80$ berarti **80% variasi skor** berasal dari perbedaan yang sesungguhnya antar-orang, dan 20% dari *error*.
+* $\rho = 0{.}80$ berarti **80% variasi skor** berasal dari perbedaan yang sesungguhnya antar-orang, dan 20% dari *error*.
 
 * Perhatikan bahwa ini definisi tentang **seberapa konsisten** skornya, bukan tentang seberapa "benar" skor tersebut mewakili objek ukurnya.
 
 :::
 
-## Contoh terhitung
+## Contoh
 
-Misalkan skala Anda punya standar deviasi skor total $\sigma_X = 5$, sehingga $\sigma^2_X = 25$. Reliabilitasnya $\rho = 0{,}80$.
+Misalkan skala Anda punya standar deviasi skor total $\sigma_X = 5$, sehingga $\sigma^2_X = 25$. Reliabilitasnya $\rho = 0{.}80$.
 
 . . .
 
-$$\sigma^2_T = 0{,}80 \times 25 = 20 \qquad \sigma^2_E = 25 - 20 = 5$$
+$$\sigma^2_T = 0{.}80 \times 25 = 20 \qquad \sigma^2_E = 25 - 20 = 5$$
 
 . . .
 
 ***Standard error of measurement*** (SEM), yaitu standar deviasi dari *error*:
 
-$$SEM = \sigma_X\sqrt{1-\rho} = 5\sqrt{0{,}20} = 2{,}24$$
+$$SEM = \sigma_X\sqrt{1-\rho} = 5\sqrt{0{.}20} = 2{.}24$$
 
 . . .
 
@@ -244,7 +257,7 @@ $$SEM = \sigma_X\sqrt{1-\rho} = 5\sqrt{0{,}20} = 2{,}24$$
 #### Kenapa angka ini berguna
 Seseorang yang mendapat skor **30** sebenarnya berada di suatu rentang, bukan di satu titik. Dengan tingkat kepercayaan 95%:
 
-$$30 \pm 1{,}96 \times 2{,}24 \;\approx\; 25{,}6 \text{ sampai } 34{,}4$$
+$$30 \pm 1{.}96 \times 2{.}24 \;\approx\; 25{.}6 \text{ sampai } 34{.}4$$
 :::
 
 ## Apa artinya rentang ini
@@ -253,7 +266,7 @@ $$30 \pm 1{,}96 \times 2{,}24 \;\approx\; 25{,}6 \text{ sampai } 34{,}4$$
 
 * Dua orang dengan skor **30** dan **33** **tidak bisa** kita katakan berbeda. Rentang keduanya bertumpang tindih hampir seluruhnya.
 
-* Padahal skala dengan $\rho = 0{,}80$ sudah tergolong baik menurut kriteria yang lazim dipakai.
+* Padahal skala dengan $\rho = 0{.}80$ sudah tergolong baik menurut kriteria yang lazim dipakai.
 
 * Semakin rendah reliabilitasnya, semakin lebar rentangnya, dan semakin sedikit yang bisa kita simpulkan tentang kondisi psikologis seseorang.
 
@@ -432,7 +445,7 @@ $$r_{XY} = \rho_{T_X T_Y} \times \sqrt{\rho_{XX'} \times \rho_{YY'}}$$
 
 ::: {.incremental}
 
-* Sekarang asalnya jelas: yang kita korelasikan adalah $X$, dan $X$ mengandung $E$.
+* Sekarang asalnya jelas: yang kita korelasikan adalah $X$ sedangkan $X$ mengandung $E$.
 
 * Bagian $E$ tidak berkorelasi dengan apa pun, menurut asumsi kedua CTT.
 
@@ -443,7 +456,8 @@ $$r_{XY} = \rho_{T_X T_Y} \times \sqrt{\rho_{XX'} \times \rho_{YY'}}$$
 . . .
 
 ::: {.callout-tip}
-Semakin besar porsi *noise* dalam skor Anda, semakin kecil semua korelasi yang Anda laporkan. 
+### Kesimpulannya
+Semakin besar porsi *noise*/*error* pengukuran dalam skor kasar Anda, semakin kecil koefisien korelasi yang Anda laporkan. 
 :::
 
 ## Kelemahan CTT yang paling serius
@@ -481,23 +495,17 @@ Reliabilitas yang Anda laporkan **bukan sifat alat ukur Anda semata** — ia jug
 
 :::
 
-. . .
-
-::: {.callout-note}
-Inilah masalah yang ingin dipecahkan oleh *Item Response Theory*. Kita bahas di bagian terakhir.
-:::
-
 # Keluarga model dalam CTT {background-color="#14497F" .center}
 
 ## Tiga model pengukuran
 
-![](libs/model-pengukuran.svg){fig-align="center" width="78%"}
+![](libs/model-pengukuran.svg){fig-align="center" width="70%"}
 
 ::: aside
 Angka **1** menandai *reference indicator*; huruf **a** menandai *loading* yang dibatasi agar sama; huruf **b** menandai varians *error* yang dibatasi agar sama; $\lambda_2, \lambda_3$ menandai *loading* yang bebas (boleh berbeda satu sama lain) pada model *congeneric*.
 :::
 
-## Apa bedanya
+## Apa perbedaan tiga model tadi
 
 ::: {.incremental}
 
@@ -602,7 +610,7 @@ Setiap item **sensitif pada bagian tertentu** dari rentang konstruk. IRT membuat
 
 ## Kurva karakteristik item (*item characteristic curve*)
 
-![](libs/icc-kesulitan.svg){.nostretch fig-align="center" width="70%"}
+![](libs/icc-kesulitan.svg){.nostretch fig-align="center" width="65%"}
 
 ::: {.incremental}
 
@@ -627,7 +635,7 @@ Setiap item **sensitif pada bagian tertentu** dari rentang konstruk. IRT membuat
 . . .
 
 ::: {.callout-warning}
-#### Kelemahan yang sering luput
+#### Kesalahan yang sering dilupakan
 Kalau semua item Anda "mudah", skala Anda tidak bisa membedakan orang di ujung atas. Semuanya akan mendapat skor mendekati maksimum. Ini disebut ***ceiling effect***, dan tidak akan terdeteksi oleh $\alpha$ yang tinggi.
 :::
 
@@ -637,9 +645,9 @@ Kalau semua item Anda "mudah", skala Anda tidak bisa membedakan orang di ujung a
 
 ::: {.incremental}
 
-* Kurva **Item D** curam: perubahan kecil pada $\theta$ langsung mengubah peluang menyetujuinya. Item ini **membedakan orang dengan tajam**.
+* Kurva **Item D** curam: perubahan kecil pada $\theta$ langsung mengubah peluang menyetujuinya. Item ini **membedakan orang dengan lebih presisi**.
 
-* Kurva **Item E** landai: peluangnya berubah pelan. Item ini hampir tidak membedakan siapa pun.
+* Kurva **Item E** landai: peluangnya berubah pelan. Item ini hampir tidak dapat membedakan siapapun.
 
 :::
 
@@ -661,12 +669,6 @@ Dalam CTT, padanan terdekat dari daya diskriminasi adalah **korelasi item dengan
 
 * Untuk item Likert yang pilihan jawabannya berjenjang, dipakai model politomus (*polytomous*) seperti ***Graded Response Model***.
 
-:::
-
-. . .
-
-::: {.callout-note}
-IRT lebih tepat disebut **keluarga model**, bukan satu prosedur tunggal.
 :::
 
 ## Apa yang disyaratkan IRT
@@ -694,7 +696,7 @@ Dua asumsi pertama itu persis asumsi nomor 4 dari Pertemuan 2. IRT **tidak mengh
 
 * **Ukuran sampel.** Uji coba yang realistis bagi kelompok Anda semester ini belum cukup besar untuk mengalibrasi parameter IRT secara stabil.
 
-* **Perangkat lunak.** Kita memakai jamovi, dan alur kerja CTT di sana jauh lebih sederhana untuk dipelajari dalam satu semester.
+* **Perangkat lunak.** Kita akan memakai `jamovi`, dan alur kerja CTT di sana jauh lebih sederhana untuk dipelajari dalam satu semester.
 
 * **Hasilnya tetap baik.** Untuk penyusunan skala Likert dengan tujuan penelitian, metode klasik sudah memadai.
 
@@ -791,7 +793,7 @@ Kita turun ke tingkat yang paling konkrit: **format respons**.
 . . .
 
 ::: {.callout-tip}
-#### Persiapan
+#### Persiapan untuk pertemuan minggu depan
 Baca **DeVellis & Thorpe (2022), Bab 5** bagian tentang format respons. Kalau ingin melihat versi formal dari materi hari ini, Bab 3 buku yang sama membahas reliabilitas secara lengkap.
 :::
 

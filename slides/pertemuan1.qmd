@@ -139,7 +139,6 @@ Perhatikan bahwa ini pertanyaan **normatif** ("layak") sangat berbeda dengan per
 
 * Timbangan yang curang adalah persoalan moral.
   + **QS. Al Muthoffifin: 1-3** — “*Kecelakaan besarlah bagi orang-orang yang curang (yaitu) orang-orang yang apabila menerima takaran dari orang lain mereka minta dipenuhi dan apabila mereka menakar atau menimbang untuk orang lain, mereka mengurangi.*”
-  + **QS. Al Isra’: 35** — “*Dan sempurnakanlah takaran apabila kamu menakar, dan timbanglah dengan neraca yang benar. Itulah yang lebih utama (bagimu) dan lebih baik akibatnya.*”
   + **QS. Al An’am: 152** - “*Dan sempurnakanlah takaran dan timbangan dengan adil. Kami tidak memikulkan beban kepada sesorang melainkan sekedar kesanggupannya.*”
   + **Kitab Amsal 11:1** — *"A false balance is an abomination to the Lord, but a just weight is a delight."* 
 
@@ -166,7 +165,7 @@ Semuanya soal **keadilan**, bukan soal akurasi ilmiah. Sejak awal, pengukuran ad
 
 :::
 
-## *Error* dan penilaian moral
+## *Error* pengukuran dan penilaian moral
 
 > [17th- and early 18th-century scientists'] way of working regarded differences not as the inevitable byproducts of the measuring process itself, but as evidence of failed or inadequate skill. Error in measurement was potentially little different from faulty behavior of any kind: it could have moral consequences.
 >
@@ -319,10 +318,10 @@ Apakah atribut psikologis (kecemasan, kepribadian, motivasi) **benar-benar kuant
 
 ::: {.callout-tip}
 #### Sikap yang kita latih di mata kuliah ini
-Bukan "menolak psikometri", dan juga bukan "menerimanya bulat-bulat". Melainkan: **tahu persis asumsi apa yang sedang saya pakai, dan apa akibatnya kalau asumsi itu salah.**
+Bukan "menolak teori psikometri mentah-mentah", dan juga bukan "menerimanya bulat-bulat". Melainkan: **tahu persis asumsi apa yang sedang saya pakai, dan apa akibatnya kalau asumsi itu salah.**
 :::
 
-## Pengukuran vs asesmen
+## Pengukuran vs. asesmen
 
 :::: {.columns}
 ::: {.column width="50%"}

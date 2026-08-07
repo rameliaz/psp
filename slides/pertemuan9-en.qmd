@@ -25,7 +25,7 @@ execute:
 * What your group has to produce today
 * The kind of **literature review** that helps scale construction (and the kind that does not)
 * How to write a **construct definition** you can actually use
-* **Construct boundary**: what is excluded, and neighbouring constructs
+* **Construct boundary**: what is excluded, and sibling constructs
 * **Estimand**: which quantity, in whom, under what conditions
 * From construct definition to **operational definition**
 
@@ -74,7 +74,7 @@ We used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate referen
 
 ::: {.incremental}
 
-* You are **not** summarising all the research on the construct.
+* You are **not** summarising all the research on the construct you have chosen.
 
 * What you are looking for is narrow: **how other people define this construct**, and where those definitions differ from one another.
 
@@ -89,7 +89,7 @@ We used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate referen
 Make a three-column table: **source**, **definition (quoted exactly)**, **what it emphasises**. Do not paraphrase yet — the differences between definitions often lie in the exact wording.
 :::
 
-## What to look for in that table
+## What to look for in the table
 
 ::: {.incremental}
 
@@ -193,7 +193,7 @@ Measures relate most strongly to each other when their **levels of specificity m
 Write two lists side by side: **included** and **excluded**. Fill both with concrete examples, not abstract categories.
 :::
 
-## [*Neighbouring constructs*](https://doi.org/10.1177/10888683211047101)
+## [*Sibling construct*](https://doi.org/10.1177/10888683211047101)
 
 ::: {.incremental}
 
@@ -243,7 +243,7 @@ The terms come from Thorndike (1904) and Kelley (1927).
 
 ::: {.incremental}
 
-1. **Which quantity?** A person's level of the attribute? Their standing relative to others? The presence or absence of a condition?
+1. **What is the attribute called?** A person's level of it? Their standing relative to others? The presence or absence of a condition?
 
 2. **In whom?** The target population must be named specifically — not "the public", but for instance "enrolled undergraduates in Surabaya, aged 18–24".
 
@@ -296,7 +296,7 @@ This sentence is the hardest part of today's work. If your group can write it cl
 
 :::
 
-## A worked progression
+## Example
 
 ::: {.incremental}
 
@@ -338,7 +338,7 @@ Each indicator should yield more than one item. Recall from Session 6 that the n
 
 * **20 minutes** — Write your group's construct definition. One paragraph, containing the three elements above.
 
-* **20 minutes** — Build the two lists: included and excluded. Add two neighbouring constructs and how yours differs.
+* **20 minutes** — Build the two lists: included and excluded. Add two sibling constructs and how yours differs.
 
 * **20 minutes** — Write one estimand sentence answering the four questions.
 
@@ -364,14 +364,14 @@ Each group presents **two things only**, one minute each:
 
 1. Your **estimand sentence**.
 
-2. **One neighbouring construct** and how yours differs from it.
+2. **One sibling construct** and how yours differs from it.
 
 :::
 
 . . .
 
 ::: {.callout-tip}
-Other groups may ask one question: *"what makes you confident your items will not also measure that neighbouring construct?"*
+Other groups may ask one question: *"what makes you confident your items will not also measure that sibling construct?"*
 :::
 
 # What you must produce {background-color="#14497F" .center}
@@ -384,7 +384,7 @@ One page, containing:
 
 * **Construct definition** — one paragraph, with references.
 * **Construct boundary** — the included and excluded lists.
-* **Neighbouring constructs** — at least two, with the distinctions.
+* **Sibling constructs** — at least two, with the distinctions.
 * **Estimand** — one sentence.
 * **Dimensional structure** — one or several dimensions, and why.
 * **Facets and indicators** — as a table.
@@ -394,7 +394,7 @@ One page, containing:
 . . .
 
 ::: {.callout-note}
-This document becomes an appendix to your final report, and the material the expert panel reads in Session 11. The panel cannot judge item relevance without first reading the construct definition.
+This specification becomes an appendix to your final report, and the material the expert panel reads in Session 11. The panel cannot judge item relevance without first reading the construct definition.
 :::
 
 ## For Session 10

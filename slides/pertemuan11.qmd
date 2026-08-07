@@ -25,10 +25,10 @@ execute:
 * Kenapa item perlu dinilai oleh panel ahli sebelum diujicobakan
 * Menyusun panel: siapa yang dianggap ahli, dan berapa orang
 * Formulir penilaian relevansi dan cara mengirimkannya
-* Menghitung **I-CVI** dan **S-CVI**, dan kenapa keduanya bisa memberi kesan berbeda
+* Menghitung **I-CVI** dan **S-CVI**, dan kenapa keduanya memberikan informasi yang berbeda
 * Mengoreksi **kesepakatan yang terjadi secara kebetulan**
 * Apa yang dilakukan terhadap item yang tidak lolos
-* Batas kemampuan CVI
+* Keterbatasan CVI
 
 :::
 
@@ -329,15 +329,13 @@ Pada contoh tadi:
 
 $$\text{S-CVI/Ave} = \frac{6{.}83}{8} = 0{.}85 \qquad \text{S-CVI/UA} = \frac{4}{8} = 0{.}50$$
 
-## Data yang sama, tapi kesan yang berbeda
+## Data yang sama, tapi informasi yang berbeda
 
 ::: {.r-fit-text}
 0.85 terlihat memadai.
 
 0.50 terlihat bermasalah.
 :::
-
-<br>
 
 . . .
 
@@ -404,7 +402,7 @@ Kalau A5 dan A8 diperbaiki lalu dinilai ulang, atau dikeluarkan:
 Laporkan **kedua-duanya**: hasil sebelum perbaikan dan sesudahnya, beserta keputusan yang diambil untuk tiap item. Yang dinilai adalah prosesnya, bukan hanya angka akhirnya.
 :::
 
-# Batas kemampuan CVI {background-color="#14497F" .center}
+# Keterbatasan CVI {background-color="#14497F" .center}
 
 ## Tiga hal yang tidak diperiksa CVI
 

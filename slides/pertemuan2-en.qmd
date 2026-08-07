@@ -22,7 +22,7 @@ execute:
 
 ::: {.incremental}
 
-* Why assumptions need scrutiny, and why that does not mean we stop measuring
+* Why assumptions need checking
 * **Assumption 1**: psychological attributes vary quantitatively
 * **Assumption 2**: the attribute is normally distributed
 * **Assumption 3**: the attribute is continuous, not categorical
@@ -60,7 +60,7 @@ We used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate referen
 
 ::: {.callout-note}
 #### The common thread
-Every one of those points has the same shape: **something we take to be true without ever checking it**. Today we check them one at a time.
+Every one of those points has the same shape: **something we take to be true without ever checking it**.
 :::
 
 ## Why spend a whole session on assumptions?
@@ -75,7 +75,7 @@ Every one of those points has the same shape: **something we take to be true wit
 
 :::
 
-# What is an assumption, and why check it {background-color="#14497F" .center}
+# What assumptions does psychological measurement rest on, and why check them {background-color="#14497F" .center}
 
 ## Assumptions are not a bad thing
 
@@ -121,6 +121,8 @@ Every one of those points has the same shape: **something we take to be true wit
 | 5 | Items work the same for **every group** | Yes, with enough data |
 | 6 | Respondents **can and will** answer accurately | Partly |
 
+: {tbl-colwidths="[8,62,30]"}
+
 . . .
 
 ::: {.callout-note}
@@ -162,7 +164,7 @@ In summing, you have already assumed at least three things:
 . . .
 
 ::: {.callout-note}
-#### The good news
+#### But...
 This is precisely what separates *Classical Test Theory* from *Item Response Theory*. IRT lets each item have its own difficulty and discrimination. We will get a brief look at it in Session 3.
 
 This course uses CTT, so *unit weighting* is an assumption you will be making. What matters is that you know you are making it.
@@ -176,7 +178,7 @@ This course uses CTT, so *unit weighting* is an assumption you will be making. W
 
 * **Adolphe Quetelet** (1835) introduced *l'homme moyen*, "the average man". He applied the normal curve — at the time a model of **observational error** in astronomy — to human characteristics.
 
-* The shift is subtle but large: the normal curve moved from being **a model of error** to being **a model of people**.
+* The implication: the normal curve moved from being **a model of error** to being **a model of people**.
 
 * **Galton** then extended it to psychological traits, and normality has been built into psychometrics ever since.
   + This is what justified the deeply racist worldview of [*eugenics*](https://www.genome.gov/about-genomics/fact-sheets/Eugenics-and-Scientific-Racisms).
@@ -221,9 +223,12 @@ First, three **individual items**:
 | O2 | *I have difficulty understanding abstract ideas* | 2.15 | **+0.78** | −0.23 |
 | E1 | *I am the life of the party* | 2.63 | +0.21 | **−0.96** |
 
+: {tbl-colwidths="[10,45,15,15,15]"}
+
 . . .
 
 ::: {.callout-note}
+### Note
 The items are **clearly not normal**. N3 piles up at the agreement end (69% answer 4 or 5); O2 piles up at the opposite end (67% answer 1 or 2).
 :::
 
@@ -380,7 +385,7 @@ DeVellis & Thorpe (2022), Chapter 2.
 . . .
 
 ::: {.callout-note}
-#### A consequence you will use constantly
+#### The consequence
 Because of this, inter-item correlations can be used to **estimate** how strongly each item relates to its latent construct — even though we never measure the construct directly.
 :::
 
@@ -445,6 +450,7 @@ We will cover how to avoid this when we write items in Session 10.
 . . .
 
 ::: {.callout-note}
+### How would you test this?
 The formal test requires factor analysis and a large sample, so we will not compute it in this course. What you need now is **awareness that the assumption is there**.
 :::
 
@@ -642,6 +648,7 @@ Not a scale free of assumptions — there is no such thing. Rather a scale whose
 . . .
 
 ::: {.callout-tip}
+### Tips
 These five points will form part of your final report.
 :::
 
@@ -659,7 +666,7 @@ These five points will form part of your final report.
 
 4. **One and the same thing** — unidimensionality and local independence determine whether your total score means anything.
 
-5. **The same for every group** — an identical item does not always mean the same thing; this is not a translation problem.
+5. **The same for every group** — an identical item does not always mean the same thing for everyone.
 
 6. **Accurate respondents** — people have limited access to themselves, and reasons not to be candid.
 
@@ -719,5 +726,5 @@ Petersen, I. T. *Principles of psychological assessment: With applied examples i
 Quetelet, A. (1835). *Sur l'homme et le développement de ses facultés*. Bachelier.
 
 ::: aside
-Example data: IPIP *Big Five Factor Markers*, [Open Psychometrics](https://openpsychometrics.org/_rawdata/) (n = 19,719 raw rows; Session 6 uses n = 19,718 after listwise deletion).
+Example data: IPIP *Big Five Factor Markers*, [Open Psychometrics](https://openpsychometrics.org/_rawdata/) (n = 19,719).
 :::

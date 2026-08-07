@@ -53,7 +53,9 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 . . .
 
 ::: {.callout-warning}
-Kalau kelompok Anda belum punya uraian spesifikasi konstruk, kerjakan itu lebih dulu hari ini. Menulis item tanpa definisi konstruk hanya akan menghasilkan pekerjaan yang harus diulang.
+### Perhatikan
+
+Kalau kelompok Anda belum punya uraian spesifikasi konstruk, kerjakan itu lebih dulu hari ini. Menulis item tanpa definisi konstruk membuat Anda kerja dua kali.
 :::
 
 # Kisi-kisi {background-color="#14497F" .center}
@@ -64,9 +66,7 @@ Kalau kelompok Anda belum punya uraian spesifikasi konstruk, kerjakan itu lebih 
 
 * Kisi-kisi menghubungkan **aspek konstruk** dengan **jumlah item** yang akan mewakilinya.
 
-* Fungsinya menjaga agar cakupan isi sesuai dengan definisi Anda, bukan mengikuti aspek mana yang paling mudah ditulis itemnya.
-
-* Ini adalah bentuk paling awal dari bukti isi yang kita bahas di Pertemuan 7.
+* Fungsinya menjaga agar cakupan isi item sesuai dengan definisi Anda, bukan mengikuti aspek mana yang paling mudah ditulis itemnya.
 
 :::
 
@@ -132,13 +132,14 @@ Menambah item terus-menerus membuat performa skala menjadi semakin jelek, dan me
 
 . . .
 
-::: {.callout-warning}
+::: {.callout-tip}
+### Tips
 Ini juga yang mencegah *ceiling effect* dan *floor effect* yang akan langsung terlihat pada sebaran skor di Pertemuan 13.
 :::
 
 # Kaidah menulis item {background-color="#14497F" .center}
 
-## Satu item, satu gagasan
+## Satu item, satu ide pokok
 
 ::: {.incremental}
 
@@ -205,6 +206,8 @@ DeVellis menyarankan tingkat keterbacaan setara kelas 5–7 untuk instrumen yang
 . . .
 
 ::: {.callout-warning}
+### Penting diingat
+
 Mencampur item berkurun waktu berbeda dalam satu skala menambah sumber variasi yang tidak Anda maksud, dan biasanya muncul sebagai faktor tambahan pada analisis di Pertemuan 13.
 :::
 
@@ -239,7 +242,7 @@ Mencampur item berkurun waktu berbeda dalam satu skala menambah sumber variasi y
 
 # Item unfavorable {background-color="#14497F" .center}
 
-## Kenapa dipakai sejak awal
+## Kenapa dipakai
 
 ::: {.incremental}
 

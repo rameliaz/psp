@@ -66,8 +66,6 @@ If your group does not yet have a construct specification, do that first today. 
 
 * Its job is to keep content coverage aligned with your definition, rather than with whichever facet is easiest to write items for.
 
-* This is the earliest form of the content evidence discussed in Session 7.
-
 :::
 
 . . .
@@ -132,7 +130,7 @@ Adding items indefinitely gives shrinking returns and increases respondent burde
 
 . . .
 
-::: {.callout-warning}
+::: {.callout-tip}
 This is also what prevents the ceiling and floor effects that will show up immediately in the score distribution in Session 13.
 :::
 
@@ -386,7 +384,7 @@ Bikos, *ReCentering Psych Stats: Psychometrics*, Chapter 2.
 . . .
 
 ::: {.callout-warning}
-A cluttered questionnaire reduces respondent engagement, and that feeds directly into the reliability and validity of your scores. This is not about aesthetics.
+A cluttered questionnaire reduces respondent engagement, and that feeds directly into the reliability and validity of your scores.
 :::
 
 ## Layout

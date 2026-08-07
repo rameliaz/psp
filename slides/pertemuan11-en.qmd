@@ -85,7 +85,7 @@ The procedure is the same. Only the criterion differs: not where a statement sit
 
 * **Method experts** — people who know scale construction and can judge whether an item is well written.
 
-* **Representatives of the target population** — not experts in the academic sense, but the best judges of whether the wording makes sense to prospective respondents.
+* **Representatives of the target population** — people whose characteristics resemble those of your respondents.
 
 :::
 

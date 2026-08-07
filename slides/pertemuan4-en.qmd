@@ -131,11 +131,14 @@ All four are decisions. Let us take them one at a time.
 
 ::: {.incremental}
 
-* **Four points or fewer** compresses variation between respondents and lowers precision. Preston & Colman (2000) found 2-, 3-, and 4-point scales all performed poorly.
+* **Four points or fewer** compresses variation between respondents and lowers precision.
+  + [Preston & Colman (2000)](https://www.sciencedirect.com/science/article/abs/pii/S0001691899000505) found 2-, 3-, and 4-point scales all performed poorly.
 
-* **Around 5–7 points** is the range most often recommended. Lozano et al. (2008) recommend a range of **4 to 7**, with scarce gains beyond 7.
+* **Around 5–7 points** is the range most often recommended.
+  + [Lozano et al. (2008)](https://econtent.hogrefe.com/doi/abs/10.1027/1614-2241.4.2.73) recommend a range of **4 to 7**, with scarce gains beyond 7.
 
-* **Above 6–7 points**, the added benefit is small. Simms et al. (2019) found almost no psychometric improvement beyond 6 options.
+* **Above 6–7 points**, the added benefit is small.
+  + [Simms et al. (2019)](https://psycnet.apa.org/record/2019-12091-001) found almost no psychometric improvement beyond 6 options.
 
 :::
 
@@ -220,7 +223,7 @@ This violates the equal-interval assumption from Session 2. If "Slightly Disagre
 
 ::: {.incremental}
 
-* Labelling **every point** generally yields better reliability and validity than labelling only the endpoints (Krosnick & Presser, 2010).
+* Labelling **every point** generally yields better reliability and validity than labelling only the endpoints [(Krosnick et al., 2010)](https://www.researchgate.net/profile/Nasir-Ali-22/post/Writing-a-survey/attachment/59d6467e79197b80779a1841/AS%3A458354666545152%401486291676030/download/The+Future+of+Survey+Research+-+Challenges+and+Opportunities.pdf).
 
 * The reason is simple: if only the ends are labelled, each respondent decides for themselves what the points in between mean.
 
@@ -258,9 +261,7 @@ Consider this arrangement, from DeVellis:
 
 ::: {.callout-tip}
 #### A tendency worth knowing
-Agreement anchors invite respondents simply to agree. Anchors written specifically for the item's content generally suppress that, because respondents have to read the options properly.
-
-Weijters et al. (2010) show that scale format itself shapes which response styles appear.
+Agreement anchors invite respondents simply to agree. [Weijters et al. (2010)](https://psycnet.apa.org/record/2010-04293-009) reinforce this point, showing that scale format itself shapes which response styles appear.
 :::
 
 ## How strongly should the stem be worded?
@@ -384,7 +385,7 @@ Test your adjective pairs on a few prospective respondents before the pilot. Ask
 
 ::: {.incremental}
 
-* **Guttman (1944)** proposed a scale whose items are **ordered**: endorsing one item implies endorsing every "easier" one.
+* **[Guttman (1944)](https://www.jstor.org/stable/2086306?casa_token=2C8Zl22uKroAAAAA:RNpW2exkd0fx33BCmVYWPiVykf-mryV7i2n8cCztAGNqt1R1IPEJzbjpY4BZ-W7gVu6YxaNF4mE0aBNrp8ovKzCHWk8CsHSW8wtVrPT8zJ6gXdBP6-XB)** proposed a scale whose items are **ordered**: endorsing one item implies endorsing every "easier" one.
 
 * A person's level is indicated by **the hardest item they still endorse**.
 
@@ -418,11 +419,11 @@ Note the contrast with Likert. In Likert we sum **degrees of agreement across al
 
 ::: {.incremental}
 
-* When the hierarchy is a **logical necessity**: 20 cigarettes a day always implies more than 10.
+* When the hierarchy is a **logical necessity**: eating ten bowls of bakso (Indonesian meatball soup) is always more than eating five.
 
 * **Physical functioning**: can get out of bed → can walk indoors → can climb stairs → can walk a kilometre.
 
-* **Social distance** (Bogardus, 1925): willing to live in the same country → the same city → the same neighbourhood → be close friends → marry into the family.
+* **Social distance** ([Bogardus, 1925](https://link.springer.com/article/10.1007/s12108-007-9023-9)): willing to live in the same country → the same city → the same neighbourhood → be close friends → marry into the family.
 
 :::
 
@@ -477,11 +478,6 @@ So the *parallel* and *tau-equivalent* models from Session 3 **do not fit** a Gu
 | Fits CTT | Yes | Yes | **Not directly** |
 | Main weakness | Acquiescence, unequal intervals | Finding true antonyms, ambiguous midpoint | Pattern deviations |
 
-. . .
-
-::: {.callout-note}
-For your project this semester, **Likert and Semantic Differential are the realistic options**. Guttman only makes sense if your construct really is logically ordered.
-:::
 
 ## Choosing a format means choosing assumptions
 

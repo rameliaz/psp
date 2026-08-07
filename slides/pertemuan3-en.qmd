@@ -110,6 +110,9 @@ The name of your construct must reflect **whose data you collected** (e.g., the 
 
 ## The latent variable as a *cause*
 
+::: {.columns}
+::: {.column width="70%"}
+
 ::: {.incremental}
 
 * The core idea: **the strength of the latent variable causes an item to take a particular value.**
@@ -129,6 +132,15 @@ If one common cause drives ten items, those ten items **must correlate with one 
 Inter-item correlations can be computed. The latent variable cannot. So those correlations are the **only way in** to estimating something we cannot observe.
 :::
 
+
+:::
+::: {.column width="30%"}
+
+![](libs/reflektif.png){fig-align="center" width="60%"}
+
+:::
+:::
+
 ## This is what makes item analysis possible
 
 ::: {.incremental}
@@ -144,6 +156,7 @@ Inter-item correlations can be computed. The latent variable cannot. So those co
 . . .
 
 ::: {.callout-note}
+### Worth remembering
 The procedures you will run in Session 13 — corrected item-total correlations, dropping weak items — rest entirely on this logic.
 :::
 
@@ -339,7 +352,7 @@ This involves the criterion's reliability too. If the criterion is assumed to be
 
 * The sentence "our scale is valid" is **incomplete**. What evidence can or cannot support is an **interpretation of scores**, for a **stated purpose**, in a **stated population**.
 
-* Messick (1989) describes validity as an integrated judgement of how far evidence and theory support the **inferences and actions** taken on the basis of scores.
+* [Messick (1989)](https://psycnet.apa.org/record/1996-10004-001) describes validity as an integrated judgement of how far evidence and theory support the **inferences and actions** taken on the basis of scores.
 
 :::
 
@@ -441,6 +454,7 @@ $$r_{XY} = \rho_{T_X T_Y} \times \sqrt{\rho_{XX'} \times \rho_{YY'}}$$
 . . .
 
 ::: {.callout-tip}
+### The takeaway
 The larger the share of noise in your scores, the smaller every correlation you report.
 :::
 
@@ -477,12 +491,6 @@ The reliability you report is **not purely a property of your instrument** — i
 
 * So nearly every item statistic in CTT is **relative to whichever group you happened to measure**.
 
-:::
-
-. . .
-
-::: {.callout-note}
-This is exactly the problem Item Response Theory sets out to solve. We turn to it in the final section.
 :::
 
 # The family of CTT models {background-color="#14497F" .center}
@@ -659,12 +667,6 @@ The closest CTT equivalent of discrimination is the **item–total correlation**
 
 * For Likert items with ordered categories, polytomous models such as the ***Graded Response Model*** are used.
 
-:::
-
-. . .
-
-::: {.callout-note}
-IRT is better described as a **family of models** than as a single procedure.
 :::
 
 ## What IRT demands in return

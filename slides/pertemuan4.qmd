@@ -22,7 +22,7 @@ execute:
 
 ::: {.incremental}
 
-* Apa yang sebenarnya kita pilih ketika memilih format respons
+* Apa yang sebenarnya kita lakukan ketika memilih format respons
 * **Likert**: asal-usulnya, dan 4️⃣ keputusan yang harus Anda ambil
 * **Semantic Differential**: kapan pasangan kata sifat lebih tepat digunakan daripada pernyataan
 * **Guttman**: ketika item memang berjenjang secara logis dan kenapa jarang berhasil
@@ -40,7 +40,7 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 
 # Dari model ke keputusan pertama {background-color="#14497F" .center}
 
-## Posisi Anda saat ini
+## Yang sudah Anda pelajari
 
 ::: {.incremental}
 
@@ -423,7 +423,7 @@ Perhatikan bedanya dengan Likert. Pada Likert, yang dijumlahkan adalah **derajat
 
 * **Fungsi fisik**: bisa bangun dari tempat tidur → bisa berjalan di dalam rumah → bisa naik tangga → bisa berjalan satu kilometer.
 
-* **Jarak sosial** ([Bogardus, 1924](https://link.springer.com/article/10.1007/s12108-007-9023-9)): bersedia tinggal senegara → sekota → bertetangga → berteman dekat → menjadi keluarga lewat pernikahan.
+* **Jarak sosial** ([Bogardus, 1925](https://link.springer.com/article/10.1007/s12108-007-9023-9)): bersedia tinggal senegara → sekota → bertetangga → berteman dekat → menjadi keluarga lewat pernikahan.
 
 :::
 
@@ -478,11 +478,6 @@ Artinya, model *parallel* dan *tau-equivalent* dari Pertemuan 3 **tidak cocok** 
 | Cocok dengan CTT | Ya | Ya | **Tidak langsung** |
 | Kelemahan utama | *Acquiescence*, jarak tak setara | Padanan antonim, ambiguitas pilihan tengah | Penyimpangan pola |
 
-. . .
-
-::: {.callout-note}
-Untuk proyek Anda semester ini, **Likert dan Semantic Differential adalah pilihan yang realistis**. Guttman hanya masuk akal kalau konstruk Anda memang berjenjang secara teoretis.
-:::
 
 ## Memilih format respons berarti memilih asumsi
 

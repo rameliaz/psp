@@ -71,7 +71,8 @@ Three formats, each of which **gives up one** of these — and pays a price for 
 . . .
 
 ::: {.callout-warning}
-All three are conceptually attractive. All three are also **far harder to build** than Likert, and two of them break assumptions we established in Session 3. We will see exactly where.
+### Keep in mind
+All three are conceptually attractive, but **far harder to build** than Likert, and two of them break assumptions we established in Session 3.
 :::
 
 # Thurstone {background-color="#14497F" .center}
@@ -223,7 +224,9 @@ So you will be running a version of Thurstone without realising it.
 | C | Ask the lecturer for an extension | 1–5 |
 | D | Submit as is and note who did not contribute | 1–5 |
 
-## One small change that changes everything
+: {tbl-colwidths="[8,77,15]"}
+
+## Notice the difference
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -463,7 +466,7 @@ We opened today with Thurstone and we close with Thurstone. A 1920s idea turns o
 
 # What is realistic for your project {background-color="#14497F" .center}
 
-## The honest answer
+## All three are unrealistic
 
 ::: {.incremental}
 
@@ -471,7 +474,7 @@ We opened today with Thurstone and we close with Thurstone. A 1920s idea turns o
 
 * **SJT** — not realistic this semester. Writing good scenarios and building a scoring key is a project in itself.
 
-* ***Forced-choice*** — buildable, but **do not**. The correct analysis of ipsative data is outside this course.
+* ***Forced-choice*** — not realistic. The correct analysis of ipsative data is outside the scope of this course.
 
 :::
 
@@ -482,25 +485,6 @@ We opened today with Thurstone and we close with Thurstone. A 1920s idea turns o
 Because you **will encounter all three** in practice — especially SJTs and forced-choice instruments, which are widely used in assessment and recruitment.
 
 What you should take from today is not the ability to build them, but the ability to **judge whether such an instrument is being used properly**.
-:::
-
-## But one thing does apply to you
-
-::: {.incremental}
-
-* In Session 2 you identified whether your group's construct is **vulnerable to social desirability**.
-
-* If it is, you do **not** need to switch to forced-choice. What you should do is:
-  - state it as a limitation in your report,
-  - write item stems that are not judgemental,
-  - and guarantee anonymity properly during the pilot.
-
-:::
-
-. . .
-
-::: {.callout-tip}
-Recognising a threat and stating it openly is far better than adopting a complex format whose analysis you cannot carry out.
 :::
 
 # Demonstration and exercise {background-color="#14497F" .center}

@@ -74,7 +74,7 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 
 ::: {.incremental}
 
-* Anda **tidak** sedang merangkum semua penelitian tentang konstruk itu.
+* Anda **tidak** sedang merangkum semua penelitian tentang konstruk yang Anda pilih.
 
 * Yang Anda cari sangat spesifik: **bagaimana orang lain mendefinisikan konstruk ini**, dan di mana definisi-definisi itu berbeda satu sama lain.
 
@@ -89,7 +89,7 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 Buat tabel tiga kolom: **sumber**, **definisi (dikutip persis)**, **apa yang ditekankan**. Jangan diparafrasekan dulu. Perbedaan antar-definisi sering terletak pada kata-kata yang tepat.
 :::
 
-## Yang Anda cari di dalam tabel itu
+## Yang Anda cari di dalam tabel
 
 ::: {.incremental}
 
@@ -242,7 +242,7 @@ Istilahnya berasal dari [Thorndike (1904)](https://psycnet.apa.org/fulltext/2005
 
 ::: {.incremental}
 
-1. **Besaran apa?** Tingkat atribut pada seseorang? Posisi relatif dibanding orang lain? Ada atau tidaknya suatu kondisi?
+1. **Apa nama atribut ukurnya?** Tingkat atribut pada seseorang? Posisi relatif dibanding orang lain? Ada atau tidaknya suatu kondisi?
 
 2. **Pada siapa?** Populasi sasarannya harus disebut secara spesifik — bukan "masyarakat", melainkan misalnya "mahasiswa S1 aktif di Surabaya, usia 18–24".
 
@@ -295,7 +295,7 @@ Satu kalimat ini adalah bagian tersulit dari pekerjaan hari ini. Kalau kelompok 
 
 :::
 
-## Contoh bertahap
+## Contohnya
 
 ::: {.incremental}
 
@@ -337,7 +337,7 @@ Tiap indikator sebaiknya menghasilkan lebih dari satu item. Ingat dari Pertemuan
 
 * **20 menit** — Tulis definisi konstruk kelompok Anda. Satu paragraf, memuat tiga unsur dari tadi.
 
-* **20 menit** — Buat dua daftar: termasuk dan tidak termasuk. Tambahkan dua konstruk tetangga beserta pembedanya.
+* **20 menit** — Buat dua daftar: termasuk dan tidak termasuk. Tambahkan dua *sibling construct* beserta pembedanya.
 
 * **20 menit** — Tulis satu kalimat estimand, menjawab empat pertanyaan tadi.
 
@@ -370,7 +370,7 @@ Tiap kelompok menyampaikan **dua hal** saja, masing-masing satu menit:
 . . .
 
 ::: {.callout-tip}
-Kelompok lain dipersilakan bertanya satu hal: *"apa yang membuat kalian yakin item kalian tidak akan ikut mengukur konstruk tetangga itu?"*
+Kelompok lain dipersilakan bertanya satu hal: *"apa yang membuat kalian yakin item kalian tidak akan ikut mengukur sibling construct itu?"*
 :::
 
 # Yang harus dihasilkan {background-color="#14497F" .center}
@@ -383,7 +383,7 @@ Satu halaman, memuat:
 
 * **Definisi konstruk** — satu paragraf, dengan rujukan.
 * **Batas konstruk** — daftar termasuk dan tidak termasuk.
-* **Konstruk tetangga** — minimal dua, beserta pembedanya.
+* **Sibling construct** — minimal dua, beserta pembedanya.
 * **Estimand** — satu kalimat.
 * **Struktur dimensi** — satu atau beberapa dimensi, dan alasannya.
 * **Aspek dan indikator** — dalam bentuk tabel.
@@ -393,7 +393,7 @@ Satu halaman, memuat:
 . . .
 
 ::: {.callout-note}
-Dokumen ini menjadi lampiran laporan akhir Anda, dan menjadi bahan yang dinilai oleh panel ahli di Pertemuan 11. Panel tidak bisa menilai relevansi item tanpa membaca definisi konstruknya lebih dulu.
+Uraian ini menjadi lampiran laporan akhir Anda, dan menjadi bahan yang dinilai oleh panel ahli di Pertemuan 11. Panel tidak bisa menilai relevansi item tanpa membaca definisi konstruknya lebih dulu.
 :::
 
 ## Untuk Pertemuan 10

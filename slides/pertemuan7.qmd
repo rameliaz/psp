@@ -57,6 +57,31 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 Ingat analogi timbangan dari Pertemuan 3. Timbangan yang selalu meleset 2 kg bisa *internally consistent*. Konsistensi internal tidak pernah bisa mendeteksi kesalahan pengukuran yang sistematis.
 :::
 
+## Ilustrasi yang sering dipakai
+
+![](libs/rel_val.JPG){.nostretch fig-align="center" width="90%"}
+
+::: aside
+Ilustrasi yang umum muncul di buku ajar pengukuran psikologi.
+:::
+
+## Kenapa Ilustrasi ini (sebenarnya) keliru secara faktual
+
+::: {.incremental}
+
+* Label *"Reliable"* dan *"Valid"* melekat pada **papan targetnya**, seolah-olah keduanya properti skalanya. Ini kesalahan yang sama seperti menulis "skala ini valid."
+
+* Panel *"Valid, Not reliable"* juga bermasalah untuk validitas kriteria secara khusus: reliabilitas jadi **batas atas** bagi koefisien validitas (ingat rumus atenuasi di Pertemuan 3, $r_{XY} \leq \sqrt{\rho_{XX'} \times \rho_{YY'}}$). Skor yang tidak konsisten otomatis membatasi seberapa tinggi korelasinya dengan kriteria manapun.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+#### Cara membacanya yang lebih tepat
+Sumbu horizontal: **konsistensi skor** (reliabilitas). Sumbu vertikal: **ketepatan skor terhadap apa yang ingin diukur** (validitas). Keduanya sifat skor pada suatu penggunaan tertentu, bukan sesuatu yang "dimiliki" atau "tidak dimiliki" oleh instrumennya.
+:::
+
 # Validitas adalah sifat tafsiran atas skor {background-color="#14497F" .center}
 
 ## Definisi resminya
@@ -473,7 +498,7 @@ $$r_{XY} \leq \sqrt{\rho_{XX'} \times \rho_{YY'}}$$
 
 * [**Loevinger (1954)**](https://psycnet.apa.org/record/1955-03299-001) menunjukkan bahwa setelah titik tertentu, menaikkan konsistensi internal justru **menurunkan** validitas.
 
-* Alasannya bisa dilihat dari gambar tadi. Cara termudah menaikkan $\alpha$ adalah menulis item yang mirip.
+* Alasannya, cara termudah menaikkan $\alpha$ adalah menulis item yang mirip dan strategi inilah yang membuat validitas menjadi lebih lemah.
 
 * Item yang mirip mengukur satu bagian kecil dari konstruk dengan sangat rapat, dan meninggalkan sisanya. Ini berarti terjadi *construct underrepresentation*.
 
@@ -483,9 +508,9 @@ $$r_{XY} \leq \sqrt{\rho_{XX'} \times \rho_{YY'}}$$
 
 ::: {.callout-warning}
 #### Contohnya
-Sepuluh item ini akan menghasilkan $\alpha$ yang sangat tinggi: *"Saya merasa sedih"*, *"Saya kerap murung"*, *"Hati saya sering muram"*, dan seterusnya.
+Sepuluh item skala depresi ini akan menghasilkan $\alpha$ yang sangat tinggi: *"Saya merasa sedih"*, *"Saya kerap murung"*, *"Hati saya sering muram"*, dan seterusnya.
 
-Skala itu mengukur suasana hati sedih dengan sangat konsisten, tetapi tidak mengukur gangguan tidur, kehilangan minat, rasa bersalah, atau perubahan nafsu makan sama sekali.
+Skala ini mengukur suasana hati sedih dengan sangat konsisten, tetapi tidak mengukur gangguan tidur, kehilangan minat, rasa bersalah, atau perubahan nafsu makan (yang juga merupakan gejala Depresi) sama sekali.
 :::
 
 ## Kesimpulannya
@@ -514,11 +539,6 @@ Periksalah $\alpha$ bersama-sama dengan cakupan isi skala. Angka yang sangat tin
 | Hubungan dengan variabel lain | TM12 | Sertakan satu skala mapan yang pendek |
 | Konsekuensi | TM14 | Batasan penggunaan, ditulis di manual |
 
-. . .
-
-::: {.callout-tip}
-Lima baris ini adalah kerangka bagian validitas pada laporan akhir Anda. Kalau ada baris yang tidak bisa Anda kerjakan, **tuliskan bahwa Anda tidak mengerjakannya**.
-:::
 
 # Diskusi kelompok {background-color="#14497F" .center}
 
@@ -544,7 +564,7 @@ C: bukti tidak berpindah antar-populasi dan antar-tujuan penggunaan.
 Kalau waktu sempit, cukup bahas A dan C.
 :::
 
-## Bagian 2: merancang bukti kelompok Anda
+## Bagian 2: merancang bukti validitas proyek Anda
 
 ::: {.incremental}
 
@@ -572,9 +592,9 @@ Jawaban nomor 1 dan 2 akan langsung Anda pakai ketika menyusun kisi-kisi di Pert
 
 1. Pengukuran psikologis bersifat tidak langsung, dan definisinya masih diperdebatkan.
 2. Ada enam asumsi yang kita pakai, sebagian besar tanpa disadari.
-3. CTT merapikan asumsi itu menjadi $X = T + E$.
+3. CTT merapikan asumsi ini menjadi $X = T + E$.
 4. Format respons menentukan asumsi mana yang Anda pakai.
-5. Format lain melepaskan asumsi yang berbeda, dengan biayanya masing-masing.
+5. Format lain melepaskan asumsi yang berbeda, dengan risikonya masing-masing.
 6. Reliabilitas bisa dihitung, dan $\alpha$ punya batas yang jelas.
 7. Validitas adalah argumen yang dibangun dari beberapa sumber bukti.
 
