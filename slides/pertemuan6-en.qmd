@@ -279,7 +279,7 @@ Starting from $\alpha = .892$ at 10 items:
 
 ::: {.incremental}
 
-* Doubling the scale raises $\alpha$ by .05. Doubling it again adds only .018.
+* Doubling the scale from 10 to 20 items raises $\alpha$ by .05. Adding 10 more items (20 to 30, a 50% increase) adds only .018.
 
 * **The returns keep shrinking** while respondent burden keeps growing.
 
@@ -291,7 +291,7 @@ Starting from $\alpha = .892$ at 10 items:
 
 * Almost everyone cites **.70** as the minimum, and attributes it to Nunnally.
 
-* Lance, Butts, & Michels (2006) went back to the source. Nunnally proposed .70 for **early-stage research** — for decisions about individuals he recommended **.90 or higher**.
+* Lance, Butts, & Michels (2006) went back to the source. Nunnally proposed .70 only for **the early stages of research**; for basic research he recommended **.80**, and for decisions about individuals **.90 or higher**.
 
 * The .70 used everywhere is, in effect, **a misapplied citation**.
 

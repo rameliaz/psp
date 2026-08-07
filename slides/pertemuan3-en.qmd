@@ -324,9 +324,9 @@ Which means: **a reliable instrument can measure the wrong thing, very consisten
 #### But they are connected
 Reliability sets an **upper bound** on the *validity coefficient*, the correlation between your scores and a criterion:
 
-$$r_{XY} \leq \sqrt{\rho_{XX'}}$$
+$$r_{XY} \leq \sqrt{\rho_{XX'} \times \rho_{YY'}}$$
 
-With $\rho = 0.64$, the largest correlation you could possibly obtain is $0.80$ — however strong the real relationship is.
+This involves the criterion's reliability too. If the criterion is assumed to be measured without error ($\rho_{YY'}=1$), the formula simplifies to $r_{XY} \leq \sqrt{\rho_{XX'}}$: with $\rho_{XX'} = 0.64$, the largest correlation you could possibly obtain is $0.80$ — however strong the real relationship is. If the criterion is itself fallible, the upper bound drops further.
 :::
 
 ## Validity is not a property of a scale
@@ -498,10 +498,10 @@ This is exactly the problem Item Response Theory sets out to solve. We turn to i
 
 ## Three measurement models
 
-![](libs/model-pengukuran.png){fig-align="center" width="78%"}
+![](libs/model-pengukuran.svg){fig-align="center" width="78%"}
 
 ::: aside
-**1** marks the reference indicator; **a** marks loadings constrained to be equal; **b** marks error variances constrained to be equal.
+**1** marks the reference indicator; **a** marks loadings constrained to be equal; **b** marks error variances constrained to be equal; $\lambda_2, \lambda_3$ mark free loadings (allowed to differ from each other) in the congeneric model.
 :::
 
 ## What separates them

@@ -375,7 +375,7 @@ Bikos, *ReCentering Psych Stats: Psychometrics*, Chapter 2.
 
 ::: {.incremental}
 
-* Pershing & Pershing (2001) examined 50 questionnaires used at a well-regarded medical school.
+* Pershing & Pershing (2001) examined 50 training-evaluation forms used at a well-regarded medical school.
 
 * **72%** had no introductory statement at all. **78%** had no closing statement. **30%** had no instructions, and another 54% had minimal ones.
 

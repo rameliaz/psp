@@ -217,7 +217,7 @@ We **select items so the distribution comes out normal**, and then treat that no
 
 ## Let us look at real data
 
-IPIP *Big Five* data (`data/data.csv` in this course repository), 50 items, 1–5 scale, **n = 19,718** respondents.
+IPIP *Big Five* data (`data/data.csv` in this course repository), 50 items, 1–5 scale, **n = 19,719** respondents.
 
 First, three **individual items**:
 
@@ -336,9 +336,9 @@ Example: pregnant / not pregnant.
 
 ::: {.incremental}
 
-* **Haslam, Holland, & Kuppens (2012)** reviewed 177 taxometric studies of personality and psychopathology constructs.
+* **Haslam, Holland, & Kuppens (2012)** reviewed 177 taxometric articles (311 findings) on personality and psychopathology constructs.
 
-* Their conclusion: **most constructs appear dimensional**. Evidence for natural categories was found for only a few.
+* Their conclusion: **most constructs appear dimensional**. Once confounds were controlled, they estimated only about **14%** of findings were genuinely taxonic.
 
 * That means most of the "disorders" we treat as categories are better described as **matters of degree**.
 

@@ -131,9 +131,9 @@ Keempatnya adalah keputusan yang terpisah. Mari kita bahas satu per satu.
 
 ::: {.incremental}
 
-* **Di bawah 4 pilihan**, Anda kehilangan informasi. Variasi antar-responden tertekan, dan reliabilitas ikut turun (Preston & Colman, 2000).
+* **Empat pilihan atau kurang** menekan variasi antar-responden dan menurunkan presisi. Preston & Colman (2000) menemukan skala 2, 3, dan 4 pilihan sama-sama berkinerja buruk.
 
-* **Sekitar 5–7 pilihan** adalah wilayah yang paling sering direkomendasikan. Lozano dkk. (2008) menyarankan minimum 4, dengan hasil terbaik pada 6–7.
+* **Sekitar 5–7 pilihan** adalah wilayah yang paling sering direkomendasikan. Lozano dkk. (2008) menyarankan rentang **4 sampai 7**, dengan tambahan keuntungan yang kecil setelah 7.
 
 * **Di atas 6–7 pilihan**, tambahan keuntungannya kecil. Simms dkk. (2019) menemukan hampir tidak ada perbaikan psikometrik setelah 6 pilihan.
 

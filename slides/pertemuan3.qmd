@@ -325,9 +325,9 @@ Artinya: **alat ukur yang reliabel bisa saja mengukur hal yang salah, secara san
 #### Tapi ada hubungannya
 Reliabilitas memberi **batas atas** bagi *koefisien validitas*, yaitu korelasi antara skor Anda dan suatu kriteria:
 
-$$r_{XY} \leq \sqrt{\rho_{XX'}}$$
+$$r_{XY} \leq \sqrt{\rho_{XX'} \times \rho_{YY'}}$$
 
-Dengan $\rho = 0{,}64$, korelasi maksimum yang mungkin Anda peroleh adalah $0{,}80$ — berapa pun kuatnya hubungan yang sesungguhnya.
+Ini melibatkan reliabilitas kriterianya juga. Kalau kriteria diasumsikan diukur tanpa error ($\rho_{YY'}=1$), rumusnya menyederhana jadi $r_{XY} \leq \sqrt{\rho_{XX'}}$: dengan $\rho_{XX'} = 0{,}64$, korelasi maksimum yang mungkin Anda peroleh adalah $0{,}80$ — berapa pun kuatnya hubungan yang sesungguhnya. Kalau kriterianya sendiri juga *fallible*, batas atasnya turun lebih jauh.
 :::
 
 ## Validitas bukan sifat skala
@@ -499,10 +499,10 @@ Inilah persoalan yang ingin dipecahkan oleh *Item Response Theory*. Kita bahas d
 
 ## Tiga model pengukuran
 
-![](libs/model-pengukuran.png){fig-align="center" width="78%"}
+![](libs/model-pengukuran.svg){fig-align="center" width="78%"}
 
 ::: aside
-Angka **1** menandai *reference indicator*; huruf **a** menandai *loading* yang dibatasi agar sama; huruf **b** menandai varians *error* yang dibatasi agar sama.
+Angka **1** menandai *reference indicator*; huruf **a** menandai *loading* yang dibatasi agar sama; huruf **b** menandai varians *error* yang dibatasi agar sama; $\lambda_2, \lambda_3$ menandai *loading* yang bebas (boleh berbeda satu sama lain) pada model *congeneric*.
 :::
 
 ## Apa bedanya

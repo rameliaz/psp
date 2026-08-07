@@ -471,13 +471,13 @@ As with Michell's objection in Session 1: you do not have to agree. What you sho
 
 From Session 3:
 
-$$r_{XY} \leq \sqrt{\rho_{XX'}}$$
+$$r_{XY} \leq \sqrt{\rho_{XX'} \times \rho_{YY'}}$$
 
 . . .
 
 ::: {.incremental}
 
-* Low reliability **limits** the correlation you can obtain with any criterion.
+* Low reliability — **in your scale or in the criterion** — limits the correlation you can obtain.
 
 * So reliability is necessary.
 

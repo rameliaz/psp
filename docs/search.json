@@ -74,7 +74,7 @@
     "href": "slides/pertemuan11-en.html#the-pass-criteria",
     "title": "Expert Review and Content Validity: Computing and Interpreting the CVI",
     "section": "The pass criteria",
-    "text": "The pass criteria\n\nWith 3 to 5 raters: I-CVI must be 1.00. Every rater must agree.\nWith 6 to 10 raters: I-CVI must be at least 0.78.\n\n\n\nIn the example above, with 6 raters, two items fail: A5 (0.67) and A8 (0.50).\n\n\n\n\n\n\n\n\nNote\n\n\nNote that the criterion is stricter when there are fewer raters. The reason is on the next slide.\n\n\n\n\n\nLynn (1986); Polit & Beck (2006)."
+    "text": "The pass criteria\n\nWith 3 to 5 raters: I-CVI must be 1.00. Every rater must agree.\nWith 6 to 8 raters: I-CVI must be at least 0.83.\nWith 9 or more raters: I-CVI must be at least 0.78.\n\n\n\nIn the example above, with 6 raters, two items fail: A5 (0.67) and A8 (0.50).\n\n\n\n\n\n\n\n\nNote\n\n\nNote that the criterion is stricter when there are fewer raters. The reason is on the next slide.\n\n\n\n\n\nLynn (1986); Polit & Beck (2006)."
   },
   {
     "objectID": "slides/pertemuan11-en.html#the-problem",
@@ -452,14 +452,14 @@
     "href": "slides/pertemuan6-en.html#spearman-brown-projections-for-our-scale",
     "title": "Reliability: Core Concepts and Implementation",
     "section": "Spearman-Brown projections for our scale",
-    "text": "Spearman-Brown projections for our scale\nStarting from \\(\\alpha = .892\\) at 10 items:\n\n\n\nNumber of items\nProjected \\(\\alpha\\)\n\n\n\n\n5\n.805\n\n\n10\n.892\n\n\n20\n.943\n\n\n30\n.961\n\n\n\n\n\nDoubling the scale raises \\(\\alpha\\) by .05. Doubling it again adds only .018.\nThe returns keep shrinking while respondent burden keeps growing."
+    "text": "Spearman-Brown projections for our scale\nStarting from \\(\\alpha = .892\\) at 10 items:\n\n\n\nNumber of items\nProjected \\(\\alpha\\)\n\n\n\n\n5\n.805\n\n\n10\n.892\n\n\n20\n.943\n\n\n30\n.961\n\n\n\n\n\nDoubling the scale from 10 to 20 items raises \\(\\alpha\\) by .05. Adding 10 more items (20 to 30, a 50% increase) adds only .018.\nThe returns keep shrinking while respondent burden keeps growing."
   },
   {
     "objectID": "slides/pertemuan6-en.html#about-the-.70-threshold",
     "href": "slides/pertemuan6-en.html#about-the-.70-threshold",
     "title": "Reliability: Core Concepts and Implementation",
     "section": "About the .70 threshold",
-    "text": "About the .70 threshold\n\nAlmost everyone cites .70 as the minimum, and attributes it to Nunnally.\nLance, Butts, & Michels (2006) went back to the source. Nunnally proposed .70 for early-stage research — for decisions about individuals he recommended .90 or higher.\nThe .70 used everywhere is, in effect, a misapplied citation.\n\n\n\n\n\n\n\n\nWhat to do instead\n\n\nDo not treat .70 as pass or fail. Match it to what your scores are for: for group-level research .70 is adequate; for decisions about individuals it is nowhere near enough.\nRecall the SEM computation from Session 3 — that is how to check it concretely."
+    "text": "About the .70 threshold\n\nAlmost everyone cites .70 as the minimum, and attributes it to Nunnally.\nLance, Butts, & Michels (2006) went back to the source. Nunnally proposed .70 only for the early stages of research; for basic research he recommended .80, and for decisions about individuals .90 or higher.\nThe .70 used everywhere is, in effect, a misapplied citation.\n\n\n\n\n\n\n\n\nWhat to do instead\n\n\nDo not treat .70 as pass or fail. Match it to what your scores are for: for group-level research .70 is adequate; for decisions about individuals it is nowhere near enough.\nRecall the SEM computation from Session 3 — that is how to check it concretely."
   },
   {
     "objectID": "slides/pertemuan6-en.html#an-experiment",
@@ -648,7 +648,7 @@
     "href": "slides/pertemuan4-en.html#decision-1-how-many-points",
     "title": "Response Formats I: Likert, Semantic Differential, and Guttman",
     "section": "Decision 1: how many points?",
-    "text": "Decision 1: how many points?\n\nBelow 4 points, you lose information. Variation between respondents is compressed and reliability falls (Preston & Colman, 2000).\nAround 5–7 points is the range most often recommended. Lozano et al. (2008) suggest a minimum of 4, with the best results at 6–7.\nAbove 6–7 points, the added benefit is small. Simms et al. (2019) found almost no psychometric improvement beyond 6 options.\n\n\n\n\n\n\n\n\nTwo further considerations from DeVellis\n\n\nFirst, whether respondents can actually discriminate. If they cannot tell seven levels apart, seven points only add noise.\nSecond, whether you will use that precision. If you are going to collapse the scores into three categories anyway, why ask for ten points of resolution?"
+    "text": "Decision 1: how many points?\n\nFour points or fewer compresses variation between respondents and lowers precision. Preston & Colman (2000) found 2-, 3-, and 4-point scales all performed poorly.\nAround 5–7 points is the range most often recommended. Lozano et al. (2008) recommend a range of 4 to 7, with scarce gains beyond 7.\nAbove 6–7 points, the added benefit is small. Simms et al. (2019) found almost no psychometric improvement beyond 6 options.\n\n\n\n\n\n\n\n\nTwo further considerations from DeVellis\n\n\nFirst, whether respondents can actually discriminate. If they cannot tell seven levels apart, seven points only add noise.\nSecond, whether you will use that precision. If you are going to collapse the scores into three categories anyway, why ask for ten points of resolution?"
   },
   {
     "objectID": "slides/pertemuan4-en.html#decision-2-midpoint-or-no-midpoint",
@@ -900,7 +900,7 @@
     "href": "slides/pertemuan2-en.html#let-us-look-at-real-data",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "Let us look at real data",
-    "text": "Let us look at real data\nIPIP Big Five data (data/data.csv in this course repository), 50 items, 1–5 scale, n = 19,718 respondents.\nFirst, three individual items:\n\n\n\n\n\n\n\n\n\n\nItem\nContent\nMean\nSkewness\nKurtosis\n\n\n\n\nN3\nI worry about things\n3.84\n−0.83\n−0.16\n\n\nO2\nI have difficulty understanding abstract ideas\n2.15\n+0.78\n−0.23\n\n\nE1\nI am the life of the party\n2.63\n+0.21\n−0.96\n\n\n\n\n\n\n\n\n\n\nNote\n\n\nThe items are clearly not normal. N3 piles up at the agreement end (69% answer 4 or 5); O2 piles up at the opposite end (67% answer 1 or 2)."
+    "text": "Let us look at real data\nIPIP Big Five data (data/data.csv in this course repository), 50 items, 1–5 scale, n = 19,719 respondents.\nFirst, three individual items:\n\n\n\n\n\n\n\n\n\n\nItem\nContent\nMean\nSkewness\nKurtosis\n\n\n\n\nN3\nI worry about things\n3.84\n−0.83\n−0.16\n\n\nO2\nI have difficulty understanding abstract ideas\n2.15\n+0.78\n−0.23\n\n\nE1\nI am the life of the party\n2.63\n+0.21\n−0.96\n\n\n\n\n\n\n\n\n\n\nNote\n\n\nThe items are clearly not normal. N3 piles up at the agreement end (69% answer 4 or 5); O2 piles up at the opposite end (67% answer 1 or 2)."
   },
   {
     "objectID": "slides/pertemuan2-en.html#now-look-at-the-total-scores",
@@ -935,7 +935,7 @@
     "href": "slides/pertemuan2-en.html#what-does-the-evidence-say",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "What does the evidence say?",
-    "text": "What does the evidence say?\n\nHaslam, Holland, & Kuppens (2012) reviewed 177 taxometric studies of personality and psychopathology constructs.\nTheir conclusion: most constructs appear dimensional. Evidence for natural categories was found for only a few.\nThat means most of the “disorders” we treat as categories are better described as matters of degree.\n\n\n\n\n\n\n\n\nConnect this to Session 1\n\n\nThis is exactly the tension we saw in the DSM: a categorical classification system applied to constructs whose evidence points to a continuum. It is also what motivated the RDoC project."
+    "text": "What does the evidence say?\n\nHaslam, Holland, & Kuppens (2012) reviewed 177 taxometric articles (311 findings) on personality and psychopathology constructs.\nTheir conclusion: most constructs appear dimensional. Once confounds were controlled, they estimated only about 14% of findings were genuinely taxonic.\nThat means most of the “disorders” we treat as categories are better described as matters of degree.\n\n\n\n\n\n\n\n\nConnect this to Session 1\n\n\nThis is exactly the tension we saw in the DSM: a categorical classification system applied to constructs whose evidence points to a continuum. It is also what motivated the RDoC project."
   },
   {
     "objectID": "slides/pertemuan2-en.html#why-this-matters-for-your-scale",
@@ -1222,7 +1222,7 @@
     "href": "slides/pertemuan10.html#ini-bukan-formalitas",
     "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
     "section": "Ini bukan formalitas",
-    "text": "Ini bukan formalitas\n\nPershing & Pershing (2001) memeriksa 50 kuesioner yang dipakai di sebuah sekolah kedokteran ternama.\n72% tidak punya pengantar sama sekali. 78% tidak punya penutup. 30% tidak punya petunjuk pengisian, dan 54% lainnya hanya seadanya.\nHanya 8% yang tampilannya rapi secara profesional.\n\n\n\n\n\n\n\n\nWarning\n\n\nTampilan yang berantakan menurunkan kesungguhan responden, dan itu langsung berpengaruh pada reliabilitas serta validitas skor Anda. Ini bukan soal estetika."
+    "text": "Ini bukan formalitas\n\nPershing & Pershing (2001) memeriksa 50 formulir evaluasi pelatihan yang dipakai di sebuah sekolah kedokteran ternama.\n72% tidak punya pengantar sama sekali. 78% tidak punya penutup. 30% tidak punya petunjuk pengisian, dan 54% lainnya hanya seadanya.\nHanya 8% yang tampilannya rapi secara profesional.\n\n\n\n\n\n\n\n\nWarning\n\n\nTampilan yang berantakan menurunkan kesungguhan responden, dan itu langsung berpengaruh pada reliabilitas serta validitas skor Anda. Ini bukan soal estetika."
   },
   {
     "objectID": "slides/pertemuan10.html#tata-letak",
@@ -1446,7 +1446,7 @@
     "href": "slides/pertemuan7.html#batas-atas",
     "title": "Validitas: Konsep Dasar dan Implementasinya",
     "section": "Batas atas",
-    "text": "Batas atas\nDari Pertemuan 3:\n\\[r_{XY} \\leq \\sqrt{\\rho_{XX'}}\\]\n\n\nReliabilitas yang rendah membatasi korelasi yang bisa Anda peroleh dengan kriteria apa pun.\nJadi reliabilitas memang diperlukan.\nTetapi dari sini orang sering menarik kesimpulan yang keliru: bahwa makin tinggi reliabilitas, makin baik validitasnya."
+    "text": "Batas atas\nDari Pertemuan 3:\n\\[r_{XY} \\leq \\sqrt{\\rho_{XX'} \\times \\rho_{YY'}}\\]\n\n\nReliabilitas skala Anda maupun reliabilitas kriterianya membatasi korelasi yang bisa Anda peroleh dengan kriteria apa pun.\nJadi reliabilitas memang diperlukan.\nTetapi dari sini orang sering menarik kesimpulan yang keliru: bahwa makin tinggi reliabilitas, makin baik validitasnya."
   },
   {
     "objectID": "slides/pertemuan7.html#paradoks-atenuasi",
@@ -1999,7 +1999,7 @@
     "href": "slides/pertemuan2.html#mari-lihat-data-sungguhan",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Mari lihat data sungguhan",
-    "text": "Mari lihat data sungguhan\nData IPIP Big Five (data/data.csv di repositori mata kuliah ini), 50 item, skala 1–5, n = 19.718 responden.\nPertama, lihat tiga item secara terpisah:\n\n\n\n\n\n\n\n\n\n\nItem\nIsi\nRata-rata\nSkewness\nKurtosis\n\n\n\n\nN3\nI worry about things\n3.84\n−0.83\n−0.16\n\n\nO2\nI have difficulty understanding abstract ideas\n2.15\n+0.78\n−0.23\n\n\nE1\nI am the life of the party\n2.63\n+0.21\n−0.96\n\n\n\n\n\n\n\n\n\n\nNote\n\n\nItem-itemnya jelas tidak normal. N3 menumpuk di ujung “setuju” (69% menjawab 4 atau 5), O2 menumpuk di ujung sebaliknya (67% menjawab 1 atau 2)."
+    "text": "Mari lihat data sungguhan\nData IPIP Big Five (data/data.csv di repositori mata kuliah ini), 50 item, skala 1–5, n = 19.719 responden.\nPertama, lihat tiga item secara terpisah:\n\n\n\n\n\n\n\n\n\n\nItem\nIsi\nRata-rata\nSkewness\nKurtosis\n\n\n\n\nN3\nI worry about things\n3.84\n−0.83\n−0.16\n\n\nO2\nI have difficulty understanding abstract ideas\n2.15\n+0.78\n−0.23\n\n\nE1\nI am the life of the party\n2.63\n+0.21\n−0.96\n\n\n\n\n\n\n\n\n\n\nNote\n\n\nItem-itemnya jelas tidak normal. N3 menumpuk di ujung “setuju” (69% menjawab 4 atau 5), O2 menumpuk di ujung sebaliknya (67% menjawab 1 atau 2)."
   },
   {
     "objectID": "slides/pertemuan2.html#sekarang-lihat-skor-totalnya",
@@ -2034,7 +2034,7 @@
     "href": "slides/pertemuan2.html#apa-kata-datanya",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Apa kata datanya?",
-    "text": "Apa kata datanya?\n\nHaslam, Holland, & Kuppens (2012) meninjau 177 studi taxometric atas konstruk kepribadian dan psikopatologi.\nKesimpulannya: sebagian besar konstruk tampak dimensional. Bukti untuk kategori alami hanya ditemukan pada sedikit konstruk.\nArtinya, sebagian besar “gangguan” yang kita perlakukan sebagai kategori sebenarnya lebih tepat digambarkan sebagai derajat.\n\n\n\n\n\n\n\n\nHubungkan dengan Pertemuan 1\n\n\nIni persis ketegangan yang kita lihat pada DSM: sistem klasifikasi yang kategoris, dipakai untuk konstruk yang buktinya menunjukkan kontinum. Itu juga yang melatarbelakangi proyek RDoC."
+    "text": "Apa kata datanya?\n\nHaslam, Holland, & Kuppens (2012) meninjau 177 artikel taxometric (311 temuan) atas konstruk kepribadian dan psikopatologi.\nKesimpulannya: sebagian besar konstruk tampak dimensional. Setelah faktor pengganggu dikendalikan, mereka memperkirakan hanya sekitar 14% temuan yang benar-benar taksonik.\nArtinya, sebagian besar “gangguan” yang kita perlakukan sebagai kategori sebenarnya lebih tepat digambarkan sebagai derajat.\n\n\n\n\n\n\n\n\nHubungkan dengan Pertemuan 1\n\n\nIni persis ketegangan yang kita lihat pada DSM: sistem klasifikasi yang kategoris, dipakai untuk konstruk yang buktinya menunjukkan kontinum. Itu juga yang melatarbelakangi proyek RDoC."
   },
   {
     "objectID": "slides/pertemuan2.html#kenapa-ini-penting-untuk-skala-anda",
@@ -2230,7 +2230,7 @@
     "href": "index.html#tugas-dan-penilaian",
     "title": "Penyusunan Skala Psikologi",
     "section": "Tugas dan Penilaian",
-    "text": "Tugas dan Penilaian\nTerdapat tiga komponen penilaian utama, sebagaimana tercantum dalam RPP:\n\nKomponen penilaian\n\n\n\n\n\n\n\nKomponen\nBobot\nCakupan\n\n\n\n\nKegiatan Partisipatif\n15%\nKeaktifan dalam diskusi dan interaksi di kelas, Pertemuan 1–16\n\n\nUTS\n25%\nUjian tulis (pilihan ganda), materi Pertemuan 1–7\n\n\nHasil Proyek\n60%\nProyek kelompok penyusunan skala, Pertemuan 9–16\n\n\nTotal\n100%\n\n\n\n\n\nHasil Proyek (60%)\nMahasiswa bekerja dalam kelompok beranggotakan 5 orang untuk mengonstruksi sebuah skala psikologis beserta manualnya, mengikuti tahapan pada Rancangan Tugas Mahasiswa (RTM): menetapkan variabel yang diukur, membuat definisi operasional, menulis item, mereview item, mengambil data uji coba, menganalisis item, menguji reliabilitas dan validitas, membuat norma, dan menyusun manual.\nPenilaian menggunakan rubrik resmi pada RTM:\n\nRubrik penilaian Hasil Proyek (RTM)\n\n\n\n\n\n\nKomponen laporan\nPoin\n\n\n\n\nPengantar\n5\n\n\nOperasionalisasi konstruk\n5\n\n\nPenulisan item\n20\n\n\nReview item / CVI\n10\n\n\nUji coba\n10\n\n\nAnalisis item\n35\n\n\nSkoring & norma\n15\n\n\nTotal\n100\n\n\n\n\n\nKriteria nilai akhir\nMengikuti peraturan akademik Universitas Airlangga:\n\nKonversi nilai\n\n\n\n\n\n\nNilai angka\nNilai huruf\n\n\n\n\n86 – 100\nA\n\n\n78 – &lt;86\nAB\n\n\n70 – &lt;78\nB\n\n\n62 – &lt;70\nBC\n\n\n54 – &lt;62\nC\n\n\n40 – &lt;54\nD\n\n\n0 – &lt;40\nE"
+    "text": "Tugas dan Penilaian\nTerdapat tiga komponen penilaian utama, sebagaimana tercantum dalam RPP:\n\nKomponen penilaian\n\n\n\n\n\n\n\nKomponen\nBobot\nCakupan\n\n\n\n\nUTS\n35%\nUjian tulis (pilihan ganda), materi Pertemuan 1–7\n\n\nHasil Proyek\n65%\nProyek kelompok penyusunan skala, Pertemuan 9–16\n\n\nTotal\n100%\n\n\n\n\n\nHasil Proyek (60%)\nMahasiswa bekerja dalam kelompok beranggotakan 5 orang untuk mengonstruksi sebuah skala psikologis beserta manualnya, mengikuti tahapan pada Rancangan Tugas Mahasiswa (RTM): menetapkan variabel yang diukur, membuat definisi operasional, menulis item, mereview item, mengambil data uji coba, menganalisis item, menguji reliabilitas dan validitas, membuat norma, dan menyusun manual.\nPenilaian menggunakan rubrik resmi pada RTM:\n\nRubrik penilaian Hasil Proyek (RTM)\n\n\n\n\n\n\nKomponen laporan\nPoin\n\n\n\n\nPengantar\n5\n\n\nOperasionalisasi konstruk\n5\n\n\nPenulisan item\n20\n\n\nReview item / CVI\n10\n\n\nUji coba\n10\n\n\nAnalisis item\n35\n\n\nSkoring & norma\n15\n\n\nTotal\n100\n\n\n\n\n\nKriteria nilai akhir\nMengikuti peraturan akademik Universitas Airlangga:\n\nKonversi nilai\n\n\n\n\n\n\nNilai angka\nNilai huruf\n\n\n\n\n86 – 100\nA\n\n\n78 – &lt;86\nAB\n\n\n70 – &lt;78\nB\n\n\n62 – &lt;70\nBC\n\n\n54 – &lt;62\nC\n\n\n40 – &lt;54\nD\n\n\n0 – &lt;40\nE"
   },
   {
     "objectID": "index.html#ketentuan-lain",
@@ -2293,91 +2293,84 @@
     "href": "slides/pertemuan1.html#jejak-paling-awal",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Jejak paling awal",
-    "text": "Jejak paling awal\n\n±2200 SM, Tiongkok — ujian untuk seleksi pegawai negeri (DuBois, dalam Barnette, 1976).\nKitab Amsal 11:1 — “A false balance is an abomination to the Lord, but a just weight is a delight.” Timbangan yang curang adalah persoalan moral.\nAristoteles menyebut adanya pejabat yang bertugas memeriksa timbangan dan takaran.\nAbad ke-7 — sistem perpajakan Muslim berbasis “berat tujuh” (Wright, 1999).\nRevolusi Prancis — sebagian dipicu kekesalan petani terhadap praktik penimbangan yang tidak adil.\n\n\n\n\n\n\n\n\nYang menarik dari daftar ini\n\n\nSemuanya soal keadilan, bukan soal akurasi ilmiah. Sejak awal, pengukuran adalah alat kekuasaan dan pembagian sumber daya. Hal ini akan muncul lagi ketika kita membahas test bias dan penggunaan tes psikologi untuk seleksi."
+    "text": "Jejak paling awal\n\n±2200 SM, Tiongkok — ujian untuk seleksi pegawai negeri.\nTimbangan yang curang adalah persoalan moral.\n\nQS. Al Muthoffifin: 1-3 — “Kecelakaan besarlah bagi orang-orang yang curang (yaitu) orang-orang yang apabila menerima takaran dari orang lain mereka minta dipenuhi dan apabila mereka menakar atau menimbang untuk orang lain, mereka mengurangi.”\nQS. Al Isra’: 35 — “Dan sempurnakanlah takaran apabila kamu menakar, dan timbanglah dengan neraca yang benar. Itulah yang lebih utama (bagimu) dan lebih baik akibatnya.”\nQS. Al An’am: 152 - “Dan sempurnakanlah takaran dan timbangan dengan adil. Kami tidak memikulkan beban kepada sesorang melainkan sekedar kesanggupannya.”\nKitab Amsal 11:1 — “A false balance is an abomination to the Lord, but a just weight is a delight.”\n\nRevolusi Prancis — sebagian dipicu kekesalan petani terhadap praktik penimbangan yang tidak adil.\n\n\n\n\n\n\n\n\nYang menarik dari contoh di atas\n\n\nSemuanya soal keadilan, bukan soal akurasi ilmiah. Sejak awal, pengukuran adalah alat kekuasaan dan pembagian sumber daya. Isu soal keadilan dalam pengukuran akan muncul lagi ketika kita membahas test bias dan penggunaan tes psikologi untuk seleksi."
   },
   {
-    "objectID": "slides/pertemuan1.html#gagasan-bahwa-pengukuran-bisa-keliru-itu-relatif-baru",
-    "href": "slides/pertemuan1.html#gagasan-bahwa-pengukuran-bisa-keliru-itu-relatif-baru",
+    "objectID": "slides/pertemuan1.html#gagasan-bahwa-pengukuran-bisa-keliru-justru-relatif-baru",
+    "href": "slides/pertemuan1.html#gagasan-bahwa-pengukuran-bisa-keliru-justru-relatif-baru",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
-    "section": "Gagasan bahwa pengukuran bisa keliru itu relatif baru",
-    "text": "Gagasan bahwa pengukuran bisa keliru itu relatif baru\n\nAkhir 1660-an: Isaac Newton, waktu itu masih berusia 20-an, tampaknya orang pertama yang merata-ratakan pengamatan berulang untuk mendapatkan nilai yang lebih akurat.\nTetapi ia menyembunyikan praktik itu selama puluhan tahun dan tidak mendokumentasikannya di laporan awalnya.\nKenapa disembunyikan? Karena waktu itu, perbedaan antar-pengamatan tidak dipahami sebagai bagian yang melekat pada proses pengukuran, melainkan sebagai tanda bahwa si pengamat kurang cakap."
+    "section": "Gagasan bahwa pengukuran bisa keliru justru relatif baru",
+    "text": "Gagasan bahwa pengukuran bisa keliru justru relatif baru\n\nAkhir 1660-an: Isaac Newton, waktu itu masih berusia 20-an, merupakan orang pertama yang merata-ratakan pengamatan berulang untuk mendapatkan nilai yang lebih akurat.\nTetapi ia menyembunyikan praktik itu selama puluhan tahun dan tidak mendokumentasikannya di laporan awalnya.\nKenapa disembunyikan? Karena waktu itu, perbedaan antar-pengamatan tidak dipahami sebagai bagian yang melekat pada proses pengukuran, melainkan sebagai tanda bahwa si pengamat kurang kompeten."
   },
   {
     "objectID": "slides/pertemuan1.html#error-dan-penilaian-moral",
     "href": "slides/pertemuan1.html#error-dan-penilaian-moral",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Error dan penilaian moral",
-    "text": "Error dan penilaian moral\n\n[17th- and early 18th-century scientists’] way of working regarded differences not as the inevitable byproducts of the measuring process itself, but as evidence of failed or inadequate skill. Error in measurement was potentially little different from faulty behavior of any kind: it could have moral consequences.\n— Buchwald (2006, p. 566)\n\n\n\n\n\n\n\n\nPerhatikan jaraknya\n\n\nButuh waktu satu abad setelah Newton sampai para ilmuwan secara luas menerima bahwa semua pengukuran mengandung error, dan bahwa merata-ratakan justru memperkecilnya (Buchwald, 2006)."
+    "text": "Error dan penilaian moral\n\n[17th- and early 18th-century scientists’] way of working regarded differences not as the inevitable byproducts of the measuring process itself, but as evidence of failed or inadequate skill. Error in measurement was potentially little different from faulty behavior of any kind: it could have moral consequences.\n— Buchwald (2006, p. 566)\n\n\n\n\n\n\n\n\nPerhatikan jaraknya\n\n\nButuh waktu satu abad setelah Newton sampai para ilmuwan secara luas menerima bahwa semua pengukuran mengandung error, dan bahwa merata-ratakan pengamatan yang dilakukan berulang justru praktik yang baik karena mengurangi dampak error pengukuran (Buchwald, 2006)."
   },
   {
-    "objectID": "slides/pertemuan1.html#pergeseran-yang-memungkinkan-psikometri",
-    "href": "slides/pertemuan1.html#pergeseran-yang-memungkinkan-psikometri",
+    "objectID": "slides/pertemuan1.html#perubahan-paradigma-dan-perkembangan-psikometri",
+    "href": "slides/pertemuan1.html#perubahan-paradigma-dan-perkembangan-psikometri",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
-    "section": "Pergeseran yang memungkinkan psikometri",
-    "text": "Pergeseran yang memungkinkan psikometri\n\nAlder (2002) mencatat bahwa sampai akhir 1700-an, menyembunyikan perbedaan hasil pengamatan “bukan hanya lazim, tapi dianggap hak istimewa seorang ilmuwan.”\nPergeserannya besar: dari error sebagai kegagalan pribadi, menjadi error sebagai sifat sistematis proses pengukuran yang bisa dimodelkan.\nTanpa pergeseran ini, tidak akan ada yang namanya Classical Test Theory. Kita membahasnya di Pertemuan 3."
+    "section": "Perubahan paradigma dan perkembangan psikometri",
+    "text": "Perubahan paradigma dan perkembangan psikometri\n\nAwalnya menyembunyikan perbedaan hasil pengamatan merupakan sesuatu yang lazim dilakukan.\n\nKarena, ilmuwan bertanggung jawab untuk menciptakan “gambaran ideal” dari suatu fenomena alam, dengan menggunakan penilaiannya sendiri untuk menentukan apa yang seharusnya dianggap ideal.\nAkibatnya, “nilai penyimpangan yang tidak disengaja/acak” umumnya dikecualikan dari catatan ilmiah (Daston & Gallison, 2007)\n\nDampaknya perubahan ini besar: Error yang awalnya dianggap sebagai indikasi inkompetensi pengamat/ilmuwan, dimaknai menjadi sifat “sistematis” yang acak (stochastic) dari suatu proses pengukuran yang bisa dimodelkan/diestimasi.\nTanpa perubahan ini, Classical Test Theory tidak mungkin ada sampai sekarang."
   },
   {
     "objectID": "slides/pertemuan1.html#dari-error-ke-statistik",
     "href": "slides/pertemuan1.html#dari-error-ke-statistik",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Dari error ke statistik",
-    "text": "Dari error ke statistik\n\n1660-an, John Graunt mengumpulkan angka kelahiran dan kematian dari catatan baptis dan pemakaman di Hampshire, Inggris. Ia merata-ratakan untuk mendapatkan nilai “sejati” yang menurutnya tertutup oleh peristiwa tak terduga di tiap tahunnya.\n1777, Daniel Bernoulli membandingkan sebaran hasil pengamatan astronomi dengan jatuhnya anak panah seorang pemanah: mengumpul di sekitar satu titik, dan makin sedikit ketika makin jauh dari titik itu.\nBuchwald (2006) menilai kelemahan mendasar interpretasi abad ke-18 adalah kegagalan membedakan random error dari systematic error — pembedaan yang baru jelas di abad berikutnya.\n\n\n\n\n\n\n\n\nIngat analogi anak panah ini\n\n\nAnalogi Bernoulli menggambarkan apa yang nanti kita sebut random error, dan kenapa reliabilitas bisa dinaikkan hanya dengan menambah item. Kita kembali ke sini di Pertemuan 6."
+    "text": "Dari error ke statistik\n\n1660-an, John Graunt mengumpulkan angka kelahiran dan kematian dari catatan baptis dan pemakaman di London, Inggris. Ia merata-ratakan untuk mendapatkan nilai “sebenarnya” yang menurutnya tertutup oleh peristiwa tak terduga di tiap tahunnya.\n1777, Daniel Bernoulli membandingkan sebaran hasil pengamatan astronomi dengan jatuhnya anak panah seorang pemanah, yang sama-sama mengumpul di sekitar satu titik ketika diamati/dilakukan berkali-kali.\nBuchwald (2006) menilai kelemahan mendasar interpretasi abad ke-18 adalah kegagalan membedakan random error dari systematic error. Perbedaan keduanya baru jelas di abad berikutnya.\n\n\n\n\n\n\n\n\nIngat analogi anak panah ini\n\n\nAnalogi Bernoulli menggambarkan apa yang nanti kita sebut random error, dan kenapa reliabilitas bisa dinaikkan hanya dengan menambah item."
   },
   {
     "objectID": "slides/pertemuan1.html#bagaimana-psikometri-lahir",
     "href": "slides/pertemuan1.html#bagaimana-psikometri-lahir",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Bagaimana psikometri lahir",
-    "text": "Bagaimana psikometri lahir\n\nDarwin mengamati dan mengukur variasi sistematis antar-spesies.\nSepupunya, Sir Francis Galton, menerapkan pengamatan sistematis atas perbedaan itu pada manusia — dengan perhatian utama pada pewarisan sifat anatomis dan intelektual.\nKarl Pearson, kolega yunior Galton, mengembangkan alat statistiknya — termasuk Product-Moment Correlation Coefficient yang memakai namanya.\nCharles Spearman melanjutkannya dan membuka jalan bagi analisis faktor.\nAlfred Binet mengembangkan tes kemampuan mental di Prancis pada awal 1900-an.\n\n\n\n\n\n\n\n\nWarisan yang tidak netral\n\n\nBanyak kontributor awal psikometri bekerja dalam kerangka eugenika. Alat statistiknya masih kita pakai sampai sekarang, tetapi asumsi politis di baliknya tidak wajib kita warisi. Menyadari asal-usul ini adalah bagian dari bersikap kritis terhadap alat yang kita gunakan."
+    "text": "Bagaimana psikometri lahir\n\nDarwin mengamati dan mengukur variasi sistematis antar-spesies.\nSepupunya, Sir Francis Galton, menerapkan pengamatan sistematis atas perbedaan itu pada manusia dengan perhatian utama pada pewarisan sifat anatomis dan intelektual.\nKarl Pearson, kolega Galton, mengembangkan teknik analisis statistik termasuk Product-Moment Correlation Coefficient yang memakai namanya.\nCharles Spearman melanjutkannya dan membuka jalan bagi analisis faktor.\nAlfred Binet mengembangkan tes kemampuan mental/intelegensi di Prancis pada awal 1900-an.\n\n\n\n\n\n\n\n\nWarisan yang tidak netral\n\n\nBanyak kontributor awal psikometri bekerja dalam kerangka [eugenika]. Analisis statistiknya masih kita pakai sampai sekarang, tetapi asumsi dan konsekuensi politis di baliknya (e.g., fertilisasi ras tertentu yang dianggap “inferior”, dst.) tidak boleh kita teruskan. Menyadari asal-usul ini adalah bagian dari bersikap kritis terhadap teori yang kita gunakan."
   },
   {
     "objectID": "slides/pertemuan1.html#ketika-psikologi-dinyatakan-tidak-bisa-diukur",
     "href": "slides/pertemuan1.html#ketika-psikologi-dinyatakan-tidak-bisa-diukur",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Ketika psikologi dinyatakan “tidak bisa diukur”",
-    "text": "Ketika psikologi dinyatakan “tidak bisa diukur”\n\nAkhir abad ke-19, Helmholtz mengamati bahwa atribut fisik seperti panjang dan massa punya struktur matematis yang sama dengan bilangan real positif: bisa diurutkan dan bisa dijumlahkan.\nKomisi British Association for the Advancement of Science (dibentuk 1932, laporan final 1940) menyimpulkan bahwa pengukuran fundamental atas variabel psikologis itu mustahil — karena persepsi indrawi tidak bisa diurutkan atau dijumlahkan seperti panjang dan massa.\nS. S. Stevens membantah: sifat aditif yang ketat tidak diperlukan. Orang bisa membuat penilaian rasio yang cukup konsisten, misalnya menilai satu suara dua kali lebih keras dari suara lain.\nL. L. Thurstone, di waktu yang hampir bersamaan, membangun fondasi matematis analisis faktor dan menerapkan metode psikofisika untuk scaling stimulus sosial."
-  },
-  {
-    "objectID": "slides/pertemuan1.html#kenapa-bagian-sejarah-ini-penting",
-    "href": "slides/pertemuan1.html#kenapa-bagian-sejarah-ini-penting",
-    "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
-    "section": "Kenapa bagian sejarah ini penting",
-    "text": "Kenapa bagian sejarah ini penting\n\n\n\n\n\n\nBukan sekadar trivia\n\n\nLegitimasi ilmiah pengukuran psikologis bukan sesuatu yang otomatis diterima. Legitimasi itu harus dibangun lewat argumen, melawan keberatan yang serius dan masuk akal.\n\n\n\n\n\nArtinya, keberatan itu tidak hilang hanya karena argumen Stevens yang akhirnya lebih diterima.\nKeberatannya masih ada, dan sebagian ahli berpendapat keberatan itu tidak pernah benar-benar dijawab. Kita berkenalan dengan versi modernnya sebentar lagi."
+    "text": "Ketika psikologi dinyatakan “tidak bisa diukur”\n\nAkhir abad ke-19, Helmholtz mengamati bahwa atribut fisik seperti panjang dan massa punya struktur matematis yang sama dengan bilangan real positif: bisa diurutkan dan bisa dijumlahkan.\nKomisi British Association for the Advancement of Science (dibentuk 1932) menyimpulkan bahwa pengukuran fundamental atas variabel psikologis itu mustahil karena persepsi indrawi tidak bisa diurutkan atau dijumlahkan seperti panjang dan massa.\nS. S. Stevens membantah: sifat aditif yang ketat tidak diperlukan. Orang bisa membuat penilaian rasio yang cukup konsisten, misalnya menilai satu suara dua kali lebih keras dari suara lain.\nL. L. Thurstone, di waktu yang hampir bersamaan, membangun fondasi matematis analisis faktor dan menerapkan metode psikofisika untuk scaling stimulus sosial."
   },
   {
     "objectID": "slides/pertemuan1.html#definisi-yang-paling-sering-dikutip",
     "href": "slides/pertemuan1.html#definisi-yang-paling-sering-dikutip",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Definisi yang paling sering dikutip",
-    "text": "Definisi yang paling sering dikutip\n\nMeasurement is the assignment of numerals to objects or events according to rules.\n— S. S. Stevens (1946)\n\n\nTerjemahan bebasnya: pengukuran adalah pemberian angka pada objek atau peristiwa menurut aturan tertentu.\n\n\n\nDefinisi ini sangat longgar, dan itu memang disengaja. Definisi ini dirancang supaya pengukuran psikologis bisa masuk ke dalamnya.\nKonsekuensinya, hampir apa pun bisa disebut pengukuran, asalkan ada aturannya."
+    "text": "Definisi yang paling sering dikutip\n\nMeasurement is the assignment of numerals to objects or events according to rules.\n— S. S. Stevens (1946)\n\n\nTerjemahan bebasnya: pengukuran adalah pemberian angka pada objek atau peristiwa menurut aturan tertentu.\n\n\n\nDefinisi ini sangat longgar, dan ini memang disengaja. Definisi ini dirancang supaya pengukuran psikologis bisa masuk ke dalamnya.\nKonsekuensinya, hampir apa pun bisa disebut pengukuran, asalkan ada aturannya."
   },
   {
     "objectID": "slides/pertemuan1.html#keberatan-duncan",
     "href": "slides/pertemuan1.html#keberatan-duncan",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Keberatan Duncan",
-    "text": "Keberatan Duncan\n\nMeasurement is not only the assignment of numerals, etc. It is also the assignment of numerals in such a way as to correspond to different degrees of a quality . . . or property of some object or event.\n— Duncan (1984, p. 126)\n\n\n\n\n\n\n\n\nApa yang ditambahkan Duncan\n\n\nSyarat korespondensi. Angka tidak boleh sekadar mengikuti aturan; strukturnya harus mencerminkan struktur atributnya. Kalau A punya atribut dua kali lebih banyak dari B, angkanya harus menunjukkan itu juga.\nDuncan mengibaratkan definisi Stevens seperti mengatakan “bermain piano adalah menekan tuts menurut pola tertentu” — tidak salah, tapi jelas belum lengkap."
+    "text": "Keberatan Duncan\n\nMeasurement is not only the assignment of numerals, etc. It is also the assignment of numerals in such a way as to correspond to different degrees of a quality . . . or property of some object or event.\n— Duncan (1984)\n\n\n\n\n\n\n\n\nApa yang ditambahkan Duncan\n\n\nSyarat korespondensi. Angka tidak boleh sekadar mengikuti aturan; strukturnya harus mencerminkan struktur atributnya. Kalau A punya atribut dua kali lebih banyak dari B, angkanya harus menunjukkan kualitas tersebut.\nDuncan mengibaratkan definisi Stevens seperti mengatakan “bermain piano adalah menekan tuts menurut pola tertentu”. Memang tidak sepenuhnya salah, tapi jelas belum lengkap."
   },
   {
     "objectID": "slides/pertemuan1.html#kritik-yang-lebih-mendasar-michell",
     "href": "slides/pertemuan1.html#kritik-yang-lebih-mendasar-michell",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Kritik yang lebih mendasar: Michell",
-    "text": "Kritik yang lebih mendasar: Michell\n\nJoel Michell (1997, 2000) berargumen bahwa definisi Stevens bukan sekadar tidak lengkap, tetapi menutupi masalah yang sebenarnya.\nMenurutnya, pengukuran yang sesungguhnya adalah mengestimasi rasio antara besaran (magnitude) suatu atribut kuantitatif dengan satuan dari atribut yang sama.\nDefinisi ini mensyaratkan satu hal yang sifatnya empiris: atribut yang diukur harus benar-benar kuantitatif, harus benar-benar punya struktur yang bisa dijumlahkan.\n\n\n\n\n\n\n\n\nKritik utama Michell\n\n\nApakah atribut psikologis (kecemasan, kepribadian, motivasi) benar-benar kuantitatif adalah pertanyaan empiris yang seharusnya diuji lebih dulu. Menurut Michell, psikologi melewati pertanyaan itu dan langsung mengasumsikan jawabannya “ya”. Ia menyebutnya quantitative imperative, dan menilai psikometri sebagai contoh pathological science."
+    "text": "Kritik yang lebih mendasar: Michell\n\nJoel Michell (2007, 2011) berargumen bahwa definisi Stevens bukan sekadar tidak lengkap, tetapi menutupi masalah yang sebenarnya.\nMenurutnya, pengukuran yang sesungguhnya adalah mengestimasi rasio antara besaran (magnitude) suatu atribut kuantitatif dengan satuan dari atribut yang sama.\nDefinisi ini mensyaratkan satu hal yang sifatnya empiris: atribut yang diukur harus benar-benar kuantitatif, harus benar-benar punya struktur yang bisa dijumlahkan.\n\n\n\n\n\n\n\n\nKritik utama Michell\n\n\nApakah atribut psikologis (kecemasan, kepribadian, motivasi) benar-benar kuantitatif adalah pertanyaan empiris yang seharusnya diuji lebih dulu. Menurut Michell, psikologi melewati pertanyaan itu dan langsung mengasumsikan jawabannya “ya”. Ia menyebutnya quantitative imperative, dan menilai psikometri sebagai contoh pathological science."
   },
   {
     "objectID": "slides/pertemuan1.html#anda-tidak-harus-setuju-dengan-michell",
     "href": "slides/pertemuan1.html#anda-tidak-harus-setuju-dengan-michell",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Anda tidak harus setuju dengan Michell",
-    "text": "Anda tidak harus setuju dengan Michell\n\nBanyak ahli psikometri tidak setuju dengan Michell, dan bantahan mereka juga serius.\nTetapi Anda perlu tahu bahwa kritik ini ada, dan Anda harus bisa menyebutkan asumsi apa yang sedang Anda pakai ketika Anda menjumlahkan 10 item Likert menjadi satu skor.\n\n\n\n\n\n\n\n\nSikap yang kita latih di mata kuliah ini\n\n\nBukan “menolak psikometri”, dan juga bukan “menerimanya bulat-bulat”. Melainkan: tahu persis asumsi apa yang sedang saya pakai, dan apa akibatnya kalau asumsi itu salah."
+    "text": "Anda tidak harus setuju dengan Michell\n\nBanyak ahli psikometri tidak setuju dengan Michell, dan bantahan mereka juga sama kuatnya.\nTetapi Anda perlu tahu bahwa kritik ini benar-benar ada, dan Anda harus bisa menyebutkan asumsi apa yang sedang Anda pakai ketika Anda menjumlahkan 10 item Likert menjadi satu skor.\n\n\n\n\n\n\n\n\nSikap yang kita latih di mata kuliah ini\n\n\nBukan “menolak psikometri”, dan juga bukan “menerimanya bulat-bulat”. Melainkan: tahu persis asumsi apa yang sedang saya pakai, dan apa akibatnya kalau asumsi itu salah."
   },
   {
     "objectID": "slides/pertemuan1.html#pengukuran-vs-asesmen",
     "href": "slides/pertemuan1.html#pengukuran-vs-asesmen",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Pengukuran vs asesmen",
-    "text": "Pengukuran vs asesmen\n\n\nPengukuran\nPemberian angka pada objek atau peristiwa berdasarkan aturan tertentu.\nHasilnya: skor.\n\nAsesmen\nKegiatan yang lebih luas: memadukan pengukuran dengan interpretasi dan pengambilan keputusan.\nHasilnya: kesimpulan dan tindakan.\n\n\n\n\n\n\n\n\n\nKenapa pembedaan ini penting untuk proyek Anda\n\n\nYang Anda susun semester ini adalah alat ukur. Tetapi manual yang Anda tulis di Pertemuan 14 adalah dokumen asesmen — manual itu harus memberi tahu penggunanya bagaimana menafsirkan skor, dan keputusan apa yang boleh (dan tidak boleh) diambil dari skor itu.\n\n\n\n\n\nPetersen, Principles of Psychological Assessment, Bab 1."
+    "text": "Pengukuran vs asesmen\n\n\nPengukuran\nPemberian angka pada objek atau peristiwa berdasarkan aturan tertentu.\nHasilnya: skor.\n\nAsesmen\nKegiatan yang lebih luas: memadukan pengukuran dengan interpretasi dan pengambilan keputusan.\nHasilnya: kesimpulan dan tindakan.\n\n\n\n\n\n\n\n\n\nKenapa pembedaan ini penting untuk proyek Anda\n\n\nYang Anda susun semester ini adalah alat ukur. Tetapi manual yang Anda tulis di Pertemuan 14 adalah dokumen asesmen. Manual itu harus memberi tahu penggunanya bagaimana menafsirkan skor, dan keputusan apa yang boleh (dan tidak boleh) diambil dari skor itu.\n\n\n\n\n\nPetersen, Principles of Psychological Assessment, Bab 1."
   },
   {
     "objectID": "slides/pertemuan1.html#fisika-vs-psikologi",
@@ -2391,35 +2384,35 @@
     "href": "slides/pertemuan1.html#fisika-sebenarnya-juga-memakai-proksi",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Fisika sebenarnya juga memakai proksi",
-    "text": "Fisika sebenarnya juga memakai proksi\n\nTekanan darah dan suhu tubuh terlihat seperti bisa diamati langsung. Padahal yang benar-benar kita amati adalah kolom air raksa atau angka pada layar digital.\nKita menyebut ketinggian air raksa itu “suhu”, padahal itu hanya wujud yang bisa kita lihat dari energi termal.\nPada termometer, penyederhanaan ini hampir tidak bermasalah, karena hubungan antara proksi dan atributnya sangat erat.\n\n\n\n\n\n\n\n\nKalau hubungannya tidak seerat itu?\n\n\nKetika hubungan antara variabel dan indikatornya jauh lebih lemah daripada pada contoh termometer, tertukarnya alat ukur dengan fenomena yang ingin diukur bisa membawa kita ke kesimpulan yang keliru sama sekali."
+    "text": "Fisika sebenarnya juga memakai proksi\n\nTekanan darah dan suhu tubuh terlihat seperti bisa diamati langsung. Padahal yang benar-benar kita amati adalah kolom air raksa atau angka pada layar digital.\nKita menyebut ketinggian air raksa itu “suhu”, padahal itu hanya wujud yang bisa kita lihat dari energi termal.\nPada termometer, penyederhanaan ini hampir tidak bermasalah, karena hubungan antara proksi dan atributnya sangat kuat.\n\n\n\n\n\n\n\n\nKalau hubungannya tidak sekuat itu?\n\n\nKetika hubungan antara variabel dan indikatornya jauh lebih lemah daripada pada contoh termometer, tertukarnya alat ukur dengan fenomena yang ingin diukur bisa membawa kita ke kesimpulan yang keliru sama sekali."
   },
   {
     "objectID": "slides/pertemuan1.html#contoh-dukungan-sosial-atau-status-pernikahan",
     "href": "slides/pertemuan1.html#contoh-dukungan-sosial-atau-status-pernikahan",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Contoh: dukungan sosial atau status pernikahan?",
-    "text": "Contoh: dukungan sosial atau status pernikahan?\n\nSeorang peneliti ingin menelaah peran dukungan sosial terhadap pencapaian profesional, memakai data sekunder.\nDatanya lengkap soal status profesional dari waktu ke waktu. Soal dukungan sosial? Tidak ada. Yang ada hanya beberapa item tentang apakah responden menikah.\nPeneliti itu menjumlahkan item-item pernikahan tersebut, menyebutnya “skala dukungan sosial”, lalu menemukan tidak ada hubungan dengan pencapaian profesional.\n\n\n\n\n\n\n\n\nApa yang sebenarnya terjadi\n\n\nYang dibandingkan adalah status pernikahan dengan pencapaian profesional, bukan dukungan sosial. Status pernikahan membuang aspek penting dukungan sosial (misalnya kualitas dukungan yang dirasakan) dan memasukkan faktor yang tidak relevan (misalnya responden yang usianya belum cukup untuk menikah).\nKesimpulan “dukungan sosial tidak berperan” bisa sepenuhnya salah, dan tidak ada apa pun di dalam datanya yang akan memberi tahu kita."
+    "text": "Contoh: dukungan sosial atau status pernikahan?\n\nSeorang peneliti ingin menelaah peran dukungan sosial terhadap pencapaian profesional, memakai data sekunder.\nDatanya lengkap soal status profesional dari waktu ke waktu, tetapi tidak ada informasi tentang dukungan sosial sama sekali. Yang ada hanya beberapa item tentang apakah responden menikah.\nPeneliti itu menjumlahkan item-item pernikahan tersebut, menyebutnya “skala dukungan sosial”, lalu menemukan tidak ada hubungan dengan pencapaian karir profesional.\n\n\n\n\n\n\n\n\nApa yang sebenarnya terjadi\n\n\nYang dibandingkan adalah status pernikahan dengan pencapaian profesional, bukan dukungan sosial. Status pernikahan mengabaikan aspek penting dukungan sosial (misalnya kualitas dukungan yang dirasakan) dan memasukkan faktor yang tidak relevan (misalnya responden yang usianya belum cukup untuk menikah).\nKesimpulan “dukungan sosial tidak berperan” bisa sepenuhnya salah, dan tidak ada apa pun di dalam data yang akan membantu kita untuk menjawab pertanyaan penelitian ini."
   },
   {
     "objectID": "slides/pertemuan1.html#kesalahan-seperti-ini-sering-terjadi",
     "href": "slides/pertemuan1.html#kesalahan-seperti-ini-sering-terjadi",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Kesalahan seperti ini sering terjadi",
-    "text": "Kesalahan seperti ini sering terjadi\n\nDalam penelitian, kita hampir tidak pernah memeriksa hubungan antar-variabel secara langsung.\nYang kita periksa adalah hubungan antar-proksi. Dan proksi yang teramati mudah sekali tertukar dengan variabel yang tidak teramati.\nDeVellis & Thorpe mencatat satu pola yang sering muncul: menyimpulkan bahwa sebuah konstruk tidak penting atau sebuah teori tidak konsisten, padahal yang bermasalah adalah alat ukurnya.\n\n\n\n\n\n\n\n\nKebiasaan yang perlu dilatih\n\n\nSetiap kali Anda membaca kalimat “tidak ditemukan hubungan yang signifikan”, tanyakan satu hal: apakah alat ukurnya memang mampu menangkap konstruk itu?"
+    "text": "Kesalahan seperti ini sering terjadi\n\nDalam penelitian, kita hampir tidak pernah memeriksa hubungan antar-variabel secara langsung.\nYang kita periksa adalah hubungan antar-proksi. Dan proksi yang teramati mudah sekali tertukar dengan variabel yang tidak teramati.\nDeVellis & Thorpe mencatat satu pola yang sering muncul: menyimpulkan bahwa sebuah konstruk tidak penting atau sebuah teori tidak konsisten, padahal yang bermasalah adalah alat ukurnya.\n\n\n\n\n\n\n\n\nKebiasaan yang perlu Anda latih\n\n\nSetiap kali Anda membaca kalimat “tidak ditemukan hubungan yang signifikan”, tanyakan satu hal: apakah alat ukurnya memang mampu menangkap konstruk itu?"
   },
   {
     "objectID": "slides/pertemuan1.html#empat-level-stevens",
     "href": "slides/pertemuan1.html#empat-level-stevens",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Empat level Stevens",
-    "text": "Empat level Stevens\n\n\n\n\n\n\n\n\nLevel\nCiri\nContoh psikologis\n\n\n\n\nNominal\nKategori, tanpa urutan\nJenis kelamin, etnis, diagnosis\n\n\nOrdinal\nBerurutan, jarak tidak setara\nPeringkat, “jarang–kadang–sering”\n\n\nInterval\nJarak setara, tanpa nol sejati\nSuhu °C, (klaim) skor skala Likert\n\n\nRasio\nJarak setara, ada nol sejati\nWaktu reaksi, jumlah kata yang diingat\n\n\n\n\n\n\n\n\n\n\nPerhatikan kolom paling kanan\n\n\nSemakin ke bawah, contoh psikologisnya semakin sulit dicari."
+    "text": "Empat level Stevens\n\n\n\n\n\n\n\n\nLevel\nCiri\nContoh psikologis\n\n\n\n\nNominal\nKategori, tanpa urutan\nJenis kelamin, etnis, diagnosis\n\n\nOrdinal\nBerurutan, jarak tidak setara\nPeringkat, “jarang–kadang–sering”\n\n\nInterval\nJarak setara, tanpa true zero\nSuhu °C, (klaim) skor skala Likert\n\n\nRasio\nJarak setara, ada true zero\nWaktu reaksi, jumlah kata yang diingat\n\n\n\n\n\n\n\n\n\n\nPerhatikan kolom paling kanan\n\n\nSemakin ke bawah, kosntruk psikologisnya semakin sulit dicari."
   },
   {
-    "objectID": "slides/pertemuan1.html#nol-sejati-itu-apa",
-    "href": "slides/pertemuan1.html#nol-sejati-itu-apa",
+    "objectID": "slides/pertemuan1.html#true-zero",
+    "href": "slides/pertemuan1.html#true-zero",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
-    "section": "Nol sejati itu apa?",
-    "text": "Nol sejati itu apa?\n\nNol sejati berarti angka nol menandakan ketiadaan atribut sepenuhnya.\nSuhu dalam Kelvin punya nol sejati: 100 K benar-benar dua kali 50 K. Suhu dalam Fahrenheit tidak: 100 °F bukan dua kali lebih panas dari 50 °F.\nSekarang coba jawab: apa artinya “kecemasan nol”?\n\n\n\n\n\n\n\n\nPsikologi hampir tidak punya skala rasio\n\n\n“Tidak punya depresi sama sekali” bukan gagasan yang maknanya jelas. Karena itu, pernyataan seperti “kelompok A dua kali lebih cemas daripada kelompok B” hampir selalu tidak bisa dipertanggungjawabkan, berapa pun angkanya."
+    "section": "True zero",
+    "text": "True zero\n\nTrue zero berarti angka nol menandakan ketiadaan atribut sepenuhnya.\nSuhu dalam Kelvin punya true zero: 100 K benar-benar dua kali 50 K. Suhu dalam Fahrenheit tidak: 100 °F bukan dua kali lebih panas dari 50 °F.\nSekarang coba jawab: apa artinya “kecemasan nol”?\n\n\n\n\n\n\n\n\nPsikologi hampir tidak punya skala rasio\n\n\n“Tidak punya depresi sama sekali” bukan gagasan yang maknanya jelas. Karena itu, pernyataan seperti “kelompok A dua kali lebih cemas daripada kelompok B” hampir selalu tidak bisa dipertanggungjawabkan, berapa pun angkanya."
   },
   {
     "objectID": "slides/pertemuan1.html#masalah-utamanya",
@@ -2440,14 +2433,14 @@
     "href": "slides/pertemuan1.html#contoh-lain-menghitung-gejala",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Contoh lain: menghitung gejala",
-    "text": "Contoh lain: menghitung gejala\n\nBayangkan skor depresi dihitung dari jumlah gejala yang dilaporkan.\nApakah perbedaan antara 2 dan 4 gejala sama besarnya — secara klinis, secara konseptual — dengan perbedaan antara 4 dan 6 gejala?\nSecara aritmetika keduanya sama-sama “2”. Secara psikologis, hampir pasti tidak.\n\n\n\n\n\n\n\n\nKonsekuensi statistiknya nyata\n\n\nTeknik parametrik yang akan Anda pakai — korelasi Pearson, uji-t, ANOVA, regresi linear — mengasumsikan data interval atau rasio. Menerapkannya pada data ordinal berarti melanggar asumsi dasarnya."
+    "text": "Contoh lain: menghitung gejala\n\nBayangkan skor depresi dihitung dari jumlah gejala yang dilaporkan.\nApakah perbedaan antara 2 dan 4 gejala sama besarnya — secara klinis, secara konseptual — dengan perbedaan antara 4 dan 6 gejala?\nSecara aritmetika keduanya sama-sama “2”. Secara psikologis, hampir pasti tidak.\n\n\n\n\n\n\n\n\nKonsekuensi statistiknya nyata\n\n\nTeknik statistik parametrik yang akan Anda pakai untuk menganalisis data, korelasi Pearson, uji-t, ANOVA, regresi linear, mengasumsikan data interval atau rasio. Menerapkannya pada data ordinal sebenarnya melanggar asumsi dasarnya."
   },
   {
     "objectID": "slides/pertemuan1.html#lalu-apakah-kita-berhenti-memakainya",
     "href": "slides/pertemuan1.html#lalu-apakah-kita-berhenti-memakainya",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Lalu, apakah kita berhenti memakainya?",
-    "text": "Lalu, apakah kita berhenti memakainya?\n\nTidak. Dalam praktiknya, skor skala Likert tetap diperlakukan sebagai interval, dan ada argumen pragmatis yang masuk akal untuk itu, terutama ketika itemnya banyak dan sebarannya tidak ekstrem.\nYang tidak boleh kita lakukan adalah berpura-pura tidak ada asumsi yang sedang dipakai di situ.\n\n\n\n\n\n\n\n\nYang saya harapkan dari Anda\n\n\nDi laporan proyek Anda, ketika Anda menjumlahkan item menjadi skor total, saya ingin Anda bisa menyebutkan asumsi yang Anda pakai, bukan sekadar melakukannya karena semua orang melakukannya. Kita perdalam ini di Pertemuan 2 dan Pertemuan 4."
+    "text": "Lalu, apakah kita berhenti memakainya?\n\nTidak. Dalam praktiknya, skor skala Likert tetap diperlakukan sebagai interval, dan ada argumen pragmatis yang masuk akal untuk itu, terutama ketika itemnya banyak dan sebarannya tidak ekstrem.\nYang tidak boleh kita lakukan adalah “menutup mata” bahwa tidak ada asumsi yang sedang kita gunakan.\n\n\n\n\n\n\n\n\nYang saya harapkan dari Anda\n\n\nDi laporan proyek Anda, ketika Anda menjumlahkan item menjadi skor total, saya ingin Anda bisa menyebutkan asumsi yang Anda pakai, bukan sekadar melakukan sesuatu karena semua orang melakukannya. Kita perdalam ini di Pertemuan 2 dan Pertemuan 4."
   },
   {
     "objectID": "slides/pertemuan1.html#tiga-hal-yang-sering-tertukar",
@@ -2461,21 +2454,21 @@
     "href": "slides/pertemuan1.html#skala-item-sebagai-akibat",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Skala: item sebagai akibat",
-    "text": "Skala: item sebagai akibat\n\nContoh: alat ukur depresi.\nBagaimana seseorang merespons “Saya merasa sedih” dan “Hidup saya terasa hampa” sebagian besar ditentukan oleh kondisi afektifnya saat itu.\nItem-itemnya punya sebab yang sama: kondisi depresif orang tersebut.\n\n\n\n\n\n\n\n\nImplikasi praktis\n\n\nKarena semua item digerakkan oleh sebab yang sama, item-itemnya seharusnya saling berkorelasi tinggi dan sebagian besar bisa saling dipertukarkan. Ini yang membuat koefisien seperti \\(\\alpha\\) dan \\(\\omega\\) masuk akal untuk skala. Kita bahas di Pertemuan 6."
+    "text": "Skala: item sebagai akibat\n\nContoh: alat ukur depresi.\nBagaimana seseorang merespons “Saya merasa sedih” dan “Hidup saya terasa hampa” sebagian besar ditentukan oleh kondisi afektifnya saat itu.\nItem-itemnya punya sebab yang sama: kondisi depresif orang tersebut.\n\n\n\n\n\n\n\n\nImplikasinya\n\n\nKarena semua item disebabkan oleh sebab yang sama, item-itemnya seharusnya saling berkorelasi tinggi dan sebagian besar bisa saling ditukar. Ini yang membuat koefisien seperti \\(\\alpha\\) dan \\(\\omega\\) masuk akal untuk mengecek reliabilitas skala. Kita akan bahas lebih lanjut di Pertemuan 6."
   },
   {
     "objectID": "slides/pertemuan1.html#indeks-item-sebagai-sebab",
     "href": "slides/pertemuan1.html#indeks-item-sebagai-sebab",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Indeks: item sebagai sebab",
-    "text": "Indeks: item sebagai sebab\n\nContoh: elektabilitas seorang kandidat presiden.\nItemnya bisa berupa: efektivitas berbicara di depan publik, rekam jejak militer, daya tarik fisik, kemampuan menggerakkan relawan, potensi sumber daya finansial.\nKarakteristik-karakteristik itu sama sekali tidak punya sebab yang sama, tetapi punya akibat yang sama: meningkatnya peluang kampanye yang sukses.\n\n\n\n\n\n\n\n\nKonsekuensi yang sering diabaikan\n\n\nPada indeks, item tidak harus berkorelasi tinggi dan tidak bisa saling dipertukarkan. Menghitung Cronbach’s alpha untuk sebuah indeks itu keliru secara konseptual, meskipun software-nya tetap akan mengeluarkan angkanya."
+    "text": "Indeks: item sebagai sebab\n\nContoh: elektabilitas seorang kandidat presiden.\nItemnya bisa berupa: efektivitas berbicara di depan publik, rekam jejak militer, daya tarik fisik, kemampuan menggerakkan relawan, potensi sumber daya finansial.\nKarakteristik-karakteristik itu tidak punya sebab yang sama, tetapi punya akibat yang sama: meningkatnya peluang presiden tersebut terpilih.\n\n\n\n\n\n\n\n\nKonsekuensi yang sering diabaikan\n\n\nPada indeks, item tidak harus berkorelasi tinggi dan tidak bisa saling dipertukarkan. Menghitung Cronbach’s alpha untuk sebuah indeks itu keliru secara konseptual, meskipun software-nya tetap akan mengeluarkan angkanya."
   },
   {
     "objectID": "slides/pertemuan1.html#emergent-variable-sekadar-dikelompokkan",
     "href": "slides/pertemuan1.html#emergent-variable-sekadar-dikelompokkan",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Emergent variable: sekadar dikelompokkan",
-    "text": "Emergent variable: sekadar dikelompokkan\n\nKalimat yang diawali kata dengan kurang dari lima huruf bisa dengan mudah dikelompokkan bersama.\nKelompok itu tidak punya sebab yang sama dan tidak punya akibat yang sama. Kelompok itu muncul semata karena ada orang — atau sebuah software analisis — yang melihat adanya kemiripan.\n\n\n\n\n\n\n\n\nPeringatan yang paling relevan untuk proyek Anda\n\n\nSoftware analisis tidak bisa membedakan ketiganya. Anda bisa memasukkan apa saja ke jamovi dan ia akan memberi Anda \\(\\alpha\\), memberi Anda faktor, memberi Anda skor total.\nYang menentukan apakah kumpulan item Anda adalah skala, indeks, atau sekadar emergent variable adalah teori Anda, bukan output software-nya."
+    "text": "Emergent variable: sekadar dikelompokkan\n\nKalimat yang diawali kata dengan kurang dari lima huruf bisa dengan mudah dikelompokkan bersama.\nKelompok itu tidak punya sebab yang sama dan tidak punya akibat yang sama. Kelompok itu muncul semata karena ada individu atau sebuah software yang melihat adanya kemiripan antara item-item ini.\n\n\n\n\n\n\n\n\nPeringatan yang paling relevan untuk proyek Anda\n\n\nSoftware analisis tidak bisa membedakan ketiganya. Anda bisa memasukkan apa saja ke jamovi dan ia akan memberi Anda \\(\\alpha\\), memberi Anda faktor, memberi Anda skor total.\nYang menentukan apakah kumpulan item Anda adalah skala, indeks, atau sekadar emergent variable adalah teori Anda, bukan output software-nya."
   },
   {
     "objectID": "slides/pertemuan1.html#ringkasnya",
@@ -2503,56 +2496,42 @@
     "href": "slides/pertemuan1.html#contoh-perhitungan-attenuation-bias",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Contoh perhitungan: attenuation bias",
-    "text": "Contoh perhitungan: attenuation bias\nMisalkan korelasi sesungguhnya antara kecemasan dan prokrastinasi adalah \\(\\rho_{T_X T_Y} = 0.60\\).\nAnda memakai skala kecemasan dengan reliabilitas \\(0.70\\) dan skala prokrastinasi dengan reliabilitas \\(0.65\\).\n\nKorelasi yang akan Anda temukan di data Anda:\n\\[r_{XY} = \\rho_{T_X T_Y} \\times \\sqrt{\\rho_{XX'} \\times \\rho_{YY'}} = 0.60 \\times \\sqrt{0.70 \\times 0.65} = \\mathbf{0.40}\\]\n\n\n\n\n\n\n\n\nAnda akan melaporkan 0.40 untuk hubungan yang sebenarnya 0.60\n\n\nBukan karena Anda salah menghitung, bukan juga karena sampel Anda kurang besar. Semata-mata karena alat ukurnya noisy.\nKita menurunkan rumus ini secara utuh di Pertemuan 6."
+    "text": "Contoh perhitungan: attenuation bias\nMisalkan korelasi sesungguhnya antara kecemasan dan prokrastinasi adalah \\(\\rho_{T_X T_Y} = 0.60\\).\nAnda memakai skala kecemasan dengan reliabilitas \\(0.70\\) dan skala prokrastinasi dengan reliabilitas \\(0.65\\).\n\nKorelasi yang akan Anda temukan di data Anda:\n\\[r_{XY} = \\rho_{T_X T_Y} \\times \\sqrt{\\rho_{XX'} \\times \\rho_{YY'}} = 0.60 \\times \\sqrt{0.70 \\times 0.65} = \\mathbf{0.40}\\]\n\n\n\n\n\n\n\n\nAnda akan melaporkan 0.40 untuk hubungan yang sebenarnya 0.60\n\n\nBukan karena Anda salah menghitung, bukan juga karena sampel Anda kurang besar. Semata-mata karena alat ukurnya noisy."
   },
   {
     "objectID": "slides/pertemuan1.html#pengukuran-dan-krisis-replikasi",
     "href": "slides/pertemuan1.html#pengukuran-dan-krisis-replikasi",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Pengukuran dan krisis replikasi",
-    "text": "Pengukuran dan krisis replikasi\n\nBanyak temuan psikologi gagal direplikasi secara independen, dan sebagian penyebabnya adalah pengukuran yang tidak presisi, ditambah researcher degrees of freedom saat menganalisis data.\nAlat ukur yang noisy, dikombinasikan dengan bias publikasi, justru bisa membuat effect size yang terbit tampak lebih besar: hanya sampel yang kebetulan menghasilkan estimasi besar yang lolos terbit.\nFlake & Fried (2020) menyebut kumpulan kebiasaan ini questionable measurement practices: tidak melaporkan bagaimana skala dipilih, memodifikasi skala tanpa memberi tahu, tidak melaporkan properti psikometrisnya.\n\n\n\nPetersen, Bab 1; Flake & Fried (2020)."
+    "text": "Pengukuran dan krisis replikasi\n\nBanyak temuan psikologi gagal dicoba-ulang (replikasi) secara independen, dan sebagian penyebabnya adalah pengukuran yang tidak presisi, ditambah researcher degrees of freedom saat menganalisis data.\nAlat ukur yang noisy, dikombinasikan dengan bias publikasi, justru bisa membuat effect size yang terbit tampak lebih besar, karena hanya sampel yang kebetulan menghasilkan estimasi besar yang lolos diterbitkan di jurnal.\nFlake & Fried (2020) menyebut kumpulan kebiasaan ini questionable measurement practices: tidak melaporkan bagaimana skala dipilih, memodifikasi skala tanpa menyertakan informasi apapun, tidak melaporkan properti psikometrik dari alat ukur yang digunakan.\n\n\n\nPetersen, Bab 1; Flake & Fried (2020)."
   },
   {
     "objectID": "slides/pertemuan1.html#nama-yang-sama-isi-yang-berbeda",
     "href": "slides/pertemuan1.html#nama-yang-sama-isi-yang-berbeda",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Nama yang sama, isi yang berbeda",
-    "text": "Nama yang sama, isi yang berbeda\n\nFried (2017) memeriksa tujuh skala depresi yang lazim dipakai.\nKetujuhnya sama-sama mengklaim mengukur “depresi”. Secara keseluruhan, ketujuhnya memuat 52 gejala yang berbeda.\nSebagian besar gejala itu hanya muncul di satu skala.\n\n\n\n\n\n\n\n\nApa akibatnya\n\n\nDua penelitian bisa sama-sama melaporkan “depresi”, memakai skala yang sama-sama reliabel, dan tetap saja tidak mengukur hal yang sama. Perbandingan di antara keduanya jauh lebih rapuh daripada kelihatannya.\nIni disebut jingle fallacy: mengira dua hal itu sama karena namanya sama."
+    "text": "Nama yang sama, isi yang berbeda\n\nFried (2017) memeriksa tujuh skala depresi yang lazim dipakai.\nKetujuhnya sama-sama mengklaim mengukur “depresi”. Secara keseluruhan, ketujuhnya memuat 52 gejala yang berbeda.\n40% gejala hanya muncul di satu skala, dan cuma 12% yang muncul di semua tujuh skala.\n\n\n\n\n\n\n\n\nApa akibatnya\n\n\nDua penelitian bisa sama-sama melaporkan “depresi”, memakai skala yang sama-sama reliabel, dan tetap saja tidak mengukur hal yang sama. Perbandingan di antara keduanya jauh lebih rapuh daripada kelihatannya.\nIni disebut jingle fallacy: mengira konstruk psikologis itu sama karena namanya sama."
   },
   {
     "objectID": "slides/pertemuan1.html#sisi-etisnya",
     "href": "slides/pertemuan1.html#sisi-etisnya",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Sisi etisnya",
-    "text": "Sisi etisnya\n\nPeneliti sering “berhemat” dengan memakai instrumen yang terlalu pendek, dengan harapan mengurangi beban responden.\nTetapi kuesioner yang terlalu pendek untuk bisa reliabel tetap saja pilihan yang buruk, meskipun terasa praktis.\nKuesioner reliabel yang diisi separuh responden memberi lebih banyak informasi daripada kuesioner tidak reliabel yang diisi semua responden.\n\n\n\n\n\n\n\n\nMeminta waktu partisipan ada konsekuensi etisnya\n\n\nKalau datanya pada akhirnya tidak bisa dimaknai, seberapa banyak pun data yang terkumpul jadi tidak ada gunanya. Meminta 300 orang mengisi instrumen yang tidak mungkin menghasilkan kesimpulan yang sahih adalah persoalan etis, bukan sekadar persoalan teknis.\nIngat ini ketika Anda merancang uji coba di Pertemuan 12."
-  },
-  {
-    "objectID": "slides/pertemuan1.html#instruksi",
-    "href": "slides/pertemuan1.html#instruksi",
-    "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
-    "section": "Instruksi",
-    "text": "Instruksi\n\nBentuk kelompok berisi 5 orang — ini akan menjadi kelompok proyek Anda untuk satu semester.\nPilih satu konstruk psikologis yang ingin kelompok Anda ukur. Belum perlu final; kita akan mempertajamnya di Pertemuan 9.\nDiskusikan pertanyaan di slide berikutnya (20 menit), lalu setiap kelompok memaparkan jawabannya dalam 3 menit.\n\n\nBagi mahasiswa ke breakout rooms di MS Teams, 5 orang per ruang, lalu masuk ke tiap ruang bergantian. Kalau ada kelompok yang macet di pertanyaan 2, pancing dengan: “kalau skor totalnya turun, apa yang berubah pada orangnya?” Sisakan minimal 20 menit untuk pemaparan dan rangkuman."
-  },
-  {
-    "objectID": "slides/pertemuan1.html#empat-pertanyaan",
-    "href": "slides/pertemuan1.html#empat-pertanyaan",
-    "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
-    "section": "Empat pertanyaan",
-    "text": "Empat pertanyaan\n\nApa nama konstruk Anda, dan apa yang bukan termasuk di dalamnya? Sebutkan satu konstruk lain yang mirip tetapi harus dibedakan darinya.\nSkala, indeks, atau emergent variable? Apakah konstruk Anda menyebabkan jawaban atas item-itemnya, atau item-itemnya yang membentuk konstruknya? Apa dasar argumen Anda?\nApa arti “nol” pada konstruk Anda? Adakah orang yang benar-benar tidak punya atribut ini sama sekali? Kalau tidak ada, apa konsekuensinya bagi cara Anda melaporkan skor?\nApakah sudah ada alat ukurnya? Kalau sudah, apa alasan Anda menyusun yang baru? Kalau belum, kenapa menurut Anda belum ada?\n\n\n\n\n\n\n\n\nPertanyaan nomor 1 itu yang paling sulit\n\n\nMenyebutkan apa yang tidak termasuk dalam konstruk Anda jauh lebih menentukan kualitas skala Anda daripada menyebutkan apa yang termasuk. Kita akan menyebutnya batas konstruk di Pertemuan 9."
+    "text": "Sisi etisnya\n\nPeneliti sering “berhemat” dengan memakai instrumen yang terlalu pendek, dengan harapan mengurangi beban responden.\nTetapi kuesioner yang terlalu pendek untuk bisa reliabel tetap saja pilihan yang buruk, meskipun terasa praktis.\nKuesioner reliabel yang diisi separuh responden memberi lebih banyak informasi daripada kuesioner tidak reliabel yang diisi semua responden.\n\n\n\n\n\n\n\n\nMeminta waktu partisipan ada konsekuensi etisnya\n\n\nKalau datanya pada akhirnya tidak bisa dimaknai, seberapa banyak pun data yang terkumpul jadi tidak ada gunanya. Meminta 300 orang mengisi instrumen yang tidak mungkin menghasilkan kesimpulan yang sahih adalah persoalan etis."
   },
   {
     "objectID": "slides/pertemuan1.html#lima-poin-utama",
     "href": "slides/pertemuan1.html#lima-poin-utama",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Lima poin utama",
-    "text": "Lima poin utama\n\nPengukuran muncul lebih dulu daripada sains — dari kebutuhan sosial soal keadilan dan pembagian sumber daya, bukan dari rasa ingin tahu ilmiah.\nGagasan bahwa pengukuran mengandung error baru berumur ±250 tahun, dan tanpa gagasan itu tidak akan ada Classical Test Theory.\nDefinisi pengukuran masih diperdebatkan. Stevens membuatnya cukup longgar supaya psikologi bisa masuk; Duncan dan Michell berargumen bahwa kelonggaran itu menutupi masalah yang belum selesai.\nSebagian besar data psikologi itu ordinal, tetapi diperlakukan sebagai interval. Ini boleh dilakukan, asalkan Anda tahu bahwa Anda sedang melakukannya.\nTidak semua kumpulan item adalah skala. Yang menentukan adalah arah kausalitas antara konstruk dan itemnya, dan itu keputusan teoretis — bukan output software."
+    "text": "Lima poin utama\n\nPengukuran muncul lebih dulu daripada sains — dari kebutuhan sosial soal keadilan dan pembagian sumber daya.\nGagasan bahwa pengukuran mengandung error baru berumur ±250 tahun, dan tanpa gagasan itu tidak akan ada Classical Test Theory.\nDefinisi pengukuran masih diperdebatkan. Stevens membuatnya cukup longgar supaya psikologi bisa masuk; Duncan dan Michell berargumen bahwa kelonggaran itu menutupi masalah yang belum selesai.\nSebagian besar data psikologi itu ordinal, tetapi diperlakukan sebagai interval. Ini boleh dilakukan, asalkan Anda tahu bahwa Anda sedang melakukannya.\nTidak semua kumpulan item adalah skala. Yang menentukan adalah arah kausalitas antara konstruk dan itemnya."
   },
   {
     "objectID": "slides/pertemuan1.html#untuk-pertemuan-2",
     "href": "slides/pertemuan1.html#untuk-pertemuan-2",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Untuk Pertemuan 2",
-    "text": "Untuk Pertemuan 2\nKita akan membahas lebih detail asumsi-asumsi yang hari ini baru disinggung:\n\nAsumsi bahwa atribut psikologis terdistribusi normal — dari mana asalnya, dan apa dasarnya?\nAsumsi bahwa atributnya kontinu, bukan kategoris.\nAsumsi bahwa item mengukur hal yang sama untuk semua kelompok orang.\nAsumsi bahwa responden bisa dan mau melaporkan kondisi internalnya secara akurat.\n\n\n\n\n\n\n\n\nPersiapan\n\n\nBaca DeVellis & Thorpe (2022), Bab 1. Kalau sempat, tengok juga Bab 1 dan Bab 2 dari Petersen."
+    "text": "Untuk Pertemuan 2\nKita akan membahas lebih detail asumsi-asumsi yang hari ini baru disinggung:\n\nAsumsi bahwa atribut psikologis terdistribusi normal — dari mana asalnya, dan apa dasarnya?\nAsumsi bahwa atributnya kontinu, bukan kategoris.\nAsumsi bahwa item mengukur hal yang sama untuk semua kelompok orang.\nAsumsi bahwa responden bisa dan mau melaporkan kondisi internalnya secara akurat.\n\n\n\n\n\n\n\n\nPersiapan\n\n\nBaca DeVellis & Thorpe (2022), Bab 1. Kalau sempat, baca juga Bab 1 dan Bab 2 dari Petersen."
   },
   {
     "objectID": "slides/pertemuan1.html#ada-pertanyaan",
@@ -2671,7 +2650,7 @@
     "href": "slides/pertemuan3.html#reliabilitas-bukan-validitas",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Reliabilitas bukan validitas",
-    "text": "Reliabilitas bukan validitas\n\nReliabilitas adalah sifat skor: seberapa konsisten skor itu kalau pengukurannya diulang.\nValiditas juga sifat skor — lebih tepatnya, sifat dari tafsiran atas skor untuk tujuan tertentu.\nYang pertama tidak menjamin yang kedua. Skala Anda bisa punya \\(\\alpha = 0{,}92\\) dan skornya tetap menunjukkan konstruk yang berbeda dari yang Anda klaim.\n\n\n\n\n\n\n\n\nTapi ada hubungannya\n\n\nReliabilitas memberi batas atas bagi koefisien validitas, yaitu korelasi antara skor Anda dan suatu kriteria:\n\\[r_{XY} \\leq \\sqrt{\\rho_{XX'}}\\]\nDengan \\(\\rho = 0{,}64\\), korelasi maksimum yang mungkin Anda peroleh adalah \\(0{,}80\\) — berapa pun kuatnya hubungan yang sesungguhnya."
+    "text": "Reliabilitas bukan validitas\n\nReliabilitas adalah sifat skor: seberapa konsisten skor itu kalau pengukurannya diulang.\nValiditas juga sifat skor — lebih tepatnya, sifat dari tafsiran atas skor untuk tujuan tertentu.\nYang pertama tidak menjamin yang kedua. Skala Anda bisa punya \\(\\alpha = 0{,}92\\) dan skornya tetap menunjukkan konstruk yang berbeda dari yang Anda klaim.\n\n\n\n\n\n\n\n\nTapi ada hubungannya\n\n\nReliabilitas memberi batas atas bagi koefisien validitas, yaitu korelasi antara skor Anda dan suatu kriteria:\n\\[r_{XY} \\leq \\sqrt{\\rho_{XX'} \\times \\rho_{YY'}}\\]\nIni melibatkan reliabilitas kriterianya juga. Kalau kriteria diasumsikan diukur tanpa error (\\(\\rho_{YY'}=1\\)), rumusnya menyederhana jadi \\(r_{XY} \\leq \\sqrt{\\rho_{XX'}}\\): dengan \\(\\rho_{XX'} = 0{,}64\\), korelasi maksimum yang mungkin Anda peroleh adalah \\(0{,}80\\) — berapa pun kuatnya hubungan yang sesungguhnya. Kalau kriterianya sendiri juga fallible, batas atasnya turun lebih jauh."
   },
   {
     "objectID": "slides/pertemuan3.html#validitas-bukan-sifat-skala",
@@ -2734,7 +2713,7 @@
     "href": "slides/pertemuan3.html#tiga-model-pengukuran",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Tiga model pengukuran",
-    "text": "Tiga model pengukuran\n\n\n\n\n\n\n\nAngka 1 menandai reference indicator; huruf a menandai loading yang dibatasi agar sama; huruf b menandai varians error yang dibatasi agar sama."
+    "text": "Tiga model pengukuran\n\n\n\n\n\n\n\nAngka 1 menandai reference indicator; huruf a menandai loading yang dibatasi agar sama; huruf b menandai varians error yang dibatasi agar sama; \\(\\lambda_2, \\lambda_3\\) menandai loading yang bebas (boleh berbeda satu sama lain) pada model congeneric."
   },
   {
     "objectID": "slides/pertemuan3.html#apa-bedanya",
@@ -2895,7 +2874,7 @@
     "href": "slides/pertemuan4.html#keputusan-1-berapa-pilihan-respons",
     "title": "Format Respons I: Likert, Semantic Differential, dan Guttman",
     "section": "Keputusan 1: berapa pilihan respons?",
-    "text": "Keputusan 1: berapa pilihan respons?\n\nDi bawah 4 pilihan, Anda kehilangan informasi. Variasi antar-responden tertekan, dan reliabilitas ikut turun (Preston & Colman, 2000).\nSekitar 5–7 pilihan adalah wilayah yang paling sering direkomendasikan. Lozano dkk. (2008) menyarankan minimum 4, dengan hasil terbaik pada 6–7.\nDi atas 6–7 pilihan, tambahan keuntungannya kecil. Simms dkk. (2019) menemukan hampir tidak ada perbaikan psikometrik setelah 6 pilihan.\n\n\n\n\n\n\n\n\nDua pertimbangan lain dari DeVellis\n\n\nPertama, kemampuan responden membedakan. Kalau responden tidak sanggup membedakan tujuh tingkat, tujuh pilihan hanya menambah noise.\nKedua, kesediaan Anda memakai ketelitian itu. Kalau nanti skornya Anda kelompokkan menjadi tiga kategori, buat apa Anda menggunakan 10 pilihan respons?"
+    "text": "Keputusan 1: berapa pilihan respons?\n\nEmpat pilihan atau kurang menekan variasi antar-responden dan menurunkan presisi. Preston & Colman (2000) menemukan skala 2, 3, dan 4 pilihan sama-sama berkinerja buruk.\nSekitar 5–7 pilihan adalah wilayah yang paling sering direkomendasikan. Lozano dkk. (2008) menyarankan rentang 4 sampai 7, dengan tambahan keuntungan yang kecil setelah 7.\nDi atas 6–7 pilihan, tambahan keuntungannya kecil. Simms dkk. (2019) menemukan hampir tidak ada perbaikan psikometrik setelah 6 pilihan.\n\n\n\n\n\n\n\n\nDua pertimbangan lain dari DeVellis\n\n\nPertama, kemampuan responden membedakan. Kalau responden tidak sanggup membedakan tujuh tingkat, tujuh pilihan hanya menambah noise.\nKedua, kesediaan Anda memakai ketelitian itu. Kalau nanti skornya Anda kelompokkan menjadi tiga kategori, buat apa Anda menggunakan 10 pilihan respons?"
   },
   {
     "objectID": "slides/pertemuan4.html#keputusan-2-pakai-titik-tengah-atau-tidak",
@@ -3154,14 +3133,14 @@
     "href": "slides/pertemuan6.html#proyeksi-spearman-brown-pada-skala-kita",
     "title": "Reliabilitas: Konsep Dasar dan Implementasinya",
     "section": "Proyeksi Spearman-Brown pada skala kita",
-    "text": "Proyeksi Spearman-Brown pada skala kita\nMulai dari \\(\\alpha = 0{,}892\\) pada 10 item:\n\n\n\nJumlah item\nProyeksi \\(\\alpha\\)\n\n\n\n\n5\n0,805\n\n\n10\n0,892\n\n\n20\n0,943\n\n\n30\n0,961\n\n\n\n\n\nMenggandakan panjang skala menaikkan \\(\\alpha\\) sebesar 0,05. Menggandakannya lagi hanya menambah 0,018.\nTambahan keuntungannya makin lama makin kecil, sementara beban responden terus bertambah."
+    "text": "Proyeksi Spearman-Brown pada skala kita\nMulai dari \\(\\alpha = 0{,}892\\) pada 10 item:\n\n\n\nJumlah item\nProyeksi \\(\\alpha\\)\n\n\n\n\n5\n0,805\n\n\n10\n0,892\n\n\n20\n0,943\n\n\n30\n0,961\n\n\n\n\n\nMenggandakan panjang skala dari 10 ke 20 item menaikkan \\(\\alpha\\) sebesar 0,05. Menambah 10 item lagi (dari 20 ke 30, naik 50%) hanya menambah 0,018.\nTambahan keuntungannya makin lama makin kecil, sementara beban responden terus bertambah."
   },
   {
     "objectID": "slides/pertemuan6.html#soal-ambang-070",
     "href": "slides/pertemuan6.html#soal-ambang-070",
     "title": "Reliabilitas: Konsep Dasar dan Implementasinya",
     "section": "Soal ambang 0,70",
-    "text": "Soal ambang 0,70\n\nHampir semua orang mengutip 0,70 sebagai batas minimum, dan menyebut Nunnally sebagai sumbernya.\nLance, Butts, & Michels (2006) memeriksa sumber aslinya. Nunnally menyebut 0,70 sebagai batas untuk penelitian tahap awal — untuk pengambilan keputusan tentang individu, ia menyarankan 0,90 atau lebih.\nAngka 0,70 yang dipakai di mana-mana sebenarnya berasal dari kutipan yang tidak tepat.\n\n\n\n\n\n\n\n\nYang perlu Anda lakukan\n\n\nJangan memperlakukan 0,70 sebagai batas lulus atau tidak lulus. Sesuaikan dengan tujuan penggunaan skor Anda: untuk penelitian kelompok, 0,70 memang memadai; untuk keputusan tentang individu, jauh dari cukup.\nIngat perhitungan SEM di Pertemuan 3 — itulah cara memeriksanya secara konkret."
+    "text": "Soal ambang 0,70\n\nHampir semua orang mengutip 0,70 sebagai batas minimum, dan menyebut Nunnally sebagai sumbernya.\nLance, Butts, & Michels (2006) memeriksa sumber aslinya. Nunnally menyebut 0,70 hanya untuk tahap awal penelitian; untuk penelitian dasar ia menyarankan 0,80, dan untuk pengambilan keputusan tentang individu 0,90 atau lebih.\nAngka 0,70 yang dipakai di mana-mana sebenarnya berasal dari kutipan yang tidak tepat.\n\n\n\n\n\n\n\n\nYang perlu Anda lakukan\n\n\nJangan memperlakukan 0,70 sebagai batas lulus atau tidak lulus. Sesuaikan dengan tujuan penggunaan skor Anda: untuk penelitian kelompok, 0,70 memang memadai; untuk keputusan tentang individu, jauh dari cukup.\nIngat perhitungan SEM di Pertemuan 3 — itulah cara memeriksanya secara konkret."
   },
   {
     "objectID": "slides/pertemuan6.html#sebuah-percobaan",
@@ -3385,7 +3364,7 @@
     "href": "slides/pertemuan11.html#kriteria-kelulusan",
     "title": "Review Ahli dan Validitas Isi: Perhitungan dan Interpretasi CVI",
     "section": "Kriteria kelulusan",
-    "text": "Kriteria kelulusan\n\nDengan 3 sampai 5 penilai: I-CVI harus 1,00. Semua penilai harus sepakat.\nDengan 6 sampai 10 penilai: I-CVI minimal 0,78.\n\n\n\nPada contoh tadi, dengan 6 penilai, dua item tidak lolos: A5 (0,67) dan A8 (0,50).\n\n\n\n\n\n\n\n\nNote\n\n\nPerhatikan bahwa kriterianya lebih ketat kalau penilainya sedikit. Alasannya ada di slide berikutnya.\n\n\n\n\n\nLynn (1986); Polit & Beck (2006)."
+    "text": "Kriteria kelulusan\n\nDengan 3 sampai 5 penilai: I-CVI harus 1,00. Semua penilai harus sepakat.\nDengan 6 sampai 8 penilai: I-CVI minimal 0,83.\nDengan 9 penilai atau lebih: I-CVI minimal 0,78.\n\n\n\nPada contoh tadi, dengan 6 penilai, dua item tidak lolos: A5 (0,67) dan A8 (0,50).\n\n\n\n\n\n\n\n\nNote\n\n\nPerhatikan bahwa kriterianya lebih ketat kalau penilainya sedikit. Alasannya ada di slide berikutnya.\n\n\n\n\n\nLynn (1986); Polit & Beck (2006)."
   },
   {
     "objectID": "slides/pertemuan11.html#persoalannya",
@@ -3525,7 +3504,7 @@
     "href": "slides/pertemuan1-en.html#the-earliest-traces",
     "title": "What Is Measurement? Foundations and Philosophy of Psychological Measurement",
     "section": "The earliest traces",
-    "text": "The earliest traces\n\nc. 2200 BCE, China — civil service examinations for selecting officials (DuBois, in Barnette, 1976).\nProverbs 11:1 — “A false balance is an abomination to the Lord, but a just weight is a delight.” A dishonest scale was a moral matter.\nAristotle refers to officials charged with checking weights and measures.\n7th century — Muslim taxation based on the “weight of seven” (Wright, 1999).\nThe French Revolution — driven in part by peasants fed up with unfair measurement practices.\n\n\n\n\n\n\n\n\nWhat is striking about this list\n\n\nEvery entry is about fairness, not about scientific accuracy. Measurement has been an instrument of power and distribution from the very beginning — something that becomes relevant again when we discuss test bias and the use of psychological tests for selection."
+    "text": "The earliest traces\n\nc. 2200 BCE, China — civil service examinations for selecting officials.\nProverbs 11:1 — “A false balance is an abomination to the Lord, but a just weight is a delight.” A dishonest scale was a moral matter.\nAristotle refers to officials charged with checking weights and measures.\n7th century — Muslim taxation based on the “weight of seven.”\nThe French Revolution — driven in part by peasants fed up with unfair measurement practices.\n\n\n\n\n\n\n\n\nWhat is striking about this list\n\n\nEvery entry is about fairness, not about scientific accuracy. Measurement has been an instrument of power and distribution from the very beginning — something that becomes relevant again when we discuss test bias and the use of psychological tests for selection."
   },
   {
     "objectID": "slides/pertemuan1-en.html#the-idea-that-measurement-can-be-wrong-is-relatively-recent",
@@ -3546,7 +3525,7 @@
     "href": "slides/pertemuan1-en.html#from-error-to-statistics",
     "title": "What Is Measurement? Foundations and Philosophy of Psychological Measurement",
     "section": "From error to statistics",
-    "text": "From error to statistics\n\n1660s, John Graunt compiled birth and death rates from christening and burial records in Hampshire, England. He averaged them to capture a “true” value he believed lay hidden behind the unpredictable events of any given year.\n1777, Daniel Bernoulli compared the distribution of astronomical observations to an archer’s arrows: clustering around a central point, with progressively fewer at greater distances from it.\nBuchwald (2006) argues the fundamental shortcoming of 18th-century thinking was the failure to distinguish random from systematic error — a distinction that only matured in the following century.\n\n\n\n\n\n\n\n\nRemember this analogy\n\n\nBernoulli’s comparison describes what we will later call random error, and exactly why reliability can be raised simply by adding items. We return to it in Session 6."
+    "text": "From error to statistics\n\n1660s, John Graunt compiled birth and death rates from christening and burial records in London, England. He averaged them to capture a “true” value he believed lay hidden behind the unpredictable events of any given year.\n1777, Daniel Bernoulli compared the distribution of astronomical observations to an archer’s arrows: clustering around a central point, with progressively fewer at greater distances from it.\nBuchwald (2006) argues the fundamental shortcoming of 18th-century thinking was the failure to distinguish random from systematic error — a distinction that only matured in the following century.\n\n\n\n\n\n\n\n\nRemember this analogy\n\n\nBernoulli’s comparison describes what we will later call random error, and exactly why reliability can be raised simply by adding items. We return to it in Session 6."
   },
   {
     "objectID": "slides/pertemuan1-en.html#how-psychometrics-was-born",
@@ -3560,7 +3539,7 @@
     "href": "slides/pertemuan1-en.html#when-psychology-was-declared-unmeasurable",
     "title": "What Is Measurement? Foundations and Philosophy of Psychological Measurement",
     "section": "When psychology was declared unmeasurable",
-    "text": "When psychology was declared unmeasurable\n\nIn the late 19th century Helmholtz observed that physical attributes such as length and mass share the same mathematical structure as the positive real numbers: they can be ordered and added.\nThe Commission of the British Association for the Advancement of Science (appointed 1932, final report 1940) concluded that fundamental measurement of psychological variables was impossible — because sensory perceptions cannot be ordered or added the way length and mass can.\nS. S. Stevens disagreed: strict additivity is not required. People can make reasonably consistent ratio judgements — judging one sound to be twice as loud as another, for example.\nL. L. Thurstone, at almost the same moment, was building the mathematical foundations of factor analysis and applying psychophysical methods to the scaling of social stimuli."
+    "text": "When psychology was declared unmeasurable\n\nIn the late 19th century Helmholtz observed that physical attributes such as length and mass share the same mathematical structure as the positive real numbers: they can be ordered and added.\nThe Commission of the British Association for the Advancement of Science (appointed 1932) concluded that fundamental measurement of psychological variables was impossible — because sensory perceptions cannot be ordered or added the way length and mass can.\nS. S. Stevens disagreed: strict additivity is not required. People can make reasonably consistent ratio judgements — judging one sound to be twice as loud as another, for example.\nL. L. Thurstone, at almost the same moment, was building the mathematical foundations of factor analysis and applying psychophysical methods to the scaling of social stimuli."
   },
   {
     "objectID": "slides/pertemuan1-en.html#why-this-history-matters",
@@ -3742,7 +3721,7 @@
     "href": "slides/pertemuan1-en.html#same-name-different-content",
     "title": "What Is Measurement? Foundations and Philosophy of Psychological Measurement",
     "section": "Same name, different content",
-    "text": "Same name, different content\n\nFried (2017) examined seven commonly used depression scales.\nAll seven claim to measure “depression”. Between them, they contain 52 different symptoms.\nMost of those symptoms appear in only one of the scales.\n\n\n\n\n\n\n\n\nWhat follows from this\n\n\nTwo studies can both report on “depression”, both use scales that are perfectly reliable, and still not be measuring the same thing. Comparing them is far more fragile than it looks.\nThis is the jingle fallacy: assuming two things are the same because they share a name."
+    "text": "Same name, different content\n\nFried (2017) examined seven commonly used depression scales.\nAll seven claim to measure “depression”. Between them, they contain 52 different symptoms.\n40% of those symptoms appear in only one scale, and just 12% appear in all seven.\n\n\n\n\n\n\n\n\nWhat follows from this\n\n\nTwo studies can both report on “depression”, both use scales that are perfectly reliable, and still not be measuring the same thing. Comparing them is far more fragile than it looks.\nThis is the jingle fallacy: assuming two things are the same because they share a name."
   },
   {
     "objectID": "slides/pertemuan1-en.html#the-ethical-dimension",
@@ -3896,7 +3875,7 @@
     "href": "slides/pertemuan3-en.html#reliability-is-not-validity",
     "title": "Latent Variables: Classical Test Theory and a Glimpse of Item Response Theory",
     "section": "Reliability is not validity",
-    "text": "Reliability is not validity\n\nReliability is a property of scores: how consistent they are when measurement is repeated.\nValidity is also a property of scores — more precisely, of the interpretation of scores for a proposed use.\nThe first does not guarantee the second. Your scale can have \\(\\alpha = 0.92\\) and its scores still reflect a construct other than the one you claim.\n\n\n\n\n\n\n\n\nBut they are connected\n\n\nReliability sets an upper bound on the validity coefficient, the correlation between your scores and a criterion:\n\\[r_{XY} \\leq \\sqrt{\\rho_{XX'}}\\]\nWith \\(\\rho = 0.64\\), the largest correlation you could possibly obtain is \\(0.80\\) — however strong the real relationship is."
+    "text": "Reliability is not validity\n\nReliability is a property of scores: how consistent they are when measurement is repeated.\nValidity is also a property of scores — more precisely, of the interpretation of scores for a proposed use.\nThe first does not guarantee the second. Your scale can have \\(\\alpha = 0.92\\) and its scores still reflect a construct other than the one you claim.\n\n\n\n\n\n\n\n\nBut they are connected\n\n\nReliability sets an upper bound on the validity coefficient, the correlation between your scores and a criterion:\n\\[r_{XY} \\leq \\sqrt{\\rho_{XX'} \\times \\rho_{YY'}}\\]\nThis involves the criterion’s reliability too. If the criterion is assumed to be measured without error (\\(\\rho_{YY'}=1\\)), the formula simplifies to \\(r_{XY} \\leq \\sqrt{\\rho_{XX'}}\\): with \\(\\rho_{XX'} = 0.64\\), the largest correlation you could possibly obtain is \\(0.80\\) — however strong the real relationship is. If the criterion is itself fallible, the upper bound drops further."
   },
   {
     "objectID": "slides/pertemuan3-en.html#validity-is-not-a-property-of-a-scale",
@@ -3959,7 +3938,7 @@
     "href": "slides/pertemuan3-en.html#three-measurement-models",
     "title": "Latent Variables: Classical Test Theory and a Glimpse of Item Response Theory",
     "section": "Three measurement models",
-    "text": "Three measurement models\n\n\n\n\n\n\n\n1 marks the reference indicator; a marks loadings constrained to be equal; b marks error variances constrained to be equal."
+    "text": "Three measurement models\n\n\n\n\n\n\n\n1 marks the reference indicator; a marks loadings constrained to be equal; b marks error variances constrained to be equal; \\(\\lambda_2, \\lambda_3\\) mark free loadings (allowed to differ from each other) in the congeneric model."
   },
   {
     "objectID": "slides/pertemuan3-en.html#what-separates-them",
@@ -4477,7 +4456,7 @@
     "href": "slides/pertemuan7-en.html#the-upper-bound",
     "title": "Validity: Core Concepts and Implementation",
     "section": "The upper bound",
-    "text": "The upper bound\nFrom Session 3:\n\\[r_{XY} \\leq \\sqrt{\\rho_{XX'}}\\]\n\n\nLow reliability limits the correlation you can obtain with any criterion.\nSo reliability is necessary.\nBut people often draw the wrong conclusion from this: that higher reliability always means better validity."
+    "text": "The upper bound\nFrom Session 3:\n\\[r_{XY} \\leq \\sqrt{\\rho_{XX'} \\times \\rho_{YY'}}\\]\n\n\nLow reliability — in your scale or in the criterion — limits the correlation you can obtain.\nSo reliability is necessary.\nBut people often draw the wrong conclusion from this: that higher reliability always means better validity."
   },
   {
     "objectID": "slides/pertemuan7-en.html#the-attenuation-paradox",
@@ -4687,7 +4666,7 @@
     "href": "slides/pertemuan10-en.html#this-is-not-a-formality",
     "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
     "section": "This is not a formality",
-    "text": "This is not a formality\n\nPershing & Pershing (2001) examined 50 questionnaires used at a well-regarded medical school.\n72% had no introductory statement at all. 78% had no closing statement. 30% had no instructions, and another 54% had minimal ones.\nOnly 8% were professional in appearance.\n\n\n\n\n\n\n\n\nWarning\n\n\nA cluttered questionnaire reduces respondent engagement, and that feeds directly into the reliability and validity of your scores. This is not about aesthetics."
+    "text": "This is not a formality\n\nPershing & Pershing (2001) examined 50 training-evaluation forms used at a well-regarded medical school.\n72% had no introductory statement at all. 78% had no closing statement. 30% had no instructions, and another 54% had minimal ones.\nOnly 8% were professional in appearance.\n\n\n\n\n\n\n\n\nWarning\n\n\nA cluttered questionnaire reduces respondent engagement, and that feeds directly into the reliability and validity of your scores. This is not about aesthetics."
   },
   {
     "objectID": "slides/pertemuan10-en.html#layout",

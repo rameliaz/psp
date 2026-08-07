@@ -479,8 +479,8 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 </div>
 <div class="callout-content">
 <p>Reliabilitas memberi <strong>batas atas</strong> bagi <em>koefisien validitas</em>, yaitu korelasi antara skor Anda dan suatu kriteria:</p>
-<p><span class="math display">\[r_{XY} \leq \sqrt{\rho_{XX'}}\]</span></p>
-<p>Dengan <span class="math inline">\(\rho = 0{,}64\)</span>, korelasi maksimum yang mungkin Anda peroleh adalah <span class="math inline">\(0{,}80\)</span> — berapa pun kuatnya hubungan yang sesungguhnya.</p>
+<p><span class="math display">\[r_{XY} \leq \sqrt{\rho_{XX'} \times \rho_{YY'}}\]</span></p>
+<p>Ini melibatkan reliabilitas kriterianya juga. Kalau kriteria diasumsikan diukur tanpa error (<span class="math inline">\(\rho_{YY'}=1\)</span>), rumusnya menyederhana jadi <span class="math inline">\(r_{XY} \leq \sqrt{\rho_{XX'}}\)</span>: dengan <span class="math inline">\(\rho_{XX'} = 0{,}64\)</span>, korelasi maksimum yang mungkin Anda peroleh adalah <span class="math inline">\(0{,}80\)</span> — berapa pun kuatnya hubungan yang sesungguhnya. Kalau kriterianya sendiri juga <em>fallible</em>, batas atasnya turun lebih jauh.</p>
 </div>
 </div>
 </div>
@@ -684,12 +684,12 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <h2>Tiga model pengukuran</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="libs/model-pengukuran.png" class="quarto-figure quarto-figure-center" style="width:78.0%"></p>
+<p><img data-src="libs/model-pengukuran.svg" class="quarto-figure quarto-figure-center" style="width:78.0%"></p>
 </figure>
 </div>
 
 <aside><div>
-<p>Angka <strong>1</strong> menandai <em>reference indicator</em>; huruf <strong>a</strong> menandai <em>loading</em> yang dibatasi agar sama; huruf <strong>b</strong> menandai varians <em>error</em> yang dibatasi agar sama.</p>
+<p>Angka <strong>1</strong> menandai <em>reference indicator</em>; huruf <strong>a</strong> menandai <em>loading</em> yang dibatasi agar sama; huruf <strong>b</strong> menandai varians <em>error</em> yang dibatasi agar sama; <span class="math inline">\(\lambda_2, \lambda_3\)</span> menandai <em>loading</em> yang bebas (boleh berbeda satu sama lain) pada model <em>congeneric</em>.</p>
 </div></aside></section>
 <section id="apa-bedanya" class="slide level2">
 <h2>Apa bedanya</h2>

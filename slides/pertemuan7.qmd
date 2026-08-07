@@ -471,13 +471,13 @@ Sama seperti kritik Michell di Pertemuan 1: Anda tidak harus setuju. Yang perlu 
 
 Dari Pertemuan 3:
 
-$$r_{XY} \leq \sqrt{\rho_{XX'}}$$
+$$r_{XY} \leq \sqrt{\rho_{XX'} \times \rho_{YY'}}$$
 
 . . .
 
 ::: {.incremental}
 
-* Reliabilitas yang rendah **membatasi** korelasi yang bisa Anda peroleh dengan kriteria apa pun.
+* Reliabilitas skala Anda **maupun** reliabilitas kriterianya **membatasi** korelasi yang bisa Anda peroleh dengan kriteria apa pun.
 
 * Jadi reliabilitas memang diperlukan.
 

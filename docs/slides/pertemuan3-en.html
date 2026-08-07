@@ -476,8 +476,8 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 </div>
 <div class="callout-content">
 <p>Reliability sets an <strong>upper bound</strong> on the <em>validity coefficient</em>, the correlation between your scores and a criterion:</p>
-<p><span class="math display">\[r_{XY} \leq \sqrt{\rho_{XX'}}\]</span></p>
-<p>With <span class="math inline">\(\rho = 0.64\)</span>, the largest correlation you could possibly obtain is <span class="math inline">\(0.80\)</span> — however strong the real relationship is.</p>
+<p><span class="math display">\[r_{XY} \leq \sqrt{\rho_{XX'} \times \rho_{YY'}}\]</span></p>
+<p>This involves the criterion’s reliability too. If the criterion is assumed to be measured without error (<span class="math inline">\(\rho_{YY'}=1\)</span>), the formula simplifies to <span class="math inline">\(r_{XY} \leq \sqrt{\rho_{XX'}}\)</span>: with <span class="math inline">\(\rho_{XX'} = 0.64\)</span>, the largest correlation you could possibly obtain is <span class="math inline">\(0.80\)</span> — however strong the real relationship is. If the criterion is itself fallible, the upper bound drops further.</p>
 </div>
 </div>
 </div>
@@ -681,12 +681,12 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <h2>Three measurement models</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="libs/model-pengukuran.png" class="quarto-figure quarto-figure-center" style="width:78.0%"></p>
+<p><img data-src="libs/model-pengukuran.svg" class="quarto-figure quarto-figure-center" style="width:78.0%"></p>
 </figure>
 </div>
 
 <aside><div>
-<p><strong>1</strong> marks the reference indicator; <strong>a</strong> marks loadings constrained to be equal; <strong>b</strong> marks error variances constrained to be equal.</p>
+<p><strong>1</strong> marks the reference indicator; <strong>a</strong> marks loadings constrained to be equal; <strong>b</strong> marks error variances constrained to be equal; <span class="math inline">\(\lambda_2, \lambda_3\)</span> mark free loadings (allowed to differ from each other) in the congeneric model.</p>
 </div></aside></section>
 <section id="what-separates-them" class="slide level2">
 <h2>What separates them</h2>

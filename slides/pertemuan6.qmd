@@ -279,7 +279,7 @@ Mulai dari $\alpha = 0{,}892$ pada 10 item:
 
 ::: {.incremental}
 
-* Menggandakan panjang skala menaikkan $\alpha$ sebesar 0,05. Menggandakannya lagi hanya menambah 0,018.
+* Menggandakan panjang skala dari 10 ke 20 item menaikkan $\alpha$ sebesar 0,05. Menambah 10 item lagi (dari 20 ke 30, naik 50%) hanya menambah 0,018.
 
 * **Tambahan keuntungannya makin lama makin kecil**, sementara beban responden terus bertambah.
 
@@ -291,7 +291,7 @@ Mulai dari $\alpha = 0{,}892$ pada 10 item:
 
 * Hampir semua orang mengutip **0,70** sebagai batas minimum, dan menyebut Nunnally sebagai sumbernya.
 
-* Lance, Butts, & Michels (2006) memeriksa sumber aslinya. Nunnally menyebut 0,70 sebagai batas untuk **penelitian tahap awal** — untuk pengambilan keputusan tentang individu, ia menyarankan **0,90 atau lebih**.
+* Lance, Butts, & Michels (2006) memeriksa sumber aslinya. Nunnally menyebut 0,70 hanya untuk **tahap awal penelitian**; untuk penelitian dasar ia menyarankan **0,80**, dan untuk pengambilan keputusan tentang individu **0,90 atau lebih**.
 
 * Angka 0,70 yang dipakai di mana-mana sebenarnya berasal dari **kutipan yang tidak tepat**.
 

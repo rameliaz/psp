@@ -114,13 +114,13 @@ Note that this is a **normative** question ("deserve"), not a technical one. The
 
 ::: {.incremental}
 
-* **c. 2200 BCE, China** — civil service examinations for selecting officials (DuBois, in Barnette, 1976).
+* **c. 2200 BCE, China** — civil service examinations for selecting officials.
 
 * **Proverbs 11:1** — *"A false balance is an abomination to the Lord, but a just weight is a delight."* A dishonest scale was a moral matter.
 
 * **Aristotle** refers to officials charged with checking weights and measures.
 
-* **7th century** — Muslim taxation based on the "weight of seven" (Wright, 1999).
+* **7th century** — Muslim taxation based on the "weight of seven."
 
 * **The French Revolution** — driven in part by peasants fed up with unfair measurement practices.
 
@@ -174,7 +174,7 @@ It took **a full century after Newton** before scientists widely accepted that *
 
 ::: {.incremental}
 
-* **1660s, John Graunt** compiled birth and death rates from christening and burial records in Hampshire, England. He averaged them to capture a "true" value he believed lay hidden behind the unpredictable events of any given year.
+* **1660s, John Graunt** compiled birth and death rates from christening and burial records in London, England. He averaged them to capture a "true" value he believed lay hidden behind the unpredictable events of any given year.
 
 * **1777, Daniel Bernoulli** compared the distribution of astronomical observations to **an archer's arrows**: clustering around a central point, with progressively fewer at greater distances from it.
 
@@ -218,7 +218,7 @@ Many early contributors to psychometrics worked within a **eugenics** framework.
 
 * In the late 19th century **Helmholtz** observed that physical attributes such as length and mass share the same mathematical structure as the positive real numbers: they can be ordered **and added**.
 
-* The **Commission of the British Association for the Advancement of Science** (appointed 1932, final report 1940) concluded that **fundamental measurement of psychological variables was impossible** — because sensory perceptions cannot be ordered or added the way length and mass can.
+* The **Commission of the British Association for the Advancement of Science** (appointed 1932) concluded that **fundamental measurement of psychological variables was impossible** — because sensory perceptions cannot be ordered or added the way length and mass can.
 
 * **S. S. Stevens** disagreed: strict additivity is **not required**. People can make reasonably consistent ratio judgements — judging one sound to be twice as loud as another, for example.
 
@@ -725,7 +725,7 @@ Petersen, Chapter 1; Flake & Fried (2020).
 
 * All seven claim to measure "depression". Between them, they contain **52 different symptoms**.
 
-* Most of those symptoms appear in only **one** of the scales.
+* **40%** of those symptoms appear in only **one** scale, and just **12%** appear in all seven.
 
 :::
 

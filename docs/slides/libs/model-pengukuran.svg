@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="840" viewBox="0 0 1200 840" font-family="Segoe UI, Inter, Helvetica, sans-serif">
+<defs><marker id="mp-ar" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#999999"/></marker></defs>
+
+<!-- ===== Panel 1: Congeneric ===== -->
+<rect x="90" y="20" width="230" height="40" fill="#FFFFFF" stroke="#14497F" stroke-width="1.5"/>
+<text x="205" y="46" font-size="19" font-style="italic" font-weight="600" fill="#14497F" text-anchor="middle">Congeneric</text>
+
+<circle cx="60" cy="130" r="24" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="60" y="136" font-size="16" fill="#333333" text-anchor="middle">&#949;&#8321;</text>
+<line x1="84" y1="130" x2="130" y2="130" stroke="#999999" stroke-width="2" marker-end="url(#mp-ar)"/>
+<text x="105" y="122" font-size="14" fill="#333333" text-anchor="middle">1</text>
+<rect x="130" y="105" width="120" height="50" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="190" y="135" font-size="16" fill="#000000" text-anchor="middle">Global</text>
+
+<circle cx="60" cy="220" r="24" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="60" y="226" font-size="16" fill="#333333" text-anchor="middle">&#949;&#8322;</text>
+<line x1="84" y1="220" x2="130" y2="220" stroke="#999999" stroke-width="2" marker-end="url(#mp-ar)"/>
+<text x="105" y="212" font-size="14" fill="#333333" text-anchor="middle">1</text>
+<rect x="130" y="195" width="120" height="50" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="190" y="225" font-size="16" fill="#000000" text-anchor="middle">Stability</text>
+
+<circle cx="60" cy="310" r="24" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="60" y="316" font-size="16" fill="#333333" text-anchor="middle">&#949;&#8323;</text>
+<line x1="84" y1="310" x2="130" y2="310" stroke="#999999" stroke-width="2" marker-end="url(#mp-ar)"/>
+<text x="105" y="302" font-size="14" fill="#333333" text-anchor="middle">1</text>
+<rect x="130" y="285" width="120" height="50" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="190" y="315" font-size="16" fill="#000000" text-anchor="middle">External</text>
+
+<circle cx="470" cy="220" r="78" fill="#EEF3FA" stroke="#14497F" stroke-width="1.5"/>
+<text x="470" y="213" font-size="15" font-style="italic" fill="#14497F" text-anchor="middle">Learned</text>
+<text x="470" y="233" font-size="15" font-style="italic" fill="#14497F" text-anchor="middle">helplessness</text>
+
+<line x1="392" y1="175" x2="250" y2="130" stroke="#333333" stroke-width="1.6" marker-end="url(#mp-ar)"/>
+<text x="345" y="140" font-size="15" font-weight="600" fill="#14497F" text-anchor="middle">1</text>
+<line x1="392" y1="220" x2="250" y2="220" stroke="#333333" stroke-width="1.6" marker-end="url(#mp-ar)"/>
+<text x="345" y="212" font-size="15" font-weight="600" fill="#14497F" text-anchor="middle">&#955;&#8322;</text>
+<line x1="392" y1="265" x2="250" y2="310" stroke="#333333" stroke-width="1.6" marker-end="url(#mp-ar)"/>
+<text x="345" y="300" font-size="15" font-weight="600" fill="#14497F" text-anchor="middle">&#955;&#8323;</text>
+
+<text x="205" y="385" font-size="13" fill="#666666" text-anchor="middle">Semua loading bebas, boleh berbeda</text>
+
+<!-- ===== Panel 2: Tau-equivalence ===== -->
+<rect x="720" y="20" width="230" height="40" fill="#FFFFFF" stroke="#14497F" stroke-width="1.5"/>
+<text x="835" y="46" font-size="19" font-style="italic" font-weight="600" fill="#14497F" text-anchor="middle">Tau-equivalence</text>
+
+<circle cx="690" cy="130" r="24" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="690" y="136" font-size="16" fill="#333333" text-anchor="middle">&#949;&#8321;</text>
+<line x1="714" y1="130" x2="760" y2="130" stroke="#999999" stroke-width="2" marker-end="url(#mp-ar)"/>
+<text x="735" y="122" font-size="14" fill="#333333" text-anchor="middle">1</text>
+<rect x="760" y="105" width="120" height="50" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="820" y="135" font-size="16" fill="#000000" text-anchor="middle">Global</text>
+
+<circle cx="690" cy="220" r="24" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="690" y="226" font-size="16" fill="#333333" text-anchor="middle">&#949;&#8322;</text>
+<line x1="714" y1="220" x2="760" y2="220" stroke="#999999" stroke-width="2" marker-end="url(#mp-ar)"/>
+<text x="735" y="212" font-size="14" fill="#333333" text-anchor="middle">1</text>
+<rect x="760" y="195" width="120" height="50" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="820" y="225" font-size="16" fill="#000000" text-anchor="middle">Stability</text>
+
+<circle cx="690" cy="310" r="24" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="690" y="316" font-size="16" fill="#333333" text-anchor="middle">&#949;&#8323;</text>
+<line x1="714" y1="310" x2="760" y2="310" stroke="#999999" stroke-width="2" marker-end="url(#mp-ar)"/>
+<text x="735" y="302" font-size="14" fill="#333333" text-anchor="middle">1</text>
+<rect x="760" y="285" width="120" height="50" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="820" y="315" font-size="16" fill="#000000" text-anchor="middle">External</text>
+
+<circle cx="1100" cy="220" r="78" fill="#EEF3FA" stroke="#14497F" stroke-width="1.5"/>
+<text x="1100" y="213" font-size="15" font-style="italic" fill="#14497F" text-anchor="middle">Learned</text>
+<text x="1100" y="233" font-size="15" font-style="italic" fill="#14497F" text-anchor="middle">helplessness</text>
+
+<line x1="1022" y1="175" x2="880" y2="130" stroke="#333333" stroke-width="1.6" marker-end="url(#mp-ar)"/>
+<text x="975" y="140" font-size="15" font-weight="600" fill="#14497F" text-anchor="middle">1</text>
+<line x1="1022" y1="220" x2="880" y2="220" stroke="#333333" stroke-width="1.6" marker-end="url(#mp-ar)"/>
+<text x="975" y="212" font-size="15" font-weight="600" fill="#14497F" text-anchor="middle">a</text>
+<line x1="1022" y1="265" x2="880" y2="310" stroke="#333333" stroke-width="1.6" marker-end="url(#mp-ar)"/>
+<text x="975" y="300" font-size="15" font-weight="600" fill="#14497F" text-anchor="middle">a</text>
+
+<text x="835" y="385" font-size="13" fill="#666666" text-anchor="middle">Loading dibatasi sama, varians error bebas</text>
+
+<!-- ===== Panel 3: Parallel (centered below) ===== -->
+<rect x="325" y="460" width="230" height="40" fill="#FFFFFF" stroke="#14497F" stroke-width="1.5"/>
+<text x="440" y="486" font-size="19" font-style="italic" font-weight="600" fill="#14497F" text-anchor="middle">Parallel</text>
+
+<circle cx="295" cy="570" r="24" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="295" y="576" font-size="16" fill="#333333" text-anchor="middle">&#949;&#8321;</text>
+<line x1="319" y1="570" x2="365" y2="570" stroke="#999999" stroke-width="2" marker-end="url(#mp-ar)"/>
+<text x="340" y="562" font-size="14" fill="#333333" text-anchor="middle">b</text>
+<rect x="365" y="545" width="120" height="50" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="425" y="575" font-size="16" fill="#000000" text-anchor="middle">Global</text>
+
+<circle cx="295" cy="660" r="24" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="295" y="666" font-size="16" fill="#333333" text-anchor="middle">&#949;&#8322;</text>
+<line x1="319" y1="660" x2="365" y2="660" stroke="#999999" stroke-width="2" marker-end="url(#mp-ar)"/>
+<text x="340" y="652" font-size="14" fill="#333333" text-anchor="middle">b</text>
+<rect x="365" y="635" width="120" height="50" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="425" y="665" font-size="16" fill="#000000" text-anchor="middle">Stability</text>
+
+<circle cx="295" cy="750" r="24" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="295" y="756" font-size="16" fill="#333333" text-anchor="middle">&#949;&#8323;</text>
+<line x1="319" y1="750" x2="365" y2="750" stroke="#999999" stroke-width="2" marker-end="url(#mp-ar)"/>
+<text x="340" y="742" font-size="14" fill="#333333" text-anchor="middle">b</text>
+<rect x="365" y="725" width="120" height="50" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="425" y="755" font-size="16" fill="#000000" text-anchor="middle">External</text>
+
+<circle cx="705" cy="660" r="78" fill="#EEF3FA" stroke="#14497F" stroke-width="1.5"/>
+<text x="705" y="653" font-size="15" font-style="italic" fill="#14497F" text-anchor="middle">Learned</text>
+<text x="705" y="673" font-size="15" font-style="italic" fill="#14497F" text-anchor="middle">helplessness</text>
+
+<line x1="627" y1="615" x2="485" y2="570" stroke="#333333" stroke-width="1.6" marker-end="url(#mp-ar)"/>
+<text x="580" y="580" font-size="15" font-weight="600" fill="#14497F" text-anchor="middle">1</text>
+<line x1="627" y1="660" x2="485" y2="660" stroke="#333333" stroke-width="1.6" marker-end="url(#mp-ar)"/>
+<text x="580" y="652" font-size="15" font-weight="600" fill="#14497F" text-anchor="middle">a</text>
+<line x1="627" y1="705" x2="485" y2="750" stroke="#333333" stroke-width="1.6" marker-end="url(#mp-ar)"/>
+<text x="580" y="740" font-size="15" font-weight="600" fill="#14497F" text-anchor="middle">a</text>
+
+<text x="440" y="815" font-size="13" fill="#666666" text-anchor="middle">Loading dan varians error dibatasi sama</text>
+</svg>

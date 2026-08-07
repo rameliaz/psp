@@ -231,7 +231,9 @@ formula stick. Ask which items they think are problematic before introducing the
 
 * With **3 to 5 raters**: I-CVI must be **1.00**. Every rater must agree.
 
-* With **6 to 10 raters**: I-CVI must be at least **0.78**.
+* With **6 to 8 raters**: I-CVI must be at least **0.83**.
+
+* With **9 or more raters**: I-CVI must be at least **0.78**.
 
 :::
 

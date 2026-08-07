@@ -237,7 +237,9 @@ rumusnya melekat. Tanyakan mana yang menurut mereka bermasalah sebelum kriteria 
 
 * Dengan **3 sampai 5 penilai**: I-CVI harus **1,00**. Semua penilai harus sepakat.
 
-* Dengan **6 sampai 10 penilai**: I-CVI minimal **0,78**.
+* Dengan **6 sampai 8 penilai**: I-CVI minimal **0,83**.
+
+* Dengan **9 penilai atau lebih**: I-CVI minimal **0,78**.
 
 :::
 

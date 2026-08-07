@@ -131,9 +131,9 @@ All four are decisions. Let us take them one at a time.
 
 ::: {.incremental}
 
-* **Below 4 points**, you lose information. Variation between respondents is compressed and reliability falls (Preston & Colman, 2000).
+* **Four points or fewer** compresses variation between respondents and lowers precision. Preston & Colman (2000) found 2-, 3-, and 4-point scales all performed poorly.
 
-* **Around 5–7 points** is the range most often recommended. Lozano et al. (2008) suggest a minimum of 4, with the best results at 6–7.
+* **Around 5–7 points** is the range most often recommended. Lozano et al. (2008) recommend a range of **4 to 7**, with scarce gains beyond 7.
 
 * **Above 6–7 points**, the added benefit is small. Simms et al. (2019) found almost no psychometric improvement beyond 6 options.
 

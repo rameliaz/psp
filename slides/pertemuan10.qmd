@@ -377,7 +377,7 @@ Bikos, *ReCentering Psych Stats: Psychometrics*, Bab 2.
 
 ::: {.incremental}
 
-* Pershing & Pershing (2001) memeriksa 50 kuesioner yang dipakai di sebuah sekolah kedokteran ternama.
+* Pershing & Pershing (2001) memeriksa 50 formulir evaluasi pelatihan yang dipakai di sebuah sekolah kedokteran ternama.
 
 * **72%** tidak punya pengantar sama sekali. **78%** tidak punya penutup. **30%** tidak punya petunjuk pengisian, dan 54% lainnya hanya seadanya.
 

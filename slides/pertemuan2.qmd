@@ -217,7 +217,7 @@ Kita **memilih item supaya sebarannya normal**, lalu memperlakukan normalitas it
 
 ## Mari lihat data sungguhan
 
-Data IPIP *Big Five* (`data/data.csv` di repositori mata kuliah ini), 50 item, skala 1–5, **n = 19.718** responden.
+Data IPIP *Big Five* (`data/data.csv` di repositori mata kuliah ini), 50 item, skala 1–5, **n = 19.719** responden.
 
 Pertama, lihat tiga **item** secara terpisah:
 
@@ -336,9 +336,9 @@ Contoh: hamil / tidak hamil.
 
 ::: {.incremental}
 
-* **Haslam, Holland, & Kuppens (2012)** meninjau 177 studi *taxometric* atas konstruk kepribadian dan psikopatologi.
+* **Haslam, Holland, & Kuppens (2012)** meninjau 177 artikel *taxometric* (311 temuan) atas konstruk kepribadian dan psikopatologi.
 
-* Kesimpulannya: **sebagian besar konstruk tampak dimensional**. Bukti untuk kategori alami hanya ditemukan pada sedikit konstruk.
+* Kesimpulannya: **sebagian besar konstruk tampak dimensional**. Setelah faktor pengganggu dikendalikan, mereka memperkirakan hanya sekitar **14%** temuan yang benar-benar taksonik.
 
 * Artinya, sebagian besar "gangguan" yang kita perlakukan sebagai kategori sebenarnya lebih tepat digambarkan sebagai **derajat**.
 

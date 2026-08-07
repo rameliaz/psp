@@ -80,9 +80,8 @@
 <text x="638" y="156" font-size="17" fill="#FFFFFF" text-anchor="middle">&#10003;</text>
 <rect x="664" y="132" width="52" height="36" fill="#14497F" stroke="#BBBBBB" stroke-width="1.2"/>
 <text x="690" y="156" font-size="17" fill="#FFFFFF" text-anchor="middle">&#10003;</text>
-<rect x="716" y="132" width="52" height="36" fill="#14497F" stroke="#BBBBBB" stroke-width="1.2"/>
-<text x="742" y="156" font-size="17" fill="#FFFFFF" text-anchor="middle">&#10003;</text>
-<rect x="768" y="132" width="52" height="36" fill="#14497F" stroke="#E6282B" stroke-width="3"/>
+<rect x="716" y="132" width="52" height="36" fill="#FFFFFF" stroke="#E6282B" stroke-width="3"/>
+<rect x="768" y="132" width="52" height="36" fill="#14497F" stroke="#BBBBBB" stroke-width="1.2"/>
 <text x="794" y="156" font-size="17" fill="#FFFFFF" text-anchor="middle">&#10003;</text>
 <text x="548" y="191" font-size="15" fill="#333333" text-anchor="end">C</text>
 <rect x="560" y="168" width="52" height="36" fill="#14497F" stroke="#BBBBBB" stroke-width="1.2"/>

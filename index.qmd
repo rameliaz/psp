@@ -114,9 +114,8 @@ Terdapat tiga komponen penilaian utama, sebagaimana tercantum dalam RPP:
 
 | Komponen | Bobot | Cakupan |
 |:--|:--|:--|
-| Kegiatan Partisipatif | 15% | Keaktifan dalam diskusi dan interaksi di kelas, Pertemuan 1–16 |
-| UTS | 25% | Ujian tulis (pilihan ganda), materi Pertemuan 1–7 |
-| Hasil Proyek | 60% | Proyek kelompok penyusunan skala, Pertemuan 9–16 |
+| UTS | 35% | Ujian tulis (pilihan ganda), materi Pertemuan 1–7 |
+| Hasil Proyek | 65% | Proyek kelompok penyusunan skala, Pertemuan 9–16 |
 | **Total** | **100%** | |
 
 : Komponen penilaian {.striped tbl-colwidths="[26,12,62]"}
