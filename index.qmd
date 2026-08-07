@@ -1,0 +1,184 @@
+---
+title: "Penyusunan Skala Psikologi"
+---
+
+Kelas A-2, Sarjana Psikologi, Fakultas Psikologi, Universitas Airlangga.
+Semester Gasal 2026/2027 — 3 SKS (PSA306).
+
+**Dosen pengampu:** Dr. Rizqy Amelia Zein · Dian Kartika Amelia Arbi, M.Psi., psikolog
+**PJMK:** Dr. Fajrianthi, M.Psi
+
+::: {.callout-warning}
+#### *Work in Progress* 👷‍♀️
+Materi mata kuliah ini sedang disusun secara bertahap. Slide pertemuan yang sudah tersedia bisa diakses lewat menu **Materi** di atas atau lewat tabel [Rencana Pertemuan](#rencana-pertemuan) di bawah.
+:::
+
+::: {.callout-important}
+#### Pasang jamovi di perangkat Anda sebelum kuliah dimulai
+Seluruh analisis data di mata kuliah ini dikerjakan dengan **[jamovi](https://www.jamovi.org/)** — perangkat lunak statistik gratis dan *open source*. Pastikan Anda memasang **versi terbaru** (*latest release*) sebelum perkuliahan dimulai. Lihat [Perangkat Lunak](#perangkat-lunak) untuk panduan singkatnya.
+:::
+
+## Deskripsi Mata Kuliah
+
+Mata kuliah ini didesain untuk membangun pemahaman konseptual sekaligus keterampilan praktis dalam pengukuran psikologis. Perkuliahan dibuka dengan pembahasan mengenai apa itu pengukuran dan asumsi-asumsi umum dalam pengukuran psikologis, dengan penekanan pada sikap kritis terhadap asumsi-asumsi tersebut alih-alih menerimanya begitu saja.
+
+Mahasiswa kemudian diperkenalkan pada berbagai format respons (Likert, Thurstone, Guttman, *Semantic Differential*, *Situational Judgement Test*), konsep variabel laten, teori tes klasik (*Classical Test Theory*) sebagai kerangka utama mata kuliah ini beserta sekilas pengantar *Item Response Theory* (IRT) sebagai kerangka alternatif, serta reliabilitas dan validitas secara kritis.
+
+Pada paruh kedua semester, mahasiswa mempraktikkan seluruh tahapan penyusunan skala psikologis secara berkelompok: mengenali konstruk yang diukur, menulis item, melakukan review ahli (*Content Validity Index*), merancang dan melaksanakan uji coba, menganalisis properti psikometri item, hingga menyusun skoring, norma, dan manual alat ukur.
+
+### Manfaat mata kuliah
+
+Setelah mengikuti mata kuliah ini, mahasiswa diharapkan mampu tidak hanya mengikuti prosedur baku penyusunan skala psikologis, tetapi juga memahami dasar konseptual dan keterbatasan asumsi di balik prosedur tersebut — sehingga dapat menilai secara kritis kualitas alat ukur psikologis, baik yang mereka susun sendiri maupun yang mereka temui dalam praktik dan riset di kemudian hari.
+
+### Mata kuliah prasyarat
+
+Data dan Pustaka · Statistik · Psikometri
+
+## Capaian Pembelajaran Mata Kuliah (CPMK)
+
+1. **Menjelaskan** konsep dasar pengukuran psikologis, variabel laten, serta asumsi-asumsi umum yang melandasinya, termasuk keterbatasannya (C2 — *Understanding*).
+2. **Menganalisis** kesesuaian berbagai format respons (Likert, Thurstone, Guttman, *Semantic Differential*, *Situational Judgement Test*) dengan konstruk dan tujuan pengukuran (C4 — *Analyzing*).
+3. **Mengevaluasi** secara kritis reliabilitas dan validitas suatu alat ukur psikologis beserta asumsi yang mendasarinya (C5 — *Evaluating*).
+4. **Menerapkan** tahapan penyusunan skala psikologis — operasionalisasi konstruk, penulisan item, review ahli (CVI), uji coba, dan analisis item — berlandaskan teori tes klasik (C3 — *Applying*).
+5. **Mengembangkan** sebuah skala psikologis yang lengkap beserta manualnya, mencakup skoring dan norma (C6 — *Creating*).
+
+### Capaian pembelajaran lulusan yang didukung
+
+- Mampu melakukan penelitian psikologi menggunakan metodologi penelitian kuantitatif dan kualitatif serta mampu mengkomunikasikan hasil penelitian sesuai dengan Kode Etik Psikologi Indonesia.
+- Mampu merancang, melakukan, mengevaluasi dan melaporkan asesmen psikologi berupa observasi, wawancara, tes psikologi kategori A dan B sesuai dengan prinsip psikodiagnostik dan Kode Etik Psikologi Indonesia.
+
+## Metode Pembelajaran
+
+Pembelajaran dilaksanakan melalui kombinasi **kuliah interaktif dan diskusi kritis** pada Pertemuan 1–7, **ujian tertulis** pada Pertemuan 8, serta **kerja praktik berbasis proyek kelompok** pada Pertemuan 9–15 yang diakhiri dengan presentasi dan umpan balik langsung dari dosen.
+
+## Rencana Pertemuan
+
+Pertemuan 1–10 dilaksanakan **daring** melalui [Microsoft Teams](https://teams.microsoft.com/meet/478707954412300?p=L6yBo8dgrtE0gZNtiw), setiap **Rabu pukul 15.30 WIB**. Pertemuan 11–15 dilaksanakan **luring di Ruang 303**, setiap **Senin pukul 13.00 WIB**.
+
+| # | Tanggal | Topik | Moda | Dosen | Materi |
+|:--|:--|:------|:--|:--|:--|
+| 1 | Rab, 12 Agu | Apa itu pengukuran? Dasar dan filsafat pengukuran psikologis | Kuliah, diskusi kelompok | Amel | [Slide](slides/pertemuan1.html) |
+| 2 | Rab, 19 Agu | Asumsi umum dalam pengukuran psikologis dan mengapa asumsi ini perlu diperiksa secara kritis | Kuliah, diskusi kelompok | Amel | [Slide](slides/pertemuan2.html) |
+| 3 | Rab, 26 Agu | Variabel laten: *Classical Test Theory*, dan sekilas *Item Response Theory* | Kuliah, diskusi kelompok | Amel | [Slide](slides/pertemuan3.html) |
+| 4 | Rab, 2 Sep | Format respons I: Likert, *Semantic Differential*, Guttman | Kuliah, demo/latihan | Amel | [Slide](slides/pertemuan4.html) |
+| 5 | Rab, 9 Sep | Format respons II: Thurstone, *Situational Judgement Test*, *forced-choice* | Kuliah, demo/latihan | Amel | [Slide](slides/pertemuan5.html) |
+| 6 | Rab, 16 Sep | Reliabilitas dalam pengukuran psikologi: konsep dasar dan implementasinya | Kuliah, diskusi kelompok | Amel | [Slide](slides/pertemuan6.html) |
+| 7 | Rab, 23 Sep | Validitas dalam pengukuran psikologi: konsep dasar dan implementasinya | Kuliah, diskusi kelompok | Amel | [Slide](slides/pertemuan7.html) |
+| 8 | 29 Sep – 9 Okt | **Ujian Tengah Semester** (materi Pertemuan 1–7) | UTS | — | — |
+| 9 | Rab, 14 Okt | Pengenalan konstruk dan penetapan *estimand*: dari tinjauan pustaka ke definisi operasional | Praktik, diskusi kelompok | Amel | [Slide](slides/pertemuan9.html) |
+| 10 | Rab, 21 Okt | *Workshop* penulisan item: kisi-kisi/*blue print* dan pemilihan format respons | Praktik, *workshop* | Amel | [Slide](slides/pertemuan10.html) |
+| 11 | Sen, 26 Okt | Review ahli dan validitas isi: perhitungan dan interpretasi CVI | Praktik, diskusi kelompok | Dian | [Slide](slides/pertemuan11.html) |
+| 12 | Sen, 2 Nov | Perancangan dan pelaksanaan uji coba: metode dan sampel | Praktik | Dian | *menyusul* |
+| 13 | Sen, 9 Nov | Analisis item dan pengujian reliabilitas/validitas empiris | Praktik, analisis data | Dian | *menyusul* |
+| 14 | Sen, 16 Nov | Skoring, norma, dan penyusunan manual | Praktik | Dian | *menyusul* |
+| 15 | Sen, 23 Nov | Presentasi draf laporan kelompok dengan umpan balik langsung | Praktik, presentasi | Dian | *menyusul* |
+| 16 | 7–18 Des | **Ujian Akhir Semester**: pengumpulan laporan akhir dan manual | UAS | — | — |
+
+: Rencana pertemuan Kelas A-2, Semester Gasal 2026/2027 {.striped .hover tbl-colwidths="[4,12,44,14,8,18]"}
+
+::: {.callout-note collapse="true"}
+#### Catatan tentang perkuliahan daring
+Mahasiswa **tidak perlu** memiliki akun Microsoft Teams untuk mengikuti kuliah, dan dapat bergabung langsung lewat *browser* tanpa memasang aplikasinya.
+
+Namun, untuk mengakses percakapan (*chat*) atau berkomunikasi dengan dosen lewat tautan MS Teams yang sama, mahasiswa perlu masuk menggunakan akun Microsoft Teams UNAIR (email berdomain `@drive.unair.ac.id`). Lihat [Panduan Penggunaan OneDrive dan MS Teams](https://drive.google.com/file/d/1GZRz9a7TBCpDvYjJJE_ny8-3rgShKK_6/view) dari Direktorat Sistem Informasi (DSI) Universitas Airlangga.
+:::
+
+## Perangkat Lunak
+
+Mata kuliah ini menggunakan **[jamovi](https://www.jamovi.org/)** untuk seluruh analisis data — mulai dari perhitungan CVI, analisis item, hingga pengujian reliabilitas dan penyusunan norma pada Pertemuan 11–15. jamovi gratis, *open source*, dan tersedia untuk Windows, macOS, serta Linux.
+
+::: {.callout-important}
+#### Pasang jamovi versi terbaru
+Unduh dan pasang **versi terbaru** jamovi (*latest release*, bukan versi *solid*/lama) dari **<https://www.jamovi.org/download.html>** sebelum perkuliahan dimulai — paling lambat sebelum **Pertemuan 11 (Senin, 26 Oktober 2026)**.
+
+Beberapa modul yang kita pakai hanya tersedia di rilis terbaru, jadi **jangan** memakai jamovi versi lama yang mungkin sudah terpasang di laptop atau di komputer laboratorium. Jika jamovi sudah terpasang, periksa versinya lewat menu ☰ → **About**, lalu perbarui bila perlu.
+:::
+
+**Langkah singkat:**
+
+1. Buka <https://www.jamovi.org/download.html> dan pilih pemasang sesuai sistem operasi Anda (Windows / macOS / Linux).
+2. Ambil versi pada kolom ***current*** (rilis terbaru), bukan kolom *solid*.
+3. Pasang seperti aplikasi biasa, lalu buka jamovi untuk memastikan berjalan normal.
+4. Modul tambahan dipasang lewat ikon **+ Modules** → **jamovi library** di pojok kanan atas. Modul spesifik yang dibutuhkan akan diumumkan pada pertemuan terkait.
+
+Bawa laptop yang sudah terpasang jamovi pada setiap pertemuan praktik. Jika mengalami kendala pemasangan, sampaikan kepada dosen **sebelum** pertemuan, bukan pada saat sesi berlangsung.
+
+## Tugas dan Penilaian
+
+Terdapat tiga komponen penilaian utama, sebagaimana tercantum dalam RPP:
+
+| Komponen | Bobot | Cakupan |
+|:--|:--|:--|
+| Kegiatan Partisipatif | 15% | Keaktifan dalam diskusi dan interaksi di kelas, Pertemuan 1–16 |
+| UTS | 25% | Ujian tulis (pilihan ganda), materi Pertemuan 1–7 |
+| Hasil Proyek | 60% | Proyek kelompok penyusunan skala, Pertemuan 9–16 |
+| **Total** | **100%** | |
+
+: Komponen penilaian {.striped tbl-colwidths="[26,12,62]"}
+
+### Hasil Proyek (60%)
+
+Mahasiswa bekerja **dalam kelompok beranggotakan 5 orang** untuk mengonstruksi sebuah skala psikologis beserta manualnya, mengikuti tahapan pada **Rancangan Tugas Mahasiswa (RTM)**: menetapkan variabel yang diukur, membuat definisi operasional, menulis item, mereview item, mengambil data uji coba, menganalisis item, menguji reliabilitas dan validitas, membuat norma, dan menyusun manual.
+
+Penilaian menggunakan rubrik resmi pada RTM:
+
+| Komponen laporan | Poin |
+|:--|--:|
+| Pengantar | 5 |
+| Operasionalisasi konstruk | 5 |
+| Penulisan item | 20 |
+| Review item / CVI | 10 |
+| Uji coba | 10 |
+| Analisis item | 35 |
+| Skoring & norma | 15 |
+| **Total** | **100** |
+
+: Rubrik penilaian Hasil Proyek (RTM) {.striped tbl-colwidths="[76,24]"}
+
+### Kriteria nilai akhir
+
+Mengikuti peraturan akademik Universitas Airlangga:
+
+| Nilai angka | Nilai huruf |
+|:--|:--|
+| 86 – 100 | A |
+| 78 – <86 | AB |
+| 70 – <78 | B |
+| 62 – <70 | BC |
+| 54 – <62 | C |
+| 40 – <54 | D |
+| 0 – <40 | E |
+
+: Konversi nilai {.striped tbl-colwidths="[50,50]"}
+
+## Ketentuan Lain
+
+- **Keterlambatan.** Toleransi keterlambatan perkuliahan adalah **15 menit**. Mahasiswa yang terlambat melebihi batas tersebut tidak diperkenankan mengikuti perkuliahan pada hari itu.
+- **Kehadiran.** Mahasiswa diperbolehkan mengikuti UAS jika kehadirannya **minimal 75%**. Apabila kehadiran kurang dari 75%, mahasiswa mendapatkan nilai **E** untuk mata kuliah ini.
+- **Ketidakhadiran karena sakit/tugas.** Laporkan kepada PJMK/dosen pengampu **pada hari pelaksanaan perkuliahan**. Bukti dukung berupa surat keterangan sakit/surat tugas disampaikan ke Bagian Akademik dan PJMK/dosen pengampu **selambat-lambatnya 3 hari** sejak ketidakhadiran. Melewati batas waktu tersebut, mahasiswa tercatat tidak hadir.
+- **Integritas akademik.** Mahasiswa yang melakukan kecurangan akademis dalam segala bentuknya dinyatakan mendapatkan nilai **E** untuk mata kuliah ini.
+
+---
+
+## Bahan Bacaan Wajib
+
+- Cohen, R., & Swerdlik, M. (2018). *Psychological testing and assessment*. Boston: McGraw-Hill Higher Education.
+- Coulacoglou, C., & Saklofske, D. H. (2017). *Psychometrics and psychological assessment: Principles and applications*. London: Elsevier Academic Press.
+- Crocker, L., & Algina, J. (2008). *Introduction to classical and modern test theory*. Mason, OH: Cengage.
+- DeVellis, R. F., & Thorpe, C. T. (2022). *Scale development: Theory and applications* (5th ed.). Thousand Oaks, CA: SAGE Publications.
+- Domino, G., & Domino, M. L. (2006). *Psychological testing: An introduction*. Cambridge University Press.
+- Raykov, T., & Marcoulides, G. A. (2011). *Introduction to psychometric theory*. New York: Taylor & Francis Group.
+
+### Sumber terbuka (*open access*)
+
+- Petersen, I. T. *Principles of psychological assessment: With applied examples in R*. <https://isaactpetersen.github.io/Principles-Psychological-Assessment/>
+- Bikos, L. H. *ReCentering psych stats: Psychometrics*. <https://lhbikos.github.io/ReC_Psychometrics/>
+
+---
+
+::: {.callout-tip appearance="simple"}
+Halaman ini merupakan ringkasan **Kontrak Perkuliahan Kelas A-2**.
+:::
+
+### *Disclosure* penggunaan akal imitasi (AI)
+Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* materi, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian materi di mata kuliah ini.

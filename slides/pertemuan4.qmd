@@ -1,0 +1,605 @@
+---
+title: "Format Respons I: Likert, Semantic Differential, dan Guttman"
+subtitle: "Penyusunan Skala Psikologi"
+author: "Rizqy Amelia Zein & Dian Kartika Amelia Arbi"
+institute:
+  - "[_Departemen Psikologi, Universitas Airlangga_](https://psikologi.unair.ac.id/dosen-rizqy-amelia-zein/)"
+date: today
+format:
+  unair-revealjs:
+    slide-number: true
+    progress: true
+    transition: slide
+    center: false
+    css: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css
+    chalkboard: true
+execute:
+  eval: false
+  echo: true
+---
+
+## _Outline_
+
+::: {.incremental}
+
+* Apa yang sebenarnya kita pilih ketika memilih format respons
+* **Likert**: asal-usulnya, dan empat keputusan yang harus Anda ambil
+* **Semantic Differential**: kapan pasangan kata sifat lebih tepat daripada pernyataan
+* **Guttman**: ketika item memang berjenjang secara logis — dan kenapa jarang berhasil
+* Membandingkan ketiganya
+* Pertanyaan penutup: **memilih format respons itu mengubah asumsi apa?**
+
+:::
+
+::: aside
+***Disclosure* penggunaan akal imitasi (AI)**
+
+Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* materi, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini.
+
+:::
+
+# Dari model ke keputusan pertama {background-color="#14497F" .center}
+
+## Di mana posisi kita
+
+::: {.incremental}
+
+* **Pertemuan 3** memberi kita modelnya: $X = T + E$, variabel laten sebagai sebab, dan reliabilitas sebagai proporsi varians.
+
+* Sampai di sini semuanya masih abstrak. 
+
+* **Format respons adalah tempat pertama** di mana teori pengukuran (yang abstrak) berubah menjadi sesuatu yang lebih *practical* dan terlihat di kuesioner.
+
+:::
+
+. . .
+
+::: {.callout-note}
+#### Yang perlu dipegang hari ini
+Format respons **bukan soal selera atau kebiasaan**. Setiap format membawa asumsinya sendiri, dan asumsi-asumsi ini menentukan analisis apa yang nanti boleh Anda pakai.
+:::
+
+## Apa yang dilakukan sebuah format respons
+
+::: {.incremental}
+
+* Format respons adalah **aturan yang memetakan kondisi psikologis internal partisipan menjadi sebuah angka**.
+
+* Sebagian besar item terdiri atas dua bagian: **stem** (pernyataan atau pertanyaan) dan **opsi respons**.
+
+* Yang Anda pilih ketika memilih format sekaligus mencakup:
+  - berapa banyak informasi yang bisa diambil dari satu item,
+  - level pengukuran yang Anda klaim,
+  - jenis *error* yang mungkin muncul,
+  - dan analisis apa yang bisa dipertanggungjawabkan.
+
+:::
+
+::: aside
+DeVellis & Thorpe (2022), Bab 5.
+:::
+
+# Likert {background-color="#14497F" .center}
+
+## Asal-usulnya
+
+::: {.incremental}
+
+* Diperkenalkan **Rensis Likert (1932)** dalam disertasinya, *A technique for the measurement of attitudes*.
+
+* Gagasan intinya bukan pada opsi "Sangat Setuju sampai Sangat Tidak Setuju", melainkan pada ***summated ratings***: sekumpulan item yang direspons dengan skala berjenjang, lalu **dijumlahkan** menjadi satu skor.
+
+* Jadi yang disebut "skala" oleh Likert adalah **kumpulan itemnya**, bukan opsi responsnya.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+#### Ketelitian istilah yang jarang dipakai orang
+Satu item tunggal dengan lima pilihan **bukan** "skala Likert". Itu adalah **item bertipe Likert** (*Likert-type item*).
+
+Sebuah *Likert scale* baru berlaku kalau item-itemnya dijumlahkan. Perhatikan bahwa ini konsisten dengan Pertemuan 3: reliabilitas hanya bisa dihitung untuk **sekumpulan** item.
+:::
+
+## Anatomi item bertipe Likert
+
+**Stem:** *"Saya merasa gugup ketika harus berbicara di depan kelas."*
+
+<br>
+
+| 1 | 2 | 3 | 4 | 5 |
+|:-:|:-:|:-:|:-:|:-:|
+| Sangat Tidak Setuju | Tidak Setuju | Netral | Setuju | Sangat Setuju |
+
+. . .
+
+::: {.incremental}
+
+* **Stem** — pernyataan yang direspons.
+* **Jumlah titik** — di sini lima.
+* **Label (*anchor*)** — kata yang menerangkan tiap titik.
+* **Arah** — dari negatif ke positif, atau sebaliknya.
+
+:::
+
+. . .
+
+Keempatnya adalah keputusan yang terpisah. Mari kita bahas satu per satu.
+
+## Keputusan 1: berapa pilihan respons?
+
+::: {.incremental}
+
+* **Di bawah 4 pilihan**, Anda kehilangan informasi. Variasi antar-responden tertekan, dan reliabilitas ikut turun (Preston & Colman, 2000).
+
+* **Sekitar 5–7 pilihan** adalah wilayah yang paling sering direkomendasikan. Lozano dkk. (2008) menyarankan minimum 4, dengan hasil terbaik pada 6–7.
+
+* **Di atas 6–7 pilihan**, tambahan keuntungannya kecil. Simms dkk. (2019) menemukan hampir tidak ada perbaikan psikometrik setelah 6 pilihan.
+
+:::
+
+. . .
+
+::: {.callout-note}
+#### Dua pertimbangan lain dari DeVellis
+Pertama, **kemampuan responden membedakan**. Kalau responden tidak sanggup membedakan tujuh tingkat, tujuh pilihan hanya menambah *noise*.
+
+Kedua, **kesediaan Anda memakai ketelitian itu**. Kalau nanti skornya Anda kelompokkan menjadi tiga kategori, buat apa Anda menggunakan 10 pilihan respons?
+:::
+
+## Keputusan 2: pakai titik tengah atau tidak?
+
+:::: {.columns}
+::: {.column width="50%"}
+
+### Jumlah ganjil
+
+Memberi ruang untuk **netral** atau **tidak yakin**.
+
+Cocok kalau posisi netral memang bermakna secara teoretis.
+
+:::
+::: {.column width="50%"}
+
+### Jumlah genap
+
+**Memaksa** responden memihak, walau lemah.
+
+Cocok kalau Anda curiga netral akan dipakai untuk menghindar.
+
+:::
+::::
+
+. . .
+
+::: {.callout-note}
+#### Tidak ada yang unggul secara mutlak
+DeVellis menyatakannya dengan tegas: **tidak ada format yang otomatis lebih baik**. Pilihannya bergantung pada jenis pertanyaan, jenis opsi respons, dan tujuan penelitian Anda.
+:::
+
+## Masalah dengan titik tengah
+
+::: {.incremental}
+
+* Kalau setiap item punya pilihan di tengah, sebagian responden akan belajar bahwa mereka **selalu bisa memilih pilihan itu** dan menyelesaikan kuesioner lebih cepat.
+
+* Pilihan tengah menjadi pilihan yang aman dan paling mudah, bukan laporan yang aktual tentang kondisi psikologis partisipan.
+
+* Krosnick (1991) menyebut pola ini ***satisficing***: responden memberi jawaban yang "cukup memadai", bukan jawaban yang paling akurat.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+#### Gejala yang bisa Anda cek
+Ketika titik tengah tersedia, ia sering menjadi **opsi yang paling banyak dipilih**. Kalau itu terjadi pada data uji coba Anda di Pertemuan 12, jangan langsung menyimpulkan respondennya memang netral.
+:::
+
+## Netral dan ragu-ragu itu tidak sama
+
+::: {.incremental}
+
+* Dalam banyak kuesioner berbahasa Indonesia, titik tengah diberi label **"Netral"**, **"Ragu-ragu"**, atau **"Kurang Setuju"**, seolah-olah ketiganya sama.
+
+* **"Netral"** berarti tidak condong ke mana pun. **"Ragu-ragu"** berarti tidak tahu atau belum yakin. **"Kurang Setuju"** sebenarnya sudah condong ke sisi tidak setuju.
+
+* Ketiganya menempati posisi yang berbeda pada kontinum, tetapi diberi angka yang sama, yaitu 3.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+#### Kenapa ini tidak bisa diremehkan
+Ini melanggar asumsi jarak yang setara dari Pertemuan 2. Kalau **"Kurang Setuju"** dipakai sebagai pilihan tengah, skala Anda sebenarnya tidak simetris: jarak dari 2 ke 3 tidak sama dengan jarak dari 3 ke 4.
+:::
+
+## Keputusan 3: melabeli semua pilihan, atau hanya ujungnya?
+
+::: {.incremental}
+
+* Melabeli **semua pilihan** umumnya menghasilkan reliabilitas dan validitas yang lebih baik daripada hanya melabeli kedua ujungnya (Krosnick & Presser, 2010).
+
+* Alasannya sederhana: kalau hanya ujungnya yang diberi label, tiap responden menafsirkan sendiri arti titik-titik di antaranya.
+
+* Tetapi label yang dipilih harus benar-benar bisa dibedakan oleh partisipan.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+#### Contoh label yang bermasalah
+Perhatikan susunan ini, yang diadaptasi dari DeVellis:
+
+| | |
+|---|---|
+| Sangat Membantu | Kurang Membantu |
+| Agak Membantu | Tidak Membantu Sama Sekali |
+
+**Dua masalah sekaligus.** Pertama, "Agak" dan "Kurang" sulit dibedakan bahkan dalam keadaan terbaik. Kedua, kalau dibaca ke bawah kolom, "Agak Membantu" tampak lebih tinggi daripada "Kurang Membantu"; kalau dibaca ke samping per baris, urutannya justru terbalik.
+:::
+
+## Keputusan 4: *Anchor* apa yang dipakai?
+
+::: {.incremental}
+
+* **Persetujuan** — "Sangat Tidak Setuju" sampai "Sangat Setuju". Paling lazim, dan paling rawan *acquiescence bias* (Pertemuan 2).
+
+* **Frekuensi** — "Tidak pernah" sampai "Selalu". Lebih konkret, tapi butuh **rujukan waktu yang jelas**: "sering" dalam seminggu atau dalam setahun?
+
+* ***Anchor* khusus per item** (*item-specific*) — misalnya "Seberapa sering Anda merasa gugup sebelum presentasi?" dengan pilihan "Tidak pernah / Sekali dua kali / Beberapa kali / Hampir tiap kali / Selalu".
+
+:::
+
+. . .
+
+::: {.callout-tip}
+#### Kecenderungan yang perlu Anda tahu
+*Anchor* persetujuan mendorong responden untuk sekadar mengiyakan. *Anchor* yang khusus untuk isi item umumnya menekan kecenderungan itu, karena responden harus benar-benar membaca pilihannya.
+
+Weijters dkk. (2010) menunjukkan bahwa format skala ikut menentukan *response style* yang muncul.
+:::
+
+## Seberapa kuat sebaiknya kalimat itemnya?
+
+Tiga versi pernyataan yang isinya sama, dengan kekuatan berbeda:
+
+::: {.incremental}
+
+1. *"Dosen umumnya mengabaikan apa yang dikatakan mahasiswa."* — kuat
+2. *"Kadang-kadang dosen tidak memperhatikan komentar mahasiswa sebagaimana mestinya."* — sedang
+3. *"Sesekali dosen mungkin lupa atau melewatkan sesuatu yang disampaikan mahasiswa."* — lemah
+
+:::
+
+. . .
+
+::: {.callout-note}
+#### Saran DeVellis
+Untuk format Likert, pernyataan sebaiknya **cukup kuat, tetapi tidak ekstrem**. Alasannya: **derajatnya sudah diwakili oleh opsi responsnya**.
+
+Kalau kalimatnya sendiri sudah sangat lunak (versi 3), hampir semua orang akan setuju, dan item itu tidak lagi membedakan siapa pun. Ingat pembahasan tingkat kesulitan item di Pertemuan 3.
+:::
+
+# Semantic Differential {background-color="#14497F" .center}
+
+## Bentuknya
+
+Dikembangkan **Osgood, Suci, & Tannenbaum (1957)** dalam penelitian tentang makna dan sikap.
+
+. . .
+
+**Objek yang dinilai: Layanan Kemahasiswaan Fakultas**
+
+| | 1 | 2 | 3 | 4 | 5 | 6 | 7 | |
+|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|---|
+| Lambat | ○ | ○ | ○ | ○ | ○ | ○ | ○ | Cepat |
+| Berbelit | ○ | ○ | ○ | ○ | ○ | ○ | ○ | Sederhana |
+| Tidak ramah | ○ | ○ | ○ | ○ | ○ | ○ | ○ | Ramah |
+
+. . .
+
+Responden menandai satu titik di antara sepasang kata sifat yang berlawanan.
+
+## Bipolar dan unipolar
+
+:::: {.columns}
+::: {.column width="50%"}
+
+### Pasangan bipolar
+
+Dua kata sifat yang **berlawanan**.
+
+*jujur — tidak jujur*
+*ramah — galak*
+
+:::
+::: {.column width="50%"}
+
+### Pasangan unipolar
+
+Ada dan tidak adanya **satu** atribut.
+
+*ramah — tidak ramah*
+
+:::
+::::
+
+. . .
+
+::: {.incremental}
+
+* Pilihan di antara keduanya harus mencerminkan logika konstruk Anda.
+
+* "Tidak ramah" belum tentu sama dengan "galak". Kalau Anda memperlakukannya sebagai satu kontinum, Anda sudah membuat klaim teoretis.
+
+:::
+
+## Kapan format ini berguna
+
+::: {.incremental}
+
+* Ketika yang diukur adalah **sikap atau kesan terhadap suatu objek** — layanan, produk, program, kelompok, tokoh.
+
+* Ketika Anda ingin **membandingkan beberapa objek** pada dimensi yang sama.
+
+* Ketika beban membaca perlu ditekan: pasangan kata sifat jauh lebih ringan daripada deretan kalimat panjang.
+
+:::
+
+. . .
+
+::: {.callout-note}
+#### Tetap cocok dengan model Pertemuan 3
+Beberapa pasangan kata sifat yang mengukur hal yang sama — *jujur/tidak jujur*, *adil/tidak adil*, *tulus/tidak tulus* — bisa dijumlahkan menjadi satu skor "kejujuran".
+
+Logikanya persis sama: satu variabel laten sebagai penyebab beberapa item (*shared cause*), item-item sebagai indikatornya.
+:::
+
+## Yang perlu diwaspadai
+
+::: {.incremental}
+
+* **Pasangan katanya harus benar-benar berlawanan dalam bahasa partisipan.** Ini persoalan yang cukup pelik dalam bahasa Indonesia: banyak pasangan yang terasa berlawanan di bahasa Inggris tidak punya padanan yang setara.
+
+* **Pilihan tengahnya ambigu.** Apakah pilihan 4 berarti "netral", "kedua-duanya", atau "tidak tahu"?
+
+* **Risiko *invariance*** (Pertemuan 2): makna sepasang kata sifat bisa berbeda antar-kelompok, sehingga skornya tidak bisa langsung dibandingkan.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+#### Kalau kelompok Anda memakai format ini
+Uji pasangan kata sifatnya pada beberapa calon responden sebelum uji coba. Tanyakan satu hal sederhana: *"Menurut Anda, apa lawan kata dari ini?"* Kalau jawabannya bukan kata yang Anda pasangkan, pasangan kata tsb. perlu diganti.
+:::
+
+# Guttman {background-color="#14497F" .center}
+
+## Gagasan kumulatif
+
+::: {.incremental}
+
+* **Guttman (1944)** mengusulkan skala yang itemnya **berjenjang**: menyetujui satu item berarti menyetujui semua item yang lebih "mudah".
+
+* Level atribut seseorang ditunjukkan oleh **item tersulit yang masih ia setujui**.
+
+* Contoh dari DeVellis: *"Apakah Anda merokok?"* → *"Apakah Anda merokok lebih dari 10 batang sehari?"* → *"Apakah Anda merokok lebih dari satu bungkus sehari?"*
+
+:::
+
+. . .
+
+::: {.callout-note}
+Perhatikan bedanya dengan Likert. Pada Likert, yang dijumlahkan adalah **derajat persetujuan pada semua item**. Pada Guttman, yang dicari adalah **titik peralihan** dari "ya" ke "tidak".
+:::
+
+## Seperti apa polanya
+
+![](libs/guttman-scalogram.svg){.nostretch fig-align="center" width="82%"}
+
+## Membaca pola
+
+::: {.incremental}
+
+* Pada pola yang sempurna, **skor total sudah memberi tahu persis item mana saja yang disetujui**. Tidak ada informasi yang hilang ketika kita meringkasnya menjadi satu angka.
+
+* Pada panel kanan, tiga responden menyimpang: ada yang menyetujui item yang sulit tetapi menolak item yang lebih mudah.
+
+* Semakin banyak penyimpangan, semakin kecil arti skor totalnya. Ukuran yang lazim dipakai untuk ini adalah ***coefficient of reproducibility***.
+
+:::
+
+## Pada situasi seperti apa Skala Guttman berguna
+
+::: {.incremental}
+
+* Ketika hierarkinya merupakan **konsekuensi logis**: makan 10 mangkok bakso selalu berarti lebih banyak daripada 5 mangkok.
+
+* **Fungsi fisik**: bisa bangun dari tempat tidur → bisa berjalan di dalam rumah → bisa naik tangga → bisa berjalan satu kilometer.
+
+* **Jarak sosial** (Bogardus, 1925): bersedia tinggal senegara → sekota → bertetangga → berteman dekat → menjadi keluarga lewat pernikahan.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+Perhatikan bahwa ketiganya berhubungan dengan **perilaku atau kemampuan yang konkret**, bukan dengan sikap/konstruk psikologis yang sangat abstrak.
+:::
+
+## Di mana Guttman tidak berguna sama sekali
+
+::: {.incremental}
+
+* Begitu konstruknya tidak konkret, urutannya **tidak lagi sama untuk semua orang**.
+
+* DeVellis memberi contoh: dua item tentang aspirasi orang tua yang secara logika berjenjang, tetapi seseorang bisa saja menyetujui item ketiga dan menolak item keempat karena ia memandang kesuksesan sebagai hal yang sekaligus membantu dan menghambat kebahagiaan.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+#### Konsekuensi teoretis yang penting
+DeVellis mencatat satu hal yang mudah terlewat: **asumsi bahwa semua item punya hubungan yang sama kuat dengan variabel laten tidak berlaku** untuk item Guttman.
+
+Artinya, model *parallel* dan *tau-equivalent* dari Pertemuan 3 **tidak cocok** untuk skala Guttman — dan koefisien seperti $\alpha$ tidak bisa dipakai untuk skala Guttman.
+:::
+
+## Skala Guttman masih berguna
+
+::: {.incremental}
+
+* Kelemahan Guttman ada pada sifatnya yang **deterministik**: pola yang menyimpang dianggap kesalahan.
+
+* *Item Response Theory* mengambil gagasan yang sama tetapi membuatnya **probabilistik**: makin tinggi $\theta$ seseorang, makin **besar peluangnya** menyetujui item yang sulit, jadi bukan kepastian.
+
+* Model Rasch pada dasarnya adalah **versi probabilistik dari gagasan Guttman**.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+Inilah alasan kurva karakteristik item di Pertemuan 3 berbentuk landai, bukan berupa tangga tegak. Guttman mengasumsikan tangga; IRT mengasumsikan kurva.
+:::
+
+# Membandingkan ketiganya {background-color="#14497F" .center}
+
+## Ringkasan
+
+| | **Likert** | **Semantic Differential** | **Guttman** |
+|---|---|---|---|
+| Bentuk item | Pernyataan + derajat setuju | Pasangan kata sifat | Pernyataan berjenjang, ya/tidak |
+| Skor | Jumlah semua item | Jumlah semua pasangan | Titik peralihan |
+| Cocok untuk | Sikap, keyakinan, sifat | Kesan terhadap objek | Perilaku/kemampuan berjenjang |
+| Cocok dengan CTT | Ya | Ya | **Tidak langsung** |
+| Kelemahan utama | *Acquiescence*, jarak tak setara | Padanan antonim, ambiguitas tengah | Penyimpangan pola |
+
+. . .
+
+::: {.callout-note}
+Untuk proyek Anda semester ini, **Likert dan Semantic Differential adalah pilihan yang realistis**. Guttman hanya masuk akal kalau konstruk Anda memang berjenjang secara teoretis.
+:::
+
+## Memilih format respons berarti memilih asumsi
+
+::: {.incremental}
+
+* **Likert** mengasumsikan jarak antar-kategori setara, semua responden memaknai jangkar dengan cara yang sama, dan semua item berbobot sama.
+
+* **Semantic Differential** mengasumsikan pasangan kata sifatnya benar-benar bipolar, dan maknanya sama bagi semua responden.
+
+* **Guttman** mengasumsikan urutan kumulatif yang **deterministik** — asumsi paling keras di antara ketiganya.
+
+:::
+
+# Demo dan latihan {background-color="#14497F" .center}
+
+## Bagian 1: temukan masalahnya
+
+Empat format respons berikut punya masalah. Diskusikan dalam kelompok, **15 menit**.
+
+::: {.incremental}
+
+**A.** *"Bagaimana pendapat Anda tentang layanan akademik fakultas?"*
+Sangat Baik — Baik — Cukup — Kurang
+
+**B.** *"Seberapa sering Anda merasa cemas?"*
+Tidak pernah — Jarang — Kadang-kadang — Sering — Selalu
+
+**C.** *"Saya merasa dosen kompeten dan peduli pada mahasiswa."*
+Sangat Tidak Setuju — Tidak Setuju — Netral — Setuju — Sangat Setuju
+
+**D.** *"Seberapa puas Anda dengan perkuliahan ini?"*
+Skala 1 sampai 10, hanya ujungnya yang diberi label.
+
+:::
+
+::: {.notes}
+Jawaban yang diharapkan — A: jangkar tidak seimbang, tiga positif satu negatif, sehingga sebaran
+skor terdorong ke atas. B: kuantifier tanpa rujukan waktu; "sering" berbeda artinya bagi tiap orang.
+C: item ganda (kompeten dan peduli adalah dua hal), responden yang setuju pada satu bagian saja
+tidak punya jawaban yang benar. D: sepuluh titik tanpa label tengah, tiap responden menafsirkan
+sendiri jarak antar-angkanya.
+Kalau waktu mepet, cukup bahas A dan C — keduanya paling sering muncul di draf mahasiswa.
+:::
+
+# Rangkuman {background-color="#14497F" .center}
+
+## Enam poin utama
+
+::: {.incremental}
+
+1. **Format respons bukan soal selera.** Setiap format membawa asumsinya sendiri.
+
+2. **"Skala Likert" berarti sekumpulan item yang dijumlahkan**, bukan satu item dengan lima pilihan.
+
+3. **Sekitar 5–7 pilihan respon** adalah strategi yang umum dipilih; di bawah 4 maka kita akan kehilangan informasi, di atas 7 tambahan manfaatnya kecil.
+
+4. **Pilihan tengah punya kelebihan dan kekurangan.** Tidak ada format yang otomatis lebih baik — dan "netral", "ragu-ragu", serta "kurang setuju" bukan hal yang sama.
+
+5. **Semantic Differential** menuntut pasangan kata sifat yang benar-benar berlawanan dalam bahasa responden.
+
+6. **Guttman** menuntut urutan kumulatif yang deterministik, sehingga jarang cocok untuk konstruk psikologis, tetapi ide dasarnya masih bisa dieksekusi dengan IRT.
+
+:::
+
+## Untuk Pertemuan 5
+
+Kita lanjutkan ke format respons yang lebih jarang dipakai, tetapi punya kelebihan khusus:
+
+::: {.incremental}
+
+* **Thurstone** — ketika item diberi bobot berbeda oleh panel ahli, bukan diperlakukan setara.
+* ***Situational Judgement Test*** — ketika yang diukur adalah penilaian dalam situasi konkret.
+* ***Forced-choice*** — ketika *social desirability* menjadi ancaman utama, dan responden dipaksa memilih di antara dua hal yang sama-sama menarik.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+#### Persiapan
+Baca bagian *Thurstone Scaling* pada **DeVellis & Thorpe (2022), Bab 5**.
+:::
+
+## Ada pertanyaan❓
+
+![](libs/closing.JPG){fig-align="center"}
+
+::: {.callout-note}
+### Catatan
+
+* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
+* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+:::
+
+## Rujukan {.smaller}
+
+Bogardus, E. S. (1925). Measuring social distances. *Journal of Applied Sociology, 9*, 299–308.
+
+DeVellis, R. F., & Thorpe, C. T. (2022). *Scale development: Theory and applications* (5th ed.). SAGE.
+
+Guttman, L. (1944). A basis for scaling qualitative data. *American Sociological Review, 9*(2), 139–150.
+
+Krosnick, J. A. (1991). Response strategies for coping with the cognitive demands of attitude measures in surveys. *Applied Cognitive Psychology, 5*(3), 213–236.
+
+Krosnick, J. A., & Presser, S. (2010). Question and questionnaire design. In P. V. Marsden & J. D. Wright (Eds.), *Handbook of survey research* (2nd ed., pp. 263–313). Emerald.
+
+Likert, R. (1932). A technique for the measurement of attitudes. *Archives of Psychology, 22*(140), 1–55.
+
+Lozano, L. M., García-Cueto, E., & Muñiz, J. (2008). Effect of the number of response categories on the reliability and validity of rating scales. *Methodology, 4*(2), 73–79.
+
+Osgood, C. E., Suci, G. J., & Tannenbaum, P. H. (1957). *The measurement of meaning*. University of Illinois Press.
+
+Preston, C. C., & Colman, A. M. (2000). Optimal number of response categories in rating scales. *Acta Psychologica, 104*(1), 1–15.
+
+Simms, L. J., Zelazny, K., Williams, T. F., & Bernstein, L. (2019). Does the number of response options matter? *Psychological Assessment, 31*(4), 557–566.
+
+Weijters, B., Cabooter, E., & Schillewaert, N. (2010). The effect of rating scale format on response styles. *International Journal of Research in Marketing, 27*(3), 236–247.

@@ -1,0 +1,776 @@
+---
+title: "Common Assumptions in Psychological Measurement"
+subtitle: "Psychological Scale Construction"
+author: "Rizqy Amelia Zein & Dian Kartika Amelia Arbi"
+institute:
+  - "[_Department of Psychology, Universitas Airlangga_](https://psikologi.unair.ac.id/dosen-rizqy-amelia-zein/)"
+date: today
+format:
+  unair-revealjs:
+    slide-number: true
+    progress: true
+    transition: slide
+    center: false
+    css: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css
+    chalkboard: true
+execute:
+  eval: false
+  echo: true
+---
+
+## _Outline_
+
+::: {.incremental}
+
+* Why assumptions need scrutiny, and why that does not mean we stop measuring
+* **Assumption 1**: psychological attributes vary quantitatively
+* **Assumption 2**: the attribute is normally distributed
+* **Assumption 3**: the attribute is continuous, not categorical
+* **Assumption 4**: all items measure the same single thing
+* **Assumption 5**: items work the same way for every group
+* **Assumption 6**: respondents can and will report their internal states
+* What we can actually do about all of this
+
+:::
+
+::: aside
+***Disclosure* on the use of artificial intelligence (AI)**
+
+We used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate references, and troubleshoot `quarto` and `git` code. We (Amel and Dian) take full responsibility for the substance and presentation of these slides.
+
+:::
+
+# From Session 1 to Session 2 {background-color="#14497F" .center}
+
+## What we settled last week
+
+::: {.incremental}
+
+* Psychological measurement is **indirect**. We work through proxies.
+
+* The definition of measurement is itself contested, and Michell's objection — whether psychological attributes are genuinely quantitative — has not really been resolved.
+
+* Most psychological data are **ordinal** but are treated as **interval**.
+
+* What decides whether your item set is a scale is **theory**, not software output.
+
+:::
+
+. . .
+
+::: {.callout-note}
+#### The common thread
+Every one of those points has the same shape: **something we take to be true without ever checking it**. Today we check them one at a time.
+:::
+
+## Why spend a whole session on assumptions?
+
+::: {.incremental}
+
+* Because these assumptions **never appear in a research report**. Only the results do.
+
+* Because software will not warn you when an assumption is violated. It will simply return a number.
+
+* Because in Sessions 9–15 you will make technical decisions that **all** rest on these assumptions.
+
+:::
+
+# What is an assumption, and why check it {background-color="#14497F" .center}
+
+## Assumptions are not a bad thing
+
+::: {.incremental}
+
+* No measurement is assumption-free. Even a thermometer assumes that mercury expands linearly with temperature.
+
+* Assumptions are **the price we pay** for being able to measure anything at all.
+
+* The problem is not that assumptions exist. The problem is **assumptions nobody noticed making**.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+#### The distinction that matters
+"I am assuming this attribute is continuous, and here is why" is a scientific statement.
+
+"I summed the items because that is how it is done" is not.
+:::
+
+## Three possible states of an assumption
+
+::: {.incremental}
+
+1. **The assumption holds.** No problem.
+
+2. **The assumption is violated, but the conclusion barely changes.** A method like this is called *robust* to that violation.
+
+3. **The assumption is violated, and the conclusion changes completely.**
+
+:::
+
+. . .
+
+::: {.callout-warning}
+#### Our job
+To tell case 2 from case 3. This **cannot** be decided from the data alone — it requires understanding the construct being measured.
+:::
+
+## The six assumptions
+
+| # | Assumption | Checkable with data? |
+|:-:|------------|:--------------------:|
+| 1 | The attribute varies **quantitatively** | Very hard |
+| 2 | Its distribution is **normal** | Yes |
+| 3 | The attribute is **continuous**, not categorical | Partly |
+| 4 | All items measure **one and the same thing** | Yes |
+| 5 | Items work the same for **every group** | Yes, with enough data |
+| 6 | Respondents **can and will** answer accurately | Partly |
+
+. . .
+
+::: {.callout-note}
+Note that the most fundamental assumption (number 1) is also the hardest to check.
+:::
+
+# Assumption 1: the attribute varies quantitatively {background-color="#14497F" .center}
+
+## What we do when we sum items
+
+Imagine a 10-item anxiety scale, each item scored 1–5. You sum them into a single score from 10 to 50.
+
+. . .
+
+::: {.incremental}
+
+In summing, you have already assumed at least three things:
+
+* **Every item carries equal weight.** Item 1 counts exactly as much as item 7.
+
+* **The distances between response categories are equal.** The step from 1→2 is treated as the step from 4→5.
+
+* **The scores are addable.** Someone scoring 40 is treated as having "twice" the anxiety of someone scoring 20 — or at minimum, a 10-point difference means the same thing everywhere on the scale.
+
+:::
+
+## Why equal weighting is a bold assumption
+
+::: {.incremental}
+
+* The item *"I sometimes feel nervous before a presentation"* and the item *"I often feel I am going to die from panic"* clearly indicate different levels of severity.
+
+* But under ordinary summing (*unit weighting*), both are worth **a maximum of 5 points**.
+
+* Our scale therefore treats those two statements as equivalent indicators.
+
+:::
+
+. . .
+
+::: {.callout-note}
+#### The good news
+This is precisely what separates *Classical Test Theory* from *Item Response Theory*. IRT lets each item have its own difficulty and discrimination.
+
+This course uses CTT, so *unit weighting* is an assumption you will be making. What matters is that you know you are making it.
+:::
+
+# Assumption 2: the distribution is normal {background-color="#14497F" .center}
+
+## Where the normality assumption came from
+
+::: {.incremental}
+
+* **Adolphe Quetelet** (1835) introduced *l'homme moyen*, "the average man". He applied the normal curve — at the time a model of **observational error** in astronomy — to human characteristics.
+
+* The shift is subtle but large: the normal curve moved from being **a model of error** to being **a model of people**.
+
+* **Galton** then extended it to psychological traits, and normality has been built into psychometrics ever since.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+#### Worth noticing
+There was never strong evidence that psychological attributes **must** be normally distributed. What there was, was a habit inherited from a different context.
+:::
+
+## There is a circularity here that is rarely discussed
+
+::: {.incremental}
+
+* In scale construction we **discard items** that almost everyone endorses or almost nobody endorses.
+
+* The items that survive are the ones that **split respondents down the middle**.
+
+* The result: the distribution of total scores becomes more symmetric and piles up in the centre.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+#### Note the order of operations
+We **select items so the distribution comes out normal**, and then treat that normality as a finding about people. Much of it is a consequence of how we built the scale.
+:::
+
+## Let us look at real data
+
+IPIP *Big Five* data (`data/data.csv` in this course repository), 50 items, 1–5 scale, **n = 19,718** respondents.
+
+First, three **individual items**:
+
+| Item | Content | Mean | Skewness | Kurtosis |
+|------|---------|:----:|:--------:|:--------:|
+| N3 | *I worry about things* | 3.84 | **−0.83** | −0.16 |
+| O2 | *I have difficulty understanding abstract ideas* | 2.15 | **+0.78** | −0.23 |
+| E1 | *I am the life of the party* | 2.63 | +0.21 | **−0.96** |
+
+. . .
+
+::: {.callout-note}
+The items are **clearly not normal**. N3 piles up at the agreement end (69% answer 4 or 5); O2 piles up at the opposite end (67% answer 1 or 2).
+:::
+
+## Now look at the total scores
+
+Total score per dimension (10 items, range 10–50), same dataset:
+
+| Dimension | Mean | SD | Skewness | Kurtosis |
+|-----------|:----:|:--:|:--------:|:--------:|
+| Extraversion | 30.11 | 9.22 | −0.04 | −0.71 |
+| Neuroticism | 30.97 | 8.62 | −0.08 | −0.60 |
+| Conscientiousness | 33.47 | 7.31 | −0.09 | −0.38 |
+
+. . .
+
+::: {.incremental}
+
+* Skewness is close to zero — the distributions have become **symmetric**.
+
+* But kurtosis is **negative in every case**: the distributions are **flatter** than a normal curve.
+
+:::
+
+## What just happened?
+
+::: {.incremental}
+
+* The individual items are skewed in opposite directions. When summed, those skews **cancel each other out**.
+
+* The result looks symmetric, but that is **not evidence that the attribute is normal**. It is an effect of aggregation.
+
+* And the distribution is still not quite normal: it is flatter, with respondents spread more evenly across the middle than a normal curve would predict.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+#### The main point
+A total-score distribution that "looks normal" is **not evidence** that the underlying psychological attribute is normally distributed. It is largely a consequence of adding up many items.
+:::
+
+## Not just in this dataset
+
+::: {.incremental}
+
+* **Micceri (1989)** examined 440 large-sample distributions from achievement tests and psychometric instruments.
+
+* The title of the paper: *"The unicorn, the normal curve, and other improbable creatures."*
+
+* His finding: **not one** of those distributions met the criteria for normality. Most showed asymmetry, heavy tails, or multimodality.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+#### Why this matters for your project
+**Norms and standard scores depend on this assumption.** The percentiles, *z*-scores, and *T*-scores you will construct in Session 14 are derived by assuming a particular distributional shape.
+
+If the empirical distribution is not that shape, your norms will **misplace people** — and worst of all at the extremes, which is exactly where decisions get made.
+:::
+
+# Assumption 3: the attribute is continuous {background-color="#14497F" .center}
+
+## Two possible shapes for a construct
+
+:::: {.columns}
+::: {.column width="50%"}
+
+### Dimensional
+
+People differ in **degree**.
+
+There is no natural boundary; any cut-off is one we impose ourselves.
+
+Example: height.
+
+:::
+::: {.column width="50%"}
+
+### Taxonic (categorical)
+
+There really are **two naturally distinct groups**.
+
+The boundary is not the researcher's invention.
+
+Example: pregnant / not pregnant.
+
+:::
+::::
+
+. . .
+
+::: {.incremental}
+
+* The question is not "which is more convenient" but **which is true for this construct**.
+
+* That is an **empirical** question, and there is a method for it: *taxometrics*, developed by Paul Meehl.
+
+:::
+
+## What does the evidence say?
+
+::: {.incremental}
+
+* **Haslam, Holland, & Kuppens (2012)** reviewed 177 taxometric studies of personality and psychopathology constructs.
+
+* Their conclusion: **most constructs appear dimensional**. Evidence for natural categories was found for only a few.
+
+* That means most of the "disorders" we treat as categories are better described as **matters of degree**.
+
+:::
+
+. . .
+
+::: {.callout-note}
+#### Connect this to Session 1
+This is exactly the tension we saw in the DSM: a categorical classification system applied to constructs whose evidence points to a continuum. It is also what motivated the RDoC project.
+:::
+
+## Why this matters for your scale
+
+::: {.incremental}
+
+* If your construct is **dimensional** but you force categories ("high/medium/low"), you throw away information and create a boundary that does not exist in nature.
+
+* If your construct is **taxonic** but you scale it, your middle scores describe a person who does not actually exist.
+
+* Most psychological scales — including the one you are about to build — assume **dimensional**. That is a reasonable assumption, but it is still an assumption.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+#### What to write in your report
+A single sentence is enough: *"We treat this construct as dimensional, on the grounds that ..."* — rather than simply doing it without comment.
+:::
+
+# Assumption 4: all items measure the same thing {background-color="#14497F" .center}
+
+## Why items in one scale must correlate
+
+::: {.incremental}
+
+* Recall the logic of a scale from Session 1: the latent construct is the **cause** of the item responses.
+
+* If one common cause drives ten items, those ten items **must** correlate with each other.
+
+* Those inter-item correlations are the only observable trace of a variable we cannot observe.
+
+:::
+
+::: aside
+DeVellis & Thorpe (2022), Chapter 2.
+:::
+
+. . .
+
+::: {.callout-note}
+#### A consequence you will use constantly
+Because of this, inter-item correlations can be used to **estimate** how strongly each item relates to its latent construct — even though we never measure the construct directly. This is the basis of item analysis in Session 13.
+:::
+
+## The unidimensionality assumption
+
+::: {.incremental}
+
+* **Unidimensionality**: every item in a scale is driven by **one** latent variable.
+
+* If two constructs are actually mixed into one scale, the total score becomes **a blend with no clear meaning**.
+
+* Two people can obtain exactly the same total score for entirely different reasons.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+#### A common example
+A "psychological wellbeing" scale that mixes items about **mood** with items about **financial situation**. The two may correlate, but they are not one thing.
+
+A score of 40 might mean "calm mind, struggling financially" or "financially secure, anxious". Same number, very different people.
+:::
+
+## The local independence assumption
+
+::: {.incremental}
+
+* Once we account for the latent variable, the items **should no longer be related to each other**.
+
+* In other words: the entire reason two items correlate should come from the latent construct, **not** from anything else.
+
+* The most common violation: two items that say nearly the same thing.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+#### An example of a violation
+*"I often feel sad"* and *"I frequently feel down"*.
+
+These will correlate strongly — but partly because they are **almost the same sentence**, not only because of depression. Your reliability will look good for the wrong reason.
+
+We will cover how to avoid this when we write items in Session 10.
+:::
+
+# Assumption 5: items work the same for every group {background-color="#14497F" .center}
+
+## One item, different meanings
+
+::: {.incremental}
+
+* We assume the same item **means the same thing** to men and women, to students and workers, to respondents from different regions and language backgrounds.
+
+* If that fails, comparing scores between groups is not legitimate — like comparing temperatures read off two thermometers with different scales.
+
+* In psychometrics this property is called **measurement invariance**; a violation at the item level is called ***differential item functioning*** (DIF).
+
+:::
+
+. . .
+
+::: {.callout-note}
+The formal test requires factor analysis and a large sample, so we will not compute it in this course. What you need now is **awareness that the assumption is there**.
+:::
+
+## The reference-group effect
+
+::: {.incremental}
+
+* **Heine, Lehman, Peng, & Greenholtz (2002)** demonstrated a serious problem with cross-cultural Likert comparisons.
+
+* When someone answers *"I am a conscientious person"*, they judge themselves **relative to the people around them** — not against a universal standard.
+
+* As a result, respondents from a culture with a higher local standard may rate themselves **lower**, even when their behaviour fits the construct better.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+#### The implication is uncomfortable
+Cross-national comparisons of mean self-report scores can come out **backwards** relative to reality. And nothing in the data looks wrong.
+:::
+
+## Why this is directly relevant to you
+
+::: {.incremental}
+
+* Many scales in use in Indonesia are **adaptations** of English-language instruments.
+
+* Back-translation ensures the **words** match. It does not ensure the **meaning** matches, still less that the item functions the same way for Indonesian respondents.
+
+* If your group chooses to adapt an existing scale, that is not a translation job — it is a psychometric one.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+#### A question your group must answer
+Who is the target population for your scale, and does your item make sense for **every** subgroup within it? We will use this question again when setting the pilot sample in Session 12.
+:::
+
+# Assumption 6: respondents can and will answer accurately {background-color="#14497F" .center}
+
+## The assumption most often forgotten
+
+A self-report scale presumes two things at once:
+
+::: {.incremental}
+
+1. Respondents are **able** to observe their internal states and report them.
+
+2. Respondents are **willing** to report them honestly.
+
+:::
+
+. . .
+
+Both can fail, and they fail in different ways.
+
+## On ability: introspective access is limited
+
+::: {.incremental}
+
+* **Nisbett & Wilson (1977)**, in a paper titled *"Telling more than we can know"*, showed that people often have **no access** to the mental processes actually driving their behaviour.
+
+* Asked for their reasons, they still answer — but the answer is often a **plausible lay theory** rather than a report of what actually happened.
+
+:::
+
+. . .
+
+::: {.callout-note}
+#### Implication for item writing
+Items asking about **concrete behaviour** ("How many times a week do you ...") are generally more dependable than items asking about **causes** ("Why do you ...").
+
+We will apply this principle when writing items in Session 10.
+:::
+
+## On willingness: social desirability
+
+::: {.incremental}
+
+* Respondents tend to answer in ways that make them look good — sometimes deliberately, often not.
+
+* The effect is strongest for constructs with moral weight: honesty, prejudice, religious observance, substance use, sexual behaviour.
+
+* Guaranteeing anonymity helps, but does not remove it.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+#### What your group should anticipate
+If your construct has a socially "correct" answer, your score distribution will **pile up at one end** — and you will struggle to distinguish respondents from one another. This will show up immediately in item analysis in Session 13.
+:::
+
+## Response styles
+
+::: {.incremental}
+
+* ***Acquiescence***: the tendency to agree with any statement, regardless of content.
+
+* ***Extreme responding***: the tendency to choose the endpoints (1 or 5).
+
+* ***Midpoint responding***: the tendency to sit at 3 and avoid committing.
+
+* All three **differ across cultures**, so they compound the invariance problem from the previous assumption.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+#### One partial fix, with a cost of its own
+Acquiescence is usually dampened by including **reverse-worded** items.
+
+But reverse-worded items bring their own problems: some respondents misread them, and they often cluster together in factor analysis as though they formed a separate dimension. We weigh this up in Session 10.
+:::
+
+## Careless responding
+
+::: {.incremental}
+
+* Some respondents complete a questionnaire without reading it — especially long, online, unincentivised ones.
+
+* **Meade & Craig (2012)** showed the proportion can be large enough to change the results of factor analysis and reliability estimates.
+
+* This is not only about respondent attitude; it is a consequence of **instrument design** that overburdens people.
+
+:::
+
+. . .
+
+::: {.callout-note}
+#### What you can do in your pilot study
+Record completion time, watch for flat response patterns (all "3"s), and fix your **data-cleaning rules before you look at the results**. We will design this together in Session 12.
+:::
+
+# So what do we do? {background-color="#14497F" .center}
+
+## This is not an argument for giving up
+
+::: {.incremental}
+
+* Everything we discussed today applies equally to well-established, widely used instruments.
+
+* The wrong conclusion to draw is "psychological measurement is useless."
+
+* The right conclusion: **psychological measurement is useful to the extent that we are honest about its limits**.
+
+:::
+
+. . .
+
+::: {.callout-note}
+#### What distinguishes good work
+Not a scale free of assumptions — there is no such thing. Rather a scale whose assumptions are **stated, checked as far as they can be checked, and reported honestly**.
+:::
+
+## Why do so few people do this?
+
+> Psychometrics is one of the most successful branches of psychology . . . [yet] the average psychologist is not aware of the developments in the field.
+>
+> — Borsboom (2006)
+
+. . .
+
+::: {.incremental}
+
+* Borsboom argues that psychometrics and substantive psychology have drifted apart.
+
+* The tools for checking these assumptions **have existed for a long time**, but are rarely used by researchers who are not psychometricians.
+
+* One aim of this course is to narrow that gap for you.
+
+:::
+
+## A checklist for your project report
+
+::: {.incremental}
+
+* **Shape of the construct** — dimensional or categorical? On what grounds?
+
+* **Dimensionality** — do your items measure one thing? How did you check?
+
+* **Distribution** — what shape is your score distribution actually? Do not assume it; look.
+
+* **Groups** — who is your population, and are there subgroups for whom items may function differently?
+
+* **Sources of response bias** — is your construct prone to social desirability? What did you do about it?
+
+:::
+
+. . .
+
+::: {.callout-tip}
+These five points will form part of your final report. Start recording your answers now, not in the last week.
+:::
+
+# Group exercise {background-color="#14497F" .center}
+
+## Assumption audit
+
+::: {.incremental}
+
+* Work in the **project group** you formed last week.
+
+* Use the **construct your group chose** in Session 1.
+
+* Discuss for **25 minutes**, then each group presents the **single** assumption it considers riskiest for its construct, in 3 minutes.
+
+:::
+
+::: {.notes}
+If a group claims every assumption is safe for their construct, ask them to picture the two most
+extreme respondents: the person who would score highest and the person who would score lowest.
+The problematic assumption usually becomes obvious immediately.
+Leave about 20 minutes for presentations and the wrap-up.
+:::
+
+## Four questions
+
+::: {.incremental}
+
+1. **Of today's six assumptions, which is riskiest for your construct?** Explain why, rather than just naming it.
+
+2. **Does your construct have a socially "correct" answer?** If so, how will that affect your score distribution?
+
+3. **Name two subgroups in your target population who might read one item differently.** Write the item, and write both readings.
+
+4. **Which of these assumptions can you genuinely check** with the pilot data you will realistically collect this semester? Which can you only argue for?
+
+:::
+
+. . .
+
+::: {.callout-tip}
+#### Question 4 is the decisive one
+Distinguishing assumptions you can **test** from assumptions you can only **defend by argument** is the core of honest psychometric work.
+:::
+
+# Summary {background-color="#14497F" .center}
+
+## Six assumptions, one stance
+
+::: {.incremental}
+
+1. **Quantitative** — summing items assumes equal weights and equal intervals.
+
+2. **Normal** — an inherited assumption, not a finding. A symmetric total-score distribution is largely an effect of aggregation.
+
+3. **Continuous** — most psychological constructs appear dimensional, but this still needs stating.
+
+4. **One and the same thing** — unidimensionality and local independence determine whether your total score means anything.
+
+5. **The same for every group** — an identical item does not always mean the same thing; this is not a translation problem.
+
+6. **Accurate respondents** — people have limited access to themselves, and reasons not to be candid.
+
+:::
+
+## For Session 3
+
+We move to the central framework of this course: the **latent variable**.
+
+::: {.incremental}
+
+* What it means to call something a latent variable, and what follows from it.
+* ***Classical Test Theory***: $X = T + E$, and the assumptions that come with it.
+* Why reliability can be defined as a proportion of variance.
+* A glimpse of ***Item Response Theory*** as an alternative framework — and what it offers once the unit-weighting assumption is dropped.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+#### Preparation
+Read **DeVellis & Thorpe (2022), Chapter 2**. If you have time, Chapter 3 of [Petersen](https://isaactpetersen.github.io/Principles-Psychological-Assessment/) on constructs.
+:::
+
+## Any questions❓
+
+![](libs/closing.JPG){fig-align="center"}
+
+::: {.callout-note}
+### Notes
+
+* These slides were built with {{< fa brands r-project >}} and [**Quarto**](https://quarto.org), using the [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme) template.
+* Reach me at <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+:::
+
+## References {.smaller}
+
+Borsboom, D. (2006). The attack of the psychometricians. *Psychometrika, 71*(3), 425–440.
+
+DeVellis, R. F., & Thorpe, C. T. (2022). *Scale development: Theory and applications* (5th ed.). SAGE.
+
+Haslam, N., Holland, E., & Kuppens, P. (2012). Categories versus dimensions in personality and psychopathology: A quantitative review of taxometric research. *Psychological Medicine, 42*(5), 903–920.
+
+Heine, S. J., Lehman, D. R., Peng, K., & Greenholtz, J. (2002). What's wrong with cross-cultural comparisons of subjective Likert scales? The reference-group effect. *Journal of Personality and Social Psychology, 82*(6), 903–918.
+
+Meade, A. W., & Craig, S. B. (2012). Identifying careless responses in survey data. *Psychological Methods, 17*(3), 437–455.
+
+Meehl, P. E. (1995). Bootstraps taxometrics: Solving the classification problem in psychopathology. *American Psychologist, 50*(4), 266–275.
+
+Micceri, T. (1989). The unicorn, the normal curve, and other improbable creatures. *Psychological Bulletin, 105*(1), 156–166.
+
+Nisbett, R. E., & Wilson, T. D. (1977). Telling more than we can know: Verbal reports on mental processes. *Psychological Review, 84*(3), 231–259.
+
+Petersen, I. T. *Principles of psychological assessment: With applied examples in R*. <https://isaactpetersen.github.io/Principles-Psychological-Assessment/>
+
+Quetelet, A. (1835). *Sur l'homme et le développement de ses facultés*. Bachelier.
+
+::: aside
+Example data: IPIP *Big Five Factor Markers*, [Open Psychometrics](https://openpsychometrics.org/_rawdata/) (n = 19,719).
+:::

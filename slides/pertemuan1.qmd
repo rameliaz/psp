@@ -1,0 +1,901 @@
+---
+title: "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi"
+subtitle: "Penyusunan Skala Psikologi"
+author: "Rizqy Amelia Zein & Dian Kartika Amelia Arbi"
+institute:
+  - "[_Departemen Psikologi, Universitas Airlangga_](https://psikologi.unair.ac.id/dosen-rizqy-amelia-zein/)"
+date: today
+format:
+  unair-revealjs:
+    slide-number: true
+    progress: true
+    transition: slide
+    center: false
+    css: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css
+    chalkboard: true
+execute:
+  eval: false
+  echo: true
+---
+
+## _Outline_
+
+::: {.incremental}
+
+* Apa sebenarnya yang kita lakukan ketika kita "mengukur konstruk psikologis"?
+* Sejarah singkat: pengukuran lahir dari kebutuhan sosial
+* Mengapa definisi "pengukuran" masih diperdebatkan sampai hari ini
+* Level pengukuran (Stevens) dan persoalan yang ditinggalkannya
+* Mengapa psikologi terpaksa mengukur secara **tidak langsung**
+* Skala, indeks, dan *emergent variable*
+* Apa konsekuensi dari cara mengukur yang buruk?
+
+:::
+
+::: aside
+***Disclosure* penggunaan akal imitasi (AI)**
+
+Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* materi, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini.
+
+:::
+
+# Orientasi mata kuliah {background-color="#14497F" .center}
+
+## Apa yang akan kita kerjakan selama satu semester?
+
+::: {.incremental}
+
+* **Tugas akhir**: setiap kelompok (5 orang) akan **menyusun sebuah skala psikologis lengkap beserta manualnya**.
+
+* **Paruh pertama (Pertemuan 1–7)**: membangun fondasi konseptualnya. Apa itu pengukuran, asumsi apa saja yang kita pakai (yang kadang-kadang implisit dan tidak disadari), apa itu variabel laten, bagaimana memilih format respons, apa artinya skala yang reliabel dan skor yang valid.
+
+* **Paruh kedua (Pertemuan 9–15)**: mengerjakan skalanya. Menetapkan konstruk, menulis item, meminta *review* ahli, mengambil data uji coba, menganalisis item, menyusun norma dan manual.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+#### Penting dicatat
+Paruh pertama **bukan** sekadar pengantar. Hampir setiap keputusan teknis yang akan Anda ambil di paruh kedua, misalnya berapa banyak item yang harus disertakan, format responsnya seperti apa, koefisien mana yang dilaporkan, adalah konsekuensi dari posisi konseptual yang kita bahas di paruh pertama.
+:::
+
+# Mari mulai dari pertanyaan yang paling dasar {background-color="#14497F" .center}
+
+## Tiga situasi
+
+::: {.incremental}
+
+1. Seorang psikolog kesehatan ingin membedakan **apa yang pasien *inginkan*** dari **apa yang pasien *harapkan*** terjadi saat berkonsultasi dengan dokter. Skala yang ada mencampuradukkan keduanya. Ia bisa saja menyusun sendiri beberapa pertanyaan — tapi apa jaminannya pertanyaan itu mengukur sesuatu?
+
+2. Seorang epidemiolog punya data survei nasional yang besar, tapi tidak ada satu pun skala stres di dalamnya. Ada beberapa item yang *sepertinya* menyinggung stres. Bolehkah ia menjumlahkan item-item itu dan menyebutnya "skala stres"?
+
+3. Sebuah tim pemasaran menemukan bahwa keputusan orang tua membeli mainan mahal dipengaruhi oleh sesuatu yang tidak bisa mereka namai, apalagi ukur.
+
+:::
+
+::: aside
+Diadaptasi dari DeVellis & Thorpe (2022), Bab 1.
+:::
+
+## Apa yang menyatukan ketiganya?
+
+::: {.incremental}
+
+* Ketiganya **bukan** persoalan statistik. Tidak ada satu pun yang selesai dengan memilih uji statistik yang lebih canggih.
+
+* Ketiganya adalah persoalan **pengukuran**: apakah angka yang kita hasilkan benar-benar mewakili atribut yang kita klaim sedang diukur?
+
+* Ketiganya juga punya jalan pintas yang sama: **susun saja itemnya, jumlahkan, beri nama**.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+#### Kenapa ini penting
+Kalau jalan pintas itu diambil, seluruh kesimpulan penelitian berdiri di atas asumsi yang tidak pernah diperiksa. Masalahnya, datanya akan **tetap terlihat baik-baik saja**: tetap ada rata-rata, tetap ada *p-value*, tetap bisa dibuat grafiknya.
+:::
+
+## Pertanyaan utama sepanjang mata kuliah ini
+
+::: {.r-fit-text}
+Apa yang membuat sebuah angka
+
+**layak disebut** hasil pengukuran?
+:::
+
+. . .
+
+<br>
+
+Perhatikan bahwa ini pertanyaan **normatif** ("layak"), bukan pertanyaan teknis. Jawabannya tidak ada di dalam data.
+
+# Pengukuran lahir sebelum sains {background-color="#14497F" .center}
+
+## "All measurement is social measurement"
+
+> All measurement . . . is social measurement. Physical measures are made for social purposes.
+>
+> — Duncan (1984, p. 35)
+
+. . .
+
+::: {.incremental}
+
+* Duncan berargumen bahwa akar pengukuran ada pada **proses sosial**, dan proses itu **mendahului** sains.
+
+* Pemungutan suara, sensus, sistem kenaikan pangkat — semuanya muncul untuk memenuhi kebutuhan sehari-hari, bukan sebagai eksperimen untuk memuaskan rasa ingin tahu ilmiah.
+
+* Pengukuran panjang, luas, volume, berat, dan waktu dikembangkan masyarakat kuno **untuk menyelesaikan masalah praktis** — dan fisika kemudian dibangun di atas fondasi itu.
+
+:::
+
+## Jejak paling awal
+
+::: {.incremental}
+
+* **±2200 SM, Tiongkok** — ujian untuk seleksi pegawai negeri (DuBois, dalam Barnette, 1976).
+
+* **Kitab Amsal 11:1** — *"A false balance is an abomination to the Lord, but a just weight is a delight."* Timbangan yang curang adalah persoalan moral.
+
+* **Aristoteles** menyebut adanya pejabat yang bertugas memeriksa timbangan dan takaran.
+
+* **Abad ke-7** — sistem perpajakan Muslim berbasis "berat tujuh" (Wright, 1999).
+
+* **Revolusi Prancis** — sebagian dipicu kekesalan petani terhadap praktik penimbangan yang tidak adil.
+
+:::
+
+. . .
+
+::: {.callout-note}
+#### Yang menarik dari daftar ini
+Semuanya soal **keadilan**, bukan soal akurasi ilmiah. Sejak awal, pengukuran adalah alat kekuasaan dan pembagian sumber daya. Hal ini akan muncul lagi ketika kita membahas *test bias* dan penggunaan tes psikologi untuk seleksi.
+:::
+
+## Gagasan bahwa pengukuran *bisa* keliru itu relatif baru
+
+::: {.incremental}
+
+* Akhir 1660-an: **Isaac Newton**, waktu itu masih berusia 20-an, tampaknya orang pertama yang **merata-ratakan pengamatan berulang** untuk mendapatkan nilai yang lebih akurat.
+
+* Tetapi ia **menyembunyikan** praktik itu selama puluhan tahun dan tidak mendokumentasikannya di laporan awalnya.
+
+* Kenapa disembunyikan? Karena waktu itu, perbedaan antar-pengamatan tidak dipahami sebagai bagian yang melekat pada proses pengukuran, melainkan sebagai **tanda bahwa si pengamat kurang cakap**.
+
+:::
+
+## *Error* dan penilaian moral
+
+> [17th- and early 18th-century scientists'] way of working regarded differences not as the inevitable byproducts of the measuring process itself, but as evidence of failed or inadequate skill. Error in measurement was potentially little different from faulty behavior of any kind: it could have moral consequences.
+>
+> — Buchwald (2006, p. 566)
+
+. . .
+
+::: {.callout-warning}
+#### Perhatikan jaraknya
+Butuh waktu **satu abad setelah Newton** sampai para ilmuwan secara luas menerima bahwa **semua pengukuran mengandung *error***, dan bahwa merata-ratakan justru memperkecilnya (Buchwald, 2006).
+:::
+
+## Pergeseran yang memungkinkan psikometri
+
+::: {.incremental}
+
+* Alder (2002) mencatat bahwa sampai akhir 1700-an, menyembunyikan perbedaan hasil pengamatan "bukan hanya lazim, tapi dianggap hak istimewa seorang ilmuwan."
+
+* **Pergeserannya besar**: dari *error* sebagai kegagalan pribadi, menjadi *error* sebagai sifat sistematis proses pengukuran yang bisa dimodelkan.
+
+* Tanpa pergeseran ini, tidak akan ada yang namanya *Classical Test Theory*. Kita membahasnya di Pertemuan 3.
+
+:::
+
+## Dari *error* ke statistik
+
+::: {.incremental}
+
+* **1660-an, John Graunt** mengumpulkan angka kelahiran dan kematian dari catatan baptis dan pemakaman di Hampshire, Inggris. Ia merata-ratakan untuk mendapatkan nilai "sejati" yang menurutnya tertutup oleh peristiwa tak terduga di tiap tahunnya.
+
+* **1777, Daniel Bernoulli** membandingkan sebaran hasil pengamatan astronomi dengan **jatuhnya anak panah seorang pemanah**: mengumpul di sekitar satu titik, dan makin sedikit ketika makin jauh dari titik itu.
+
+* Buchwald (2006) menilai kelemahan mendasar interpretasi abad ke-18 adalah **kegagalan membedakan *random error* dari *systematic error*** — pembedaan yang baru jelas di abad berikutnya.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+#### Ingat analogi anak panah ini
+Analogi Bernoulli menggambarkan apa yang nanti kita sebut ***random error***, dan kenapa reliabilitas bisa dinaikkan hanya dengan **menambah item**. Kita kembali ke sini di Pertemuan 6.
+:::
+
+## Bagaimana psikometri lahir
+
+::: {.incremental}
+
+* **Darwin** mengamati dan mengukur variasi sistematis antar-spesies.
+
+* Sepupunya, **Sir Francis Galton**, menerapkan pengamatan sistematis atas perbedaan itu pada manusia — dengan perhatian utama pada pewarisan sifat anatomis dan intelektual.
+
+* **Karl Pearson**, kolega yunior Galton, mengembangkan alat statistiknya — termasuk *Product-Moment Correlation Coefficient* yang memakai namanya.
+
+* **Charles Spearman** melanjutkannya dan membuka jalan bagi analisis faktor.
+
+* **Alfred Binet** mengembangkan tes kemampuan mental di Prancis pada awal 1900-an.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+#### Warisan yang tidak netral
+Banyak kontributor awal psikometri bekerja dalam kerangka **eugenika**. Alat statistiknya masih kita pakai sampai sekarang, tetapi asumsi politis di baliknya **tidak wajib kita warisi**. Menyadari asal-usul ini adalah bagian dari bersikap kritis terhadap alat yang kita gunakan.
+:::
+
+## Ketika psikologi dinyatakan "tidak bisa diukur"
+
+::: {.incremental}
+
+* Akhir abad ke-19, **Helmholtz** mengamati bahwa atribut fisik seperti panjang dan massa punya struktur matematis yang sama dengan bilangan real positif: bisa diurutkan **dan bisa dijumlahkan**.
+
+* **Komisi British Association for the Advancement of Science** (dibentuk 1932, laporan final 1940) menyimpulkan bahwa **pengukuran fundamental atas variabel psikologis itu mustahil** — karena persepsi indrawi tidak bisa diurutkan atau dijumlahkan seperti panjang dan massa.
+
+* **S. S. Stevens** membantah: sifat aditif yang ketat **tidak diperlukan**. Orang bisa membuat penilaian rasio yang cukup konsisten, misalnya menilai satu suara dua kali lebih keras dari suara lain.
+
+* **L. L. Thurstone**, di waktu yang hampir bersamaan, membangun fondasi matematis analisis faktor dan menerapkan metode psikofisika untuk *scaling* stimulus sosial.
+
+:::
+
+## Kenapa bagian sejarah ini penting
+
+::: {.callout-tip}
+#### Bukan sekadar trivia
+Legitimasi ilmiah pengukuran psikologis bukan sesuatu yang otomatis diterima. Legitimasi itu harus **dibangun lewat argumen**, melawan keberatan yang serius dan masuk akal.
+:::
+
+. . .
+
+::: {.incremental}
+
+* Artinya, keberatan itu **tidak hilang** hanya karena argumen Stevens yang akhirnya lebih diterima.
+
+* Keberatannya masih ada, dan sebagian ahli berpendapat keberatan itu tidak pernah benar-benar dijawab. Kita berkenalan dengan versi modernnya sebentar lagi.
+
+:::
+
+# Jadi, apa definisi "pengukuran"? {background-color="#14497F" .center}
+
+## Definisi yang paling sering dikutip
+
+> Measurement is the assignment of numerals to objects or events according to rules.
+>
+> — S. S. Stevens (1946)
+
+. . .
+
+Terjemahan bebasnya: **pengukuran adalah pemberian angka pada objek atau peristiwa menurut aturan tertentu.**
+
+. . .
+
+::: {.incremental}
+
+* Definisi ini **sangat longgar**, dan itu memang disengaja. Definisi ini dirancang supaya pengukuran psikologis bisa masuk ke dalamnya.
+
+* Konsekuensinya, hampir apa pun bisa disebut pengukuran, asalkan ada aturannya.
+
+:::
+
+## Keberatan Duncan
+
+> Measurement is not only the assignment of numerals, etc. It is also the assignment of numerals in such a way as to correspond to different degrees of a quality . . . or property of some object or event.
+>
+> — Duncan (1984, p. 126)
+
+. . .
+
+::: {.callout-note}
+#### Apa yang ditambahkan Duncan
+Syarat **korespondensi**. Angka tidak boleh sekadar mengikuti aturan; strukturnya harus mencerminkan struktur atributnya. Kalau A punya atribut dua kali lebih banyak dari B, angkanya harus menunjukkan itu juga.
+
+Duncan mengibaratkan definisi Stevens seperti mengatakan "bermain piano adalah menekan tuts menurut pola tertentu" — tidak salah, tapi jelas belum lengkap.
+:::
+
+## Kritik yang lebih mendasar: Michell
+
+::: {.incremental}
+
+* **Joel Michell** (1997, 2000) berargumen bahwa definisi Stevens bukan sekadar tidak lengkap, tetapi **menutupi masalah yang sebenarnya**.
+
+* Menurutnya, pengukuran yang sesungguhnya adalah **mengestimasi rasio antara besaran (*magnitude*) suatu atribut kuantitatif dengan satuan dari atribut yang sama**.
+
+* Definisi ini mensyaratkan satu hal yang sifatnya empiris: atribut yang diukur **harus benar-benar kuantitatif**, harus benar-benar punya struktur yang bisa dijumlahkan.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+#### Kritik utama Michell
+Apakah atribut psikologis (kecemasan, kepribadian, motivasi) **benar-benar kuantitatif** adalah **pertanyaan empiris yang seharusnya diuji lebih dulu**. Menurut Michell, psikologi melewati pertanyaan itu dan langsung mengasumsikan jawabannya "ya". Ia menyebutnya *quantitative imperative*, dan menilai psikometri sebagai contoh ***pathological science***.
+:::
+
+## Anda tidak harus setuju dengan Michell
+
+::: {.incremental}
+
+* Banyak ahli psikometri **tidak setuju** dengan Michell, dan bantahan mereka juga serius.
+
+* Tetapi Anda **perlu tahu bahwa kritik ini ada**, dan Anda harus bisa menyebutkan asumsi apa yang sedang Anda pakai ketika Anda menjumlahkan 10 item Likert menjadi satu skor.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+#### Sikap yang kita latih di mata kuliah ini
+Bukan "menolak psikometri", dan juga bukan "menerimanya bulat-bulat". Melainkan: **tahu persis asumsi apa yang sedang saya pakai, dan apa akibatnya kalau asumsi itu salah.**
+:::
+
+## Pengukuran vs asesmen
+
+:::: {.columns}
+::: {.column width="50%"}
+
+### Pengukuran
+
+Pemberian angka pada objek atau peristiwa berdasarkan aturan tertentu.
+
+Hasilnya: **skor**.
+
+:::
+::: {.column width="50%"}
+
+### Asesmen
+
+Kegiatan yang **lebih luas**: memadukan pengukuran dengan **interpretasi** dan **pengambilan keputusan**.
+
+Hasilnya: **kesimpulan dan tindakan**.
+
+:::
+::::
+
+::: aside
+Petersen, *Principles of Psychological Assessment*, Bab 1.
+:::
+
+. . .
+
+::: {.callout-note}
+#### Kenapa pembedaan ini penting untuk proyek Anda
+Yang Anda susun semester ini adalah **alat ukur**. Tetapi manual yang Anda tulis di Pertemuan 14 adalah dokumen **asesmen** — manual itu harus memberi tahu penggunanya bagaimana menafsirkan skor, dan keputusan apa yang boleh (dan tidak boleh) diambil dari skor itu.
+:::
+
+# Mengapa psikologi mengukur secara tidak langsung {background-color="#14497F" .center}
+
+## Fisika vs psikologi
+
+:::: {.columns}
+::: {.column width="50%"}
+
+### Fisika
+
+Massa, kecepatan, suhu.
+
+Bisa diamati, dikuantifikasi, dan **diukur langsung** dengan alat ukur.
+
+Satuannya disepakati secara internasional.
+
+:::
+::: {.column width="50%"}
+
+### Psikologi
+
+Kecemasan, kepribadian, motivasi.
+
+**Tidak bisa** ditimbang atau diukur dengan penggaris.
+
+Hanya bisa **disimpulkan** dari hal lain yang bisa diamati.
+
+:::
+::::
+
+. . .
+
+::: {.incremental}
+
+* Sebagian besar variabel yang menarik bagi ilmuwan sosial **tidak bisa diamati secara langsung**: keyakinan, motivasi, ekspektansi, kebutuhan, emosi, persepsi peran sosial.
+
+* Karena itu kita butuh **proksi**, dan di sinilah masalahnya mulai.
+
+:::
+
+## Fisika sebenarnya juga memakai proksi
+
+::: {.incremental}
+
+* Tekanan darah dan suhu tubuh **terlihat** seperti bisa diamati langsung. Padahal yang benar-benar kita amati adalah **kolom air raksa** atau **angka pada layar digital**.
+
+* Kita menyebut ketinggian air raksa itu "suhu", padahal itu hanya **wujud yang bisa kita lihat** dari energi termal.
+
+* Pada termometer, penyederhanaan ini **hampir tidak bermasalah**, karena hubungan antara proksi dan atributnya sangat erat.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+#### Kalau hubungannya tidak seerat itu?
+Ketika hubungan antara variabel dan indikatornya **jauh lebih lemah** daripada pada contoh termometer, tertukarnya alat ukur dengan fenomena yang ingin diukur bisa membawa kita ke **kesimpulan yang keliru sama sekali**.
+:::
+
+## Contoh: dukungan sosial atau status pernikahan?
+
+::: {.incremental}
+
+* Seorang peneliti ingin menelaah peran **dukungan sosial** terhadap pencapaian profesional, memakai data sekunder.
+
+* Datanya lengkap soal status profesional dari waktu ke waktu. Soal dukungan sosial? Tidak ada. Yang ada hanya beberapa item tentang **apakah responden menikah**.
+
+* Peneliti itu menjumlahkan item-item pernikahan tersebut, menyebutnya "skala dukungan sosial", lalu menemukan **tidak ada hubungan** dengan pencapaian profesional.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+#### Apa yang sebenarnya terjadi
+Yang dibandingkan adalah **status pernikahan** dengan pencapaian profesional, bukan dukungan sosial. Status pernikahan **membuang** aspek penting dukungan sosial (misalnya kualitas dukungan yang dirasakan) dan **memasukkan** faktor yang tidak relevan (misalnya responden yang usianya belum cukup untuk menikah).
+
+Kesimpulan "dukungan sosial tidak berperan" bisa **sepenuhnya salah**, dan tidak ada apa pun di dalam datanya yang akan memberi tahu kita.
+:::
+
+## Kesalahan seperti ini sering terjadi
+
+::: {.incremental}
+
+* Dalam penelitian, kita **hampir tidak pernah** memeriksa hubungan antar-variabel secara langsung.
+
+* Yang kita periksa adalah hubungan antar-**proksi**. Dan proksi yang teramati mudah sekali tertukar dengan variabel yang tidak teramati.
+
+* DeVellis & Thorpe mencatat satu pola yang sering muncul: menyimpulkan bahwa **sebuah konstruk tidak penting** atau **sebuah teori tidak konsisten**, padahal yang bermasalah adalah **alat ukurnya**.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+#### Kebiasaan yang perlu dilatih
+Setiap kali Anda membaca kalimat "tidak ditemukan hubungan yang signifikan", tanyakan satu hal: *apakah alat ukurnya memang mampu menangkap konstruk itu?*
+:::
+
+# Level pengukuran, dan apa yang disembunyikannya {background-color="#14497F" .center}
+
+## Empat level Stevens
+
+| Level | Ciri | Contoh psikologis |
+|-------|------|-------------------|
+| **Nominal** | Kategori, tanpa urutan | Jenis kelamin, etnis, diagnosis |
+| **Ordinal** | Berurutan, **jarak tidak setara** | Peringkat, "jarang–kadang–sering" |
+| **Interval** | Jarak setara, **tanpa nol sejati** | Suhu °C, (klaim) skor skala Likert |
+| **Rasio** | Jarak setara, **ada nol sejati** | Waktu reaksi, jumlah kata yang diingat |
+
+. . .
+
+::: {.callout-note}
+#### Perhatikan kolom paling kanan
+Semakin ke bawah, contoh psikologisnya semakin **sulit dicari**.
+:::
+
+## Nol sejati itu apa?
+
+::: {.incremental}
+
+* Nol sejati berarti angka nol menandakan **ketiadaan atribut sepenuhnya**.
+
+* Suhu dalam Kelvin punya nol sejati: 100 K benar-benar dua kali 50 K. Suhu dalam Fahrenheit **tidak**: 100 °F bukan dua kali lebih panas dari 50 °F.
+
+* Sekarang coba jawab: **apa artinya "kecemasan nol"?**
+
+:::
+
+. . .
+
+::: {.callout-warning}
+#### Psikologi hampir tidak punya skala rasio
+"Tidak punya depresi sama sekali" bukan gagasan yang maknanya jelas. Karena itu, pernyataan seperti *"kelompok A dua kali lebih cemas daripada kelompok B"* hampir selalu **tidak bisa dipertanggungjawabkan**, berapa pun angkanya.
+:::
+
+## Masalah utamanya
+
+::: {.r-fit-text}
+Sebagian besar data psikologi
+
+adalah data **ordinal**,
+
+tetapi diperlakukan seolah-olah **interval**.
+:::
+
+::: aside
+Petersen, *Principles of Psychological Assessment*, Bab 2.
+:::
+
+## Mari kita uji klaim ini
+
+Perhatikan format respons yang paling sering Anda temui:
+
+| 1 | 2 | 3 | 4 | 5 |
+|:-:|:-:|:-:|:-:|:-:|
+| Sangat Tidak Setuju | Tidak Setuju | Netral | Setuju | Sangat Setuju |
+
+. . .
+
+::: {.incremental}
+
+* Apakah jarak psikologis dari **"Sangat Tidak Setuju" ke "Tidak Setuju"** benar-benar sama dengan jarak dari **"Netral" ke "Setuju"**?
+
+* Apakah jaraknya sama **untuk semua orang**? Untuk semua item? Dalam semua bahasa?
+
+* Tidak ada yang menjamin. Tetapi begitu kita **menjumlahkan** skor item, kita sudah **mengasumsikan** jaraknya setara.
+
+:::
+
+## Contoh lain: menghitung gejala
+
+::: {.incremental}
+
+* Bayangkan skor depresi dihitung dari **jumlah gejala** yang dilaporkan.
+
+* Apakah perbedaan antara **2 dan 4 gejala** sama besarnya — secara klinis, secara konseptual — dengan perbedaan antara **4 dan 6 gejala**?
+
+* Secara aritmetika keduanya sama-sama "2". Secara psikologis, hampir pasti tidak.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+#### Konsekuensi statistiknya nyata
+Teknik parametrik yang akan Anda pakai — korelasi Pearson, uji-t, ANOVA, regresi linear — **mengasumsikan data interval atau rasio**. Menerapkannya pada data ordinal berarti melanggar asumsi dasarnya.
+:::
+
+## Lalu, apakah kita berhenti memakainya?
+
+::: {.incremental}
+
+* **Tidak.** Dalam praktiknya, skor skala Likert tetap diperlakukan sebagai interval, dan ada argumen pragmatis yang masuk akal untuk itu, terutama ketika itemnya banyak dan sebarannya tidak ekstrem.
+
+* Yang **tidak boleh** kita lakukan adalah berpura-pura tidak ada asumsi yang sedang dipakai di situ.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+#### Yang saya harapkan dari Anda
+Di laporan proyek Anda, ketika Anda menjumlahkan item menjadi skor total, saya ingin Anda **bisa menyebutkan asumsi yang Anda pakai**, bukan sekadar melakukannya karena semua orang melakukannya. Kita perdalam ini di Pertemuan 2 dan Pertemuan 4.
+:::
+
+# Tidak semua kumpulan item itu skala {background-color="#14497F" .center}
+
+## Tiga hal yang sering tertukar
+
+::: {.incremental}
+
+* **Skala** — itemnya adalah ***effect indicators***: nilainya **disebabkan oleh** konstruk yang mendasarinya.
+
+* **Indeks** — itemnya adalah ***cause indicators***: item-itemnya justru **menentukan** level konstruknya.
+
+* ***Emergent variable*** — sekumpulan hal yang dikelompokkan karena ada kemiripan, **tanpa** kesamaan sebab maupun akibat.
+
+:::
+
+::: aside
+Pembedaan *effect* vs *cause indicator* berasal dari Bollen (1989); lihat DeVellis & Thorpe (2022), Bab 1 dan Bab 7.
+:::
+
+## Skala: item sebagai akibat
+
+::: {.incremental}
+
+* Contoh: alat ukur **depresi**.
+
+* Bagaimana seseorang merespons *"Saya merasa sedih"* dan *"Hidup saya terasa hampa"* sebagian besar **ditentukan oleh kondisi afektifnya saat itu**.
+
+* Item-itemnya **punya sebab yang sama**: kondisi depresif orang tersebut.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+#### Implikasi praktis
+Karena semua item digerakkan oleh sebab yang sama, item-itemnya **seharusnya saling berkorelasi tinggi** dan sebagian besar **bisa saling dipertukarkan**. Ini yang membuat koefisien seperti $\alpha$ dan $\omega$ masuk akal untuk skala. Kita bahas di Pertemuan 6.
+:::
+
+## Indeks: item sebagai sebab
+
+::: {.incremental}
+
+* Contoh: **elektabilitas** seorang kandidat presiden.
+
+* Itemnya bisa berupa: efektivitas berbicara di depan publik, rekam jejak militer, daya tarik fisik, kemampuan menggerakkan relawan, potensi sumber daya finansial.
+
+* Karakteristik-karakteristik itu **sama sekali tidak punya sebab yang sama**, tetapi punya **akibat yang sama**: meningkatnya peluang kampanye yang sukses.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+#### Konsekuensi yang sering diabaikan
+Pada indeks, item **tidak harus** berkorelasi tinggi dan **tidak bisa** saling dipertukarkan. Menghitung *Cronbach's alpha* untuk sebuah indeks itu **keliru secara konseptual**, meskipun *software*-nya tetap akan mengeluarkan angkanya.
+:::
+
+## *Emergent variable*: sekadar dikelompokkan
+
+::: {.incremental}
+
+* Kalimat yang diawali kata dengan kurang dari lima huruf bisa dengan mudah dikelompokkan bersama.
+
+* Kelompok itu **tidak punya sebab yang sama** dan **tidak punya akibat yang sama**. Kelompok itu muncul semata karena ada orang — atau sebuah *software* analisis — yang **melihat adanya kemiripan**.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+#### Peringatan yang paling relevan untuk proyek Anda
+*Software* analisis **tidak bisa membedakan** ketiganya. Anda bisa memasukkan apa saja ke jamovi dan ia akan memberi Anda $\alpha$, memberi Anda faktor, memberi Anda skor total.
+
+Yang menentukan apakah kumpulan item Anda adalah skala, indeks, atau sekadar *emergent variable* adalah **teori Anda**, bukan *output software*-nya.
+:::
+
+## Ringkasnya
+
+| | Arah kausalitas | Item saling berkorelasi? | Bisa dipertukarkan? |
+|---|---|:---:|:---:|
+| **Skala** | Konstruk → item | Seharusnya ya | Ya |
+| **Indeks** | Item → konstruk | Tidak harus | Tidak |
+| ***Emergent variable*** | Tidak ada | Tidak relevan | Tidak |
+
+. . .
+
+::: {.callout-note}
+#### Yang akan Anda susun semester ini
+Sebuah **skala**, dengan *effect indicators*, berlandaskan *Classical Test Theory*. Tetapi Anda perlu tahu bahwa dua bentuk lainnya ada, supaya Anda tidak keliru memperlakukan konstruk yang sebenarnya formatif seolah-olah reflektif.
+:::
+
+## "Assembly", bukan "development"
+
+::: {.incremental}
+
+* DeVellis & Thorpe mengamati bahwa untuk banyak kumpulan item, ***assembly*** (merakit) adalah istilah yang lebih tepat daripada ***development*** (mengembangkan).
+
+* Peneliti sering mengumpulkan **item seadanya** lalu mengasumsikan hasilnya adalah skala yang layak.
+
+* Tanpa pernah memeriksa apakah item-item itu punya sebab yang sama (skala), punya akibat yang sama (indeks), atau sekadar masuk dalam satu kategori yang sama (*emergent variable*).
+
+:::
+
+. . .
+
+::: {.callout-tip}
+#### Selama 16 minggu ke depan
+Kita akan mengerjakan yang **development**, bukan yang **assembly**. Itu sebabnya prosesnya panjang.
+:::
+
+# Konsekuensi dari pengukuran yang buruk {background-color="#14497F" .center}
+
+## Ada batas yang tidak bisa dilampaui
+
+::: {.r-fit-text}
+Kualitas pengukuran
+
+**membatasi** validitas kesimpulan
+
+yang bisa kita tarik.
+:::
+
+::: aside
+DeVellis & Thorpe (2022), Bab 1.
+:::
+
+. . .
+
+<br>
+
+Menambah ukuran sampel, mengganti model statistik, atau memakai analisis yang lebih canggih tidak akan menembus batas ini.
+
+## Contoh perhitungan: *attenuation bias*
+
+Misalkan korelasi **sesungguhnya** antara kecemasan dan prokrastinasi adalah $\rho_{T_X T_Y} = 0.60$.
+
+Anda memakai skala kecemasan dengan reliabilitas $0.70$ dan skala prokrastinasi dengan reliabilitas $0.65$.
+
+. . .
+
+Korelasi yang akan Anda temukan di data Anda:
+
+$$r_{XY} = \rho_{T_X T_Y} \times \sqrt{\rho_{XX'} \times \rho_{YY'}} = 0.60 \times \sqrt{0.70 \times 0.65} = \mathbf{0.40}$$
+
+. . .
+
+::: {.callout-warning}
+#### Anda akan melaporkan 0.40 untuk hubungan yang sebenarnya 0.60
+Bukan karena Anda salah menghitung, bukan juga karena sampel Anda kurang besar. Semata-mata karena alat ukurnya *noisy*.
+
+Kita menurunkan rumus ini secara utuh di Pertemuan 6.
+:::
+
+## Pengukuran dan krisis replikasi
+
+::: {.incremental}
+
+* Banyak temuan psikologi gagal direplikasi secara independen, dan sebagian penyebabnya adalah **pengukuran yang tidak presisi**, ditambah *researcher degrees of freedom* saat menganalisis data.
+
+* Alat ukur yang *noisy*, **dikombinasikan dengan bias publikasi**, justru bisa membuat *effect size* yang terbit tampak **lebih besar**: hanya sampel yang kebetulan menghasilkan estimasi besar yang lolos terbit.
+
+* Flake & Fried (2020) menyebut kumpulan kebiasaan ini ***questionable measurement practices***: tidak melaporkan bagaimana skala dipilih, memodifikasi skala tanpa memberi tahu, tidak melaporkan properti psikometrisnya.
+
+:::
+
+::: aside
+Petersen, Bab 1; Flake & Fried (2020).
+:::
+
+## Nama yang sama, isi yang berbeda
+
+::: {.incremental}
+
+* Fried (2017) memeriksa **tujuh skala depresi** yang lazim dipakai.
+
+* Ketujuhnya sama-sama mengklaim mengukur "depresi". Secara keseluruhan, ketujuhnya memuat **52 gejala yang berbeda**.
+
+* Sebagian besar gejala itu hanya muncul di **satu** skala.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+#### Apa akibatnya
+Dua penelitian bisa sama-sama melaporkan "depresi", memakai skala yang sama-sama reliabel, dan **tetap saja tidak mengukur hal yang sama**. Perbandingan di antara keduanya jauh lebih rapuh daripada kelihatannya.
+
+Ini disebut ***jingle fallacy***: mengira dua hal itu sama karena namanya sama.
+:::
+
+## Sisi etisnya
+
+::: {.incremental}
+
+* Peneliti sering "berhemat" dengan memakai instrumen yang **terlalu pendek**, dengan harapan mengurangi beban responden.
+
+* Tetapi kuesioner yang terlalu pendek untuk bisa reliabel tetap saja **pilihan yang buruk**, meskipun terasa praktis.
+
+* Kuesioner **reliabel** yang diisi separuh responden memberi lebih banyak informasi daripada kuesioner **tidak reliabel** yang diisi semua responden.
+
+:::
+
+. . .
+
+::: {.callout-warning}
+#### Meminta waktu partisipan ada konsekuensi etisnya
+Kalau datanya pada akhirnya tidak bisa dimaknai, seberapa banyak pun data yang terkumpul jadi tidak ada gunanya. Meminta 300 orang mengisi instrumen yang tidak mungkin menghasilkan kesimpulan yang sahih adalah **persoalan etis**, bukan sekadar persoalan teknis.
+
+Ingat ini ketika Anda merancang uji coba di Pertemuan 12.
+:::
+
+# Diskusi kelompok {background-color="#14497F" .center}
+
+## Instruksi
+
+::: {.incremental}
+
+* Bentuk kelompok berisi **5 orang** — ini akan menjadi **kelompok proyek Anda untuk satu semester**.
+
+* Pilih **satu konstruk psikologis** yang ingin kelompok Anda ukur. Belum perlu final; kita akan mempertajamnya di Pertemuan 9.
+
+* Diskusikan pertanyaan di slide berikutnya (**20 menit**), lalu setiap kelompok memaparkan jawabannya dalam **3 menit**.
+
+:::
+
+::: {.notes}
+Bagi mahasiswa ke breakout rooms di MS Teams, 5 orang per ruang, lalu masuk ke tiap ruang bergantian.
+Kalau ada kelompok yang macet di pertanyaan 2, pancing dengan: "kalau skor totalnya turun, apa yang
+berubah pada orangnya?" Sisakan minimal 20 menit untuk pemaparan dan rangkuman.
+:::
+
+## Empat pertanyaan
+
+::: {.incremental}
+
+1. **Apa nama konstruk Anda, dan apa yang *bukan* termasuk di dalamnya?** Sebutkan satu konstruk lain yang mirip tetapi harus dibedakan darinya.
+
+2. **Skala, indeks, atau *emergent variable*?** Apakah konstruk Anda **menyebabkan** jawaban atas item-itemnya, atau item-itemnya yang **membentuk** konstruknya? Apa dasar argumen Anda?
+
+3. **Apa arti "nol" pada konstruk Anda?** Adakah orang yang benar-benar tidak punya atribut ini sama sekali? Kalau tidak ada, apa konsekuensinya bagi cara Anda melaporkan skor?
+
+4. **Apakah sudah ada alat ukurnya?** Kalau sudah, apa alasan Anda menyusun yang baru? Kalau belum, kenapa menurut Anda belum ada?
+
+:::
+
+. . .
+
+::: {.callout-tip}
+#### Pertanyaan nomor 1 itu yang paling sulit
+Menyebutkan apa yang **tidak** termasuk dalam konstruk Anda jauh lebih menentukan kualitas skala Anda daripada menyebutkan apa yang termasuk. Kita akan menyebutnya **batas konstruk** di Pertemuan 9.
+:::
+
+# Rangkuman {background-color="#14497F" .center}
+
+## Lima poin utama
+
+::: {.incremental}
+
+1. **Pengukuran muncul lebih dulu daripada sains** — dari kebutuhan sosial soal keadilan dan pembagian sumber daya, bukan dari rasa ingin tahu ilmiah.
+
+2. **Gagasan bahwa pengukuran mengandung *error* baru berumur ±250 tahun**, dan tanpa gagasan itu tidak akan ada *Classical Test Theory*.
+
+3. **Definisi pengukuran masih diperdebatkan.** Stevens membuatnya cukup longgar supaya psikologi bisa masuk; Duncan dan Michell berargumen bahwa kelonggaran itu menutupi masalah yang belum selesai.
+
+4. **Sebagian besar data psikologi itu ordinal, tetapi diperlakukan sebagai interval.** Ini boleh dilakukan, asalkan Anda tahu bahwa Anda sedang melakukannya.
+
+5. **Tidak semua kumpulan item adalah skala.** Yang menentukan adalah arah kausalitas antara konstruk dan itemnya, dan itu keputusan teoretis — bukan *output software*.
+
+:::
+
+## Untuk Pertemuan 2
+
+Kita akan membahas lebih detail **asumsi-asumsi** yang hari ini baru disinggung:
+
+::: {.incremental}
+
+* Asumsi bahwa atribut psikologis terdistribusi **normal** — dari mana asalnya, dan apa dasarnya?
+* Asumsi bahwa atributnya **kontinu**, bukan kategoris.
+* Asumsi bahwa item mengukur hal yang sama **untuk semua kelompok orang**.
+* Asumsi bahwa responden **bisa** dan **mau** melaporkan kondisi internalnya secara akurat.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+#### Persiapan
+Baca **DeVellis & Thorpe (2022), Bab 1**. Kalau sempat, tengok juga Bab 1 dan Bab 2 dari [Petersen](https://isaactpetersen.github.io/Principles-Psychological-Assessment/).
+:::
+
+## Ada pertanyaan❓
+
+![](libs/closing.JPG){fig-align="center"}
+
+::: {.callout-note}
+### Catatan
+
+* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
+* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+:::
+
+## Rujukan {.smaller}
+
+Alder, K. (2002). *The measure of all things*. Free Press.
+
+Bollen, K. A. (1989). *Structural equations with latent variables*. Wiley.
+
+Buchwald, J. Z. (2006). Discrepant measurements and experimental knowledge in the early modern era. *Archive for History of Exact Sciences, 60*(6), 565–649.
+
+DeVellis, R. F., & Thorpe, C. T. (2022). *Scale development: Theory and applications* (5th ed.). SAGE.
+
+Duncan, O. D. (1984). *Notes on social measurement: Historical and critical*. Russell Sage Foundation.
+
+Flake, J. K., & Fried, E. I. (2020). Measurement schmeasurement: Questionable measurement practices and how to avoid them. *Advances in Methods and Practices in Psychological Science, 3*(4), 456–465.
+
+Fried, E. I. (2017). The 52 symptoms of major depression: Lack of content overlap among seven common depression scales. *Journal of Affective Disorders, 208*, 191–197.
+
+Michell, J. (1997). Quantitative science and the definition of measurement in psychology. *British Journal of Psychology, 88*(3), 355–383.
+
+Michell, J. (2000). Normal science, pathological science and psychometrics. *Theory & Psychology, 10*(5), 639–667.
+
+Petersen, I. T. *Principles of psychological assessment: With applied examples in R*. <https://isaactpetersen.github.io/Principles-Psychological-Assessment/>
+
+Stevens, S. S. (1946). On the theory of scales of measurement. *Science, 103*(2684), 677–680.

@@ -1,0 +1,73 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - libs/
+    - img/
+    - materials/
+    - articles/
+    - slides/libs/
+  render:
+    - index.qmd
+    - slides/
+
+website:
+  title: "Penyusunan Skala Psikologi"
+  navbar:
+    left:
+      - href: https://psikologi.unair.ac.id/dosen-rizqy-amelia-zein/
+        icon: house
+        text: "oleh Rizqy Amelia Zein"
+    right:
+      - text: "Materi"
+        menu:
+          - text: "1. Pendahuluan: Pengukuran dalam Psikologi"
+            href: slides/pertemuan1.html
+          - text: "2. Asumsi Umum dalam Pengukuran Psikologi"
+            href: slides/pertemuan2.html
+          - text: "3. Variabel Laten"
+            href: slides/pertemuan3.html
+          - text: "4. Format Respons I"
+            href: slides/pertemuan4.html
+          - text: "5. Format Respons II"
+            href: slides/pertemuan5.html
+          - text: "6. Reliabilitas"
+            href: slides/pertemuan6.html
+          - text: "7. Validitas"
+            href: slides/pertemuan7.html
+          - text: "9. Konstruk dan Estimand"
+            href: slides/pertemuan9.html
+          - text: "10. Menulis Item"
+            href: slides/pertemuan10.html  
+          - text: "11. Content Validity Index"
+            href: slides/pertemuan11.html
+      - text: "Materials (EN)"
+        menu:
+          - text: "1. What Is Measurement?"
+            href: slides/pertemuan1-en.html
+          - text: "2. Common Assumptions in Psychological Measurement"
+            href: slides/pertemuan2-en.html
+          - text: "3. Latent Variables: CTT and IRT"
+            href: slides/pertemuan3-en.html
+          - text: "4. Response Formats I"
+            href: slides/pertemuan4-en.html
+          - text: "5. Response Formats II"
+            href: slides/pertemuan5-en.html
+      - icon: envelope
+        href: "mailto:amelia.zein@psikologi.unair.ac.id"
+  search:
+    location: navbar
+    type: overlay
+  page-footer:
+      left: "&#169; 2026 Rizqy Amelia Zein"
+      right: "Sarjana Psikologi, Universitas Airlangga"
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    toc: true
+    toc-float: true
+    toc-depth: 3
+    df-print: paged
+    highlight-style: github
