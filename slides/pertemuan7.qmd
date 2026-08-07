@@ -22,12 +22,11 @@ execute:
 
 ::: {.incremental}
 
-* Kenapa validitas adalah sifat **tafsiran atas skor**, bukan sifat skala
+* Kenapa validitas adalah sifat **tafsiran atas skor**, bukan sifat dari skala
 * Bagaimana tiga "jenis validitas" berubah menjadi **satu konsep dengan lima sumber bukti**
-* Lima sumber bukti itu, satu per satu
+* Lima sumber bukti validitas
 * *Construct underrepresentation* dan *construct-irrelevant variance*
 * Kenapa menaikkan $\alpha$ terus-menerus justru bisa **menurunkan** validitas
-* Rencana pengumpulan bukti yang realistis untuk proyek Anda
 
 :::
 
@@ -44,18 +43,18 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 
 ::: {.incremental}
 
-* Pertemuan 6 memberi kita cara menghitung **konsistensi**: $\alpha$, $\omega$, *split-half*.
+* Pertemuan 6 memberi kita cara menghitung **konsistensi internal**: $\alpha$, $\omega$, *split-half*.
 
 * Semua koefisien itu menjawab pertanyaan yang sama: *apakah skornya stabil?*
 
-* Tidak satu pun dari koefisien itu menjawab: *apakah skornya menunjukkan hal yang kita maksud?*
+* Tidak satu pun dari koefisien itu menjawab: *apakah skornya benar-benar menunjukkan konstruk yang ingin kita ukur?*
 
 :::
 
 . . .
 
 ::: {.callout-note}
-Ingat analogi timbangan dari Pertemuan 3. Timbangan yang selalu meleset 2 kg tetap sangat konsisten. Konsistensi tidak pernah bisa mendeteksi kesalahan yang sistematis.
+Ingat analogi timbangan dari Pertemuan 3. Timbangan yang selalu meleset 2 kg bisa *internally consistent*. Konsistensi internal tidak pernah bisa mendeteksi kesalahan pengukuran yang sistematis.
 :::
 
 # Validitas adalah sifat tafsiran atas skor {background-color="#14497F" .center}
@@ -76,15 +75,15 @@ Ingat analogi timbangan dari Pertemuan 3. Timbangan yang selalu meleset 2 kg tet
 
 :::
 
-## Tiga konsekuensi
+## 3️⃣ konsekuensi
 
 ::: {.incremental}
 
-1. **Terikat pada tujuan.** Skala yang tafsirannya terdukung untuk penelitian belum tentu terdukung untuk seleksi kerja atau penegakan diagnosis.
+1. **Terikat pada tujuan.** Skala yang tafsirannya mendukung kesimpulan penelitian belum tentu sesuai untuk seleksi kerja atau penegakan diagnosis.
 
 2. **Terikat pada populasi.** Bukti yang dikumpulkan pada mahasiswa tidak otomatis berlaku untuk pekerja pabrik atau anak sekolah.
 
-3. **Tidak pernah selesai.** Bukti bisa bertambah, dan bisa juga berkurang ketika muncul temuan yang bertentangan.
+3. **Tidak pernah selesai.** Bukti validitas bisa bertambah, dan bisa juga berkurang ketika muncul temuan yang bertentangan.
 
 :::
 
@@ -92,11 +91,11 @@ Ingat analogi timbangan dari Pertemuan 3. Timbangan yang selalu meleset 2 kg tet
 
 ::: {.callout-tip}
 #### Cara menuliskannya
-Alih-alih *"skala kami valid"*, tulis:
+Alih-alih *"skala kami valid"*, sebaiknya tulis:
 
-*"Terdapat bukti yang mendukung tafsiran skor skala X sebagai indikator konstruk Y, pada populasi Z, untuk keperluan W."*
+*"Terdapat bukti yang mendukung tafsiran skor skala X sebagai indikator konstruk Y, pada populasi Z, untuk tujuan W."*
 
-Kalimatnya lebih panjang, tetapi kalimat itulah yang bisa Anda pertanggungjawabkan.
+Kalimatnya lebih panjang dan mungkin rumit, tetapi lebih bisa dipertanggungjawabkan secara ilmiah.
 :::
 
 ## Kalimat yang perlu diperbaiki
@@ -104,16 +103,16 @@ Kalimatnya lebih panjang, tetapi kalimat itulah yang bisa Anda pertanggungjawabk
 | Sering ditulis | Sebaiknya |
 |---|---|
 | "Skala ini valid dan reliabel." | "Skor skala ini memiliki $\alpha = \ldots$, dan terdapat bukti isi serta struktur internal yang mendukung tafsirannya sebagai …" |
-| "Validitas skala sebesar 0,62." | "Skor skala berkorelasi 0,62 dengan …, yang mendukung tafsiran …" |
+| "Validitas skala sebesar 0.62." | "Skor skala berkorelasi 0.62 dengan …, yang mendukung tafsiran …" |
 | "Uji validitas sudah dilakukan." | "Bukti validitas yang kami kumpulkan meliputi … dan …" |
 
 . . .
 
 ::: {.callout-note}
-Kolom kiri bukan sekadar kurang rapi. Ketiganya memperlakukan validitas sebagai sesuatu yang **dimiliki alat ukur** dan **selesai sekali jadi**.
+Kolom kiri memperlakukan validitas sebagai sesuatu yang **dimiliki alat ukur** dan **selesai sekali jadi**.
 :::
 
-# Dari tiga jenis menjadi satu konsep {background-color="#14497F" .center}
+# Dari 3️⃣ jenis menjadi 1️⃣ konsep {background-color="#14497F" .center}
 
 ## Pembagian lama
 
@@ -131,20 +130,20 @@ Sampai sekitar 1970-an, buku teks membagi validitas menjadi tiga:
 
 ::: {.callout-warning}
 #### Masalah dengan pembagian ini
-Ia membuat orang mengira ada **tiga pekerjaan terpisah** yang bisa dicentang satu per satu. Dalam praktiknya, banyak laporan menuliskan "validitas isi sudah dilakukan" lalu berhenti di situ.
+Ia membuat orang mengira ada **tiga aktivitas terpisah** untuk menguji validitas. Dalam praktiknya, banyak mahasiswa menuliskan "uji validitas isi sudah dilakukan" lalu kemudian berhenti di situ.
 :::
 
-## Bagaimana pandangannya berubah
+## Bagaimana pandangan ini berubah
 
 ::: {.incremental}
 
-* **Cronbach & Meehl (1955)** memperkenalkan validitas konstruk dan gagasan *nomological network*: makna sebuah konstruk terletak pada jaringan hubungannya dengan konstruk lain.
+* [**Cronbach & Meehl (1955)**](https://psycnet.apa.org/record/1956-03730-001) memperkenalkan validitas konstruk dan gagasan *nomological network*: makna sebuah konstruk terletak pada jaringan hubungannya dengan konstruk lain.
 
-* **Loevinger (1957)** berargumen lebih jauh: validitas konstruk **bukan salah satu jenis**, melainkan keseluruhan validitas itu sendiri.
+* [**Loevinger (1957)**](https://journals.sagepub.com/doi/abs/10.2466/pr0.1957.3.3.635) berargumen lebih jauh: validitas konstruk **bukan sekedar salah satu jenis validitas**, melainkan keseluruhan validitas itu sendiri.
 
-* **Messick (1989, 1995)** menyatukannya: validitas adalah **satu penilaian menyeluruh** atas sejauh mana bukti dan teori mendukung kesimpulan serta tindakan yang diambil dari skor.
+* **Messick ([1989](https://journals.sagepub.com/doi/abs/10.3102/0013189x018002005), [1995](https://psycnet.apa.org/record/1996-10004-001))** menyatukannya: validitas adalah **satu penilaian menyeluruh** atas sejauh mana bukti dan teori mendukung kesimpulan serta tindakan yang diambil dari skor.
 
-* ***Standards* (2014)** menurunkannya menjadi bentuk yang praktis: bukan "jenis validitas", melainkan **sumber-sumber bukti** yang semuanya menopang satu tafsiran.
+* [***The Standards* (2014)**](https://www.testingstandards.net/) menurunkannya menjadi bentuk yang praktis: bukan "jenis validitas", melainkan **sumber-sumber bukti** yang semuanya menopang satu tafsiran.
 
 :::
 
@@ -157,8 +156,6 @@ Ia membuat orang mengira ada **tiga pekerjaan terpisah** yang bisa dicentang sat
 
 "Kami melakukan uji validitas isi, lalu uji validitas konstruk."
 
-Tiga kotak yang dicentang.
-
 :::
 ::: {.column width="50%"}
 
@@ -166,7 +163,7 @@ Tiga kotak yang dicentang.
 
 "Berikut bukti yang kami kumpulkan untuk mendukung tafsiran skor ini, dan berikut yang belum kami punya."
 
-Satu argumen yang dibangun dari beberapa sumber.
+Satu argumen validitas yang dibangun dari beberapa sumber.
 
 :::
 ::::
@@ -174,10 +171,10 @@ Satu argumen yang dibangun dari beberapa sumber.
 . . .
 
 ::: {.callout-tip}
-Perubahan ini memerlukan kejujuran yang lebih besar: Anda harus menyebutkan **bukti yang belum ada**, bukan hanya yang sudah ada.
+Perubahan ini memerlukan transparansi: Anda harus menyebutkan **bukti yang belum ada**, bukan hanya yang sudah ada.
 :::
 
-# Lima sumber bukti {background-color="#14497F" .center}
+# 5️⃣ sumber bukti {background-color="#14497F" .center}
 
 ## Daftarnya
 
@@ -193,7 +190,7 @@ Perubahan ini memerlukan kejujuran yang lebih besar: Anda harus menyebutkan **bu
 AERA, APA, & NCME (2014).
 :::
 
-# Bukti 1: isi tes {background-color="#14497F" .center}
+# Bukti 1️⃣: isi tes {background-color="#14497F" .center}
 
 ## Pertanyaannya
 
@@ -201,9 +198,9 @@ AERA, APA, & NCME (2014).
 
 * Apakah item-item yang Anda tulis **mewakili keseluruhan konstruk** yang Anda maksud?
 
-* Untuk bisa menjawabnya, Anda harus lebih dulu punya **definisi domain yang jelas** — apa yang termasuk dan apa yang tidak.
+* Untuk bisa menjawabnya, Anda harus lebih dulu punya **definisi konstruk yang jelas** — apa yang termasuk dan apa yang tidak.
 
-* Itulah pekerjaan Pertemuan 9. Tanpa batas konstruk yang jelas, tidak ada cara menilai apakah itemnya mewakili.
+* Ini yang akan dilakukan di Pertemuan 9. Tanpa batas konstruk yang jelas, tidak ada cara menilai apakah itemnya mewakili konstruk apa yang ingin diukur.
 
 :::
 
@@ -211,23 +208,14 @@ AERA, APA, & NCME (2014).
 
 ![](libs/validity-threats.svg){.nostretch fig-align="center" width="76%"}
 
-## Membaca gambar itu
+## *Underrepresentation* vs. *irrelevant*
 
 ::: {.incremental}
 
-* ***Construct underrepresentation*** — ada bagian konstruk yang **tidak tertangkap** oleh item Anda. Skala kecemasan yang hanya memuat gejala fisik, tanpa gejala kognitif, mengalami ini.
+* ***Construct underrepresentation*** — ada bagian konstruk yang **tidak tertangkap** oleh item Anda. Skala kecemasan yang hanya memuat gejala fisik, tanpa gejala kognitif, adalah salah satu contohnya.
 
 * ***Construct-irrelevant variance*** — item Anda **ikut mengukur hal lain**. Soal matematika dengan kalimat panjang dan berbelit ikut mengukur kemampuan membaca.
 
-* Yang di tengah, itulah bagian yang benar-benar berguna.
-
-:::
-
-. . .
-
-::: {.callout-tip}
-#### Dua istilah yang paling berguna dari pertemuan ini
-Kalau ada dua istilah dari hari ini yang perlu Anda bawa sampai laporan akhir, dua istilah inilah. Hampir semua kritik terhadap sebuah skala bisa dirumuskan sebagai salah satu dari keduanya.
 :::
 
 ## Cara mengumpulkan buktinya
@@ -238,7 +226,7 @@ Kalau ada dua istilah dari hari ini yang perlu Anda bawa sampai laporan akhir, d
 
 * Hitung tingkat kesepakatan mereka. Item yang dinilai tidak relevan, atau yang para penilainya tidak sepakat, ditinjau ulang.
 
-* Prosedur bakunya disebut ***Content Validity Index*** (Lynn, 1986; Polit & Beck, 2006).
+* Prosedur bakunya disebut ***Content Validity Index*** ([Lynn, 1986](https://www.ovid.com/jnls/nursingresearchonline/abstract/00006199-198611000-00017~determination-and-quantification-of-content-validity?an=00006199-198611000-00017&redirectionsource=fulltextview); [Polit & Beck, 2006](https://onlinelibrary.wiley.com/doi/abs/10.1002/nur.20147)).
 
 :::
 
@@ -246,12 +234,12 @@ Kalau ada dua istilah dari hari ini yang perlu Anda bawa sampai laporan akhir, d
 
 ::: {.callout-note}
 #### Sudah pernah Anda kerjakan bentuk sederhananya
-Di Pertemuan 5 Anda menjadi juri Thurstone: menilai posisi tiap pernyataan, lalu membuang yang tidak disepakati.
+Di Pertemuan 5 Anda balajar proses penyusunan Thurstone yang melibatkan panel: menilai posisi tiap pernyataan, lalu membuang yang tidak disepakati.
 
-CVI memakai logika yang sama, dengan kriteria yang berbeda. Dian akan membimbing Anda mengerjakannya di **Pertemuan 11**.
+CVI memakai logika yang sama, dengan kriteria yang berbeda.
 :::
 
-# Bukti 2: proses respons {background-color="#14497F" .center}
+# Bukti 2️⃣: proses respons {background-color="#14497F" .center}
 
 ## Pertanyaannya
 
@@ -259,13 +247,13 @@ CVI memakai logika yang sama, dengan kriteria yang berbeda. Dian akan membimbing
 
 * Ketika responden menjawab item Anda, apakah mereka benar-benar melakukan **proses berpikir yang Anda bayangkan**?
 
-* Ingat Pertemuan 2: Nisbett & Wilson menunjukkan bahwa orang sering tidak punya akses pada proses mentalnya sendiri.
+* Ingat Pertemuan 2: [Nisbett & Wilson (1977)](https://psycnet.apa.org/record/1978-00295-001) menunjukkan bahwa orang sering tidak punya akses pada proses mentalnya sendiri.
 
-* Sebuah item bisa terlihat sempurna di atas kertas dan tetap ditafsirkan responden dengan cara yang sama sekali berbeda.
+* Sebuah item bisa terlihat sempurna di atas kertas dan tetap ditafsirkan partisipan dengan cara yang sama sekali berbeda.
 
 :::
 
-## Wawancara kognitif
+## Wawancara kognitif (*cognitive interviewing*)
 
 ::: {.incremental}
 
@@ -273,24 +261,24 @@ CVI memakai logika yang sama, dengan kriteria yang berbeda. Dian akan membimbing
 
 * Setelah itu, tanyakan: *"Apa maksud pertanyaan ini menurut Anda?"* dan *"Bagaimana Anda sampai pada jawaban itu?"*
 
-* Catat kata yang membingungkan, item yang ditafsirkan ganda, dan jangkar yang tidak jelas.
+* Catat kata yang membingungkan, item yang ditafsirkan ganda, dan *anchor* yang tidak jelas.
 
 :::
 
 ::: aside
-Willis (2005).
+[Willis (2005)](https://www.researchgate.net/profile/Gordon-Willis/publication/228902728_The_use_of_cognitive_interviewing_to_evaluate_translated_survey_questions_Lessons_learned/links/00463516f06b5a0882000000/The-use-of-cognitive-interviewing-to-evaluate-translated-survey-questions-Lessons-learned.pdf).
 :::
 
 . . .
 
 ::: {.callout-tip}
-#### Ini paling murah dan paling sering dilewati
+#### Proses ini sangat membantu tetapi sering dilewatkan
 Cukup **3 sampai 5 orang** sebelum uji coba, dan hampir selalu menemukan masalah yang tidak terlihat oleh penyusunnya sendiri.
 
 Lakukan ini sebelum Pertemuan 12. Biayanya hampir nol, dan hasilnya biasanya menghemat banyak pekerjaan analisis di kemudian hari.
 :::
 
-# Bukti 3: struktur internal {background-color="#14497F" .center}
+# Bukti 3️⃣: struktur internal {background-color="#14497F" .center}
 
 ## Pertanyaannya
 
@@ -304,12 +292,6 @@ Lakukan ini sebelum Pertemuan 12. Biayanya hampir nol, dan hasilnya biasanya men
 
 :::
 
-. . .
-
-::: {.callout-note}
-Ini yang akan Anda kerjakan di **Pertemuan 13**: analisis faktor eksploratori, lalu reliabilitas per dimensi.
-:::
-
 ## Termasuk di dalamnya
 
 ::: {.incremental}
@@ -318,7 +300,7 @@ Ini yang akan Anda kerjakan di **Pertemuan 13**: analisis faktor eksploratori, l
 
 * **Kesetaraan antar-kelompok** — apakah struktur itu sama untuk laki-laki dan perempuan, atau untuk kelompok usia yang berbeda. Ini asumsi kelima dari Pertemuan 2.
 
-* **Konsistensi internal** — $\alpha$ dan $\omega$ juga termasuk bukti tentang struktur internal, tetapi **bukti yang lemah**.
+* **Konsistensi internal** — $\alpha$ dan $\omega$ juga termasuk bukti tentang struktur internal, tetapi merupakan **bukti yang lemah**.
 
 :::
 
@@ -326,10 +308,10 @@ Ini yang akan Anda kerjakan di **Pertemuan 13**: analisis faktor eksploratori, l
 
 ::: {.callout-warning}
 #### Kenapa $\alpha$ hanya bukti yang lemah
-Pertemuan 6 sudah menunjukkannya dengan angka: $\alpha = 0{,}62$ pada skala yang jelas-jelas dua dimensi. Satu koefisien tidak bisa menggambarkan struktur.
+Pertemuan 6 sudah menunjukkannya dengan angka: $\alpha = 0{.}62$ pada skala yang jelas-jelas dua dimensi. Satu koefisien tidak bisa menggambarkan struktur.
 :::
 
-# Bukti 4: hubungan dengan variabel lain {background-color="#14497F" .center}
+# Bukti 4️⃣: hubungan dengan variabel lain {background-color="#14497F" .center}
 
 ## Dua arah yang harus diperiksa bersama
 
@@ -340,7 +322,7 @@ Pertemuan 6 sudah menunjukkannya dengan angka: $\alpha = 0{,}62$ pada skala yang
 
 Skor Anda **berkorelasi** dengan ukuran lain dari konstruk yang sama atau serupa.
 
-Contoh: skala kecemasan sosial baru berkorelasi dengan skala kecemasan sosial yang sudah mapan.
+Contoh: skala kecemasan sosial yang baru dikembangkan berkorelasi dengan skala kecemasan sosial yang sudah mapan.
 
 :::
 ::: {.column width="50%"}
@@ -357,16 +339,16 @@ Contoh: skala kecemasan sosial tidak berkorelasi sangat tinggi dengan skala depr
 . . .
 
 ::: {.callout-warning}
-Bukti konvergen saja tidak cukup. Kalau skala Anda berkorelasi 0,85 dengan **semua** skala lain, yang Anda ukur mungkin sesuatu yang sangat umum, bukan konstruk yang Anda klaim.
+Bukti konvergen saja tidak cukup. Kalau skala Anda berkorelasi 0.85 dengan **semua** skala lain, yang Anda ukur mungkin sesuatu yang sangat umum, bukan konstruk yang Anda klaim.
 :::
 
 ## Matriks multitrait-multimethod
 
 ::: {.incremental}
 
-* **Campbell & Fiske (1959)** mengusulkan cara memeriksa keduanya sekaligus: ukur beberapa konstruk dengan beberapa metode, lalu bandingkan pola korelasinya.
+* [**Campbell & Fiske (1959)**](https://psycnet.apa.org/record/1960-00103-001) mengusulkan cara memeriksa keduanya sekaligus: ukur beberapa konstruk dengan beberapa metode, lalu bandingkan pola korelasinya.
 
-* Gagasannya: korelasi antara **konstruk yang sama diukur dengan metode berbeda** harus lebih tinggi daripada korelasi antara **konstruk berbeda yang diukur dengan metode sama**.
+* Intinya: korelasi antara **konstruk yang sama diukur dengan metode berbeda** harus lebih tinggi daripada korelasi antara **konstruk berbeda yang diukur dengan metode sama**.
 
 * Kalau tidak, yang Anda ukur sebagian besar adalah **metodenya**, bukan konstruknya.
 
@@ -394,12 +376,12 @@ Ini menjelaskan kenapa dua skala *self-report* apa pun cenderung berkorelasi: se
 
 ::: {.callout-tip}
 #### Yang realistis untuk proyek Anda
-*Known-groups* dan *concurrent* masih mungkin. Sertakan **satu skala mapan yang pendek** di dalam kuesioner uji coba Anda di Pertemuan 12, lalu laporkan korelasinya.
+*Known-groups* dan *concurrent* masih mungkin. Sertakan **satu skala yang sudah mapan tetapi pendek** di dalam kuesioner uji coba Anda di Pertemuan 12, lalu laporkan korelasinya.
 
 Satu korelasi saja sudah jauh lebih baik daripada tidak ada bukti sama sekali.
 :::
 
-## Nama yang sama belum tentu isi yang sama
+## Nama konstruk yang sama belum tentu benar-benar sama
 
 ::: {.incremental}
 
@@ -411,7 +393,7 @@ Satu korelasi saja sudah jauh lebih baik daripada tidak ada bukti sama sekali.
 
 :::
 
-# Bukti 5: konsekuensi penggunaan {background-color="#14497F" .center}
+# Bukti 5️⃣: konsekuensi penggunaan {background-color="#14497F" .center}
 
 ## Gagasannya
 
@@ -419,7 +401,7 @@ Satu korelasi saja sudah jauh lebih baik daripada tidak ada bukti sama sekali.
 
 * Messick berargumen bahwa **akibat dari penggunaan skor** juga merupakan bagian dari pertimbangan validitas.
 
-* Sebuah tes seleksi yang secara sistematis merugikan kelompok tertentu bermasalah — meski korelasinya dengan kriteria terlihat baik.
+* Sebuah tes seleksi yang secara sistematis merugikan kelompok tertentu berarti tesnya bermasalah, meski korelasinya dengan kriteria terlihat baik.
 
 * Pertanyaannya: apakah akibat itu berasal dari perbedaan yang sesungguhnya, atau dari *construct-irrelevant variance*?
 
@@ -429,7 +411,7 @@ Satu korelasi saja sudah jauh lebih baik daripada tidak ada bukti sama sekali.
 
 ::: {.callout-note}
 #### Ini bagian yang masih diperdebatkan
-Sebagian ahli menilai konsekuensi sosial adalah persoalan kebijakan, bukan persoalan validitas. Anda tidak harus memihak, tetapi Anda perlu tahu perdebatannya ada.
+Sebagian ahli menilai konsekuensi sosial adalah persoalan kebijakan, bukan persoalan validitas. Anda tidak harus memihak, tetapi Anda perlu tahu bahwa perdebatannya ada.
 :::
 
 ## Untuk manual yang Anda tulis
@@ -440,7 +422,7 @@ Sebagian ahli menilai konsekuensi sosial adalah persoalan kebijakan, bukan perso
 
 * Cantumkan secara eksplisit: untuk keperluan apa skor ini boleh dipakai, dan untuk keperluan apa **tidak**.
 
-* Kalimat seperti *"skala ini tidak dimaksudkan untuk penegakan diagnosis atau seleksi kerja"* adalah bagian dari pekerjaan validitas, bukan sekadar formalitas.
+* Kalimat seperti *"skala ini tidak dimaksudkan untuk penegakan diagnosis atau seleksi kerja"* adalah bagian dari klaim validitas.
 
 :::
 
@@ -450,11 +432,11 @@ Sebagian ahli menilai konsekuensi sosial adalah persoalan kebijakan, bukan perso
 
 ::: {.incremental}
 
-* **Borsboom, Mellenbergh, & van Heerden (2004)** menilai definisi Messick terlalu luas dan mencampurkan terlalu banyak hal.
+* [**Borsboom, Mellenbergh, & van Heerden (2004)**](https://d1wqtxts1xzle7.cloudfront.net/53409598/borsboomValidity2004-libre.pdf?1496798337=&response-content-disposition=inline%3B+filename%3DThe_Concept_of_Validity_Netherlands_Auti.pdf&Expires=1786119942&Signature=dCjv8LvEpx8-NoFGY8VvpfNZ9Ihs0zOxFcoDaCaYUbeh3q9wxglMCO4cHlp4F-rgy-2bMK3LuO11MD0rrpTLGguyLq5LEsBkmeXtwf-mmH~PFZkGhLChkhEMzDsHlWOfRTgeacsRbq9TbmQ4-sLVw~FWSC8VuiAzopPUC93GIPtKXsD83oJJpofW41kN2Si5HjkBGYORa8JProTIOpI3mUXPrUV8S05uxTspWoeqo3sYIORyG3PV8CS0atP2GVIuk1foGmrcdmHy4lpkR3MW11s6nxnC65l8r2pAeIO1Sy2hJ0UpEa5mTWqNHOzGRrFrpPQghwzis2e7NeeOHt3Ctw__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA) menilai definisi Messick terlalu luas dan mencampurkan terlalu banyak hal.
 
 * Menurut mereka, pertanyaan validitas seharusnya jauh lebih sederhana: **apakah atribut itu ada, dan apakah variasi pada atribut itu menyebabkan variasi pada skor?**
 
-* Kalau ya, tesnya valid. Kalau tidak, tidak. Soal kegunaan dan konsekuensi, menurut mereka, adalah pertanyaan yang berbeda.
+* Kalau ya, tesnya valid. Kalau tidak, berarti tidak. Soal kegunaan dan konsekuensi, menurut mereka, adalah pertanyaan yang berbeda.
 
 :::
 
@@ -462,7 +444,7 @@ Sebagian ahli menilai konsekuensi sosial adalah persoalan kebijakan, bukan perso
 
 ::: {.callout-tip}
 #### Kenapa ini kita bahas
-Sama seperti kritik Michell di Pertemuan 1: Anda tidak harus setuju. Yang perlu Anda tahu adalah bahwa konsep yang tampak mapan pun **masih diperdebatkan** oleh orang-orang yang serius menekuninya.
+Sama seperti kritik Michell di Pertemuan 1: Anda tidak harus setuju. Yang perlu Anda tahu adalah bahwa konsep yang tampak mapan pun **masih diperdebatkan** oleh para ahli psikometri.
 :::
 
 # Reliabilitas dan validitas {background-color="#14497F" .center}
@@ -489,11 +471,11 @@ $$r_{XY} \leq \sqrt{\rho_{XX'} \times \rho_{YY'}}$$
 
 ::: {.incremental}
 
-* **Loevinger (1954)** menunjukkan bahwa setelah titik tertentu, menaikkan konsistensi internal justru **menurunkan** validitas.
+* [**Loevinger (1954)**](https://psycnet.apa.org/record/1955-03299-001) menunjukkan bahwa setelah titik tertentu, menaikkan konsistensi internal justru **menurunkan** validitas.
 
-* Alasannya bisa dilihat dari gambar tadi. Cara termudah menaikkan $\alpha$ adalah menulis item yang saling mirip.
+* Alasannya bisa dilihat dari gambar tadi. Cara termudah menaikkan $\alpha$ adalah menulis item yang mirip.
 
-* Item yang saling mirip mengukur satu bagian kecil dari konstruk dengan sangat rapat, dan meninggalkan sisanya. Itu persis *construct underrepresentation*.
+* Item yang mirip mengukur satu bagian kecil dari konstruk dengan sangat rapat, dan meninggalkan sisanya. Ini berarti terjadi *construct underrepresentation*.
 
 :::
 
@@ -503,7 +485,7 @@ $$r_{XY} \leq \sqrt{\rho_{XX'} \times \rho_{YY'}}$$
 #### Contohnya
 Sepuluh item ini akan menghasilkan $\alpha$ yang sangat tinggi: *"Saya merasa sedih"*, *"Saya kerap murung"*, *"Hati saya sering muram"*, dan seterusnya.
 
-Skala itu mengukur suasana hati sedih dengan sangat konsisten — dan tidak mengukur gangguan tidur, kehilangan minat, rasa bersalah, atau perubahan nafsu makan sama sekali.
+Skala itu mengukur suasana hati sedih dengan sangat konsisten, tetapi tidak mengukur gangguan tidur, kehilangan minat, rasa bersalah, atau perubahan nafsu makan sama sekali.
 :::
 
 ## Kesimpulannya
@@ -511,16 +493,16 @@ Skala itu mengukur suasana hati sedih dengan sangat konsisten — dan tidak meng
 ::: {.r-fit-text}
 $\alpha$ yang tinggi
 
-**tidak selalu kabar baik.**
+**tidak selalu baik.**
 :::
 
 <br>
 
 . . .
 
-Periksalah $\alpha$ bersama-sama dengan cakupan isi. Angka yang sangat tinggi pada skala pendek yang itemnya mirip-mirip perlu diperiksa lebih dulu, bukan langsung dianggap baik.
+Periksalah $\alpha$ bersama-sama dengan cakupan isi skala. Angka yang sangat tinggi pada skala pendek yang itemnya mirip-mirip perlu diperiksa lebih dulu, bukan langsung dianggap baik.
 
-# Rencana bukti untuk proyek Anda {background-color="#14497F" .center}
+# Rencana uji validitas untuk proyek Anda {background-color="#14497F" .center}
 
 ## Yang realistis dikerjakan semester ini
 
@@ -535,20 +517,20 @@ Periksalah $\alpha$ bersama-sama dengan cakupan isi. Angka yang sangat tinggi pa
 . . .
 
 ::: {.callout-tip}
-Lima baris ini adalah kerangka bagian validitas pada laporan akhir Anda. Kalau ada baris yang tidak bisa Anda kerjakan, **tuliskan bahwa Anda tidak mengerjakannya** — itu jauh lebih baik daripada mendiamkannya.
+Lima baris ini adalah kerangka bagian validitas pada laporan akhir Anda. Kalau ada baris yang tidak bisa Anda kerjakan, **tuliskan bahwa Anda tidak mengerjakannya**.
 :::
 
 # Diskusi kelompok {background-color="#14497F" .center}
 
-## Bagian 1: menilai klaim
+## Bagian 1: menilai klaim validitas
 
 Diskusikan **15 menit**. Untuk tiap klaim: **bukti apa yang sebenarnya ditunjukkan, dan bukti apa yang belum ada?**
 
 ::: {.incremental}
 
-**A.** *"Skala kami valid karena semua item memiliki korelasi item-total di atas 0,30."*
+**A.** *"Skala kami valid karena semua item memiliki korelasi item-total di atas 0.30."*
 
-**B.** *"Validitas skala kami terbukti karena berkorelasi 0,88 dengan skala kecemasan yang sudah mapan."*
+**B.** *"Validitas skala kami terbukti karena berkorelasi 0.88 dengan skala kecemasan yang sudah mapan."*
 
 **C.** *"Skala ini sudah divalidasi pada mahasiswa, jadi bisa dipakai untuk asesmen karyawan."*
 
@@ -584,7 +566,7 @@ Jawaban nomor 1 dan 2 akan langsung Anda pakai ketika menyusun kisi-kisi di Pert
 
 # Menutup paruh pertama {background-color="#14497F" .center}
 
-## Tujuh pertemuan, satu alur
+## Yang sudah dipelajari di pertengahan semester ini
 
 ::: {.incremental}
 
@@ -601,7 +583,8 @@ Jawaban nomor 1 dan 2 akan langsung Anda pakai ketika menyusun kisi-kisi di Pert
 . . .
 
 ::: {.callout-note}
-Semua ini bermuara pada satu kalimat: **Anda perlu tahu asumsi apa yang sedang Anda pakai, dan apa akibatnya kalau asumsi itu salah.**
+### Penting diingat
+Tujuh kesimpulan ini dapat dirangkum menjadi satu kalimat: **Anda perlu tahu asumsi apa yang sedang Anda pakai, dan apa akibatnya kalau asumsi itu salah.**
 :::
 
 ## Ujian Tengah Semester
@@ -626,11 +609,11 @@ Cara belajar yang paling sesuai: ambil satu skala apa pun yang Anda temukan, lal
 
 ::: {.incremental}
 
-* **Pertemuan 9** — kita mulai proyeknya: menetapkan konstruk dan *estimand*, dari tinjauan pustaka sampai definisi operasional.
+* **Pertemuan 9** — kita mulai mengerjakan proyeknya: menetapkan konstruk dan *estimand*, dari tinjauan pustaka sampai definisi operasional.
 
 * **Pertemuan 10** — menyusun kisi-kisi dan menulis item.
 
-* **Pertemuan 11 dan seterusnya** — bersama Dian, di Ruang 303, dengan hari dan jam yang berbeda. Periksa kembali jadwalnya.
+* **Pertemuan 11 dan seterusnya** — bimbingan langsung bersama Bu Dian, di Ruang 303, dengan hari dan jam yang berbeda. Periksa kembali jadwalnya.
 
 :::
 

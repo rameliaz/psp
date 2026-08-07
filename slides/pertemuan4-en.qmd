@@ -201,11 +201,11 @@ When a midpoint is available it is often **the most frequently chosen option**. 
 
 ::: {.incremental}
 
-* Midpoints get labelled **"Neutral"**, **"Undecided"**, **"Neither agree nor disagree"**, or **"Agree and disagree equally"** as though these were interchangeable.
+* Many questionnaires label the midpoint **"Neutral"**, **"Undecided"**, or **"Slightly Disagree"**, as though the three meant the same thing.
 
-* **"Neither agree nor disagree"** suggests indifference. **"Agree and disagree equally"** suggests a strong but balanced pull in both directions. **"Undecided"** suggests not knowing yet.
+* **"Neutral"** means not leaning either way. **"Undecided"** means not knowing or not yet sure. **"Slightly Disagree"** already leans toward the disagree side.
 
-* These sit at different places on the continuum, but all receive the same number: 3.
+* The three sit at different places on the continuum, but all receive the same number: 3.
 
 :::
 
@@ -213,7 +213,7 @@ When a midpoint is available it is often **the most frequently chosen option**. 
 
 ::: {.callout-warning}
 #### Why this is not a small matter
-It bears directly on the equal-interval assumption from Session 2. It is also possible that most respondents do not attend to the wording at all and simply treat any centre option as a midpoint — which is its own problem, because then your label is doing no work.
+This violates the equal-interval assumption from Session 2. If "Slightly Disagree" is used as the midpoint, the scale is no longer symmetric: the distance from 2 to 3 is not the same as the distance from 3 to 4.
 :::
 
 ## Decision 3: label every point, or only the ends?
@@ -438,9 +438,9 @@ Note that all three concern **concrete behaviour or capability**, not abstract a
 
 * As soon as the construct is not concrete, the ordering **stops being the same for everyone**.
 
-* DeVellis gives an example: two items about parental aspirations that are logically ordered, yet someone might agree with the third and disagree with the fourth because they see success as simultaneously helping and hindering happiness.
+* DeVellis gives an example: a hypothetical Guttman scale on parental aspirations, with 4 items meant to be ordered. Two matter here — item 3, *"Happiness is more likely if a person has attained his or her educational and material goals,"* and item 4, *"The customarily valued trappings of success are not a hindrance to true happiness."*
 
-* For most psychological constructs, deviations like this are not the exception — they are ordinary.
+* Logically, agreeing with item 3 should mean agreeing with item 4 too. But someone who sees success as **simultaneously helping and hindering** happiness might agree with item 3 while disagreeing with item 4 — a pattern that breaks the Guttman order.
 
 :::
 
@@ -450,7 +450,7 @@ Note that all three concern **concrete behaviour or capability**, not abstract a
 #### An important theoretical consequence
 DeVellis notes something easy to miss: **the assumption that all items relate equally strongly to the latent variable does not hold** for Guttman items.
 
-So the *parallel* and *tau-equivalent* models from Session 3 **do not fit** a Guttman scale — and coefficients like $\alpha$ cannot simply be applied.
+So the *parallel* and *tau-equivalent* models from Session 3 **do not fit** a Guttman scale — and coefficients like $\omega$ and $\alpha$ cannot be applied to a Guttman scale.
 :::
 
 ## Guttman's idea did not disappear
@@ -461,14 +461,8 @@ So the *parallel* and *tau-equivalent* models from Session 3 **do not fit** a Gu
 
 * Item Response Theory takes the same idea and makes it **probabilistic**: the higher a person's $\theta$, the **greater the probability** that they endorse a hard item — not a certainty.
 
-* The Rasch model is essentially **a probabilistic version of Guttman's idea**.
+* The IRT model is essentially **a probabilistic version of Guttman's idea**.
 
-:::
-
-. . .
-
-::: {.callout-tip}
-This is why the item characteristic curves in Session 3 were smooth rather than a vertical step. Guttman assumes a step; IRT assumes a curve.
 :::
 
 # Comparing the three {background-color="#14497F" .center}
@@ -499,15 +493,6 @@ For your project this semester, **Likert and Semantic Differential are the reali
 
 * **Guttman** assumes a **deterministic** cumulative order — the strongest assumption of the three.
 
-:::
-
-. . .
-
-::: {.callout-warning}
-#### The answer to the question we deferred from Session 3
-Guttman makes the strongest assumption, and precisely for that reason it is the easiest to **see fail**: the pattern visibly falls apart.
-
-Likert's assumptions are far weaker, but their violation is **completely invisible** in the data. That is what makes it the more dangerous of the two.
 :::
 
 # Demonstration and exercise {background-color="#14497F" .center}
@@ -541,44 +526,6 @@ respondent decides for themselves what the spacing means.
 If time is short, cover A and C only — those two appear most often in student drafts.
 :::
 
-## Part 2: one content, three formats
-
-Take **one** construct your group chose in Session 1.
-
-::: {.incremental}
-
-1. Write **one Likert-type item** for it, complete with anchors.
-
-2. Write **one Semantic Differential item** attempting to capture the same content.
-
-3. Write **one Guttman item** — or explain why your construct cannot be ordered in a Guttman way.
-
-:::
-
-. . .
-
-Time: **20 minutes**. Each group presents which version they think fits best, **and why**.
-
-## Four questions to close the discussion
-
-::: {.incremental}
-
-1. Which version was **easiest to write**? Is the easiest also the best?
-
-2. For your construct, does a **midpoint** need to exist? What would it mean if a respondent chose it?
-
-3. If you used frequency anchors, what **time referent** did you use, and why?
-
-4. Which assumption from Session 2 is **most threatened** by the format your group chose?
-
-:::
-
-. . .
-
-::: {.callout-tip}
-Keep the output of this exercise. The items you write today become raw material when we build the blueprint in Session 10.
-:::
-
 # Summary {background-color="#14497F" .center}
 
 ## Six key points
@@ -591,7 +538,7 @@ Keep the output of this exercise. The items you write today become raw material 
 
 3. **Around 5–7 points** is the sensible range; below 4 loses information, above 7 adds little.
 
-4. **Midpoints have costs and benefits.** Neither format is automatically better — and "neutral", "undecided", and "agree and disagree equally" are not the same thing.
+4. **Midpoints have costs and benefits.** Neither format is automatically better — and "neutral", "undecided", and "slightly disagree" are not the same thing.
 
 5. **Semantic Differential** requires adjective pairs that are genuinely opposed in the respondent's language.
 
@@ -615,7 +562,7 @@ We continue to response formats that are used less often but have particular str
 
 ::: {.callout-tip}
 #### Preparation
-Read the *Thurstone Scaling* section of **DeVellis & Thorpe (2022), Chapter 5**. Bring the output of today's exercise.
+Read the *Thurstone Scaling* section of **DeVellis & Thorpe (2022), Chapter 5**.
 :::
 
 ## Any questions❓

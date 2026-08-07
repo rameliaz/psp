@@ -27,7 +27,6 @@ execute:
 * Those five sources, one at a time
 * *Construct underrepresentation* and *construct-irrelevant variance*
 * Why pushing $\alpha$ ever higher can actually **reduce** validity
-* A realistic plan for collecting evidence in your project
 
 :::
 
@@ -55,7 +54,7 @@ We used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate referen
 . . .
 
 ::: {.callout-note}
-Recall the bathroom scale from Session 3. A scale that is always 2 kg out is perfectly consistent. Consistency can never detect a systematic error.
+Recall the bathroom scale from Session 3. A scale that is always 2 kg out can be *internally consistent*. Internal consistency can never detect a systematic measurement error.
 :::
 
 # Validity is a property of score interpretations {background-color="#14497F" .center}
@@ -138,13 +137,13 @@ It leads people to think there are **three separate jobs** to be ticked off one 
 
 ::: {.incremental}
 
-* **Cronbach & Meehl (1955)** introduced construct validity and the *nomological network*: a construct's meaning lies in its network of relations with other constructs.
+* [**Cronbach & Meehl (1955)**](https://psycnet.apa.org/record/1956-03730-001) introduced construct validity and the *nomological network*: a construct's meaning lies in its network of relations with other constructs.
 
-* **Loevinger (1957)** went further: construct validity is **not one type among several** — it is the whole of validity.
+* [**Loevinger (1957)**](https://journals.sagepub.com/doi/abs/10.2466/pr0.1957.3.3.635) went further: construct validity is **not one type among several** — it is the whole of validity.
 
-* **Messick (1989, 1995)** unified it: validity is **a single integrated judgement** of how far evidence and theory support the inferences and actions taken from scores.
+* **Messick ([1989](https://journals.sagepub.com/doi/abs/10.3102/0013189x018002005), [1995](https://psycnet.apa.org/record/1996-10004-001))** unified it: validity is **a single integrated judgement** of how far evidence and theory support the inferences and actions taken from scores.
 
-* The ***Standards* (2014)** turned this into something practical: not "types of validity" but **sources of evidence**, all supporting one interpretation.
+* [***The Standards* (2014)**](https://www.testingstandards.net/) turned this into something practical: not "types of validity" but **sources of evidence**, all supporting one interpretation.
 
 :::
 
@@ -156,8 +155,6 @@ It leads people to think there are **three separate jobs** to be ticked off one 
 ### The old way
 
 "We conducted content validity testing, then construct validity testing."
-
-Three boxes ticked.
 
 :::
 ::: {.column width="50%"}
@@ -211,7 +208,7 @@ AERA, APA, & NCME (2014).
 
 ![](libs/validity-threats-en.svg){.nostretch fig-align="center" width="76%"}
 
-## Reading that figure
+## *Underrepresentation* vs. *irrelevant*
 
 ::: {.incremental}
 
@@ -219,15 +216,6 @@ AERA, APA, & NCME (2014).
 
 * ***Construct-irrelevant variance*** — your items **also measure something else**. A maths problem written in long, convoluted sentences also measures reading ability.
 
-* The overlap in the middle is the part that is actually doing useful work.
-
-:::
-
-. . .
-
-::: {.callout-tip}
-#### The two most useful terms from this session
-If you take only two terms from today through to your final report, take these. Almost any criticism of a scale can be phrased as one or the other.
 :::
 
 ## How to collect the evidence
@@ -238,7 +226,7 @@ If you take only two terms from today through to your final report, take these. 
 
 * Compute their level of agreement. Items rated irrelevant, or on which the raters disagree, are revised.
 
-* The standard procedure is the ***Content Validity Index*** (Lynn, 1986; Polit & Beck, 2006).
+* The standard procedure is the ***Content Validity Index*** ([Lynn, 1986](https://www.ovid.com/jnls/nursingresearchonline/abstract/00006199-198611000-00017~determination-and-quantification-of-content-validity?an=00006199-198611000-00017&redirectionsource=fulltextview); [Polit & Beck, 2006](https://onlinelibrary.wiley.com/doi/abs/10.1002/nur.20147)).
 
 :::
 
@@ -248,7 +236,7 @@ If you take only two terms from today through to your final report, take these. 
 #### You have already done a simple version of this
 In Session 5 you acted as Thurstone judges: rating where each statement sits, then discarding the ones you could not agree on.
 
-CVI uses the same logic with a different criterion. Dian will guide you through it in **Session 11**.
+CVI uses the same logic with a different criterion.
 :::
 
 # Evidence 2: response processes {background-color="#14497F" .center}
@@ -259,7 +247,7 @@ CVI uses the same logic with a different criterion. Dian will guide you through 
 
 * When respondents answer your items, are they actually going through **the thought process you assume**?
 
-* Recall Session 2: Nisbett & Wilson showed that people often have no access to their own mental processes.
+* Recall Session 2: [Nisbett & Wilson (1977)](https://psycnet.apa.org/record/1978-00295-001) showed that people often have no access to their own mental processes.
 
 * An item can look perfect on paper and still be read by respondents in an entirely different way.
 
@@ -278,7 +266,7 @@ CVI uses the same logic with a different criterion. Dian will guide you through 
 :::
 
 ::: aside
-Willis (2005).
+[Willis (2005)](https://www.researchgate.net/profile/Gordon-Willis/publication/228902728_The_use_of_cognitive_interviewing_to_evaluate_translated_survey_questions_Lessons_learned/links/00463516f06b5a0882000000/The-use-of-cognitive-interviewing-to-evaluate-translated-survey-questions-Lessons-learned.pdf).
 :::
 
 . . .
@@ -302,12 +290,6 @@ Do this before Session 12. It costs almost nothing and usually saves a great dea
 
 * If you claim it is unidimensional, do the data support that?
 
-:::
-
-. . .
-
-::: {.callout-note}
-This is what you will do in **Session 13**: exploratory factor analysis, then reliability for each dimension.
 :::
 
 ## What this includes
@@ -364,7 +346,7 @@ Convergent evidence alone is not enough. If your scale correlates .85 with **eve
 
 ::: {.incremental}
 
-* **Campbell & Fiske (1959)** proposed a way to examine both at once: measure several constructs using several methods, then compare the pattern of correlations.
+* [**Campbell & Fiske (1959)**](https://psycnet.apa.org/record/1960-00103-001) proposed a way to examine both at once: measure several constructs using several methods, then compare the pattern of correlations.
 
 * The idea: correlations between **the same construct measured by different methods** should exceed correlations between **different constructs measured by the same method**.
 
@@ -450,7 +432,7 @@ Some scholars hold that social consequences are a policy question rather than a 
 
 ::: {.incremental}
 
-* **Borsboom, Mellenbergh, & van Heerden (2004)** consider Messick's definition too broad, mixing too many things together.
+* [**Borsboom, Mellenbergh, & van Heerden (2004)**](https://d1wqtxts1xzle7.cloudfront.net/53409598/borsboomValidity2004-libre.pdf?1496798337=&response-content-disposition=inline%3B+filename%3DThe_Concept_of_Validity_Netherlands_Auti.pdf&Expires=1786119942&Signature=dCjv8LvEpx8-NoFGY8VvpfNZ9Ihs0zOxFcoDaCaYUbeh3q9wxglMCO4cHlp4F-rgy-2bMK3LuO11MD0rrpTLGguyLq5LEsBkmeXtwf-mmH~PFZkGhLChkhEMzDsHlWOfRTgeacsRbq9TbmQ4-sLVw~FWSC8VuiAzopPUC93GIPtKXsD83oJJpofW41kN2Si5HjkBGYORa8JProTIOpI3mUXPrUV8S05uxTspWoeqo3sYIORyG3PV8CS0atP2GVIuk1foGmrcdmHy4lpkR3MW11s6nxnC65l8r2pAeIO1Sy2hJ0UpEa5mTWqNHOzGRrFrpPQghwzis2e7NeeOHt3Ctw__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA) consider Messick's definition too broad, mixing too many things together.
 
 * On their account the validity question should be far simpler: **does the attribute exist, and does variation in that attribute cause variation in the scores?**
 
@@ -489,7 +471,7 @@ $$r_{XY} \leq \sqrt{\rho_{XX'} \times \rho_{YY'}}$$
 
 ::: {.incremental}
 
-* **Loevinger (1954)** showed that beyond a certain point, raising internal consistency actually **lowers** validity.
+* [**Loevinger (1954)**](https://psycnet.apa.org/record/1955-03299-001) showed that beyond a certain point, raising internal consistency actually **lowers** validity.
 
 * The reason is visible in the earlier figure. The easiest way to raise $\alpha$ is to write items that resemble one another.
 
@@ -601,6 +583,7 @@ Your answers to 1 and 2 will be used directly when you build the blueprint in Se
 . . .
 
 ::: {.callout-note}
+### Worth remembering
 All of it comes down to one sentence: **know which assumptions you are relying on, and what follows if they are wrong.**
 :::
 

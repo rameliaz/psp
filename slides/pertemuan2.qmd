@@ -211,7 +211,7 @@ Kita **memilih item supaya sebarannya normal**, lalu memperlakukan normalitas it
 
 ## Mari lihat data yang sebenarnya
 
-Data IPIP *Big Five* (`data/data.csv` di repositori mata kuliah ini), 50 item, skala 1–5, **n = 19.719** responden.
+Data IPIP *Big Five* (`data/data.csv` di repositori mata kuliah ini), 50 item, skala 1–5, **n = 19.719** responden (jumlah baris mentah; Pertemuan 6 memakai n = 19.718 setelah *listwise deletion*).
 
 Pertama, lihat tiga **item** secara terpisah:
 

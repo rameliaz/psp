@@ -49,7 +49,7 @@ We used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate referen
 
 * **Session 2**: there are six assumptions we rely on, most of them without noticing.
 
-* **Today**: those assumptions get tidied into a **formal model** — the one we will use for the rest of the course.
+* **Today**: those assumptions get tidied into a **formal mathematical model**.
 
 :::
 
@@ -73,7 +73,7 @@ As long as assumptions are only a list, nothing can be computed from them. Once 
 
 * ***Variable***, not constant. Something about it changes — its strength, its magnitude — across people, times, and situations.
 
-* A latent variable is usually a **characteristic of the person supplying the data**, not of the object being asked about.
+* A latent variable is usually a **characteristic of the person supplying the data** (e.g., the parent), not of the object being asked about (e.g., the child's achievement).
 
 :::
 
@@ -97,7 +97,7 @@ DeVellis & Thorpe (2022), Chapter 2.
 
 * If we ask parents to report **their child's own** aspirations, the latent variable is better described as *parents' perceptions of their child's aspirations*.
 
-* If we ask shoppers to rate a store, we are measuring **shoppers' perceptions**, not properties of the store.
+* If we ask shoppers to rate a brand, we are measuring **shoppers' perceptions**, not the brand's actual properties.
 
 :::
 
@@ -105,7 +105,7 @@ DeVellis & Thorpe (2022), Chapter 2.
 
 ::: {.callout-warning}
 #### A naming error that happens often
-The name of your construct must reflect **whose data you collected**. This will be checked when you write your operational definition in Session 9.
+The name of your construct must reflect **whose data you collected** (e.g., the *estimand*).
 :::
 
 ## The latent variable as a *cause*
@@ -116,7 +116,7 @@ The name of your construct must reflect **whose data you collected**. This will 
 
 * Take the item *"No sacrifice is too great if it helps my child succeed."* How strongly someone agrees is determined by how strong their aspiration is.
 
-* Note the direction of the arrow: from construct **to** item. Not the other way round.
+* Note the direction of the arrow: from construct **to** item (e.g., ["Reflective Model"](slides/pertemuan1-en.html#/a-scale-items-as-effects)). Not the other way round.
 
 :::
 
@@ -149,7 +149,7 @@ The procedures you will run in Session 13 — corrected item-total correlations,
 
 # Classical Test Theory {background-color="#14497F" .center}
 
-## The equation the whole course rests on
+## The equation
 
 $$X = T + E$$
 
@@ -189,8 +189,6 @@ The respondent's physical state, a passing mood, an ambiguous item, noise in the
 ::: {.callout-warning}
 #### Notice what is being assumed
 All three say that error is **random**, not systematic. A consistent bias — for example every respondent answering more positively because of social desirability — does **not** enter $E$.
-
-We will see shortly what that implies.
 :::
 
 ## From scores to variance
@@ -269,7 +267,7 @@ In Session 14 you will convert scores into categories. If your category boundari
 
 # What is a *true score*, really? {background-color="#14497F" .center}
 
-## The definition is narrower than you might think
+## The definition
 
 ::: {.incremental}
 
@@ -345,7 +343,7 @@ This involves the criterion's reliability too. If the criterion is assumed to be
 
 :::
 
-## Why this distinction is practical, not just terminological
+## Why this distinction matters
 
 ::: {.incremental}
 
@@ -378,13 +376,6 @@ We cover the types of evidence in Session 7.
 
 * CTT does not prove that assumption. CTT **builds on it**.
 
-:::
-
-. . .
-
-::: {.callout-tip}
-#### The stance we take
-We will use CTT all semester because it is useful and workable. But you now know exactly **what it stands on**.
 :::
 
 # Consequences of CTT {background-color="#14497F" .center}
@@ -450,7 +441,7 @@ $$r_{XY} = \rho_{T_X T_Y} \times \sqrt{\rho_{XX'} \times \rho_{YY'}}$$
 . . .
 
 ::: {.callout-tip}
-The larger the share of noise in your scores, the smaller every correlation you report. This happens automatically, without any mistake on your part.
+The larger the share of noise in your scores, the smaller every correlation you report.
 :::
 
 ## The most serious weakness of CTT
@@ -547,7 +538,7 @@ You do not need to compute anything yet. What you should carry forward is: **$\a
 
 ::: {.incremental}
 
-* In physical measurement, **20 kilograms means the same thing** whatever is being weighed. The instrument's properties do not depend on the object.
+* In physical measurement, **20 kilograms means the same thing** whatever is being weighed. The instrument's properties do not depend on the object (e.g., [*specific objectivity*](https://www.rasch.org/rmt/rmt83e.htm)).
 
 * IRT wants the same for questionnaire items: item properties that are **independent of who completes them**.
 
@@ -692,7 +683,7 @@ IRT is better described as a **family of models** than as a single procedure.
 
 ::: {.callout-note}
 #### Notice
-The first two are precisely assumption 4 from Session 2. IRT does **not remove** assumptions — it demands them more strictly, and gives more back in return.
+The first two are precisely assumption 4 from Session 2. IRT does **not remove** assumptions — it demands them more strictly.
 :::
 
 ## Why this course still uses CTT
@@ -764,7 +755,7 @@ We will use question 3 directly when building the blueprint in Session 10.
 
 # Summary {background-color="#14497F" .center}
 
-## Six key points
+## 6️⃣ Key points
 
 ::: {.incremental}
 

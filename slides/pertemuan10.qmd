@@ -24,10 +24,10 @@ execute:
 
 * Menyusun **kisi-kisi**: berapa item untuk tiap aspek, dan kenapa sebanyak itu
 * Kaidah menulis item, dengan contoh yang salah dan perbaikannya
-* **Item bernada terbalik**: apa kata datanya, dan kapan sebaiknya dipakai
+* **Item *unfavorable***: bagaimana datanya, dan kapan sebaiknya dipakai
 * Menetapkan **format respons** untuk seluruh skala
 * Merakit kuesionernya: pengantar, petunjuk, tata letak
-* Workshop dan saling menelaah antar-kelompok
+* *Workshop* dan saling menelaah antar-kelompok
 
 :::
 
@@ -44,23 +44,21 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 
 ::: {.incremental}
 
-* Dokumen spesifikasi konstruk dari Pertemuan 9: definisi, batas, estimand, dimensi, aspek, dan indikator.
+* Uraian spesifikasi konstruk dari Pertemuan 9: definisi, batas, *estimand*, dimensi, aspek, dan indikator.
 
 * Hari ini indikator itu berubah menjadi **item**, dan item disusun menjadi **kuesioner**.
-
-* Ini pertemuan terakhir bersama saya sebelum Anda melanjutkan bersama Dian.
 
 :::
 
 . . .
 
 ::: {.callout-warning}
-Kalau kelompok Anda belum punya dokumen spesifikasi konstruk, kerjakan itu lebih dulu hari ini. Menulis item tanpa definisi konstruk hanya akan menghasilkan pekerjaan yang harus diulang.
+Kalau kelompok Anda belum punya uraian spesifikasi konstruk, kerjakan itu lebih dulu hari ini. Menulis item tanpa definisi konstruk hanya akan menghasilkan pekerjaan yang harus diulang.
 :::
 
 # Kisi-kisi {background-color="#14497F" .center}
 
-## Apa yang dilakukan kisi-kisi
+## Apa yang dicakup oleh kisi-kisi
 
 ::: {.incremental}
 
@@ -93,21 +91,21 @@ Konstruk: **kecemasan sosial** pada mahasiswa S1.
 
 ::: {.incremental}
 
-* **Bobot** ditentukan oleh definisi konstruk Anda, bukan oleh selera.
+* **Bobot** ditentukan oleh definisi konstruk Anda.
 
 * Perhatikan dua kolom terakhir: Anda menulis **jauh lebih banyak** daripada yang akan dipakai.
 
 :::
 
-## Kenapa menulis berlebih
+## Kenapa harus melebihkan jumlah item
 
 ::: {.incremental}
 
-* Sebagian item akan gugur di review ahli (Pertemuan 11), sebagian lagi gugur di analisis item (Pertemuan 13).
+* Sebagian item akan gugur di *review* ahli (Pertemuan 11), sebagian lagi gugur di analisis item (Pertemuan 13).
 
 * Kalau Anda hanya menulis 15 item untuk target 15, Anda tidak punya ruang untuk membuang apa pun.
 
-* Patokan yang lazim: tulislah **dua sampai tiga kali** jumlah item yang Anda targetkan.
+* Patokan yang umum: tulislah **dua sampai tiga kali** jumlah item yang Anda targetkan.
 
 :::
 
@@ -117,7 +115,7 @@ Konstruk: **kecemasan sosial** pada mahasiswa S1.
 #### Jumlah item akhir
 Ingat dari Pertemuan 6: reliabilitas ditentukan oleh jumlah item dan rata-rata korelasi antar-item. Untuk skala dengan rata-rata korelasi sedang, **10–20 item** biasanya memadai.
 
-Menambah item terus-menerus punya hasil yang makin kecil, dan menambah beban responden.
+Menambah item terus-menerus membuat performa skala menjadi semakin jelek, dan menambah beban responden.
 :::
 
 ## Sebarkan itemnya
@@ -128,7 +126,7 @@ Menambah item terus-menerus punya hasil yang makin kecil, dan menambah beban res
 
 * Untuk tiap aspek, tulis sebagian item yang **mudah disetujui** (menandakan tingkat rendah) dan sebagian yang **sulit disetujui** (menandakan tingkat tinggi).
 
-* Kalau semua item Anda menggambarkan tingkat yang parah, responden dengan tingkat sedang tidak akan terbedakan satu sama lain.
+* Kalau semua item Anda menggambarkan tingkat yang ekstrim, responden dengan tingkat sedang tidak akan bisa dibedakan satu sama lain.
 
 :::
 
@@ -190,13 +188,13 @@ DeVellis menyarankan tingkat keterbacaan setara kelas 5–7 untuk instrumen yang
 | Bermasalah | Perbaikannya |
 |---|---|
 | "Saya cemas karena takut dinilai orang lain." | "Saya khawatir orang lain menilai saya negatif." |
-| "Saya introver, jadi saya menghindari keramaian." | "Saya menghindari acara yang ramai." |
+| "Saya *introvert*, jadi saya menghindari keramaian." | "Saya menghindari pesta yang ramai." |
 
-## Kurun waktu diambil dari estimand
+## Kurun waktu diambil dari *estimand*
 
 ::: {.incremental}
 
-* Kalimat estimand Anda di Pertemuan 9 sudah menyebutkan kurun waktunya. Kurun itu harus muncul di itemnya.
+* Kalimat *estimand* Anda di Pertemuan 9 sudah menyebutkan kurun waktunya. Kurun itu harus muncul di itemnya.
 
 * *"Dalam sebulan terakhir, saya …"* mengukur hal yang berbeda dari *"Saya biasanya …"*.
 
@@ -239,7 +237,7 @@ Mencampur item berkurun waktu berbeda dalam satu skala menambah sumber variasi y
 | "Saya berlebihan dalam mencemaskan pendapat orang." | "Saya sering memikirkan pendapat orang lain tentang saya." |
 | "Saya gagal mengendalikan rasa cemas saya." | "Saya sulit menenangkan diri ketika cemas." |
 
-# Item bernada terbalik {background-color="#14497F" .center}
+# Item unfavorable {background-color="#14497F" .center}
 
 ## Kenapa dipakai sejak awal
 
@@ -254,10 +252,10 @@ Mencampur item berkurun waktu berbeda dalam satu skala menambah sumber variasi y
 . . .
 
 ::: {.callout-note}
-Sampai di sini gagasannya masuk akal. Persoalannya muncul pada pelaksanaannya.
+Sampai di sini gagasannya masuk akal. Tetapi, persoalannya muncul pada pelaksanaannya.
 :::
 
-## Apa kata datanya
+## Bagaimana bukti empiriknya
 
 ::: {.incremental}
 
@@ -270,16 +268,16 @@ Sampai di sini gagasannya masuk akal. Persoalannya muncul pada pelaksanaannya.
 :::
 
 ::: aside
-Ringkasan dari Chyung, Barkin, & Shamsy (2018); lihat juga Weijters, Baumgartner, & Schillewaert (2013).
+Ringkasan dari [Chyung, Barkin, & Shamsy (2018)](https://onlinelibrary.wiley.com/doi/abs/10.1002/pfi.21749); lihat juga [Weijters, Baumgartner, & Schillewaert (2013)](https://psycnet.apa.org/record/2013-15543-001).
 :::
 
-## Dan responden berhenti memperhatikan
+## Partisipan berhenti memperhatikan
 
 ::: {.incremental}
 
 * Performa responden menurun sekitar **12 menit** setelah mulai mengisi.
 
-* Setelah itu, banyak yang tidak lagi menyadari adanya kata "tidak" di dalam item — bahkan ketika kata itu ditebalkan atau digarisbawahi.
+* Setelah itu, banyak yang tidak lagi menyadari adanya kata "tidak" di dalam item, bahkan ketika kata itu ditebalkan atau digarisbawahi.
 
 :::
 
@@ -287,9 +285,9 @@ Ringkasan dari Chyung, Barkin, & Shamsy (2018); lihat juga Weijters, Baumgartner
 
 ::: {.callout-tip}
 #### Kalau tetap dipakai
-* Letakkan item terbalik **di bagian awal** kuesioner.
-* Pastikan item terbalik benar-benar **lawan yang setara**, bukan sekadar penambahan kata "tidak".
-* **Periksa pengaruhnya** saat analisis: lihat apakah item terbalik mengelompok sendiri.
+* Letakkan item *unfavorable* **di bagian awal** kuesioner.
+* Pastikan item *unfavorable* benar-benar **lawan yang setara**, bukan sekadar penambahan kata "tidak".
+* **Periksa pengaruhnya** saat analisis: lihat apakah item *unfavorable* mengelompok sendiri.
 :::
 
 ## Jebakan kata "tidak"
@@ -308,19 +306,19 @@ Ringkasan dari Chyung, Barkin, & Shamsy (2018); lihat juga Weijters, Baumgartner
 
 ::: {.callout-warning}
 #### Untuk konstruk tertentu, item searah justru lebih tepat
-Untuk konstruk yang sifatnya memang negatif — kecemasan, depresi — kalimat bernada negatif adalah bentuk yang paling wajar. Memaksakan item terbalik di sini justru membuat kalimatnya berbelit.
+Untuk konstruk yang sifatnya memang negatif — kecemasan, depresi — kalimat bernada negatif adalah bentuk yang terbaik. Memaksakan item *unfavorable* di sini justru membuat kalimatnya berbelit.
 :::
 
 # Format respons {background-color="#14497F" .center}
 
-## Keputusan yang sudah Anda pelajari
+## Yang sudah Anda pelajari
 
 Dari Pertemuan 4, tetapkan sekarang untuk **seluruh skala**:
 
 ::: {.incremental}
 
-* **Berapa pilihan.** Wilayah 5–7 masuk akal untuk sebagian besar keperluan.
-* **Titik tengah atau tidak.** Pakai kalau posisi tengah memang bermakna untuk konstruk Anda.
+* **Berapa pilihan.** Pilihan respons sebanyak 5–7 masuk akal untuk sebagian besar tujuan pengukuran.
+* **Pilihan tengah atau tidak.** Pakai kalau posisi tengah memang bermakna untuk konstruk Anda.
 * **Label.** Beri label pada semua pilihan, bukan hanya ujungnya.
 * **Jangkar.** Persetujuan, frekuensi, atau jangkar khusus per item.
 
@@ -329,10 +327,10 @@ Dari Pertemuan 4, tetapkan sekarang untuk **seluruh skala**:
 . . .
 
 ::: {.callout-note}
-#### Soal titik tengah
-Chyung dkk. (2017) menyarankan pertanyaannya diubah: bukan *"perlu titik tengah atau tidak"*, melainkan *"kapan titik tengah itu tepat"*. Titik tengah tepat kalau ia benar-benar posisi tengah, bukan tempat responden menghindar.
+#### Soal pilihan tengah
+[Chyung dkk. (2017)](https://onlinelibrary.wiley.com/doi/abs/10.1002/pfi.21727) menyarankan pertanyaannya diubah: bukan *"perlu titik tengah atau tidak"*, melainkan *"kapan titik tengah itu diperlukan"*. Titik tengah tepat kalau ia benar-benar *meaningful* secara teoretis.
 
-Kalau yang Anda antisipasi adalah ketidaktahuan, sediakan pilihan terpisah seperti "tidak tahu", jangan campur dengan titik tengah.
+Kalau yang Anda antisipasi adalah ketidaktahuan, sediakan pilihan terpisah seperti "tidak tahu", jangan dicampur dengan titik tengah.
 :::
 
 ## Konsistensi dan urutan
@@ -348,7 +346,7 @@ Kalau yang Anda antisipasi adalah ketidaktahuan, sediakan pilihan terpisah seper
 :::
 
 ::: aside
-Chyung, Kennedy, & Campbell (2018).
+[Chyung, Kennedy, & Campbell (2018).](https://onlinelibrary.wiley.com/doi/abs/10.1002/pfi.21800)
 :::
 
 # Merakit kuesionernya {background-color="#14497F" .center}
@@ -373,11 +371,11 @@ Chyung, Kennedy, & Campbell (2018).
 Bikos, *ReCentering Psych Stats: Psychometrics*, Bab 2.
 :::
 
-## Ini bukan formalitas
+## Mengapa pengantar dan penutup skala penting?
 
 ::: {.incremental}
 
-* Pershing & Pershing (2001) memeriksa 50 formulir evaluasi pelatihan yang dipakai di sebuah sekolah kedokteran ternama.
+* [Pershing & Pershing (2001)](https://onlinelibrary.wiley.com/doi/abs/10.1002/1532-1096%28200101/02%2912%3A1%3C73%3A%3AAID-HRDQ6%3E3.0.CO%3B2-7) memeriksa 50 kuesioner evaluasi pelatihan yang dipakai di sebuah sekolah kedokteran ternama.
 
 * **72%** tidak punya pengantar sama sekali. **78%** tidak punya penutup. **30%** tidak punya petunjuk pengisian, dan 54% lainnya hanya seadanya.
 
@@ -388,7 +386,7 @@ Bikos, *ReCentering Psych Stats: Psychometrics*, Bab 2.
 . . .
 
 ::: {.callout-warning}
-Tampilan yang berantakan menurunkan kesungguhan responden, dan itu langsung berpengaruh pada reliabilitas serta validitas skor Anda. Ini bukan soal estetika.
+Tampilan yang berantakan menurunkan minat partisipan, dan itu langsung berpengaruh pada reliabilitas serta validitas skor Anda. 
 :::
 
 ## Tata letak
@@ -417,7 +415,7 @@ Letakkan di bagian **akhir**, kecuali kalau diperlukan untuk menyaring responden
 
 * **15 menit** — Lengkapi kisi-kisi kelompok Anda: aspek, bobot, indikator, dan jumlah item yang akan ditulis.
 
-* **40 menit** — Tulis itemnya. Kejar jumlah pada kolom "item ditulis", bukan kolom target akhir.
+* **40 menit** — Tulis itemnya. 
 
 * **10 menit** — Tetapkan format respons dan tulis petunjuk pengisiannya.
 
@@ -471,27 +469,6 @@ Kembalikan daftarnya dengan **catatan tertulis**, bukan penilaian umum. "Item 7 
 Bawa semuanya ke Pertemuan 11. Panel ahli tidak bisa menilai relevansi item tanpa membaca definisi konstruk dan kisi-kisi Anda.
 :::
 
-## Untuk Pertemuan 11
-
-::: {.incremental}
-
-* Anda melanjutkan bersama **Dian Kartika Amelia Arbi, M.Psi., psikolog**.
-
-* **Senin, pukul 13.00 WIB, Ruang 303** — hari, jam, dan tempatnya berbeda dari yang selama ini. Periksa lagi jadwalnya.
-
-* Materinya: review ahli dan perhitungan *Content Validity Index*.
-
-* Bawa dokumen spesifikasi konstruk, kisi-kisi, dan daftar item kelompok Anda.
-
-:::
-
-. . .
-
-::: {.callout-tip}
-#### Persiapan
-Baca **Polit & Beck (2006)** kalau sempat. Yang lebih penting: pastikan daftar item kelompok Anda sudah rapi, karena itulah yang akan dinilai panel.
-:::
-
 ## Ada pertanyaan❓
 
 ![](libs/closing.JPG){fig-align="center"}
@@ -507,8 +484,6 @@ Baca **Polit & Beck (2006)** kalau sempat. Yang lebih penting: pastikan daftar i
 
 Bikos, L. H. *ReCentering psych stats: Psychometrics*. <https://lhbikos.github.io/ReC_Psychometrics/>
 
-Boateng, G. O., Neilands, T. B., Frongillo, E. A., Melgar-Quiñonez, H. R., & Young, S. L. (2018). Best practices for developing and validating scales for health, social, and behavioral research: A primer. *Frontiers in Public Health, 6*, 149.
-
 Chyung, S. Y., Barkin, J. R., & Shamsy, J. A. (2018). Evidence-based survey design: The use of negatively worded items in surveys. *Performance Improvement, 57*(3), 16–25.
 
 Chyung, S. Y., Kennedy, M., & Campbell, I. (2018). Evidence-based survey design: The use of ascending or descending order of Likert-type response options. *Performance Improvement, 57*(9), 9–16.
@@ -522,7 +497,5 @@ Krosnick, J. A., & Presser, S. (2010). Question and questionnaire design. In P. 
 Likert, R. (1932). A technique for the measurement of attitudes. *Archives of Psychology, 22*(140), 1–55.
 
 Pershing, J. A., & Pershing, J. L. (2001). Ineffective reaction evaluation. *Performance Improvement Quarterly, 14*(1), 73–90.
-
-Swain, S. D., Weathers, D., & Niedrich, R. W. (2008). Assessing three sources of misresponse to reversed Likert items. *Journal of Marketing Research, 45*(1), 116–131.
 
 Weijters, B., Baumgartner, H., & Schillewaert, N. (2013). Reversed item bias: An integrative model. *Psychological Methods, 18*(3), 320–334.

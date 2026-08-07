@@ -27,7 +27,6 @@ execute:
 * ***Situational Judgement Tests***: measuring judgement rather than self-description
 * ***Forced-choice***: when respondents must choose, and scores become **ipsative**
 * Why ipsative data breaks almost everything we built in Session 3
-* What is realistic for your project this semester
 
 :::
 

@@ -39,6 +39,27 @@ We used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate referen
 
 :::
 
+# Course orientation {background-color="#14497F" .center}
+
+## What will we be doing this semester?
+
+::: {.incremental}
+
+* **Final project**: each group of five students will **build a complete psychological scale, together with its manual**.
+
+* **First half (Sessions 1–7)**: laying the conceptual groundwork. What measurement is, which assumptions we rely on (some implicit and easy to miss), what a latent variable is, how to choose a response format, and what it means for a scale to be reliable and for scores to be valid.
+
+* **Second half (Sessions 9–15)**: building the scale itself. Defining the construct, writing items, getting expert review, collecting pilot data, running item analysis, and developing norms and a manual.
+
+:::
+
+. . .
+
+::: {.callout-tip}
+#### Worth noting
+The first half is **not** just an introduction. Almost every technical decision you will make in the second half — how many items to include, what response format to use, which coefficient to report — follows from the conceptual positions we establish in the first half.
+:::
+
 # Let us start from the most basic question {background-color="#14497F" .center}
 
 ## Three situations
@@ -61,7 +82,7 @@ Adapted from DeVellis & Thorpe (2022), Chapter 1.
 
 ::: {.incremental}
 
-* None of them is a **statistical** problem. Not one is solved by choosing a fancier test.
+* None of them is a **statistical** problem. Not one is solved by choosing a fancier statistical test.
 
 * All three are **measurement** problems: do the numbers I produce actually stand for the attribute I claim to be studying?
 
@@ -116,11 +137,11 @@ Note that this is a **normative** question ("deserve"), not a technical one. The
 
 * **c. 2200 BCE, China** — civil service examinations for selecting officials.
 
-* **Proverbs 11:1** — *"A false balance is an abomination to the Lord, but a just weight is a delight."* A dishonest scale was a moral matter.
-
-* **Aristotle** refers to officials charged with checking weights and measures.
-
-* **7th century** — Muslim taxation based on the "weight of seven."
+* A dishonest scale was treated as a moral failing, not merely a technical one — a concern that recurs across religious traditions.
+  + **Qur'an, Al-Muttaffifin 1–3** — condemns those who demand full measure from others but give less when they weigh or measure for others.
+  + **Qur'an, Al-Isra' 35** — instructs believers to give full measure and to weigh with an even balance.
+  + **Qur'an, Al-An'am 152** — commands giving full measure and weight, in justice.
+  + **Proverbs 11:1** — *"A false balance is an abomination to the Lord, but a just weight is a delight."*
 
 * **The French Revolution** — driven in part by peasants fed up with unfair measurement practices.
 
@@ -130,7 +151,7 @@ Note that this is a **normative** question ("deserve"), not a technical one. The
 
 ::: {.callout-note}
 #### What is striking about this list
-Every entry is about **fairness**, not about scientific accuracy. Measurement has been an instrument of power and distribution from the very beginning — something that becomes relevant again when we discuss test bias and the use of psychological tests for selection.
+Every entry is about **fairness**, and less about scientific accuracy. Measurement has been an instrument of power and distribution from the very beginning, something that becomes relevant again when we discuss test bias and the use of psychological tests for selection.
 :::
 
 ## The idea that measurement *can* be wrong is relatively recent
@@ -145,28 +166,30 @@ Every entry is about **fairness**, not about scientific accuracy. Measurement ha
 
 :::
 
-. . .
+## Error and moral judgement
 
 > [17th- and early 18th-century scientists'] way of working regarded differences not as the inevitable byproducts of the measuring process itself, but as evidence of failed or inadequate skill. Error in measurement was potentially little different from faulty behavior of any kind: it could have moral consequences.
 >
 > — Buchwald (2006, p. 566)
 
-## Error and moral judgement
+. . .
 
 ::: {.callout-warning}
 #### Note the gap
-It took **a full century after Newton** before scientists widely accepted that **all measurement contains error**, and that averaging reduces it (Buchwald, 2006).
+It took **a full century after Newton** before scientists widely accepted that **all measurement contains error**, and that averaging reduces it ([Buchwald, 2006](https://link.springer.com/article/10.1007/s00407-006-0116-6)).
 :::
 
-. . .
+## A conceptual shift, and the rise of psychometrics
 
 ::: {.incremental}
 
-* Alder (2002) notes that as late as the 1700s, concealing observational discrepancies "were not only common, they were considered a savant's prerogative."
+* Concealing differences between observations used to be standard practice.
+  + Scientists were expected to produce an "ideal picture" of a natural phenomenon, using their own judgement to decide what should count as ideal.
+  + As a result, "accidental" or random deviations were typically excluded from the scientific record ([Daston & Galison, 2007](https://www.amazon.de/-/en/Objectivity-Mit-Press-Lorraine-Daston/dp/189095179X)).
 
-* **The conceptual shift is enormous**: from error as a personal failing → to error as a systematic property of the measurement process that can be modelled.
+* **The consequence of this shift was enormous**: error, once read as evidence of an observer's incompetence, came to be understood as a "systematic" — but random (*stochastic*) — property of the measurement process itself, one that could be modelled and estimated.
 
-* Without that shift, there would be **no such thing** as *Classical Test Theory*. We take it up in Session 3.
+* Without this shift, *Classical Test Theory* could not exist as we know it today.
 
 :::
 
@@ -178,7 +201,7 @@ It took **a full century after Newton** before scientists widely accepted that *
 
 * **1777, Daniel Bernoulli** compared the distribution of astronomical observations to **an archer's arrows**: clustering around a central point, with progressively fewer at greater distances from it.
 
-* Buchwald (2006) argues the fundamental shortcoming of 18th-century thinking was the **failure to distinguish random from systematic error** — a distinction that only matured in the following century.
+* [Buchwald (2006)](https://link.springer.com/article/10.1007/s00407-006-0116-6) argues the fundamental shortcoming of 18th-century thinking was the **failure to distinguish random from systematic error** — a distinction that only matured in the following century.
 
 :::
 
@@ -186,7 +209,7 @@ It took **a full century after Newton** before scientists widely accepted that *
 
 ::: {.callout-tip}
 #### Remember this analogy
-Bernoulli's comparison describes what we will later call ***random error***, and exactly why reliability can be raised simply by **adding items**. We return to it in Session 6.
+Bernoulli's comparison describes what we will later call ***random error***, and exactly why reliability can be raised simply by **adding items**.
 :::
 
 ## How psychometrics was born
@@ -209,7 +232,7 @@ Bernoulli's comparison describes what we will later call ***random error***, and
 
 ::: {.callout-warning}
 #### An inheritance that is not neutral
-Many early contributors to psychometrics worked within a **eugenics** framework. We still use their statistical tools; we are **not obliged to inherit** the political assumptions behind them. Knowing this history is part of being critical about the instruments we use.
+Many early contributors to psychometrics worked within a **[eugenics](https://www.genome.gov/about-genomics/fact-sheets/Eugenics-and-Scientific-Racism)** framework. We still use their statistical tools today, **BUT** we **cannot obliged to inherit** the political assumptions behind them. Knowing this history is part of being critical about the theories we use.
 :::
 
 ## When psychology was declared unmeasurable
@@ -226,59 +249,44 @@ Many early contributors to psychometrics worked within a **eugenics** framework.
 
 :::
 
-## Why this history matters
-
-::: {.callout-tip}
-#### Not just trivia
-The scientific legitimacy of psychological measurement was **never simply given**. It had to be **argued for**, against serious and reasonable objections.
-:::
-
-. . .
-
-::: {.incremental}
-
-* Which means the objection did **not disappear** merely because Stevens won sociologically.
-
-* It is still there, and some scholars argue it was never actually answered. We meet its modern version in a moment.
-
-:::
-
-# So what *is* measurement? {background-color="#14497F" .center}
+# So what **is** measurement? {background-color="#14497F" .center}
 
 ## The most-quoted definition
 
 > Measurement is the assignment of numerals to objects or events according to rules.
 >
-> — S. S. Stevens (1946)
+> — [S. S. Stevens (1946)](https://www.jstor.org/stable/1671815)
 
 . . .
 
 ::: {.incremental}
 
-* This definition is **very permissive** — deliberately so. It was built so that psychological measurement would fit inside it.
+* This definition is **very permissive**, but deliberately so. It was built so that psychological measurement would fit inside it.
 
-* The consequence: almost anything can be called measurement, as long as there is a rule.
+* The consequence: almost anything can be called measurement, as long as there is a measurement rule.
 
 :::
 
 ## Duncan's objection
 
-> [Stevens's definition] is incomplete in the same way that "playing the piano is striking the keys of the instrument according to some pattern" is incomplete. Measurement is not only the assignment of numerals. It is also the assignment of numerals **in such a way as to correspond to different degrees of a quality** . . . or property of some object or event.
+> Measurement is not only the assignment of numerals, etc. It is also the assignment of numerals in such a way as to correspond to different degrees of a quality . . . or property of some object or event.
 >
-> — Duncan (1984, p. 126)
+> — [Duncan (1984)](https://www.jstor.org/stable/10.7758/9781610441650)
 
 . . .
 
 ::: {.callout-note}
 #### What Duncan adds
 A **correspondence** requirement. Numbers must not merely follow a rule; their structure must mirror the structure of the attribute. If A has twice as much of the attribute as B, the numbers should say so too.
+
+Duncan compares Stevens's definition to saying "playing the piano is striking the keys of the instrument according to some pattern" — not exactly wrong, but clearly incomplete.
 :::
 
 ## A more fundamental critique: Michell
 
 ::: {.incremental}
 
-* **Joel Michell** (1997, 2000) argues that Stevens's definition is not merely incomplete — it **obscures the real question**.
+* **Joel Michell** ([2007](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780444515421500040), [2011](https://bpspsychub.onlinelibrary.wiley.com/doi/abs/10.1111/j.2044-8295.1997.tb02641.x)) argues that Stevens's definition is not merely incomplete — it **obscures the real question**.
 
 * On his account, genuine measurement is **the estimation of the ratio of a magnitude of a quantitative attribute to a unit of the same attribute**.
 
@@ -586,6 +594,10 @@ The effect/cause indicator distinction comes from Bollen (1989); see DeVellis & 
 Because all items are driven by the same cause, they **should correlate highly** and are largely **interchangeable**. That is precisely what makes coefficients like $\alpha$ and $\omega$ sensible for a scale. Session 6.
 :::
 
+## The reflective model
+
+![](libs/reflektif.png){fig-align="center"}
+
 ## An index: items as causes
 
 ::: {.incremental}
@@ -604,6 +616,10 @@ Because all items are driven by the same cause, they **should correlate highly**
 #### A consequence that is often overlooked
 In an index, items **need not** correlate highly and **cannot** be interchanged. Computing Cronbach's alpha for an index is a **conceptual error** — even though the software will still print a number.
 :::
+
+## The formative model
+
+![](libs/formatif.png){fig-align="center"}
 
 ## An emergent variable: merely grouped
 
@@ -697,19 +713,17 @@ $$r_{XY} = \rho_{T_X T_Y} \times \sqrt{\rho_{XX'} \times \rho_{YY'}} = 0.60 \tim
 ::: {.callout-warning}
 #### You will report 0.40 for a relationship that is really 0.60
 Not because you miscalculated, and not because your sample was too small. Simply because the instruments were noisy.
-
-We derive this properly in Session 6.
 :::
 
 ## Measurement and the replication crisis
 
 ::: {.incremental}
 
-* Many findings in psychology fail to replicate independently — partly attributable to **imprecise measurement**, combined with researcher degrees of freedom in data analysis.
+* Many findings in psychology fail to be replicated independently, partly attributable to **imprecise measurement**, combined with researcher degrees of freedom in data analysis.
 
 * Noisy measures, **combined with publication bias**, can actually **inflate** published effect sizes: only the samples that happened to produce large estimates make it into print.
 
-* Flake & Fried (2020) call this cluster of habits ***questionable measurement practices***: not reporting how a scale was chosen, modifying a scale without saying so, not reporting its psychometric properties.
+* [Flake & Fried (2020)](https://doi.org/10.1177/2515245920952393) call this cluster of habits ***questionable measurement practices***: not reporting how a scale was chosen, modifying a scale without saying so, not reporting its psychometric properties.
 
 :::
 
@@ -721,7 +735,7 @@ Petersen, Chapter 1; Flake & Fried (2020).
 
 ::: {.incremental}
 
-* Fried (2017) examined **seven commonly used depression scales**.
+* [Fried (2017)](https://www.sciencedirect.com/science/article/pii/S016503271631312X?casa_token=4FzsVAGe7tUAAAAA:JguDO6r07Xj-Zevk99jZokQ4TOoEMmfJiMHkRSgA40uTa2KlXI3AEfrl-lScCXpkuuWw_qkhTkA) examined **seven commonly used depression scales**.
 
 * All seven claim to measure "depression". Between them, they contain **52 different symptoms**.
 
@@ -755,49 +769,6 @@ This is the ***jingle fallacy***: assuming two things are the same because they 
 ::: {.callout-warning}
 #### Asking for participants' time has ethical consequences
 If the data cannot be interpreted in the end, the amount collected is irrelevant. Asking 300 people to complete an instrument that cannot possibly support a valid conclusion is an **ethical** problem, not merely a technical one.
-
-Remember this when you design your pilot study in Session 12.
-:::
-
-# Group discussion {background-color="#14497F" .center}
-
-## Instructions
-
-::: {.incremental}
-
-* Form groups of **five** — this will be **your project group for the whole semester**.
-
-* Choose **one psychological construct** your group would like to measure. It need not be final; we sharpen it in Session 9.
-
-* Discuss the questions on the next slide (**20 minutes**), then each group presents its answers in **3 minutes**.
-
-:::
-
-::: {.notes}
-Split students into groups of five. Circulate between groups rather than staying at the front.
-If a group stalls on question 2, prompt with: "if the total score goes down, what has changed
-about the person?" Leave at least 20 minutes for presentations and the wrap-up.
-:::
-
-## Four questions
-
-::: {.incremental}
-
-1. **What is your construct called, and what is *not* part of it?** Name one neighbouring construct it must be distinguished from.
-
-2. **Scale, index, or emergent variable?** Does your construct **cause** the answers to its items, or do the items **constitute** the construct? What is your argument?
-
-3. **What would "zero" mean on your construct?** Is there anyone who genuinely has none of this attribute? If not, what follows for how you report scores?
-
-4. **Does an instrument already exist?** If it does — why build another? If it does not — why do you think nobody has?
-
-:::
-
-. . .
-
-::: {.callout-tip}
-#### Question 1 is the hardest
-Stating what your construct **excludes** will do more for the quality of your scale than stating what it includes. We will call this the **construct boundary** in Session 9.
 :::
 
 # Summary {background-color="#14497F" .center}
@@ -835,7 +806,7 @@ We will take apart the **assumptions** we have only touched on today:
 
 ::: {.callout-tip}
 #### Preparation
-Read **DeVellis & Thorpe (2022), Chapter 1**. If you have time, look at Chapters 1 and 2 of Petersen (linked on the Reading slide).
+Read **DeVellis & Thorpe (2022), Chapter 1**. If you have time, look at Chapters 1 and 2 of [Petersen](https://isaactpetersen.github.io/Principles-Psychological-Assessment/).
 :::
 
 ## Any questions❓

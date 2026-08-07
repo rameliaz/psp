@@ -23,7 +23,7 @@ execute:
 ::: {.incremental}
 
 * Reliability is not one thing: **three different questions**
-* *Split-half* and the **Spearman-Brown** formula we have twice deferred
+* *Split-half* and the **Spearman-Brown** formula
 * ***Cronbach's alpha***: what it actually measures, and what it does not
 * A demonstration with real data: **$\alpha$ cannot detect multidimensionality**
 * The ***omega*** coefficient and the tau-equivalence assumption from Session 3
@@ -63,7 +63,7 @@ $$\rho_{XX'} = \frac{\sigma^2_T}{\sigma^2_X}$$
 Every number on the following slides is computed from `data/data.csv` in this course repository — 50 IPIP *Big Five* items, **n = 19,718**. You can reproduce all of it in jamovi.
 :::
 
-# Reliability is not one thing {background-color="#14497F" .center}
+# Reliability {background-color="#14497F" .center}
 
 ## Three different questions
 
@@ -92,15 +92,6 @@ Reporting $\alpha$ tells you **nothing** about the stability of your scores over
 
 * There is one problem that cannot be avoided: if the correlation is low, we **cannot tell** whether the instrument is unreliable or the people have changed.
 
-:::
-
-. . .
-
-::: {.callout-note}
-#### For your project
-Test-retest requires reaching the same respondents twice. Given this semester's schedule, that is **not realistic**.
-
-What matters is that you know the internal consistency you will compute **does not substitute** for this information.
 :::
 
 # Split-half and Spearman-Brown {background-color="#14497F" .center}
@@ -168,7 +159,7 @@ $$\rho^* = \frac{n\rho}{1 + (n-1)\rho}$$
 
 . . .
 
-This is the formula we have **deferred twice** — in Session 1 with Bernoulli's arrows, and in Session 3 when explaining why adding items raises reliability.
+Recall Bernoulli's arrows from Session 1. The Spearman-Brown formula shows why adding items raises reliability.
 
 . . .
 
@@ -291,7 +282,7 @@ Starting from $\alpha = .892$ at 10 items:
 
 * Almost everyone cites **.70** as the minimum, and attributes it to Nunnally.
 
-* Lance, Butts, & Michels (2006) went back to the source. Nunnally proposed .70 only for **the early stages of research**; for basic research he recommended **.80**, and for decisions about individuals **.90 or higher**.
+* [Lance, Butts, & Michels (2006)](https://journals.sagepub.com/doi/abs/10.1177/1094428105284919) went back to the source. Nunnally proposed .70 only for **the early stages of research**; for basic research he recommended **.80**, and for decisions about individuals **.90 or higher**.
 
 * The .70 used everywhere is, in effect, **a misapplied citation**.
 
@@ -301,9 +292,7 @@ Starting from $\alpha = .892$ at 10 items:
 
 ::: {.callout-warning}
 #### What to do instead
-Do not treat .70 as pass or fail. **Match it to what your scores are for**: for group-level research .70 is adequate; for decisions about individuals it is nowhere near enough.
-
-Recall the SEM computation from Session 3 — that is how to check it concretely.
+Do not treat .70 as pass or fail. **Match it to what your scores are for**: for group-level research .70 is adequate; for decisions about individuals, especially in high-stakes contexts, .70 is nowhere near enough.
 :::
 
 # What $\alpha$ does not measure {background-color="#14497F" .center}
@@ -326,7 +315,7 @@ Recall the SEM computation from Session 3 — that is how to check it concretely
 $\alpha = 0.616$
 :::
 
-## Look at that number
+## Why doesn't mixing two scales produce an obviously bad $\alpha$?
 
 ::: {.incremental}
 
@@ -341,7 +330,7 @@ $\alpha = 0.616$
 . . .
 
 ::: {.callout-warning}
-#### The main point of today's session
+#### The point
 **$\alpha$ was never designed to detect how many dimensions live inside your scale.** It looks only at the mean inter-item correlation and the number of items.
 :::
 
@@ -429,7 +418,7 @@ The IPIP Extraversion scale, 10 items:
 
 ::: {.callout-note}
 #### A note on this
-$\omega$ is **not** always larger or smaller than $\alpha$. When items are uniform, the two sit close together. The difference appears precisely when there is something you need to know about.
+$\omega$ is **not** always larger or smaller than $\alpha$. When items are uniform, the two sit close together. The difference appears precisely when your construct is not unidimensional.
 :::
 
 ## When they diverge
@@ -459,12 +448,6 @@ Compute **both**. If $\alpha$ and $\omega$ are close, you have additional eviden
 
 * For that you have to look at the correlation structure itself: eigenvalues, a scree plot, or a factor analysis.
 
-:::
-
-. . .
-
-::: {.callout-warning}
-In Session 13 you will do this on your group's pilot data. The order matters: **check dimensionality first, then compute reliability** — separately for each dimension.
 :::
 
 # Precision at the individual level {background-color="#14497F" .center}
@@ -566,11 +549,9 @@ The tell-tale sign: **a negative item-rest correlation**.
 ::: {.callout-tip}
 #### Something to be careful about
 Do not drop items purely on the numbers. If an item is **conceptually essential** to defining your construct, removing it to raise α means trading content validity for a higher coefficient.
-
-We take this up further in Sessions 7 and 11.
 :::
 
-## Checking dimensionality
+## Checking dimensionality ('*nice to know*')
 
 ::: {.incremental}
 
@@ -650,12 +631,6 @@ reversed; check the scoring before concluding anything about the item.
 
 3. Will your group's scores be used to **describe a group** or to **interpret individuals**? How does that change the reliability standard you should aim for?
 
-:::
-
-. . .
-
-::: {.callout-tip}
-Question 3 is decisive, but is rarely asked.
 :::
 
 # Summary {background-color="#14497F" .center}

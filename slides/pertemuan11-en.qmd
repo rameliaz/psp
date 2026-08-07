@@ -39,8 +39,6 @@ We used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate referen
 
 :::
 
-# Starting the practical half {background-color="#14497F" .center}
-
 ## Where we are
 
 ::: {.incremental}
@@ -110,7 +108,7 @@ These three give different kinds of feedback. A panel made up entirely of academ
 :::
 
 ::: aside
-Lynn (1986).
+[Lynn (1986).](https://journals.lww.com/nursingresearchonline/_layouts/15/oaks.journals/downloadpdf.aspx?an=00006199-198611000-00017)
 :::
 
 . . .
@@ -190,6 +188,21 @@ That is construct underrepresentation from Session 7. The only way to check it t
 :::
 
 # Computing the I-CVI {background-color="#14497F" .center}
+
+## Download the Excel template for computing the CVI
+
+::: {.incremental}
+
+* We provide an Excel template for computing I-CVI, S-CVI Universal Agreement (UA), S-CVI Average (Ave), and the chance-corrected modified kappa (κ*).
+
+* These concepts are explained in the next few slides.
+
+:::
+
+. . .
+
+### [Click here to download the template](libs/menghitung-icvi.xlsx)
+
 
 ## The formula
 
@@ -406,7 +419,7 @@ Report **both**: the result before revision and after, together with the decisio
 :::
 
 ::: aside
-Haynes, Richard, & Kubany (1995); Rubio et al. (2003).
+[Haynes, Richard, & Kubany (1995)](https://psycnet.apa.org/record/1996-03400-001); [Rubio et al. (2003)](https://academic.oup.com/swr/article-abstract/27/2/94/1659075).
 :::
 
 . . .
@@ -474,12 +487,6 @@ Leave 15 minutes to work through one or two groups' results with the whole class
 
 :::
 
-. . .
-
-::: {.callout-warning}
-The table and decision record go into the final report and fill the **Item review / CVI** row of the assessment rubric.
-:::
-
 ## For Session 12
 
 ::: {.incremental}
@@ -512,8 +519,6 @@ Bring today's revised item list. If ratings from your actual panel have come bac
 ## References {.smaller}
 
 AERA, APA, & NCME. (2014). *Standards for educational and psychological testing*. American Educational Research Association.
-
-Cicchetti, D. V., & Sparrow, S. A. (1981). Developing criteria for establishing interrater reliability of specific items. *American Journal of Mental Deficiency, 86*(2), 127–137.
 
 Davis, L. L. (1992). Instrument review: Getting the most from a panel of experts. *Applied Nursing Research, 5*(4), 194–197.
 

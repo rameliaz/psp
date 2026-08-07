@@ -39,24 +39,16 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 
 :::
 
-# Memulai paruh praktik {background-color="#14497F" .center}
-
-## Di mana posisi kita
+## Posisi Anda saat ini
 
 ::: {.incremental}
 
-* **Pertemuan 9** menghasilkan dokumen spesifikasi konstruk: definisi, batas, *estimand*, aspek, dan indikator.
+* **Pertemuan 9** menghasilkan uraian spesifikasi konstruk: definisi, batas, *estimand*, aspek, dan indikator.
 
 * **Pertemuan 10** menghasilkan kisi-kisi dan daftar item, beserta format responsnya.
 
-* **Hari ini** daftar item itu dinilai orang lain, sebelum satu pun responden mengisinya.
+* **Hari ini** daftar item itu akan dinilai orang lain, sebelum partisipan mengisinya.
 
-:::
-
-. . .
-
-::: {.callout-note}
-Mulai pertemuan ini sampai Pertemuan 15, kelas berlangsung di Ruang 303 pada hari dan jam yang berbeda dari paruh pertama.
 :::
 
 ::: {.notes}
@@ -65,7 +57,7 @@ membawa dokumen spesifikasi konstruk dan daftar item. Kelompok yang belum membaw
 mengikuti praktik hari ini secara penuh; minta mereka mengerjakannya di sesi ini juga.
 :::
 
-## Kaitannya dengan yang sudah dipelajari
+## Kaitan materi hari ini dengan yang sudah dipelajari
 
 ::: {.incremental}
 
@@ -89,11 +81,11 @@ Prosedurnya sama. Yang berbeda hanya kriterianya: bukan posisi pernyataan pada k
 
 ::: {.incremental}
 
-* **Ahli isi** — orang yang menguasai konstruknya: dosen, peneliti, atau praktisi di bidang tersebut.
+* **Ahli isi konstruk** — orang yang menguasai konstruknya: dosen, peneliti, atau praktisi di bidang tersebut.
 
 * **Ahli metode** — orang yang menguasai penyusunan skala, yang bisa menilai apakah item ditulis dengan baik.
 
-* **Wakil populasi sasaran** — bukan ahli dalam arti akademis, tetapi paling tahu apakah kalimatnya masuk akal bagi calon responden.
+* **Wakil populasi sasaran** — orang dengan karakteristik yang mirip dengan karakteristik partisipan.
 
 :::
 
@@ -109,14 +101,14 @@ Ketiganya memberi masukan yang berbeda. Panel yang seluruhnya berisi dosen cende
 
 * **Minimal 3 orang.** Di bawah itu, kesepakatan hampir tidak berarti apa-apa.
 
-* **5 sampai 10 orang** adalah wilayah yang lazim dan lebih aman.
+* **5 sampai 10 orang** adalah keputusan yang umum dan lebih aman.
 
-* Jumlah panel menentukan kriteria kelulusan itemnya, jadi tetapkan jumlahnya lebih dulu.
+* Jumlah panel menentukan kriteria kelulusan itemnya, jadi tetapkan jumlah anggota panelnya lebih dulu.
 
 :::
 
 ::: aside
-Lynn (1986).
+[Lynn (1986).](https://journals.lww.com/nursingresearchonline/_layouts/15/oaks.journals/downloadpdf.aspx?an=00006199-198611000-00017)
 :::
 
 . . .
@@ -197,6 +189,21 @@ Itulah *construct underrepresentation* dari Pertemuan 7. Satu-satunya cara memer
 
 # Menghitung I-CVI {background-color="#14497F" .center}
 
+## *Download* Template Excel untuk menghitung CVI
+
+::: {.incremental}
+
+* Kami menyediakan *template* Excel untuk menghitung I-CVI, S-CVI Universal Agreement (UA), S-CVI Average (Ave), dan *chance-corrected modified Kappa* (κ*).
+
+* Konsep-konsep ini akan dijelaskan di bagian selanjutnya.
+
+:::
+
+. . .
+
+### [Klik di sini untuk mengunduh *template*](libs/menghitung-icvi.xlsx)
+
+
 ## Rumusnya
 
 $$\text{I-CVI} = \frac{\text{jumlah penilai yang memberi nilai 3 atau 4}}{\text{jumlah seluruh penilai}}$$
@@ -215,31 +222,31 @@ $$\text{I-CVI} = \frac{\text{jumlah penilai yang memberi nilai 3 atau 4}}{\text{
 
 ## Contoh: 8 item, 6 penilai
 
-| Item | Penilai yang menilai relevan | I-CVI |
+| Item | Penilai yang menilai relevansi | I-CVI |
 |:--:|:--:|:--:|
-| A1 | 6 | 1,00 |
-| A2 | 6 | 1,00 |
-| A3 | 5 | 0,83 |
-| A4 | 6 | 1,00 |
-| A5 | 4 | 0,67 |
-| A6 | 5 | 0,83 |
-| A7 | 6 | 1,00 |
-| A8 | 3 | 0,50 |
+| A1 | 6 | 1.00 |
+| A2 | 6 | 1.00 |
+| A3 | 5 | 0.83 |
+| A4 | 6 | 1.00 |
+| A5 | 4 | 0.67 |
+| A6 | 5 | 0.83 |
+| A7 | 6 | 1.00 |
+| A8 | 3 | 0.50 |
 
 ::: {.notes}
 Minta mahasiswa menghitung sendiri kolom I-CVI sebelum ditampilkan. Ini cepat dan membuat
 rumusnya melekat. Tanyakan mana yang menurut mereka bermasalah sebelum kriteria diperkenalkan.
 :::
 
-## Kriteria kelulusan
+## Kriteria kelulusan item
 
 ::: {.incremental}
 
-* Dengan **3 sampai 5 penilai**: I-CVI harus **1,00**. Semua penilai harus sepakat.
+* Dengan **3 sampai 5 penilai**: I-CVI harus **1.00**. Semua penilai harus sepakat.
 
-* Dengan **6 sampai 8 penilai**: I-CVI minimal **0,83**.
+* Dengan **6 sampai 8 penilai**: I-CVI minimal **0.83**.
 
-* Dengan **9 penilai atau lebih**: I-CVI minimal **0,78**.
+* Dengan **9 penilai atau lebih**: I-CVI minimal **0.78**.
 
 :::
 
@@ -249,7 +256,7 @@ Lynn (1986); Polit & Beck (2006).
 
 . . .
 
-Pada contoh tadi, dengan 6 penilai, dua item tidak lolos: **A5** (0,67) dan **A8** (0,50).
+Pada contoh tadi, dengan 6 penilai, dua item tidak lolos: **A5** (0.67) dan **A8** (0.50).
 
 . . .
 
@@ -265,9 +272,9 @@ Perhatikan bahwa kriterianya **lebih ketat kalau penilainya sedikit**. Alasannya
 
 * Kalau penilai memberi nilai secara asal, sebagian kesepakatan tetap akan muncul **secara kebetulan**.
 
-* Dengan penilai yang sedikit, peluang kebetulan itu besar. Dengan 3 penilai, peluang ketiganya kebetulan sama-sama menilai "relevan" adalah 12,5%.
+* Dengan penilai yang sedikit, peluang kebetulan itu besar. Dengan 3 penilai, peluang ketiganya kebetulan sama-sama menilai "relevan" adalah 12.5%.
 
-* Karena itu I-CVI saja bisa memberi kesan yang terlalu baik.
+* Karena itu I-CVI saja bisa memberi angka yang terlalu tinggi.
 
 :::
 
@@ -291,28 +298,28 @@ Polit, Beck, & Owen (2007).
 
 | Item | $A$ | I-CVI | $p_c$ | $\kappa^*$ | Penilaian |
 |:--:|:--:|:--:|:--:|:--:|---|
-| A1 | 6 | 1,00 | 0,016 | 1,00 | sangat baik |
-| A3 | 5 | 0,83 | 0,094 | 0,82 | sangat baik |
-| A5 | 4 | 0,67 | 0,234 | 0,56 | cukup |
-| A8 | 3 | 0,50 | 0,313 | 0,27 | kurang |
+| A1 | 6 | 1.00 | 0.016 | 1.00 | sangat baik |
+| A3 | 5 | 0.83 | 0.094 | 0.82 | sangat baik |
+| A5 | 4 | 0.67 | 0.234 | 0.56 | cukup |
+| A8 | 3 | 0.50 | 0.313 | 0.27 | kurang |
 
 . . .
 
 ::: {.callout-note}
-Patokan yang lazim: $\kappa^* > 0{,}74$ sangat baik, $0{,}60$–$0{,}74$ baik, $0{,}40$–$0{,}59$ cukup, di bawah itu kurang.
+Patokan yang umum: $\kappa^* > 0{.}74$ sangat baik, $0{.}60$–$0{.}74$ baik, $0{.}40$–$0{.}59$ cukup, di bawah itu kurang.
 
-Perhatikan A8: I-CVI 0,50 terlihat seperti "setengah setuju", tetapi setelah dikoreksi, kesepakatannya nyaris tidak lebih baik daripada tebakan.
+Perhatikan A8: I-CVI 0.50 terlihat seperti "setengah setuju", tetapi setelah dikoreksi, kesepakatannya nyaris tidak lebih baik daripada tebakan acak.
 :::
 
 # Menghitung S-CVI {background-color="#14497F" .center}
 
-## Dua cara, dua angka
+## I-CVI vs. S-CVI
 
 ::: {.incremental}
 
 * **S-CVI/Ave** — rata-rata dari seluruh I-CVI. Menggambarkan relevansi rata-rata.
 
-* **S-CVI/UA** — proporsi item yang disepakati **semua** penilai (*universal agreement*). Jauh lebih ketat.
+* **S-CVI/UA** — proporsi item yang disepakati **semua** penilai (*universal agreement*), yang jauh lebih ketat daripada S-CVI(Ave).
 
 :::
 
@@ -320,14 +327,14 @@ Perhatikan A8: I-CVI 0,50 terlihat seperti "setengah setuju", tetapi setelah dik
 
 Pada contoh tadi:
 
-$$\text{S-CVI/Ave} = \frac{6{,}83}{8} = 0{,}85 \qquad \text{S-CVI/UA} = \frac{4}{8} = 0{,}50$$
+$$\text{S-CVI/Ave} = \frac{6{.}83}{8} = 0{.}85 \qquad \text{S-CVI/UA} = \frac{4}{8} = 0{.}50$$
 
-## Data yang sama, kesan yang berbeda
+## Data yang sama, tapi kesan yang berbeda
 
 ::: {.r-fit-text}
-0,85 terlihat memadai.
+0.85 terlihat memadai.
 
-0,50 terlihat bermasalah.
+0.50 terlihat bermasalah.
 :::
 
 <br>
@@ -338,7 +345,7 @@ $$\text{S-CVI/Ave} = \frac{6{,}83}{8} = 0{,}85 \qquad \text{S-CVI/UA} = \frac{4}
 
 * Keduanya dihitung dari tabel yang persis sama.
 
-* Polit & Beck (2006) menulis artikel khusus tentang kekacauan ini: banyak laporan menyebut "CVI" tanpa menjelaskan yang mana.
+* Polit & Beck (2006) menulis artikel khusus tentang keruwetan ini: banyak laporan menyebut "CVI" tanpa menjelaskan CVI yang versi mana.
 
 :::
 
@@ -346,9 +353,9 @@ $$\text{S-CVI/Ave} = \frac{6{,}83}{8} = 0{,}85 \qquad \text{S-CVI/UA} = \frac{4}
 
 ::: {.callout-warning}
 #### Yang harus kelompok Anda lakukan
-Sebutkan **secara eksplisit** cara perhitungan yang dipakai. Menulis "CVI = 0,85" tanpa keterangan membuat angka itu tidak bisa ditafsirkan orang lain.
+Sebutkan **secara eksplisit** cara perhitungan yang dipakai. Menulis "CVI = 0.85" tanpa keterangan membuat angka itu tidak bisa ditafsirkan orang lain.
 
-Yang lazim dilaporkan adalah **S-CVI/Ave**, dengan patokan minimal **0,90**.
+Yang lazim dilaporkan adalah **S-CVI/Ave**, dengan patokan minimal **0.90**.
 :::
 
 ::: {.notes}
@@ -363,7 +370,7 @@ mereka sendiri dan membandingkannya.
 
 ::: {.incremental}
 
-* **Perbaiki dulu, jangan langsung dibuang.** Baca komentar penilai. Sering kali masalahnya ada pada kalimatnya, bukan pada gagasannya.
+* **Perbaiki dulu, jangan langsung dibuang.** Baca komentar anggota panel. Sering kali masalahnya ada pada penulisan kalimatnya.
 
 * **Buang** kalau item itu memang mengukur hal lain, atau kalau aspeknya sudah diwakili item lain yang lebih baik.
 
@@ -374,7 +381,7 @@ mereka sendiri dan membandingkannya.
 . . .
 
 ::: {.callout-warning}
-Ingat paradoks atenuasi dari Pertemuan 7. Membuang item hanya demi angka yang lebih rapi bisa mempersempit cakupan isi, dan itu justru merugikan.
+Ingat paradoks atenuasi dari Pertemuan 7. Membuang item hanya demi koefisien reliabilitas yang lebih tinggi bisa mempersempit cakupan isi skala, dan itu justru merugikan.
 :::
 
 ## Hitung ulang setelah perbaikan
@@ -383,11 +390,11 @@ Kalau A5 dan A8 diperbaiki lalu dinilai ulang, atau dikeluarkan:
 
 ::: {.incremental}
 
-* Enam item tersisa punya I-CVI: 1,00 — 1,00 — 0,83 — 1,00 — 0,83 — 1,00
+* Enam item tersisa punya I-CVI: 1.00 — 1.00 — 0.83 — 1.00 — 0.83 — 1.00
 
-* $\text{S-CVI/Ave} = 5{,}67 / 6 = \mathbf{0{,}94}$
+* $\text{S-CVI/Ave} = 5{.}67 / 6 = \mathbf{0{.}94}$
 
-* Sekarang melewati patokan 0,90.
+* Sekarang melewati patokan 0.90.
 
 :::
 
@@ -403,22 +410,22 @@ Laporkan **kedua-duanya**: hasil sebelum perbaikan dan sesudahnya, beserta keput
 
 ::: {.incremental}
 
-* **Kelengkapan.** CVI menilai item yang ada, bukan item yang seharusnya ada. Untuk itu Anda perlu bertanya langsung kepada panel.
+* **Kelengkapan.** CVI menilai item yang ada, bukan item yang seharusnya ada. Untuk itu Anda perlu bertanya langsung kepada anggota panel.
 
-* **Kejelasan bagi responden.** Penilai ahli membaca item dengan cara yang berbeda dari calon responden. Pemeriksaan kejelasan dilakukan lewat wawancara kognitif, seperti dibahas di Pertemuan 7.
+* **Kejelasan bagi responden.** Penilai ahli membaca item dengan cara yang berbeda dari calon partisipan. Pemeriksaan kejelasan dilakukan lewat wawancara kognitif, seperti yang dibahas di Pertemuan 7.
 
-* **Apakah konstruknya sendiri masuk akal.** Kalau definisi konstruk Anda bermasalah, panel akan menilai relevansi terhadap definisi yang bermasalah itu.
+* **Apakah konstruknya sendiri masuk akal.** Kalau definisi konstruk Anda bermasalah, anggota panel akan menilai relevansi terhadap definisi yang bermasalah itu.
 
 :::
 
 ::: aside
-Haynes, Richard, & Kubany (1995); Rubio dkk. (2003).
+[Haynes, Richard, & Kubany (1995)](https://psycnet.apa.org/record/1996-03400-001); [Rubio dkk. (2003)](https://academic.oup.com/swr/article-abstract/27/2/94/1659075).
 :::
 
 . . .
 
 ::: {.callout-tip}
-CVI adalah satu sumber bukti, bukan penentu akhir. Ia menempati satu baris pada tabel bukti validitas di Pertemuan 7 — bukan seluruh tabelnya.
+CVI adalah satu sumber bukti validitas, bukan penentu final. Ia "hanya" menempati satu baris pada tabel bukti validitas di Pertemuan 7.
 :::
 
 # Praktik {background-color="#14497F" .center}
@@ -473,18 +480,13 @@ Sisakan 15 menit untuk membahas hasil satu atau dua kelompok di depan kelas.
 
 ::: {.incremental}
 
-* **Berkas panel** yang siap dikirim.
+* **Berkas untuk dikirim ke anggota panel** yang sudah siap.
 * **Tabel perhitungan** berisi I-CVI, $\kappa^*$, S-CVI/Ave, dan S-CVI/UA.
 * **Catatan keputusan** untuk tiap item: dipertahankan, diperbaiki, atau dikeluarkan, beserta alasannya.
 * **Daftar item hasil revisi**, siap dipakai untuk uji coba.
 
 :::
 
-. . .
-
-::: {.callout-warning}
-Tabel dan catatan keputusan ini masuk ke laporan akhir, dan mengisi baris **Review Item/CVI** pada rubrik penilaian.
-:::
 
 ## Untuk Pertemuan 12
 
@@ -518,8 +520,6 @@ Bawa daftar item hasil revisi hari ini. Kalau hasil penilaian dari panel yang se
 ## Rujukan {.smaller}
 
 AERA, APA, & NCME. (2014). *Standards for educational and psychological testing*. American Educational Research Association.
-
-Cicchetti, D. V., & Sparrow, S. A. (1981). Developing criteria for establishing interrater reliability of specific items. *American Journal of Mental Deficiency, 86*(2), 127–137.
 
 Davis, L. L. (1992). Instrument review: Getting the most from a panel of experts. *Applied Nursing Research, 5*(4), 194–197.
 

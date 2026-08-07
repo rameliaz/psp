@@ -268,7 +268,7 @@ So far the idea is sound. The difficulty is in the execution.
 :::
 
 ::: aside
-Summarised from Chyung, Barkin, & Shamsy (2018); see also Weijters, Baumgartner, & Schillewaert (2013).
+Summarised from [Chyung, Barkin, & Shamsy (2018)](https://onlinelibrary.wiley.com/doi/abs/10.1002/pfi.21749); see also [Weijters, Baumgartner, & Schillewaert (2013)](https://psycnet.apa.org/record/2013-15543-001).
 :::
 
 ## And respondents stop noticing
@@ -328,7 +328,7 @@ From Session 4, settle these now for **the whole scale**:
 
 ::: {.callout-note}
 #### On the midpoint
-Chyung et al. (2017) suggest reframing the question: not *"should there be a midpoint"* but *"when is a midpoint appropriate"*. A midpoint is appropriate when it is a genuine middle position, not somewhere to hedge.
+[Chyung et al. (2017)](https://onlinelibrary.wiley.com/doi/abs/10.1002/pfi.21727) suggest reframing the question: not *"should there be a midpoint"* but *"when is a midpoint appropriate"*. A midpoint is appropriate when it is a genuine middle position, not somewhere to hedge.
 
 If what you expect is genuine uncertainty, provide a separate "don't know" option rather than folding it into the midpoint.
 :::
@@ -346,7 +346,7 @@ If what you expect is genuine uncertainty, provide a separate "don't know" optio
 :::
 
 ::: aside
-Chyung, Kennedy, & Campbell (2018).
+[Chyung, Kennedy, & Campbell (2018).](https://onlinelibrary.wiley.com/doi/abs/10.1002/pfi.21800)
 :::
 
 # Assembling the questionnaire {background-color="#14497F" .center}
@@ -375,7 +375,7 @@ Bikos, *ReCentering Psych Stats: Psychometrics*, Chapter 2.
 
 ::: {.incremental}
 
-* Pershing & Pershing (2001) examined 50 training-evaluation forms used at a well-regarded medical school.
+* [Pershing & Pershing (2001)](https://onlinelibrary.wiley.com/doi/abs/10.1002/1532-1096%28200101/02%2912%3A1%3C73%3A%3AAID-HRDQ6%3E3.0.CO%3B2-7) examined 50 training-evaluation forms used at a well-regarded medical school.
 
 * **72%** had no introductory statement at all. **78%** had no closing statement. **30%** had no instructions, and another 54% had minimal ones.
 
@@ -415,7 +415,7 @@ Put them at the **end**, unless they are needed to screen respondents at the sta
 
 * **15 minutes** — Complete your group's blueprint: facets, weights, indicators, and the number of items to write.
 
-* **40 minutes** — Write the items. Aim for the "items written" column, not the final target.
+* **40 minutes** — Write the items.
 
 * **10 minutes** — Settle the response format and draft the instructions.
 
@@ -469,25 +469,6 @@ Return the list with **written notes**, not a general verdict. "Item 7 is double
 Bring all of it to Session 11. The expert panel cannot judge item relevance without reading your construct definition and blueprint.
 :::
 
-## For Session 11
-
-::: {.incremental}
-
-* The topic is expert review and computing the *Content Validity Index*.
-
-* Bring your construct specification, blueprint, and item list.
-
-* Check the schedule — the day, time, and room for the remaining sessions may differ from the first half.
-
-:::
-
-. . .
-
-::: {.callout-tip}
-#### Preparation
-Read **Polit & Beck (2006)** if you have time. More importantly, make sure your item list is tidy, because that is what the panel will be rating.
-:::
-
 ## Any questions❓
 
 ![](libs/closing.JPG){fig-align="center"}
@@ -503,8 +484,6 @@ Read **Polit & Beck (2006)** if you have time. More importantly, make sure your 
 
 Bikos, L. H. *ReCentering psych stats: Psychometrics*. <https://lhbikos.github.io/ReC_Psychometrics/>
 
-Boateng, G. O., Neilands, T. B., Frongillo, E. A., Melgar-Quiñonez, H. R., & Young, S. L. (2018). Best practices for developing and validating scales for health, social, and behavioral research: A primer. *Frontiers in Public Health, 6*, 149.
-
 Chyung, S. Y., Barkin, J. R., & Shamsy, J. A. (2018). Evidence-based survey design: The use of negatively worded items in surveys. *Performance Improvement, 57*(3), 16–25.
 
 Chyung, S. Y., Kennedy, M., & Campbell, I. (2018). Evidence-based survey design: The use of ascending or descending order of Likert-type response options. *Performance Improvement, 57*(9), 9–16.
@@ -518,7 +497,5 @@ Krosnick, J. A., & Presser, S. (2010). Question and questionnaire design. In P. 
 Likert, R. (1932). A technique for the measurement of attitudes. *Archives of Psychology, 22*(140), 1–55.
 
 Pershing, J. A., & Pershing, J. L. (2001). Ineffective reaction evaluation. *Performance Improvement Quarterly, 14*(1), 73–90.
-
-Swain, S. D., Weathers, D., & Niedrich, R. W. (2008). Assessing three sources of misresponse to reversed Likert items. *Journal of Marketing Research, 45*(1), 116–131.
 
 Weijters, B., Baumgartner, H., & Schillewaert, N. (2013). Reversed item bias: An integrative model. *Psychological Methods, 18*(3), 320–334.

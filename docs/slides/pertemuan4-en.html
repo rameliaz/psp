@@ -355,9 +355,9 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <section id="neutral-and-undecided-are-not-the-same-thing" class="slide level2">
 <h2>“Neutral” and “undecided” are not the same thing</h2>
 <ul>
-<li class="fragment"><p>Midpoints get labelled <strong>“Neutral”</strong>, <strong>“Undecided”</strong>, <strong>“Neither agree nor disagree”</strong>, or <strong>“Agree and disagree equally”</strong> as though these were interchangeable.</p></li>
-<li class="fragment"><p><strong>“Neither agree nor disagree”</strong> suggests indifference. <strong>“Agree and disagree equally”</strong> suggests a strong but balanced pull in both directions. <strong>“Undecided”</strong> suggests not knowing yet.</p></li>
-<li class="fragment"><p>These sit at different places on the continuum, but all receive the same number: 3.</p></li>
+<li class="fragment"><p>Many questionnaires label the midpoint <strong>“Neutral”</strong>, <strong>“Undecided”</strong>, or <strong>“Slightly Disagree”</strong>, as though the three meant the same thing.</p></li>
+<li class="fragment"><p><strong>“Neutral”</strong> means not leaning either way. <strong>“Undecided”</strong> means not knowing or not yet sure. <strong>“Slightly Disagree”</strong> already leans toward the disagree side.</p></li>
+<li class="fragment"><p>The three sit at different places on the continuum, but all receive the same number: 3.</p></li>
 </ul>
 <div class="fragment">
 <div class="callout callout-warning callout-titled callout-style-default">
@@ -369,7 +369,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <p><strong>Why this is not a small matter</strong></p>
 </div>
 <div class="callout-content">
-<p>It bears directly on the equal-interval assumption from Session 2. It is also possible that most respondents do not attend to the wording at all and simply treat any centre option as a midpoint — which is its own problem, because then your label is doing no work.</p>
+<p>This violates the equal-interval assumption from Session 2. If “Slightly Disagree” is used as the midpoint, the scale is no longer symmetric: the distance from 2 to 3 is not the same as the distance from 3 to 4.</p>
 </div>
 </div>
 </div>
@@ -662,8 +662,8 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <h2>Where Guttman fails</h2>
 <ul>
 <li class="fragment"><p>As soon as the construct is not concrete, the ordering <strong>stops being the same for everyone</strong>.</p></li>
-<li class="fragment"><p>DeVellis gives an example: two items about parental aspirations that are logically ordered, yet someone might agree with the third and disagree with the fourth because they see success as simultaneously helping and hindering happiness.</p></li>
-<li class="fragment"><p>For most psychological constructs, deviations like this are not the exception — they are ordinary.</p></li>
+<li class="fragment"><p>DeVellis gives an example: a hypothetical Guttman scale on parental aspirations, with 4 items meant to be ordered. Two matter here — item 3, <em>“Happiness is more likely if a person has attained his or her educational and material goals,”</em> and item 4, <em>“The customarily valued trappings of success are not a hindrance to true happiness.”</em></p></li>
+<li class="fragment"><p>Logically, agreeing with item 3 should mean agreeing with item 4 too. But someone who sees success as <strong>simultaneously helping and hindering</strong> happiness might agree with item 3 while disagreeing with item 4 — a pattern that breaks the Guttman order.</p></li>
 </ul>
 <div class="fragment">
 <div class="callout callout-warning callout-titled callout-style-default">
@@ -676,7 +676,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 </div>
 <div class="callout-content">
 <p>DeVellis notes something easy to miss: <strong>the assumption that all items relate equally strongly to the latent variable does not hold</strong> for Guttman items.</p>
-<p>So the <em>parallel</em> and <em>tau-equivalent</em> models from Session 3 <strong>do not fit</strong> a Guttman scale — and coefficients like <span class="math inline">\(\alpha\)</span> cannot simply be applied.</p>
+<p>So the <em>parallel</em> and <em>tau-equivalent</em> models from Session 3 <strong>do not fit</strong> a Guttman scale — and coefficients like <span class="math inline">\(\omega\)</span> and <span class="math inline">\(\alpha\)</span> cannot be applied to a Guttman scale.</p>
 </div>
 </div>
 </div>
@@ -687,23 +687,8 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <ul>
 <li class="fragment"><p>Guttman’s weakness is that it is <strong>deterministic</strong>: any deviation counts as an error.</p></li>
 <li class="fragment"><p>Item Response Theory takes the same idea and makes it <strong>probabilistic</strong>: the higher a person’s <span class="math inline">\(\theta\)</span>, the <strong>greater the probability</strong> that they endorse a hard item — not a certainty.</p></li>
-<li class="fragment"><p>The Rasch model is essentially <strong>a probabilistic version of Guttman’s idea</strong>.</p></li>
+<li class="fragment"><p>The IRT model is essentially <strong>a probabilistic version of Guttman’s idea</strong>.</p></li>
 </ul>
-<div class="fragment">
-<div class="callout callout-tip callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Tip</strong></p>
-</div>
-<div class="callout-content">
-<p>This is why the item characteristic curves in Session 3 were smooth rather than a vertical step. Guttman assumes a step; IRT assumes a curve.</p>
-</div>
-</div>
-</div>
-</div>
 </section></section>
 <section>
 <section id="comparing-the-three" class="title-slide slide level1 center" data-background-color="#14497F">
@@ -783,22 +768,6 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <li class="fragment"><p><strong>Semantic Differential</strong> assumes the adjective pair is genuinely bipolar and means the same thing to everyone.</p></li>
 <li class="fragment"><p><strong>Guttman</strong> assumes a <strong>deterministic</strong> cumulative order — the strongest assumption of the three.</p></li>
 </ul>
-<div class="fragment">
-<div class="callout callout-warning callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>The answer to the question we deferred from Session 3</strong></p>
-</div>
-<div class="callout-content">
-<p>Guttman makes the strongest assumption, and precisely for that reason it is the easiest to <strong>see fail</strong>: the pattern visibly falls apart.</p>
-<p>Likert’s assumptions are far weaker, but their violation is <strong>completely invisible</strong> in the data. That is what makes it the more dangerous of the two.</p>
-</div>
-</div>
-</div>
-</div>
 </section></section>
 <section>
 <section id="demonstration-and-exercise" class="title-slide slide level1 center" data-background-color="#14497F">
@@ -825,42 +794,6 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
-</section>
-<section id="part-2-one-content-three-formats" class="slide level2">
-<h2>Part 2: one content, three formats</h2>
-<p>Take <strong>one</strong> construct your group chose in Session 1.</p>
-<ol type="1">
-<li class="fragment"><p>Write <strong>one Likert-type item</strong> for it, complete with anchors.</p></li>
-<li class="fragment"><p>Write <strong>one Semantic Differential item</strong> attempting to capture the same content.</p></li>
-<li class="fragment"><p>Write <strong>one Guttman item</strong> — or explain why your construct cannot be ordered in a Guttman way.</p></li>
-</ol>
-<div class="fragment">
-<p>Time: <strong>20 minutes</strong>. Each group presents which version they think fits best, <strong>and why</strong>.</p>
-</div>
-</section>
-<section id="four-questions-to-close-the-discussion" class="slide level2">
-<h2>Four questions to close the discussion</h2>
-<ol type="1">
-<li class="fragment"><p>Which version was <strong>easiest to write</strong>? Is the easiest also the best?</p></li>
-<li class="fragment"><p>For your construct, does a <strong>midpoint</strong> need to exist? What would it mean if a respondent chose it?</p></li>
-<li class="fragment"><p>If you used frequency anchors, what <strong>time referent</strong> did you use, and why?</p></li>
-<li class="fragment"><p>Which assumption from Session 2 is <strong>most threatened</strong> by the format your group chose?</p></li>
-</ol>
-<div class="fragment">
-<div class="callout callout-tip callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Tip</strong></p>
-</div>
-<div class="callout-content">
-<p>Keep the output of this exercise. The items you write today become raw material when we build the blueprint in Session 10.</p>
-</div>
-</div>
-</div>
-</div>
 </section></section>
 <section>
 <section id="summary-1" class="title-slide slide level1 center" data-background-color="#14497F">
@@ -873,7 +806,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <li class="fragment"><p><strong>Response format is not a matter of taste.</strong> Each format brings its own package of assumptions.</p></li>
 <li class="fragment"><p><strong>A “Likert scale” means a set of summed items</strong>, not one item with five options.</p></li>
 <li class="fragment"><p><strong>Around 5–7 points</strong> is the sensible range; below 4 loses information, above 7 adds little.</p></li>
-<li class="fragment"><p><strong>Midpoints have costs and benefits.</strong> Neither format is automatically better — and “neutral”, “undecided”, and “agree and disagree equally” are not the same thing.</p></li>
+<li class="fragment"><p><strong>Midpoints have costs and benefits.</strong> Neither format is automatically better — and “neutral”, “undecided”, and “slightly disagree” are not the same thing.</p></li>
 <li class="fragment"><p><strong>Semantic Differential</strong> requires adjective pairs that are genuinely opposed in the respondent’s language.</p></li>
 <li class="fragment"><p><strong>Guttman</strong> requires a deterministic cumulative order, so it rarely fits psychological constructs — but its idea reappears inside IRT.</p></li>
 </ol>
@@ -896,7 +829,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <p><strong>Preparation</strong></p>
 </div>
 <div class="callout-content">
-<p>Read the <em>Thurstone Scaling</em> section of <strong>DeVellis &amp; Thorpe (2022), Chapter 5</strong>. Bring the output of today’s exercise.</p>
+<p>Read the <em>Thurstone Scaling</em> section of <strong>DeVellis &amp; Thorpe (2022), Chapter 5</strong>.</p>
 </div>
 </div>
 </div>

@@ -197,7 +197,7 @@ Butuh waktu **satu abad setelah Newton** sampai para ilmuwan secara luas menerim
 
 ::: {.incremental}
 
-* **1660-an, John Graunt** mengumpulkan angka kelahiran dan kematian dari catatan baptis dan pemakaman di London, Inggris. Ia merata-ratakan untuk mendapatkan nilai "sebenarnya" yang menurutnya tertutup oleh peristiwa tak terduga di tiap tahunnya.
+* **1660-an, John Graunt** mengumpulkan angka kelahiran dan kematian dari catatan baptis dan pemakaman di London, Inggris. Ia merata-ratakan nilai setiap pengamatan untuk mendapatkan nilai "sebenarnya", yang menurutnya, tertutup oleh peristiwa tak terduga di tiap tahunnya.
 
 * **1777, Daniel Bernoulli** membandingkan sebaran hasil pengamatan astronomi dengan **jatuhnya anak panah seorang pemanah**, yang sama-sama mengumpul di sekitar satu titik ketika diamati/dilakukan berkali-kali.
 
@@ -469,7 +469,7 @@ Setiap kali Anda membaca kalimat "tidak ditemukan hubungan yang signifikan", tan
 
 ::: {.callout-note}
 #### Perhatikan kolom paling kanan
-Semakin ke bawah, kosntruk psikologisnya semakin **sulit dicari**.
+Semakin ke bawah, konstruk psikologisnya semakin **sulit dicari**.
 :::
 
 ## *True zero*
@@ -478,9 +478,9 @@ Semakin ke bawah, kosntruk psikologisnya semakin **sulit dicari**.
 
 * *True zero* berarti angka nol menandakan **ketiadaan atribut sepenuhnya**.
 
-* Suhu dalam Kelvin punya *true zero*: 100 K benar-benar dua kali 50 K. Suhu dalam Fahrenheit **tidak**: 100 °F bukan dua kali lebih panas dari 50 °F.
+* Suhu dalam Kelvin punya *true zero*: 100 K benar-benar dua kali 50 K. Tetapi, suhu dalam Fahrenheit **tidak punya *true zero***: 100 °F bukan dua kali lebih panas dari 50 °F.
 
-* Sekarang coba jawab: **apa artinya "kecemasan nol"?**
+* Sekarang: **apa artinya "kecemasan = nol"?**
 
 :::
 
@@ -488,7 +488,7 @@ Semakin ke bawah, kosntruk psikologisnya semakin **sulit dicari**.
 
 ::: {.callout-warning}
 #### Psikologi hampir tidak punya skala rasio
-"Tidak punya depresi sama sekali" bukan gagasan yang maknanya jelas. Karena itu, pernyataan seperti *"kelompok A dua kali lebih cemas daripada kelompok B"* hampir selalu **tidak bisa dipertanggungjawabkan**, berapa pun angkanya.
+"Tidak punya depresi sama sekali" bukan gagasan yang maknanya jelas. Karena itu, pernyataan seperti *"kelompok A dua kali lebih cemas daripada kelompok B"* hampir selalu **tidak bisa dipertanggungjawabkan**, berapa pun skornya.
 :::
 
 ## Masalah utamanya
@@ -540,7 +540,7 @@ Perhatikan format respons yang paling sering Anda temui:
 . . .
 
 ::: {.callout-warning}
-#### Konsekuensi statistiknya nyata
+#### Konsekuensi statistiknya
 Teknik statistik parametrik yang akan Anda pakai untuk menganalisis data, korelasi Pearson, uji-t, ANOVA, regresi linear, **mengasumsikan data interval atau rasio**. Menerapkannya pada data ordinal **sebenarnya** melanggar asumsi dasarnya.
 :::
 
@@ -800,7 +800,7 @@ Kita akan membahas lebih detail **asumsi-asumsi** yang hari ini baru disinggung:
 ::: {.incremental}
 
 * Asumsi bahwa atribut psikologis terdistribusi **normal** — dari mana asalnya, dan apa dasarnya?
-* Asumsi bahwa atributnya **kontinu**, bukan kategoris.
+* Asumsi bahwa atributnya ***continuous***, bukan kategorikal.
 * Asumsi bahwa item mengukur hal yang sama **untuk semua kelompok orang**.
 * Asumsi bahwa responden **bisa** dan **mau** melaporkan kondisi internalnya secara akurat.
 

@@ -22,12 +22,11 @@ execute:
 
 ::: {.incremental}
 
-* Tiga hal yang selama ini kita anggap wajar — dan format yang melepaskannya
-* **Thurstone**: item yang sudah dikalibrasi lebih dulu oleh panel juri
-* ***Situational Judgement Test***: mengukur penilaian, bukan pernyataan tentang diri
-* ***Forced-choice***: ketika responden dipaksa memilih, dan skornya menjadi **ipsatif**
-* Kenapa data ipsatif merusak hampir semua yang kita pelajari di Pertemuan 3
-* Apa yang realistis untuk proyek Anda semester ini
+* Tiga asumsi pengukuran yang selama ini diterima begitu saja
+* **Thurstone**: item yang sudah dikalibrasi lebih dulu oleh panel
+* ***Situational Judgement Test***: mengukur penilaian atas situasi, bukan pernyataan tentang diri sendiri
+* ***Forced-choice***: ketika partisipan dipaksa memilih, dan skornya menjadi **ipsatif**
+* Kenapa data ipsatif berlawanan dengan hampir semua yang kita pelajari di Pertemuan 3
 
 :::
 
@@ -38,11 +37,11 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 
 :::
 
-# Tiga hal yang selama ini kita anggap wajar {background-color="#14497F" .center}
+# 3️⃣ asumsi yang selama ini diterima begitu saja {background-color="#14497F" .center}
 
-## Yang tersembunyi di balik format Pertemuan 4
+## Yang belum dijelaskan di pertemuan sebelumnya
 
-Ketika kita memakai skala Likert, kita diam-diam menerima tiga hal:
+Ketika kita memakai skala Likert, secara implisit kita menerima 3️⃣ hal:
 
 ::: {.incremental}
 
@@ -50,7 +49,7 @@ Ketika kita memakai skala Likert, kita diam-diam menerima tiga hal:
 
 2. **Item berupa pernyataan tentang diri sendiri, secara abstrak.** *"Saya orang yang teliti."*
 
-3. **Setiap item dijawab secara terpisah.** Menyetujui satu item tidak memaksa Anda menolak item lain.
+3. **Setiap item dijawab secara terpisah.** Menyetujui satu item tidak berarti memaksa Anda menolak item lain.
 
 :::
 
@@ -58,21 +57,22 @@ Ketika kita memakai skala Likert, kita diam-diam menerima tiga hal:
 
 ::: {.callout-note}
 #### Yang kita bahas hari ini
-Tiga format yang masing-masing **melepaskan satu** di antara ketiganya — dan membayar harganya.
+Tiga format yang masing-masing **menolak** ketiga asumsi ini.
 :::
 
 ## Peta hari ini
 
-| Format | Yang dilepaskan | Yang diperoleh |
+| Format | Yang ditolak | Yang diasumsikan |
 |--------|-----------------|----------------|
 | **Thurstone** | Bobot item yang sama | Item terkalibrasi di sepanjang kontinum |
-| **SJT** | Pernyataan diri yang abstrak | Konteks dan penilaian yang konkret |
-| ***Forced-choice*** | Kebebasan menjawab tiap item | Perlindungan dari *social desirability* |
+| **SJT** | Pernyataan diri yang abstrak | Konteks dan penilaian yang lebih konkret |
+| ***Forced-choice*** | Kebebasan menjawab tiap item | Menangkal problem *social desirability* |
 
 . . .
 
 ::: {.callout-warning}
-Ketiganya menarik secara konseptual. Ketiganya juga **jauh lebih sulit dikerjakan** daripada Likert, dan dua di antaranya merusak asumsi yang kita bangun di Pertemuan 3. Kita akan lihat persis di mana.
+### Perlu diingat
+Ketiganya kelihatannya menarik secara konseptual, tetapi **jauh lebih sulit dikerjakan** daripada Likert, dan dua di antaranya berlawanan dengan asumsi yang kita bangun di Pertemuan 3.
 :::
 
 # Thurstone {background-color="#14497F" .center}
@@ -85,7 +85,7 @@ Ketiganya menarik secara konseptual. Ketiganya juga **jauh lebih sulit dikerjaka
 
 * Bayangkan sederet garpu tala yang tersusun dari frekuensi rendah ke tinggi. Untuk mengetahui frekuensi sebuah nada, Anda cukup melihat **garpu mana yang bergetar**.
 
-* Skala Thurstone bekerja persis seperti itu: tiap item "disetel" untuk merespons level atribut tertentu.
+* Skala Thurstone bekerja persis seperti ini: tiap item "disetel" untuk merespons level atribut tertentu.
 
 :::
 
@@ -96,7 +96,7 @@ Analogi dari DeVellis & Thorpe (2022), Bab 5.
 . . .
 
 ::: {.callout-tip}
-Bandingkan dengan Likert, di mana semua item pada dasarnya adalah **detektor yang sama** dan yang berbeda hanya derajat jawabannya.
+Bandingkan dengan Likert, di mana semua item pada dasarnya adalah **detektor yang sama** dan yang berbeda hanya derajat pilihan responnya.
 :::
 
 ## Bagaimana skala Thurstone dibuat
@@ -105,11 +105,11 @@ Bandingkan dengan Likert, di mana semua item pada dasarnya adalah **detektor yan
 
 1. **Kumpulkan banyak pernyataan** tentang objek sikap — biasanya puluhan hingga ratusan.
 
-2. **Minta panel juri** menempatkan tiap pernyataan ke dalam 11 tumpukan, dari paling menentang sampai paling mendukung. Juri **tidak** diminta pendapat pribadinya; mereka diminta menilai **posisi pernyataannya**.
+2. **Minta anggota panel** menempatkan tiap pernyataan ke dalam 11 tumpukan, dari paling bertentangan sampai paling mendukung. Anggota panel **tidak** diminta pendapat pribadinya; mereka diminta menilai **posisi pernyataannya**.
 
-3. **Hitung median** penilaian juri untuk tiap pernyataan. Itulah **nilai skala** (*scale value*) pernyataan tersebut.
+3. **Hitung median** penilaian anggota panel untuk tiap pernyataan. Itulah **nilai skala** (*scale value*) pernyataan tersebut.
 
-4. **Hitung sebaran penilaian juri** (rentang antar-kuartil). Pernyataan yang juri-jurinya tidak sepakat berarti **ambigu**, dan dibuang.
+4. **Hitung sebaran penilaian anggota panel** (rentang antar-kuartil). Pernyataan yang juri-jurinya tidak sepakat berarti **ambigu**, dan dibuang.
 
 5. **Pilih pernyataan yang tersisa** sedemikian rupa sehingga nilai skalanya **tersebar merata** di sepanjang kontinum.
 
@@ -123,11 +123,11 @@ Bandingkan dengan Likert, di mana semua item pada dasarnya adalah **detektor yan
 
 ::: {.incremental}
 
-* Tiap pernyataan punya **satu angka** yang menandai posisinya di kontinum — inilah kalibrasinya.
+* Tiap pernyataan punya **satu angka** yang menandai posisinya di kontinum. Angka inilah yang mencerminkan kalibrasinya.
 
-* Pernyataan 4 punya rentang antar-kuartil yang **sangat lebar**: para juri tidak sepakat pernyataan itu ada di posisi mana. Pernyataan seperti ini dibuang, betapapun bagus kalimatnya.
+* Pernyataan 4 punya rentang antar-kuartil yang **sangat lebar**: para anggota panel tidak sepakat pernyataan itu ada di posisi mana. Pernyataan seperti ini dibuang, sebagus apapun penulisan kalimatnya.
 
-* Pernyataan yang lolos **tersebar** dari ujung ke ujung. Ini disengaja, bukan kebetulan.
+* Pernyataan yang lolos **tersebar** dari ujung ke ujung. 
 
 :::
 
@@ -135,14 +135,14 @@ Bandingkan dengan Likert, di mana semua item pada dasarnya adalah **detektor yan
 
 ::: {.callout-note}
 #### Perhatikan yang baru saja terjadi
-Kita sudah menentukan "tingkat kesulitan" tiap item **sebelum satu pun responden mengisinya**. Itu hal yang tidak bisa dilakukan CTT.
+Kita sudah menentukan "tingkat kesulitan" tiap item **sebelum partisipan mengisinya**. Ini adalah sesuatu yang tidak bisa dilakukan dengan CTT.
 :::
 
-## Cara responden menjawab dan cara menskornya
+## Cara partisipan menjawab dan cara menskornya
 
 ::: {.incremental}
 
-* Responden hanya diminta **setuju atau tidak setuju** pada tiap pernyataan. Tidak ada derajat.
+* Responden hanya diminta **setuju atau tidak setuju** (ya/tidak) pada tiap pernyataan.
 
 * Skor responden adalah **rata-rata nilai skala dari pernyataan yang ia setujui**.
 

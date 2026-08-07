@@ -240,23 +240,8 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <ol type="1">
 <li class="fragment"><p><strong>The assumption holds.</strong> No problem.</p></li>
 <li class="fragment"><p><strong>The assumption is violated, but the conclusion barely changes.</strong> A method like this is called <em>robust</em> to that violation.</p></li>
-<li class="fragment"><p><strong>The assumption is violated, and the conclusion changes completely.</strong></p></li>
+<li class="fragment"><p><strong>The assumption is violated, and the conclusion changes completely.</strong> This is the case we need to deal with.</p></li>
 </ol>
-<div class="fragment">
-<div class="callout callout-warning callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Our job</strong></p>
-</div>
-<div class="callout-content">
-<p>To tell case 2 from case 3. This <strong>cannot</strong> be decided from the data alone — it requires understanding the construct being measured.</p>
-</div>
-</div>
-</div>
-</div>
 </section>
 <section id="the-six-assumptions" class="slide level2">
 <h2>The six assumptions</h2>
@@ -351,7 +336,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <p><strong>The good news</strong></p>
 </div>
 <div class="callout-content">
-<p>This is precisely what separates <em>Classical Test Theory</em> from <em>Item Response Theory</em>. IRT lets each item have its own difficulty and discrimination.</p>
+<p>This is precisely what separates <em>Classical Test Theory</em> from <em>Item Response Theory</em>. IRT lets each item have its own difficulty and discrimination. We will get a brief look at it in Session 3.</p>
 <p>This course uses CTT, so <em>unit weighting</em> is an assumption you will be making. What matters is that you know you are making it.</p>
 </div>
 </div>
@@ -368,7 +353,10 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <ul>
 <li class="fragment"><p><strong>Adolphe Quetelet</strong> (1835) introduced <em>l’homme moyen</em>, “the average man”. He applied the normal curve — at the time a model of <strong>observational error</strong> in astronomy — to human characteristics.</p></li>
 <li class="fragment"><p>The shift is subtle but large: the normal curve moved from being <strong>a model of error</strong> to being <strong>a model of people</strong>.</p></li>
-<li class="fragment"><p><strong>Galton</strong> then extended it to psychological traits, and normality has been built into psychometrics ever since.</p></li>
+<li class="fragment"><p><strong>Galton</strong> then extended it to psychological traits, and normality has been built into psychometrics ever since.</p>
+<ul>
+<li class="fragment">This is what justified the deeply racist worldview of <a href="https://www.genome.gov/about-genomics/fact-sheets/Eugenics-and-Scientific-Racisms"><em>eugenics</em></a>.</li>
+</ul></li>
 </ul>
 <div class="fragment">
 <div class="callout callout-warning callout-titled callout-style-default">
@@ -411,7 +399,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 </section>
 <section id="let-us-look-at-real-data" class="slide level2">
 <h2>Let us look at real data</h2>
-<p>IPIP <em>Big Five</em> data (<code>data/data.csv</code> in this course repository), 50 items, 1–5 scale, <strong>n = 19,719</strong> respondents.</p>
+<p>IPIP <em>Big Five</em> data (<code>data/data.csv</code> in this course repository), 50 items, 1–5 scale, <strong>n = 19,719</strong> respondents (the raw row count; Session 6 uses n = 19,718 after listwise deletion).</p>
 <p>First, three <strong>individual items</strong>:</p>
 <table class="caption-top">
 <colgroup>
@@ -562,8 +550,8 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 </div>
 </section></section>
 <section>
-<section id="assumption-3-the-attribute-is-continuous" class="title-slide slide level1 center" data-background-color="#14497F">
-<h1>Assumption 3: the attribute is continuous</h1>
+<section id="assumption-3-the-attribute-is-continuous-not-categorical" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1>Assumption 3: the attribute is continuous, not categorical</h1>
 
 </section>
 <section id="two-possible-shapes-for-a-construct" class="slide level2">
@@ -583,14 +571,14 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <div class="fragment">
 <ul>
 <li class="fragment"><p>The question is not “which is more convenient” but <strong>which is true for this construct</strong>.</p></li>
-<li class="fragment"><p>That is an <strong>empirical</strong> question, and there is a method for it: <em>taxometrics</em>, developed by Paul Meehl.</p></li>
+<li class="fragment"><p>That is an <strong>empirical</strong> question, and there is a method for it: <a href="https://meehl.umn.edu/sites/meehl.umn.edu/files/files/122txmethodschapter.pdf"><em>taxometrics</em>, developed by Paul Meehl</a>.</p></li>
 </ul>
 </div>
 </section>
 <section id="what-does-the-evidence-say" class="slide level2">
 <h2>What does the evidence say?</h2>
 <ul>
-<li class="fragment"><p><strong>Haslam, Holland, &amp; Kuppens (2012)</strong> reviewed 177 taxometric articles (311 findings) on personality and psychopathology constructs.</p></li>
+<li class="fragment"><p><strong><a href="https://pubmed.ncbi.nlm.nih.gov/21939592/">Haslam, Holland, &amp; Kuppens (2012)</a></strong> reviewed 177 taxometric articles (311 findings) on personality and psychopathology constructs.</p></li>
 <li class="fragment"><p>Their conclusion: <strong>most constructs appear dimensional</strong>. Once confounds were controlled, they estimated only about <strong>14%</strong> of findings were genuinely taxonic.</p></li>
 <li class="fragment"><p>That means most of the “disorders” we treat as categories are better described as <strong>matters of degree</strong>.</p></li>
 </ul>
@@ -604,7 +592,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <p><strong>Connect this to Session 1</strong></p>
 </div>
 <div class="callout-content">
-<p>This is exactly the tension we saw in the DSM: a categorical classification system applied to constructs whose evidence points to a continuum. It is also what motivated the RDoC project.</p>
+<p>This is exactly the tension we saw in the DSM: a categorical classification system applied to constructs whose evidence points to a continuum. It is also what motivated the <a href="https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc">Research Domain Criteria (RDoC)</a> project.</p>
 </div>
 </div>
 </div>
@@ -615,23 +603,8 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <ul>
 <li class="fragment"><p>If your construct is <strong>dimensional</strong> but you force categories (“high/medium/low”), you throw away information and create a boundary that does not exist in nature.</p></li>
 <li class="fragment"><p>If your construct is <strong>taxonic</strong> but you scale it, your middle scores describe a person who does not actually exist.</p></li>
-<li class="fragment"><p>Most psychological scales — including the one you are about to build — assume <strong>dimensional</strong>. That is a reasonable assumption, but it is still an assumption.</p></li>
+<li class="fragment"><p>Most psychological scales — including the one you are about to build — assume <strong>dimensional</strong>. That is a common assumption, but it is still one that needs to be tested.</p></li>
 </ul>
-<div class="fragment">
-<div class="callout callout-tip callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>What to write in your report</strong></p>
-</div>
-<div class="callout-content">
-<p>A single sentence is enough: <em>“We treat this construct as dimensional, on the grounds that …”</em> — rather than simply doing it without comment.</p>
-</div>
-</div>
-</div>
-</div>
 </section></section>
 <section>
 <section id="assumption-4-all-items-measure-the-same-thing" class="title-slide slide level1 center" data-background-color="#14497F">
@@ -644,6 +617,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <li class="fragment"><p>Recall the logic of a scale from Session 1: the latent construct is the <strong>cause</strong> of the item responses.</p></li>
 <li class="fragment"><p>If one common cause drives ten items, those ten items <strong>must</strong> correlate with each other.</p></li>
 <li class="fragment"><p>Those inter-item correlations are the only observable trace of a variable we cannot observe.</p></li>
+<li class="fragment"><p>If we are assuming a “common cause” is what makes the items correlate, those items should not correlate with each other for any other reason (<a href="https://en.wikipedia.org/wiki/Local_independence"><em>local independence</em></a>).</p></li>
 </ul>
 
 <div class="fragment">
@@ -656,7 +630,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <p><strong>A consequence you will use constantly</strong></p>
 </div>
 <div class="callout-content">
-<p>Because of this, inter-item correlations can be used to <strong>estimate</strong> how strongly each item relates to its latent construct — even though we never measure the construct directly. This is the basis of item analysis in Session 13.</p>
+<p>Because of this, inter-item correlations can be used to <strong>estimate</strong> how strongly each item relates to its latent construct — even though we never measure the construct directly.</p>
 </div>
 </div>
 </div>
@@ -744,7 +718,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <section id="the-reference-group-effect" class="slide level2">
 <h2>The reference-group effect</h2>
 <ul>
-<li class="fragment"><p><strong>Heine, Lehman, Peng, &amp; Greenholtz (2002)</strong> demonstrated a serious problem with cross-cultural Likert comparisons.</p></li>
+<li class="fragment"><p><strong><a href="https://psycnet.apa.org/record/2002-02942-003">Heine, Lehman, Peng, &amp; Greenholtz (2002)</a></strong> demonstrated a serious problem with cross-cultural Likert comparisons.</p></li>
 <li class="fragment"><p>When someone answers <em>“I am a conscientious person”</em>, they judge themselves <strong>relative to the people around them</strong> — not against a universal standard.</p></li>
 <li class="fragment"><p>As a result, respondents from a culture with a higher local standard may rate themselves <strong>lower</strong>, even when their behaviour fits the construct better.</p></li>
 </ul>
@@ -806,7 +780,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <section id="on-ability-introspective-access-is-limited" class="slide level2">
 <h2>On ability: introspective access is limited</h2>
 <ul>
-<li class="fragment"><p><strong>Nisbett &amp; Wilson (1977)</strong>, in a paper titled <em>“Telling more than we can know”</em>, showed that people often have <strong>no access</strong> to the mental processes actually driving their behaviour.</p></li>
+<li class="fragment"><p><strong><a href="https://psycnet.apa.org/record/1978-00295-001">Nisbett &amp; Wilson (1977)</a></strong>, in a paper titled <em>“Telling more than we can know”</em>, showed that people often have <strong>no access</strong> to the mental processes actually driving their behaviour.</p></li>
 <li class="fragment"><p>Asked for their reasons, they still answer — but the answer is often a <strong>plausible lay theory</strong> rather than a report of what actually happened.</p></li>
 </ul>
 <div class="fragment">
@@ -843,7 +817,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <p><strong>What your group should anticipate</strong></p>
 </div>
 <div class="callout-content">
-<p>If your construct has a socially “correct” answer, your score distribution will <strong>pile up at one end</strong> — and you will struggle to distinguish respondents from one another. This will show up immediately in item analysis in Session 13.</p>
+<p>If your construct has a socially “correct” answer, your score distribution will <strong>pile up at one end</strong> (e.g., a <a href="https://matilda.fss.uu.nl/articles/floor-ceiling-effects.html"><em>ceiling</em> or <em>floor effect</em></a>). You will struggle to distinguish respondents from one another because your data will have low variance.</p>
 </div>
 </div>
 </div>
@@ -878,7 +852,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <h2>Careless responding</h2>
 <ul>
 <li class="fragment"><p>Some respondents complete a questionnaire without reading it — especially long, online, unincentivised ones.</p></li>
-<li class="fragment"><p><strong>Meade &amp; Craig (2012)</strong> showed the proportion can be large enough to change the results of factor analysis and reliability estimates.</p></li>
+<li class="fragment"><p><strong><a href="https://psycnet.apa.org/record/2012-10015-001">Meade &amp; Craig (2012)</a></strong> showed the proportion can be large enough to change the results of factor analysis and reliability estimates.</p></li>
 <li class="fragment"><p>This is not only about respondent attitude; it is a consequence of <strong>instrument design</strong> that overburdens people.</p></li>
 </ul>
 <div class="fragment">
@@ -929,7 +903,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <h2>Why do so few people do this?</h2>
 <blockquote>
 <p>Psychometrics is one of the most successful branches of psychology . . . [yet] the average psychologist is not aware of the developments in the field.</p>
-<p>— Borsboom (2006)</p>
+<p>— <a href="http://link.springer.com/10.1007/s11336-006-1447-6">Borsboom (2006)</a></p>
 </blockquote>
 <div class="fragment">
 <ul>
@@ -958,57 +932,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <p><strong>Tip</strong></p>
 </div>
 <div class="callout-content">
-<p>These five points will form part of your final report. Start recording your answers now, not in the last week.</p>
-</div>
-</div>
-</div>
-</div>
-</section></section>
-<section>
-<section id="group-exercise" class="title-slide slide level1 center" data-background-color="#14497F">
-<h1>Group exercise</h1>
-
-</section>
-<section id="assumption-audit" class="slide level2">
-<h2>Assumption audit</h2>
-<ul>
-<li class="fragment"><p>Work in the <strong>project group</strong> you formed last week.</p></li>
-<li class="fragment"><p>Use the <strong>construct your group chose</strong> in Session 1.</p></li>
-<li class="fragment"><p>Discuss for <strong>25 minutes</strong>, then each group presents the <strong>single</strong> assumption it considers riskiest for its construct, in 3 minutes.</p></li>
-</ul>
-<aside class="notes">
-<p>If a group claims every assumption is safe for their construct, ask them to picture the two most extreme respondents: the person who would score highest and the person who would score lowest. The problematic assumption usually becomes obvious immediately. Leave about 20 minutes for presentations and the wrap-up.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="four-questions" class="slide level2">
-<h2>Four questions</h2>
-<ol type="1">
-<li class="fragment"><p><strong>Of today’s six assumptions, which is riskiest for your construct?</strong> Explain why, rather than just naming it.</p></li>
-<li class="fragment"><p><strong>Does your construct have a socially “correct” answer?</strong> If so, how will that affect your score distribution?</p></li>
-<li class="fragment"><p><strong>Name two subgroups in your target population who might read one item differently.</strong> Write the item, and write both readings.</p></li>
-<li class="fragment"><p><strong>Which of these assumptions can you genuinely check</strong> with the pilot data you will realistically collect this semester? Which can you only argue for?</p></li>
-</ol>
-<div class="fragment">
-<div class="callout callout-tip callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Question 4 is the decisive one</strong></p>
-</div>
-<div class="callout-content">
-<p>Distinguishing assumptions you can <strong>test</strong> from assumptions you can only <strong>defend by argument</strong> is the core of honest psychometric work.</p>
+<p>These five points will form part of your final report.</p>
 </div>
 </div>
 </div>
@@ -1091,7 +1015,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 
 
 <aside><div>
-<p>Example data: IPIP <em>Big Five Factor Markers</em>, <a href="https://openpsychometrics.org/_rawdata/">Open Psychometrics</a> (n = 19,719).</p>
+<p>Example data: IPIP <em>Big Five Factor Markers</em>, <a href="https://openpsychometrics.org/_rawdata/">Open Psychometrics</a> (n = 19,719 raw rows; Session 6 uses n = 19,718 after listwise deletion).</p>
 </div></aside></section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">

@@ -106,15 +106,8 @@ Every one of those points has the same shape: **something we take to be true wit
 
 2. **The assumption is violated, but the conclusion barely changes.** A method like this is called *robust* to that violation.
 
-3. **The assumption is violated, and the conclusion changes completely.**
+3. **The assumption is violated, and the conclusion changes completely.** This is the case we need to deal with.
 
-:::
-
-. . .
-
-::: {.callout-warning}
-#### Our job
-To tell case 2 from case 3. This **cannot** be decided from the data alone — it requires understanding the construct being measured.
 :::
 
 ## The six assumptions
@@ -170,7 +163,7 @@ In summing, you have already assumed at least three things:
 
 ::: {.callout-note}
 #### The good news
-This is precisely what separates *Classical Test Theory* from *Item Response Theory*. IRT lets each item have its own difficulty and discrimination.
+This is precisely what separates *Classical Test Theory* from *Item Response Theory*. IRT lets each item have its own difficulty and discrimination. We will get a brief look at it in Session 3.
 
 This course uses CTT, so *unit weighting* is an assumption you will be making. What matters is that you know you are making it.
 :::
@@ -186,6 +179,7 @@ This course uses CTT, so *unit weighting* is an assumption you will be making. W
 * The shift is subtle but large: the normal curve moved from being **a model of error** to being **a model of people**.
 
 * **Galton** then extended it to psychological traits, and normality has been built into psychometrics ever since.
+  + This is what justified the deeply racist worldview of [*eugenics*](https://www.genome.gov/about-genomics/fact-sheets/Eugenics-and-Scientific-Racisms).
 
 :::
 
@@ -217,7 +211,7 @@ We **select items so the distribution comes out normal**, and then treat that no
 
 ## Let us look at real data
 
-IPIP *Big Five* data (`data/data.csv` in this course repository), 50 items, 1–5 scale, **n = 19,719** respondents.
+IPIP *Big Five* data (`data/data.csv` in this course repository), 50 items, 1–5 scale, **n = 19,719** respondents (the raw row count; Session 6 uses n = 19,718 after listwise deletion).
 
 First, three **individual items**:
 
@@ -293,7 +287,7 @@ A total-score distribution that "looks normal" is **not evidence** that the unde
 If the empirical distribution is not that shape, your norms will **misplace people** — and worst of all at the extremes, which is exactly where decisions get made.
 :::
 
-# Assumption 3: the attribute is continuous {background-color="#14497F" .center}
+# Assumption 3: the attribute is continuous, not categorical {background-color="#14497F" .center}
 
 ## Two possible shapes for a construct
 
@@ -328,7 +322,7 @@ Example: pregnant / not pregnant.
 
 * The question is not "which is more convenient" but **which is true for this construct**.
 
-* That is an **empirical** question, and there is a method for it: *taxometrics*, developed by Paul Meehl.
+* That is an **empirical** question, and there is a method for it: [*taxometrics*, developed by Paul Meehl](https://meehl.umn.edu/sites/meehl.umn.edu/files/files/122txmethodschapter.pdf).
 
 :::
 
@@ -336,7 +330,7 @@ Example: pregnant / not pregnant.
 
 ::: {.incremental}
 
-* **Haslam, Holland, & Kuppens (2012)** reviewed 177 taxometric articles (311 findings) on personality and psychopathology constructs.
+* **[Haslam, Holland, & Kuppens (2012)](https://pubmed.ncbi.nlm.nih.gov/21939592/)** reviewed 177 taxometric articles (311 findings) on personality and psychopathology constructs.
 
 * Their conclusion: **most constructs appear dimensional**. Once confounds were controlled, they estimated only about **14%** of findings were genuinely taxonic.
 
@@ -348,7 +342,7 @@ Example: pregnant / not pregnant.
 
 ::: {.callout-note}
 #### Connect this to Session 1
-This is exactly the tension we saw in the DSM: a categorical classification system applied to constructs whose evidence points to a continuum. It is also what motivated the RDoC project.
+This is exactly the tension we saw in the DSM: a categorical classification system applied to constructs whose evidence points to a continuum. It is also what motivated the [Research Domain Criteria (RDoC)](https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc) project.
 :::
 
 ## Why this matters for your scale
@@ -359,15 +353,8 @@ This is exactly the tension we saw in the DSM: a categorical classification syst
 
 * If your construct is **taxonic** but you scale it, your middle scores describe a person who does not actually exist.
 
-* Most psychological scales — including the one you are about to build — assume **dimensional**. That is a reasonable assumption, but it is still an assumption.
+* Most psychological scales — including the one you are about to build — assume **dimensional**. That is a common assumption, but it is still one that needs to be tested.
 
-:::
-
-. . .
-
-::: {.callout-tip}
-#### What to write in your report
-A single sentence is enough: *"We treat this construct as dimensional, on the grounds that ..."* — rather than simply doing it without comment.
 :::
 
 # Assumption 4: all items measure the same thing {background-color="#14497F" .center}
@@ -382,6 +369,8 @@ A single sentence is enough: *"We treat this construct as dimensional, on the gr
 
 * Those inter-item correlations are the only observable trace of a variable we cannot observe.
 
+* If we are assuming a "common cause" is what makes the items correlate, those items should not correlate with each other for any other reason ([*local independence*](https://en.wikipedia.org/wiki/Local_independence)).
+
 :::
 
 ::: aside
@@ -392,7 +381,7 @@ DeVellis & Thorpe (2022), Chapter 2.
 
 ::: {.callout-note}
 #### A consequence you will use constantly
-Because of this, inter-item correlations can be used to **estimate** how strongly each item relates to its latent construct — even though we never measure the construct directly. This is the basis of item analysis in Session 13.
+Because of this, inter-item correlations can be used to **estimate** how strongly each item relates to its latent construct — even though we never measure the construct directly.
 :::
 
 ## The unidimensionality assumption
@@ -463,7 +452,7 @@ The formal test requires factor analysis and a large sample, so we will not comp
 
 ::: {.incremental}
 
-* **Heine, Lehman, Peng, & Greenholtz (2002)** demonstrated a serious problem with cross-cultural Likert comparisons.
+* **[Heine, Lehman, Peng, & Greenholtz (2002)](https://psycnet.apa.org/record/2002-02942-003)** demonstrated a serious problem with cross-cultural Likert comparisons.
 
 * When someone answers *"I am a conscientious person"*, they judge themselves **relative to the people around them** — not against a universal standard.
 
@@ -519,7 +508,7 @@ Both can fail, and they fail in different ways.
 
 ::: {.incremental}
 
-* **Nisbett & Wilson (1977)**, in a paper titled *"Telling more than we can know"*, showed that people often have **no access** to the mental processes actually driving their behaviour.
+* **[Nisbett & Wilson (1977)](https://psycnet.apa.org/record/1978-00295-001)**, in a paper titled *"Telling more than we can know"*, showed that people often have **no access** to the mental processes actually driving their behaviour.
 
 * Asked for their reasons, they still answer — but the answer is often a **plausible lay theory** rather than a report of what actually happened.
 
@@ -550,7 +539,7 @@ We will apply this principle when writing items in Session 10.
 
 ::: {.callout-warning}
 #### What your group should anticipate
-If your construct has a socially "correct" answer, your score distribution will **pile up at one end** — and you will struggle to distinguish respondents from one another. This will show up immediately in item analysis in Session 13.
+If your construct has a socially "correct" answer, your score distribution will **pile up at one end** (e.g., a [*ceiling* or *floor effect*](https://matilda.fss.uu.nl/articles/floor-ceiling-effects.html)). You will struggle to distinguish respondents from one another because your data will have low variance.
 :::
 
 ## Response styles
@@ -582,7 +571,7 @@ But reverse-worded items bring their own problems: some respondents misread them
 
 * Some respondents complete a questionnaire without reading it — especially long, online, unincentivised ones.
 
-* **Meade & Craig (2012)** showed the proportion can be large enough to change the results of factor analysis and reliability estimates.
+* **[Meade & Craig (2012)](https://psycnet.apa.org/record/2012-10015-001)** showed the proportion can be large enough to change the results of factor analysis and reliability estimates.
 
 * This is not only about respondent attitude; it is a consequence of **instrument design** that overburdens people.
 
@@ -620,7 +609,7 @@ Not a scale free of assumptions — there is no such thing. Rather a scale whose
 
 > Psychometrics is one of the most successful branches of psychology . . . [yet] the average psychologist is not aware of the developments in the field.
 >
-> — Borsboom (2006)
+> — [Borsboom (2006)](http://link.springer.com/10.1007/s11336-006-1447-6)
 
 . . .
 
@@ -653,49 +642,7 @@ Not a scale free of assumptions — there is no such thing. Rather a scale whose
 . . .
 
 ::: {.callout-tip}
-These five points will form part of your final report. Start recording your answers now, not in the last week.
-:::
-
-# Group exercise {background-color="#14497F" .center}
-
-## Assumption audit
-
-::: {.incremental}
-
-* Work in the **project group** you formed last week.
-
-* Use the **construct your group chose** in Session 1.
-
-* Discuss for **25 minutes**, then each group presents the **single** assumption it considers riskiest for its construct, in 3 minutes.
-
-:::
-
-::: {.notes}
-If a group claims every assumption is safe for their construct, ask them to picture the two most
-extreme respondents: the person who would score highest and the person who would score lowest.
-The problematic assumption usually becomes obvious immediately.
-Leave about 20 minutes for presentations and the wrap-up.
-:::
-
-## Four questions
-
-::: {.incremental}
-
-1. **Of today's six assumptions, which is riskiest for your construct?** Explain why, rather than just naming it.
-
-2. **Does your construct have a socially "correct" answer?** If so, how will that affect your score distribution?
-
-3. **Name two subgroups in your target population who might read one item differently.** Write the item, and write both readings.
-
-4. **Which of these assumptions can you genuinely check** with the pilot data you will realistically collect this semester? Which can you only argue for?
-
-:::
-
-. . .
-
-::: {.callout-tip}
-#### Question 4 is the decisive one
-Distinguishing assumptions you can **test** from assumptions you can only **defend by argument** is the core of honest psychometric work.
+These five points will form part of your final report.
 :::
 
 # Summary {background-color="#14497F" .center}
@@ -772,5 +719,5 @@ Petersen, I. T. *Principles of psychological assessment: With applied examples i
 Quetelet, A. (1835). *Sur l'homme et le développement de ses facultés*. Bachelier.
 
 ::: aside
-Example data: IPIP *Big Five Factor Markers*, [Open Psychometrics](https://openpsychometrics.org/_rawdata/) (n = 19,719).
+Example data: IPIP *Big Five Factor Markers*, [Open Psychometrics](https://openpsychometrics.org/_rawdata/) (n = 19,719 raw rows; Session 6 uses n = 19,718 after listwise deletion).
 :::

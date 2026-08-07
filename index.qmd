@@ -60,26 +60,26 @@ Pembelajaran dilaksanakan melalui kombinasi **kuliah interaktif dan diskusi krit
 
 Pertemuan 1–9 dilaksanakan **daring** melalui [Microsoft Teams](https://teams.microsoft.com/meet/478707954412300?p=L6yBo8dgrtE0gZNtiw), setiap **Rabu pukul 15.30 WIB**. Pertemuan 10–15 dilaksanakan **luring di Ruang 303**, setiap **Senin pukul 13.00 WIB**.
 
-| # | Tanggal | Topik | Moda | Dosen | Materi |
-|:--|:--|:------|:--|:--|:--|
-| 1 | Rab, 12 Agu | Apa itu pengukuran? Dasar dan filsafat pengukuran psikologis | Kuliah, diskusi kelompok | Amel | [Slide](slides/pertemuan1.html) |
-| 2 | Rab, 19 Agu | Asumsi umum dalam pengukuran psikologis dan mengapa asumsi ini perlu diperiksa secara kritis | Kuliah, diskusi kelompok | Amel | [Slide]() |
-| 3 | Rab, 26 Agu | Variabel laten: *Classical Test Theory*, dan sekilas *Item Response Theory* | Kuliah, diskusi kelompok | Amel | [Slide]() |
-| 4 | Rab, 2 Sep | Format respons I: Likert, *Semantic Differential*, Guttman | Kuliah, demo/latihan | Amel | [Slide]() |
-| 5 | Rab, 9 Sep | Format respons II: Thurstone, *Situational Judgement Test*, *forced-choice* | Kuliah, demo/latihan | Amel | [Slide]() |
-| 6 | Rab, 16 Sep | Reliabilitas dalam pengukuran psikologi: konsep dasar dan implementasinya | Kuliah, diskusi kelompok | Amel | [Slide]() |
-| 7 | Rab, 23 Sep | Validitas dalam pengukuran psikologi: konsep dasar dan implementasinya | Kuliah, diskusi kelompok | Amel | [Slide]() |
-| 8 | 29 Sep – 9 Okt | **Ujian Tengah Semester** (materi Pertemuan 1–7) | UTS | — | — |
-| 9 | Rab, 14 Okt | Pengenalan konstruk dan penetapan *estimand*: dari tinjauan pustaka ke definisi operasional | Praktik, diskusi kelompok | Amel | [Slide]() |
-| 10 | Sen, 19 Okt | *Workshop* penulisan item: kisi-kisi/*blue print* dan pemilihan format respons | Praktik, *workshop* | Dian | [Slide]() |
-| 11 | Sen, 26 Okt | Review ahli dan validitas isi: perhitungan dan interpretasi CVI | Praktik, diskusi kelompok | Dian | [Slide]() |
-| 12 | Sen, 2 Nov | Perancangan dan pelaksanaan uji coba: metode dan sampel | Praktik | Dian | *menyusul* |
-| 13 | Sen, 9 Nov | Analisis item dan pengujian reliabilitas/validitas empiris | Praktik, analisis data | Dian | *menyusul* |
-| 14 | Sen, 16 Nov | Skoring, norma, dan penyusunan manual | Praktik | Dian | *menyusul* |
-| 15 | Sen, 23 Nov | Presentasi draf laporan kelompok dengan umpan balik langsung | Praktik, presentasi | Dian | *menyusul* |
-| 16 | 7–18 Des | **Ujian Akhir Semester**: pengumpulan laporan akhir dan manual | UAS | — | — |
+| # | Tanggal | Topik | Moda | Dosen | Materi | Materi (EN) |
+|:--|:--|:------|:--|:--|:--|:--|
+| 1 | Rab, 12 Agu | Apa itu pengukuran? Dasar dan filsafat pengukuran psikologis | Kuliah, diskusi kelompok | Amel | [Slide](slides/pertemuan1.html) | [Slide](slides/pertemuan1-en.html) |
+| 2 | Rab, 19 Agu | Asumsi umum dalam pengukuran psikologis dan mengapa asumsi ini perlu diperiksa secara kritis | Kuliah, diskusi kelompok | Amel | [Slide](slides/pertemuan2.html) | [Slide](slides/pertemuan2-en.html) |
+| 3 | Rab, 26 Agu | Variabel laten: *Classical Test Theory*, dan sekilas *Item Response Theory* | Kuliah, diskusi kelompok | Amel | [Slide](slides/pertemuan3.html) | [Slide](slides/pertemuan3-en.html) |
+| 4 | Rab, 2 Sep | Format respons I: Likert, *Semantic Differential*, Guttman | Kuliah, demo/latihan | Amel | [Slide](slides/pertemuan4.html) | [Slide](slides/pertemuan4-en.html) |
+| 5 | Rab, 9 Sep | Format respons II: Thurstone, *Situational Judgement Test*, *forced-choice* | Kuliah, demo/latihan | Amel | [Slide](slides/pertemuan5.html) | [Slide](slides/pertemuan5-en.html) |
+| 6 | Rab, 16 Sep | Reliabilitas dalam pengukuran psikologi: konsep dasar dan implementasinya | Kuliah, diskusi kelompok | Amel | [Slide](slides/pertemuan6.html) | [Slide](slides/pertemuan6-en.html) |
+| 7 | Rab, 23 Sep | Validitas dalam pengukuran psikologi: konsep dasar dan implementasinya | Kuliah, diskusi kelompok | Amel | [Slide](slides/pertemuan7.html) | [Slide](slides/pertemuan7-en.html) |
+| 8 | 29 Sep – 9 Okt | **Ujian Tengah Semester** (materi Pertemuan 1–7) | UTS | — | — | — |
+| 9 | Rab, 14 Okt | Pengenalan konstruk dan penetapan *estimand*: dari tinjauan pustaka ke definisi operasional | Praktik, diskusi kelompok | Amel | [Slide](slides/pertemuan9.html) | [Slide](slides/pertemuan9-en.html) |
+| 10 | Sen, 19 Okt | *Workshop* penulisan item: kisi-kisi/*blue print* dan pemilihan format respons | Praktik, *workshop* | Dian | [Slide](slides/pertemuan10.html) | [Slide](slides/pertemuan10-en.html) |
+| 11 | Sen, 26 Okt | Review ahli dan validitas isi: perhitungan dan interpretasi CVI | Praktik, diskusi kelompok | Dian | [Slide](slides/pertemuan11.html) | [Slide](slides/pertemuan11-en.html) |
+| 12 | Sen, 2 Nov | Perancangan dan pelaksanaan uji coba: metode dan sampel | Praktik | Dian | n/a | n/a |
+| 13 | Sen, 9 Nov | Analisis item dan pengujian reliabilitas/validitas empiris, skoring, norma, dan penyusunan manual | Praktik, analisis data | Dian | n/a | n/a |
+| 14 | Sen, 16 Nov | Presentasi draf laporan kelompok dengan umpan balik langsung | Praktik | Dian | n/a | n/a |
+| 15 | Sen, 23 Nov | Presentasi draf laporan kelompok dengan umpan balik langsung | Praktik, presentasi | Dian | n/a | n/a |
+| 16 | 7–18 Des | **Ujian Akhir Semester**: pengumpulan laporan akhir dan manual | UAS | — | — | — |
 
-: Rencana pertemuan Kelas A-2, Semester Gasal 2026/2027 {.striped .hover tbl-colwidths="[4,12,44,14,8,18]"}
+: Rencana pertemuan Kelas A-2, Semester Gasal 2026/2027 {.striped .hover tbl-colwidths="[4,9,34,11,7,13,13]"}
 
 ::: {.callout-note collapse="true"}
 #### Catatan tentang perkuliahan daring
