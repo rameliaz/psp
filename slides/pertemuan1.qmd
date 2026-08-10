@@ -41,7 +41,7 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 
 # Orientasi mata kuliah {background-color="#14497F" .center}
 
-## Apa yang akan kita kerjakan selama satu semester?
+## Apa yang akan kita lakukan selama satu semester?
 
 ::: {.incremental}
 
@@ -94,7 +94,7 @@ Diadaptasi dari DeVellis & Thorpe (2022), Bab 1.
 
 ::: {.callout-warning}
 #### Kenapa ini penting
-Kalau jalan pintas itu diambil, seluruh kesimpulan penelitian berdiri di atas asumsi yang tidak pernah diperiksa. Masalahnya, datanya akan **tetap terlihat baik-baik saja**: tetap ada rata-rata, tetap ada *p-value*, tetap bisa dibuat grafiknya.
+Kalau jalan pintas ini diambil, seluruh kesimpulan penelitian berdiri di atas asumsi yang tidak pernah diperiksa. Masalahnya, datanya akan **tetap terlihat baik-baik saja**: tetap ada rata-rata, tetap ada *p-value*, tetap bisa dibuat grafiknya. Tetapi, apakah data hasil pengukuran tersebut sesuai dengan klaimnya?
 :::
 
 ## Pertanyaan utama sepanjang mata kuliah ini
@@ -109,7 +109,7 @@ Apa yang membuat sebuah angka
 
 <br>
 
-Perhatikan bahwa ini pertanyaan **normatif** ("layak") sangat berbeda dengan pertanyaan teknis ("berapa koefisien reliabilitas skalanya?"). Jawabannya tidak dapat ditemui di dalam data.
+Perhatikan bahwa ini pertanyaan **normatif** ("layak") yang sangat berbeda dengan pertanyaan teknis ("berapa koefisien reliabilitas skalanya?"). Jawabannya tidak dapat ditemui di dalam data, tetapi harus dijustifikasi secara proporsional.
 
 # Pengukuran lahir sebelum sains {background-color="#14497F" .center}
 
@@ -123,11 +123,11 @@ Perhatikan bahwa ini pertanyaan **normatif** ("layak") sangat berbeda dengan per
 
 ::: {.incremental}
 
-* Duncan berargumen bahwa akar pengukuran ada pada **proses sosial**, dan proses itu **mendahului** sains.
+* Duncan berargumen bahwa akar pengukuran ada pada **proses sosial**, dan proses sosial ini **mendahului** sains.
 
-* Pemungutan suara, sensus, sistem kenaikan pangkat muncul untuk memenuhi kebutuhan sehari-hari, bukan sebagai eksperimen untuk memuaskan rasa ingin tahu ilmuwan.
+* Pemungutan suara, sensus, sistem kenaikan pangkat, misalnya, muncul untuk memenuhi kebutuhan konkrit manusia sehari-hari, bukan sebagai eksperimen untuk memuaskan rasa ingin tahu ilmuwan.
 
-* Pengukuran atribut fisik seperti panjang, luas, volume, berat, dan waktu dikembangkan manusia sejak peradaban kuno **untuk menyelesaikan masalah praktis** dan fisika kemudian dibangun di atas fondasi itu.
+* Pengukuran atribut fisik seperti panjang, luas, volume, berat, dan waktu dikembangkan manusia sejak peradaban kuno **untuk menyelesaikan masalah praktis** dan ilmu fisika kemudian dibangun di atas fondasi itu.
 
 :::
 
@@ -150,7 +150,7 @@ Perhatikan bahwa ini pertanyaan **normatif** ("layak") sangat berbeda dengan per
 
 ::: {.callout-note}
 #### Yang menarik dari contoh di atas
-Semuanya soal **keadilan**, bukan soal akurasi ilmiah. Sejak awal, pengukuran adalah alat kekuasaan dan pembagian sumber daya. Isu soal keadilan dalam pengukuran akan muncul lagi ketika kita membahas *test bias* dan penggunaan tes psikologi untuk seleksi.
+Ketika poin di atas berkaitan erat dengan **keadilan**, bukan hanya soal akurasi ilmiah. Sejak awal, pengukuran adalah alat kekuasaan dan pembagian sumber daya. Isu soal keadilan dalam pengukuran akan muncul lagi ketika kita membahas *test bias* dan penggunaan tes psikologi untuk seleksi.
 :::
 
 ## Gagasan bahwa pengukuran *bisa* keliru justru relatif baru
@@ -186,9 +186,9 @@ Butuh waktu **satu abad setelah Newton** sampai para ilmuwan secara luas menerim
   + Karena, ilmuwan bertanggung jawab untuk menciptakan "gambaran ideal" dari suatu fenomena alam, dengan menggunakan penilaiannya sendiri untuk menentukan apa yang seharusnya dianggap ideal. 
   + Akibatnya, “nilai penyimpangan yang tidak disengaja/acak” umumnya dikecualikan dari catatan ilmiah ([Daston & Gallison, 2007](https://www.amazon.de/-/en/Objectivity-Mit-Press-Lorraine-Daston/dp/189095179X))
 
-* **Dampaknya perubahan ini besar**: *Error* yang awalnya dianggap sebagai indikasi inkompetensi pengamat/ilmuwan, dimaknai menjadi sifat "sistematis" yang acak (*stochastic*) dari suatu proses pengukuran yang bisa dimodelkan/diestimasi.
+* **Dampak perubahan ini sangat besar**: *Error* yang awalnya dianggap sebagai indikasi inkompetensi pengamat/ilmuwan, dimaknai menjadi sifat "sistematis" yang acak (*stochastic*) dari suatu proses pengukuran yang bisa dimodelkan/diestimasi secara matematis.
 
-* Tanpa perubahan ini, *Classical Test Theory* tidak mungkin ada sampai sekarang.
+* Tanpa perubahan paradigma ini, *Classical Test Theory* tidak mungkin ada sampai sekarang.
 
 :::
 
@@ -208,7 +208,7 @@ Butuh waktu **satu abad setelah Newton** sampai para ilmuwan secara luas menerim
 
 ::: {.callout-tip}
 #### Ingat analogi anak panah ini
-Analogi Bernoulli menggambarkan apa yang nanti kita sebut ***random error***, dan kenapa reliabilitas bisa dinaikkan hanya dengan **menambah item**.
+Analogi Bernoulli menggambarkan apa yang nanti kita sebut ***random error***, dan kenapa reliabilitas bisa dinaikkan koefisiennya hanya dengan **menambah item**.
 :::
 
 ## Bagaimana psikometri lahir
@@ -231,7 +231,7 @@ Analogi Bernoulli menggambarkan apa yang nanti kita sebut ***random error***, da
 
 ::: {.callout-warning}
 #### Warisan yang tidak netral
-Banyak kontributor awal psikometri bekerja dalam kerangka [[**eugenika**](https://www.genome.gov/about-genomics/fact-sheets/Eugenics-and-Scientific-Racism)]. Analisis statistiknya masih kita pakai sampai sekarang, tetapi asumsi dan konsekuensi politis di baliknya (e.g., fertilisasi ras tertentu yang dianggap "inferior", dst.) **tidak boleh kita teruskan**. Menyadari asal-usul ini adalah bagian dari bersikap kritis terhadap teori yang kita gunakan.
+Banyak kontributor awal psikometri bekerja dalam kerangka [*eugenics*](https://www.genome.gov/about-genomics/fact-sheets/Eugenics-and-Scientific-Racism). Teori dan analisis statistiknya masih kita pakai sampai sekarang, tetapi asumsi dan konsekuensi politis di baliknya (e.g., fertilisasi ras tertentu yang dianggap "inferior", dst.) **tidak boleh kita teruskan**. 
 :::
 
 ## Ketika psikologi dinyatakan "tidak bisa diukur"
@@ -242,7 +242,7 @@ Banyak kontributor awal psikometri bekerja dalam kerangka [[**eugenika**](https:
 
 * **Komisi British Association for the Advancement of Science** (dibentuk 1932) menyimpulkan bahwa **pengukuran fundamental atas variabel psikologis itu mustahil** karena persepsi indrawi tidak bisa diurutkan atau dijumlahkan seperti panjang dan massa.
 
-* **S. S. Stevens** membantah: sifat aditif yang ketat **tidak diperlukan**. Orang bisa membuat penilaian rasio yang cukup konsisten, misalnya menilai satu suara dua kali lebih keras dari suara lain.
+* [**S. S. Stevens**](https://www.jstor.org/stable/1671815) membantah: sifat aditif yang ketat **tidak diperlukan**. Orang bisa membuat penilaian rasio yang cukup konsisten, misalnya menilai satu suara dua kali lebih keras dari suara lain.
 
 * **L. L. Thurstone**, di waktu yang hampir bersamaan, membangun fondasi matematis analisis faktor dan menerapkan metode psikofisika untuk *scaling* stimulus sosial.
 
@@ -280,9 +280,7 @@ Terjemahan bebasnya: **pengukuran adalah pemberian angka pada objek atau peristi
 
 ::: {.callout-note}
 #### Apa yang ditambahkan Duncan
-Syarat **korespondensi**. Angka tidak boleh sekadar mengikuti aturan; strukturnya harus mencerminkan struktur atributnya. Kalau A punya atribut dua kali lebih banyak dari B, angkanya harus menunjukkan kualitas tersebut.
-
-Duncan mengibaratkan definisi Stevens seperti mengatakan "bermain piano adalah menekan tuts menurut pola tertentu". Memang tidak sepenuhnya salah, tapi jelas belum lengkap.
+Yang utama adalah syarat **korespondensi**. Angka tidak boleh sekadar mengikuti aturan; strukturnya harus mencerminkan struktur atributnya. Kalau A punya atribut dua kali lebih banyak dari B, angkanya harus menunjukkan kualitas tersebut.
 :::
 
 ## Kritik yang lebih mendasar: Michell
@@ -318,7 +316,7 @@ Apakah atribut psikologis (kecemasan, kepribadian, motivasi) **benar-benar kuant
 
 ::: {.callout-tip}
 #### Sikap yang kita latih di mata kuliah ini
-Bukan "menolak teori psikometri mentah-mentah", dan juga bukan "menerimanya bulat-bulat". Melainkan: **tahu persis asumsi apa yang sedang saya pakai, dan apa akibatnya kalau asumsi itu salah.**
+Bukan "menolak teori psikometri mentah-mentah", dan juga bukan "menerimanya bulat-bulat". Melainkan: **tahu persis asumsi apa yang sedang saya pakai, dan apa akibatnya kalau asumsi yang saya gunakan ini salah.**
 :::
 
 ## Pengukuran vs. asesmen
@@ -355,7 +353,7 @@ Petersen, *Principles of Psychological Assessment*, Bab 1.
 Yang Anda susun semester ini adalah **alat ukur**. Tetapi manual yang Anda tulis di Pertemuan 14 adalah dokumen **asesmen**. Manual itu harus memberi tahu penggunanya bagaimana menafsirkan skor, dan keputusan apa yang boleh (dan tidak boleh) diambil dari skor itu.
 :::
 
-# Mengapa psikologi mengukur secara tidak langsung {background-color="#14497F" .center}
+# Mengapa psikologi mengukur objek ukur secara tidak langsung {background-color="#14497F" .center}
 
 ## Fisika vs psikologi
 
@@ -390,7 +388,7 @@ Hanya bisa **disimpulkan** dari hal lain yang bisa diamati.
 
 * Sebagian besar variabel yang menarik bagi ilmuwan sosial **tidak bisa diamati secara langsung**: keyakinan, motivasi, ekspektansi, kebutuhan, emosi, persepsi peran sosial.
 
-* Karena itu kita butuh **proksi**, dan di sinilah masalahnya mulai.
+* Karena itu kita butuh **proksi**, dan konsensus ini tidak benar-benar menyelesaikan persoalan bahwa objek yang kita amati adalah barang "*ghaib*".
 
 :::
 
@@ -419,7 +417,8 @@ Ketika hubungan antara variabel dan indikatornya **jauh lebih lemah** daripada p
 
 * Seorang peneliti ingin menelaah peran **dukungan sosial** terhadap pencapaian profesional, memakai data sekunder.
 
-* Datanya lengkap soal status profesional dari waktu ke waktu, tetapi tidak ada informasi tentang dukungan sosial sama sekali. Yang ada hanya beberapa item tentang **apakah responden menikah**.
+* Datanya lengkap soal status profesional dari waktu ke waktu, tetapi tidak ada informasi tentang dukungan sosial sama sekali. 
+ + Yang ada hanya beberapa item yang menanyakan **status dan lama pernikahan**.
 
 * Peneliti itu menjumlahkan item-item pernikahan tersebut, menyebutnya "skala dukungan sosial", lalu menemukan **tidak ada hubungan** dengan pencapaian karir profesional.
 
@@ -429,7 +428,7 @@ Ketika hubungan antara variabel dan indikatornya **jauh lebih lemah** daripada p
 
 ::: {.callout-warning}
 #### Apa yang sebenarnya terjadi
-Yang dibandingkan adalah **status pernikahan** dengan pencapaian profesional, bukan dukungan sosial. Status pernikahan **mengabaikan** aspek penting dukungan sosial (misalnya kualitas dukungan yang dirasakan) dan **memasukkan** faktor yang tidak relevan (misalnya responden yang usianya belum cukup untuk menikah).
+Yang dibandingkan adalah **status dan lama pernikahan** dengan pencapaian profesional, bukan dukungan sosial. Status pernikahan **mengabaikan** aspek penting dukungan sosial (misalnya kualitas dukungan yang dirasakan) dan **memasukkan** faktor yang tidak relevan (misalnya responden yang usianya belum cukup untuk menikah).
 
 Kesimpulan "dukungan sosial tidak berperan" bisa **sepenuhnya salah**, dan tidak ada apa pun di dalam data yang akan membantu kita untuk menjawab pertanyaan penelitian ini.
 :::
@@ -557,10 +556,10 @@ Teknik statistik parametrik yang akan Anda pakai untuk menganalisis data, korela
 
 ::: {.callout-tip}
 #### Yang saya harapkan dari Anda
-Di laporan proyek Anda, ketika Anda menjumlahkan item menjadi skor total, saya ingin Anda **bisa menyebutkan asumsi yang Anda pakai**, bukan sekadar melakukan sesuatu karena semua orang melakukannya. Kita perdalam ini di Pertemuan 2 dan Pertemuan 4.
+Di laporan proyek Anda, ketika Anda menjumlahkan item menjadi skor total, saya harap Anda **bisa menyebutkan asumsi yang Anda pakai**, bukan sekadar melakukan sesuatu karena semua orang melakukannya. Kita perdalam ini di Pertemuan 2 dan Pertemuan 4.
 :::
 
-# Tidak semua kumpulan item itu skala {background-color="#14497F" .center}
+# Tidak semua kumpulan item bisa disebut skala {background-color="#14497F" .center}
 
 ## Tiga hal yang sering tertukar
 
@@ -637,7 +636,7 @@ Pada indeks, item **tidak harus** berkorelasi tinggi dan **tidak bisa** saling d
 . . .
 
 ::: {.callout-warning}
-#### Peringatan yang paling relevan untuk proyek Anda
+#### Penting diingat
 *Software* analisis **tidak bisa membedakan** ketiganya. Anda bisa memasukkan apa saja ke jamovi dan ia akan memberi Anda $\alpha$, memberi Anda faktor, memberi Anda skor total.
 
 Yang menentukan apakah kumpulan item Anda adalah skala, indeks, atau sekadar *emergent variable* adalah **teori Anda**, bukan *output software*-nya.
@@ -670,14 +669,7 @@ Sebuah **skala**, dengan *effect indicators*, berlandaskan *Classical Test Theor
 
 :::
 
-. . .
-
-::: {.callout-tip}
-#### Selama 16 minggu ke depan
-Kita akan mengerjakan yang **development**, bukan yang **assembly**. Itu sebabnya prosesnya panjang.
-:::
-
-# Konsekuensi dari pengukuran yang buruk {background-color="#14497F" .center}
+# Konsekuensi dari pengukuran yang sembarangan {background-color="#14497F" .center}
 
 ## Ada batas yang tidak bisa dilampaui
 
@@ -697,7 +689,7 @@ DeVellis & Thorpe (2022), Bab 1.
 
 <br>
 
-Menambah ukuran sampel, mengganti model statistik, atau memakai analisis yang lebih canggih tidak akan menembus batas ini.
+Menambah ukuran sampel, mengganti model statistik, atau memakai analisis yang lebih canggih tidak akan membantu banyak.
 
 ## Contoh perhitungan: *attenuation bias*
 
@@ -759,9 +751,9 @@ Ini disebut ***jingle fallacy***: mengira konstruk psikologis itu sama karena na
 
 ::: {.incremental}
 
-* Peneliti sering "berhemat" dengan memakai instrumen yang **terlalu pendek**, dengan harapan mengurangi beban partisipan.
+* Peneliti sering mengambil jalan pintas dengan memakai instrumen yang **terlalu pendek**, dengan harapan mengurangi beban partisipan.
 
-* Tetapi kuesioner yang terlalu pendek untuk bisa reliabel tetap saja **pilihan yang buruk**, meskipun terasa praktis.
+* Tetapi kuesioner yang terlalu pendek untuk bisa reliabel tetap saja **bukan keputusan yang tepat**, meskipun terasa praktis.
 
 * Kuesioner **reliabel** yang diisi separuh partisipan memberi lebih banyak informasi daripada kuesioner **tidak reliabel** yang diisi semua partisipan.
 
@@ -782,13 +774,13 @@ Kalau datanya pada akhirnya tidak bisa dimaknai, seberapa banyak pun data yang t
 
 1. **Pengukuran muncul lebih dulu daripada sains** — dari kebutuhan sosial soal keadilan dan pembagian sumber daya.
 
-2. **Gagasan bahwa pengukuran mengandung *error* baru berumur ±250 tahun**, dan tanpa gagasan itu tidak akan ada *Classical Test Theory*.
+2. **Gagasan bahwa pengukuran mengandung *error* baru berumur ±250 tahun**, dan tanpa perubahan paradigma ini tidak akan ada *Classical Test Theory*.
 
 3. **Definisi pengukuran masih diperdebatkan.** Stevens membuatnya cukup longgar supaya psikologi bisa masuk; Duncan dan Michell berargumen bahwa kelonggaran itu menutupi masalah yang belum selesai.
 
 4. **Sebagian besar data psikologi itu ordinal, tetapi diperlakukan sebagai interval.** Ini boleh dilakukan, asalkan Anda tahu bahwa Anda sedang melakukannya.
 
-5. **Tidak semua kumpulan item adalah skala.** Yang menentukan adalah arah kausalitas antara konstruk dan itemnya.
+5. **Tidak semua kumpulan item adalah skala.** Yang menentukan adalah arah hubungan kausalitas antara konstruk dan itemnya.
 
 :::
 

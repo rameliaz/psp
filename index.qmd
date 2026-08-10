@@ -14,8 +14,8 @@ Materi mata kuliah ini sedang disusun secara bertahap. Slide pertemuan yang suda
 :::
 
 ::: {.callout-important}
-#### Pasang jamovi di perangkat Anda sebelum kuliah dimulai
-Seluruh analisis data di mata kuliah ini dikerjakan dengan **[jamovi](https://www.jamovi.org/)** — perangkat lunak statistik gratis dan *open source*. Pastikan Anda memasang **versi terbaru** (*latest release*) sebelum perkuliahan dimulai. Lihat [Perangkat Lunak](#perangkat-lunak) untuk panduan singkatnya.
+#### Pasang `jamovi` di perangkat Anda sebelum kuliah dimulai
+Seluruh analisis data di mata kuliah ini dikerjakan dengan **[`jamovi`](https://www.jamovi.org/)**, yang merupakan perangkat lunak statistik gratis dan *open source*. Pastikan Anda memasang **versi terbaru** (*latest release*) sebelum perkuliahan dimulai. Lihat [Perangkat Lunak](#perangkat-lunak) untuk panduan singkatnya.
 :::
 
 ## Deskripsi Mata Kuliah
@@ -90,23 +90,21 @@ Namun, untuk mengakses percakapan (*chat*) atau berkomunikasi dengan dosen lewat
 
 ## Perangkat Lunak
 
-Mata kuliah ini menggunakan **[jamovi](https://www.jamovi.org/)** untuk seluruh analisis data — mulai dari perhitungan CVI, analisis item, hingga pengujian reliabilitas dan penyusunan norma pada Pertemuan 11–15. jamovi gratis, *open source*, dan tersedia untuk Windows, macOS, serta Linux.
+Mata kuliah ini menggunakan **[`jamovi`](https://www.jamovi.org/)** untuk seluruh analisis data — mulai dari perhitungan CVI, analisis item, hingga pengujian reliabilitas dan penyusunan norma pada Pertemuan 11–15. `jamovi` gratis, *open source*, dan tersedia untuk Windows, macOS, serta Linux.
 
 ::: {.callout-important}
-#### Pasang jamovi versi terbaru
-Unduh dan pasang **versi terbaru** jamovi (*latest release*, bukan versi *solid*/lama) dari **<https://www.jamovi.org/download.html>** sebelum perkuliahan dimulai — paling lambat sebelum **Pertemuan 11 (Senin, 26 Oktober 2026)**.
+#### Pasang `jamovi` versi terbaru
+Unduh dan pasang **versi terbaru** `jamovi` (*latest release*, bukan versi *solid*/lama) dari **<https://www.jamovi.org/download.html>** sebelum perkuliahan dimulai, paling lambat sebelum **Pertemuan 11 (Senin, 26 Oktober 2026)**.
 
-Beberapa modul yang kita pakai hanya tersedia di rilis terbaru, jadi **jangan** memakai jamovi versi lama yang mungkin sudah terpasang di laptop atau di komputer laboratorium. Jika jamovi sudah terpasang, periksa versinya lewat menu ☰ → **About**, lalu perbarui bila perlu.
+Beberapa modul yang kita pakai hanya tersedia di rilis terbaru, jadi **jangan** memakai `jamovi` versi lama yang mungkin sudah terpasang di laptop Anda. Jika `jamovi` sudah terpasang, periksa versinya lewat menu ☰ → **About**, lalu perbarui bila perlu.
 :::
 
 **Cara install:**
 
 1. Buka <https://www.jamovi.org/download.html> dan pilih pemasang sesuai sistem operasi Anda (Windows / macOS / Linux).
 2. Ambil versi pada kolom ***current*** (rilis terbaru), bukan kolom *solid*.
-3. Pasang seperti aplikasi biasa, lalu buka jamovi untuk memastikan berjalan normal.
+3. Pasang seperti aplikasi biasa, lalu buka `jamovi` untuk memastikan berjalan normal.
 4. Modul tambahan dipasang lewat ikon **+ Modules** → **jamovi library** di pojok kanan atas. Modul spesifik yang dibutuhkan akan diumumkan pada pertemuan terkait.
-
-Bawa laptop yang sudah terpasang jamovi pada setiap pertemuan praktik. Jika mengalami kendala pemasangan, sampaikan kepada dosen **sebelum** pertemuan, bukan pada saat sesi berlangsung.
 
 ## Tugas dan Penilaian
 
@@ -121,6 +119,12 @@ Terdapat tiga komponen penilaian utama, sebagaimana tercantum dalam RPP:
 : Komponen penilaian {.striped tbl-colwidths="[18,12,70]"}
 
 ### Hasil Proyek (60%)
+
+::: {.callout-note}
+### Pembagian kelompok
+
+Silakan Anda memilih anggota kelompok Anda sendiri dan [tuliskan nama seluruh anggota kelompok di *spreadsheet* ini](https://docs.google.com/spreadsheets/d/1fTRKB_1MbFcJhqbmfC_gg8h5YDJlRPmh/edit?usp=sharing&ouid=100126014993390956583&rtpof=true&sd=true). *Spreadsheet* akan dikunci aksesnya (tidak dapat di*edit*) pada Pertemuan ke-3.
+:::
 
 Mahasiswa bekerja **dalam kelompok beranggotakan 5 orang** untuk mengonstruksi sebuah skala psikologis beserta manualnya, mengikuti tahapan pada **Rancangan Tugas Mahasiswa (RTM)**: menetapkan variabel yang diukur, membuat definisi operasional, menulis item, mereview item, mengambil data uji coba, menganalisis item, menguji reliabilitas dan validitas, membuat norma, dan menyusun manual.
 
