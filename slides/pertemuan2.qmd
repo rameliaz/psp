@@ -63,7 +63,7 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 Semua asumsi yang Anda lihat di awal punya kesamaan: **asumsi-asumsi ini kita anggap benar tanpa pernah kita periksa**.
 :::
 
-## Kenapa satu pertemuan penuh hanya untuk membahas asumsi?
+## Kenapa perlu satu pertemuan penuh hanya untuk membahas asumsi?
 
 ::: {.incremental}
 

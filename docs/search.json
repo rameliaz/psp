@@ -18,7 +18,7 @@
     "href": "slides/pertemuan11-en.html#how-this-connects-to-what-came-before",
     "title": "Expert Review and Content Validity: Computing and Interpreting the CVI",
     "section": "How this connects to what came before",
-    "text": "How this connects to what came before\n\nIn Session 7, validity was treated as a body of evidence rather than a single number. One source of that evidence is test content.\nThe CVI is a way of making content evidence computable and reportable.\nIn Session 5, students already ran a simple version of this as Thurstone judges: rating each statement, then discarding those they could not agree on.\n\n\n\n\n\n\n\n\nTip\n\n\nThe procedure is the same. Only the criterion differs: not where a statement sits on a continuum, but how relevant an item is to the construct."
+    "text": "How this connects to what came before\n\nIn Session 7, validity was treated as a body of evidence rather than a single number. One source of that evidence is test content.\nThe CVI is a way of making content evidence computable and reportable."
   },
   {
     "objectID": "slides/pertemuan11-en.html#who-counts-as-an-expert",
@@ -1918,11 +1918,11 @@
     "text": "Yang sudah Anda pelajari minggu lalu\n\nPengukuran psikologis dilakukan secara tidak langsung, lewat indikator sebagai “proksi.”\nDefinisi pengukuran sendiri masih diperdebatkan, dan kritik Michell soal apakah atribut psikologis benar-benar kuantitatif belum benar-benar tuntas dijawab.\nSebagian besar data psikologi bentuknya ordinal, tetapi diperlakukan sebagai interval.\nYang menentukan apakah kumpulan item Anda adalah skala adalah teori, bukan output software statistik.\n\n\n\n\n\n\n\n\nBenang merahnya\n\n\nSemua asumsi yang Anda lihat di awal punya kesamaan: asumsi-asumsi ini kita anggap benar tanpa pernah kita periksa."
   },
   {
-    "objectID": "slides/pertemuan2.html#kenapa-satu-pertemuan-penuh-hanya-untuk-membahas-asumsi",
-    "href": "slides/pertemuan2.html#kenapa-satu-pertemuan-penuh-hanya-untuk-membahas-asumsi",
+    "objectID": "slides/pertemuan2.html#kenapa-perlu-satu-pertemuan-penuh-hanya-untuk-membahas-asumsi",
+    "href": "slides/pertemuan2.html#kenapa-perlu-satu-pertemuan-penuh-hanya-untuk-membahas-asumsi",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
-    "section": "Kenapa satu pertemuan penuh hanya untuk membahas asumsi?",
-    "text": "Kenapa satu pertemuan penuh hanya untuk membahas asumsi?\n\nKarena asumsi-asumsi ini tidak muncul di laporan penelitian. Yang muncul hanya hasilnya.\nKarena software tidak akan memperingatkan Anda kalau asumsinya dilanggar. Ia tetap mengeluarkan angka.\nKarena di Pertemuan 9–15 nanti, Anda akan mengambil keputusan teknis yang semuanya bersandar pada asumsi-asumsi ini."
+    "section": "Kenapa perlu satu pertemuan penuh hanya untuk membahas asumsi?",
+    "text": "Kenapa perlu satu pertemuan penuh hanya untuk membahas asumsi?\n\nKarena asumsi-asumsi ini tidak muncul di laporan penelitian. Yang muncul hanya hasilnya.\nKarena software tidak akan memperingatkan Anda kalau asumsinya dilanggar. Ia tetap mengeluarkan angka.\nKarena di Pertemuan 9–15 nanti, Anda akan mengambil keputusan teknis yang semuanya bersandar pada asumsi-asumsi ini."
   },
   {
     "objectID": "slides/pertemuan2.html#asumsi-sebenarnya-bukan-kelemahan",
@@ -2181,7 +2181,7 @@
     "href": "index.html#rencana-pertemuan",
     "title": "Penyusunan Skala Psikologi",
     "section": "Rencana Pertemuan",
-    "text": "Rencana Pertemuan\n\n\n\n\n\n\nImportantRencana pembelajaran\n\n\n\nCek rencana pembelajaran dan kontrak di sini. Mohon diingat, kontrak ini hanya berlaku terbatas di Kelas A-2.\n\n\nPertemuan 1–9 dilaksanakan daring melalui Microsoft Teams, setiap Rabu pukul 15.30 WIB. Pertemuan 10–15 dilaksanakan luring di Ruang 303, setiap Senin pukul 13.00 WIB.\n\nRencana pertemuan Kelas A-2, Semester Gasal 2026/2027\n\n\n\n\n\n\n\n\n\n\n\n#\nTanggal\nTopik\nModa\nDosen\nMateri\nMateri (EN)\n\n\n\n\n1\nRab, 12 Agu\nApa itu pengukuran? Dasar dan filsafat pengukuran psikologis\nKuliah, diskusi kelompok\nAmel\nSlide\nSlide\n\n\n2\nRab, 19 Agu\nAsumsi umum dalam pengukuran psikologis dan mengapa asumsi ini perlu diperiksa secara kritis\nKuliah, diskusi kelompok\nAmel\nSlide\nSlide\n\n\n3\nRab, 26 Agu\nVariabel laten: Classical Test Theory, dan sekilas Item Response Theory\nKuliah, diskusi kelompok\nAmel\nSlide\nSlide\n\n\n4\nRab, 2 Sep\nFormat respons I: Likert, Semantic Differential, Guttman\nKuliah, demo/latihan\nAmel\nSlide\nSlide\n\n\n5\nRab, 9 Sep\nFormat respons II: Thurstone, Situational Judgement Test, forced-choice\nKuliah, demo/latihan\nAmel\nSlide\nSlide\n\n\n6\nRab, 16 Sep\nReliabilitas dalam pengukuran psikologi: konsep dasar dan implementasinya\nKuliah, diskusi kelompok\nAmel\nSlide\nSlide\n\n\n7\nRab, 23 Sep\nValiditas dalam pengukuran psikologi: konsep dasar dan implementasinya\nKuliah, diskusi kelompok\nAmel\nSlide\nSlide\n\n\n8\n29 Sep – 9 Okt\nUjian Tengah Semester (materi Pertemuan 1–7)\nUTS\n—\n—\n—\n\n\n9\nRab, 14 Okt\nPengenalan konstruk dan penetapan estimand: dari tinjauan pustaka ke definisi operasional\nPraktik, diskusi kelompok\nAmel\nSlide\nSlide\n\n\n10\nSen, 19 Okt\nWorkshop penulisan item: kisi-kisi/blue print dan pemilihan format respons\nPraktik, workshop\nDian\nSlide\nSlide\n\n\n11\nSen, 26 Okt\nReview ahli dan validitas isi: perhitungan dan interpretasi CVI\nPraktik, diskusi kelompok\nDian\nSlide\nSlide\n\n\n12\nSen, 2 Nov\nPerancangan dan pelaksanaan uji coba: metode dan sampel\nPraktik\nDian\nn/a\nn/a\n\n\n13\nSen, 9 Nov\nAnalisis item dan pengujian reliabilitas/validitas empiris, skoring, norma, dan penyusunan manual\nPraktik, analisis data\nDian\nn/a\nn/a\n\n\n14\nSen, 16 Nov\nPresentasi draf laporan kelompok dengan umpan balik langsung\nPraktik\nDian\nn/a\nn/a\n\n\n15\nSen, 23 Nov\nPresentasi draf laporan kelompok dengan umpan balik langsung\nPraktik, presentasi\nDian\nn/a\nn/a\n\n\n16\n7–18 Des\nUjian Akhir Semester: pengumpulan laporan akhir dan manual\nUAS\n—\n—\n—\n\n\n\n\n\n\n\n\n\nNoteCatatan tentang perkuliahan daring\n\n\n\n\n\nMahasiswa tidak perlu memiliki akun Microsoft Teams untuk mengikuti kuliah, dan dapat bergabung langsung lewat browser tanpa memasang aplikasinya.\nNamun, untuk mengakses percakapan (chat) atau berkomunikasi dengan dosen lewat tautan MS Teams yang sama, mahasiswa perlu masuk menggunakan akun Microsoft Teams UNAIR (email berdomain @drive.unair.ac.id). Lihat Panduan Penggunaan OneDrive dan MS Teams dari Direktorat Sistem Informasi (DSI) Universitas Airlangga."
+    "text": "Rencana Pertemuan\n\n\n\n\n\n\nImportantRencana pembelajaran\n\n\n\nCek rencana pembelajaran dan kontrak di sini. Mohon diingat, kontrak ini hanya berlaku terbatas di Kelas A-2.\n\n\nPertemuan 1–9 dilaksanakan daring melalui Microsoft Teams, setiap Rabu pukul 15.30 WIB. Pertemuan 10–15 dilaksanakan luring di Ruang 303, setiap Senin pukul 13.00 WIB.\n\nRencana pertemuan Kelas A-2, Semester Gasal 2026/2027\n\n\n\n\n\n\n\n\n\n\n\n\n#\nTanggal\nTopik\nModa\nTautan\nDosen\nMateri\nMateri (EN)\n\n\n\n\n1\nRabu, 12 Agu\nApa itu pengukuran? Dasar dan filsafat pengukuran psikologis\nKuliah, diskusi kelompok\nKlik di sini untuk bergabung ke MS Teams\nAmel\nSlide\nSlide\n\n\n2\nRabu, 19 Agu\nAsumsi umum dalam pengukuran psikologis dan mengapa asumsi ini perlu diperiksa secara kritis\nKuliah, diskusi kelompok\nKlik di sini untuk bergabung ke MS Teams\nAmel\nSlide\nSlide\n\n\n3\nRabu, 26 Agu\nVariabel laten: Classical Test Theory, dan sekilas Item Response Theory\nKuliah, diskusi kelompok\nKlik di sini untuk bergabung ke MS Teams\nAmel\nSlide\nSlide\n\n\n4\nRabu, 2 Sep\nFormat respons I: Likert, Semantic Differential, Guttman\nKuliah, demo/latihan\nKlik di sini untuk bergabung ke MS Teams\nAmel\nSlide\nSlide\n\n\n5\nRabu, 9 Sep\nFormat respons II: Thurstone, Situational Judgement Test, forced-choice\nKuliah, demo/latihan\nKlik di sini untuk bergabung ke MS Teams\nAmel\nSlide\nSlide\n\n\n6\nRabu, 16 Sep\nReliabilitas dalam pengukuran psikologi: konsep dasar dan implementasinya\nKuliah, diskusi kelompok\nKlik di sini untuk bergabung ke MS Teams\nAmel\nSlide\nSlide\n\n\n7\nRabu, 23 Sep\nValiditas dalam pengukuran psikologi: konsep dasar dan implementasinya\nKuliah, diskusi kelompok\nKlik di sini untuk bergabung ke MS Teams\nAmel\nSlide\nSlide\n\n\n8\n29 Sep – 9 Okt\nUjian Tengah Semester (materi Pertemuan 1–7)\nUTS\n—\n—\n—\n—\n\n\n9\nRabu, 14 Okt\nPengenalan konstruk dan penetapan estimand: dari tinjauan pustaka ke definisi operasional\nPraktik, diskusi kelompok\nKlik di sini untuk bergabung ke MS Teams\nAmel\nSlide\nSlide\n\n\n10\nSenin, 19 Okt\nWorkshop penulisan item: kisi-kisi/blue print dan pemilihan format respons\nPraktik, workshop\nRuang 303\nDian\nSlide\nSlide\n\n\n11\nSenin, 26 Okt\nReview ahli dan validitas isi: perhitungan dan interpretasi CVI\nPraktik, diskusi kelompok\nRuang 303\nDian\nSlide\nSlide\n\n\n12\nSenin, 2 Nov\nPerancangan dan pelaksanaan uji coba: metode dan sampel\nPraktik\nRuang 303\nDian\nn/a\nn/a\n\n\n13\nSenin, 9 Nov\nAnalisis item dan pengujian reliabilitas/validitas empiris, skoring, norma, dan penyusunan manual\nPraktik, analisis data\nRuang 303\nDian\nn/a\nn/a\n\n\n14\nSenin, 16 Nov\nPresentasi draf laporan kelompok dengan umpan balik langsung\nPraktik\nRuang 303\nDian\nn/a\nn/a\n\n\n15\nSenin, 23 Nov\nPresentasi draf laporan kelompok dengan umpan balik langsung\nPraktik, presentasi\nRuang 303\nDian\nn/a\nn/a\n\n\n16\n7–18 Des\nUjian Akhir Semester: pengumpulan laporan akhir dan manual\nUAS\n—\n—\n—\n—\n\n\n\n\n\n\n\n\n\nNoteCatatan tentang perkuliahan daring\n\n\n\n\n\nMahasiswa tidak perlu memiliki akun Microsoft Teams untuk mengikuti kuliah, dan dapat bergabung langsung lewat browser tanpa memasang aplikasinya.\nNamun, untuk mengakses percakapan (chat) atau berkomunikasi dengan dosen lewat tautan MS Teams yang sama, mahasiswa perlu masuk menggunakan akun Microsoft Teams UNAIR (email berdomain @drive.unair.ac.id). Lihat Panduan Penggunaan OneDrive dan MS Teams dari Direktorat Sistem Informasi (DSI) Universitas Airlangga."
   },
   {
     "objectID": "index.html#perangkat-lunak",
@@ -2216,28 +2216,28 @@
     "href": "slides/pertemuan1.html#outline",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Outline",
-    "text": "Outline\n\nApa sebenarnya yang kita lakukan ketika kita “mengukur konstruk psikologis”?\nSejarah singkat: pengukuran lahir dari kebutuhan sosial\nMengapa definisi “pengukuran” masih diperdebatkan sampai hari ini\nLevel pengukuran (Stevens) dan persoalan yang ditinggalkannya\nMengapa psikologi terpaksa mengukur secara tidak langsung\nSkala, indeks, dan emergent variable\nApa konsekuensi dari cara mengukur yang buruk?\n\n\n\nDisclosure penggunaan akal imitasi (AI)\nKami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk brainstorming materi, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini."
+    "text": "Outline\n\nApa sebenarnya yang kita lakukan ketika kita “mengukur konstruk psikologis”?\nSejarah singkat: pengukuran lahir dari kebutuhan sosial\nMengapa definisi “pengukuran” masih diperdebatkan sampai hari ini\nLevel pengukuran (Stevens) dan persoalan yang ditinggalkannya\nMengapa konstruk psikologis hanya bisa diukur secara tidak langsung\nSkala, indeks, dan emergent variable\nApa akibat dari strategi pengukuran yang buruk?\n\n\n\nDisclosure penggunaan akal imitasi (AI)\nKami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk brainstorming materi, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini."
   },
   {
     "objectID": "slides/pertemuan1.html#apa-yang-akan-kita-lakukan-selama-satu-semester",
     "href": "slides/pertemuan1.html#apa-yang-akan-kita-lakukan-selama-satu-semester",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Apa yang akan kita lakukan selama satu semester?",
-    "text": "Apa yang akan kita lakukan selama satu semester?\n\nTugas akhir: setiap kelompok (5 orang) akan menyusun sebuah skala psikologis lengkap beserta manualnya.\nParuh pertama (Pertemuan 1–7): membangun fondasi konseptualnya. Apa itu pengukuran, asumsi apa saja yang kita pakai (yang kadang-kadang implisit dan tidak disadari), apa itu variabel laten, bagaimana memilih format respons, apa artinya skala yang reliabel dan skor yang valid.\nParuh kedua (Pertemuan 9–15): mengerjakan skalanya. Menetapkan konstruk, menulis item, meminta review ahli, mengambil data uji coba, menganalisis item, menyusun norma dan manual.\n\n\n\n\n\n\n\n\nPenting dicatat\n\n\nParuh pertama bukan sekadar pengantar. Hampir setiap keputusan teknis yang akan Anda akan ambil di paruh kedua, misalnya berapa banyak item yang harus disertakan, format responsnya seperti apa, koefisien mana yang dilaporkan, adalah konsekuensi dari posisi konseptual yang kita bahas di paruh pertama."
+    "text": "Apa yang akan kita lakukan selama satu semester?\n\nTugas akhir: setiap kelompok (5 orang) akan menyusun sebuah skala psikologis lengkap beserta manualnya.\n\nTuliskan nama anggota kelompok Anda di spreadsheet ini.\nAkses ke spreadsheet akan dikunci setelah Pertemuan 3.\n\nParuh pertama (Pertemuan 1–7): membangun fondasi konseptualnya. Apa itu pengukuran, asumsi apa saja yang kita pakai (yang kadang-kadang implisit dan tidak disadari), apa itu variabel laten, bagaimana memilih format respons, apa artinya skala yang reliabel dan skor yang valid.\nParuh kedua (Pertemuan 9–15): mengerjakan skalanya. Menetapkan konstruk, menulis item, meminta review ahli, mengambil data uji coba, menganalisis item, menyusun norma dan manual.\n\n\n\n\n\n\n\n\nPenting dicatat\n\n\nParuh pertama bukan sekadar pengantar. Hampir setiap keputusan teknis yang akan Anda akan ambil di paruh kedua, misalnya berapa banyak item yang harus disertakan, format responsnya seperti apa, koefisien mana yang dilaporkan, adalah konsekuensi dari posisi konseptual yang kita bahas di paruh pertama."
   },
   {
-    "objectID": "slides/pertemuan1.html#tiga-situasi",
-    "href": "slides/pertemuan1.html#tiga-situasi",
+    "objectID": "slides/pertemuan1.html#tiga-skenario",
+    "href": "slides/pertemuan1.html#tiga-skenario",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
-    "section": "Tiga situasi",
-    "text": "Tiga situasi\n\nSeorang psikolog kesehatan ingin membedakan apa yang pasien inginkan dari apa yang pasien harapkan terjadi saat berkonsultasi dengan dokter. Skala yang tersedia saat ini mencampuradukkan keduanya. Ia bisa saja menyusun sendiri beberapa pertanyaan — tapi apa jaminannya pertanyaan itu mengukur sesuatu yang sesungguhnya ia ingin ukur?\nSeorang epidemiolog punya data survei nasional yang besar, tapi tidak ada satu pun skala stres di dalamnya. Ada beberapa item yang sepertinya menyinggung stres. Bolehkah ia menjumlahkan item-item itu dan menyebutnya “skor stres”?\nSebuah tim pemasaran menemukan bahwa keputusan orang tua membeli mainan mahal dipengaruhi oleh sesuatu yang tidak bisa mereka sebut secara eksplisit, apalagi ukur.\n\n\n\nDiadaptasi dari DeVellis & Thorpe (2022), Bab 1."
+    "section": "Tiga skenario",
+    "text": "Tiga skenario\n\nSeorang psikolog kesehatan ingin membedakan apa yang pasien inginkan dari apa yang pasien harapkan terjadi saat berkonsultasi dengan dokter. Skala yang tersedia saat ini mencampuradukkan keduanya. Ia bisa saja menyusun sendiri beberapa pertanyaan — tapi apa jaminannya pertanyaan itu mengukur sesuatu yang sesungguhnya ia ingin ukur?\nSeorang epidemiolog punya data survei nasional yang besar, tapi tidak ada satu pun skala stres di dalamnya. Ada beberapa item yang sepertinya menyinggung stres. Bolehkah ia menjumlahkan item-item itu dan menyebutnya “skor stres”?\nSebuah tim pemasaran menemukan bahwa keputusan orang tua membeli mainan mahal dipengaruhi oleh sesuatu yang tidak bisa mereka sebut secara eksplisit, apalagi ukur.\n\n\n\nDiadaptasi dari DeVellis & Thorpe (2022), Bab 1."
   },
   {
     "objectID": "slides/pertemuan1.html#apa-yang-kesamaan-dari-3-contoh-tersebut",
     "href": "slides/pertemuan1.html#apa-yang-kesamaan-dari-3-contoh-tersebut",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Apa yang kesamaan dari 3️⃣ contoh tersebut?",
-    "text": "Apa yang kesamaan dari 3️⃣ contoh tersebut?\n\nKetiganya bukan persoalan statistik. Tidak ada satu pun yang selesai dengan memilih uji statistik yang lebih canggih.\nKetiganya adalah persoalan pengukuran: apakah angka yang kita hasilkan benar-benar mewakili atribut yang kita klaim sedang diukur?\nKetiganya juga punya jalan pintas yang sama: susun saja itemnya, jumlahkan, lalu beri nama konstruknya.\n\n\n\n\n\n\n\n\nKenapa ini penting\n\n\nKalau jalan pintas ini diambil, seluruh kesimpulan penelitian berdiri di atas asumsi yang tidak pernah diperiksa. Masalahnya, datanya akan tetap terlihat baik-baik saja: tetap ada rata-rata, tetap ada p-value, tetap bisa dibuat grafiknya. Tetapi, apakah data hasil pengukuran tersebut sesuai dengan klaimnya?"
+    "text": "Apa yang kesamaan dari 3️⃣ contoh tersebut?\n\nKetiganya bukan persoalan statistik. Tidak ada satu pun yang selesai dengan memilih uji statistik yang lebih canggih.\nKetiganya adalah persoalan pengukuran: apakah angka yang kita hasilkan benar-benar mewakili atribut yang kita klaim sedang diukur?\nDalam ketiga skenario ini, sayangnya, banyak yang memilih jalan pintas yang sama: susun saja itemnya, jumlahkan, lalu beri nama konstruknya.\n\n\n\n\n\n\n\n\nKenapa ini penting\n\n\nKalau jalan pintas ini diambil, seluruh kesimpulan penelitian berdiri di atas asumsi yang tidak pernah diperiksa. Masalahnya, datanya akan tetap terlihat baik-baik saja: tetap ada hasil statistik deskriptif, tetap ada p-value, tetap bisa dibuat grafiknya. Tetapi, apakah data hasil pengukuran tersebut sesuai dengan klaimnya?"
   },
   {
     "objectID": "slides/pertemuan1.html#pertanyaan-utama-sepanjang-mata-kuliah-ini",
@@ -2258,7 +2258,7 @@
     "href": "slides/pertemuan1.html#jejak-paling-awal",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Jejak paling awal",
-    "text": "Jejak paling awal\n\n±2200 SM, Tiongkok — ujian untuk seleksi pegawai negeri.\nTimbangan yang curang adalah persoalan moral.\n\nQS. Al Muthoffifin: 1-3 — “Kecelakaan besarlah bagi orang-orang yang curang (yaitu) orang-orang yang apabila menerima takaran dari orang lain mereka minta dipenuhi dan apabila mereka menakar atau menimbang untuk orang lain, mereka mengurangi.”\nQS. Al An’am: 152 - “Dan sempurnakanlah takaran dan timbangan dengan adil. Kami tidak memikulkan beban kepada sesorang melainkan sekedar kesanggupannya.”\nKitab Amsal 11:1 — “A false balance is an abomination to the Lord, but a just weight is a delight.”\n\nRevolusi Prancis — sebagian dipicu kekesalan petani terhadap praktik penimbangan yang tidak adil.\n\n\n\n\n\n\n\n\nYang menarik dari contoh di atas\n\n\nKetika poin di atas berkaitan erat dengan keadilan, bukan hanya soal akurasi ilmiah. Sejak awal, pengukuran adalah alat kekuasaan dan pembagian sumber daya. Isu soal keadilan dalam pengukuran akan muncul lagi ketika kita membahas test bias dan penggunaan tes psikologi untuk seleksi."
+    "text": "Jejak paling awal\n\n±2200 SM, Tiongkok — ujian untuk seleksi pegawai negeri.\nTimbangan yang curang adalah persoalan moral.\n\nQS. Al Muthoffifin: 1-3 — “Kecelakaan besarlah bagi orang-orang yang curang (yaitu) orang-orang yang apabila menerima takaran dari orang lain mereka minta dipenuhi dan apabila mereka menakar atau menimbang untuk orang lain, mereka mengurangi.”\nQS. Al An’am: 152 - “Dan sempurnakanlah takaran dan timbangan dengan adil. Kami tidak memikulkan beban kepada sesorang melainkan sekedar kesanggupannya.”\nKitab Amsal 11:1 — “A false balance is an abomination to the Lord, but a just weight is a delight.”\n\nRevolusi Prancis — sebagian dipicu kekesalan petani terhadap praktik penimbangan yang tidak adil.\n\n\n\n\n\n\n\n\nYang menarik dari berbagai contoh di atas\n\n\nKetika poin di atas berkaitan erat dengan keadilan, bukan hanya soal akurasi ilmiah. Sejak awal, pengukuran adalah alat kekuasaan dan pembagian sumber daya. Isu soal keadilan dalam pengukuran akan muncul lagi ketika kita membahas test bias dan penggunaan tes psikologi untuk seleksi."
   },
   {
     "objectID": "slides/pertemuan1.html#gagasan-bahwa-pengukuran-bisa-keliru-justru-relatif-baru",
@@ -2282,11 +2282,11 @@
     "text": "Perubahan paradigma dan perkembangan psikometri\n\nAwalnya menyembunyikan perbedaan hasil pengamatan merupakan sesuatu yang lazim dilakukan.\n\nKarena, ilmuwan bertanggung jawab untuk menciptakan “gambaran ideal” dari suatu fenomena alam, dengan menggunakan penilaiannya sendiri untuk menentukan apa yang seharusnya dianggap ideal.\nAkibatnya, “nilai penyimpangan yang tidak disengaja/acak” umumnya dikecualikan dari catatan ilmiah (Daston & Gallison, 2007)\n\nDampak perubahan ini sangat besar: Error yang awalnya dianggap sebagai indikasi inkompetensi pengamat/ilmuwan, dimaknai menjadi sifat “sistematis” yang acak (stochastic) dari suatu proses pengukuran yang bisa dimodelkan/diestimasi secara matematis.\nTanpa perubahan paradigma ini, Classical Test Theory tidak mungkin ada sampai sekarang."
   },
   {
-    "objectID": "slides/pertemuan1.html#dari-error-ke-statistik",
-    "href": "slides/pertemuan1.html#dari-error-ke-statistik",
+    "objectID": "slides/pertemuan1.html#memodelkan-error-pengukuran-secara-statistik",
+    "href": "slides/pertemuan1.html#memodelkan-error-pengukuran-secara-statistik",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
-    "section": "Dari error ke statistik",
-    "text": "Dari error ke statistik\n\n1660-an, John Graunt mengumpulkan angka kelahiran dan kematian dari catatan baptis dan pemakaman di London, Inggris. Ia merata-ratakan nilai setiap pengamatan untuk mendapatkan nilai “sebenarnya”, yang menurutnya, tertutup oleh peristiwa tak terduga di tiap tahunnya.\n1777, Daniel Bernoulli membandingkan sebaran hasil pengamatan astronomi dengan jatuhnya anak panah seorang pemanah, yang sama-sama mengumpul di sekitar satu titik ketika diamati/dilakukan berkali-kali.\nBuchwald (2006) menilai kelemahan mendasar interpretasi abad ke-18 adalah kegagalan membedakan random error dari systematic error. Perbedaan keduanya baru jelas di abad berikutnya.\n\n\n\n\n\n\n\n\nIngat analogi anak panah ini\n\n\nAnalogi Bernoulli menggambarkan apa yang nanti kita sebut random error, dan kenapa reliabilitas bisa dinaikkan koefisiennya hanya dengan menambah item."
+    "section": "Memodelkan error pengukuran secara statistik",
+    "text": "Memodelkan error pengukuran secara statistik\n\n1660-an, John Graunt mengumpulkan angka kelahiran dan kematian dari catatan baptis dan pemakaman di London, Inggris. Ia merata-ratakan nilai setiap pengamatan untuk mendapatkan nilai “sebenarnya”, yang menurutnya, tertutup oleh peristiwa tak terduga di tiap tahunnya.\n1777, Daniel Bernoulli membandingkan sebaran hasil pengamatan astronomi dengan jatuhnya anak panah seorang pemanah, yang sama-sama mengumpul di sekitar satu titik ketika diamati/dilakukan berkali-kali.\nBuchwald (2006) menilai kelemahan mendasar interpretasi abad ke-18 adalah kegagalan membedakan random error dari systematic error. Perbedaan keduanya baru jelas di abad berikutnya.\n\n\n\n\n\n\n\n\nIngat analogi anak panah ini\n\n\nAnalogi Bernoulli menggambarkan apa yang nanti kita sebut random error, dan kenapa reliabilitas bisa dinaikkan koefisiennya hanya dengan menambah item."
   },
   {
     "objectID": "slides/pertemuan1.html#bagaimana-psikometri-lahir",
@@ -2296,11 +2296,11 @@
     "text": "Bagaimana psikometri lahir\n\nDarwin mengamati dan mengukur variasi sistematis antar-spesies.\nSepupunya, Sir Francis Galton, menerapkan pengamatan sistematis atas perbedaan itu pada manusia dengan perhatian utama pada pewarisan sifat anatomis dan intelektual.\nKarl Pearson, kolega Galton, mengembangkan teknik analisis statistik termasuk Product-Moment Correlation Coefficient yang memakai namanya.\nCharles Spearman melanjutkannya dan membuka jalan bagi analisis faktor.\nAlfred Binet mengembangkan tes kemampuan mental/intelegensi di Prancis pada awal 1900-an.\n\n\n\n\n\n\n\n\nWarisan yang tidak netral\n\n\nBanyak kontributor awal psikometri bekerja dalam kerangka eugenics. Teori dan analisis statistiknya masih kita pakai sampai sekarang, tetapi asumsi dan konsekuensi politis di baliknya (e.g., fertilisasi ras tertentu yang dianggap “inferior”, dst.) tidak boleh kita teruskan."
   },
   {
-    "objectID": "slides/pertemuan1.html#ketika-psikologi-dinyatakan-tidak-bisa-diukur",
-    "href": "slides/pertemuan1.html#ketika-psikologi-dinyatakan-tidak-bisa-diukur",
+    "objectID": "slides/pertemuan1.html#bisakah-konstruk-psikologis-diukur",
+    "href": "slides/pertemuan1.html#bisakah-konstruk-psikologis-diukur",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
-    "section": "Ketika psikologi dinyatakan “tidak bisa diukur”",
-    "text": "Ketika psikologi dinyatakan “tidak bisa diukur”\n\nAkhir abad ke-19, Helmholtz mengamati bahwa atribut fisik seperti panjang dan massa punya struktur matematis yang sama dengan bilangan real positif: bisa diurutkan dan bisa dijumlahkan.\nKomisi British Association for the Advancement of Science (dibentuk 1932) menyimpulkan bahwa pengukuran fundamental atas variabel psikologis itu mustahil karena persepsi indrawi tidak bisa diurutkan atau dijumlahkan seperti panjang dan massa.\nS. S. Stevens membantah: sifat aditif yang ketat tidak diperlukan. Orang bisa membuat penilaian rasio yang cukup konsisten, misalnya menilai satu suara dua kali lebih keras dari suara lain.\nL. L. Thurstone, di waktu yang hampir bersamaan, membangun fondasi matematis analisis faktor dan menerapkan metode psikofisika untuk scaling stimulus sosial."
+    "section": "Bisakah konstruk psikologis diukur?",
+    "text": "Bisakah konstruk psikologis diukur?\n\nAkhir abad ke-19, Helmholtz mengamati bahwa atribut fisik seperti panjang dan massa punya struktur matematis yang sama dengan bilangan real positif: bisa diurutkan dan bisa dijumlahkan.\nKomisi British Association for the Advancement of Science (dibentuk 1932) menyimpulkan bahwa pengukuran fundamental atas variabel psikologis itu mustahil karena persepsi indrawi tidak bisa diurutkan atau dijumlahkan seperti panjang dan massa.\nS. S. Stevens membantah: sifat aditif yang ketat tidak diperlukan. Orang bisa membuat penilaian rasio yang cukup konsisten, misalnya menilai satu suara dua kali lebih keras dari suara lain.\nL. L. Thurstone, di waktu yang hampir bersamaan, membangun fondasi matematis analisis faktor dan menerapkan metode psikofisika untuk scaling stimulus sosial."
   },
   {
     "objectID": "slides/pertemuan1.html#definisi-yang-paling-sering-dikutip",
@@ -2328,7 +2328,7 @@
     "href": "slides/pertemuan1.html#anda-tidak-harus-setuju-dengan-michell",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Anda tidak harus setuju dengan Michell",
-    "text": "Anda tidak harus setuju dengan Michell\n\nBanyak ahli psikometri tidak setuju dengan Michell, dan bantahan mereka juga sama kuatnya.\nTetapi Anda perlu tahu bahwa kritik ini benar-benar ada, dan Anda harus bisa menyebutkan asumsi apa yang sedang Anda pakai ketika Anda menjumlahkan 10 item Likert menjadi satu skor.\n\n\n\n\n\n\n\n\nSikap yang kita latih di mata kuliah ini\n\n\nBukan “menolak teori psikometri mentah-mentah”, dan juga bukan “menerimanya bulat-bulat”. Melainkan: tahu persis asumsi apa yang sedang saya pakai, dan apa akibatnya kalau asumsi yang saya gunakan ini salah."
+    "text": "Anda tidak harus setuju dengan Michell\n\nBanyak ahli psikometri tidak setuju dengan Michell, dan bantahan mereka juga sama kuatnya.\nTetapi Anda perlu tahu bahwa kritik ini benar-benar ada, dan Anda harus bisa menyebutkan asumsi apa yang sedang Anda pakai ketika Anda menjumlahkan 10 item Likert menjadi satu skor.\n\n\n\n\n\n\n\n\nPenting diingat\n\n\nAnda tidak mungkin “menolak teori psikometri mentah-mentah”, tetapi juga jangan “menerimanya bulat-bulat”. Latih sikap berikut ini: saya tahu persis asumsi apa yang sedang saya pakai, dan apa akibatnya kalau asumsi yang saya gunakan ini salah."
   },
   {
     "objectID": "slides/pertemuan1.html#pengukuran-vs.-asesmen",
@@ -2349,7 +2349,7 @@
     "href": "slides/pertemuan1.html#fisika-sebenarnya-juga-memakai-proksi",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Fisika sebenarnya juga memakai proksi",
-    "text": "Fisika sebenarnya juga memakai proksi\n\nTekanan darah dan suhu tubuh terlihat seperti bisa diamati langsung. Padahal yang benar-benar kita amati adalah kolom air raksa atau angka pada layar digital.\nKita menyebut ketinggian air raksa itu adalah “suhu”, padahal ini hanya wujud yang bisa kita lihat dari energi termal, yang sebenarnya ingin kita ukur.\nPada termometer, penyederhanaan ini hampir tidak bermasalah, karena hubungan antara proksi dan atributnya sangat kuat.\n\n\n\n\n\n\n\n\nKalau hubungannya tidak sekuat itu?\n\n\nKetika hubungan antara variabel dan indikatornya jauh lebih lemah daripada pada contoh termometer, tertukarnya alat ukur dengan fenomena yang ingin diukur bisa membawa kita ke kesimpulan yang keliru sama sekali."
+    "text": "Fisika sebenarnya juga memakai proksi\n\nTekanan darah dan suhu tubuh terlihat seperti bisa diamati langsung. Padahal yang benar-benar kita amati adalah kolom air raksa atau angka pada layar digital.\nKita menyebut ketinggian air raksa itu adalah “suhu”, padahal ini hanya wujud yang bisa kita lihat dari energi termal, yang sebenarnya ingin kita ukur.\nPada termometer, penyederhanaan ini hampir tidak bermasalah, karena hubungan antara proksi dan atributnya sangat kuat.\n\n\n\n\n\n\n\n\nBagaimana kalau hubungannya tidak sekuat itu?\n\n\nKetika hubungan antara variabel dan indikatornya jauh lebih lemah daripada pada contoh termometer, tertukarnya alat ukur dengan fenomena yang ingin diukur bisa membawa kita ke kesimpulan yang keliru sama sekali."
   },
   {
     "objectID": "slides/pertemuan1.html#contoh-dukungan-sosial-atau-status-pernikahan",
@@ -2363,7 +2363,7 @@
     "href": "slides/pertemuan1.html#kesalahan-seperti-ini-sering-terjadi",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Kesalahan seperti ini sering terjadi",
-    "text": "Kesalahan seperti ini sering terjadi\n\nDalam penelitian, kita hampir tidak pernah memeriksa hubungan antar-variabel secara langsung.\nYang kita periksa adalah hubungan antar-proksi. Dan proksi yang teramati mudah sekali tertukar dengan variabel yang tidak teramati.\nDeVellis & Thorpe mencatat satu pola yang sering muncul: menyimpulkan bahwa sebuah konstruk tidak penting atau sebuah teori tidak konsisten, padahal yang bermasalah adalah alat ukurnya.\n\n\n\n\n\n\n\n\nKebiasaan yang perlu Anda latih\n\n\nSetiap kali Anda membaca kalimat “tidak ditemukan hubungan yang signifikan”, tanyakan satu hal: apakah alat ukurnya memang mampu menangkap konstruk itu?"
+    "text": "Kesalahan seperti ini sering terjadi\n\nDalam penelitian, kita hampir tidak pernah memeriksa hubungan antar-variabel secara langsung.\nYang kita periksa adalah hubungan antar-proksi. Dan proksi yang teramati mudah sekali tertukar dengan variabel yang tidak teramati.\nDeVellis & Thorpe mencatat satu pola yang sering muncul: menyimpulkan bahwa sebuah konstruk tidak penting atau sebuah teori tidak konsisten, padahal yang bermasalah adalah alat ukurnya.\n\n\n\n\n\n\n\n\nKebiasaan yang perlu Anda latih\n\n\nSetiap kali Anda membaca klaim bahwa “tidak ditemukan hubungan yang signifikan”, Anda perlu bersikap skeptis: jangan-jangan alat ukurnya memang tidak mampu menangkap konstruk tsb?"
   },
   {
     "objectID": "slides/pertemuan1.html#empat-level-stevens",
@@ -2408,11 +2408,11 @@
     "text": "Lalu, apakah kita berhenti memakainya?\n\nTidak. Dalam praktiknya, skor skala Likert tetap diperlakukan sebagai interval, dan ada argumen pragmatis yang masuk akal untuk itu, terutama ketika itemnya banyak dan sebarannya tidak ekstrem.\nYang tidak boleh kita lakukan adalah “menutup mata” bahwa tidak ada asumsi yang sedang kita gunakan.\n\n\n\n\n\n\n\n\nYang saya harapkan dari Anda\n\n\nDi laporan proyek Anda, ketika Anda menjumlahkan item menjadi skor total, saya harap Anda bisa menyebutkan asumsi yang Anda pakai, bukan sekadar melakukan sesuatu karena semua orang melakukannya. Kita perdalam ini di Pertemuan 2 dan Pertemuan 4."
   },
   {
-    "objectID": "slides/pertemuan1.html#tiga-hal-yang-sering-tertukar",
-    "href": "slides/pertemuan1.html#tiga-hal-yang-sering-tertukar",
+    "objectID": "slides/pertemuan1.html#tiga-terminologi-yang-sering-tertukar",
+    "href": "slides/pertemuan1.html#tiga-terminologi-yang-sering-tertukar",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
-    "section": "Tiga hal yang sering tertukar",
-    "text": "Tiga hal yang sering tertukar\n\nSkala — itemnya adalah effect indicators: nilainya disebabkan oleh konstruk yang mendasarinya.\nIndeks — itemnya adalah cause indicators: item-itemnya justru menentukan level konstruknya.\nEmergent variable — sekumpulan hal yang dikelompokkan karena ada kemiripan, tanpa kesamaan sebab maupun akibat.\n\n\n\nPembedaan effect vs cause indicator berasal dari Bollen (1989); lihat DeVellis & Thorpe (2022), Bab 1 dan Bab 7."
+    "section": "Tiga terminologi yang sering tertukar",
+    "text": "Tiga terminologi yang sering tertukar\n\nSkala — itemnya adalah effect indicators: nilainya disebabkan oleh konstruk yang mendasarinya.\nIndeks — itemnya adalah cause indicators: item-itemnya justru menentukan level konstruknya.\nEmergent variable — sekumpulan hal yang dikelompokkan karena ada kemiripan, tanpa kesamaan sebab maupun akibat.\n\n\n\nPembedaan effect vs cause indicator berasal dari Bollen (1989); lihat DeVellis & Thorpe (2022), Bab 1 dan Bab 7."
   },
   {
     "objectID": "slides/pertemuan1.html#skala-item-sebagai-akibat",
@@ -2464,18 +2464,18 @@
     "text": "Assembly, bukan development\n\nDeVellis & Thorpe mengamati bahwa untuk banyak kumpulan item, assembly (merakit) adalah istilah yang lebih tepat daripada development (mengembangkan), dalam banyak konteks.\nPeneliti sering mengumpulkan item seadanya lalu mengasumsikan hasilnya adalah skala yang layak.\nTetapi, tanpa pernah memeriksa apakah item-item itu punya sebab yang sama (skala), punya akibat yang sama (indeks), atau sekadar masuk dalam satu kategori yang sama (emergent variable)."
   },
   {
-    "objectID": "slides/pertemuan1.html#ada-batas-yang-tidak-bisa-dilampaui",
-    "href": "slides/pertemuan1.html#ada-batas-yang-tidak-bisa-dilampaui",
+    "objectID": "slides/pertemuan1.html#kerugiannya",
+    "href": "slides/pertemuan1.html#kerugiannya",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
-    "section": "Ada batas yang tidak bisa dilampaui",
-    "text": "Ada batas yang tidak bisa dilampaui\n\nKualitas pengukuran\nmembatasi validitas kesimpulan\nyang bisa kita tarik.\n\n\n\n\nMenambah ukuran sampel, mengganti model statistik, atau memakai analisis yang lebih canggih tidak akan membantu banyak.\n\n\nDeVellis & Thorpe (2022), Bab 1."
+    "section": "Kerugiannya",
+    "text": "Kerugiannya\n\nKualitas pengukuran\nmembatasi validitas dari kesimpulan\nyang bisa kita tarik dari skor hasil pengukuran.\n\n\n\n\nMenambah ukuran sampel, mengganti/memodifikasi model statistik, atau memakai analisis yang lebih canggih tidak akan membantu banyak.\n\n\nDeVellis & Thorpe (2022), Bab 1."
   },
   {
-    "objectID": "slides/pertemuan1.html#contoh-perhitungan-attenuation-bias",
-    "href": "slides/pertemuan1.html#contoh-perhitungan-attenuation-bias",
+    "objectID": "slides/pertemuan1.html#contohnya-attenuation-bias",
+    "href": "slides/pertemuan1.html#contohnya-attenuation-bias",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
-    "section": "Contoh perhitungan: attenuation bias",
-    "text": "Contoh perhitungan: attenuation bias\nMisalkan korelasi sesungguhnya antara kecemasan dan prokrastinasi adalah \\(\\rho_{T_X T_Y} = 0.60\\).\nAnda memakai skala kecemasan dengan reliabilitas \\(0.70\\) dan skala prokrastinasi dengan reliabilitas \\(0.65\\).\n\nKorelasi yang akan Anda temukan di data Anda:\n\\[r_{XY} = \\rho_{T_X T_Y} \\times \\sqrt{\\rho_{XX'} \\times \\rho_{YY'}} = 0.60 \\times \\sqrt{0.70 \\times 0.65} = \\mathbf{0.40}\\]\n\n\n\n\n\n\n\n\nAnda akan melaporkan 0.40 untuk hubungan yang sebenarnya 0.60\n\n\nBukan karena Anda salah menghitung, bukan juga karena sampel Anda kurang besar. Semata-mata karena alat ukurnya noisy."
+    "section": "Contohnya: attenuation bias",
+    "text": "Contohnya: attenuation bias\nMisalkan korelasi sesungguhnya antara kecemasan dan prokrastinasi adalah \\(\\rho_{T_X T_Y} = 0.60\\).\nAnda memakai skala kecemasan dengan reliabilitas \\(0.70\\) dan skala prokrastinasi dengan reliabilitas \\(0.65\\).\n\nKorelasi yang akan Anda temukan di data Anda:\n\\[r_{XY} = \\rho_{T_X T_Y} \\times \\sqrt{\\rho_{XX'} \\times \\rho_{YY'}} = 0.60 \\times \\sqrt{0.70 \\times 0.65} = \\mathbf{0.40}\\]\n\n\n\n\n\n\n\n\nAnda akan melaporkan 0.40 untuk hubungan yang sebenarnya 0.60\n\n\nBukan karena Anda salah menghitung, bukan juga karena sampel Anda kurang besar. Semata-mata karena alat ukurnya noisy."
   },
   {
     "objectID": "slides/pertemuan1.html#pengukuran-dan-krisis-replikasi",
@@ -2485,11 +2485,11 @@
     "text": "Pengukuran dan krisis replikasi\n\nBanyak temuan psikologi gagal dicoba-ulang (replikasi) secara independen, dan sebagian penyebabnya adalah pengukuran yang tidak presisi, ditambah researcher degrees of freedom saat menganalisis data.\nAlat ukur yang noisy, dikombinasikan dengan bias publikasi, justru bisa membuat effect size yang terbit tampak lebih besar, karena hanya sampel yang kebetulan menghasilkan estimasi besar yang lolos diterbitkan di jurnal.\nFlake & Fried (2020) menyebut kumpulan kebiasaan ini questionable measurement practices: tidak melaporkan bagaimana skala dipilih, memodifikasi skala tanpa menyertakan informasi apapun, tidak melaporkan properti psikometrik dari alat ukur yang digunakan.\n\n\n\nPetersen, Bab 1; Flake & Fried (2020)."
   },
   {
-    "objectID": "slides/pertemuan1.html#nama-yang-sama-isi-yang-berbeda",
-    "href": "slides/pertemuan1.html#nama-yang-sama-isi-yang-berbeda",
+    "objectID": "slides/pertemuan1.html#nama-yang-sama-substansi-yang-berbeda",
+    "href": "slides/pertemuan1.html#nama-yang-sama-substansi-yang-berbeda",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
-    "section": "Nama yang sama, isi yang berbeda",
-    "text": "Nama yang sama, isi yang berbeda\n\nFried (2017) memeriksa tujuh skala depresi yang lazim dipakai.\nKetujuhnya sama-sama mengklaim mengukur “depresi”. Secara keseluruhan, ketujuhnya memuat 52 gejala yang berbeda.\n40% gejala hanya muncul di satu skala, dan cuma 12% yang muncul di semua tujuh skala.\n\n\n\n\n\n\n\n\nApa akibatnya\n\n\nDua penelitian bisa sama-sama melaporkan “depresi”, memakai skala yang sama-sama reliabel, dan tetap saja tidak mengukur hal yang sama. Perbandingan di antara keduanya jauh lebih rapuh daripada kelihatannya.\nIni disebut jingle fallacy: mengira konstruk psikologis itu sama karena namanya sama."
+    "section": "Nama yang sama, substansi yang berbeda",
+    "text": "Nama yang sama, substansi yang berbeda\n\nFried (2017) memeriksa tujuh skala depresi yang lazim dipakai.\nKetujuhnya sama-sama mengklaim mengukur “depresi”. Secara keseluruhan, ketujuhnya memuat 52 gejala yang berbeda.\n40% gejala hanya muncul di satu skala, dan cuma 12% yang muncul di semua tujuh skala.\n\n\n\n\n\n\n\n\nApa akibatnya\n\n\nDua penelitian bisa sama-sama melaporkan “depresi”, memakai skala yang sama-sama reliabel, dan tetap saja tidak mengukur hal yang sama. Perbandingan di antara keduanya jauh lebih rapuh daripada kelihatannya.\nIni disebut jingle fallacy: mengira konstruk psikologis itu sama karena namanya sama."
   },
   {
     "objectID": "slides/pertemuan1.html#sisi-etisnya",
@@ -3280,35 +3280,35 @@
     "href": "slides/pertemuan11.html#posisi-anda-saat-ini",
     "title": "Review Ahli dan Validitas Isi: Perhitungan dan Interpretasi CVI",
     "section": "Posisi Anda saat ini",
-    "text": "Posisi Anda saat ini\n\nPertemuan 9 menghasilkan uraian spesifikasi konstruk: definisi, batas, estimand, aspek, dan indikator.\nPertemuan 10 menghasilkan kisi-kisi dan daftar item, beserta format responsnya.\nHari ini daftar item itu akan dinilai orang lain, sebelum partisipan mengisinya.\n\n\nPerkenalan singkat kalau ini pertemuan pertama dengan kelas ini. Pastikan tiap kelompok sudah membawa dokumen spesifikasi konstruk dan daftar item. Kelompok yang belum membawa tidak bisa mengikuti praktik hari ini secara penuh; minta mereka mengerjakannya di sesi ini juga."
+    "text": "Posisi Anda saat ini\n\nPertemuan 9 menghasilkan uraian spesifikasi konstruk: definisi, batas, estimand, aspek, dan indikator.\nPertemuan 10 menghasilkan kisi-kisi dan daftar item, beserta format responsnya.\nHari ini daftar item ini akan dinilai orang lain, sebelum partisipan mengisinya.\n\n\nPerkenalan singkat kalau ini pertemuan pertama dengan kelas ini. Pastikan tiap kelompok sudah membawa dokumen spesifikasi konstruk dan daftar item. Kelompok yang belum membawa tidak bisa mengikuti praktik hari ini secara penuh; minta mereka mengerjakannya di sesi ini juga."
   },
   {
     "objectID": "slides/pertemuan11.html#kaitan-materi-hari-ini-dengan-yang-sudah-dipelajari",
     "href": "slides/pertemuan11.html#kaitan-materi-hari-ini-dengan-yang-sudah-dipelajari",
     "title": "Review Ahli dan Validitas Isi: Perhitungan dan Interpretasi CVI",
     "section": "Kaitan materi hari ini dengan yang sudah dipelajari",
-    "text": "Kaitan materi hari ini dengan yang sudah dipelajari\n\nDi Pertemuan 7, validitas dibahas sebagai kumpulan bukti, bukan satu angka. Salah satu sumbernya adalah bukti berdasarkan isi.\nCVI adalah cara membuat bukti isi itu bisa dihitung dan dilaporkan.\nDi Pertemuan 5, mahasiswa sudah menjalankan bentuk sederhananya ketika menjadi juri Thurstone: menilai tiap pernyataan, lalu membuang yang tidak disepakati.\n\n\n\n\n\n\n\n\nTip\n\n\nProsedurnya sama. Yang berbeda hanya kriterianya: bukan posisi pernyataan pada kontinum, melainkan relevansi item terhadap konstruk."
+    "text": "Kaitan materi hari ini dengan yang sudah dipelajari\n\nDi Pertemuan 7, validitas dibahas sebagai kumpulan bukti, bukan satu angka/koefisien khusus. Salah satu sumbernya adalah bukti berdasarkan isi/konten skala dan konstruknya.\nCVI adalah cara membuat bukti validitas itu bisa dihitung dan dilaporkan."
   },
   {
     "objectID": "slides/pertemuan11.html#siapa-yang-dianggap-ahli",
     "href": "slides/pertemuan11.html#siapa-yang-dianggap-ahli",
     "title": "Review Ahli dan Validitas Isi: Perhitungan dan Interpretasi CVI",
     "section": "Siapa yang dianggap ahli",
-    "text": "Siapa yang dianggap ahli\n\nAhli isi konstruk — orang yang menguasai konstruknya: dosen, peneliti, atau praktisi di bidang tersebut.\nAhli metode — orang yang menguasai penyusunan skala, yang bisa menilai apakah item ditulis dengan baik.\nWakil populasi sasaran — orang dengan karakteristik yang mirip dengan karakteristik partisipan.\n\n\n\n\n\n\n\n\nNote\n\n\nKetiganya memberi masukan yang berbeda. Panel yang seluruhnya berisi dosen cenderung melewatkan persoalan keterbacaan yang langsung terlihat oleh calon responden."
+    "text": "Siapa yang dianggap ahli\n\nAhli substansi konstruk — orang yang menguasai konstruknya: dosen, peneliti, atau praktisi di bidang tersebut.\nAhli metode — orang yang menguasai penyusunan skala, yang bisa menilai apakah item ditulis dengan baik.\nWakil populasi sasaran — orang dengan karakteristik yang mirip dengan karakteristik partisipan.\n\n\n\n\n\n\n\n\nNote\n\n\nKetiganya memberi masukan yang berbeda. Panel yang seluruhnya berisi dosen cenderung melewatkan persoalan keterbacaan yang langsung terlihat oleh calon responden."
   },
   {
     "objectID": "slides/pertemuan11.html#berapa-orang",
     "href": "slides/pertemuan11.html#berapa-orang",
     "title": "Review Ahli dan Validitas Isi: Perhitungan dan Interpretasi CVI",
     "section": "Berapa orang",
-    "text": "Berapa orang\n\nMinimal 3 orang. Di bawah itu, kesepakatan hampir tidak berarti apa-apa.\n5 sampai 10 orang adalah keputusan yang umum dan lebih aman.\nJumlah panel menentukan kriteria kelulusan itemnya, jadi tetapkan jumlah anggota panelnya lebih dulu.\n\n\n\n\n\n\n\n\n\nJumlah ganjil lebih praktis\n\n\nDengan jumlah genap, kesepakatan bisa terbelah tepat separuh, dan Anda tidak punya dasar untuk memutuskan.\n\n\n\n\nUntuk proyek semester ini, 3–5 penilai realistis: dosen mata kuliah terkait, mahasiswa pascasarjana, dan satu atau dua wakil populasi sasaran. Tekankan bahwa dengan panel kecil, kriterianya justru lebih ketat — semua penilai harus sepakat.\n\n\n\nLynn (1986)."
+    "text": "Berapa orang\n\nMinimal 3 orang. Di bawah itu, kesepakatan hampir tidak berarti apa-apa.\n5 sampai 10 orang adalah keputusan yang umum diambil dan lebih aman.\nJumlah panel menentukan kriteria kelulusan itemnya, jadi tetapkan jumlah anggota panelnya lebih dulu.\n\n\n\n\n\n\n\n\n\nJumlah ganjil lebih praktis\n\n\nDengan jumlah genap, kesepakatan bisa terbelah tepat separuh, dan Anda tidak punya dasar untuk memutuskan item mana yang lulus.\n\n\n\n\nUntuk proyek semester ini, 3–5 penilai realistis: dosen mata kuliah terkait, mahasiswa pascasarjana, dan satu atau dua wakil populasi sasaran. Tekankan bahwa dengan panel kecil, kriterianya justru lebih ketat — semua penilai harus sepakat.\n\n\n\nLynn (1986)."
   },
   {
     "objectID": "slides/pertemuan11.html#apa-yang-dikirim-ke-panel",
     "href": "slides/pertemuan11.html#apa-yang-dikirim-ke-panel",
     "title": "Review Ahli dan Validitas Isi: Perhitungan dan Interpretasi CVI",
     "section": "Apa yang dikirim ke panel",
-    "text": "Apa yang dikirim ke panel\n\nDefinisi konstruk dari Pertemuan 9, lengkap dengan batas konstruknya.\nKisi-kisi, supaya penilai tahu tiap item dimaksudkan mewakili aspek yang mana.\nDaftar item dengan penomoran yang jelas.\nFormulir penilaian beserta petunjuk pengisiannya.\nTenggat yang jelas.\n\n\n\n\n\n\n\n\nYang paling sering dilupakan\n\n\nMengirim daftar item tanpa definisi konstruknya. Penilai kemudian menilai relevansi berdasarkan pemahaman masing-masing tentang konstruk itu — dan hasilnya tidak bisa ditafsirkan."
+    "text": "Apa yang dikirim ke panel\n\nDefinisi konstruk dari Pertemuan 9, lengkap dengan batas konstruknya.\nKisi-kisi, supaya penilai tahu tiap item dimaksudkan mewakili aspek yang mana.\nDaftar item dengan penomoran yang jelas.\nFormulir penilaian beserta petunjuk pengisiannya.\nTenggat yang jelas.\n\n\n\n\n\n\n\n\nJangan dilakukan ❌❌❌\n\n\nMengirim daftar item tanpa definisi konstruknya. Penilai kemudian menilai relevansi berdasarkan pemahaman masing-masing tentang konstruk itu, dan hasilnya sulit ditafsirkan."
   },
   {
     "objectID": "slides/pertemuan11.html#skala-relevansi-empat-poin",

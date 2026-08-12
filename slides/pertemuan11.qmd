@@ -47,7 +47,7 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 
 * **Pertemuan 10** menghasilkan kisi-kisi dan daftar item, beserta format responsnya.
 
-* **Hari ini** daftar item itu akan dinilai orang lain, sebelum partisipan mengisinya.
+* **Hari ini** daftar item ini akan dinilai orang lain, sebelum partisipan mengisinya.
 
 :::
 
@@ -61,18 +61,10 @@ mengikuti praktik hari ini secara penuh; minta mereka mengerjakannya di sesi ini
 
 ::: {.incremental}
 
-* Di **Pertemuan 7**, validitas dibahas sebagai kumpulan bukti, bukan satu angka. Salah satu sumbernya adalah **bukti berdasarkan isi**.
+* Di **Pertemuan 7**, validitas dibahas sebagai kumpulan bukti, bukan satu angka/koefisien khusus. Salah satu sumbernya adalah **bukti berdasarkan isi/konten skala dan konstruknya**.
 
-* CVI adalah cara membuat bukti isi itu **bisa dihitung dan dilaporkan**.
+* CVI adalah cara membuat bukti validitas itu **bisa dihitung dan dilaporkan**.
 
-* Di **Pertemuan 5**, mahasiswa sudah menjalankan bentuk sederhananya ketika menjadi juri Thurstone: menilai tiap pernyataan, lalu membuang yang tidak disepakati.
-
-:::
-
-. . .
-
-::: {.callout-tip}
-Prosedurnya sama. Yang berbeda hanya kriterianya: bukan posisi pernyataan pada kontinum, melainkan **relevansi item terhadap konstruk**.
 :::
 
 # Menyusun panel {background-color="#14497F" .center}
@@ -81,7 +73,7 @@ Prosedurnya sama. Yang berbeda hanya kriterianya: bukan posisi pernyataan pada k
 
 ::: {.incremental}
 
-* **Ahli isi konstruk** — orang yang menguasai konstruknya: dosen, peneliti, atau praktisi di bidang tersebut.
+* **Ahli substansi konstruk** — orang yang menguasai konstruknya: dosen, peneliti, atau praktisi di bidang tersebut.
 
 * **Ahli metode** — orang yang menguasai penyusunan skala, yang bisa menilai apakah item ditulis dengan baik.
 
@@ -101,7 +93,7 @@ Ketiganya memberi masukan yang berbeda. Panel yang seluruhnya berisi dosen cende
 
 * **Minimal 3 orang.** Di bawah itu, kesepakatan hampir tidak berarti apa-apa.
 
-* **5 sampai 10 orang** adalah keputusan yang umum dan lebih aman.
+* **5 sampai 10 orang** adalah keputusan yang umum diambil dan lebih aman.
 
 * Jumlah panel menentukan kriteria kelulusan itemnya, jadi tetapkan jumlah anggota panelnya lebih dulu.
 
@@ -115,7 +107,7 @@ Ketiganya memberi masukan yang berbeda. Panel yang seluruhnya berisi dosen cende
 
 ::: {.callout-warning}
 #### Jumlah ganjil lebih praktis
-Dengan jumlah genap, kesepakatan bisa terbelah tepat separuh, dan Anda tidak punya dasar untuk memutuskan.
+Dengan jumlah genap, kesepakatan bisa terbelah tepat separuh, dan Anda tidak punya dasar untuk memutuskan item mana yang lulus.
 :::
 
 ::: {.notes}
@@ -139,8 +131,8 @@ lebih ketat — semua penilai harus sepakat.
 . . .
 
 ::: {.callout-warning}
-#### Yang paling sering dilupakan
-Mengirim daftar item **tanpa definisi konstruknya**. Penilai kemudian menilai relevansi berdasarkan pemahaman masing-masing tentang konstruk itu — dan hasilnya tidak bisa ditafsirkan.
+#### Jangan dilakukan ❌❌❌
+Mengirim daftar item **tanpa definisi konstruknya**. Penilai kemudian menilai relevansi berdasarkan pemahaman masing-masing tentang konstruk itu, dan hasilnya sulit ditafsirkan.
 :::
 
 # Formulir penilaian {background-color="#14497F" .center}

@@ -65,14 +65,6 @@ practical work; have them complete it during this session.
 
 * The CVI is a way of making content evidence **computable and reportable**.
 
-* In **Session 5**, students already ran a simple version of this as Thurstone judges: rating each statement, then discarding those they could not agree on.
-
-:::
-
-. . .
-
-::: {.callout-tip}
-The procedure is the same. Only the criterion differs: not where a statement sits on a continuum, but **how relevant an item is to the construct**.
 :::
 
 # Assembling the panel {background-color="#14497F" .center}

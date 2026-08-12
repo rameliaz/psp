@@ -26,9 +26,9 @@ execute:
 * Sejarah singkat: pengukuran lahir dari kebutuhan sosial
 * Mengapa definisi "pengukuran" masih diperdebatkan sampai hari ini
 * Level pengukuran (Stevens) dan persoalan yang ditinggalkannya
-* Mengapa psikologi terpaksa mengukur secara **tidak langsung**
+* Mengapa konstruk psikologis hanya bisa diukur secara **tidak langsung**
 * Skala, indeks, dan *emergent variable*
-* Apa konsekuensi dari cara mengukur yang buruk?
+* Apa akibat dari strategi pengukuran yang buruk?
 
 :::
 
@@ -46,6 +46,8 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 ::: {.incremental}
 
 * **Tugas akhir**: setiap kelompok (5 orang) akan **menyusun sebuah skala psikologis lengkap beserta manualnya**.
+  + Tuliskan nama anggota kelompok Anda di [*spreadsheet* ini](https://docs.google.com/spreadsheets/d/1fTRKB_1MbFcJhqbmfC_gg8h5YDJlRPmh/edit?usp=sharing&ouid=100126014993390956583&rtpof=true&sd=true).
+  + Akses ke *spreadsheet* akan dikunci setelah Pertemuan 3.
 
 * **Paruh pertama (Pertemuan 1–7)**: membangun fondasi konseptualnya. Apa itu pengukuran, asumsi apa saja yang kita pakai (yang kadang-kadang implisit dan tidak disadari), apa itu variabel laten, bagaimana memilih format respons, apa artinya skala yang reliabel dan skor yang valid.
 
@@ -62,7 +64,7 @@ Paruh pertama **bukan** sekadar pengantar. Hampir setiap keputusan teknis yang a
 
 # Mari mulai dari pertanyaan yang paling dasar {background-color="#14497F" .center}
 
-## Tiga situasi
+## Tiga skenario
 
 ::: {.incremental}
 
@@ -86,7 +88,7 @@ Diadaptasi dari DeVellis & Thorpe (2022), Bab 1.
 
 * Ketiganya adalah persoalan **pengukuran**: apakah angka yang kita hasilkan benar-benar mewakili atribut yang kita klaim sedang diukur?
 
-* Ketiganya juga punya jalan pintas yang sama: **susun saja itemnya, jumlahkan, lalu beri nama konstruknya**.
+* Dalam ketiga skenario ini, sayangnya, banyak yang memilih jalan pintas yang sama: **susun saja itemnya, jumlahkan, lalu beri nama konstruknya**.
 
 :::
 
@@ -94,7 +96,7 @@ Diadaptasi dari DeVellis & Thorpe (2022), Bab 1.
 
 ::: {.callout-warning}
 #### Kenapa ini penting
-Kalau jalan pintas ini diambil, seluruh kesimpulan penelitian berdiri di atas asumsi yang tidak pernah diperiksa. Masalahnya, datanya akan **tetap terlihat baik-baik saja**: tetap ada rata-rata, tetap ada *p-value*, tetap bisa dibuat grafiknya. Tetapi, apakah data hasil pengukuran tersebut sesuai dengan klaimnya?
+Kalau jalan pintas ini diambil, seluruh kesimpulan penelitian berdiri di atas asumsi yang tidak pernah diperiksa. Masalahnya, datanya akan **tetap terlihat baik-baik saja**: tetap ada hasil statistik deskriptif, tetap ada *p-value*, tetap bisa dibuat grafiknya. Tetapi, apakah data hasil pengukuran tersebut sesuai dengan klaimnya?
 :::
 
 ## Pertanyaan utama sepanjang mata kuliah ini
@@ -149,7 +151,7 @@ Perhatikan bahwa ini pertanyaan **normatif** ("layak") yang sangat berbeda denga
 . . .
 
 ::: {.callout-note}
-#### Yang menarik dari contoh di atas
+#### Yang menarik dari berbagai contoh di atas
 Ketika poin di atas berkaitan erat dengan **keadilan**, bukan hanya soal akurasi ilmiah. Sejak awal, pengukuran adalah alat kekuasaan dan pembagian sumber daya. Isu soal keadilan dalam pengukuran akan muncul lagi ketika kita membahas *test bias* dan penggunaan tes psikologi untuk seleksi.
 :::
 
@@ -192,7 +194,7 @@ Butuh waktu **satu abad setelah Newton** sampai para ilmuwan secara luas menerim
 
 :::
 
-## Dari *error* ke statistik
+## Memodelkan *error* pengukuran secara statistik
 
 ::: {.incremental}
 
@@ -234,7 +236,7 @@ Analogi Bernoulli menggambarkan apa yang nanti kita sebut ***random error***, da
 Banyak kontributor awal psikometri bekerja dalam kerangka [*eugenics*](https://www.genome.gov/about-genomics/fact-sheets/Eugenics-and-Scientific-Racism). Teori dan analisis statistiknya masih kita pakai sampai sekarang, tetapi asumsi dan konsekuensi politis di baliknya (e.g., fertilisasi ras tertentu yang dianggap "inferior", dst.) **tidak boleh kita teruskan**. 
 :::
 
-## Ketika psikologi dinyatakan "tidak bisa diukur"
+## Bisakah konstruk psikologis diukur?
 
 ::: {.incremental}
 
@@ -315,8 +317,8 @@ Apakah atribut psikologis (kecemasan, kepribadian, motivasi) **benar-benar kuant
 . . .
 
 ::: {.callout-tip}
-#### Sikap yang kita latih di mata kuliah ini
-Bukan "menolak teori psikometri mentah-mentah", dan juga bukan "menerimanya bulat-bulat". Melainkan: **tahu persis asumsi apa yang sedang saya pakai, dan apa akibatnya kalau asumsi yang saya gunakan ini salah.**
+#### Penting diingat
+Anda tidak mungkin "menolak teori psikometri mentah-mentah", tetapi juga jangan "menerimanya bulat-bulat". Latih sikap berikut ini: **saya tahu persis asumsi apa yang sedang saya pakai, dan apa akibatnya kalau asumsi yang saya gunakan ini salah.**
 :::
 
 ## Pengukuran vs. asesmen
@@ -407,7 +409,7 @@ Hanya bisa **disimpulkan** dari hal lain yang bisa diamati.
 . . .
 
 ::: {.callout-warning}
-#### Kalau hubungannya tidak sekuat itu?
+#### Bagaimana kalau hubungannya tidak sekuat itu?
 Ketika hubungan antara variabel dan indikatornya **jauh lebih lemah** daripada pada contoh termometer, tertukarnya alat ukur dengan fenomena yang ingin diukur bisa membawa kita ke **kesimpulan yang keliru sama sekali**.
 :::
 
@@ -449,10 +451,10 @@ Kesimpulan "dukungan sosial tidak berperan" bisa **sepenuhnya salah**, dan tidak
 
 ::: {.callout-tip}
 #### Kebiasaan yang perlu Anda latih
-Setiap kali Anda membaca kalimat "tidak ditemukan hubungan yang signifikan", tanyakan satu hal: *apakah alat ukurnya memang mampu menangkap konstruk itu?*
+Setiap kali Anda membaca klaim bahwa "tidak ditemukan hubungan yang signifikan", Anda perlu bersikap skeptis: *jangan-jangan alat ukurnya memang tidak mampu menangkap konstruk tsb?*
 :::
 
-# Level pengukuran, dan apa yang disembunyikannya {background-color="#14497F" .center}
+# Level pengukuran dan masalah yang meliputinya {background-color="#14497F" .center}
 
 ## Empat level Stevens
 
@@ -561,7 +563,7 @@ Di laporan proyek Anda, ketika Anda menjumlahkan item menjadi skor total, saya h
 
 # Tidak semua kumpulan item bisa disebut skala {background-color="#14497F" .center}
 
-## Tiga hal yang sering tertukar
+## Tiga terminologi yang sering tertukar
 
 ::: {.incremental}
 
@@ -671,14 +673,14 @@ Sebuah **skala**, dengan *effect indicators*, berlandaskan *Classical Test Theor
 
 # Konsekuensi dari pengukuran yang sembarangan {background-color="#14497F" .center}
 
-## Ada batas yang tidak bisa dilampaui
+## Kerugiannya
 
 ::: {.r-fit-text}
 Kualitas pengukuran
 
-**membatasi** validitas kesimpulan
+**membatasi** validitas dari kesimpulan
 
-yang bisa kita tarik.
+yang bisa kita tarik dari skor hasil pengukuran.
 :::
 
 ::: aside
@@ -689,9 +691,9 @@ DeVellis & Thorpe (2022), Bab 1.
 
 <br>
 
-Menambah ukuran sampel, mengganti model statistik, atau memakai analisis yang lebih canggih tidak akan membantu banyak.
+Menambah ukuran sampel, mengganti/memodifikasi model statistik, atau memakai analisis yang lebih canggih tidak akan membantu banyak.
 
-## Contoh perhitungan: *attenuation bias*
+## Contohnya: *attenuation bias*
 
 Misalkan korelasi **sesungguhnya** antara kecemasan dan prokrastinasi adalah $\rho_{T_X T_Y} = 0.60$.
 
@@ -726,7 +728,7 @@ Bukan karena Anda salah menghitung, bukan juga karena sampel Anda kurang besar. 
 Petersen, Bab 1; Flake & Fried (2020).
 :::
 
-## Nama yang sama, isi yang berbeda
+## Nama yang sama, substansi yang berbeda
 
 ::: {.incremental}
 
