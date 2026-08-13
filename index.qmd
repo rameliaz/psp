@@ -182,6 +182,10 @@ Mengikuti peraturan akademik Universitas Airlangga:
 - Petersen, I. T. *Principles of psychological assessment: With applied examples in R*. <https://isaactpetersen.github.io/Principles-Psychological-Assessment/>
 - Bikos, L. H. *ReCentering psych stats: Psychometrics*. <https://lhbikos.github.io/ReC_Psychometrics/>
 
+::: {.callout-tip appearance="simple"}
+Bagi mahasiswa yang ingin memperdalam pengetahuan mengenai validitas, saya sangat merekomendasikan untuk menyimak <i class="fab fa-youtube"></i></a> [AIMOS seminar](https://aimos.community/metascience-seminars) ["*Rethinking Measurement Validity*"](https://www.youtube.com/watch?v=ni4N9aZ2N8A) yang diberikan oleh [Dr. Wendy Higgins](https://findanexpert.unimelb.edu.au/profile/1102472-wendy-higgins).
+:::
+
 ---
 
 ::: {.callout-tip appearance="simple"}
