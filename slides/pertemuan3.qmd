@@ -808,7 +808,7 @@ Baca **DeVellis & Thorpe (2022), Bab 5** bagian tentang format respons. Kalau in
 * Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
 :::
 
-## Rujukan {.smaller}
+## Rujukan {.scrollable}
 
 AERA, APA, & NCME. (2014). *Standards for educational and psychological testing*. American Educational Research Association.
 
