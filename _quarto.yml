@@ -2,10 +2,7 @@ project:
   type: website
   output-dir: docs
   resources:
-    - libs/
-    - img/
-    - materials/
-    - articles/
+    - data/
     - slides/libs/
   render:
     - index.qmd
@@ -15,7 +12,7 @@ website:
   title: "Penyusunan Skala Psikologi"
   navbar:
     left:
-      - href: https://psikologi.unair.ac.id/dosen-rizqy-amelia-zein/
+      - href: https://rameliaz.github.io/
         icon: house
         text: "oleh Rizqy Amelia Zein"
     right:
@@ -63,6 +60,12 @@ website:
             href: slides/pertemuan10-en.html
           - text: "11. Content Validity Index"
             href: slides/pertemuan11-en.html
+      - text: "Dataset"
+        menu:
+          - text: "Dataset"
+            href: data/data.csv
+          - text: "Kamus Data/*Codebook*"
+            href: data/codebook.txt
       - icon: envelope
         href: "mailto:amelia.zein@psikologi.unair.ac.id"
   search:

@@ -33,6 +33,12 @@ execute:
 
 :::
 
+. . .
+
+::: {.callout-note appearance="simple"}
+All of the above share the same shape: **we take these assumptions to be true without ever actually checking them**.
+:::
+
 ::: aside
 ***Disclosure* on the use of artificial intelligence (AI)**
 
@@ -52,15 +58,8 @@ We used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate referen
 
 * Most psychological data are **ordinal** but are treated as **interval**.
 
-* What decides whether your item set is a scale is **theory**, not software output.
+* What decides whether your item set is a scale is **theory**, and software output doesn't tell you anything except the numbers.
 
-:::
-
-. . .
-
-::: {.callout-note}
-#### The common thread
-Every one of those points has the same shape: **something we take to be true without ever checking it**.
 :::
 
 ## Why spend a whole session on assumptions?
@@ -80,6 +79,8 @@ Every one of those points has the same shape: **something we take to be true wit
 ## Assumptions are not a bad thing
 
 ::: {.incremental}
+
+* Remember, measurement is never truly value-free or objective. It is always theory-laden, so measurement results must be read within the framework of the assumptions that come with them.
 
 * No measurement is assumption-free. Even a thermometer assumes that mercury expands linearly with temperature.
 
@@ -196,7 +197,7 @@ There was never strong evidence that psychological attributes **must** be normal
 
 ::: {.incremental}
 
-* In scale construction we **discard items** that almost everyone endorses or almost nobody endorses.
+* In scale construction we **discard items** that almost everyone endorses — where nearly everyone answers "5/strongly agree" (e.g., *"I believe God truly exists"*) — or that almost nobody endorses — where nearly everyone answers "1/strongly disagree" (e.g., *"Premarital sex is a moral obligation everyone must fulfil"*).
 
 * The items that survive are the ones that **split respondents down the middle**.
 
@@ -347,7 +348,7 @@ Example: pregnant / not pregnant.
 
 ::: {.callout-note}
 #### Connect this to Session 1
-This is exactly the tension we saw in the DSM: a categorical classification system applied to constructs whose evidence points to a continuum. It is also what motivated the [Research Domain Criteria (RDoC)](https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc) project.
+This is also the problem baked into diagnostic and classification systems for mental disorders: a categorical classification system applied to constructs whose evidence points to a continuum. It is also what motivated the [Research Domain Criteria (RDoC)](https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc) project.
 :::
 
 ## Why this matters for your scale
@@ -359,6 +360,7 @@ This is exactly the tension we saw in the DSM: a categorical classification syst
 * If your construct is **taxonic** but you scale it, your middle scores describe a person who does not actually exist.
 
 * Most psychological scales — including the one you are about to build — assume **dimensional**. That is a common assumption, but it is still one that needs to be tested.
+  + That said, testing it is beyond the scope of the project you are doing in this course.
 
 :::
 
@@ -439,9 +441,9 @@ We will cover how to avoid this when we write items in Session 10.
 
 ::: {.incremental}
 
-* We assume the same item **means the same thing** to men and women, to students and workers, to respondents from different regions and language backgrounds.
+* We assume the same item **means the same thing** to men and women, to students and workers, to respondents from different ethnic backgrounds (e.g., Javanese and Sulawesi respondents).
 
-* If that fails, comparing scores between groups is not legitimate — like comparing temperatures read off two thermometers with different scales.
+* If that fails, comparing scores between groups is not legitimate — like comparing temperatures read off two thermometers with different scales (e.g., Kelvin and Celsius).
 
 * In psychometrics this property is called **measurement invariance**; a violation at the item level is called ***differential item functioning*** (DIF).
 
@@ -451,7 +453,7 @@ We will cover how to avoid this when we write items in Session 10.
 
 ::: {.callout-note}
 ### How would you test this?
-The formal test requires factor analysis and a large sample, so we will not compute it in this course. What you need now is **awareness that the assumption is there**.
+The formal test requires more complex technical skills and a large sample, so we will not cover it in this course. What you need now is **awareness that the assumption is there**.
 :::
 
 ## The reference-group effect
@@ -481,7 +483,7 @@ Cross-national comparisons of mean self-report scores can come out **backwards**
 
 * Back-translation ensures the **words** match. It does not ensure the **meaning** matches, still less that the item functions the same way for Indonesian respondents.
 
-* If your group chooses to adapt an existing scale, that is not a translation job — it is a psychometric one.
+* If your group chooses to adapt an existing scale — one written in a foreign language and validated empirically in another country — that is not a translation job, it is a psychometric one.
 
 :::
 
@@ -647,8 +649,7 @@ Not a scale free of assumptions — there is no such thing. Rather a scale whose
 
 . . .
 
-::: {.callout-tip}
-### Tips
+::: {.callout-tip appearance="simple"}
 These five points will form part of your final report.
 :::
 

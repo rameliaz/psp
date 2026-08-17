@@ -823,14 +823,14 @@
     "href": "slides/pertemuan2-en.html#outline",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "Outline",
-    "text": "Outline\n\nWhy assumptions need checking\nAssumption 1: psychological attributes vary quantitatively\nAssumption 2: the attribute is normally distributed\nAssumption 3: the attribute is continuous, not categorical\nAssumption 4: all items measure the same single thing\nAssumption 5: items work the same way for every group\nAssumption 6: respondents can and will report their internal states\nWhat we can actually do about all of this\n\n\n\nDisclosure on the use of artificial intelligence (AI)\nWe used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate references, and troubleshoot quarto and git code. We (Amel and Dian) take full responsibility for the substance and presentation of these slides."
+    "text": "Outline\n\nWhy assumptions need checking\nAssumption 1: psychological attributes vary quantitatively\nAssumption 2: the attribute is normally distributed\nAssumption 3: the attribute is continuous, not categorical\nAssumption 4: all items measure the same single thing\nAssumption 5: items work the same way for every group\nAssumption 6: respondents can and will report their internal states\nWhat we can actually do about all of this\n\n\n\n\n\n\n\n\nAll of the above share the same shape: we take these assumptions to be true without ever actually checking them.\n\n\n\n\n\n\nDisclosure on the use of artificial intelligence (AI)\nWe used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate references, and troubleshoot quarto and git code. We (Amel and Dian) take full responsibility for the substance and presentation of these slides."
   },
   {
     "objectID": "slides/pertemuan2-en.html#what-we-settled-last-week",
     "href": "slides/pertemuan2-en.html#what-we-settled-last-week",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "What we settled last week",
-    "text": "What we settled last week\n\nPsychological measurement is indirect. We work through proxies.\nThe definition of measurement is itself contested, and Michell’s objection — whether psychological attributes are genuinely quantitative — has not really been resolved.\nMost psychological data are ordinal but are treated as interval.\nWhat decides whether your item set is a scale is theory, not software output.\n\n\n\n\n\n\n\n\nThe common thread\n\n\nEvery one of those points has the same shape: something we take to be true without ever checking it."
+    "text": "What we settled last week\n\nPsychological measurement is indirect. We work through proxies.\nThe definition of measurement is itself contested, and Michell’s objection — whether psychological attributes are genuinely quantitative — has not really been resolved.\nMost psychological data are ordinal but are treated as interval.\nWhat decides whether your item set is a scale is theory, and software output doesn’t tell you anything except the numbers."
   },
   {
     "objectID": "slides/pertemuan2-en.html#why-spend-a-whole-session-on-assumptions",
@@ -844,7 +844,7 @@
     "href": "slides/pertemuan2-en.html#assumptions-are-not-a-bad-thing",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "Assumptions are not a bad thing",
-    "text": "Assumptions are not a bad thing\n\nNo measurement is assumption-free. Even a thermometer assumes that mercury expands linearly with temperature.\nAssumptions are the price we pay for being able to measure anything at all.\nThe problem is not that assumptions exist. The problem is assumptions nobody noticed making.\n\n\n\n\n\n\n\n\nThe distinction that matters\n\n\n“I am assuming this attribute is continuous, and here is why” is a scientific statement.\n“I summed the items because that is how it is done” is not."
+    "text": "Assumptions are not a bad thing\n\nRemember, measurement is never truly value-free or objective. It is always theory-laden, so measurement results must be read within the framework of the assumptions that come with them.\nNo measurement is assumption-free. Even a thermometer assumes that mercury expands linearly with temperature.\nAssumptions are the price we pay for being able to measure anything at all.\nThe problem is not that assumptions exist. The problem is assumptions nobody noticed making.\n\n\n\n\n\n\n\n\nThe distinction that matters\n\n\n“I am assuming this attribute is continuous, and here is why” is a scientific statement.\n“I summed the items because that is how it is done” is not."
   },
   {
     "objectID": "slides/pertemuan2-en.html#three-possible-states-of-an-assumption",
@@ -886,7 +886,7 @@
     "href": "slides/pertemuan2-en.html#there-is-a-circularity-here-that-is-rarely-discussed",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "There is a circularity here that is rarely discussed",
-    "text": "There is a circularity here that is rarely discussed\n\nIn scale construction we discard items that almost everyone endorses or almost nobody endorses.\nThe items that survive are the ones that split respondents down the middle.\nThe result: the distribution of total scores becomes more symmetric and piles up in the centre.\n\n\n\n\n\n\n\n\nNote the order of operations\n\n\nWe select items so the distribution comes out normal, and then treat that normality as a finding about people. Much of it is a consequence of how we built the scale."
+    "text": "There is a circularity here that is rarely discussed\n\nIn scale construction we discard items that almost everyone endorses — where nearly everyone answers “5/strongly agree” (e.g., “I believe God truly exists”) — or that almost nobody endorses — where nearly everyone answers “1/strongly disagree” (e.g., “Premarital sex is a moral obligation everyone must fulfil”).\nThe items that survive are the ones that split respondents down the middle.\nThe result: the distribution of total scores becomes more symmetric and piles up in the centre.\n\n\n\n\n\n\n\n\nNote the order of operations\n\n\nWe select items so the distribution comes out normal, and then treat that normality as a finding about people. Much of it is a consequence of how we built the scale."
   },
   {
     "objectID": "slides/pertemuan2-en.html#let-us-look-at-real-data",
@@ -928,14 +928,14 @@
     "href": "slides/pertemuan2-en.html#what-does-the-evidence-say",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "What does the evidence say?",
-    "text": "What does the evidence say?\n\nHaslam, Holland, & Kuppens (2012) reviewed 177 taxometric articles (311 findings) on personality and psychopathology constructs.\nTheir conclusion: most constructs appear dimensional. Once confounds were controlled, they estimated only about 14% of findings were genuinely taxonic.\nThat means most of the “disorders” we treat as categories are better described as matters of degree.\n\n\n\n\n\n\n\n\nConnect this to Session 1\n\n\nThis is exactly the tension we saw in the DSM: a categorical classification system applied to constructs whose evidence points to a continuum. It is also what motivated the Research Domain Criteria (RDoC) project."
+    "text": "What does the evidence say?\n\nHaslam, Holland, & Kuppens (2012) reviewed 177 taxometric articles (311 findings) on personality and psychopathology constructs.\nTheir conclusion: most constructs appear dimensional. Once confounds were controlled, they estimated only about 14% of findings were genuinely taxonic.\nThat means most of the “disorders” we treat as categories are better described as matters of degree.\n\n\n\n\n\n\n\n\nConnect this to Session 1\n\n\nThis is also the problem baked into diagnostic and classification systems for mental disorders: a categorical classification system applied to constructs whose evidence points to a continuum. It is also what motivated the Research Domain Criteria (RDoC) project."
   },
   {
     "objectID": "slides/pertemuan2-en.html#why-this-matters-for-your-scale",
     "href": "slides/pertemuan2-en.html#why-this-matters-for-your-scale",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "Why this matters for your scale",
-    "text": "Why this matters for your scale\n\nIf your construct is dimensional but you force categories (“high/medium/low”), you throw away information and create a boundary that does not exist in nature.\nIf your construct is taxonic but you scale it, your middle scores describe a person who does not actually exist.\nMost psychological scales — including the one you are about to build — assume dimensional. That is a common assumption, but it is still one that needs to be tested."
+    "text": "Why this matters for your scale\n\nIf your construct is dimensional but you force categories (“high/medium/low”), you throw away information and create a boundary that does not exist in nature.\nIf your construct is taxonic but you scale it, your middle scores describe a person who does not actually exist.\nMost psychological scales — including the one you are about to build — assume dimensional. That is a common assumption, but it is still one that needs to be tested.\n\nThat said, testing it is beyond the scope of the project you are doing in this course."
   },
   {
     "objectID": "slides/pertemuan2-en.html#why-items-in-one-scale-must-correlate",
@@ -963,7 +963,7 @@
     "href": "slides/pertemuan2-en.html#one-item-different-meanings",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "One item, different meanings",
-    "text": "One item, different meanings\n\nWe assume the same item means the same thing to men and women, to students and workers, to respondents from different regions and language backgrounds.\nIf that fails, comparing scores between groups is not legitimate — like comparing temperatures read off two thermometers with different scales.\nIn psychometrics this property is called measurement invariance; a violation at the item level is called differential item functioning (DIF).\n\n\n\n\n\n\n\n\nHow would you test this?\n\n\nThe formal test requires factor analysis and a large sample, so we will not compute it in this course. What you need now is awareness that the assumption is there."
+    "text": "One item, different meanings\n\nWe assume the same item means the same thing to men and women, to students and workers, to respondents from different ethnic backgrounds (e.g., Javanese and Sulawesi respondents).\nIf that fails, comparing scores between groups is not legitimate — like comparing temperatures read off two thermometers with different scales (e.g., Kelvin and Celsius).\nIn psychometrics this property is called measurement invariance; a violation at the item level is called differential item functioning (DIF).\n\n\n\n\n\n\n\n\nHow would you test this?\n\n\nThe formal test requires more complex technical skills and a large sample, so we will not cover it in this course. What you need now is awareness that the assumption is there."
   },
   {
     "objectID": "slides/pertemuan2-en.html#the-reference-group-effect",
@@ -977,7 +977,7 @@
     "href": "slides/pertemuan2-en.html#why-this-is-directly-relevant-to-you",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "Why this is directly relevant to you",
-    "text": "Why this is directly relevant to you\n\nMany scales in use in Indonesia are adaptations of English-language instruments.\nBack-translation ensures the words match. It does not ensure the meaning matches, still less that the item functions the same way for Indonesian respondents.\nIf your group chooses to adapt an existing scale, that is not a translation job — it is a psychometric one.\n\n\n\n\n\n\n\n\nA question your group must answer\n\n\nWho is the target population for your scale, and does your item make sense for every subgroup within it? We will use this question again when setting the pilot sample in Session 12."
+    "text": "Why this is directly relevant to you\n\nMany scales in use in Indonesia are adaptations of English-language instruments.\nBack-translation ensures the words match. It does not ensure the meaning matches, still less that the item functions the same way for Indonesian respondents.\nIf your group chooses to adapt an existing scale — one written in a foreign language and validated empirically in another country — that is not a translation job, it is a psychometric one.\n\n\n\n\n\n\n\n\nA question your group must answer\n\n\nWho is the target population for your scale, and does your item make sense for every subgroup within it? We will use this question again when setting the pilot sample in Session 12."
   },
   {
     "objectID": "slides/pertemuan2-en.html#the-assumption-most-often-forgotten",
@@ -1033,7 +1033,7 @@
     "href": "slides/pertemuan2-en.html#a-checklist-for-your-project-report",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "A checklist for your project report",
-    "text": "A checklist for your project report\n\nShape of the construct — dimensional or categorical? On what grounds?\nDimensionality — do your items measure one thing? How did you check?\nDistribution — what shape is your score distribution actually? Do not assume it; look.\nGroups — who is your population, and are there subgroups for whom items may function differently?\nSources of response bias — is your construct prone to social desirability? What did you do about it?\n\n\n\n\n\n\n\n\nTips\n\n\nThese five points will form part of your final report."
+    "text": "A checklist for your project report\n\nShape of the construct — dimensional or categorical? On what grounds?\nDimensionality — do your items measure one thing? How did you check?\nDistribution — what shape is your score distribution actually? Do not assume it; look.\nGroups — who is your population, and are there subgroups for whom items may function differently?\nSources of response bias — is your construct prone to social desirability? What did you do about it?\n\n\n\n\n\n\n\n\nThese five points will form part of your final report."
   },
   {
     "objectID": "slides/pertemuan2-en.html#six-assumptions-one-stance",
@@ -1908,42 +1908,42 @@
     "href": "slides/pertemuan2.html#outline",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Outline",
-    "text": "Outline\n\nKenapa asumsi perlu diperiksa\nAsumsi 1: atribut psikologis bervariasi secara kuantitatif\nAsumsi 2: atributnya terdistribusi normal\nAsumsi 3: atributnya continuous, bukan kategorikal\nAsumsi 4: semua item mengukur satu hal yang sama\nAsumsi 5: item bekerja dengan cara yang sama untuk semua kelompok\nAsumsi 6: responden bisa dan mau melaporkan kondisi internalnya\nApa yang bisa kita lakukan terhadap asumsi-asumsi ini\n\n\n\nDisclosure penggunaan akal imitasi (AI)\nKami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk brainstorming materi, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini."
+    "text": "Outline\n\nKenapa asumsi perlu diperiksa\nAsumsi 1: atribut psikologis bervariasi secara kuantitatif\nAsumsi 2: atributnya terdistribusi normal\nAsumsi 3: atributnya continuous, bukan kategorikal\nAsumsi 4: semua item mengukur satu hal yang sama\nAsumsi 5: item bekerja dengan cara yang sama untuk semua kelompok\nAsumsi 6: responden bisa dan mau melaporkan kondisi internalnya\nApa yang bisa kita lakukan terhadap asumsi-asumsi ini\n\n\n\n\n\n\n\n\nSemua asumsi di atas punya kesamaan: asumsi-asumsi ini kita anggap benar tanpa pernah benar-benar kita periksa.\n\n\n\n\n\n\nDisclosure penggunaan akal imitasi (AI)\nKami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk brainstorming materi, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini."
   },
   {
     "objectID": "slides/pertemuan2.html#yang-sudah-anda-pelajari-minggu-lalu",
     "href": "slides/pertemuan2.html#yang-sudah-anda-pelajari-minggu-lalu",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Yang sudah Anda pelajari minggu lalu",
-    "text": "Yang sudah Anda pelajari minggu lalu\n\nPengukuran psikologis dilakukan secara tidak langsung, lewat indikator sebagai “proksi.”\nDefinisi pengukuran sendiri masih diperdebatkan, dan kritik Michell soal apakah atribut psikologis benar-benar kuantitatif belum benar-benar tuntas dijawab.\nSebagian besar data psikologi bentuknya ordinal, tetapi diperlakukan sebagai interval.\nYang menentukan apakah kumpulan item Anda adalah skala adalah teori, bukan output software statistik.\n\n\n\n\n\n\n\n\nBenang merahnya\n\n\nSemua asumsi yang Anda lihat di awal punya kesamaan: asumsi-asumsi ini kita anggap benar tanpa pernah kita periksa."
+    "text": "Yang sudah Anda pelajari minggu lalu\n\nPengukuran psikologis dilakukan secara tidak langsung, lewat indikator sebagai “proksi.”\nDefinisi pengukuran sendiri masih diperdebatkan, dan kritik Michell soal apakah atribut psikologis benar-benar kuantitatif belum benar-benar tuntas dijawab.\nSebagian besar data psikologi bentuknya ordinal, tetapi diperlakukan sebagai interval.\nYang menentukan apakah kumpulan item Anda adalah skala adalah teori, bukan output software statistik."
   },
   {
     "objectID": "slides/pertemuan2.html#kenapa-perlu-satu-pertemuan-penuh-hanya-untuk-membahas-asumsi",
     "href": "slides/pertemuan2.html#kenapa-perlu-satu-pertemuan-penuh-hanya-untuk-membahas-asumsi",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Kenapa perlu satu pertemuan penuh hanya untuk membahas asumsi?",
-    "text": "Kenapa perlu satu pertemuan penuh hanya untuk membahas asumsi?\n\nKarena asumsi-asumsi ini tidak muncul di laporan penelitian. Yang muncul hanya hasilnya.\nKarena software tidak akan memperingatkan Anda kalau asumsinya dilanggar. Ia tetap mengeluarkan angka.\nKarena di Pertemuan 9–15 nanti, Anda akan mengambil keputusan teknis yang semuanya bersandar pada asumsi-asumsi ini."
+    "text": "Kenapa perlu satu pertemuan penuh hanya untuk membahas asumsi?\n\nKarena asumsi-asumsi ini biasaya tidak laporkan secara eksplisit di laporan penelitian, tetapi hanya hasil penelitiannya saja.\nKarena software tidak akan memperingatkan Anda kalau asumsi-asumsi ini dilanggar. Ia tetap mengeluarkan angka.\nKarena di Pertemuan 9–15 nanti, Anda akan mengambil keputusan teknis yang semuanya bersandar pada asumsi-asumsi ini."
   },
   {
     "objectID": "slides/pertemuan2.html#asumsi-sebenarnya-bukan-kelemahan",
     "href": "slides/pertemuan2.html#asumsi-sebenarnya-bukan-kelemahan",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Asumsi sebenarnya bukan kelemahan",
-    "text": "Asumsi sebenarnya bukan kelemahan\n\nTidak ada pengukuran yang bebas asumsi. Termometer pun mengasumsikan bahwa pemuaian air raksa bersifat linear terhadap suhu.\nAsumsi adalah pegangan yang harus kita punya agar bisa mengukur yang apa ingin kita ukur.\nYang bermasalah bukan ada atau tidaknya asumsi, melainkan asumsi yang tidak disadari dan tidak pernah dideklarasikan.\n\n\n\n\n\n\n\n\nPerbedaan yang penting\n\n\n“Saya mengasumsikan atribut ini continuous, dan berikut alasannya” adalah pernyataan ilmiah.\n“Saya menjumlahkan itemnya karena begitulah caranya” bukan pernyataan ilmiah."
+    "text": "Asumsi sebenarnya bukan kelemahan\n\nIngat, pengukuran tidak pernah benar-benar bebas nilai atau objektif. Ia selalu theory-laden, sehingga hasil pengukuran harus dibaca dalam kerangka asumsi yang menyertainya.\nOleh karena itu, tidak ada pengukuran yang bebas asumsi. Termometer pun mengasumsikan bahwa hubungan/korelasi pemuaian air raksa bersifat linear terhadap suhu.\nAsumsi adalah pegangan yang harus kita punya agar bisa mengukur objek ingin kita ukur.\nYang problematik bukan ada atau tidaknya asumsi, melainkan asumsi yang tidak disadari dan tidak pernah dideklarasikan.\n\n\n\n\n\n\n\n\nPerbedaan yang penting\n\n\n“Saya mengasumsikan neuroticism bersifat continuous, dan berikut alasannya” adalah pernyataan ilmiah.\n“Saya menjumlahkan skor item skala kecemasan karena semua orang melakukannya” bukan pernyataan ilmiah."
   },
   {
     "objectID": "slides/pertemuan2.html#tiga-kemungkinan-status-sebuah-asumsi",
     "href": "slides/pertemuan2.html#tiga-kemungkinan-status-sebuah-asumsi",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Tiga kemungkinan status sebuah asumsi",
-    "text": "Tiga kemungkinan status sebuah asumsi\n\nAsumsinya benar. Tidak ada masalah.\nAsumsinya salah, tapi kesimpulannya tidak banyak berubah. Metode yang seperti ini disebut robust terhadap pelanggaran asumsi tersebut.\nAsumsinya salah, dan kesimpulannya berubah total. Masalah ini yang perlu diatasi."
+    "text": "Tiga kemungkinan status sebuah asumsi\n\nAsumsinya benar. Tidak ada masalah ketika ini yang terjadi.\nAsumsinya salah, tapi kesimpulannya tidak banyak berubah. Metode yang seperti ini disebut robust terhadap pelanggaran asumsi tersebut.\nAsumsinya salah, dan kesimpulannya berubah total. Masalah ini yang perlu diatasi."
   },
   {
     "objectID": "slides/pertemuan2.html#enam-asumsi-yang-akan-kita-bahas",
     "href": "slides/pertemuan2.html#enam-asumsi-yang-akan-kita-bahas",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Enam asumsi yang akan kita bahas",
-    "text": "Enam asumsi yang akan kita bahas\n\n\n\n\n\n\n\n\n#\nAsumsi\nBisa diperiksa dengan data?\n\n\n\n\n1\nAtribut psikologis bervariasi secara kuantitatif\nSangat sulit\n\n\n2\nSebaran datanya normal\nYa\n\n\n3\nAtributnya continuous, bukan kategorikal\nSebagian\n\n\n4\nSemua item mengukur satu konstruk yang sama\nYa\n\n\n5\nCara item bekerja, sama untuk semua kelompok (invariance)\nYa, kalau datanya cukup\n\n\n6\nResponden bisa dan mau menjawab secara akurat\nSebagian\n\n\n\n\n\n\n\n\n\n\nNote\n\n\nPerhatikan bahwa asumsi yang paling mendasar (nomor 1) justru yang paling sulit diperiksa."
+    "text": "Enam asumsi yang akan kita bahas\n\n\n\n\n\n\n\n\n#\nAsumsi\nBisakah diperiksa dengan data?\n\n\n\n\n1\nAtribut psikologis bervariasi secara kuantitatif\nSangat sulit\n\n\n2\nSebaran datanya normal\nYa\n\n\n3\nAtributnya continuous, bukan kategorikal\nSebagian\n\n\n4\nSemua item mengukur satu konstruk yang sama\nYa\n\n\n5\nCara item bekerja, sama untuk semua kelompok (invariance)\nYa, kalau datanya cukup\n\n\n6\nResponden bisa dan mau menjawab secara akurat\nSebagian\n\n\n\n\n\n\n\n\n\n\nPerhatikan bahwa asumsi yang paling mendasar (nomor 1) justru yang paling sulit diperiksa."
   },
   {
     "objectID": "slides/pertemuan2.html#apa-yang-kita-lakukan-ketika-kita-menjumlahkan-item",
@@ -1957,21 +1957,21 @@
     "href": "slides/pertemuan2.html#semua-item-punya-bobot-sama-bold-assumption",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Semua item punya bobot sama = bold assumption",
-    "text": "Semua item punya bobot sama = bold assumption\n\nItem “Saya kadang merasa gugup sebelum presentasi” dan item “Saya sering merasa akan mati karena panik” jelas menandakan tingkat keparahan yang berbeda.\nTetapi dalam penjumlahan biasa (unit weighting), keduanya bernilai maksimum 5 poin.\nArtinya, skala kita memperlakukan dua pernyataan itu sebagai indikator yang setara.\n\n\n\n\n\n\n\n\nTetapi…\n\n\nIni persis yang membedakan Classical Test Theory dari Item Response Theory. IRT memungkinkan tiap item punya “tingkat kesulitan” dan “daya diskriminasi” sendiri. Kita bahas sekilas di Pertemuan 3.\nMata kuliah ini memakai CTT, jadi unit weighting adalah asumsi yang akan Anda pakai. Yang penting, Anda tahu bahwa asumsi ini yang dipakai."
+    "text": "Semua item punya bobot sama = bold assumption\n\nItem “Saya kadang merasa gugup sebelum presentasi” dan item “Saya sering merasa akan mati karena panik” jelas menandakan tingkat keparahan yang berbeda.\nTetapi dalam penjumlahan biasa (unit weighting), keduanya bernilai maksimum 5 poin.\nArtinya, skala kita memperlakukan dua pernyataan itu sebagai indikator yang setara.\n\n\n\n\n\n\n\n\nTetapi…\n\n\nIni persis yang membedakan Classical Test Theory dari Item Response Theory. IRT memungkinkan tiap item punya “tingkat kesulitan” dan “daya diskriminasi” sendiri. Kita akan bahas sekilas di Pertemuan 3.\nMata kuliah ini memakai CTT, jadi unit weighting adalah asumsi yang akan Anda pakai. Yang penting, Anda tahu bahwa asumsi inilah yang dipakai."
   },
   {
     "objectID": "slides/pertemuan2.html#dari-mana-asumsi-normalitas-berasal",
     "href": "slides/pertemuan2.html#dari-mana-asumsi-normalitas-berasal",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Dari mana asumsi normalitas berasal?",
-    "text": "Dari mana asumsi normalitas berasal?\n\nAdolphe Quetelet (1835) memperkenalkan gagasan l’homme moyen — “manusia rata-rata”. Ia menerapkan kurva normal, yang saat itu dipakai untuk memodelkan error pengamatan astronomi, pada karakteristik manusia.\nImplikasinya: kurva normal berpindah dari model tentang error menjadi model tentang manusia.\nGalton kemudian memakainya untuk sifat-sifat psikologis, dan sejak itu normalitas menjadi semacam bawaan dalam psikometri.\n\nInilah yang menjustifikasi pandangan eugenics yang amat rasis.\n\n\n\n\n\n\n\n\n\nYang perlu disadari\n\n\nTidak pernah ada bukti kuat bahwa atribut psikologis harus terdistribusi normal. Yang ada adalah kebiasaan yang diwariskan tetapi dari konteks yang amat berbeda."
+    "text": "Dari mana asumsi normalitas berasal?\n\nAdolphe Quetelet (1835) memperkenalkan gagasan l’homme moyen atau “manusia rata-rata”.\n\nIa menerapkan kurva normal, yang saat itu dipakai untuk memodelkan error pengamatan astronomi, pada karakteristik manusia.\n\nImplikasinya: kurva normal yang awalnya digunakan untuk memodelkan error pengukuran digunakan juga untuk memodelkan atribut yang melekat di manusia.\nGalton kemudian memakainya untuk sifat-sifat psikologis, dan sejak itu normalitas menjadi semacam asumsi otomatis dalam psikometri.\n\nInilah yang menjustifikasi pandangan eugenics yang amat rasis.\n\n\n\n\n\n\n\n\n\nYang perlu disadari\n\n\nTidak pernah ada bukti kuat bahwa atribut psikologis harus terdistribusi normal. Yang ada adalah kebiasaan yang diwariskan tetapi dari konteks yang amat berbeda."
   },
   {
     "objectID": "slides/pertemuan2.html#ada-sirkularitas-yang-jarang-dibicarakan",
     "href": "slides/pertemuan2.html#ada-sirkularitas-yang-jarang-dibicarakan",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Ada sirkularitas yang jarang dibicarakan",
-    "text": "Ada sirkularitas yang jarang dibicarakan\n\nDalam penyusunan skala, kita membuang item yang terlalu mudah atau terlalu sulit disetujui — item yang hampir semua orang jawab “5”, atau hampir semua orang jawab “1”.\nItem yang tersisa adalah item yang membelah responden di tengah.\nHasilnya: sebaran skor total menjadi lebih simetris dan menumpuk di tengah.\n\n\n\n\n\n\n\n\nPerhatikan urutannya\n\n\nKita memilih item supaya sebarannya normal, lalu memperlakukan normalitas itu sebagai temuan tentang manusia. Padahal bagaimana cara partisipan merespon skala kita adalah konsekuensi dari cara kita menyusun skalanya."
+    "text": "Ada sirkularitas yang jarang dibicarakan\n\nDalam penyusunan skala, kita membuang item yang terlalu mudah atau terlalu sulit disetujui — item yang hampir semua orang menjawab “5/sangat setuju” (e.g., “Saya percaya Tuhan benar-benar ada”), atau hampir semua orang menjawab “1/sangat tidak setuju” (e.g., “Seks pranikah adalah kewajiban moral yang harus dilakukan semua orang”).\nItem yang tersisa adalah item yang membelah responden di tengah.\nHasilnya: sebaran skor total menjadi lebih simetris dan menumpuk di tengah.\n\n\n\n\n\n\n\n\nPerhatikan urutannya\n\n\nKita memilih item supaya sebarannya normal, lalu memperlakukan normalitas itu sebagai temuan tentang manusia. Padahal bagaimana cara partisipan merespon skala kita adalah konsekuensi dari cara kita menyusun skalanya."
   },
   {
     "objectID": "slides/pertemuan2.html#mari-lihat-data-yang-sebenarnya",
@@ -1995,32 +1995,32 @@
     "text": "Apa yang terjadi?\n\nItem-itemnya miring ke kiri dan ke kanan. Ketika dijumlahkan, kemiringan itu saling meniadakan.\nHasilnya terlihat simetris, tetapi bukan berarti atributnya normal. Yang terjadi adalah efek penjumlahan.\nDan sebarannya tetap tidak persis normal: bentuknya lebih datar, dengan responden yang lebih menyebar di rentang tengah daripada yang diperkirakan kurva normal.\n\n\n\n\n\n\n\n\nPoin utamanya\n\n\nSebaran skor total yang “terlihat normal” bukan bukti bahwa atribut psikologisnya terdistribusi normal. Itu sebagian besar konsekuensi dari menjumlahkan banyak item."
   },
   {
-    "objectID": "slides/pertemuan2.html#bukan-cuma-di-data-ini",
-    "href": "slides/pertemuan2.html#bukan-cuma-di-data-ini",
+    "objectID": "slides/pertemuan2.html#secara-umum..",
+    "href": "slides/pertemuan2.html#secara-umum..",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
-    "section": "Bukan cuma di data ini",
-    "text": "Bukan cuma di data ini\n\nMicceri (1989) memeriksa 440 sebaran skor dari tes prestasi dan alat ukur psikologis bersampel besar.\nJudul artikelnya: “The unicorn, the normal curve, and other improbable creatures.”\nTemuannya: tidak satu pun sebaran itu memenuhi kriteria normalitas. Sebagian besar menunjukkan asimetri, ekor yang skewed, atau multimodalitas.\n\n\n\n\n\n\n\n\nKenapa ini penting untuk proyek Anda\n\n\nNorma dan skor standar bergantung pada asumsi ini. Persentil, z-score, dan T-score yang akan Anda susun di Pertemuan 14 diturunkan dengan mengandaikan bentuk sebaran tertentu.\nKalau sebaran empirisnya tidak seperti itu, norma Anda akan salah menempatkan orang dan yang paling parah justru di ujung-ujung sebaran, tempat keputusan biasanya diambil."
+    "section": "Secara umum..",
+    "text": "Secara umum..\n\nMicceri (1989) memeriksa 440 sebaran skor dari tes prestasi dan alat ukur psikologis bersampel besar.\nJudul artikelnya: “The unicorn, the normal curve, and other improbable creatures.”\nTemuannya: tidak satu pun sebaran itu memenuhi kriteria normalitas. Sebagian besar menunjukkan asimetri, ekor yang skewed, atau multimodalitas.\n\n\n\n\n\n\n\n\nKenapa ini penting untuk proyek Anda\n\n\nNorma dan skor standar bergantung pada asumsi ini. Persentil, z-score, dan T-score yang akan Anda susun di Pertemuan 14 diturunkan dengan mengandaikan bentuk sebaran tertentu.\nKalau sebaran empirisnya tidak seperti itu, norma Anda akan salah menempatkan orang dan yang paling parah justru di ujung-ujung sebaran, tempat keputusan biasanya diambil."
   },
   {
     "objectID": "slides/pertemuan2.html#dua-kemungkinan-bentuk-konstruk",
     "href": "slides/pertemuan2.html#dua-kemungkinan-bentuk-konstruk",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Dua kemungkinan bentuk konstruk",
-    "text": "Dua kemungkinan bentuk konstruk\n\n\nDimensional/kontinum\nOrang berbeda dalam derajat.\nTidak ada batas alami; yang ada hanya titik potong yang kita tetapkan sendiri.\nContoh: tinggi badan.\n\nTaksonik (kategoris)\nAda dua kelompok yang benar-benar berbeda secara alami.\nBatasnya bukan buatan peneliti.\nContoh: hamil/tidak hamil.\n\n\n\nPertanyaannya bukan “mana yang lebih praktis”, melainkan mana yang benar secara teoretis untuk konstruk ini.\nIni pertanyaan empiris, dan ada metodenya: taxometrics, dikembangkan Paul Meehl."
+    "text": "Dua kemungkinan bentuk konstruk\n\n\nDimensional/kontinum\nOrang berbeda dalam derajat.\nTidak ada batas alami; yang ada hanya titik potong yang kita tetapkan sendiri.\nContoh: tinggi badan.\n\nTaksonik (kategoris)\nAda dua kelompok yang benar-benar berbeda secara alami.\nBatasnya bukan buatan peneliti.\nContoh: hamil/tidak hamil.\n\n\n\nKetika Anda ingin mengukur suatu konstruk psikologis, cari tahu mana yang benar secara teoretis untuk konstruk yang Anda ukur.\nIni adalah pertanyaan empiris, dan ada metodenya: taxometrics, dikembangkan Paul Meehl."
   },
   {
     "objectID": "slides/pertemuan2.html#bagaimana-statusnya-di-literatur",
     "href": "slides/pertemuan2.html#bagaimana-statusnya-di-literatur",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Bagaimana statusnya di literatur?",
-    "text": "Bagaimana statusnya di literatur?\n\nHaslam, Holland, & Kuppens (2012) meninjau 177 artikel taxometric (311 temuan) atas konstruk kepribadian dan psikopatologi.\nKesimpulannya: sebagian besar konstruk tampak dimensional. Setelah faktor pengganggu dikendalikan, mereka memperkirakan hanya sekitar 14% temuan yang benar-benar taksonik.\nArtinya, sebagian besar “gangguan” yang kita perlakukan sebagai kategori sebenarnya lebih tepat digambarkan sebagai kontinum.\n\n\n\n\n\n\n\n\nHubungkan dengan Pertemuan 1\n\n\nIni persis ketegangan yang kita lihat pada DSM: sistem klasifikasi yang kategoris, dipakai untuk konstruk yang buktinya menunjukkan kontinum. Itu juga yang melatarbelakangi project Research Domain Criteria (RDoC)."
+    "text": "Bagaimana statusnya di literatur?\n\nHaslam, Holland, & Kuppens (2012) meninjau 177 artikel taxometric (311 temuan) atas konstruk kepribadian dan psikopatologi.\nKesimpulannya: sebagian besar konstruk tampak dimensional. Setelah faktor pengganggu dikendalikan, mereka memperkirakan hanya sekitar 14% temuan yang benar-benar taksonik.\nArtinya, sebagian besar “gangguan” yang kita perlakukan sebagai kategori sebenarnya lebih tepat digambarkan sebagai kontinum.\n\n\n\n\n\n\n\n\nHubungkan dengan Pertemuan 1\n\n\nIni juga problem yang melekat pada sistem diagnosis dan klasifikasi gangguan jiwa/kesehatan mental: sistem klasifikasi yang kategorikal, dipakai untuk konstruk yang buktinya menunjukkan kontinum. Itu juga yang melatarbelakangi project Research Domain Criteria (RDoC)."
   },
   {
     "objectID": "slides/pertemuan2.html#kenapa-ini-penting-untuk-skala-anda",
     "href": "slides/pertemuan2.html#kenapa-ini-penting-untuk-skala-anda",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Kenapa ini penting untuk skala Anda",
-    "text": "Kenapa ini penting untuk skala Anda\n\nKalau konstruk Anda dimensional tetapi Anda memaksakan kategori dalam norma Anda (“tinggi/sedang/rendah”), Anda membuang informasi dan menciptakan batas yang sebenarnya tidak ada di populasi.\nKalau konstruk Anda taksonik tetapi Anda menskalakannya, skor tengah Anda menggambarkan orang yang sebenarnya tidak ada.\nSebagian besar skala psikologis — termasuk yang akan Anda susun — mengasumsikan dimensional. Itu asumsi yang umum, tapi tetap asumsi yang harus diuji."
+    "text": "Kenapa ini penting untuk skala Anda\n\nKalau konstruk Anda dimensional tetapi Anda memaksakan kategori dalam norma Anda (“tinggi/sedang/rendah”), Anda membuang informasi dan menciptakan batas yang sebenarnya tidak ada di populasi.\nKalau konstruk Anda taksonik tetapi Anda menskalakannya, skor tengah Anda menggambarkan orang yang sebenarnya tidak ada.\nSebagian besar skala psikologis, termasuk yang akan Anda buat alat ukurnya, kemungkinan besar mengasumsikan dimensionalitas/continuum. Ini adalah asumsi yang umum, tapi asumsi ini perlu diuji.\n\nTetapi, pengujian ini di luar cakupan project yang Anda kerjakan di MK ini."
   },
   {
     "objectID": "slides/pertemuan2.html#kenapa-item-item-dalam-satu-skala-harus-berkorelasi",
@@ -2034,7 +2034,7 @@
     "href": "slides/pertemuan2.html#asumsi-unidimensionalitas",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Asumsi unidimensionalitas",
-    "text": "Asumsi unidimensionalitas\n\nUnidimensionalitas: seluruh item dalam satu skala disebabkan oleh satu variabel laten.\nKalau ternyata ada dua konstruk yang bercampur dalam satu skala, skor totalnya menjadi campuran yang tidak jelas maknanya.\nDua orang bisa mendapat skor total yang sama persis dengan alasan yang sama sekali berbeda.\n\n\n\n\n\n\n\n\nContoh yang sering terjadi\n\n\nSkala “kesejahteraan psikologis” yang mencampur item tentang suasana hati dan item tentang kondisi keuangan. Keduanya mungkin berkorelasi, tapi keduanya bukan satu hal yang sama.\nSkor 40 bisa berarti “hati tenang, ekonomi sulit” atau “ekonomi mapan, hati gelisah”. Angkanya sama, kondisi orangnya sangat berbeda."
+    "text": "Asumsi unidimensionalitas\n\nUnidimensionalitas: seluruh item dalam satu skala disebabkan oleh satu variabel laten.\nKalau ternyata ada dua konstruk yang bercampur dalam satu skala, skor totalnya menjadi campuran yang tidak jelas maknanya.\nKalau alat ukur Anda mencampurkan dua konstruk yang berbeda, dua orang dengan skor total yang sama persis bisa memiliki kondisi psikologis yang sama sekali berbeda.\n\n\n\n\n\n\n\n\nContoh yang sering terjadi\n\n\nSkala “kesejahteraan psikologis” yang mencampur item tentang suasana hati dan item tentang kondisi keuangan. Keduanya mungkin berkorelasi, tapi keduanya bukan satu hal yang sama.\nSkor 40 bisa berarti “hati tenang, ekonomi sulit” atau “ekonomi mapan, hati gelisah”. Angkanya sama, kondisi psikologis orangnya sangat berbeda."
   },
   {
     "objectID": "slides/pertemuan2.html#asumsi-local-independence",
@@ -2048,35 +2048,35 @@
     "href": "slides/pertemuan2.html#satu-item-artinya-dapat-berbeda",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Satu item, artinya dapat berbeda",
-    "text": "Satu item, artinya dapat berbeda\n\nKita mengasumsikan bahwa item yang sama artinya sama bagi laki-laki dan perempuan, bagi mahasiswa dan pekerja, bagi orang Jawa dan orang Papua.\nKalau asumsi ini tidak terpenuhi, membandingkan skor antar-kelompok menjadi tidak sah dilakukan, ini mirip seperti membandingkan suhu yang diukur dengan dua termometer yang skalanya berbeda (e.g., termometer Kelvin dan Celcius).\nDalam psikometri, properti ini disebut measurement invariance; pelanggarannya di tingkat item disebut differential item functioning (DIF).\n\n\n\n\n\n\n\n\nBagaimana cara mengujinya?\n\n\nUji formalnya membutuhkan analisis faktor dan sampel besar, jadi kita tidak akan mempelajarinya di mata kuliah ini. Yang perlu Anda punya sekarang adalah kesadaran bahwa asumsi ini Anda gunakan."
+    "text": "Satu item, artinya dapat berbeda\n\nKita mengasumsikan bahwa item yang sama artinya sama bagi laki-laki dan perempuan, bagi mahasiswa dan pekerja, bagi orang Jawa dan orang Sulawesi.\nKalau asumsi ini tidak terpenuhi, membandingkan skor antar-kelompok menjadi tidak sah dilakukan, ini mirip seperti membandingkan suhu yang diukur dengan dua termometer yang skalanya berbeda (e.g., termometer Kelvin dan Celcius).\nDalam psikometri, properti ini disebut measurement invariance; pelanggarannya di tingkat item disebut differential item functioning (DIF).\n\n\n\n\n\n\n\n\nBagaimana cara mengujinya?\n\n\nUji formalnya membutuhkan keterampilan teknis yang lebih kompleks dan sampel dengan ukuran besar, jadi kita tidak akan mempelajarinya di mata kuliah ini. Yang perlu Anda punya sekarang adalah kesadaran bahwa asumsi ini Anda gunakan."
   },
   {
     "objectID": "slides/pertemuan2.html#reference-group-effect",
     "href": "slides/pertemuan2.html#reference-group-effect",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Reference-group effect",
-    "text": "Reference-group effect\n\nHeine, Lehman, Peng, & Greenholtz (2002) menunjukkan masalah serius pada perbandingan skala Likert antar-budaya.\nKetika seseorang menjawab “Saya orang yang teliti”, ia menilai dirinya relatif terhadap orang-orang di sekitarnya, bukan terhadap standar universal.\nAkibatnya, responden dari budaya yang standarnya tinggi bisa memberi skor diri lebih rendah, meskipun perilakunya justru lebih sesuai dengan konstruk itu.\n\n\n\n\n\n\n\n\nImplikasinya cukup mengganggu\n\n\nPerbandingan rata-rata skor antar-negara pada skala self-report bisa berkebalikan dengan keadaan sebenarnya, tetapi anehnya, datanya kelihatannya baik-baik saja."
+    "text": "Reference-group effect\n\nHeine, Lehman, Peng, & Greenholtz (2002) menunjukkan masalah pada perbandingan skala Likert antar-budaya.\nKetika seseorang menjawab “Saya orang yang teliti”, ia menilai dirinya relatif terhadap orang-orang di sekitarnya, bukan terhadap standar universal.\nAkibatnya, responden dari budaya yang punya standar ketelitian tinggi bisa memberi skor diri lebih rendah, meskipun perilakunya justru lebih sesuai dengan konstruk itu.\n\n\n\n\n\n\n\n\nImplikasinya cukup mengganggu\n\n\nPerbandingan rata-rata skor antar-negara pada skala self-report bisa berkebalikan dengan keadaan sebenarnya, tetapi anehnya, datanya kelihatannya baik-baik saja."
   },
   {
     "objectID": "slides/pertemuan2.html#kenapa-ini-sangat-relevan-untuk-anda",
     "href": "slides/pertemuan2.html#kenapa-ini-sangat-relevan-untuk-anda",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Kenapa ini sangat relevan untuk Anda",
-    "text": "Kenapa ini sangat relevan untuk Anda\n\nBanyak skala yang beredar di Indonesia adalah adaptasi dari skala berbahasa Inggris.\nBack-translation memastikan katanya setara. Ia tidak memastikan maknanya setara, apalagi bahwa itemnya berfungsi sama pada responden Indonesia.\nKalau kelompok Anda memilih mengadaptasi skala yang sudah ada, ini bukan masalah penerjemahan, tetapi masalah psikometrik.\n\n\n\n\n\n\n\n\nPertanyaan yang harus dijawab kelompok Anda\n\n\nSiapa populasi sasaran skala Anda, dan apakah item Anda masuk akal untuk seluruh subkelompok di dalamnya? Kita pakai pertanyaan ini lagi saat menetapkan sampel uji coba di Pertemuan 12."
+    "text": "Kenapa ini sangat relevan untuk Anda\n\nBanyak skala yang beredar di Indonesia adalah adaptasi dari skala berbahasa Inggris.\nBack-translation memastikan terjemahannya setara. Ia tidak memastikan maknanya setara, apalagi bahwa itemnya berfungsi sama pada partisipan Indonesia.\nKalau kelompok Anda memilih mengadaptasi skala yang sudah ada (tetapi ditulis dalam bahasa asing dan diuji secara empirik di negara lain), measurement invariance bukan sekadar masalah penerjemahan, tetapi masalah psikometrik.\n\n\n\n\n\n\n\n\nPertanyaan yang harus dijawab kelompok Anda\n\n\nSiapa populasi sasaran skala Anda, dan apakah item Anda masuk akal untuk seluruh subkelompok di dalamnya? Kita pakai pertanyaan ini lagi saat menetapkan sampel uji coba di Pertemuan 12."
   },
   {
     "objectID": "slides/pertemuan2.html#asumsi-yang-paling-sering-dilupakan",
     "href": "slides/pertemuan2.html#asumsi-yang-paling-sering-dilupakan",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Asumsi yang paling sering dilupakan",
-    "text": "Asumsi yang paling sering dilupakan\nSkala self-report mengandaikan dua hal sekaligus:\n\nResponden mampu mengamati kondisi internalnya dan melaporkannya.\nResponden bersedia melaporkannya apa adanya.\n\n\nKeduanya bisa gagal, dan gagalnya dengan cara yang berbeda."
+    "text": "Asumsi yang paling sering dilupakan\nSkala self-report mengandaikan dua hal sekaligus:\n\nResponden mampu mengamati kondisi internalnya dan melaporkannya.\nResponden bersedia melaporkannya apa adanya.\n\n\nKeduanya asumsi ini bisa gagal, dan gagalnya dengan proses yang berbeda."
   },
   {
     "objectID": "slides/pertemuan2.html#soal-kemampuan-akses-ke-proses-mental-cenderung-terbatas",
     "href": "slides/pertemuan2.html#soal-kemampuan-akses-ke-proses-mental-cenderung-terbatas",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Soal kemampuan: akses ke proses mental cenderung terbatas",
-    "text": "Soal kemampuan: akses ke proses mental cenderung terbatas\n\nNisbett & Wilson (1977), dalam artikel berjudul “Telling more than we can know”, menunjukkan bahwa orang sering tidak punya akses terhadap proses mental yang sebenarnya memengaruhi perilaku mereka.\nKetika ditanya alasan, mereka tetap menjawab, tetapi jawabannya sering berupa teori awam yang masuk akal, bukan laporan atas proses psikologis yang sesungguhnya terjadi.\n\n\n\n\n\n\n\n\nImplikasi untuk penulisan item\n\n\nItem yang menanyakan perilaku konkret (“Berapa kali seminggu Anda …”) umumnya lebih dapat diandalkan daripada item yang menanyakan sebab (“Mengapa Anda …”).\nKita pakai prinsip ini saat menulis item di Pertemuan 10."
+    "text": "Soal kemampuan: akses ke proses mental cenderung terbatas\n\nNisbett & Wilson (1977), dalam artikel berjudul “Telling more than we can know”, menunjukkan bahwa orang sering tidak punya akses terhadap proses mental yang sebenarnya memengaruhi perilaku mereka.\nKetika ditanya alasan, mereka tetap menjawab, tetapi jawabannya sering berupa teori awam (lay theories) yang masuk akal, bukan laporan yang akurat atas proses psikologis yang sesungguhnya terjadi.\n\n\n\n\n\n\n\n\nImplikasi untuk penulisan item\n\n\nItem yang menanyakan perilaku yang sifatnya konkret (“Berapa kali seminggu Anda …”) umumnya lebih dapat diandalkan daripada item yang menanyakan sebab (“Mengapa Anda …”).\nKita pakai prinsip ini saat menulis item di Pertemuan 10."
   },
   {
     "objectID": "slides/pertemuan2.html#soal-kesediaan-social-desirability",
@@ -2090,21 +2090,21 @@
     "href": "slides/pertemuan2.html#gaya-menjawab-response-styles",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Gaya menjawab (response styles)",
-    "text": "Gaya menjawab (response styles)\n\nAcquiescence: kecenderungan menyetujui pernyataan apa pun, terlepas dari isinya.\nExtreme responding: kecenderungan memilih ujung skala (1 atau 5).\nMidpoint responding: kecenderungan bertahan di tengah (3) untuk menghindari komitmen.\nKetiganya berbeda antar-budaya, sehingga bercampur dengan persoalan invariance di asumsi sebelumnya.\n\n\n\n\n\n\n\n\nSatu solusi parsial, dengan risikonya sendiri\n\n\nAcquiescence biasanya diredam dengan menyisipkan item bernada terbalik (unfavorable atau reverse-worded).\nTetapi item terbalik punya masalahnya sendiri: sebagian responden salah membacanya, dan seringkali item-item terbalik justru mengelompok sendiri dalam analisis faktor seolah-olah membentuk dimensi terpisah. Kita bahas plus-minusnya di Pertemuan 10."
+    "text": "Gaya menjawab (response styles)\n\nAcquiescence: kecenderungan menyetujui pernyataan apa pun, terlepas dari isinya.\nExtreme responding: kecenderungan memilih ujung skala (1 atau 5).\nMidpoint responding: kecenderungan bertahan di tengah (3) untuk menghindari ekstrimitas jawaban.\nKetiganya berbeda antar-budaya, sehingga bercampur dengan persoalan invariance di asumsi sebelumnya.\n\n\n\n\n\n\n\n\nSatu solusi parsial, dengan risiko yang berbeda\n\n\nAcquiescence biasanya diredam dengan menyisipkan item bernada terbalik (unfavorable atau reverse-worded).\nTetapi item terbalik punya masalahnya sendiri: sebagian responden salah membacanya, dan seringkali item-item terbalik justru mengelompok sendiri dalam analisis faktor seolah-olah membentuk dimensi terpisah. Kita bahas plus-minusnya di Pertemuan 10."
   },
   {
     "objectID": "slides/pertemuan2.html#partisipan-yang-menjawab-asal-asalan",
     "href": "slides/pertemuan2.html#partisipan-yang-menjawab-asal-asalan",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Partisipan yang menjawab asal-asalan",
-    "text": "Partisipan yang menjawab asal-asalan\n\nSebagian responden mengisi tanpa membaca, terutama pada kuesioner panjang, daring, dan tanpa insentif.\nMeade & Craig (2012) menunjukkan bahwa proporsinya bisa cukup besar untuk mengubah hasil analisis faktor dan estimasi reliabilitas.\nIni adalah konsekuensi dari desain instrumen yang terlalu membebani partisipan secara kognitif.\n\n\n\n\n\n\n\n\nYang bisa Anda lakukan saat uji coba\n\n\nCatat waktu pengerjaan, perhatikan pola jawaban yang seragam (misalnya semua “3”), dan tetapkan aturan pembersihan data sebelum melihat hasilnya. Kita rancang ini bersama di Pertemuan 12."
+    "text": "Partisipan yang menjawab asal-asalan\n\nSebagian responden mengisi tanpa membaca, terutama pada kuesioner panjang, daring, dan tanpa insentif.\nMeade & Craig (2012) menunjukkan bahwa proporsinya bisa cukup besar untuk mengubah hasil analisis faktor dan estimasi reliabilitas.\nIni adalah konsekuensi dari desain instrumen yang terlalu membebani partisipan secara kognitif.\n\n\n\n\n\n\n\n\nYang bisa Anda lakukan saat uji coba\n\n\nCatat waktu pengerjaan, perhatikan pola jawaban yang seragam (misalnya semua “3”), dan tetapkan aturan pembersihan data sebelum melihat hasilnya. Anda bisa rencanakan bersama kelompok di Pertemuan 12."
   },
   {
     "objectID": "slides/pertemuan2.html#konsekuensinya-1",
     "href": "slides/pertemuan2.html#konsekuensinya-1",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Konsekuensinya",
-    "text": "Konsekuensinya\n\nSemua yang kita bahas hari ini juga berlaku pada alat ukur yang sudah mapan dan dipakai luas.\nIni bukan berarti “pengukuran psikologis tidak ada gunanya.”\nKesimpulan yang tepat: pengukuran psikologis berguna sejauh kita jujur tentang batasannya.\n\n\n\n\n\n\n\n\nApa yang bisa diusahakan\n\n\nBukan berarti Anda diminta untuk membuat skala yang bebas asumsi, karena ini tidak mungkin dilakukan. Melainkan Anda harus membuat skala yang asumsinya dinyatakan, diperiksa sejauh bisa diperiksa, dan dilaporkan apa adanya."
+    "text": "Konsekuensinya\n\nSemua yang kita bahas hari ini juga berlaku pada alat ukur yang sudah mapan dan dipakai luas.\nIni bukan berarti “pengukuran psikologi tidak ada gunanya.”\nKesimpulan yang tepat: pengukuran psikologis berguna sejauh kita jujur tentang batasannya.\n\n\n\n\n\n\n\n\nApa yang bisa diusahakan\n\n\nBukan berarti Anda diminta untuk membuat skala yang bebas asumsi, karena ini tidak mungkin dilakukan. Melainkan Anda harus membuat skala yang asumsinya dinyatakan, diperiksa sejauh bisa diperiksa, dan dilaporkan apa adanya."
   },
   {
     "objectID": "slides/pertemuan2.html#kenapa-banyak-orang-tidak-melakukannya",
@@ -2118,7 +2118,7 @@
     "href": "slides/pertemuan2.html#checklist-untuk-laporan-proyek-anda",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Checklist untuk laporan proyek Anda",
-    "text": "Checklist untuk laporan proyek Anda\n\nBentuk konstruk — dimensional atau kategorikal? Apa alasannya?\nDimensionalitas — apakah item Anda mengukur satu hal? Bagaimana Anda memeriksanya?\nSebaran — bagaimana bentuk sebaran skor Anda yang sebenarnya? Jangan diasumsikan, lihat datanya.\nKelompok — siapa populasi Anda, dan adakah subkelompok yang itemnya mungkin berfungsi berbeda?\nSumber bias respons — apakah konstruk Anda rawan social desirability? Apa yang Anda lakukan soal itu?\n\n\n\n\n\n\n\n\nTips\n\n\nLima poin ini akan menjadi bagian dari laporan akhir Anda."
+    "text": "Checklist untuk laporan proyek Anda\n\nBentuk konstruk — dimensional atau kategorikal? Apa alasannya?\nDimensionalitas — apakah item Anda mengukur satu hal? Bagaimana Anda memeriksanya?\nSebaran — bagaimana bentuk sebaran skor Anda yang sebenarnya? Jangan diasumsikan, lihat datanya.\nKelompok — siapa populasi Anda, dan adakah subkelompok yang itemnya mungkin berfungsi berbeda?\nSumber bias respons — apakah konstruk Anda rawan social desirability? Apa yang Anda lakukan soal itu?\n\n\n\n\n\n\n\n\nLima poin ini akan menjadi bagian dari laporan akhir Anda."
   },
   {
     "objectID": "slides/pertemuan2.html#asumsi-pengukuran-psikologi",
