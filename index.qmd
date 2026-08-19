@@ -88,6 +88,15 @@ Mahasiswa **tidak harus** memiliki akun Microsoft Teams untuk mengikuti kuliah, 
 Namun, untuk mengakses percakapan (*chat*) atau berkomunikasi dengan dosen lewat tautan MS Teams yang sama, mahasiswa perlu masuk menggunakan akun Microsoft Teams UNAIR (email berdomain `@drive.unair.ac.id`). Lihat [Panduan Penggunaan OneDrive dan MS Teams](https://drive.google.com/file/d/1GZRz9a7TBCpDvYjJJE_ny8-3rgShKK_6/view) dari Direktorat Sistem Informasi (DSI) Universitas Airlangga.
 :::
 
+::: {.callout-tip}
+### Petunjuk mengunduh *slide* 🖨️
+Klik *icon* ☰ yang ada di pojok kiri bawah *slide* → `Tools` di pojok kiri atas → pilih `PDF Export Mode` → tekan tombol `ctrl` + `p` hingga keluar *pop-up window* untuk mencetak *slide*, kemudian *print* sebagai *file* `PDF`.
+
+Alternatifnya, Anda bisa menekan tombol `e` sebagai *shortcut*, lalu mencetak *slide* sebagai *file* `PDF`.
+
+‼️**Saya akan selalu memperbarui konten dalam *slide deck* di atas**. Oleh karena itu, sebaiknya perlakukan *slide* ini sebagai dokumen hidup (*living document*). Apabila Anda menyimpan versi `PDF` yang sifatnya statis, maka perubahan dan pembaruan yang saya lakukan setelah Anda menyimpan versi statisnya, tidak akan terlihat dalam *file* yang Anda unduh.
+:::
+
 ## Perangkat Lunak
 
 Mata kuliah ini menggunakan **[`jamovi`](https://www.jamovi.org/)** untuk seluruh analisis data — mulai dari perhitungan CVI, analisis item, hingga pengujian reliabilitas dan penyusunan norma pada Pertemuan 11–15. `jamovi` gratis, *open source*, dan tersedia untuk Windows, macOS, serta Linux.
