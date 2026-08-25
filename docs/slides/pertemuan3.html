@@ -11,7 +11,7 @@
   <meta name="generator" content="quarto-1.10.18">
 
   <meta name="author" content="Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi">
-  <meta name="dcterms.date" content="2026-08-19">
+  <meta name="dcterms.date" content="2026-08-25">
   <title>Penyusunan Skala Psikologi – Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -153,18 +153,18 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
     </div>
 </div>
 
-  <p class="date">2026-08-19</p>
+  <p class="date">2026-08-25</p>
 </section>
 <section id="outline" class="slide level2">
 <h2><em>Outline</em></h2>
 <ul>
 <li class="fragment">Apa yang dimaksud dengan <strong>variabel laten</strong>, dan kenapa ia disebut sebagai <em>penyebab</em></li>
 <li class="fragment"><strong><em>Classical Test Theory</em></strong>: <span class="math inline">\(X = T + E\)</span> dan asumsi-asumsinya</li>
-<li class="fragment">Kenapa reliabilitas bisa didefinisikan sebagai <strong>proporsi varians</strong></li>
+<li class="fragment">Kenapa reliabilitas didefinisikan sebagai <strong>proporsi varians</strong> dari <em>true score</em> dan <em>error</em> pengukuran</li>
 <li class="fragment">Apa sebenarnya arti <em>true score</em> dan kenapa ia <strong>bukan</strong> “nilai konstruk yang sesungguhnya”</li>
 <li class="fragment">Konsekuensi CTT: jumlah item, atenuasi, dan ketergantungan pada sampel</li>
 <li class="fragment">Keluarga model dalam CTT: <em>parallel</em>, <em>tau-equivalent</em>, <em>congeneric</em></li>
-<li class="fragment">Sekilas <strong><em>Item Response Theory</em></strong> dan apa perbaikan yang ditawarkannya</li>
+<li class="fragment">Sekilas <strong><em>Item Response Theory</em></strong> dan apa <em>benefit</em> yang ditawarkannya</li>
 </ul>
 
 <aside><div>
@@ -172,8 +172,8 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <p>Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk <em>brainstorming</em> materi, mencari referensi, dan melakukan <em>troubleshooting</em> kode <code>quarto</code> dan <code>git</code>. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini.</p>
 </div></aside></section>
 <section>
-<section id="dari-asumsi-ke-model" class="title-slide slide level1 center" data-background-color="#14497F">
-<h1>Dari asumsi ke model</h1>
+<section id="asumsi-model-pengukuran" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1>Asumsi ➡️ Model Pengukuran</h1>
 
 </section>
 <section id="apa-yang-sudah-anda-pelajari" class="slide level2">
@@ -181,19 +181,16 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <ul>
 <li class="fragment"><p><strong>Pertemuan 1</strong>: pengukuran psikologis bersifat tidak langsung, dan tidak semua kumpulan item dapat serta-merta disebut sebagai skala psikologi.</p></li>
 <li class="fragment"><p><strong>Pertemuan 2</strong>: ada enam asumsi yang kita pakai, sebagian besar implisit tanpa disadari.</p></li>
-<li class="fragment"><p><strong>Hari ini</strong>: asumsi-asumsi itu kita rapikan menjadi sebuah <strong>model matematika formal</strong></p></li>
+<li class="fragment"><p><strong>Hari ini</strong>: asumsi-asumsi itu kita “formalkan” menjadi sebuah <strong>model matematika</strong> agar dapat diuji secara empirik</p></li>
 </ul>
 <div class="fragment">
-<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout callout-note callout-style-simple">
 <div class="callout-body">
-<div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Kenapa perlu model</strong></p>
-</div>
 <div class="callout-content">
-<p>Selama asumsi hanya berupa daftar, kita tidak bisa melakukan apapun untuk mengujinya. Begitu asumsinya dituliskan sebagai persamaan matematika, kita bisa <strong>menguji konsekuensinya</strong>, termasuk rumus reliabilitas yang akan Anda pakai di Pertemuan 13.</p>
+<p>Selama asumsi hanya berupa daftar, kita tidak bisa melakukan apapun untuk mengujinya. Begitu asumsinya dituliskan sebagai persamaan matematika, kita bisa <strong>menguji konsekuensinya</strong>.</p>
 </div>
 </div>
 </div>
@@ -204,14 +201,20 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <h1>Definisi variabel laten</h1>
 
 </section>
-<section id="dua-kata-dua-ciri" class="slide level2">
-<h2>Dua kata, dua ciri</h2>
+<section id="variabel-laten-vs.-indikator" class="slide level2">
+<h2>Variabel laten vs.&nbsp;indikator</h2>
 <div class="columns">
 <div class="column" style="width:55%;">
 <ul>
-<li class="fragment"><p><strong><em>Laten</em></strong>, bukan manifes. Tidak bisa diamati langsung. Aspirasi orang tua terhadap prestasi anaknya tidak bisa dilihat, hanya bisa disimpulkan.</p></li>
-<li class="fragment"><p><strong><em>Variabel</em></strong>, bukan konstanta. Ada sesuatu yang berubah — kekuatannya, besarannya — antar-orang, antar-waktu, antar-situasi.</p></li>
-<li class="fragment"><p>Variabel laten biasanya merupakan <strong>karakteristik orang yang menjadi sumber data</strong> (e.g., orangtua), bukan karakteristik objek yang ditanyakan (e.g., prestasi anak).</p></li>
+<li class="fragment"><strong><em>Laten</em></strong>, bukan manifes.
+<ul>
+<li class="fragment">Tidak bisa diamati langsung. Aspirasi orang tua terhadap prestasi anaknya tidak bisa dilihat, hanya bisa disimpulkan dari indikator-indikator yang merefleksikan aspirasi tsb.</li>
+</ul></li>
+<li class="fragment"><strong><em>Variabel</em></strong>, bukan konstanta.
+<ul>
+<li class="fragment">Ada sesuatu yang berubah — kekuatannya, besarannya — antar-orang, antar-waktu, antar-situasi.</li>
+</ul></li>
+<li class="fragment">Variabel laten biasanya merupakan <strong>karakteristik orang yang menjadi sumber data</strong> (e.g., orangtua), bukan karakteristik objek yang ditanyakan (e.g., prestasi anak).</li>
 </ul>
 </div><div class="column" style="width:45%;">
 <div class="quarto-figure quarto-figure-center">
@@ -232,13 +235,10 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <li class="fragment"><p>Kalau kita meminta pembeli menilai sebuah merek (<em>brand</em>), yang kita ukur adalah <strong>persepsi pembeli</strong>, bukan sifat aktual mereknya.</p></li>
 </ul>
 <div class="fragment">
-<div class="callout callout-warning callout-titled callout-style-default">
+<div class="callout callout-warning callout-style-simple">
 <div class="callout-body">
-<div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
-</div>
-<p><strong>Kesalahan penamaan yang sering terjadi</strong></p>
 </div>
 <div class="callout-content">
 <p>Nama konstruk Anda harus mencerminkan <strong>siapa yang datanya diambil</strong> (e.g., <em>estimand</em>).</p>
@@ -250,7 +250,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <section id="variabel-laten-sebagai-penyebab" class="slide level2">
 <h2>Variabel laten sebagai <em>penyebab</em></h2>
 <div class="columns">
-<div class="column" style="width:70%;">
+<div class="column" style="width:60%;">
 <ul>
 <li class="fragment"><p>Intinya: <strong>kekuatan variabel laten menyebabkan item punya skor tertentu.</strong></p></li>
 <li class="fragment"><p>Misalnya item <em>“Tidak ada pengorbanan yang terlalu besar demi keberhasilan anak saya”</em>.</p>
@@ -275,10 +275,10 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 </div>
 </div>
 </div>
-</div><div class="column" style="width:30%;">
+</div><div class="column" style="width:40%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="libs/reflektif.png" class="quarto-figure quarto-figure-center" style="width:60.0%"></p>
+<p><img data-src="libs/reflektif.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
 </figure>
 </div>
 </div></div>
@@ -291,16 +291,13 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <li class="fragment"><p>Dari pola korelasi antar-item itu, kita bisa menyimpulkan seberapa kuat tiap item terhubung dengan variabel latennya.</p></li>
 </ul>
 <div class="fragment">
-<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout callout-note callout-style-simple">
 <div class="callout-body">
-<div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Penting diingat</strong></p>
-</div>
 <div class="callout-content">
-<p>Prosedur yang akan Anda jalankan di Pertemuan 13 — <em>corrected item-total correlation</em>, membuang item yang korelasinya lemah — seluruhnya bersandar pada logika ini.</p>
+<p>Prosedur yang akan Anda jalankan di Pertemuan 13: <em>corrected item-total correlation</em>, atau membuang item yang korelasinya lemah, seluruhnya bersandar pada logika ini.</p>
 </div>
 </div>
 </div>
@@ -328,10 +325,10 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Yang masuk ke dalam <span class="math inline">\(E\)</span></strong></p>
+<p><strong>Cakupan <span class="math inline">\(E\)</span></strong></p>
 </div>
 <div class="callout-content">
-<p>Kondisi fisik responden saat mengisi, suasana hati sesaat, ambiguitas kalimat item, gangguan di ruangan, salah klik. CTT <strong>tidak memisahkan</strong> sumber-sumber ini. Semuanya dikumpulkan menjadi satu suku <em>error</em>.</p>
+<p>Kondisi fisik responden saat mengisi, suasana hati sesaat, ambiguitas kalimat item, gangguan di ruangan, salah klik/pilih jawaban. CTT <strong>tidak memisahkan</strong> sumber-sumber ini. Semuanya dikumpulkan menjadi satu suku <em>error</em>.</p>
 </div>
 </div>
 </div>
@@ -354,7 +351,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <p><strong>Perhatikan apa yang diasumsikan di sini</strong></p>
 </div>
 <div class="callout-content">
-<p>Ketiganya menyatakan bahwa <em>error</em> bersifat <strong>acak</strong>, bukan sistematis. Bias yang konsisten — misalnya seluruh responden menjawab lebih positif karena <em>social desirability</em> — <strong>tidak masuk ke dalam</strong> <span class="math inline">\(E\)</span>.</p>
+<p>Ketiganya menyatakan bahwa <em>error</em> bersifat <strong>acak</strong>, bukan sistematis. Bias yang konsisten, misalnya seluruh responden menjawab lebih positif karena <em>social desirability</em>, <strong>tidak termasuk ke dalam</strong> <span class="math inline">\(E\)</span>.</p>
 </div>
 </div>
 </div>
@@ -366,7 +363,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <p><span class="math display">\[\sigma^2_X = \sigma^2_T + \sigma^2_E\]</span></p>
 <div class="fragment">
 <ul>
-<li class="fragment"><p>Artinya: <strong>variasi skor yang kita amati</strong> terdiri atas variasi yang berasal dari perbedaan antar-orang yang sesungguhnya, ditambah variasi yang berasal dari <em>noise</em>.</p></li>
+<li class="fragment"><p>Artinya: <strong>variasi skor yang kita amati</strong> seharusnya terdiri atas variasi yang berasal dari perbedaan antar-orang yang sesungguhnya, ditambah variasi yang berasal dari <em>noise</em>.</p></li>
 <li class="fragment"><p>Pertanyaan reliabilitas jadi sangat sederhana: <strong>berapa bagian dari variasi itu yang bukan <em>noise</em>?</strong></p></li>
 </ul>
 </div>
@@ -456,13 +453,10 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <li class="fragment"><p><em>True score</em> orang itu, menurut definisi CTT, adalah berat sebenarnya <strong>+ 2 kg</strong>.</p></li>
 </ul>
 <div class="fragment">
-<div class="callout callout-warning callout-titled callout-style-default">
+<div class="callout callout-warning callout-style-simple">
 <div class="callout-body">
-<div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
-</div>
-<p><strong>Kesimpulan yang penting</strong></p>
 </div>
 <div class="callout-content">
 <p>CTT <strong>tidak punya cara</strong> untuk mendeteksi bias yang konsisten. Bias sistematis masuk ke dalam <span class="math inline">\(T\)</span>, bukan ke dalam <span class="math inline">\(E\)</span>.</p>
@@ -489,9 +483,9 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <p><strong>Tapi ada hubungannya</strong></p>
 </div>
 <div class="callout-content">
-<p>Reliabilitas memberi <strong>batas atas</strong> bagi <em>koefisien validitas</em>, yaitu korelasi antara skor Anda dan suatu kriteria:</p>
+<p>Reliabilitas memberi <strong>batas atas</strong> bagi validitas, yaitu korelasi antara skor Anda dan suatu kriteria (e.g., <em>criterion-related validity</em>):</p>
 <p><span class="math display">\[r_{XY} \leq \sqrt{\rho_{XX'} \times \rho_{YY'}}\]</span></p>
-<p>Ini melibatkan reliabilitas kriterianya juga. Kalau kriteria diasumsikan diukur tanpa <em>error</em> (<span class="math inline">\(\rho_{YY'}=1\)</span>), rumusnya menyederhana jadi <span class="math inline">\(r_{XY} \leq \sqrt{\rho_{XX'}}\)</span>: dengan <span class="math inline">\(\rho_{XX'} = 0{.}64\)</span>, korelasi maksimum yang mungkin Anda peroleh adalah <span class="math inline">\(0{.}80\)</span> — berapa pun kuatnya hubungan yang sesungguhnya. Kalau kriterianya sendiri juga <em>fallible</em>, batas atasnya turun lebih jauh.</p>
+<p>Ini melibatkan reliabilitas kriterianya juga. Kalau kriteria diasumsikan diukur tanpa <em>error</em> (<span class="math inline">\(\rho_{YY'}=1\)</span>), rumusnya menjadi lebih sederhana, <span class="math inline">\(r_{XY} \leq \sqrt{\rho_{XX'}}\)</span>: dengan <span class="math inline">\(\rho_{XX'} = 0{.}64\)</span>, korelasi maksimum yang mungkin Anda peroleh adalah <span class="math inline">\(0{.}80\)</span> — berapa pun kuatnya hubungan yang sesungguhnya. Kalau kriterianya sendiri juga <em>fallible</em> (mengandung <em>error</em>), batas atasnya turun lebih jauh.</p>
 </div>
 </div>
 </div>
@@ -513,7 +507,10 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <section id="kenapa-pembedaan-ini-penting" class="slide level2">
 <h2>Kenapa pembedaan ini penting</h2>
 <ul>
-<li class="fragment"><p>Bukti validitas <strong>tidak otomatis berpindah</strong>. Skala yang tafsiran skornya terdukung untuk penelitian pada mahasiswa belum tentu terdukung untuk seleksi kerja atau penegakan diagnosis.</p></li>
+<li class="fragment"><p>Bukti validitas <strong>tidak otomatis berpindah</strong>.</p>
+<ul>
+<li class="fragment">Skala yang tafsiran skornya terdukung untuk penelitian pada sampel mahasiswa belum tentu terdukung untuk seleksi kerja atau penegakan diagnosis.</li>
+</ul></li>
 <li class="fragment"><p>Begitu populasi, tujuan, atau cara penggunaannya berubah, buktinya perlu diperiksa ulang.</p></li>
 <li class="fragment"><p>Karena itu validitas <strong>tidak pernah selesai</strong>. Ia tidak bisa diuji sekali lalu berlaku selamanya.</p></li>
 </ul>
@@ -535,8 +532,8 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 </div>
 </div>
 </section>
-<section id="hubungkan-dengan-pertemuan-1" class="slide level2">
-<h2>Hubungkan dengan Pertemuan 1</h2>
+<section id="hubungkan-dengan-pertemuan-1-dan-2" class="slide level2">
+<h2>Hubungkan dengan Pertemuan 1️⃣ dan 2️⃣</h2>
 <ul>
 <li class="fragment"><p>Ingat kritik Michell: apakah atribut psikologis benar-benar kuantitatif?</p></li>
 <li class="fragment"><p>Persamaan <span class="math inline">\(X = T + E\)</span> <strong>mengandaikan jawabannya “ya”</strong>. Kita menjumlahkan dan mengurangkan <span class="math inline">\(T\)</span> dan <span class="math inline">\(E\)</span> seolah-olah keduanya adalah benar-benar angka yang bermakna.</p></li>
@@ -595,8 +592,8 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 </div>
 </div>
 </section>
-<section id="sekarang-atenuasi-bisa-kita-pahami" class="slide level2">
-<h2>Sekarang atenuasi bisa kita pahami</h2>
+<section id="koreksi-atenuasi-unlocked" class="slide level2">
+<h2>Koreksi atenuasi <em>unlocked</em></h2>
 <p>Di Pertemuan 1 kita memakai rumus ini tanpa penjelasan yang memadai:</p>
 <p><span class="math display">\[r_{XY} = \rho_{T_X T_Y} \times \sqrt{\rho_{XX'} \times \rho_{YY'}}\]</span></p>
 <div class="fragment">
@@ -640,7 +637,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <p><strong>Konsekuensi praktis untuk uji coba Anda</strong></p>
 </div>
 <div class="callout-content">
-<p>Reliabilitas yang Anda laporkan <strong>bukan sifat alat ukur Anda semata</strong> — ia juga sebagian merupakan sifat sampel Anda. Karena itu, laporkan <strong>karakteristik sampel</strong> bersama koefisien reliabilitasnya, selalu.</p>
+<p>Reliabilitas yang Anda laporkan <strong>bukan sekadar sifat alat ukur Anda</strong>. Ia juga sebagian menunjukkan karakteristik sampel Anda. Karena itu, selalu laporkan <strong>karakteristik sampel</strong> bersama koefisien reliabilitasnya.</p>
 </div>
 </div>
 </div>
@@ -680,13 +677,10 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <li class="fragment"><p><strong><em>Parallel</em></strong> — semua item punya hubungan yang sama kuat <strong>dan</strong> varians <em>error</em> yang sama. Paling ketat, paling jarang terpenuhi.</p></li>
 </ul>
 <div class="fragment">
-<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout callout-note callout-style-simple">
 <div class="callout-body">
-<div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
-</div>
-<p><strong>Note</strong></p>
 </div>
 <div class="callout-content">
 <p>Perhatikan bahwa ketiganya adalah asumsi tentang <strong>item Anda</strong>, bukan tentang orangnya. Ini kelanjutan langsung dari asumsi <em>unit weighting</em> di Pertemuan 2.</p>
@@ -747,13 +741,10 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <p>Reliabilitas dinaikkan dengan <strong>memilih item yang lebih baik</strong>.</p>
 </div></div>
 <div class="fragment">
-<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout callout-note callout-style-simple">
 <div class="callout-body">
-<div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
-</div>
-<p><strong>Note</strong></p>
 </div>
 <div class="callout-content">
 <p>Perbedaan ini punya konsekuensi praktis: CTT cenderung menghasilkan skala yang panjang dan banyak mengulang, IRT cenderung menghasilkan skala yang lebih pendek tetapi itemnya yang benar-benar bagus.</p>
@@ -824,7 +815,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <h2>Parameter kedua: daya diskriminasi</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="libs/icc-diskriminasi.svg" class="quarto-figure quarto-figure-center" style="width:70.0%"></p>
+<p><img data-src="libs/icc-diskriminasi.svg" class="quarto-figure quarto-figure-center" style="width:60.0%"></p>
 </figure>
 </div>
 <ul>
@@ -864,13 +855,10 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <li class="fragment"><p><strong>Sampel besar dan beragam.</strong> Keunggulan teoretis IRT hanya terwujud kalau itemnya dikalibrasi pada sampel yang besar dan heterogen.</p></li>
 </ul>
 <div class="fragment">
-<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout callout-note callout-style-simple">
 <div class="callout-body">
-<div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
-</div>
-<p><strong>Perhatikan</strong></p>
 </div>
 <div class="callout-content">
 <p>Dua asumsi pertama itu persis asumsi nomor 4 dari Pertemuan 2. IRT <strong>tidak menghapus</strong> asumsi, melainkan mensyaratkannya lebih ketat.</p>
@@ -944,13 +932,10 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <li class="fragment"><p><strong>Kalau seluruh item Anda “mudah disetujui”, apa yang akan terjadi</strong> pada sebaran skor dan pada kemampuan skala Anda membedakan responden?</p></li>
 </ol>
 <div class="fragment">
-<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout callout-tip callout-style-simple">
 <div class="callout-body">
-<div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
-</div>
-<p><strong>Tip</strong></p>
 </div>
 <div class="callout-content">
 <p>Pertanyaan nomor 3 akan kita pakai lagi secara langsung ketika menyusun <em>blueprint</em> di Pertemuan 10.</p>
@@ -967,20 +952,20 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <section id="poin-utama" class="slide level2">
 <h2>6️⃣ poin utama</h2>
 <ol type="1">
-<li class="fragment"><p><strong>Variabel laten adalah sebab</strong>, dan itulah alasan item dalam satu skala harus berkorelasi.</p></li>
+<li class="fragment"><p><strong>Variabel laten adalah sebab</strong>, dan inilah alasan mengapa item dalam satu skala harus saling berkorelasi.</p></li>
 <li class="fragment"><p><strong><span class="math inline">\(X = T + E\)</span></strong>, dengan asumsi bahwa <em>error</em> bersifat acak, bukan sistematis.</p></li>
 <li class="fragment"><p><strong>Reliabilitas adalah proporsi varians</strong>: bagian dari variasi skor yang bukan <em>noise</em>.</p></li>
-<li class="fragment"><p><strong><em>True score</em> melekat pada alat ukur</strong>, bukan pada konstruk. Alat yang bias secara konsisten tetap bisa sangat reliabel dan reliabilitas maupun validitas sama-sama sifat <strong>skor</strong>, bukan sifat skala.</p></li>
+<li class="fragment"><p><strong><em>True score</em> melekat pada alat ukur</strong>, bukan pada konstruk. Alat ukur yang memiliki bias secara konsisten tetap bisa sangat reliabel dan reliabilitas maupun validitas sama-sama sifat <strong>skor</strong>, bukan sifat skala.</p></li>
 <li class="fragment"><p><strong>Statistik item dalam CTT bergantung pada sampel.</strong> Laporkan karakteristik sampel bersama koefisiennya.</p></li>
-<li class="fragment"><p><strong><span class="math inline">\(\alpha\)</span> mengasumsikan model <em>tau-equivalent</em></strong>, yang jarang terpenuhi.</p></li>
+<li class="fragment"><p><strong><span class="math inline">\(\alpha\)</span> mengasumsikan model <em>tau-equivalent</em></strong>, yang jarang terpenuhi. Oleh karena itu, lebih baik gunakan <span class="math inline">\(\omega\)</span> yang mengasumsikan model <em>congeneric</em>.</p></li>
 </ol>
 </section>
 <section id="untuk-pertemuan-4" class="slide level2">
 <h2>Untuk Pertemuan 4</h2>
 <p>Kita turun ke tingkat yang paling konkrit: <strong>format respons</strong>.</p>
 <ul>
-<li class="fragment"><strong>Likert</strong> — berapa titik yang sebaiknya dipakai, dan apakah perlu titik tengah?</li>
-<li class="fragment"><strong><em>Semantic Differential</em></strong> — kapan pasangan kata sifat lebih tepat daripada pernyataan.</li>
+<li class="fragment"><strong>Likert</strong> — berapa pilihan respon yang sebaiknya dipakai, dan apakah perlu pilihan di tengah-tengah?</li>
+<li class="fragment"><strong><em>Semantic Differential</em></strong> — kapan pasangan kata sifat lebih tepat digunakan daripada pernyataan.</li>
 <li class="fragment"><strong>Guttman</strong> — ketika item memang berjenjang secara logis.</li>
 <li class="fragment">Dan pertanyaan yang menghubungkannya dengan hari ini: <strong>pilihan format respons itu mengubah asumsi apa?</strong></li>
 </ul>

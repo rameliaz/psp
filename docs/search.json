@@ -2531,28 +2531,28 @@
     "href": "slides/pertemuan3.html#outline",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Outline",
-    "text": "Outline\n\nApa yang dimaksud dengan variabel laten, dan kenapa ia disebut sebagai penyebab\nClassical Test Theory: \\(X = T + E\\) dan asumsi-asumsinya\nKenapa reliabilitas bisa didefinisikan sebagai proporsi varians\nApa sebenarnya arti true score dan kenapa ia bukan “nilai konstruk yang sesungguhnya”\nKonsekuensi CTT: jumlah item, atenuasi, dan ketergantungan pada sampel\nKeluarga model dalam CTT: parallel, tau-equivalent, congeneric\nSekilas Item Response Theory dan apa perbaikan yang ditawarkannya\n\n\n\nDisclosure penggunaan akal imitasi (AI)\nKami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk brainstorming materi, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini."
+    "text": "Outline\n\nApa yang dimaksud dengan variabel laten, dan kenapa ia disebut sebagai penyebab\nClassical Test Theory: \\(X = T + E\\) dan asumsi-asumsinya\nKenapa reliabilitas didefinisikan sebagai proporsi varians dari true score dan error pengukuran\nApa sebenarnya arti true score dan kenapa ia bukan “nilai konstruk yang sesungguhnya”\nKonsekuensi CTT: jumlah item, atenuasi, dan ketergantungan pada sampel\nKeluarga model dalam CTT: parallel, tau-equivalent, congeneric\nSekilas Item Response Theory dan apa benefit yang ditawarkannya\n\n\n\nDisclosure penggunaan akal imitasi (AI)\nKami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk brainstorming materi, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini."
   },
   {
     "objectID": "slides/pertemuan3.html#apa-yang-sudah-anda-pelajari",
     "href": "slides/pertemuan3.html#apa-yang-sudah-anda-pelajari",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Apa yang sudah Anda pelajari",
-    "text": "Apa yang sudah Anda pelajari\n\nPertemuan 1: pengukuran psikologis bersifat tidak langsung, dan tidak semua kumpulan item dapat serta-merta disebut sebagai skala psikologi.\nPertemuan 2: ada enam asumsi yang kita pakai, sebagian besar implisit tanpa disadari.\nHari ini: asumsi-asumsi itu kita rapikan menjadi sebuah model matematika formal\n\n\n\n\n\n\n\n\nKenapa perlu model\n\n\nSelama asumsi hanya berupa daftar, kita tidak bisa melakukan apapun untuk mengujinya. Begitu asumsinya dituliskan sebagai persamaan matematika, kita bisa menguji konsekuensinya, termasuk rumus reliabilitas yang akan Anda pakai di Pertemuan 13."
+    "text": "Apa yang sudah Anda pelajari\n\nPertemuan 1: pengukuran psikologis bersifat tidak langsung, dan tidak semua kumpulan item dapat serta-merta disebut sebagai skala psikologi.\nPertemuan 2: ada enam asumsi yang kita pakai, sebagian besar implisit tanpa disadari.\nHari ini: asumsi-asumsi itu kita “formalkan” menjadi sebuah model matematika agar dapat diuji secara empirik\n\n\n\n\n\n\n\n\nSelama asumsi hanya berupa daftar, kita tidak bisa melakukan apapun untuk mengujinya. Begitu asumsinya dituliskan sebagai persamaan matematika, kita bisa menguji konsekuensinya."
   },
   {
-    "objectID": "slides/pertemuan3.html#dua-kata-dua-ciri",
-    "href": "slides/pertemuan3.html#dua-kata-dua-ciri",
+    "objectID": "slides/pertemuan3.html#variabel-laten-vs.-indikator",
+    "href": "slides/pertemuan3.html#variabel-laten-vs.-indikator",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
-    "section": "Dua kata, dua ciri",
-    "text": "Dua kata, dua ciri\n\n\n\nLaten, bukan manifes. Tidak bisa diamati langsung. Aspirasi orang tua terhadap prestasi anaknya tidak bisa dilihat, hanya bisa disimpulkan.\nVariabel, bukan konstanta. Ada sesuatu yang berubah — kekuatannya, besarannya — antar-orang, antar-waktu, antar-situasi.\nVariabel laten biasanya merupakan karakteristik orang yang menjadi sumber data (e.g., orangtua), bukan karakteristik objek yang ditanyakan (e.g., prestasi anak).\n\n\n\n\n\n\n\n\n\n\nDeVellis & Thorpe (2022), Bab 2."
+    "section": "Variabel laten vs. indikator",
+    "text": "Variabel laten vs. indikator\n\n\n\nLaten, bukan manifes.\n\nTidak bisa diamati langsung. Aspirasi orang tua terhadap prestasi anaknya tidak bisa dilihat, hanya bisa disimpulkan dari indikator-indikator yang merefleksikan aspirasi tsb.\n\nVariabel, bukan konstanta.\n\nAda sesuatu yang berubah — kekuatannya, besarannya — antar-orang, antar-waktu, antar-situasi.\n\nVariabel laten biasanya merupakan karakteristik orang yang menjadi sumber data (e.g., orangtua), bukan karakteristik objek yang ditanyakan (e.g., prestasi anak).\n\n\n\n\n\n\n\n\n\n\nDeVellis & Thorpe (2022), Bab 2."
   },
   {
     "objectID": "slides/pertemuan3.html#perhatikan-siapa-yang-diukur",
     "href": "slides/pertemuan3.html#perhatikan-siapa-yang-diukur",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Perhatikan siapa yang diukur",
-    "text": "Perhatikan siapa yang diukur\n\nKalau kita meminta orang tua melaporkan aspirasi mereka untuk anaknya, yang kita ukur adalah karakteristik orang tua, bukan anaknya.\nKalau kita meminta orang tua melaporkan aspirasi anaknya sendiri, variabel latennya lebih tepat disebut persepsi orang tua tentang aspirasi anak, bukan aspirasi anak itu sendiri.\nKalau kita meminta pembeli menilai sebuah merek (brand), yang kita ukur adalah persepsi pembeli, bukan sifat aktual mereknya.\n\n\n\n\n\n\n\n\nKesalahan penamaan yang sering terjadi\n\n\nNama konstruk Anda harus mencerminkan siapa yang datanya diambil (e.g., estimand)."
+    "text": "Perhatikan siapa yang diukur\n\nKalau kita meminta orang tua melaporkan aspirasi mereka untuk anaknya, yang kita ukur adalah karakteristik orang tua, bukan anaknya.\nKalau kita meminta orang tua melaporkan aspirasi anaknya sendiri, variabel latennya lebih tepat disebut persepsi orang tua tentang aspirasi anak, bukan aspirasi anak itu sendiri.\nKalau kita meminta pembeli menilai sebuah merek (brand), yang kita ukur adalah persepsi pembeli, bukan sifat aktual mereknya.\n\n\n\n\n\n\n\n\nNama konstruk Anda harus mencerminkan siapa yang datanya diambil (e.g., estimand)."
   },
   {
     "objectID": "slides/pertemuan3.html#variabel-laten-sebagai-penyebab",
@@ -2566,28 +2566,28 @@
     "href": "slides/pertemuan3.html#asumsi-ini-memungkinkan-analisis-item",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Asumsi ini memungkinkan analisis item",
-    "text": "Asumsi ini memungkinkan analisis item\n\nKita tidak pernah bisa menghitung korelasi antara item dan true score, karena true score tidak teramati.\nTetapi kita bisa menghitung korelasi antar-item.\nDari pola korelasi antar-item itu, kita bisa menyimpulkan seberapa kuat tiap item terhubung dengan variabel latennya.\n\n\n\n\n\n\n\n\nPenting diingat\n\n\nProsedur yang akan Anda jalankan di Pertemuan 13 — corrected item-total correlation, membuang item yang korelasinya lemah — seluruhnya bersandar pada logika ini."
+    "text": "Asumsi ini memungkinkan analisis item\n\nKita tidak pernah bisa menghitung korelasi antara item dan true score, karena true score tidak teramati.\nTetapi kita bisa menghitung korelasi antar-item.\nDari pola korelasi antar-item itu, kita bisa menyimpulkan seberapa kuat tiap item terhubung dengan variabel latennya.\n\n\n\n\n\n\n\n\nProsedur yang akan Anda jalankan di Pertemuan 13: corrected item-total correlation, atau membuang item yang korelasinya lemah, seluruhnya bersandar pada logika ini."
   },
   {
     "objectID": "slides/pertemuan3.html#persamaannya",
     "href": "slides/pertemuan3.html#persamaannya",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Persamaannya",
-    "text": "Persamaannya\n\\[X = T + E\\]\n\n\n\\(X\\) — observed score. Skor yang benar-benar Anda dapatkan dari responden.\n\\(T\\) — true score. Skor yang akan diperoleh seseorang kalau pengukurannya sempurna.\n\\(E\\) — error. Semua yang membuat \\(X\\) menyimpang dari \\(T\\).\n\n\n\n\n\n\n\n\n\nYang masuk ke dalam \\(E\\)\n\n\nKondisi fisik responden saat mengisi, suasana hati sesaat, ambiguitas kalimat item, gangguan di ruangan, salah klik. CTT tidak memisahkan sumber-sumber ini. Semuanya dikumpulkan menjadi satu suku error."
+    "text": "Persamaannya\n\\[X = T + E\\]\n\n\n\\(X\\) — observed score. Skor yang benar-benar Anda dapatkan dari responden.\n\\(T\\) — true score. Skor yang akan diperoleh seseorang kalau pengukurannya sempurna.\n\\(E\\) — error. Semua yang membuat \\(X\\) menyimpang dari \\(T\\).\n\n\n\n\n\n\n\n\n\nCakupan \\(E\\)\n\n\nKondisi fisik responden saat mengisi, suasana hati sesaat, ambiguitas kalimat item, gangguan di ruangan, salah klik/pilih jawaban. CTT tidak memisahkan sumber-sumber ini. Semuanya dikumpulkan menjadi satu suku error."
   },
   {
     "objectID": "slides/pertemuan3.html#tiga-asumsi-ctt",
     "href": "slides/pertemuan3.html#tiga-asumsi-ctt",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Tiga asumsi CTT",
-    "text": "Tiga asumsi CTT\n\nRata-rata error adalah nol: \\(E(e) = 0\\). Kalau pengukuran diulang sebanyak ~ kali, error saling meniadakan.\nError tidak berkorelasi dengan true score: \\(\\text{Cov}(T, E) = 0\\). Orang dengan kecemasan tinggi tidak otomatis punya error yang lebih besar.\nError antar-pengukuran tidak saling berkorelasi: \\(\\text{Cov}(E_1, E_2) = 0\\).\n\n\n\n\n\n\n\n\nPerhatikan apa yang diasumsikan di sini\n\n\nKetiganya menyatakan bahwa error bersifat acak, bukan sistematis. Bias yang konsisten — misalnya seluruh responden menjawab lebih positif karena social desirability — tidak masuk ke dalam \\(E\\)."
+    "text": "Tiga asumsi CTT\n\nRata-rata error adalah nol: \\(E(e) = 0\\). Kalau pengukuran diulang sebanyak ~ kali, error saling meniadakan.\nError tidak berkorelasi dengan true score: \\(\\text{Cov}(T, E) = 0\\). Orang dengan kecemasan tinggi tidak otomatis punya error yang lebih besar.\nError antar-pengukuran tidak saling berkorelasi: \\(\\text{Cov}(E_1, E_2) = 0\\).\n\n\n\n\n\n\n\n\nPerhatikan apa yang diasumsikan di sini\n\n\nKetiganya menyatakan bahwa error bersifat acak, bukan sistematis. Bias yang konsisten, misalnya seluruh responden menjawab lebih positif karena social desirability, tidak termasuk ke dalam \\(E\\)."
   },
   {
     "objectID": "slides/pertemuan3.html#dari-skor-ke-varians",
     "href": "slides/pertemuan3.html#dari-skor-ke-varians",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Dari skor ke varians",
-    "text": "Dari skor ke varians\nKalau \\(X = T + E\\) dan \\(\\text{Cov}(T, E) = 0\\), maka variansnya ikut terpisah:\n\\[\\sigma^2_X = \\sigma^2_T + \\sigma^2_E\\]\n\n\nArtinya: variasi skor yang kita amati terdiri atas variasi yang berasal dari perbedaan antar-orang yang sesungguhnya, ditambah variasi yang berasal dari noise.\nPertanyaan reliabilitas jadi sangat sederhana: berapa bagian dari variasi itu yang bukan noise?"
+    "text": "Dari skor ke varians\nKalau \\(X = T + E\\) dan \\(\\text{Cov}(T, E) = 0\\), maka variansnya ikut terpisah:\n\\[\\sigma^2_X = \\sigma^2_T + \\sigma^2_E\\]\n\n\nArtinya: variasi skor yang kita amati seharusnya terdiri atas variasi yang berasal dari perbedaan antar-orang yang sesungguhnya, ditambah variasi yang berasal dari noise.\nPertanyaan reliabilitas jadi sangat sederhana: berapa bagian dari variasi itu yang bukan noise?"
   },
   {
     "objectID": "slides/pertemuan3.html#reliabilitas-sebagai-proporsi-varians",
@@ -2622,14 +2622,14 @@
     "href": "slides/pertemuan3.html#analogi-timbangan-yang-meleset",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Analogi timbangan yang meleset",
-    "text": "Analogi timbangan yang meleset\n\nBayangkan timbangan badan yang selalu menunjukkan 2 kg lebih berat dari berat sebenarnya.\nTimbang seseorang seratus kali. Hasilnya sangat konsisten — error acaknya kecil, jadi reliabilitasnya tinggi.\nTrue score orang itu, menurut definisi CTT, adalah berat sebenarnya + 2 kg.\n\n\n\n\n\n\n\n\nKesimpulan yang penting\n\n\nCTT tidak punya cara untuk mendeteksi bias yang konsisten. Bias sistematis masuk ke dalam \\(T\\), bukan ke dalam \\(E\\).\nArtinya: alat ukur yang reliabel bisa saja mengukur hal yang salah, secara sangat konsisten."
+    "text": "Analogi timbangan yang meleset\n\nBayangkan timbangan badan yang selalu menunjukkan 2 kg lebih berat dari berat sebenarnya.\nTimbang seseorang seratus kali. Hasilnya sangat konsisten — error acaknya kecil, jadi reliabilitasnya tinggi.\nTrue score orang itu, menurut definisi CTT, adalah berat sebenarnya + 2 kg.\n\n\n\n\n\n\n\n\nCTT tidak punya cara untuk mendeteksi bias yang konsisten. Bias sistematis masuk ke dalam \\(T\\), bukan ke dalam \\(E\\).\nArtinya: alat ukur yang reliabel bisa saja mengukur hal yang salah, secara sangat konsisten."
   },
   {
     "objectID": "slides/pertemuan3.html#reliabilitas-bukan-validitas",
     "href": "slides/pertemuan3.html#reliabilitas-bukan-validitas",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Reliabilitas bukan validitas",
-    "text": "Reliabilitas bukan validitas\n\nReliabilitas adalah sifat skor: seberapa konsisten skor itu kalau pengukurannya diulang.\nValiditas juga sifat skor, lebih tepatnya, sifat dari tafsiran atas skor untuk tujuan tertentu.\nYang pertama tidak menjamin yang kedua. Skala Anda bisa punya \\(\\alpha = 0{.}92\\) dan skornya tetap menunjukkan konstruk yang berbeda dari yang Anda klaim.\n\n\n\n\n\n\n\n\nTapi ada hubungannya\n\n\nReliabilitas memberi batas atas bagi koefisien validitas, yaitu korelasi antara skor Anda dan suatu kriteria:\n\\[r_{XY} \\leq \\sqrt{\\rho_{XX'} \\times \\rho_{YY'}}\\]\nIni melibatkan reliabilitas kriterianya juga. Kalau kriteria diasumsikan diukur tanpa error (\\(\\rho_{YY'}=1\\)), rumusnya menyederhana jadi \\(r_{XY} \\leq \\sqrt{\\rho_{XX'}}\\): dengan \\(\\rho_{XX'} = 0{.}64\\), korelasi maksimum yang mungkin Anda peroleh adalah \\(0{.}80\\) — berapa pun kuatnya hubungan yang sesungguhnya. Kalau kriterianya sendiri juga fallible, batas atasnya turun lebih jauh."
+    "text": "Reliabilitas bukan validitas\n\nReliabilitas adalah sifat skor: seberapa konsisten skor itu kalau pengukurannya diulang.\nValiditas juga sifat skor, lebih tepatnya, sifat dari tafsiran atas skor untuk tujuan tertentu.\nYang pertama tidak menjamin yang kedua. Skala Anda bisa punya \\(\\alpha = 0{.}92\\) dan skornya tetap menunjukkan konstruk yang berbeda dari yang Anda klaim.\n\n\n\n\n\n\n\n\nTapi ada hubungannya\n\n\nReliabilitas memberi batas atas bagi validitas, yaitu korelasi antara skor Anda dan suatu kriteria (e.g., criterion-related validity):\n\\[r_{XY} \\leq \\sqrt{\\rho_{XX'} \\times \\rho_{YY'}}\\]\nIni melibatkan reliabilitas kriterianya juga. Kalau kriteria diasumsikan diukur tanpa error (\\(\\rho_{YY'}=1\\)), rumusnya menjadi lebih sederhana, \\(r_{XY} \\leq \\sqrt{\\rho_{XX'}}\\): dengan \\(\\rho_{XX'} = 0{.}64\\), korelasi maksimum yang mungkin Anda peroleh adalah \\(0{.}80\\) — berapa pun kuatnya hubungan yang sesungguhnya. Kalau kriterianya sendiri juga fallible (mengandung error), batas atasnya turun lebih jauh."
   },
   {
     "objectID": "slides/pertemuan3.html#validitas-bukan-sifat-skala",
@@ -2643,14 +2643,14 @@
     "href": "slides/pertemuan3.html#kenapa-pembedaan-ini-penting",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Kenapa pembedaan ini penting",
-    "text": "Kenapa pembedaan ini penting\n\nBukti validitas tidak otomatis berpindah. Skala yang tafsiran skornya terdukung untuk penelitian pada mahasiswa belum tentu terdukung untuk seleksi kerja atau penegakan diagnosis.\nBegitu populasi, tujuan, atau cara penggunaannya berubah, buktinya perlu diperiksa ulang.\nKarena itu validitas tidak pernah selesai. Ia tidak bisa diuji sekali lalu berlaku selamanya.\n\n\n\n\n\n\n\n\nCara menuliskannya di laporan Anda\n\n\nHindari kalimat “skala kami valid”. Tulis seperti ini:\n“Terdapat bukti yang mendukung tafsiran skor skala X sebagai indikator konstruk Y, pada populasi Z, untuk keperluan W.”\nJenis-jenis buktinya kita bahas di Pertemuan 7."
+    "text": "Kenapa pembedaan ini penting\n\nBukti validitas tidak otomatis berpindah.\n\nSkala yang tafsiran skornya terdukung untuk penelitian pada sampel mahasiswa belum tentu terdukung untuk seleksi kerja atau penegakan diagnosis.\n\nBegitu populasi, tujuan, atau cara penggunaannya berubah, buktinya perlu diperiksa ulang.\nKarena itu validitas tidak pernah selesai. Ia tidak bisa diuji sekali lalu berlaku selamanya.\n\n\n\n\n\n\n\n\nCara menuliskannya di laporan Anda\n\n\nHindari kalimat “skala kami valid”. Tulis seperti ini:\n“Terdapat bukti yang mendukung tafsiran skor skala X sebagai indikator konstruk Y, pada populasi Z, untuk keperluan W.”\nJenis-jenis buktinya kita bahas di Pertemuan 7."
   },
   {
-    "objectID": "slides/pertemuan3.html#hubungkan-dengan-pertemuan-1",
-    "href": "slides/pertemuan3.html#hubungkan-dengan-pertemuan-1",
+    "objectID": "slides/pertemuan3.html#hubungkan-dengan-pertemuan-1-dan-2",
+    "href": "slides/pertemuan3.html#hubungkan-dengan-pertemuan-1-dan-2",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
-    "section": "Hubungkan dengan Pertemuan 1",
-    "text": "Hubungkan dengan Pertemuan 1\n\nIngat kritik Michell: apakah atribut psikologis benar-benar kuantitatif?\nPersamaan \\(X = T + E\\) mengandaikan jawabannya “ya”. Kita menjumlahkan dan mengurangkan \\(T\\) dan \\(E\\) seolah-olah keduanya adalah benar-benar angka yang bermakna.\nCTT tidak menguji asumsi ini, tetapi CTT dibangun di atas asumsi ini."
+    "section": "Hubungkan dengan Pertemuan 1️⃣ dan 2️⃣",
+    "text": "Hubungkan dengan Pertemuan 1️⃣ dan 2️⃣\n\nIngat kritik Michell: apakah atribut psikologis benar-benar kuantitatif?\nPersamaan \\(X = T + E\\) mengandaikan jawabannya “ya”. Kita menjumlahkan dan mengurangkan \\(T\\) dan \\(E\\) seolah-olah keduanya adalah benar-benar angka yang bermakna.\nCTT tidak menguji asumsi ini, tetapi CTT dibangun di atas asumsi ini."
   },
   {
     "objectID": "slides/pertemuan3.html#kenapa-menambah-item-menaikkan-reliabilitas",
@@ -2667,18 +2667,18 @@
     "text": "Tapi ada batasnya\n\nMenambah item hanya menolong kalau item barunya benar-benar mengukur konstruk yang sama.\nMenambah item yang isinya nyaris sama akan menaikkan \\(\\alpha\\) tanpa menambah informasi apa pun dan ini pelanggaran local independence dari Pertemuan 2.\nDan kuesioner yang terlalu panjang memunculkan masalah baru: kelelahan responden dan jawaban yang asal-asalan.\n\n\n\n\n\n\n\n\nUntuk proyek Anda\n\n\nAngka \\(\\alpha\\) atau \\(\\omega\\) yang tinggi bukan bukti bahwa skala Anda bagus. Ia bisa dicapai hanya dengan menulis sepuluh parafrase dari kalimat yang sama."
   },
   {
-    "objectID": "slides/pertemuan3.html#sekarang-atenuasi-bisa-kita-pahami",
-    "href": "slides/pertemuan3.html#sekarang-atenuasi-bisa-kita-pahami",
+    "objectID": "slides/pertemuan3.html#koreksi-atenuasi-unlocked",
+    "href": "slides/pertemuan3.html#koreksi-atenuasi-unlocked",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
-    "section": "Sekarang atenuasi bisa kita pahami",
-    "text": "Sekarang atenuasi bisa kita pahami\nDi Pertemuan 1 kita memakai rumus ini tanpa penjelasan yang memadai:\n\\[r_{XY} = \\rho_{T_X T_Y} \\times \\sqrt{\\rho_{XX'} \\times \\rho_{YY'}}\\]\n\n\nSekarang asalnya jelas: yang kita korelasikan adalah \\(X\\) sedangkan \\(X\\) mengandung \\(E\\).\nBagian \\(E\\) tidak berkorelasi dengan apa pun, menurut asumsi kedua CTT.\nJadi error hanya menambah penyebut tanpa menambah pembilang, dan korelasinya mengecil.\n\n\n\n\n\n\n\n\n\nKesimpulannya\n\n\nSemakin besar porsi noise/error pengukuran dalam skor kasar Anda, semakin kecil koefisien korelasi yang Anda laporkan."
+    "section": "Koreksi atenuasi unlocked",
+    "text": "Koreksi atenuasi unlocked\nDi Pertemuan 1 kita memakai rumus ini tanpa penjelasan yang memadai:\n\\[r_{XY} = \\rho_{T_X T_Y} \\times \\sqrt{\\rho_{XX'} \\times \\rho_{YY'}}\\]\n\n\nSekarang asalnya jelas: yang kita korelasikan adalah \\(X\\) sedangkan \\(X\\) mengandung \\(E\\).\nBagian \\(E\\) tidak berkorelasi dengan apa pun, menurut asumsi kedua CTT.\nJadi error hanya menambah penyebut tanpa menambah pembilang, dan korelasinya mengecil.\n\n\n\n\n\n\n\n\n\nKesimpulannya\n\n\nSemakin besar porsi noise/error pengukuran dalam skor kasar Anda, semakin kecil koefisien korelasi yang Anda laporkan."
   },
   {
     "objectID": "slides/pertemuan3.html#kelemahan-ctt-yang-paling-serius",
     "href": "slides/pertemuan3.html#kelemahan-ctt-yang-paling-serius",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Kelemahan CTT yang paling serius",
-    "text": "Kelemahan CTT yang paling serius\n\nReliabilitas dalam CTT bergantung pada sampel.\nKalau responden Anda sangat seragam pada atribut yang diukur, rentang true score mereka sempit. Korelasi antar-item ikut mengecil, dan reliabilitas terhitung menjadi rendah — padahal alat ukurnya sama saja.\nSebaliknya, sampel yang sangat beragam akan membuat alat yang sama tampak lebih reliabel.\n\n\n\n\n\n\n\n\n\nKonsekuensi praktis untuk uji coba Anda\n\n\nReliabilitas yang Anda laporkan bukan sifat alat ukur Anda semata — ia juga sebagian merupakan sifat sampel Anda. Karena itu, laporkan karakteristik sampel bersama koefisien reliabilitasnya, selalu.\n\n\n\n\n\nDeVellis & Thorpe (2022), Bab 8."
+    "text": "Kelemahan CTT yang paling serius\n\nReliabilitas dalam CTT bergantung pada sampel.\nKalau responden Anda sangat seragam pada atribut yang diukur, rentang true score mereka sempit. Korelasi antar-item ikut mengecil, dan reliabilitas terhitung menjadi rendah — padahal alat ukurnya sama saja.\nSebaliknya, sampel yang sangat beragam akan membuat alat yang sama tampak lebih reliabel.\n\n\n\n\n\n\n\n\n\nKonsekuensi praktis untuk uji coba Anda\n\n\nReliabilitas yang Anda laporkan bukan sekadar sifat alat ukur Anda. Ia juga sebagian menunjukkan karakteristik sampel Anda. Karena itu, selalu laporkan karakteristik sampel bersama koefisien reliabilitasnya.\n\n\n\n\n\nDeVellis & Thorpe (2022), Bab 8."
   },
   {
     "objectID": "slides/pertemuan3.html#bukan-hanya-reliabilitas",
@@ -2699,7 +2699,7 @@
     "href": "slides/pertemuan3.html#apa-perbedaan-tiga-model-tadi",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Apa perbedaan tiga model tadi",
-    "text": "Apa perbedaan tiga model tadi\n\nCongeneric — setiap item boleh punya hubungan yang berbeda kekuatannya dengan konstruk, dan varians error yang berbeda pula. Paling longgar, paling realistis.\nTau-equivalent — semua item diasumsikan punya hubungan yang sama kuatnya dengan konstruk, tetapi varians error-nya boleh berbeda.\nParallel — semua item punya hubungan yang sama kuat dan varians error yang sama. Paling ketat, paling jarang terpenuhi.\n\n\n\n\n\n\n\n\nNote\n\n\nPerhatikan bahwa ketiganya adalah asumsi tentang item Anda, bukan tentang orangnya. Ini kelanjutan langsung dari asumsi unit weighting di Pertemuan 2."
+    "text": "Apa perbedaan tiga model tadi\n\nCongeneric — setiap item boleh punya hubungan yang berbeda kekuatannya dengan konstruk, dan varians error yang berbeda pula. Paling longgar, paling realistis.\nTau-equivalent — semua item diasumsikan punya hubungan yang sama kuatnya dengan konstruk, tetapi varians error-nya boleh berbeda.\nParallel — semua item punya hubungan yang sama kuat dan varians error yang sama. Paling ketat, paling jarang terpenuhi.\n\n\n\n\n\n\n\n\nPerhatikan bahwa ketiganya adalah asumsi tentang item Anda, bukan tentang orangnya. Ini kelanjutan langsung dari asumsi unit weighting di Pertemuan 2."
   },
   {
     "objectID": "slides/pertemuan3.html#kenapa-ini-akan-penting-di-pertemuan-6",
@@ -2720,7 +2720,7 @@
     "href": "slides/pertemuan3.html#perbedaan-pertama-fokus-pada-item",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Perbedaan pertama: fokus pada item",
-    "text": "Perbedaan pertama: fokus pada item\n\n\nCTT\nMenekankan sifat skala secara keseluruhan.\nReliabilitas dinaikkan terutama dengan menambah item.\n\nIRT\nMenekankan sifat tiap item.\nReliabilitas dinaikkan dengan memilih item yang lebih baik.\n\n\n\n\n\n\n\n\nNote\n\n\nPerbedaan ini punya konsekuensi praktis: CTT cenderung menghasilkan skala yang panjang dan banyak mengulang, IRT cenderung menghasilkan skala yang lebih pendek tetapi itemnya yang benar-benar bagus."
+    "text": "Perbedaan pertama: fokus pada item\n\n\nCTT\nMenekankan sifat skala secara keseluruhan.\nReliabilitas dinaikkan terutama dengan menambah item.\n\nIRT\nMenekankan sifat tiap item.\nReliabilitas dinaikkan dengan memilih item yang lebih baik.\n\n\n\n\n\n\n\n\nPerbedaan ini punya konsekuensi praktis: CTT cenderung menghasilkan skala yang panjang dan banyak mengulang, IRT cenderung menghasilkan skala yang lebih pendek tetapi itemnya yang benar-benar bagus."
   },
   {
     "objectID": "slides/pertemuan3.html#perbedaan-kedua-item-punya-tingkat-kesulitan",
@@ -2762,7 +2762,7 @@
     "href": "slides/pertemuan3.html#apa-yang-disyaratkan-irt",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Apa yang disyaratkan IRT",
-    "text": "Apa yang disyaratkan IRT\n\nUnidimensionalitas — sama seperti CTT. Item harus berbagi satu variabel laten.\nLocal independence — disyaratkan secara formal, bukan sekadar dianjurkan.\nSampel besar dan beragam. Keunggulan teoretis IRT hanya terwujud kalau itemnya dikalibrasi pada sampel yang besar dan heterogen.\n\n\n\n\n\n\n\n\nPerhatikan\n\n\nDua asumsi pertama itu persis asumsi nomor 4 dari Pertemuan 2. IRT tidak menghapus asumsi, melainkan mensyaratkannya lebih ketat."
+    "text": "Apa yang disyaratkan IRT\n\nUnidimensionalitas — sama seperti CTT. Item harus berbagi satu variabel laten.\nLocal independence — disyaratkan secara formal, bukan sekadar dianjurkan.\nSampel besar dan beragam. Keunggulan teoretis IRT hanya terwujud kalau itemnya dikalibrasi pada sampel yang besar dan heterogen.\n\n\n\n\n\n\n\n\nDua asumsi pertama itu persis asumsi nomor 4 dari Pertemuan 2. IRT tidak menghapus asumsi, melainkan mensyaratkannya lebih ketat."
   },
   {
     "objectID": "slides/pertemuan3.html#kenapa-mata-kuliah-ini-tetap-memakai-ctt",
@@ -2783,21 +2783,21 @@
     "href": "slides/pertemuan3.html#lalu-diskusikan",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Lalu diskusikan",
-    "text": "Lalu diskusikan\n\nApa dasar yang kelompok Anda pakai untuk mengurutkannya? Anda tidak punya data sama sekali — jadi dari mana penilaian itu datang?\nBagian mana dari rentang kecemasan sosial yang tidak tercakup oleh keenam item ini?\nSekarang lihat konstruk kelompok Anda sendiri. Apakah item yang sudah terbayang di kepala Anda menumpuk di satu bagian rentang, atau tersebar?\nKalau seluruh item Anda “mudah disetujui”, apa yang akan terjadi pada sebaran skor dan pada kemampuan skala Anda membedakan responden?\n\n\n\n\n\n\n\n\nTip\n\n\nPertanyaan nomor 3 akan kita pakai lagi secara langsung ketika menyusun blueprint di Pertemuan 10."
+    "text": "Lalu diskusikan\n\nApa dasar yang kelompok Anda pakai untuk mengurutkannya? Anda tidak punya data sama sekali — jadi dari mana penilaian itu datang?\nBagian mana dari rentang kecemasan sosial yang tidak tercakup oleh keenam item ini?\nSekarang lihat konstruk kelompok Anda sendiri. Apakah item yang sudah terbayang di kepala Anda menumpuk di satu bagian rentang, atau tersebar?\nKalau seluruh item Anda “mudah disetujui”, apa yang akan terjadi pada sebaran skor dan pada kemampuan skala Anda membedakan responden?\n\n\n\n\n\n\n\n\nPertanyaan nomor 3 akan kita pakai lagi secara langsung ketika menyusun blueprint di Pertemuan 10."
   },
   {
     "objectID": "slides/pertemuan3.html#poin-utama",
     "href": "slides/pertemuan3.html#poin-utama",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "6️⃣ poin utama",
-    "text": "6️⃣ poin utama\n\nVariabel laten adalah sebab, dan itulah alasan item dalam satu skala harus berkorelasi.\n\\(X = T + E\\), dengan asumsi bahwa error bersifat acak, bukan sistematis.\nReliabilitas adalah proporsi varians: bagian dari variasi skor yang bukan noise.\nTrue score melekat pada alat ukur, bukan pada konstruk. Alat yang bias secara konsisten tetap bisa sangat reliabel dan reliabilitas maupun validitas sama-sama sifat skor, bukan sifat skala.\nStatistik item dalam CTT bergantung pada sampel. Laporkan karakteristik sampel bersama koefisiennya.\n\\(\\alpha\\) mengasumsikan model tau-equivalent, yang jarang terpenuhi."
+    "text": "6️⃣ poin utama\n\nVariabel laten adalah sebab, dan inilah alasan mengapa item dalam satu skala harus saling berkorelasi.\n\\(X = T + E\\), dengan asumsi bahwa error bersifat acak, bukan sistematis.\nReliabilitas adalah proporsi varians: bagian dari variasi skor yang bukan noise.\nTrue score melekat pada alat ukur, bukan pada konstruk. Alat ukur yang memiliki bias secara konsisten tetap bisa sangat reliabel dan reliabilitas maupun validitas sama-sama sifat skor, bukan sifat skala.\nStatistik item dalam CTT bergantung pada sampel. Laporkan karakteristik sampel bersama koefisiennya.\n\\(\\alpha\\) mengasumsikan model tau-equivalent, yang jarang terpenuhi. Oleh karena itu, lebih baik gunakan \\(\\omega\\) yang mengasumsikan model congeneric."
   },
   {
     "objectID": "slides/pertemuan3.html#untuk-pertemuan-4",
     "href": "slides/pertemuan3.html#untuk-pertemuan-4",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Untuk Pertemuan 4",
-    "text": "Untuk Pertemuan 4\nKita turun ke tingkat yang paling konkrit: format respons.\n\nLikert — berapa titik yang sebaiknya dipakai, dan apakah perlu titik tengah?\nSemantic Differential — kapan pasangan kata sifat lebih tepat daripada pernyataan.\nGuttman — ketika item memang berjenjang secara logis.\nDan pertanyaan yang menghubungkannya dengan hari ini: pilihan format respons itu mengubah asumsi apa?\n\n\n\n\n\n\n\n\nPersiapan untuk pertemuan minggu depan\n\n\nBaca DeVellis & Thorpe (2022), Bab 5 bagian tentang format respons. Kalau ingin melihat versi formal dari materi hari ini, Bab 3 buku yang sama membahas reliabilitas secara lengkap."
+    "text": "Untuk Pertemuan 4\nKita turun ke tingkat yang paling konkrit: format respons.\n\nLikert — berapa pilihan respon yang sebaiknya dipakai, dan apakah perlu pilihan di tengah-tengah?\nSemantic Differential — kapan pasangan kata sifat lebih tepat digunakan daripada pernyataan.\nGuttman — ketika item memang berjenjang secara logis.\nDan pertanyaan yang menghubungkannya dengan hari ini: pilihan format respons itu mengubah asumsi apa?\n\n\n\n\n\n\n\n\nPersiapan untuk pertemuan minggu depan\n\n\nBaca DeVellis & Thorpe (2022), Bab 5 bagian tentang format respons. Kalau ingin melihat versi formal dari materi hari ini, Bab 3 buku yang sama membahas reliabilitas secara lengkap."
   },
   {
     "objectID": "slides/pertemuan3.html#ada-pertanyaan",
