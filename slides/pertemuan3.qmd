@@ -254,7 +254,7 @@ $$SEM = \sigma_X\sqrt{1-\rho} = 5\sqrt{0{.}20} = 2{.}24$$
 
 ::: {.callout-tip}
 #### Kenapa angka ini berguna
-Seseorang yang mendapat skor **30** sebenarnya berada di suatu rentang, bukan di satu titik. Dengan tingkat kepercayaan 95%:
+Seseorang yang mendapat skor **30** sebenarnya berada di suatu rentang, bukan di satu titik. Dengan tingkat kepercayaan 95% (1.96, [lihat gambar ini](https://www.researchgate.net/profile/Avijit-Hazra-2/publication/320742650/figure/tbl1/AS:669269071237158@1536577589946/Critical-z-values-used-in-the-calculation-of-confidence-intervals.png)):
 
 $$30 \pm 1{.}96 \times 2{.}24 \;\approx\; 25{.}6 \text{ sampai } 34{.}4$$
 :::
@@ -449,7 +449,7 @@ $$r_{XY} = \rho_{T_X T_Y} \times \sqrt{\rho_{XX'} \times \rho_{YY'}}$$
 
 * Bagian $E$ tidak berkorelasi dengan apa pun, menurut asumsi kedua CTT.
 
-* Jadi *error* hanya menambah penyebut tanpa menambah pembilang, dan korelasinya mengecil.
+* Jadi, semakin besar *error*, penyebut menjadi bertambah tanpa menambah pembilang. Efeknya, korelasi antara dua variabel ini mengecil.
 
 :::
 

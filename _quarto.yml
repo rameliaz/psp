@@ -66,6 +66,15 @@ website:
             href: data/data.csv
           - text: "Kamus Data/*Codebook*"
             href: data/codebook.txt
+    tools:
+      - icon: github
+        menu: 
+          - text: "Source Code"
+            href: https://github.com/rameliaz/psp
+          - text: "Report Issues"
+            href: https://github.com/rameliaz/psp/issues
+      - icon: house-heart
+        url: https://rameliaz.github.io/        
       - icon: envelope
         href: "mailto:amelia.zein@psikologi.unair.ac.id"
   search:

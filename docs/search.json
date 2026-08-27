@@ -2601,7 +2601,7 @@
     "href": "slides/pertemuan3.html#contoh",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Contoh",
-    "text": "Contoh\nMisalkan skala Anda punya standar deviasi skor total \\(\\sigma_X = 5\\), sehingga \\(\\sigma^2_X = 25\\). Reliabilitasnya \\(\\rho = 0{.}80\\).\n\n\\[\\sigma^2_T = 0{.}80 \\times 25 = 20 \\qquad \\sigma^2_E = 25 - 20 = 5\\]\n\n\nStandard error of measurement (SEM), yaitu standar deviasi dari error:\n\\[SEM = \\sigma_X\\sqrt{1-\\rho} = 5\\sqrt{0{.}20} = 2{.}24\\]\n\n\n\n\n\n\n\n\nKenapa angka ini berguna\n\n\nSeseorang yang mendapat skor 30 sebenarnya berada di suatu rentang, bukan di satu titik. Dengan tingkat kepercayaan 95%:\n\\[30 \\pm 1{.}96 \\times 2{.}24 \\;\\approx\\; 25{.}6 \\text{ sampai } 34{.}4\\]"
+    "text": "Contoh\nMisalkan skala Anda punya standar deviasi skor total \\(\\sigma_X = 5\\), sehingga \\(\\sigma^2_X = 25\\). Reliabilitasnya \\(\\rho = 0{.}80\\).\n\n\\[\\sigma^2_T = 0{.}80 \\times 25 = 20 \\qquad \\sigma^2_E = 25 - 20 = 5\\]\n\n\nStandard error of measurement (SEM), yaitu standar deviasi dari error:\n\\[SEM = \\sigma_X\\sqrt{1-\\rho} = 5\\sqrt{0{.}20} = 2{.}24\\]\n\n\n\n\n\n\n\n\nKenapa angka ini berguna\n\n\nSeseorang yang mendapat skor 30 sebenarnya berada di suatu rentang, bukan di satu titik. Dengan tingkat kepercayaan 95% (1.96, lihat gambar ini):\n\\[30 \\pm 1{.}96 \\times 2{.}24 \\;\\approx\\; 25{.}6 \\text{ sampai } 34{.}4\\]"
   },
   {
     "objectID": "slides/pertemuan3.html#apa-artinya-rentang-ini",
@@ -2671,7 +2671,7 @@
     "href": "slides/pertemuan3.html#koreksi-atenuasi-unlocked",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Koreksi atenuasi unlocked",
-    "text": "Koreksi atenuasi unlocked\nDi Pertemuan 1 kita memakai rumus ini tanpa penjelasan yang memadai:\n\\[r_{XY} = \\rho_{T_X T_Y} \\times \\sqrt{\\rho_{XX'} \\times \\rho_{YY'}}\\]\n\n\nSekarang asalnya jelas: yang kita korelasikan adalah \\(X\\) sedangkan \\(X\\) mengandung \\(E\\).\nBagian \\(E\\) tidak berkorelasi dengan apa pun, menurut asumsi kedua CTT.\nJadi error hanya menambah penyebut tanpa menambah pembilang, dan korelasinya mengecil.\n\n\n\n\n\n\n\n\n\nKesimpulannya\n\n\nSemakin besar porsi noise/error pengukuran dalam skor kasar Anda, semakin kecil koefisien korelasi yang Anda laporkan."
+    "text": "Koreksi atenuasi unlocked\nDi Pertemuan 1 kita memakai rumus ini tanpa penjelasan yang memadai:\n\\[r_{XY} = \\rho_{T_X T_Y} \\times \\sqrt{\\rho_{XX'} \\times \\rho_{YY'}}\\]\n\n\nSekarang asalnya jelas: yang kita korelasikan adalah \\(X\\) sedangkan \\(X\\) mengandung \\(E\\).\nBagian \\(E\\) tidak berkorelasi dengan apa pun, menurut asumsi kedua CTT.\nJadi, semakin besar error, penyebut menjadi bertambah tanpa menambah pembilang. Efeknya, korelasi antara dua variabel ini mengecil.\n\n\n\n\n\n\n\n\n\nKesimpulannya\n\n\nSemakin besar porsi noise/error pengukuran dalam skor kasar Anda, semakin kecil koefisien korelasi yang Anda laporkan."
   },
   {
     "objectID": "slides/pertemuan3.html#kelemahan-ctt-yang-paling-serius",
