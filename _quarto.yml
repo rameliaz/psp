@@ -10,14 +10,16 @@ project:
 
 website:
   title: "Penyusunan Skala Psikologi"
-  navbar:
-    left:
-      - href: https://rameliaz.github.io/
-        icon: house
-        text: "oleh Rizqy Amelia Zein"
-    right:
-      - text: "Materi"
-        menu:
+  repo-url: https://github.com/rameliaz/psp
+  repo-actions: [edit, source, issue]  
+  repo-branch: master
+  sidebar:
+    style: docked
+    contents:
+      - text: "Beranda"
+        href: index.qmd
+      - section: "Materi 🇮🇩 "
+        contents:
           - text: "1. Pendahuluan: Pengukuran dalam Psikologi"
             href: slides/pertemuan1.html
           - text: "2. Asumsi Umum dalam Pengukuran Psikologi"
@@ -38,8 +40,8 @@ website:
             href: slides/pertemuan10.html  
           - text: "11. Content Validity Index"
             href: slides/pertemuan11.html
-      - text: "Materials (EN)"
-        menu:
+      - section: "Materi 🇬🇧 "
+        contents:
           - text: "1. What Is Measurement?"
             href: slides/pertemuan1-en.html
           - text: "2. Common Assumptions in Psychological Measurement"
@@ -60,12 +62,17 @@ website:
             href: slides/pertemuan10-en.html
           - text: "11. Content Validity Index"
             href: slides/pertemuan11-en.html
-      - text: "Dataset"
-        menu:
+      - section: "Dataset"
+        contents:
           - text: "Dataset"
             href: data/data.csv
           - text: "Kamus Data/*Codebook*"
             href: data/codebook.txt
+  navbar:
+    left:
+      - href: https://rameliaz.github.io/
+        icon: house
+        text: "oleh Rizqy Amelia Zein"
     tools:
       - icon: github
         menu: 

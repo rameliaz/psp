@@ -8,11 +8,6 @@ Semester Gasal 2026/2027 — 3 SKS (PSA306).
 **Dosen pengampu:** Dr. Rizqy Amelia Zein · Dian Kartika Amelia Arbi, M.Psi., psikolog
 **PJMK:** Dr. Fajrianthi, M.Psi
 
-::: {.callout-warning}
-#### *Work in Progress* 👷‍♀️
-Materi mata kuliah ini sedang disusun secara bertahap. Slide pertemuan yang sudah tersedia bisa diakses lewat menu **Materi** di atas atau lewat tabel [Rencana Pertemuan](#rencana-pertemuan) di bawah.
-:::
-
 ::: {.callout-important}
 #### Pasang `jamovi` di perangkat Anda sebelum kuliah dimulai
 Seluruh analisis data di mata kuliah ini dikerjakan dengan **[`jamovi`](https://www.jamovi.org/)**, yang merupakan perangkat lunak statistik gratis dan *open source*. Pastikan Anda memasang **versi terbaru** (*latest release*) sebelum perkuliahan dimulai. Lihat [Perangkat Lunak](#perangkat-lunak) untuk panduan singkatnya.
