@@ -88,8 +88,11 @@ website:
     location: navbar
     type: overlay
   page-footer:
-      left: "&#169; 2026 Rizqy Amelia Zein"
-      right: "Sarjana Psikologi, Universitas Airlangga"
+      left: |
+        Laman web dibuat dengan [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/)
+      right: | 
+         &#169; 2026 Rizqy Amelia Zein \ 
+         \ Prodi S1 Psikologi, Universitas Airlangga
 format:
   html:
     theme:
