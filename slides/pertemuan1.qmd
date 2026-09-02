@@ -80,7 +80,7 @@ Paruh pertama **bukan** sekadar pengantar. Hampir setiap keputusan teknis yang a
 Diadaptasi dari DeVellis & Thorpe (2022), Bab 1.
 :::
 
-## Apa yang kesamaan dari 3️⃣ contoh tersebut?
+## Apa kesamaan dari 3️⃣ contoh tersebut?
 
 ::: {.incremental}
 
@@ -233,7 +233,7 @@ Analogi Bernoulli menggambarkan apa yang nanti kita sebut ***random error***, da
 
 ::: {.callout-warning}
 #### Warisan yang tidak netral
-Banyak kontributor awal psikometri bekerja dalam kerangka [*eugenics*](https://www.genome.gov/about-genomics/fact-sheets/Eugenics-and-Scientific-Racism). Teori dan analisis statistiknya masih kita pakai sampai sekarang, tetapi asumsi dan konsekuensi politis di baliknya (e.g., fertilisasi ras tertentu yang dianggap "inferior", dst.) **tidak boleh kita teruskan**. 
+Banyak kontributor awal psikometri bekerja dalam kerangka [*eugenics*](https://www.genome.gov/about-genomics/fact-sheets/Eugenics-and-Scientific-Racism). Teori dan analisis statistiknya masih kita pakai sampai sekarang, tetapi asumsi dan konsekuensi politis di baliknya (misalnya, sterilisasi paksa atau pembatasan reproduksi terhadap kelompok yang dianggap "inferior") **tidak boleh kita teruskan**.
 :::
 
 ## Bisakah konstruk psikologis diukur?
@@ -765,7 +765,7 @@ Ini disebut ***jingle fallacy***: mengira konstruk psikologis itu sama karena na
 
 ::: {.callout-warning}
 #### Meminta waktu partisipan ada konsekuensi etisnya
-Kalau datanya pada akhirnya tidak bisa dimaknai, seberapa banyak pun data yang terkumpul jadi tidak ada gunanya. Meminta 300 orang mengisi instrumen yang tidak mungkin menghasilkan kesimpulan yang sahih adalah **persoalan etis**.
+Kalau datanya tidak bisa dimaknai, seberapa banyak pun data yang terkumpul jadi tidak ada gunanya. Meminta 300 orang mengisi instrumen yang tidak mungkin menghasilkan kesimpulan yang sahih adalah **persoalan etis**.
 :::
 
 # Rangkuman {background-color="#14497F" .center}

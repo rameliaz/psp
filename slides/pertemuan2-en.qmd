@@ -46,7 +46,7 @@ We used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate referen
 
 :::
 
-# From Session 1 to Session 2 {background-color="#14497F" .center}
+# Recap of Session 1 {background-color="#14497F" .center}
 
 ## What we settled last week
 
@@ -182,7 +182,7 @@ This course uses CTT, so *unit weighting* is an assumption you will be making. W
 * The implication: the normal curve moved from being **a model of error** to being **a model of people**.
 
 * **Galton** then extended it to psychological traits, and normality has been built into psychometrics ever since.
-  + This is what justified the deeply racist worldview of [*eugenics*](https://www.genome.gov/about-genomics/fact-sheets/Eugenics-and-Scientific-Racisms).
+  + This is what justified the deeply racist worldview of [*eugenics*](https://www.genome.gov/about-genomics/fact-sheets/Eugenics-and-Scientific-Racism).
 
 :::
 
@@ -197,7 +197,7 @@ There was never strong evidence that psychological attributes **must** be normal
 
 ::: {.incremental}
 
-* In scale construction we **discard items** that almost everyone endorses — where nearly everyone answers "5/strongly agree" (e.g., *"I believe God truly exists"*) — or that almost nobody endorses — where nearly everyone answers "1/strongly disagree" (e.g., *"Premarital sex is a moral obligation everyone must fulfil"*).
+* In scale construction we **discard items** that are too easy or too hard to endorse — items that nearly everyone answers "5/strongly agree" (e.g., *"I believe God truly exists"*), or that nearly everyone answers "1/strongly disagree" (e.g., *"Premarital sex is a moral obligation everyone must fulfil"*).
 
 * The items that survive are the ones that **split respondents down the middle**.
 

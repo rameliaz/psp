@@ -257,7 +257,7 @@ Lebih tahan terhadap pemolesan.
 . . .
 
 ::: {.callout-warning}
-#### Ini perbendaan ynag mendasar
+#### Ini perbedaan yang mendasar
 [Ployhart & Ehrhart (2003)](https://onlinelibrary.wiley.com/doi/abs/10.1111/1468-2389.00222) menunjukkan bahwa **mengganti instruksi respons mengubah properti psikometrik tesnya** — reliabilitas maupun konstruk yang terukur.
 
 Instruksi respons harus Anda tetapkan lebih dulu, bukan dipilih belakangan.
@@ -436,7 +436,7 @@ Angka-angka itu **muncul dari formatnya**, bukan dari proses psikologis partisip
 :::
 
 ::: aside
-Hicks (1970) merangkum persoalan ini secara menyeluruh.
+Hicks (1970) merangkum persoalan ini.
 :::
 
 . . .

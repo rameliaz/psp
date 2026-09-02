@@ -38,7 +38,7 @@ We used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate referen
 
 :::
 
-# From construct specification to items {background-color="#14497F" .center}
+# Construct specification becomes items {background-color="#14497F" .center}
 
 ## What you bring today
 
@@ -261,7 +261,7 @@ So far the idea is sound. The difficulty is in the execution.
 
 * Scores on forward and reversed items are **not symmetric**: strongly disagreeing with a positive statement is not the same as strongly agreeing with its negative counterpart.
 
-* Reversed items often **form their own factor** in factor analysis. What appears there is the wording, not the construct.
+* Reversed items often **form their own factor** in factor analysis. What appears there is the wording.
 
 :::
 

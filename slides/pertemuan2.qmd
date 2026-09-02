@@ -46,7 +46,7 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 
 :::
 
-# Dari Pertemuan 1 ke Pertemuan 2 {background-color="#14497F" .center}
+# Kilas balik Pertemuan 1 {background-color="#14497F" .center}
 
 ## Yang sudah Anda pelajari minggu lalu
 
@@ -66,7 +66,7 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 
 ::: {.incremental}
 
-* Karena asumsi-asumsi ini biasaya **tidak laporkan secara eksplisit di laporan penelitian**, tetapi hanya hasil penelitiannya saja.
+* Karena asumsi-asumsi ini biasanya **tidak dilaporkan secara eksplisit di laporan penelitian**, hanya hasil penelitiannya saja.
 
 * Karena *software* tidak akan memperingatkan Anda kalau asumsi-asumsi ini dilanggar. Ia tetap mengeluarkan angka.
 
@@ -182,7 +182,7 @@ Mata kuliah ini memakai CTT, jadi *unit weighting* adalah asumsi yang akan Anda 
 * Implikasinya: kurva normal yang awalnya digunakan untuk **memodelkan *error* pengukuran** digunakan juga untuk **memodelkan atribut yang melekat di manusia**.
 
 * **Galton** kemudian memakainya untuk sifat-sifat psikologis, dan sejak itu normalitas menjadi semacam asumsi otomatis dalam psikometri.
-  + Inilah yang menjustifikasi pandangan [*eugenics* yang amat rasis](https://www.genome.gov/about-genomics/fact-sheets/Eugenics-and-Scientific-Racisms).
+  + Inilah yang menjustifikasi pandangan [*eugenics* yang amat rasis](https://www.genome.gov/about-genomics/fact-sheets/Eugenics-and-Scientific-Racism).
 
 :::
 
@@ -510,7 +510,7 @@ Skala *self-report* mengandaikan dua hal sekaligus:
 
 . . .
 
-Keduanya asumsi ini bisa gagal, dan gagalnya dengan proses yang berbeda.
+Kedua asumsi ini bisa gagal, masing-masing dengan cara yang berbeda.
 
 ## Soal kemampuan: akses ke proses mental cenderung terbatas
 

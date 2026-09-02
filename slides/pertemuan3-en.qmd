@@ -39,7 +39,7 @@ We used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate referen
 
 :::
 
-# From assumptions to a model {background-color="#14497F" .center}
+# Turning assumptions into a model {background-color="#14497F" .center}
 
 ## Where we are
 
@@ -204,7 +204,7 @@ The respondent's physical state, a passing mood, an ambiguous item, noise in the
 All three say that error is **random**, not systematic. A consistent bias — for example every respondent answering more positively because of social desirability — does **not** enter $E$.
 :::
 
-## From scores to variance
+## Splitting score variance
 
 If $X = T + E$ and $\text{Cov}(T, E) = 0$, the variance separates too:
 

@@ -204,7 +204,7 @@ Kondisi fisik responden saat mengisi, suasana hati sesaat, ambiguitas kalimat it
 Ketiganya menyatakan bahwa *error* bersifat **acak**, bukan sistematis. Bias yang konsisten, misalnya seluruh responden menjawab lebih positif karena *social desirability*, **tidak termasuk ke dalam** $E$.
 :::
 
-## Dari skor ke varians
+## Memecah varians skor total
 
 Kalau $X = T + E$ dan $\text{Cov}(T, E) = 0$, maka variansnya ikut terpisah:
 
@@ -624,9 +624,9 @@ Setiap item **sensitif pada bagian tertentu** dari rentang konstruk. IRT membuat
 
 ::: {.incremental}
 
-* **Item A** ($b = -1{,}2$) mudah disetujui. Bahkan orang dengan level konstruk di bawah rata-rata pun cenderung menyetujuinya.
+* **Item A** ($b = -1{.}2$) mudah disetujui. Bahkan orang dengan level konstruk di bawah rata-rata pun cenderung menyetujuinya.
 
-* **Item C** ($b = +1{,}5$) sulit disetujui. Hanya orang di ujung atas yang cenderung menyetujuinya.
+* **Item C** ($b = +1{.}5$) sulit disetujui. Hanya orang di ujung atas yang cenderung menyetujuinya.
 
 * Skala yang baik memuat item yang **tersebar** di sepanjang rentang, bukan menumpuk di satu titik.
 
@@ -768,7 +768,7 @@ Pertanyaan nomor 3 akan kita pakai lagi secara langsung ketika menyusun *bluepri
 
 3. **Reliabilitas adalah proporsi varians**: bagian dari variasi skor yang bukan *noise*.
 
-4. ***True score* melekat pada alat ukur**, bukan pada konstruk. Alat ukur yang memiliki bias secara konsisten tetap bisa sangat reliabel dan reliabilitas maupun validitas sama-sama sifat **skor**, bukan sifat skala.
+4. ***True score* melekat pada alat ukur**, bukan pada konstruk. Alat ukur yang memiliki bias secara konsisten tetap bisa sangat reliabel. Reliabilitas maupun validitas sama-sama sifat **skor**, bukan sifat skala.
 
 5. **Statistik item dalam CTT bergantung pada sampel.** Laporkan karakteristik sampel bersama koefisiennya.
 

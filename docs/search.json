@@ -220,7 +220,7 @@
     "href": "slides/pertemuan11-en.html#recompute-after-revision",
     "title": "Expert Review and Content Validity: Computing and Interpreting the CVI",
     "section": "Recompute after revision",
-    "text": "Recompute after revision\nIf A5 and A8 are revised and re-rated, or removed:\n\nThe six remaining items have I-CVIs of 1.00 — 1.00 — 0.83 — 1.00 — 0.83 — 1.00\n\\(\\text{S-CVI/Ave} = 5.67 / 6 = \\mathbf{0.94}\\)\nThat now passes the 0.90 benchmark.\n\n\n\n\n\n\n\n\nNote\n\n\nReport both: the result before revision and after, together with the decision taken on each item. What is assessed is the process, not only the final number.",
+    "text": "Recompute after revision\nIf A5 and A8 are revised and re-rated, or removed:\n\nThe six remaining items have I-CVIs of 1.00, 1.00, 0.83, 1.00, 0.83, and 1.00\n\\(\\text{S-CVI/Ave} = 5.67 / 6 = \\mathbf{0.94}\\)\nThat now passes the 0.90 benchmark.\n\n\n\n\n\n\n\n\nNote\n\n\nReport both: the result before revision and after, together with the decision taken on each item. What is assessed is the process, not only the final number.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -232,7 +232,7 @@
     "href": "slides/pertemuan11-en.html#three-things-it-does-not-check",
     "title": "Expert Review and Content Validity: Computing and Interpreting the CVI",
     "section": "Three things it does not check",
-    "text": "Three things it does not check\n\nCompleteness. The CVI judges the items that exist, not the items that should exist. For that you have to ask the panel directly.\nClarity for respondents. Expert raters read items differently from prospective respondents. Clarity is checked through cognitive interviewing, as covered in Session 7.\nWhether the construct itself makes sense. If your construct definition is flawed, the panel will rate relevance against that flawed definition.\n\n\n\n\n\n\n\n\n\nTip\n\n\nThe CVI is one source of evidence, not a verdict. It occupies one row of the validity evidence table from Session 7 — not the whole table.\n\n\n\n\n\nHaynes, Richard, & Kubany (1995); Rubio et al. (2003).",
+    "text": "Three things it does not check\n\nCompleteness. The CVI judges the items that exist, not the items that should exist. For that you have to ask the panel directly.\nClarity for respondents. Expert raters read items differently from prospective respondents. Clarity is checked through cognitive interviewing, as covered in Session 7.\nWhether the construct itself makes sense. If your construct definition is flawed, the panel will rate relevance against that flawed definition.\n\n\n\n\n\n\n\n\n\nTip\n\n\nThe CVI is one source of evidence. It occupies one row of the validity evidence table from Session 7.\n\n\n\n\n\nHaynes, Richard, & Kubany (1995); Rubio et al. (2003).",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1516,7 +1516,7 @@
     "href": "slides/pertemuan2-en.html#there-is-a-circularity-here-that-is-rarely-discussed",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "There is a circularity here that is rarely discussed",
-    "text": "There is a circularity here that is rarely discussed\n\nIn scale construction we discard items that almost everyone endorses — where nearly everyone answers “5/strongly agree” (e.g., “I believe God truly exists”) — or that almost nobody endorses — where nearly everyone answers “1/strongly disagree” (e.g., “Premarital sex is a moral obligation everyone must fulfil”).\nThe items that survive are the ones that split respondents down the middle.\nThe result: the distribution of total scores becomes more symmetric and piles up in the centre.\n\n\n\n\n\n\n\n\nNote the order of operations\n\n\nWe select items so the distribution comes out normal, and then treat that normality as a finding about people. Much of it is a consequence of how we built the scale.",
+    "text": "There is a circularity here that is rarely discussed\n\nIn scale construction we discard items that are too easy or too hard to endorse — items that nearly everyone answers “5/strongly agree” (e.g., “I believe God truly exists”), or that nearly everyone answers “1/strongly disagree” (e.g., “Premarital sex is a moral obligation everyone must fulfil”).\nThe items that survive are the ones that split respondents down the middle.\nThe result: the distribution of total scores becomes more symmetric and piles up in the centre.\n\n\n\n\n\n\n\n\nNote the order of operations\n\n\nWe select items so the distribution comes out normal, and then treat that normality as a finding about people. Much of it is a consequence of how we built the scale.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1984,7 +1984,7 @@
     "href": "slides/pertemuan10.html#bagaimana-bukti-empiriknya",
     "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
     "section": "Bagaimana bukti empiriknya",
-    "text": "Bagaimana bukti empiriknya\n\nSkala yang seluruh itemnya searah menghasilkan jawaban yang lebih akurat dibandingkan skala campuran.\nSkor pada item searah dan item terbalik tidak simetris: sangat tidak setuju pada pernyataan positif tidak sama dengan sangat setuju pada pernyataan negatifnya.\nItem terbalik sering membentuk faktornya sendiri pada analisis faktor. Yang muncul di situ adalah cara penulisannya, bukan konstruknya.\n\n\n\nRingkasan dari Chyung, Barkin, & Shamsy (2018); lihat juga Weijters, Baumgartner, & Schillewaert (2013).",
+    "text": "Bagaimana bukti empiriknya\n\nSkala yang seluruh itemnya searah menghasilkan jawaban yang lebih akurat dibandingkan skala campuran.\nSkor pada item searah dan item terbalik tidak simetris: sangat tidak setuju pada pernyataan positif tidak sama dengan sangat setuju pada pernyataan negatifnya.\nItem terbalik sering membentuk faktornya sendiri pada analisis faktor. Yang muncul di situ adalah cara penulisannya.\n\n\n\nRingkasan dari Chyung, Barkin, & Shamsy (2018); lihat juga Weijters, Baumgartner, & Schillewaert (2013).",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -2728,7 +2728,7 @@
     "href": "slides/pertemuan5.html#perhatikan-perbedaannya",
     "title": "Format Respons II: Thurstone, Situational Judgement Test, dan Forced-Choice",
     "section": "Perhatikan perbedaannya",
-    "text": "Perhatikan perbedaannya\n\n\n“Apa yang akan Anda lakukan?”\nMengukur kecenderungan perilaku.\nLebih dekat ke kepribadian.\nLebih rawan dipoles responden.\n\n“Apa yang sebaiknya dilakukan?”\nMengukur pengetahuan tentang tindakan yang efektif.\nLebih dekat ke kemampuan kognitif.\nLebih tahan terhadap pemolesan.\n\n\n\n\n\n\n\n\nIni perbendaan ynag mendasar\n\n\nPloyhart & Ehrhart (2003) menunjukkan bahwa mengganti instruksi respons mengubah properti psikometrik tesnya — reliabilitas maupun konstruk yang terukur.\nInstruksi respons harus Anda tetapkan lebih dulu, bukan dipilih belakangan.",
+    "text": "Perhatikan perbedaannya\n\n\n“Apa yang akan Anda lakukan?”\nMengukur kecenderungan perilaku.\nLebih dekat ke kepribadian.\nLebih rawan dipoles responden.\n\n“Apa yang sebaiknya dilakukan?”\nMengukur pengetahuan tentang tindakan yang efektif.\nLebih dekat ke kemampuan kognitif.\nLebih tahan terhadap pemolesan.\n\n\n\n\n\n\n\n\nIni perbedaan yang mendasar\n\n\nPloyhart & Ehrhart (2003) menunjukkan bahwa mengganti instruksi respons mengubah properti psikometrik tesnya — reliabilitas maupun konstruk yang terukur.\nInstruksi respons harus Anda tetapkan lebih dulu, bukan dipilih belakangan.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -2836,7 +2836,7 @@
     "href": "slides/pertemuan5.html#akibat-lanjutannya",
     "title": "Format Respons II: Thurstone, Situational Judgement Test, dan Forced-Choice",
     "section": "Akibat lanjutannya",
-    "text": "Akibat lanjutannya\n\nPerbandingan antar-orang menjadi tidak memungkinkan. Skor 8 pada skala ketelitian milik A tidak bisa langsung dibandingkan dengan skor 8 milik B.\nAnalisis faktor menjadi menyesatkan, karena struktur korelasinya sudah diganggu lebih dulu oleh formatnya.\nKoefisien reliabilitas klasik jadi sulit ditafsirkan — model CTT di Pertemuan 3 mengandaikan skor yang bebas bergerak, dan di sini skornya tidak bebas.\n\n\n\n\n\n\n\n\n\nKesimpulan praktisnya\n\n\nInstrumen ipsatif tidak boleh dipakai untuk seleksi, pemeringkatan, atau perbandingan antar-individu — padahal justru untuk itulah instrumen semacam ini sering dijual.\n\n\n\n\n\nHicks (1970) merangkum persoalan ini secara menyeluruh.",
+    "text": "Akibat lanjutannya\n\nPerbandingan antar-orang menjadi tidak memungkinkan. Skor 8 pada skala ketelitian milik A tidak bisa langsung dibandingkan dengan skor 8 milik B.\nAnalisis faktor menjadi menyesatkan, karena struktur korelasinya sudah diganggu lebih dulu oleh formatnya.\nKoefisien reliabilitas klasik jadi sulit ditafsirkan — model CTT di Pertemuan 3 mengandaikan skor yang bebas bergerak, dan di sini skornya tidak bebas.\n\n\n\n\n\n\n\n\n\nKesimpulan praktisnya\n\n\nInstrumen ipsatif tidak boleh dipakai untuk seleksi, pemeringkatan, atau perbandingan antar-individu — padahal justru untuk itulah instrumen semacam ini sering dijual.\n\n\n\n\n\nHicks (1970) merangkum persoalan ini.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -3292,7 +3292,7 @@
     "href": "slides/pertemuan2.html#kenapa-perlu-satu-pertemuan-penuh-hanya-untuk-membahas-asumsi",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Kenapa perlu satu pertemuan penuh hanya untuk membahas asumsi?",
-    "text": "Kenapa perlu satu pertemuan penuh hanya untuk membahas asumsi?\n\nKarena asumsi-asumsi ini biasaya tidak laporkan secara eksplisit di laporan penelitian, tetapi hanya hasil penelitiannya saja.\nKarena software tidak akan memperingatkan Anda kalau asumsi-asumsi ini dilanggar. Ia tetap mengeluarkan angka.\nKarena di Pertemuan 9–15 nanti, Anda akan mengambil keputusan teknis yang semuanya bersandar pada asumsi-asumsi ini.",
+    "text": "Kenapa perlu satu pertemuan penuh hanya untuk membahas asumsi?\n\nKarena asumsi-asumsi ini biasanya tidak dilaporkan secara eksplisit di laporan penelitian, hanya hasil penelitiannya saja.\nKarena software tidak akan memperingatkan Anda kalau asumsi-asumsi ini dilanggar. Ia tetap mengeluarkan angka.\nKarena di Pertemuan 9–15 nanti, Anda akan mengambil keputusan teknis yang semuanya bersandar pada asumsi-asumsi ini.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -3544,7 +3544,7 @@
     "href": "slides/pertemuan2.html#asumsi-yang-paling-sering-dilupakan",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
     "section": "Asumsi yang paling sering dilupakan",
-    "text": "Asumsi yang paling sering dilupakan\nSkala self-report mengandaikan dua hal sekaligus:\n\nResponden mampu mengamati kondisi internalnya dan melaporkannya.\nResponden bersedia melaporkannya apa adanya.\n\n\nKeduanya asumsi ini bisa gagal, dan gagalnya dengan proses yang berbeda.",
+    "text": "Asumsi yang paling sering dilupakan\nSkala self-report mengandaikan dua hal sekaligus:\n\nResponden mampu mengamati kondisi internalnya dan melaporkannya.\nResponden bersedia melaporkannya apa adanya.\n\n\nKedua asumsi ini bisa gagal, masing-masing dengan cara yang berbeda.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -3819,11 +3819,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan1.html#apa-yang-kesamaan-dari-3-contoh-tersebut",
-    "href": "slides/pertemuan1.html#apa-yang-kesamaan-dari-3-contoh-tersebut",
+    "objectID": "slides/pertemuan1.html#apa-kesamaan-dari-3-contoh-tersebut",
+    "href": "slides/pertemuan1.html#apa-kesamaan-dari-3-contoh-tersebut",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
-    "section": "Apa yang kesamaan dari 3️⃣ contoh tersebut?",
-    "text": "Apa yang kesamaan dari 3️⃣ contoh tersebut?\n\nKetiganya bukan persoalan statistik. Tidak ada satu pun yang selesai dengan memilih uji statistik yang lebih canggih.\nKetiganya adalah persoalan pengukuran: apakah angka yang kita hasilkan benar-benar mewakili atribut yang kita klaim sedang diukur?\nDalam ketiga skenario ini, sayangnya, banyak yang memilih jalan pintas yang sama: susun saja itemnya, jumlahkan, lalu beri nama konstruknya.\n\n\n\n\n\n\n\n\nKenapa ini penting\n\n\nKalau jalan pintas ini diambil, seluruh kesimpulan penelitian berdiri di atas asumsi yang tidak pernah diperiksa. Masalahnya, datanya akan tetap terlihat baik-baik saja: tetap ada hasil statistik deskriptif, tetap ada p-value, tetap bisa dibuat grafiknya. Tetapi, apakah data hasil pengukuran tersebut sesuai dengan klaimnya?",
+    "section": "Apa kesamaan dari 3️⃣ contoh tersebut?",
+    "text": "Apa kesamaan dari 3️⃣ contoh tersebut?\n\nKetiganya bukan persoalan statistik. Tidak ada satu pun yang selesai dengan memilih uji statistik yang lebih canggih.\nKetiganya adalah persoalan pengukuran: apakah angka yang kita hasilkan benar-benar mewakili atribut yang kita klaim sedang diukur?\nDalam ketiga skenario ini, sayangnya, banyak yang memilih jalan pintas yang sama: susun saja itemnya, jumlahkan, lalu beri nama konstruknya.\n\n\n\n\n\n\n\n\nKenapa ini penting\n\n\nKalau jalan pintas ini diambil, seluruh kesimpulan penelitian berdiri di atas asumsi yang tidak pernah diperiksa. Masalahnya, datanya akan tetap terlihat baik-baik saja: tetap ada hasil statistik deskriptif, tetap ada p-value, tetap bisa dibuat grafiknya. Tetapi, apakah data hasil pengukuran tersebut sesuai dengan klaimnya?",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -3919,7 +3919,7 @@
     "href": "slides/pertemuan1.html#bagaimana-psikometri-lahir",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Bagaimana psikometri lahir",
-    "text": "Bagaimana psikometri lahir\n\nDarwin mengamati dan mengukur variasi sistematis antar-spesies.\nSepupunya, Sir Francis Galton, menerapkan pengamatan sistematis atas perbedaan itu pada manusia dengan perhatian utama pada pewarisan sifat anatomis dan intelektual.\nKarl Pearson, kolega Galton, mengembangkan teknik analisis statistik termasuk Product-Moment Correlation Coefficient yang memakai namanya.\nCharles Spearman melanjutkannya dan membuka jalan bagi analisis faktor.\nAlfred Binet mengembangkan tes kemampuan mental/intelegensi di Prancis pada awal 1900-an.\n\n\n\n\n\n\n\n\nWarisan yang tidak netral\n\n\nBanyak kontributor awal psikometri bekerja dalam kerangka eugenics. Teori dan analisis statistiknya masih kita pakai sampai sekarang, tetapi asumsi dan konsekuensi politis di baliknya (e.g., fertilisasi ras tertentu yang dianggap “inferior”, dst.) tidak boleh kita teruskan.",
+    "text": "Bagaimana psikometri lahir\n\nDarwin mengamati dan mengukur variasi sistematis antar-spesies.\nSepupunya, Sir Francis Galton, menerapkan pengamatan sistematis atas perbedaan itu pada manusia dengan perhatian utama pada pewarisan sifat anatomis dan intelektual.\nKarl Pearson, kolega Galton, mengembangkan teknik analisis statistik termasuk Product-Moment Correlation Coefficient yang memakai namanya.\nCharles Spearman melanjutkannya dan membuka jalan bagi analisis faktor.\nAlfred Binet mengembangkan tes kemampuan mental/intelegensi di Prancis pada awal 1900-an.\n\n\n\n\n\n\n\n\nWarisan yang tidak netral\n\n\nBanyak kontributor awal psikometri bekerja dalam kerangka eugenics. Teori dan analisis statistiknya masih kita pakai sampai sekarang, tetapi asumsi dan konsekuensi politis di baliknya (misalnya, sterilisasi paksa atau pembatasan reproduksi terhadap kelompok yang dianggap “inferior”) tidak boleh kita teruskan.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -4267,7 +4267,7 @@
     "href": "slides/pertemuan1.html#sisi-etisnya",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
     "section": "Sisi etisnya",
-    "text": "Sisi etisnya\n\nPeneliti sering mengambil jalan pintas dengan memakai instrumen yang terlalu pendek, dengan harapan mengurangi beban partisipan.\nTetapi kuesioner yang terlalu pendek untuk bisa reliabel tetap saja bukan keputusan yang tepat, meskipun terasa praktis.\nKuesioner reliabel yang diisi separuh partisipan memberi lebih banyak informasi daripada kuesioner tidak reliabel yang diisi semua partisipan.\n\n\n\n\n\n\n\n\nMeminta waktu partisipan ada konsekuensi etisnya\n\n\nKalau datanya pada akhirnya tidak bisa dimaknai, seberapa banyak pun data yang terkumpul jadi tidak ada gunanya. Meminta 300 orang mengisi instrumen yang tidak mungkin menghasilkan kesimpulan yang sahih adalah persoalan etis.",
+    "text": "Sisi etisnya\n\nPeneliti sering mengambil jalan pintas dengan memakai instrumen yang terlalu pendek, dengan harapan mengurangi beban partisipan.\nTetapi kuesioner yang terlalu pendek untuk bisa reliabel tetap saja bukan keputusan yang tepat, meskipun terasa praktis.\nKuesioner reliabel yang diisi separuh partisipan memberi lebih banyak informasi daripada kuesioner tidak reliabel yang diisi semua partisipan.\n\n\n\n\n\n\n\n\nMeminta waktu partisipan ada konsekuensi etisnya\n\n\nKalau datanya tidak bisa dimaknai, seberapa banyak pun data yang terkumpul jadi tidak ada gunanya. Meminta 300 orang mengisi instrumen yang tidak mungkin menghasilkan kesimpulan yang sahih adalah persoalan etis.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -4419,11 +4419,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan3.html#dari-skor-ke-varians",
-    "href": "slides/pertemuan3.html#dari-skor-ke-varians",
+    "objectID": "slides/pertemuan3.html#memecah-varians-skor-total",
+    "href": "slides/pertemuan3.html#memecah-varians-skor-total",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
-    "section": "Dari skor ke varians",
-    "text": "Dari skor ke varians\nKalau \\(X = T + E\\) dan \\(\\text{Cov}(T, E) = 0\\), maka variansnya ikut terpisah:\n\\[\\sigma^2_X = \\sigma^2_T + \\sigma^2_E\\]\n\n\nArtinya: variasi skor yang kita amati seharusnya terdiri atas variasi yang berasal dari perbedaan antar-orang yang sesungguhnya, ditambah variasi yang berasal dari noise.\nPertanyaan reliabilitas jadi sangat sederhana: berapa bagian dari variasi itu yang bukan noise?",
+    "section": "Memecah varians skor total",
+    "text": "Memecah varians skor total\nKalau \\(X = T + E\\) dan \\(\\text{Cov}(T, E) = 0\\), maka variansnya ikut terpisah:\n\\[\\sigma^2_X = \\sigma^2_T + \\sigma^2_E\\]\n\n\nArtinya: variasi skor yang kita amati seharusnya terdiri atas variasi yang berasal dari perbedaan antar-orang yang sesungguhnya, ditambah variasi yang berasal dari noise.\nPertanyaan reliabilitas jadi sangat sederhana: berapa bagian dari variasi itu yang bukan noise?",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -4687,7 +4687,7 @@
     "href": "slides/pertemuan3.html#cara-membaca-grafiknya",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "Cara membaca grafiknya",
-    "text": "Cara membaca grafiknya\n\nItem A (\\(b = -1{,}2\\)) mudah disetujui. Bahkan orang dengan level konstruk di bawah rata-rata pun cenderung menyetujuinya.\nItem C (\\(b = +1{,}5\\)) sulit disetujui. Hanya orang di ujung atas yang cenderung menyetujuinya.\nSkala yang baik memuat item yang tersebar di sepanjang rentang, bukan menumpuk di satu titik.\n\n\n\n\n\n\n\n\nKesalahan yang sering dilupakan\n\n\nKalau semua item Anda “mudah”, skala Anda tidak bisa membedakan orang di ujung atas. Semuanya akan mendapat skor mendekati maksimum. Ini disebut ceiling effect, dan tidak akan terdeteksi oleh \\(\\alpha\\) yang tinggi.",
+    "text": "Cara membaca grafiknya\n\nItem A (\\(b = -1{.}2\\)) mudah disetujui. Bahkan orang dengan level konstruk di bawah rata-rata pun cenderung menyetujuinya.\nItem C (\\(b = +1{.}5\\)) sulit disetujui. Hanya orang di ujung atas yang cenderung menyetujuinya.\nSkala yang baik memuat item yang tersebar di sepanjang rentang, bukan menumpuk di satu titik.\n\n\n\n\n\n\n\n\nKesalahan yang sering dilupakan\n\n\nKalau semua item Anda “mudah”, skala Anda tidak bisa membedakan orang di ujung atas. Semuanya akan mendapat skor mendekati maksimum. Ini disebut ceiling effect, dan tidak akan terdeteksi oleh \\(\\alpha\\) yang tinggi.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -4771,7 +4771,7 @@
     "href": "slides/pertemuan3.html#poin-utama",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
     "section": "6️⃣ poin utama",
-    "text": "6️⃣ poin utama\n\nVariabel laten adalah sebab, dan inilah alasan mengapa item dalam satu skala harus saling berkorelasi.\n\\(X = T + E\\), dengan asumsi bahwa error bersifat acak, bukan sistematis.\nReliabilitas adalah proporsi varians: bagian dari variasi skor yang bukan noise.\nTrue score melekat pada alat ukur, bukan pada konstruk. Alat ukur yang memiliki bias secara konsisten tetap bisa sangat reliabel dan reliabilitas maupun validitas sama-sama sifat skor, bukan sifat skala.\nStatistik item dalam CTT bergantung pada sampel. Laporkan karakteristik sampel bersama koefisiennya.\n\\(\\alpha\\) mengasumsikan model tau-equivalent, yang jarang terpenuhi. Oleh karena itu, lebih baik gunakan \\(\\omega\\) yang mengasumsikan model congeneric.",
+    "text": "6️⃣ poin utama\n\nVariabel laten adalah sebab, dan inilah alasan mengapa item dalam satu skala harus saling berkorelasi.\n\\(X = T + E\\), dengan asumsi bahwa error bersifat acak, bukan sistematis.\nReliabilitas adalah proporsi varians: bagian dari variasi skor yang bukan noise.\nTrue score melekat pada alat ukur, bukan pada konstruk. Alat ukur yang memiliki bias secara konsisten tetap bisa sangat reliabel. Reliabilitas maupun validitas sama-sama sifat skor, bukan sifat skala.\nStatistik item dalam CTT bergantung pada sampel. Laporkan karakteristik sampel bersama koefisiennya.\n\\(\\alpha\\) mengasumsikan model tau-equivalent, yang jarang terpenuhi. Oleh karena itu, lebih baik gunakan \\(\\omega\\) yang mengasumsikan model congeneric.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -4927,7 +4927,7 @@
     "href": "slides/pertemuan4.html#keputusan-3-melabeli-semua-pilihan-atau-hanya-ujungnya",
     "title": "Format Respons I: Likert, Semantic Differential, dan Guttman",
     "section": "Keputusan 3️⃣: melabeli semua pilihan, atau hanya ujungnya?",
-    "text": "Keputusan 3️⃣: melabeli semua pilihan, atau hanya ujungnya?\n\nMelabeli semua pilihan umumnya menghasilkan reliabilitas dan validitas yang lebih baik daripada hanya melabeli kedua ujungnya (Krosnick, dkk., 2010).\nAlasannya sederhana: kalau hanya ujungnya yang diberi label, tiap responden menafsirkan sendiri arti titik-titik di antaranya.\nTetapi label yang dipilih harus benar-benar dapat dibedakan oleh partisipan.\n\n\n\n\n\n\n\n\nContoh label yang bermasalah\n\n\nPerhatikan susunan ini, yang diadaptasi dari DeVellis:\nSangat Membantu ➡️ Kurang Membantu ➡️ Agak Membantu ➡️ Tidak Membantu Sama Sekali\nDua masalah sekaligus. Pertama, “Agak” dan “Kurang” sulit dibedakan bahkan dalam keadaan terbaik. Kedua, kalau dibaca dari kiri, “Agak Membantu” tampak lebih tinggi daripada “Kurang Membantu”; kalau dibaca dari kanan, urutannya justru terbalik.",
+    "text": "Keputusan 3️⃣: melabeli semua pilihan, atau hanya ujungnya?\n\nMelabeli semua pilihan umumnya menghasilkan reliabilitas dan validitas yang lebih baik daripada hanya melabeli kedua ujungnya (Krosnick, dkk., 2010).\nAlasannya sederhana: kalau hanya ujungnya yang diberi label, tiap responden menafsirkan sendiri arti titik-titik di antaranya.\nTetapi label yang dipilih harus benar-benar dapat dibedakan oleh partisipan.\n\n\n\n\n\n\n\n\nContoh label yang bermasalah\n\n\nPerhatikan susunan ini, yang diadaptasi dari DeVellis:\nSangat Membantu ➡️ Kurang Membantu ➡️ Agak Membantu ➡️ Tidak Membantu Sama Sekali\nMasalahnya: “Agak” dan “Kurang” sulit dibedakan meskipun urutannya dibalik.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5059,7 +5059,7 @@
     "href": "slides/pertemuan4.html#guttman-tidak-cocok-untuk-konstruk-abstrak",
     "title": "Format Respons I: Likert, Semantic Differential, dan Guttman",
     "section": "Guttman tidak cocok untuk konstruk abstrak",
-    "text": "Guttman tidak cocok untuk konstruk abstrak\n\nBegitu konstruknya tidak konkret, urutannya tidak lagi sama untuk semua orang.\nContoh dua item yang “mungkin” berjenjang\n\nItem 1: “Aktif di organisasi kemahasiswaan menunjukkan kemampuan manajemen waktu yang baik.”\nItem 2: “Kemampuan manajemen waktu yang baik tidak mengorbankan prestasi akademik.”\n\nSecara logika, menyetujui item 1 seharusnya berarti menyetujui item 2 juga.\nTapi, bisa jadi ada partisipan yang percaya bahwa aktif di ormawa dapat sekaligus mengorbankan prestasi akademik, sehingga menyimpang dari pola urutan Guttman.\nAsumsi bahwa semua item punya hubungan yang sama kuat dengan variabel laten tidak berlaku untuk item Guttman.\n\nArtinya, model parallel dan tau-equivalent dari Pertemuan 3 tidak cocok untuk skala Guttman, dan koefisien seperti Cronbach’s \\(\\alpha\\) tidak bisa dipakai untuk skala Guttman.",
+    "text": "Guttman tidak cocok untuk konstruk abstrak\n\nBegitu konstruknya tidak konkret, urutannya tidak lagi sama untuk semua orang.\nContoh dua item yang “mungkin” berjenjang\n\nItem 1: “Aktif di organisasi kemahasiswaan menunjukkan kemampuan manajemen waktu yang baik.”\nItem 2: “Kemampuan manajemen waktu yang baik tidak mengorbankan prestasi akademik.”\n\nDalam logika penjenjangan Guttman, menyetujui item 1 seharusnya berarti menyetujui item 2 juga.\nTetapi, bisa jadi ada partisipan yang percaya bahwa aktif di ormawa membuat mahasiswa punya kemampuan manajemen waktu yang baik tetapi sekaligus mengorbankan prestasi akademik, sehingga menyimpang dari pola urutan Guttman.\nAsumsi bahwa semua item punya hubungan yang sama kuat dengan variabel laten tidak berlaku untuk item Guttman.\n\nArtinya, model parallel dan tau-equivalent dari Pertemuan 3 tidak cocok untuk skala Guttman, dan koefisien seperti Cronbach’s \\(\\alpha\\) tidak bisa dipakai untuk skala Guttman.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5103,11 +5103,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan4.html#bagian-1-temukan-masalahnya",
-    "href": "slides/pertemuan4.html#bagian-1-temukan-masalahnya",
+    "objectID": "slides/pertemuan4.html#temukan-masalah-pada-item-di-bawah-ini",
+    "href": "slides/pertemuan4.html#temukan-masalah-pada-item-di-bawah-ini",
     "title": "Format Respons I: Likert, Semantic Differential, dan Guttman",
-    "section": "Bagian 1: temukan masalahnya",
-    "text": "Bagian 1: temukan masalahnya\nEmpat format respons berikut punya masalah.\nA. “Bagaimana pendapat Anda tentang layanan akademik fakultas?” Sangat Baik — Baik — Cukup — Kurang\nB. “Seberapa sering Anda merasa cemas?” Tidak pernah — Jarang — Kadang-kadang — Sering — Selalu\nC. “Saya merasa dosen kompeten dan peduli pada mahasiswa.” Sangat Tidak Setuju — Tidak Setuju — Netral — Setuju — Sangat Setuju\n\nJawaban yang diharapkan — A: jangkar tidak seimbang, tiga positif satu negatif, sehingga sebaran skor terdorong ke atas. B: kuantifier tanpa rujukan waktu; “sering” berbeda artinya bagi tiap orang. C: item ganda (kompeten dan peduli adalah dua hal), responden yang setuju pada satu bagian saja tidak punya jawaban yang benar.\nKalau waktu mepet, cukup bahas A dan C.",
+    "section": "Temukan masalah pada item di bawah ini",
+    "text": "Temukan masalah pada item di bawah ini\nEmpat format respons berikut punya masalah.\nA. “Bagaimana pendapat Anda tentang layanan akademik fakultas?” Sangat Baik — Baik — Cukup — Kurang\nB. “Seberapa sering Anda merasa cemas?” Tidak pernah — Jarang — Kadang-kadang — Sering — Selalu\nC. “Saya merasa dosen kompeten dan peduli pada mahasiswa.” Sangat Tidak Setuju — Tidak Setuju — Netral — Setuju — Sangat Setuju\n\nJawaban yang diharapkan — A: jangkar tidak seimbang, tiga positif satu negatif, sehingga sebaran skor terdorong ke atas. B: kuantifier tanpa rujukan waktu; “sering” berbeda artinya bagi tiap orang. C: item ganda (kompeten dan peduli adalah dua hal), responden yang setuju pada satu bagian saja tidak punya jawaban yang benar.\nKalau waktu mepet, cukup bahas A dan C.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5515,7 +5515,7 @@
     "href": "slides/pertemuan6.html#checklist",
     "title": "Reliabilitas: Konsep Dasar dan Implementasinya",
     "section": "Checklist",
-    "text": "Checklist\n\nKoefisien yang dipakai dan nilainya — sebutkan \\(\\alpha\\), \\(\\omega\\), atau keduanya. Jangan cuma menulis “reliabilitas”.\nJumlah item yang dihitung, dan item mana yang diskor balik.\nUkuran dan karakteristik sampel — ingat dari Pertemuan 3 bahwa koefisien ini bergantung pada sampel.\nBukti tentang dimensinya (apabila memungkinkan), sekurang-kurangnya eigenvalue atau scree plot.\nSEM, kalau skor Anda akan dipakai untuk menafsirkan individu.\n\n\n\n\n\n\n\n\nContoh kalimat pelaporan\n\n\n“Skala 10 item ini memiliki \\(\\alpha = 0{.}89\\) dan \\(\\omega = 0{.}89\\) pada n = 200 mahasiswa S1 (usia 18–23). Analisis faktor eksploratori menunjukkan satu faktor dominan (eigenvalue 4,5 berbanding 0.9). SEM = 3.0.”",
+    "text": "Checklist\n\nKoefisien yang dipakai dan nilainya — sebutkan \\(\\alpha\\), \\(\\omega\\), atau keduanya. Jangan cuma menulis “reliabilitas”.\nJumlah item yang dihitung, dan item mana yang diskor balik.\nUkuran dan karakteristik sampel — ingat dari Pertemuan 3 bahwa koefisien ini bergantung pada sampel.\nBukti tentang dimensinya (apabila memungkinkan), sekurang-kurangnya eigenvalue atau scree plot.\nSEM, kalau skor Anda akan dipakai untuk menafsirkan individu.\n\n\n\n\n\n\n\n\nContoh kalimat pelaporan\n\n\n“Skala 10 item ini memiliki \\(\\alpha = 0{.}89\\) dan \\(\\omega = 0{.}89\\) pada n = 200 mahasiswa S1 (usia 18–23). Analisis faktor eksploratori menunjukkan satu faktor dominan (eigenvalue 4.5 berbanding 0.9). SEM = 3.0.”",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5707,7 +5707,7 @@
     "href": "slides/pertemuan11.html#rumusnya",
     "title": "Review Ahli dan Validitas Isi: Perhitungan dan Interpretasi CVI",
     "section": "Rumusnya",
-    "text": "Rumusnya\n\\[\\text{I-CVI} = \\frac{\\text{jumlah penilai yang memberi nilai 3 atau 4}}{\\text{jumlah seluruh penilai}}\\]\n\n\nDihitung untuk tiap item, satu angka per item.\nNilainya antara 0 dan 1.\nContoh: dari 6 penilai, 5 memberi nilai 3 atau 4. Maka I-CVI = 5/6 = 0,83.",
+    "text": "Rumusnya\n\\[\\text{I-CVI} = \\frac{\\text{jumlah penilai yang memberi nilai 3 atau 4}}{\\text{jumlah seluruh penilai}}\\]\n\n\nDihitung untuk tiap item, satu angka per item.\nNilainya antara 0 dan 1.\nContoh: dari 6 penilai, 5 memberi nilai 3 atau 4. Maka I-CVI = 5/6 = 0.83.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5755,7 +5755,7 @@
     "href": "slides/pertemuan11.html#kappa-yang-dimodifikasi",
     "title": "Review Ahli dan Validitas Isi: Perhitungan dan Interpretasi CVI",
     "section": "Kappa yang dimodifikasi",
-    "text": "Kappa yang dimodifikasi\nPeluang kesepakatan kebetulan:\n\\[p_c = \\binom{N}{A} \\times 0{,}5^N\\]\nLalu:\n\\[\\kappa^* = \\frac{\\text{I-CVI} - p_c}{1 - p_c}\\]\ndengan \\(N\\) = jumlah penilai dan \\(A\\) = jumlah penilai yang menilai relevan.\n\n\nPolit, Beck, & Owen (2007).",
+    "text": "Kappa yang dimodifikasi\nPeluang kesepakatan kebetulan:\n\\[p_c = \\binom{N}{A} \\times 0{.}5^N\\]\nLalu:\n\\[\\kappa^* = \\frac{\\text{I-CVI} - p_c}{1 - p_c}\\]\ndengan \\(N\\) = jumlah penilai dan \\(A\\) = jumlah penilai yang menilai relevan.\n\n\nPolit, Beck, & Owen (2007).",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5815,7 +5815,7 @@
     "href": "slides/pertemuan11.html#hitung-ulang-setelah-perbaikan",
     "title": "Review Ahli dan Validitas Isi: Perhitungan dan Interpretasi CVI",
     "section": "Hitung ulang setelah perbaikan",
-    "text": "Hitung ulang setelah perbaikan\nKalau A5 dan A8 diperbaiki lalu dinilai ulang, atau dikeluarkan:\n\nEnam item tersisa punya I-CVI: 1.00 — 1.00 — 0.83 — 1.00 — 0.83 — 1.00\n\\(\\text{S-CVI/Ave} = 5{.}67 / 6 = \\mathbf{0{.}94}\\)\nSekarang melewati patokan 0.90.\n\n\n\n\n\n\n\n\nNote\n\n\nLaporkan kedua-duanya: hasil sebelum perbaikan dan sesudahnya, beserta keputusan yang diambil untuk tiap item. Yang dinilai adalah prosesnya, bukan hanya angka akhirnya.",
+    "text": "Hitung ulang setelah perbaikan\nKalau A5 dan A8 diperbaiki lalu dinilai ulang, atau dikeluarkan:\n\nEnam item tersisa punya I-CVI: 1.00, 1.00, 0.83, 1.00, 0.83, dan 1.00\n\\(\\text{S-CVI/Ave} = 5{.}67 / 6 = \\mathbf{0{.}94}\\)\nSekarang melewati patokan 0.90.\n\n\n\n\n\n\n\n\nNote\n\n\nLaporkan kedua-duanya: hasil sebelum perbaikan dan sesudahnya, beserta keputusan yang diambil untuk tiap item. Yang dinilai adalah prosesnya, bukan hanya angka akhirnya.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5827,7 +5827,7 @@
     "href": "slides/pertemuan11.html#tiga-hal-yang-tidak-diperiksa-cvi",
     "title": "Review Ahli dan Validitas Isi: Perhitungan dan Interpretasi CVI",
     "section": "Tiga hal yang tidak diperiksa CVI",
-    "text": "Tiga hal yang tidak diperiksa CVI\n\nKelengkapan. CVI menilai item yang ada, bukan item yang seharusnya ada. Untuk itu Anda perlu bertanya langsung kepada anggota panel.\nKejelasan bagi responden. Penilai ahli membaca item dengan cara yang berbeda dari calon partisipan. Pemeriksaan kejelasan dilakukan lewat wawancara kognitif, seperti yang dibahas di Pertemuan 7.\nApakah konstruknya sendiri masuk akal. Kalau definisi konstruk Anda bermasalah, anggota panel akan menilai relevansi terhadap definisi yang bermasalah itu.\n\n\n\n\n\n\n\n\n\nTip\n\n\nCVI adalah satu sumber bukti validitas, bukan penentu final. Ia “hanya” menempati satu baris pada tabel bukti validitas di Pertemuan 7.\n\n\n\n\n\nHaynes, Richard, & Kubany (1995); Rubio dkk. (2003).",
+    "text": "Tiga hal yang tidak diperiksa CVI\n\nKelengkapan. CVI menilai item yang ada, bukan item yang seharusnya ada. Untuk itu Anda perlu bertanya langsung kepada anggota panel.\nKejelasan bagi responden. Penilai ahli membaca item dengan cara yang berbeda dari calon partisipan. Pemeriksaan kejelasan dilakukan lewat wawancara kognitif, seperti yang dibahas di Pertemuan 7.\nApakah konstruknya sendiri masuk akal. Kalau definisi konstruk Anda bermasalah, anggota panel akan menilai relevansi terhadap definisi yang bermasalah itu.\n\n\n\n\n\n\n\n\n\nTip\n\n\nCVI adalah satu sumber bukti validitas. Ia “hanya” menempati satu baris pada tabel bukti validitas di Pertemuan 7.\n\n\n\n\n\nHaynes, Richard, & Kubany (1995); Rubio dkk. (2003).",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -6019,7 +6019,7 @@
     "href": "slides/pertemuan1-en.html#a-conceptual-shift-and-the-rise-of-psychometrics",
     "title": "What Is Measurement? Foundations and Philosophy of Psychological Measurement",
     "section": "A conceptual shift, and the rise of psychometrics",
-    "text": "A conceptual shift, and the rise of psychometrics\n\nConcealing differences between observations used to be standard practice.\n\nScientists were expected to produce an “ideal picture” of a natural phenomenon, using their own judgement to decide what should count as ideal.\nAs a result, “accidental” or random deviations were typically excluded from the scientific record (Daston & Galison, 2007).\n\nThe consequence of this shift was enormous: error, once read as evidence of an observer’s incompetence, came to be understood as a “systematic” — but random (stochastic) — property of the measurement process itself, one that could be modelled and estimated.\nWithout this shift, Classical Test Theory could not exist as we know it today.",
+    "text": "A conceptual shift, and the rise of psychometrics\n\nConcealing differences between observations used to be standard practice.\n\nScientists were expected to produce an “ideal picture” of a natural phenomenon, using their own judgement to decide what should count as ideal.\nAs a result, “accidental” or random deviations were typically excluded from the scientific record (Daston & Galison, 2007).\n\nThe consequence of this shift was enormous: error, once read as evidence of an observer’s incompetence, came to be understood as a “systematic,” but random (stochastic), property of the measurement process itself — one that could be modelled and estimated.\nWithout this shift, Classical Test Theory could not exist as we know it today.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -6027,11 +6027,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan1-en.html#from-error-to-statistics",
-    "href": "slides/pertemuan1-en.html#from-error-to-statistics",
+    "objectID": "slides/pertemuan1-en.html#modeling-measurement-error-statistically",
+    "href": "slides/pertemuan1-en.html#modeling-measurement-error-statistically",
     "title": "What Is Measurement? Foundations and Philosophy of Psychological Measurement",
-    "section": "From error to statistics",
-    "text": "From error to statistics\n\n1660s, John Graunt compiled birth and death rates from christening and burial records in London, England. He averaged them to capture a “true” value he believed lay hidden behind the unpredictable events of any given year.\n1777, Daniel Bernoulli compared the distribution of astronomical observations to an archer’s arrows: clustering around a central point, with progressively fewer at greater distances from it.\nBuchwald (2006) argues the fundamental shortcoming of 18th-century thinking was the failure to distinguish random from systematic error — a distinction that only matured in the following century.\n\n\n\n\n\n\n\n\nRemember this analogy\n\n\nBernoulli’s comparison describes what we will later call random error, and exactly why reliability can be raised simply by adding items.",
+    "section": "Modeling measurement error statistically",
+    "text": "Modeling measurement error statistically\n\n1660s, John Graunt compiled birth and death rates from christening and burial records in London, England. He averaged them to capture a “true” value he believed lay hidden behind the unpredictable events of any given year.\n1777, Daniel Bernoulli compared the distribution of astronomical observations to an archer’s arrows: clustering around a central point, with progressively fewer at greater distances from it.\nBuchwald (2006) argues the fundamental shortcoming of 18th-century thinking was the failure to distinguish random from systematic error — a distinction that only matured in the following century.\n\n\n\n\n\n\n\n\nRemember this analogy\n\n\nBernoulli’s comparison describes what we will later call random error, and exactly why reliability can be raised simply by adding items.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -6543,11 +6543,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan3-en.html#from-scores-to-variance",
-    "href": "slides/pertemuan3-en.html#from-scores-to-variance",
+    "objectID": "slides/pertemuan3-en.html#splitting-score-variance",
+    "href": "slides/pertemuan3-en.html#splitting-score-variance",
     "title": "Latent Variables: Classical Test Theory and a Glimpse of Item Response Theory",
-    "section": "From scores to variance",
-    "text": "From scores to variance\nIf \\(X = T + E\\) and \\(\\text{Cov}(T, E) = 0\\), the variance separates too:\n\\[\\sigma^2_X = \\sigma^2_T + \\sigma^2_E\\]\n\n\nIn words: the variability we observe in scores consists of variability from genuine differences between people, plus variability from noise.\nThe reliability question then becomes very simple: what proportion of that variability is not noise?",
+    "section": "Splitting score variance",
+    "text": "Splitting score variance\nIf \\(X = T + E\\) and \\(\\text{Cov}(T, E) = 0\\), the variance separates too:\n\\[\\sigma^2_X = \\sigma^2_T + \\sigma^2_E\\]\n\n\nIn words: the variability we observe in scores consists of variability from genuine differences between people, plus variability from noise.\nThe reliability question then becomes very simple: what proportion of that variability is not noise?",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7195,7 +7195,7 @@
     "href": "slides/pertemuan5-en.html#the-knock-on-effects",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
     "section": "The knock-on effects",
-    "text": "The knock-on effects\n\nBetween-person comparison becomes invalid. A conscientiousness score of 8 for person A cannot be compared directly with 8 for person B.\nFactor analysis becomes misleading, because the correlation structure was distorted by the format before any analysis began.\nClassical reliability coefficients become hard to interpret — the CTT model in Session 3 assumes scores are free to vary, and here they are not.\n\n\n\n\n\n\n\n\n\nThe practical conclusion\n\n\nIpsative instruments should not be used for selection, ranking, or comparison between individuals — which is precisely what such instruments are often sold for.\n\n\n\n\n\nHicks (1970) reviews these problems comprehensively.",
+    "text": "The knock-on effects\n\nBetween-person comparison becomes invalid. A conscientiousness score of 8 for person A cannot be compared directly with 8 for person B.\nFactor analysis becomes misleading, because the correlation structure was distorted by the format before any analysis began.\nClassical reliability coefficients become hard to interpret — the CTT model in Session 3 assumes scores are free to vary, and here they are not.\n\n\n\n\n\n\n\n\n\nThe practical conclusion\n\n\nIpsative instruments should not be used for selection, ranking, or comparison between individuals — which is precisely what such instruments are often sold for.\n\n\n\n\n\nHicks (1970) reviews these problems in detail.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7723,7 +7723,7 @@
     "href": "slides/pertemuan7-en.html#after-the-midterm",
     "title": "Validity: Core Concepts and Implementation",
     "section": "After the midterm",
-    "text": "After the midterm\n\nSession 9 — the project begins: defining the construct and the estimand, from literature review to operational definition.\nSession 10 — building the blueprint and writing items.\n\n\n\n\n\n\n\n\nNote\n\n\nFrom Session 9 onward, everything from the first half turns into decisions you have to make yourselves.",
+    "text": "After the midterm\n\nSession 9 — the project begins: defining the construct and the estimand, from literature review to operational definition.\nSession 10 — building the blueprint and writing items.\nSession 11 onward — direct mentoring with Bu Dian, in Room 303, on a different day and time. Check the schedule again.\n\n\n\n\n\n\n\n\nNote\n\n\nFrom Session 9 onward, everything from the first half turns into decisions you have to make yourselves.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7915,7 +7915,7 @@
     "href": "slides/pertemuan10-en.html#what-the-evidence-shows",
     "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
     "section": "What the evidence shows",
-    "text": "What the evidence shows\n\nScales with all items worded in one direction produce more accurate responses than mixed-worded scales.\nScores on forward and reversed items are not symmetric: strongly disagreeing with a positive statement is not the same as strongly agreeing with its negative counterpart.\nReversed items often form their own factor in factor analysis. What appears there is the wording, not the construct.\n\n\n\nSummarised from Chyung, Barkin, & Shamsy (2018); see also Weijters, Baumgartner, & Schillewaert (2013).",
+    "text": "What the evidence shows\n\nScales with all items worded in one direction produce more accurate responses than mixed-worded scales.\nScores on forward and reversed items are not symmetric: strongly disagreeing with a positive statement is not the same as strongly agreeing with its negative counterpart.\nReversed items often form their own factor in factor analysis. What appears there is the wording.\n\n\n\nSummarised from Chyung, Barkin, & Shamsy (2018); see also Weijters, Baumgartner, & Schillewaert (2013).",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",

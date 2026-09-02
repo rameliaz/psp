@@ -236,7 +236,7 @@ Perhatikan susunan ini, yang diadaptasi dari DeVellis:
 
 Sangat Membantu ➡️ Kurang Membantu ➡️ Agak Membantu ➡️ Tidak Membantu Sama Sekali
 
-**Dua masalah sekaligus.** *Pertama*, "Agak" dan "Kurang" sulit dibedakan bahkan dalam keadaan terbaik. *Kedua*, kalau dibaca dari kiri, "Agak Membantu" tampak lebih tinggi daripada "Kurang Membantu"; kalau dibaca dari kanan, urutannya justru terbalik.
+**Masalahnya**: "Agak" dan "Kurang" sulit dibedakan meskipun urutannya dibalik. 
 :::
 
 ## Keputusan 4️⃣: *Anchor* apa yang dipakai?
@@ -247,7 +247,7 @@ Sangat Membantu ➡️ Kurang Membantu ➡️ Agak Membantu ➡️ Tidak Membant
 
 * **Frekuensi** — "Tidak pernah" sampai "Selalu". Lebih konkret, tapi butuh **rujukan waktu yang jelas**: "sering" dalam seminggu atau dalam setahun?
 
-* ***Anchor* khusus per item** (*item-specific*) — misalnya "Seberapa sering Anda merasa gugup sebelum presentasi?" dengan pilihan "Tidak pernah | Sekali dua kali | Beberapa kali | Hampir tiap kali | Selalu".
+* ***Anchor* khusus per item** (*item-specific*) — misalnya "*Seberapa sering Anda merasa gugup sebelum presentasi?*" dengan pilihan "Tidak pernah | Sekali dua kali | Beberapa kali | Hampir tiap kali | Selalu".
 
 :::
 
@@ -437,9 +437,9 @@ Perhatikan bahwa ketiganya berhubungan dengan **perilaku atau kemampuan yang kon
   + **Item 1**: *"Aktif di organisasi kemahasiswaan menunjukkan kemampuan manajemen waktu yang baik."*
   + **Item 2**: *"Kemampuan manajemen waktu yang baik tidak mengorbankan prestasi akademik."*
 
-* Secara logika, menyetujui item 1 seharusnya berarti menyetujui item 2 juga.
+* Dalam logika penjenjangan Guttman, menyetujui item 1 seharusnya berarti menyetujui item 2 juga.
 
-* Tapi, bisa jadi ada partisipan yang percaya bahwa aktif di ormawa dapat **sekaligus** mengorbankan prestasi akademik, sehingga menyimpang dari pola urutan Guttman.
+* Tetapi, bisa jadi ada partisipan yang percaya bahwa aktif di ormawa membuat mahasiswa punya kemampuan manajemen waktu yang baik tetapi **sekaligus** mengorbankan prestasi akademik, sehingga menyimpang dari pola urutan Guttman.
 
 * **Asumsi bahwa semua item punya hubungan yang sama kuat dengan variabel laten tidak berlaku** untuk item Guttman.
   + Artinya, model *parallel* dan *tau-equivalent* dari Pertemuan 3 **tidak cocok** untuk skala Guttman, dan koefisien seperti Cronbach's $\alpha$ tidak bisa dipakai untuk skala Guttman.
@@ -483,9 +483,9 @@ Perhatikan bahwa ketiganya berhubungan dengan **perilaku atau kemampuan yang kon
 
 :::
 
-# Demo dan latihan {background-color="#14497F" .center}
+# Aktivitas {background-color="#14497F" .center}
 
-## Bagian 1: temukan masalahnya
+## Temukan masalah pada item di bawah ini
 
 Empat format respons berikut punya masalah.
 

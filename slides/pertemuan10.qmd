@@ -38,7 +38,7 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 
 :::
 
-# Dari spesifikasi konstruk ke item {background-color="#14497F" .center}
+# Spesifikasi konstruk menjadi item {background-color="#14497F" .center}
 
 ## Yang Anda bawa hari ini
 
@@ -266,7 +266,7 @@ Sampai di sini gagasannya masuk akal. Tetapi, persoalannya muncul pada pelaksana
 
 * Skor pada item searah dan item terbalik **tidak simetris**: sangat tidak setuju pada pernyataan positif tidak sama dengan sangat setuju pada pernyataan negatifnya.
 
-* Item terbalik sering **membentuk faktornya sendiri** pada analisis faktor. Yang muncul di situ adalah cara penulisannya, bukan konstruknya.
+* Item terbalik sering **membentuk faktornya sendiri** pada analisis faktor. Yang muncul di situ adalah cara penulisannya.
 
 :::
 

@@ -591,7 +591,7 @@ Pada set campuran tadi, *eigenvalue*-nya 3.53 dan 2.23 — dua-duanya besar. Itu
 
 ::: {.callout-tip}
 #### Contoh kalimat pelaporan
-*"Skala 10 item ini memiliki $\alpha = 0{.}89$ dan $\omega = 0{.}89$ pada n = 200 mahasiswa S1 (usia 18–23). Analisis faktor eksploratori menunjukkan satu faktor dominan (eigenvalue 4,5 berbanding 0.9). SEM = 3.0."*
+*"Skala 10 item ini memiliki $\alpha = 0{.}89$ dan $\omega = 0{.}89$ pada n = 200 mahasiswa S1 (usia 18–23). Analisis faktor eksploratori menunjukkan satu faktor dominan (eigenvalue 4.5 berbanding 0.9). SEM = 3.0."*
 :::
 
 # Diskusi kelompok {background-color="#14497F" .center}

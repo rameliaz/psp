@@ -382,7 +382,7 @@ If A5 and A8 are revised and re-rated, or removed:
 
 ::: {.incremental}
 
-* The six remaining items have I-CVIs of 1.00 — 1.00 — 0.83 — 1.00 — 0.83 — 1.00
+* The six remaining items have I-CVIs of 1.00, 1.00, 0.83, 1.00, 0.83, and 1.00
 
 * $\text{S-CVI/Ave} = 5.67 / 6 = \mathbf{0.94}$
 
@@ -417,7 +417,7 @@ Report **both**: the result before revision and after, together with the decisio
 . . .
 
 ::: {.callout-tip}
-The CVI is one source of evidence, not a verdict. It occupies one row of the validity evidence table from Session 7 — not the whole table.
+The CVI is one source of evidence. It occupies one row of the validity evidence table from Session 7.
 :::
 
 # Practical work {background-color="#14497F" .center}

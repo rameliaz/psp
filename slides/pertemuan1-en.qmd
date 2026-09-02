@@ -186,13 +186,13 @@ It took **a full century after Newton** before scientists widely accepted that *
   + Scientists were expected to produce an "ideal picture" of a natural phenomenon, using their own judgement to decide what should count as ideal.
   + As a result, "accidental" or random deviations were typically excluded from the scientific record ([Daston & Galison, 2007](https://www.amazon.de/-/en/Objectivity-Mit-Press-Lorraine-Daston/dp/189095179X)).
 
-* **The consequence of this shift was enormous**: error, once read as evidence of an observer's incompetence, came to be understood as a "systematic" — but random (*stochastic*) — property of the measurement process itself, one that could be modelled and estimated.
+* **The consequence of this shift was enormous**: error, once read as evidence of an observer's incompetence, came to be understood as a "systematic," but random (*stochastic*), property of the measurement process itself — one that could be modelled and estimated.
 
 * Without this shift, *Classical Test Theory* could not exist as we know it today.
 
 :::
 
-## From error to statistics
+## Modeling measurement error statistically
 
 ::: {.incremental}
 

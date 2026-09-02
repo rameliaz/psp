@@ -208,7 +208,7 @@ $$\text{I-CVI} = \frac{\text{jumlah penilai yang memberi nilai 3 atau 4}}{\text{
 
 * Nilainya antara 0 dan 1.
 
-* Contoh: dari 6 penilai, 5 memberi nilai 3 atau 4. Maka I-CVI = 5/6 = **0,83**.
+* Contoh: dari 6 penilai, 5 memberi nilai 3 atau 4. Maka I-CVI = 5/6 = **0.83**.
 
 :::
 
@@ -274,7 +274,7 @@ Perhatikan bahwa kriterianya **lebih ketat kalau penilainya sedikit**. Alasannya
 
 Peluang kesepakatan kebetulan:
 
-$$p_c = \binom{N}{A} \times 0{,}5^N$$
+$$p_c = \binom{N}{A} \times 0{.}5^N$$
 
 Lalu:
 
@@ -380,7 +380,7 @@ Kalau A5 dan A8 diperbaiki lalu dinilai ulang, atau dikeluarkan:
 
 ::: {.incremental}
 
-* Enam item tersisa punya I-CVI: 1.00 — 1.00 — 0.83 — 1.00 — 0.83 — 1.00
+* Enam item tersisa punya I-CVI: 1.00, 1.00, 0.83, 1.00, 0.83, dan 1.00
 
 * $\text{S-CVI/Ave} = 5{.}67 / 6 = \mathbf{0{.}94}$
 
@@ -415,7 +415,7 @@ Laporkan **kedua-duanya**: hasil sebelum perbaikan dan sesudahnya, beserta keput
 . . .
 
 ::: {.callout-tip}
-CVI adalah satu sumber bukti validitas, bukan penentu final. Ia "hanya" menempati satu baris pada tabel bukti validitas di Pertemuan 7.
+CVI adalah satu sumber bukti validitas. Ia "hanya" menempati satu baris pada tabel bukti validitas di Pertemuan 7.
 :::
 
 # Praktik {background-color="#14497F" .center}
