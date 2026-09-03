@@ -55,9 +55,8 @@ We used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate referen
 
 . . .
 
-::: {.callout-note}
-#### Why we need a model
-As long as assumptions are only a list, nothing can be computed from them. Once they are written as equations, we can **derive their consequences** — including the reliability formulas you will use in Session 13.
+::: {.callout-note appearance="simple"}
+As long as assumptions are only a list, nothing can be computed from them. Once they are written as equations, we can **derive their consequences**.
 :::
 
 # What is a latent variable {background-color="#14497F" .center}
@@ -254,7 +253,7 @@ $$SEM = \sigma_X\sqrt{1-\rho} = 5\sqrt{0.20} = 2.24$$
 
 ::: {.callout-tip}
 #### Why this number is useful
-Someone who scores **30** is really located within a range, not at a point. At 95% confidence:
+Someone who scores **30** is really located within a range, not at a point. At 95% confidence (1.96, [see this figure](https://www.researchgate.net/profile/Avijit-Hazra-2/publication/320742650/figure/tbl1/AS:669269071237158@1536577589946/Critical-z-values-used-in-the-calculation-of-confidence-intervals.png)):
 
 $$30 \pm 1.96 \times 2.24 \;\approx\; 25.6 \text{ to } 34.4$$
 :::
@@ -379,7 +378,7 @@ Avoid "our scale is valid". Write instead:
 We cover the types of evidence in Session 7.
 :::
 
-## Connect this back to Session 1
+## Connect this back to Sessions 1 and 2
 
 ::: {.incremental}
 
@@ -771,7 +770,7 @@ We will use question 3 directly when building the blueprint in Session 10.
 
 5. **CTT item statistics depend on the sample.** Report sample characteristics alongside every coefficient.
 
-6. **$\alpha$ assumes the tau-equivalent model**, which is rarely satisfied.
+6. **$\alpha$ assumes the tau-equivalent model**, which is rarely satisfied — so $\omega$, which assumes the congeneric model, is usually the better choice.
 
 :::
 

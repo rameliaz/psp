@@ -46,6 +46,8 @@ We used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate referen
 ::: {.incremental}
 
 * **Final project**: each group of five students will **build a complete psychological scale, together with its manual**.
+  + Add your group members' names to [this spreadsheet](https://docs.google.com/spreadsheets/d/1fTRKB_1MbFcJhqbmfC_gg8h5YDJlRPmh/edit?usp=sharing&ouid=100126014993390956583&rtpof=true&sd=true).
+  + Access to the spreadsheet will be locked after Session 3.
 
 * **First half (Sessions 1–7)**: laying the conceptual groundwork. What measurement is, which assumptions we rely on (some implicit and easy to miss), what a latent variable is, how to choose a response format, and what it means for a scale to be reliable and for scores to be valid.
 
@@ -109,7 +111,7 @@ What makes a number
 
 <br>
 
-Note that this is a **normative** question ("deserve"), not a technical one. The answer is not inside the data.
+Note that this is a **normative** question ("deserve"), which is very different from a technical one like "what's the scale's reliability coefficient?" The answer is not inside the data — it has to be justified on its own terms.
 
 # Measurement was born before science {background-color="#14497F" .center}
 
@@ -666,13 +668,6 @@ A **scale** — with effect indicators, grounded in Classical Test Theory. But y
 
 :::
 
-. . .
-
-::: {.callout-tip}
-#### For the next 16 weeks
-We are doing the **development** kind, not the **assembly** kind. That is why the process is long.
-:::
-
 # The consequences of poor measurement {background-color="#14497F" .center}
 
 ## There is a limit you cannot exceed
@@ -746,7 +741,7 @@ Petersen, Chapter 1; Flake & Fried (2020).
 
 ::: {.callout-warning}
 #### What follows from this
-Two studies can both report on "depression", both use scales that are perfectly reliable, and **still not be measuring the same thing**. Comparing them is far more fragile than it looks.
+Two studies can both report on "depression", both use scales that are equally reliable, and **still not be measuring the same thing**. Comparing them is far more fragile than it looks.
 
 This is the ***jingle fallacy***: assuming two things are the same because they share a name.
 :::

@@ -1168,7 +1168,7 @@
     "href": "slides/pertemuan4-en.html#decision-3-label-every-point-or-only-the-ends",
     "title": "Response Formats I: Likert, Semantic Differential, and Guttman",
     "section": "Decision 3: label every point, or only the ends?",
-    "text": "Decision 3: label every point, or only the ends?\n\nLabelling every point generally yields better reliability and validity than labelling only the endpoints (Krosnick et al., 2010).\nThe reason is simple: if only the ends are labelled, each respondent decides for themselves what the points in between mean.\nBut the labels you choose have to be genuinely distinguishable.\n\n\n\n\n\n\n\n\nAn example of problematic labels\n\n\nConsider this arrangement, from DeVellis:\n\n\n\nVery Helpful\nNot Very Helpful\n\n\nSomewhat Helpful\nNot at All Helpful\n\n\n\nTwo problems at once. First, “somewhat” and “not very” are hard to tell apart under the best of circumstances. Second, reading down the columns makes “Somewhat Helpful” look higher than “Not Very Helpful”; reading across the rows reverses that ordering.",
+    "text": "Decision 3: label every point, or only the ends?\n\nLabelling every point generally yields better reliability and validity than labelling only the endpoints (Krosnick et al., 2010).\nThe reason is simple: if only the ends are labelled, each respondent decides for themselves what the points in between mean.\nBut the labels you choose have to be genuinely distinguishable.\n\n\n\n\n\n\n\n\nAn example of problematic labels\n\n\nConsider this arrangement, adapted from DeVellis:\nVery Helpful ➡️ Not Very Helpful ➡️ Somewhat Helpful ➡️ Not at All Helpful\nThe problem: “Somewhat” and “Not Very” are hard to tell apart, even with the order reversed.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1300,7 +1300,7 @@
     "href": "slides/pertemuan4-en.html#where-guttman-fails",
     "title": "Response Formats I: Likert, Semantic Differential, and Guttman",
     "section": "Where Guttman fails",
-    "text": "Where Guttman fails\n\nAs soon as the construct is not concrete, the ordering stops being the same for everyone.\nDeVellis gives an example: a hypothetical Guttman scale on parental aspirations, with 4 items meant to be ordered. Two matter here — item 3, “Happiness is more likely if a person has attained his or her educational and material goals,” and item 4, “The customarily valued trappings of success are not a hindrance to true happiness.”\nLogically, agreeing with item 3 should mean agreeing with item 4 too. But someone who sees success as simultaneously helping and hindering happiness might agree with item 3 while disagreeing with item 4 — a pattern that breaks the Guttman order.\n\n\n\n\n\n\n\n\nAn important theoretical consequence\n\n\nDeVellis notes something easy to miss: the assumption that all items relate equally strongly to the latent variable does not hold for Guttman items.\nSo the parallel and tau-equivalent models from Session 3 do not fit a Guttman scale — and coefficients like \\(\\omega\\) and \\(\\alpha\\) cannot be applied to a Guttman scale.",
+    "text": "Where Guttman fails\n\nAs soon as the construct is not concrete, the ordering stops being the same for everyone.\nTake two items that “might” be ordered:\n\nItem 1: “Being active in student organisations shows good time-management skills.”\nItem 2: “Good time-management skills do not come at the cost of academic achievement.”\n\nUnder Guttman logic, agreeing with item 1 should mean agreeing with item 2 as well.\nBut a respondent might believe that being active in student organisations does build time-management skills while also costing academic achievement — a pattern that breaks the Guttman order.\nThe assumption that all items relate equally strongly to the latent variable does not hold for Guttman items.\n\nSo the parallel and tau-equivalent models from Session 3 do not fit a Guttman scale, and coefficients such as Cronbach’s \\(\\alpha\\) cannot be used for one.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1344,11 +1344,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan4-en.html#part-1-find-the-problem",
-    "href": "slides/pertemuan4-en.html#part-1-find-the-problem",
+    "objectID": "slides/pertemuan4-en.html#find-the-problem-in-the-items-below",
+    "href": "slides/pertemuan4-en.html#find-the-problem-in-the-items-below",
     "title": "Response Formats I: Likert, Semantic Differential, and Guttman",
-    "section": "Part 1: find the problem",
-    "text": "Part 1: find the problem\nEach of the four response formats below has a problem. Discuss in your group, 15 minutes.\nA. “What is your opinion of the faculty’s academic services?” Very Good — Good — Adequate — Poor\nB. “How often do you feel anxious?” Never — Rarely — Sometimes — Often — Always\nC. “I find my lecturers competent and caring towards students.” Strongly Disagree — Disagree — Neutral — Agree — Strongly Agree\nD. “How satisfied are you with this course?” A 1-to-10 scale with only the endpoints labelled.\n\nExpected answers — A: unbalanced anchors, three positive and one negative, which pushes the score distribution upward. B: vague quantifiers with no time referent; “often” means different things to different people. C: double-barrelled (competent and caring are two things); a respondent who agrees with only one half has no correct answer available. D: ten points with no middle labels, so each respondent decides for themselves what the spacing means. If time is short, cover A and C only — those two appear most often in student drafts.",
+    "section": "Find the problem in the items below",
+    "text": "Find the problem in the items below\nEach of the three response formats below has a problem.\nA. “What is your opinion of the faculty’s academic services?” Very Good — Good — Adequate — Poor\nB. “How often do you feel anxious?” Never — Rarely — Sometimes — Often — Always\nC. “I find my lecturers competent and caring towards students.” Strongly Disagree — Disagree — Neutral — Agree — Strongly Agree\n\nExpected answers — A: unbalanced anchors, three positive and one negative, which pushes the score distribution upward. B: vague quantifiers with no time referent; “often” means different things to different people. C: double-barrelled (competent and caring are two things); a respondent who agrees with only one half has no correct answer available. If time is short, cover A and C only.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -5923,7 +5923,7 @@
     "href": "slides/pertemuan1-en.html#what-will-we-be-doing-this-semester",
     "title": "What Is Measurement? Foundations and Philosophy of Psychological Measurement",
     "section": "What will we be doing this semester?",
-    "text": "What will we be doing this semester?\n\nFinal project: each group of five students will build a complete psychological scale, together with its manual.\nFirst half (Sessions 1–7): laying the conceptual groundwork. What measurement is, which assumptions we rely on (some implicit and easy to miss), what a latent variable is, how to choose a response format, and what it means for a scale to be reliable and for scores to be valid.\nSecond half (Sessions 9–15): building the scale itself. Defining the construct, writing items, getting expert review, collecting pilot data, running item analysis, and developing norms and a manual.\n\n\n\n\n\n\n\n\nWorth noting\n\n\nThe first half is not just an introduction. Almost every technical decision you will make in the second half — how many items to include, what response format to use, which coefficient to report — follows from the conceptual positions we establish in the first half.",
+    "text": "What will we be doing this semester?\n\nFinal project: each group of five students will build a complete psychological scale, together with its manual.\n\nAdd your group members’ names to this spreadsheet.\nAccess to the spreadsheet will be locked after Session 3.\n\nFirst half (Sessions 1–7): laying the conceptual groundwork. What measurement is, which assumptions we rely on (some implicit and easy to miss), what a latent variable is, how to choose a response format, and what it means for a scale to be reliable and for scores to be valid.\nSecond half (Sessions 9–15): building the scale itself. Defining the construct, writing items, getting expert review, collecting pilot data, running item analysis, and developing norms and a manual.\n\n\n\n\n\n\n\n\nWorth noting\n\n\nThe first half is not just an introduction. Almost every technical decision you will make in the second half — how many items to include, what response format to use, which coefficient to report — follows from the conceptual positions we establish in the first half.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -5959,7 +5959,7 @@
     "href": "slides/pertemuan1-en.html#the-central-question-of-this-course",
     "title": "What Is Measurement? Foundations and Philosophy of Psychological Measurement",
     "section": "The central question of this course",
-    "text": "The central question of this course\n\nWhat makes a number\ndeserve to be called a measurement?\n\n\n\nNote that this is a normative question (“deserve”), not a technical one. The answer is not inside the data.",
+    "text": "The central question of this course\n\nWhat makes a number\ndeserve to be called a measurement?\n\n\n\nNote that this is a normative question (“deserve”), which is very different from a technical one like “what’s the scale’s reliability coefficient?” The answer is not inside the data — it has to be justified on its own terms.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -6331,7 +6331,7 @@
     "href": "slides/pertemuan1-en.html#assembly-not-development",
     "title": "What Is Measurement? Foundations and Philosophy of Psychological Measurement",
     "section": "“Assembly”, not “development”",
-    "text": "“Assembly”, not “development”\n\nDeVellis & Thorpe observe that for many item collections, assembly is a more accurate word than development.\nResearchers often throw together or dredge up items and assume the result constitutes a suitable scale.\nWithout ever asking whether those items share a common cause (a scale), a common consequence (an index), or merely a superordinate category (an emergent variable).\n\n\n\n\n\n\n\n\nFor the next 16 weeks\n\n\nWe are doing the development kind, not the assembly kind. That is why the process is long.",
+    "text": "“Assembly”, not “development”\n\nDeVellis & Thorpe observe that for many item collections, assembly is a more accurate word than development.\nResearchers often throw together or dredge up items and assume the result constitutes a suitable scale.\nWithout ever asking whether those items share a common cause (a scale), a common consequence (an index), or merely a superordinate category (an emergent variable).",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -6379,7 +6379,7 @@
     "href": "slides/pertemuan1-en.html#same-name-different-content",
     "title": "What Is Measurement? Foundations and Philosophy of Psychological Measurement",
     "section": "Same name, different content",
-    "text": "Same name, different content\n\nFried (2017) examined seven commonly used depression scales.\nAll seven claim to measure “depression”. Between them, they contain 52 different symptoms.\n40% of those symptoms appear in only one scale, and just 12% appear in all seven.\n\n\n\n\n\n\n\n\nWhat follows from this\n\n\nTwo studies can both report on “depression”, both use scales that are perfectly reliable, and still not be measuring the same thing. Comparing them is far more fragile than it looks.\nThis is the jingle fallacy: assuming two things are the same because they share a name.",
+    "text": "Same name, different content\n\nFried (2017) examined seven commonly used depression scales.\nAll seven claim to measure “depression”. Between them, they contain 52 different symptoms.\n40% of those symptoms appear in only one scale, and just 12% appear in all seven.\n\n\n\n\n\n\n\n\nWhat follows from this\n\n\nTwo studies can both report on “depression”, both use scales that are equally reliable, and still not be measuring the same thing. Comparing them is far more fragile than it looks.\nThis is the jingle fallacy: assuming two things are the same because they share a name.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -6463,7 +6463,7 @@
     "href": "slides/pertemuan3-en.html#where-we-are",
     "title": "Latent Variables: Classical Test Theory and a Glimpse of Item Response Theory",
     "section": "Where we are",
-    "text": "Where we are\n\nSession 1: psychological measurement is indirect, and not every set of items is a scale.\nSession 2: there are six assumptions we rely on, most of them without noticing.\nToday: those assumptions get tidied into a formal mathematical model.\n\n\n\n\n\n\n\n\nWhy we need a model\n\n\nAs long as assumptions are only a list, nothing can be computed from them. Once they are written as equations, we can derive their consequences — including the reliability formulas you will use in Session 13.",
+    "text": "Where we are\n\nSession 1: psychological measurement is indirect, and not every set of items is a scale.\nSession 2: there are six assumptions we rely on, most of them without noticing.\nToday: those assumptions get tidied into a formal mathematical model.\n\n\n\n\n\n\n\n\nAs long as assumptions are only a list, nothing can be computed from them. Once they are written as equations, we can derive their consequences.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -6571,7 +6571,7 @@
     "href": "slides/pertemuan3-en.html#a-worked-example",
     "title": "Latent Variables: Classical Test Theory and a Glimpse of Item Response Theory",
     "section": "A worked example",
-    "text": "A worked example\nSuppose your scale has a total-score standard deviation of \\(\\sigma_X = 5\\), so \\(\\sigma^2_X = 25\\), with reliability \\(\\rho = 0.80\\).\n\n\\[\\sigma^2_T = 0.80 \\times 25 = 20 \\qquad \\sigma^2_E = 25 - 20 = 5\\]\n\n\nThe standard error of measurement, the standard deviation of the errors:\n\\[SEM = \\sigma_X\\sqrt{1-\\rho} = 5\\sqrt{0.20} = 2.24\\]\n\n\n\n\n\n\n\n\nWhy this number is useful\n\n\nSomeone who scores 30 is really located within a range, not at a point. At 95% confidence:\n\\[30 \\pm 1.96 \\times 2.24 \\;\\approx\\; 25.6 \\text{ to } 34.4\\]",
+    "text": "A worked example\nSuppose your scale has a total-score standard deviation of \\(\\sigma_X = 5\\), so \\(\\sigma^2_X = 25\\), with reliability \\(\\rho = 0.80\\).\n\n\\[\\sigma^2_T = 0.80 \\times 25 = 20 \\qquad \\sigma^2_E = 25 - 20 = 5\\]\n\n\nThe standard error of measurement, the standard deviation of the errors:\n\\[SEM = \\sigma_X\\sqrt{1-\\rho} = 5\\sqrt{0.20} = 2.24\\]\n\n\n\n\n\n\n\n\nWhy this number is useful\n\n\nSomeone who scores 30 is really located within a range, not at a point. At 95% confidence (1.96, see this figure):\n\\[30 \\pm 1.96 \\times 2.24 \\;\\approx\\; 25.6 \\text{ to } 34.4\\]",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -6651,11 +6651,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan3-en.html#connect-this-back-to-session-1",
-    "href": "slides/pertemuan3-en.html#connect-this-back-to-session-1",
+    "objectID": "slides/pertemuan3-en.html#connect-this-back-to-sessions-1-and-2",
+    "href": "slides/pertemuan3-en.html#connect-this-back-to-sessions-1-and-2",
     "title": "Latent Variables: Classical Test Theory and a Glimpse of Item Response Theory",
-    "section": "Connect this back to Session 1",
-    "text": "Connect this back to Session 1\n\nRecall Michell’s objection: are psychological attributes genuinely quantitative?\nThe equation \\(X = T + E\\) presumes the answer is yes. We add and subtract \\(T\\) and \\(E\\) as though both were magnitudes.\nCTT does not prove that assumption. CTT builds on it.",
+    "section": "Connect this back to Sessions 1 and 2",
+    "text": "Connect this back to Sessions 1 and 2\n\nRecall Michell’s objection: are psychological attributes genuinely quantitative?\nThe equation \\(X = T + E\\) presumes the answer is yes. We add and subtract \\(T\\) and \\(E\\) as though both were magnitudes.\nCTT does not prove that assumption. CTT builds on it.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -6895,7 +6895,7 @@
     "href": "slides/pertemuan3-en.html#key-points",
     "title": "Latent Variables: Classical Test Theory and a Glimpse of Item Response Theory",
     "section": "6️⃣ Key points",
-    "text": "6️⃣ Key points\n\nThe latent variable is a cause, and that is why items in one scale must correlate.\n\\(X = T + E\\), assuming error is random — not systematic.\nReliability is a proportion of variance: the share of score variability that is not noise.\nTrue score attaches to the instrument, not to the construct. A consistently biased instrument can still be highly reliable — and reliability and validity are both properties of scores, not of a scale.\nCTT item statistics depend on the sample. Report sample characteristics alongside every coefficient.\n\\(\\alpha\\) assumes the tau-equivalent model, which is rarely satisfied.",
+    "text": "6️⃣ Key points\n\nThe latent variable is a cause, and that is why items in one scale must correlate.\n\\(X = T + E\\), assuming error is random — not systematic.\nReliability is a proportion of variance: the share of score variability that is not noise.\nTrue score attaches to the instrument, not to the construct. A consistently biased instrument can still be highly reliable — and reliability and validity are both properties of scores, not of a scale.\nCTT item statistics depend on the sample. Report sample characteristics alongside every coefficient.\n\\(\\alpha\\) assumes the tau-equivalent model, which is rarely satisfied — so \\(\\omega\\), which assumes the congeneric model, is usually the better choice.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7807,7 +7807,7 @@
     "href": "slides/pertemuan10-en.html#why-write-a-surplus",
     "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
     "section": "Why write a surplus",
-    "text": "Why write a surplus\n\nSome items will be dropped at expert review (Session 11), others at item analysis (Session 13).\nIf you write exactly 15 items for a 15-item target, you have no room to discard anything.\nA common rule of thumb: write two to three times your target number.\n\n\n\n\n\n\n\n\nHow many items in the end\n\n\nRecall from Session 6: reliability is driven by the number of items and the mean inter-item correlation. For a scale with moderate inter-item correlations, 10–20 items is usually enough.\nAdding items indefinitely gives shrinking returns and increases respondent burden.",
+    "text": "Why write a surplus\n\nSome items will be dropped at expert review (Session 11), others at item analysis (Session 13).\nIf you write exactly 15 items for a 15-item target, you have no room to discard anything.\nA common rule of thumb: write two to three times your target number.\n\n\n\n\n\n\n\n\nHow many items in the end\n\n\nRecall from Session 6: reliability is driven by the number of items and the mean inter-item correlation. For a scale with moderate inter-item correlations, 10–20 items is usually enough.\nAdding items past that point makes the scale perform worse, not just improve more slowly, and it increases respondent burden.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",

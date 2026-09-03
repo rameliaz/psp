@@ -113,7 +113,7 @@ Construct: **social anxiety** in undergraduates.
 #### How many items in the end
 Recall from Session 6: reliability is driven by the number of items and the mean inter-item correlation. For a scale with moderate inter-item correlations, **10–20 items** is usually enough.
 
-Adding items indefinitely gives shrinking returns and increases respondent burden.
+Adding items past that point makes the scale perform worse, not just improve more slowly, and it increases respondent burden.
 :::
 
 ## Spread the items out

@@ -189,7 +189,7 @@ DeVellis states this plainly: **neither format is inherently superior**. It depe
 
 * The midpoint becomes the safe, lowest-effort option — not a report of their state.
 
-* Krosnick (1991) calls this ***satisficing***: giving an answer that is good enough rather than the most accurate one.
+* [Krosnick (1991)](https://onlinelibrary.wiley.com/doi/abs/10.1002/acp.2350050305) calls this ***satisficing***: giving an answer that is good enough rather than the most accurate one.
 
 :::
 
@@ -235,14 +235,11 @@ This violates the equal-interval assumption from Session 2. If "Slightly Disagre
 
 ::: {.callout-warning}
 #### An example of problematic labels
-Consider this arrangement, from DeVellis:
+Consider this arrangement, adapted from DeVellis:
 
-| | |
-|---|---|
-| Very Helpful | Not Very Helpful |
-| Somewhat Helpful | Not at All Helpful |
+Very Helpful ➡️ Not Very Helpful ➡️ Somewhat Helpful ➡️ Not at All Helpful
 
-**Two problems at once.** First, "somewhat" and "not very" are hard to tell apart under the best of circumstances. Second, reading down the columns makes "Somewhat Helpful" look higher than "Not Very Helpful"; reading across the rows reverses that ordering.
+**The problem**: "Somewhat" and "Not Very" are hard to tell apart, even with the order reversed.
 :::
 
 ## Decision 4: which anchors?
@@ -439,19 +436,17 @@ Note that all three concern **concrete behaviour or capability**, not abstract a
 
 * As soon as the construct is not concrete, the ordering **stops being the same for everyone**.
 
-* DeVellis gives an example: a hypothetical Guttman scale on parental aspirations, with 4 items meant to be ordered. Two matter here — item 3, *"Happiness is more likely if a person has attained his or her educational and material goals,"* and item 4, *"The customarily valued trappings of success are not a hindrance to true happiness."*
+* Take two items that "might" be ordered:
+  + **Item 1**: *"Being active in student organisations shows good time-management skills."*
+  + **Item 2**: *"Good time-management skills do not come at the cost of academic achievement."*
 
-* Logically, agreeing with item 3 should mean agreeing with item 4 too. But someone who sees success as **simultaneously helping and hindering** happiness might agree with item 3 while disagreeing with item 4 — a pattern that breaks the Guttman order.
+* Under Guttman logic, agreeing with item 1 should mean agreeing with item 2 as well.
 
-:::
+* But a respondent might believe that being active in student organisations does build time-management skills while **also** costing academic achievement — a pattern that breaks the Guttman order.
 
-. . .
+* **The assumption that all items relate equally strongly to the latent variable does not hold** for Guttman items.
+  + So the *parallel* and *tau-equivalent* models from Session 3 **do not fit** a Guttman scale, and coefficients such as Cronbach's $\alpha$ cannot be used for one.
 
-::: {.callout-warning}
-#### An important theoretical consequence
-DeVellis notes something easy to miss: **the assumption that all items relate equally strongly to the latent variable does not hold** for Guttman items.
-
-So the *parallel* and *tau-equivalent* models from Session 3 **do not fit** a Guttman scale — and coefficients like $\omega$ and $\alpha$ cannot be applied to a Guttman scale.
 :::
 
 ## Guttman's idea did not disappear
@@ -491,11 +486,11 @@ So the *parallel* and *tau-equivalent* models from Session 3 **do not fit** a Gu
 
 :::
 
-# Demonstration and exercise {background-color="#14497F" .center}
+# Exercise {background-color="#14497F" .center}
 
-## Part 1: find the problem
+## Find the problem in the items below
 
-Each of the four response formats below has a problem. Discuss in your group, **15 minutes**.
+Each of the three response formats below has a problem.
 
 ::: {.incremental}
 
@@ -508,18 +503,14 @@ Never — Rarely — Sometimes — Often — Always
 **C.** *"I find my lecturers competent and caring towards students."*
 Strongly Disagree — Disagree — Neutral — Agree — Strongly Agree
 
-**D.** *"How satisfied are you with this course?"*
-A 1-to-10 scale with only the endpoints labelled.
-
 :::
 
 ::: {.notes}
 Expected answers — A: unbalanced anchors, three positive and one negative, which pushes the score
 distribution upward. B: vague quantifiers with no time referent; "often" means different things to
 different people. C: double-barrelled (competent and caring are two things); a respondent who agrees
-with only one half has no correct answer available. D: ten points with no middle labels, so each
-respondent decides for themselves what the spacing means.
-If time is short, cover A and C only — those two appear most often in student drafts.
+with only one half has no correct answer available.
+If time is short, cover A and C only.
 :::
 
 # Summary {background-color="#14497F" .center}
