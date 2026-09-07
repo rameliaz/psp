@@ -133,7 +133,7 @@ It is a longer sentence, but it is the one you can defend.
 
 . . .
 
-::: {.callout-note}
+::: {.callout-note appearance="simple"}
 The left column is not merely untidy. All three treat validity as something an instrument **possesses** and as something **finished once and for all**.
 :::
 
@@ -153,8 +153,7 @@ Until roughly the 1970s, textbooks divided validity into three:
 
 . . .
 
-::: {.callout-warning}
-#### The problem with this division
+::: {.callout-warning appearance="simple"}
 It leads people to think there are **three separate jobs** to be ticked off one by one. In practice, many reports state that "content validity was established" and stop there.
 :::
 
@@ -257,8 +256,7 @@ AERA, APA, & NCME (2014).
 
 . . .
 
-::: {.callout-note}
-#### You have already done a simple version of this
+::: {.callout-note appearance="simple"}
 In Session 5 you acted as Thurstone judges: rating where each statement sits, then discarding the ones you could not agree on.
 
 CVI uses the same logic with a different criterion.
@@ -363,7 +361,7 @@ Example: a social anxiety scale does not correlate very highly with a depression
 
 . . .
 
-::: {.callout-warning}
+::: {.callout-warning appearance="simple"}
 Convergent evidence alone is not enough. If your scale correlates .85 with **everything**, what you are measuring may be something very general rather than the construct you claim.
 :::
 
@@ -381,7 +379,7 @@ Convergent evidence alone is not enough. If your scale correlates .85 with **eve
 
 . . .
 
-::: {.callout-note}
+::: {.callout-note appearance="simple"}
 This is why any two self-report scales tend to correlate: part of it comes from sharing a method, not from sharing a construct.
 :::
 
@@ -410,7 +408,7 @@ Even a single correlation is far better than no evidence at all.
 
 ::: {.incremental}
 
-* Recall Fried's (2017) finding from Session 1: seven depression scales contained 52 different symptoms.
+* Recall [Fried's (2017)](https://www.sciencedirect.com/science/article/pii/S016503271631312X) finding from Session 1: seven depression scales contained 52 different symptoms.
 
 * So a low correlation with a "similar" scale does **not** necessarily mean your scale is poor. The two may genuinely measure different things despite sharing a name.
 
@@ -424,7 +422,7 @@ Even a single correlation is far better than no evidence at all.
 
 ::: {.incremental}
 
-* Messick argued that **the consequences of using scores** also belong to the validity argument.
+* [Messick (1995)](https://psycnet.apa.org/record/1996-10004-001) argued that **the consequences of using scores** also belong to the validity argument.
 
 * A selection test that systematically disadvantages a particular group is a problem — even if its correlation with the criterion looks good.
 
@@ -467,8 +465,7 @@ Some scholars hold that social consequences are a policy question rather than a 
 
 . . .
 
-::: {.callout-tip}
-#### Why we cover this
+::: {.callout-tip appearance="simple"}
 As with Michell's objection in Session 1: you do not have to agree. What you should know is that even a well-established concept is **still argued over** by people who work on it seriously.
 :::
 
@@ -580,7 +577,7 @@ If time is short, cover A and C only.
 
 . . .
 
-::: {.callout-tip}
+::: {.callout-tip appearance="simple"}
 Your answers to 1 and 2 will be used directly when you build the blueprint in Session 10.
 :::
 
@@ -602,8 +599,7 @@ Your answers to 1 and 2 will be used directly when you build the blueprint in Se
 
 . . .
 
-::: {.callout-note}
-### Worth remembering
+::: {.callout-note appearance="simple"}
 All of it comes down to one sentence: **know which assumptions you are relying on, and what follows if they are wrong.**
 :::
 
@@ -614,8 +610,6 @@ All of it comes down to one sentence: **know which assumptions you are relying o
 * It is **multiple choice**, covering **Sessions 1 to 7**.
 
 * What is tested is not memorised names and dates but the ability to **recognise a situation**: which coefficient fits, which assumption is being violated, what a given statement actually demonstrates.
-
-* The most likely material: levels of measurement, the six assumptions, $X = T + E$, choosing a response format, interpreting $\alpha$ and $\omega$, and the five sources of validity evidence.
 
 :::
 
@@ -633,7 +627,7 @@ The most useful way to revise: take any scale you can find and answer the seven 
 
 * **Session 10** — building the blueprint and writing items.
 
-* **Session 11 onward** — direct mentoring with Bu Dian, in Room 303, on a different day and time. Check the schedule again.
+* **Session 11 onward** — direct mentoring with Bu Dian, in Room 303, on a different day and time. Check the [schedule](https://rameliaz.github.io/psp/#rencana-pertemuan) again.
 
 :::
 

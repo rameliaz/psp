@@ -83,7 +83,7 @@ practical work; have them complete it during this session.
 
 . . .
 
-::: {.callout-note}
+::: {.callout-note appearance="simple"}
 These three give different kinds of feedback. A panel made up entirely of academics tends to miss readability problems that a prospective respondent spots immediately.
 :::
 
@@ -147,7 +147,7 @@ Sending the item list **without the construct definition**. Raters then judge re
 | 4 | Highly relevant |
 
 ::: aside
-Waltz & Bausell (1981); Davis (1992).
+[Waltz & Bausell (1981)](https://dl.acm.org/doi/abs/10.5555/578318); [Davis (1992)](https://onlinelibrary.wiley.com/doi/abs/10.1002/(SICI)1098-240X(199706)20:3%3C269::AID-NUR9%3E3.0.CO;2-G).
 :::
 
 . . .
@@ -243,7 +243,7 @@ formula stick. Ask which items they think are problematic before introducing the
 :::
 
 ::: aside
-Lynn (1986); Polit & Beck (2006).
+[Lynn (1986)](https://www.ovid.com/jnls/nursingresearchonline/abstract/00006199-198611000-00017~determination-and-quantification-of-content-validity?an=00006199-198611000-00017&redirectionsource=fulltextview); [Polit & Beck (2006)](https://onlinelibrary.wiley.com/doi/abs/10.1002/nur.20147).
 :::
 
 . . .
@@ -252,8 +252,8 @@ In the example above, with 6 raters, two items fail: **A5** (0.67) and **A8** (0
 
 . . .
 
-::: {.callout-note}
-Note that the criterion is **stricter when there are fewer raters**. The reason is on the next slide.
+::: {.callout-note appearance="simple"}
+Note that the criterion is **stricter when there are fewer raters**.
 :::
 
 # Agreement by chance {background-color="#14497F" .center}
@@ -283,7 +283,7 @@ $$\kappa^* = \frac{\text{I-CVI} - p_c}{1 - p_c}$$
 where $N$ is the number of raters and $A$ the number judging the item relevant.
 
 ::: aside
-Polit, Beck, & Owen (2007).
+[Polit, Beck, & Owen (2007)](https://onlinelibrary.wiley.com/doi/abs/10.1002/nur.20199).
 :::
 
 ## Applied to the example
@@ -329,8 +329,6 @@ $$\text{S-CVI/Ave} = \frac{6.83}{8} = 0.85 \qquad \text{S-CVI/UA} = \frac{4}{8} 
 0.50 looks poor.
 :::
 
-<br>
-
 . . .
 
 ::: {.incremental}
@@ -372,8 +370,8 @@ compare them.
 
 . . .
 
-::: {.callout-warning}
-Recall the attenuation paradox from Session 7. Dropping items purely to produce tidier numbers can narrow content coverage, which does more harm than good.
+::: {.callout-warning appearance="simple"}
+Recall the attenuation paradox from Session 7. Dropping items purely for a higher reliability coefficient can narrow content coverage, which does more harm than good.
 :::
 
 ## Recompute after revision
@@ -392,7 +390,7 @@ If A5 and A8 are revised and re-rated, or removed:
 
 . . .
 
-::: {.callout-note}
+::: {.callout-note appearance="simple"}
 Report **both**: the result before revision and after, together with the decision taken on each item. What is assessed is the process, not only the final number.
 :::
 
@@ -416,7 +414,7 @@ Report **both**: the result before revision and after, together with the decisio
 
 . . .
 
-::: {.callout-tip}
+::: {.callout-tip appearance="simple"}
 The CVI is one source of evidence. It occupies one row of the validity evidence table from Session 7.
 :::
 

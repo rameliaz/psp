@@ -49,7 +49,7 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
   + Tuliskan nama anggota kelompok Anda di [*spreadsheet* ini](https://docs.google.com/spreadsheets/d/1fTRKB_1MbFcJhqbmfC_gg8h5YDJlRPmh/edit?usp=sharing&ouid=100126014993390956583&rtpof=true&sd=true).
   + Akses ke *spreadsheet* akan dikunci setelah Pertemuan 3.
 
-* **Paruh pertama (Pertemuan 1–7)**: membangun fondasi konseptualnya. Apa itu pengukuran, asumsi apa saja yang kita pakai (yang kadang-kadang implisit dan tidak disadari), apa itu variabel laten, bagaimana memilih format respons, apa artinya skala yang reliabel dan skor yang valid.
+* **Paruh pertama (Pertemuan 1–7)**: membangun fondasi konseptualnya. Apa itu pengukuran, asumsi apa saja yang kita pakai (yang kadang-kadang implisit dan tidak disadari), apa itu variabel laten, bagaimana memilih format respons, apa artinya skor yang reliabel dan valid.
 
 * **Paruh kedua (Pertemuan 9–15)**: mengerjakan skalanya. Menetapkan konstruk, menulis item, meminta *review* ahli, mengambil data uji coba, menganalisis item, menyusun norma dan manual.
 
@@ -68,7 +68,7 @@ Paruh pertama **bukan** sekadar pengantar. Hampir setiap keputusan teknis yang a
 
 ::: {.incremental}
 
-1. Seorang psikolog kesehatan ingin membedakan **apa yang pasien *inginkan*** dari **apa yang pasien *harapkan*** terjadi saat berkonsultasi dengan dokter. Skala yang tersedia saat ini mencampuradukkan keduanya. Ia bisa saja menyusun sendiri beberapa pertanyaan — tapi apa jaminannya pertanyaan itu mengukur sesuatu yang sesungguhnya ia ingin ukur?
+1. Seorang psikolog kesehatan ingin membedakan **apa yang pasien *inginkan*** dari **apa yang pasien *harapkan*** terjadi saat berkonsultasi dengan dokter. Skala yang tersedia saat ini mencampuradukkan keduanya. Ia bisa saja menyusun sendiri beberapa pertanyaan, tetapi apa jaminannya pertanyaan itu mengukur sesuatu yang sesungguhnya ia ingin ukur?
 
 2. Seorang epidemiolog punya data survei nasional yang besar, tapi tidak ada satu pun skala stres di dalamnya. Ada beberapa item yang *sepertinya* menyinggung stres. Bolehkah ia menjumlahkan item-item itu dan menyebutnya "skor stres"?
 
@@ -282,7 +282,7 @@ Terjemahan bebasnya: **pengukuran adalah pemberian angka pada objek atau peristi
 
 ::: {.callout-note}
 #### Apa yang ditambahkan Duncan
-Yang utama adalah syarat **korespondensi**. Angka tidak boleh sekadar mengikuti aturan; strukturnya harus mencerminkan struktur atributnya. Kalau A punya atribut dua kali lebih banyak dari B, angkanya harus menunjukkan kualitas tersebut.
+Yang utama adalah syarat **kopartisipansi**. Angka tidak boleh sekadar mengikuti aturan; strukturnya harus mencerminkan struktur atributnya. Kalau A punya atribut dua kali lebih banyak dari B, angkanya harus menunjukkan kualitas tersebut.
 :::
 
 ## Kritik yang lebih mendasar: Michell
@@ -430,7 +430,7 @@ Ketika hubungan antara variabel dan indikatornya **jauh lebih lemah** daripada p
 
 ::: {.callout-warning}
 #### Apa yang sebenarnya terjadi
-Yang dibandingkan adalah **status dan lama pernikahan** dengan pencapaian profesional, bukan dukungan sosial. Status pernikahan **mengabaikan** aspek penting dukungan sosial (misalnya kualitas dukungan yang dirasakan) dan **memasukkan** faktor yang tidak relevan (misalnya responden yang usianya belum cukup untuk menikah).
+Yang dibandingkan adalah **status dan lama pernikahan** dengan pencapaian profesional, bukan dukungan sosial. Status pernikahan **mengabaikan** aspek penting dukungan sosial (misalnya kualitas dukungan yang dirasakan) dan **memasukkan** faktor yang tidak relevan (misalnya partisipan yang usianya belum cukup untuk menikah).
 
 Kesimpulan "dukungan sosial tidak berperan" bisa **sepenuhnya salah**, dan tidak ada apa pun di dalam data yang akan membantu kita untuk menjawab pertanyaan penelitian ini.
 :::
@@ -795,7 +795,7 @@ Kita akan membahas lebih detail **asumsi-asumsi** yang hari ini baru disinggung:
 * Asumsi bahwa atribut psikologis terdistribusi **normal** — dari mana asalnya, dan apa dasarnya?
 * Asumsi bahwa atributnya ***continuous***, bukan kategorikal.
 * Asumsi bahwa item mengukur hal yang sama **untuk semua kelompok orang**.
-* Asumsi bahwa responden **bisa** dan **mau** melaporkan kondisi internalnya secara akurat.
+* Asumsi bahwa partisipan **bisa** dan **mau** melaporkan kondisi internalnya secara akurat.
 
 :::
 

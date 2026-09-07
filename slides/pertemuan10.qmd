@@ -22,9 +22,9 @@ execute:
 
 ::: {.incremental}
 
-* Menyusun **kisi-kisi**: berapa item untuk tiap aspek, dan kenapa sebanyak itu
+* Menyusun **kisi-kisi**: berapa item untuk tiap aspek, dan kenapa perlu sejumlah itu
 * Kaidah menulis item, dengan contoh yang salah dan perbaikannya
-* **Item *unfavorable***: bagaimana datanya, dan kapan sebaiknya dipakai
+* **Item *unfavorable***: bagaimana bukti empiriknya, dan kapan sebaiknya dipakai
 * Menetapkan **format respons** untuk seluruh skala
 * Merakit kuesionernya: pengantar, petunjuk, tata letak
 * *Workshop* dan saling menelaah antar-kelompok
@@ -55,12 +55,12 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 ::: {.callout-warning}
 ### Perhatikan
 
-Kalau kelompok Anda belum punya uraian spesifikasi konstruk, kerjakan itu lebih dulu hari ini. Menulis item tanpa definisi konstruk membuat Anda kerja dua kali.
+Kalau kelompok Anda belum punya uraian spesifikasi konstruk, kerjakan itu lebih dulu hari ini. Menulis item tanpa definisi konstruk akan membuat Anda kerja dua kali.
 :::
 
 # Kisi-kisi {background-color="#14497F" .center}
 
-## Apa yang dicakup oleh kisi-kisi
+## Apa yang dicakup oleh kisi-kisi (*blueprint*)
 
 ::: {.incremental}
 
@@ -72,8 +72,8 @@ Kalau kelompok Anda belum punya uraian spesifikasi konstruk, kerjakan itu lebih 
 
 . . .
 
-::: {.callout-note}
-Tanpa kisi-kisi, hampir selalu terjadi hal yang sama: aspek yang paling gampang dibayangkan mendapat sepuluh item, sementara aspek yang sulit hanya kebagian dua.
+::: {.callout-note appearance="simple"}
+Tanpa kisi-kisi, aspek yang paling gampang dibayangkan mendapat sepuluh item, sementara aspek yang sulit hanya kebagian dua.
 :::
 
 ## Contoh kisi-kisi
@@ -111,11 +111,10 @@ Konstruk: **kecemasan sosial** pada mahasiswa S1.
 
 . . .
 
-::: {.callout-tip}
-#### Jumlah item akhir
+::: {.callout-tip appearance="simple"}
 Ingat dari Pertemuan 6: reliabilitas ditentukan oleh jumlah item dan rata-rata korelasi antar-item. Untuk skala dengan rata-rata korelasi sedang, **10–20 item** biasanya memadai.
 
-Menambah item terus-menerus membuat performa skala menjadi semakin jelek, dan menambah beban responden.
+Menambah item terus-menerus membuat performa skala menjadi semakin jelek, dan menambah beban partisipann.
 :::
 
 ## Sebarkan itemnya
@@ -126,7 +125,7 @@ Menambah item terus-menerus membuat performa skala menjadi semakin jelek, dan me
 
 * Untuk tiap aspek, tulis sebagian item yang **mudah disetujui** (menandakan tingkat rendah) dan sebagian yang **sulit disetujui** (menandakan tingkat tinggi).
 
-* Kalau semua item Anda menggambarkan tingkat yang ekstrim, responden dengan tingkat sedang tidak akan bisa dibedakan satu sama lain.
+* Kalau semua item Anda menggambarkan tingkat yang ekstrim, partisipan dengan tingkat sedang tidak akan bisa dibedakan satu sama lain.
 
 :::
 
@@ -143,7 +142,7 @@ Ini juga yang mencegah *ceiling effect* dan *floor effect* yang akan langsung te
 
 ::: {.incremental}
 
-* Item ganda (*double-barrelled*) memuat dua gagasan sekaligus, sehingga responden yang setuju pada satu bagian saja tidak punya jawaban yang benar.
+* Item ganda (*double-barrelled*) memuat dua gagasan sekaligus, sehingga partisipan yang setuju pada satu bagian saja tidak punya jawaban yang benar.
 
 * Kata **"dan"**, **"karena"**, serta **"kalau"** sering menjadi penanda item ganda.
 
@@ -160,7 +159,7 @@ Ini juga yang mencegah *ceiling effect* dan *floor effect* yang akan langsung te
 
 ::: {.incremental}
 
-* Item yang panjang memaksa responden mengingat awal kalimat saat membaca bagian akhirnya.
+* Item yang panjang memaksa partisipan mengingat awal kalimat saat membaca bagian akhirnya.
 
 * Hindari **negasi ganda**. *"Saya tidak keberatan kalau tidak diajak berdiskusi"* sulit diproses siapa pun.
 
@@ -171,7 +170,7 @@ Ini juga yang mencegah *ceiling effect* dan *floor effect* yang akan langsung te
 . . .
 
 ::: {.callout-note}
-DeVellis menyarankan tingkat keterbacaan setara kelas 5–7 untuk instrumen yang dipakai pada masyarakat umum. Untuk responden mahasiswa, Anda punya sedikit kelonggaran, tetapi kalimat pendek tetap lebih baik.
+DeVellis menyarankan tingkat keterbacaan setara kelas 5–7 untuk instrumen yang dipakai pada masyarakat umum. Untuk partisipan mahasiswa, Anda punya sedikit kelonggaran, tetapi kalimat pendek tetap lebih baik.
 :::
 
 ## Perilaku konkret, bukan sebabnya
@@ -229,7 +228,7 @@ Mencampur item berkurun waktu berbeda dalam satu skala menambah sumber variasi y
 
 * Kata seperti *"wajar"*, *"seharusnya"*, *"berlebihan"*, atau *"gagal"* mengarahkan jawaban.
 
-* Item juga sebaiknya tidak membuat responden merasa dihakimi, terutama untuk konstruk yang rawan *social desirability* (Pertemuan 2).
+* Item juga sebaiknya tidak membuat partisipan merasa dihakimi, terutama untuk konstruk yang rawan *social desirability* (Pertemuan 2).
 
 :::
 
@@ -246,9 +245,9 @@ Mencampur item berkurun waktu berbeda dalam satu skala menambah sumber variasi y
 
 ::: {.incremental}
 
-* Gagasannya berasal dari Likert (1932) sendiri: untuk menekan kecenderungan responden menyetujui apa saja, separuh item dibuat searah dan separuh berlawanan arah.
+* Gagasannya berasal dari [Likert (1932)](https://psycnet.apa.org/record/1933-01885-001): untuk menekan kecenderungan partisipan menyetujui apa saja, separuh item dibuat searah dan separuh berlawanan arah.
 
-* Kalau responden hanya mengiyakan, polanya akan terlihat: ia menyetujui item yang searah **dan** yang berlawanan sekaligus.
+* Kalau partisipan hanya mengiyakan, polanya akan terlihat: ia menyetujui item yang searah **dan** yang berlawanan sekaligus.
 
 :::
 
@@ -278,7 +277,7 @@ Ringkasan dari [Chyung, Barkin, & Shamsy (2018)](https://onlinelibrary.wiley.com
 
 ::: {.incremental}
 
-* Performa responden menurun sekitar **12 menit** setelah mulai mengisi.
+* Performa partisipan menurun sekitar **12 menit** setelah mulai mengisi.
 
 * Setelah itu, banyak yang tidak lagi menyadari adanya kata "tidak" di dalam item, bahkan ketika kata itu ditebalkan atau digarisbawahi.
 
@@ -309,7 +308,7 @@ Ringkasan dari [Chyung, Barkin, & Shamsy (2018)](https://onlinelibrary.wiley.com
 
 ::: {.callout-warning}
 #### Untuk konstruk tertentu, item searah justru lebih tepat
-Untuk konstruk yang sifatnya memang negatif — kecemasan, depresi — kalimat bernada negatif adalah bentuk yang terbaik. Memaksakan item *unfavorable* di sini justru membuat kalimatnya berbelit.
+Untuk konstruk yang sifatnya memang negatif, seperti kecemasan, depresi, kalimat bernada negatif adalah bentuk yang terbaik. Memaksakan item *unfavorable* di sini justru membuat kalimatnya berbelit.
 :::
 
 # Format respons {background-color="#14497F" .center}
@@ -358,7 +357,7 @@ Kalau yang Anda antisipasi adalah ketidaktahuan, sediakan pilihan terpisah seper
 
 ::: {.incremental}
 
-* **Judul** — mencerminkan isi, singkat, dan tidak membuat responden segan mengisi.
+* **Judul** — mencerminkan isi, singkat, dan tidak membuat partisipan segan mengisi.
 
 * **Pengantar** — tujuan singkat, pernyataan kerahasiaan dan persetujuan, serta **perkiraan waktu pengisian**.
 
@@ -388,7 +387,7 @@ Bikos, *ReCentering Psych Stats: Psychometrics*, Bab 2.
 
 . . .
 
-::: {.callout-warning}
+::: {.callout-warning appearance="simple"}
 Tampilan yang berantakan menurunkan minat partisipan, dan itu langsung berpengaruh pada reliabilitas serta validitas skor Anda. 
 :::
 
@@ -397,7 +396,7 @@ Tampilan yang berantakan menurunkan minat partisipan, dan itu langsung berpengar
 ::: {.incremental}
 
 * Beri **ruang kosong** yang cukup; jangan padat.
-* **Beri nomor** dan **judul bagian** supaya responden tahu sudah sampai mana.
+* **Beri nomor** dan **judul bagian** supaya partisipan tahu sudah sampai mana.
 * Beri jeda tiap **4–6 item**, atau selang-seling warna latar barisnya.
 * Untuk pengisian daring, pastikan tampilannya terbaca di layar ponsel.
 
@@ -407,7 +406,7 @@ Tampilan yang berantakan menurunkan minat partisipan, dan itu langsung berpengar
 
 ::: {.callout-tip}
 #### Data demografis
-Letakkan di bagian **akhir**, kecuali kalau diperlukan untuk menyaring responden di awal. Pertanyaan demografis di awal membuat sebagian responden merasa diidentifikasi sebelum mereka tahu isi kuesionernya.
+Letakkan di bagian **akhir**, kecuali kalau diperlukan untuk menyaring partisipan di awal. Pertanyaan demografis di awal membuat sebagian partisipan merasa diidentifikasi sebelum mereka tahu isi kuesionernya.
 :::
 
 # Workshop {background-color="#14497F" .center}
@@ -429,7 +428,7 @@ Kesalahan yang paling sering muncul di sesi ini: kelompok menulis sepuluh parafr
 indikator, lalu mengira sudah selesai. Ingatkan bahwa item yang nyaris sama melanggar
 local independence dari Pertemuan 2 dan menaikkan alpha tanpa menambah informasi.
 Kesalahan kedua: semua item menggambarkan tingkat yang parah. Minta mereka membayangkan
-responden dengan tingkat sedang, lalu tanya item mana yang bisa membedakannya.
+partisipan dengan tingkat sedang, lalu tanya item mana yang bisa membedakannya.
 :::
 
 ## Bagian 2: saling menelaah

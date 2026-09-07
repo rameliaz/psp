@@ -11,7 +11,7 @@
   <meta name="generator" content="quarto-1.10.18">
 
   <meta name="author" content="Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi">
-  <meta name="dcterms.date" content="2026-09-03">
+  <meta name="dcterms.date" content="2026-09-07">
   <title>Penyusunan Skala Psikologi – Reliability: Core Concepts and Implementation</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -153,7 +153,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
     </div>
 </div>
 
-  <p class="date">2026-09-03</p>
+  <p class="date">2026-09-07</p>
 </section>
 <section id="outline" class="slide level2">
 <h2><em>Outline</em></h2>
@@ -186,16 +186,13 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 </ul>
 </div>
 <div class="fragment">
-<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout callout-note callout-style-simple">
 <div class="callout-body">
-<div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>The data we use today</strong></p>
-</div>
 <div class="callout-content">
-<p>Every number on the following slides is computed from <code>data/data.csv</code> in this course repository — 50 IPIP <em>Big Five</em> items, <strong>n = 19,718</strong>. You can reproduce all of it in jamovi.</p>
+<p>Every number on the following slides is computed from <a href="https://rameliaz.github.io/psp/data/data.csv"><code>data/data.csv</code></a> — 50 IPIP <em>Big Five</em> items, <strong>n = 19,718</strong>. You can reproduce all of it in jamovi.</p>
 </div>
 </div>
 </div>
@@ -240,13 +237,10 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 </tbody>
 </table>
 <div class="fragment">
-<div class="callout callout-warning callout-titled callout-style-default">
+<div class="callout callout-warning callout-style-simple">
 <div class="callout-body">
-<div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
-</div>
-<p><strong>These are not three ways of computing the same thing</strong></p>
 </div>
 <div class="callout-content">
 <p>Each examines a <strong>different source of error</strong>. A scale can be highly internally consistent and yet completely unstable from one week to the next.</p>
@@ -289,13 +283,10 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <li class="fragment"><p>Recall from Session 3: fewer items means a larger share of error. So 0.748 <strong>underestimates</strong> the real reliability of the scale.</p></li>
 </ul>
 <div class="fragment">
-<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout callout-tip callout-style-simple">
 <div class="callout-body">
-<div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
-</div>
-<p><strong>What we need</strong></p>
 </div>
 <div class="callout-content">
 <p>A formula that answers: <em>“if a test of this length has reliability X, what would its reliability be if we doubled its length?”</em></p>
@@ -313,13 +304,10 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <p><span class="math display">\[\rho = \frac{2 \times 0.748}{1 + 0.748} = \frac{1.496}{1.748} = \mathbf{0.856}\]</span></p>
 </div>
 <div class="fragment">
-<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout callout-note callout-style-simple">
 <div class="callout-body">
-<div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
-</div>
-<p><strong>Note</strong></p>
 </div>
 <div class="callout-content">
 <p>The formula was derived independently by <strong>Spearman (1910)</strong> and <strong>Brown (1910)</strong> in the same year and the same journal, which is why both names are attached.</p>
@@ -409,8 +397,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <p><strong>What <span class="math inline">\(\alpha\)</span> actually is</strong></p>
 </div>
 <div class="callout-content">
-<p><span class="math inline">\(\alpha\)</span> is not a special coefficient. It is <strong>the average of all possible split-halves</strong> of your scale (Cronbach, 1951).</p>
-<p>That is how it solves the “which half?” problem: it uses all of them.</p>
+<p><span class="math inline">\(\alpha\)</span> is <strong>the average of all possible split-halves</strong> of your scale (Cronbach, 1951).</p>
 </div>
 </div>
 </div>
@@ -494,13 +481,10 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <li class="fragment"><p>The .70 used everywhere is, in effect, <strong>a misapplied citation</strong>.</p></li>
 </ul>
 <div class="fragment">
-<div class="callout callout-warning callout-titled callout-style-default">
+<div class="callout callout-warning callout-style-simple">
 <div class="callout-body">
-<div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
-</div>
-<p><strong>What to do instead</strong></p>
 </div>
 <div class="callout-content">
 <p>Do not treat .70 as pass or fail. <strong>Match it to what your scores are for</strong>: for group-level research .70 is adequate; for decisions about individuals, especially in high-stakes contexts, .70 is nowhere near enough.</p>
@@ -532,7 +516,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <ul>
 <li class="fragment"><p>0.616 <strong>does not look problematic</strong>. It looks like a middling scale that could be improved.</p></li>
 <li class="fragment"><p>Many reports would describe it as “acceptable” and carry on with the analysis.</p></li>
-<li class="fragment"><p>Yet that scale <strong>mixes two different constructs</strong>, and we know it does, because we built it that way on purpose.</p></li>
+<li class="fragment"><p>Yet that scale <strong>mixes two different constructs</strong>.</p></li>
 </ul>
 <div class="fragment">
 <div class="callout callout-warning callout-titled callout-style-default">
@@ -644,18 +628,15 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 </table>
 <div class="fragment">
 <ul>
-<li class="fragment"><p>The two are <strong>almost identical</strong>. That is not a coincidence.</p></li>
+<li class="fragment"><p>The two are <strong>almost identical</strong>.</p></li>
 <li class="fragment"><p>The loadings are fairly uniform (.55 to .76), so the violation of tau-equivalence here is <strong>small</strong>.</p></li>
 </ul>
 </div>
 <div class="fragment">
-<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout callout-note callout-style-simple">
 <div class="callout-body">
-<div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
-</div>
-<p><strong>A note on this</strong></p>
 </div>
 <div class="callout-content">
 <p><span class="math inline">\(\omega\)</span> is <strong>not</strong> always larger or smaller than <span class="math inline">\(\alpha\)</span>. When items are uniform, the two sit close together. The difference appears precisely when your construct is not unidimensional.</p>
@@ -671,16 +652,13 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <li class="fragment"><p><strong>When the scale is multidimensional.</strong> Here <span class="math inline">\(\alpha\)</span> still looks reasonable while <span class="math inline">\(\omega\)</span> collapses — exactly as in the demonstration.</p></li>
 </ul>
 <div class="fragment">
-<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout callout-tip callout-style-simple">
 <div class="callout-body">
-<div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>How to use this in practice</strong></p>
-</div>
 <div class="callout-content">
-<p>Compute <strong>both</strong>. If <span class="math inline">\(\alpha\)</span> and <span class="math inline">\(\omega\)</span> are close, you have additional evidence that your scale’s structure is reasonably clean. If they are far apart, that is <strong>a sign that something needs checking</strong>, not a choice of which number to use.</p>
+<p>Compute <strong>both</strong>. If <span class="math inline">\(\alpha\)</span> and <span class="math inline">\(\omega\)</span> are close, you have additional evidence that your scale’s structure is unidimensional. If they are far apart, that is <strong>a sign that something about the construct needs checking</strong>.</p>
 </div>
 </div>
 </div>
@@ -747,16 +725,13 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <li class="fragment"><p>Under <strong>Item Statistics</strong>, tick <strong>item-rest correlation</strong> plus <strong>Cronbach’s α</strong> and <strong>McDonald’s ω</strong> <em>if item dropped</em>.</p></li>
 </ol>
 <div class="fragment">
-<div class="callout callout-warning callout-titled callout-style-default">
+<div class="callout callout-warning callout-style-simple">
 <div class="callout-body">
-<div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>The most common mistake</strong></p>
-</div>
 <div class="callout-content">
-<p>Forgetting to reverse the reverse-worded items. When that happens, your <span class="math inline">\(\alpha\)</span> drops sharply and you conclude the scale is faulty — when what is faulty is the scoring.</p>
+<p>Do not forget to reverse the reverse-worded items. When that step is skipped, your <span class="math inline">\(\alpha\)</span> drops sharply and it looks like the scale is faulty — when what is actually faulty is the scoring.</p>
 <p>The tell-tale sign: <strong>a negative item-rest correlation</strong>.</p>
 </div>
 </div>
@@ -834,16 +809,13 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <li class="fragment"><p>In this table, <strong>no</strong> item raises α above .892 when dropped. Even the weakest, E8, is still earning its place.</p></li>
 </ul>
 <div class="fragment">
-<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout callout-tip callout-style-simple">
 <div class="callout-body">
-<div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Something to be careful about</strong></p>
-</div>
 <div class="callout-content">
-<p>Do not drop items purely on the numbers. If an item is <strong>conceptually essential</strong> to defining your construct, removing it to raise α means trading content validity for a higher coefficient.</p>
+<p>Do not drop an item just because its item-rest correlation is low. If the item is <strong>conceptually essential</strong> to defining your construct, removing it to raise <span class="math inline">\(\alpha\)</span> means trading content validity for internal consistency.</p>
 </div>
 </div>
 </div>
@@ -903,13 +875,13 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 </div>
 </section></section>
 <section>
-<section id="group-discussion" class="title-slide slide level1 center" data-background-color="#14497F">
-<h1>Group discussion</h1>
+<section id="activity" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1>Activity</h1>
 
 </section>
 <section id="four-situations" class="slide level2">
 <h2>Four situations</h2>
-<p>Discuss in your group, <strong>25 minutes</strong>. For each: <strong>what do you conclude, and what would you do next?</strong></p>
+<p>Look at the four situations below: <strong>what do you conclude, and what’s the next step?</strong></p>
 <p><strong>A.</strong> A 30-item scale, <span class="math inline">\(\alpha = .95\)</span>, mean inter-item correlation .42. The researcher concludes the scale is excellent.</p>
 <p><strong>B.</strong> A 10-item scale, <span class="math inline">\(\alpha = .62\)</span>, <span class="math inline">\(\omega = .20\)</span>, two large eigenvalues.</p>
 <p><strong>C.</strong> A 4-item scale, <span class="math inline">\(\alpha = .55\)</span>. The group wants to push it above .70.</p>
@@ -931,7 +903,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <section id="closing-questions" class="slide level2">
 <h2>Closing questions</h2>
 <ol type="1">
-<li class="fragment"><p>Of the four situations, which would be <strong>most problematic</strong> if it reached a final report? Why?</p></li>
+<li class="fragment"><p>Of the four situations, which is <strong>most problematic</strong>? Why?</p></li>
 <li class="fragment"><p>For your group’s construct, how many items can you realistically write, and what <strong>mean inter-item correlation</strong> do you expect?</p></li>
 <li class="fragment"><p>Will your group’s scores be used to <strong>describe a group</strong> or to <strong>interpret individuals</strong>? How does that change the reliability standard you should aim for?</p></li>
 </ol>

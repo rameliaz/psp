@@ -39,7 +39,7 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 
 :::
 
-## Posisi Anda saat ini
+## Yang Anda sudah pelajari
 
 ::: {.incremental}
 
@@ -47,7 +47,7 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 
 * **Pertemuan 10** menghasilkan kisi-kisi dan daftar item, beserta format responsnya.
 
-* **Hari ini** daftar item ini akan dinilai orang lain, sebelum partisipan mengisinya.
+* **Hari ini** daftar item ini akan dinilai *reviewer*, sebelum partisipan mengisinya.
 
 :::
 
@@ -77,14 +77,14 @@ mengikuti praktik hari ini secara penuh; minta mereka mengerjakannya di sesi ini
 
 * **Ahli metode** — orang yang menguasai penyusunan skala, yang bisa menilai apakah item ditulis dengan baik.
 
-* **Wakil populasi sasaran** — orang dengan karakteristik yang mirip dengan karakteristik partisipan.
+* **Perwakilan orang awam dengan karakteristik populasi sasaran** — orang dengan karakteristik yang mirip dengan karakteristik partisipan.
 
 :::
 
 . . .
 
-::: {.callout-note}
-Ketiganya memberi masukan yang berbeda. Panel yang seluruhnya berisi dosen cenderung melewatkan persoalan keterbacaan yang langsung terlihat oleh calon responden.
+::: {.callout-note appearance="simple"}
+Ketiganya memberi masukan yang berbeda. Panel yang seluruhnya berisi dosen cenderung melewatkan persoalan keterbacaan yang langsung terlihat oleh calon partisipan.
 :::
 
 ## Berapa orang
@@ -147,7 +147,7 @@ Mengirim daftar item **tanpa definisi konstruknya**. Penilai kemudian menilai re
 | 4 | Sangat relevan |
 
 ::: aside
-Waltz & Bausell (1981); Davis (1992).
+[Waltz & Bausell (1981)](https://dl.acm.org/doi/abs/10.5555/578318); [Davis (1992)](https://onlinelibrary.wiley.com/doi/abs/10.1002/(SICI)1098-240X(199706)20:3%3C269::AID-NUR9%3E3.0.CO;2-G).
 :::
 
 . . .
@@ -173,7 +173,7 @@ Waltz & Bausell (1981); Davis (1992).
 . . .
 
 ::: {.callout-tip}
-#### Kenapa pertanyaan terakhir itu penting
+#### Kenapa pertanyaan terakhir penting disertakan
 CVI hanya memeriksa apakah item yang **ada** itu relevan. Ia tidak bisa memeriksa apakah ada bagian konstruk yang **tidak tercakup sama sekali**.
 
 Itulah *construct underrepresentation* dari Pertemuan 7. Satu-satunya cara memeriksanya lewat panel adalah dengan menanyakannya secara langsung.
@@ -243,7 +243,7 @@ rumusnya melekat. Tanyakan mana yang menurut mereka bermasalah sebelum kriteria 
 :::
 
 ::: aside
-Lynn (1986); Polit & Beck (2006).
+[Lynn (1986)](https://www.ovid.com/jnls/nursingresearchonline/abstract/00006199-198611000-00017~determination-and-quantification-of-content-validity?an=00006199-198611000-00017&redirectionsource=fulltextview); [Polit & Beck (2006)](https://onlinelibrary.wiley.com/doi/abs/10.1002/nur.20147).
 :::
 
 . . .
@@ -252,8 +252,8 @@ Pada contoh tadi, dengan 6 penilai, dua item tidak lolos: **A5** (0.67) dan **A8
 
 . . .
 
-::: {.callout-note}
-Perhatikan bahwa kriterianya **lebih ketat kalau penilainya sedikit**. Alasannya ada di slide berikutnya.
+::: {.callout-note appearance="simple"}
+Perhatikan bahwa kriterianya **lebih ketat kalau penilainya sedikit**. 
 :::
 
 # Kesepakatan yang kebetulan {background-color="#14497F" .center}
@@ -283,7 +283,7 @@ $$\kappa^* = \frac{\text{I-CVI} - p_c}{1 - p_c}$$
 dengan $N$ = jumlah penilai dan $A$ = jumlah penilai yang menilai relevan.
 
 ::: aside
-Polit, Beck, & Owen (2007).
+[Polit, Beck, & Owen (2007)](https://onlinelibrary.wiley.com/doi/abs/10.1002/nur.20199).
 :::
 
 ## Hasilnya pada contoh tadi
@@ -297,7 +297,7 @@ Polit, Beck, & Owen (2007).
 
 . . .
 
-::: {.callout-note}
+::: {.callout-note appearance="simple"}
 Patokan yang umum: $\kappa^* > 0{.}74$ sangat baik, $0{.}60$–$0{.}74$ baik, $0{.}40$–$0{.}59$ cukup, di bawah itu kurang.
 
 Perhatikan A8: I-CVI 0.50 terlihat seperti "setengah setuju", tetapi setelah dikoreksi, kesepakatannya nyaris tidak lebih baik daripada tebakan acak.
@@ -335,7 +335,7 @@ $$\text{S-CVI/Ave} = \frac{6{.}83}{8} = 0{.}85 \qquad \text{S-CVI/UA} = \frac{4}
 
 * Keduanya dihitung dari tabel yang persis sama.
 
-* Polit & Beck (2006) menulis artikel khusus tentang keruwetan ini: banyak laporan menyebut "CVI" tanpa menjelaskan CVI yang versi mana.
+* [Polit & Beck (2006)](https://onlinelibrary.wiley.com/doi/abs/10.1002/nur.20147) menulis artikel khusus tentang *keruwetan* ini: banyak laporan menyebut "CVI" tanpa menjelaskan CVI yang versi mana.
 
 :::
 
@@ -370,7 +370,7 @@ mereka sendiri dan membandingkannya.
 
 . . .
 
-::: {.callout-warning}
+::: {.callout-warning appearance="simple"}
 Ingat paradoks atenuasi dari Pertemuan 7. Membuang item hanya demi koefisien reliabilitas yang lebih tinggi bisa mempersempit cakupan isi skala, dan itu justru merugikan.
 :::
 
@@ -390,7 +390,7 @@ Kalau A5 dan A8 diperbaiki lalu dinilai ulang, atau dikeluarkan:
 
 . . .
 
-::: {.callout-note}
+::: {.callout-note appearance="simple"}
 Laporkan **kedua-duanya**: hasil sebelum perbaikan dan sesudahnya, beserta keputusan yang diambil untuk tiap item. Yang dinilai adalah prosesnya, bukan hanya angka akhirnya.
 :::
 
@@ -402,7 +402,7 @@ Laporkan **kedua-duanya**: hasil sebelum perbaikan dan sesudahnya, beserta keput
 
 * **Kelengkapan.** CVI menilai item yang ada, bukan item yang seharusnya ada. Untuk itu Anda perlu bertanya langsung kepada anggota panel.
 
-* **Kejelasan bagi responden.** Penilai ahli membaca item dengan cara yang berbeda dari calon partisipan. Pemeriksaan kejelasan dilakukan lewat wawancara kognitif, seperti yang dibahas di Pertemuan 7.
+* **Kejelasan bagi partisipan.** Penilai ahli membaca item dengan cara yang berbeda dari calon partisipan. Pemeriksaan kejelasan dilakukan lewat wawancara kognitif, seperti yang dibahas di Pertemuan 7.
 
 * **Apakah konstruknya sendiri masuk akal.** Kalau definisi konstruk Anda bermasalah, anggota panel akan menilai relevansi terhadap definisi yang bermasalah itu.
 
@@ -414,7 +414,7 @@ Laporkan **kedua-duanya**: hasil sebelum perbaikan dan sesudahnya, beserta keput
 
 . . .
 
-::: {.callout-tip}
+::: {.callout-tip appearance="simple"}
 CVI adalah satu sumber bukti validitas. Ia "hanya" menempati satu baris pada tabel bukti validitas di Pertemuan 7.
 :::
 
@@ -482,7 +482,7 @@ Sisakan 15 menit untuk membahas hasil satu atau dua kelompok di depan kelas.
 
 ::: {.incremental}
 
-* Merancang **uji coba**: siapa respondennya, berapa banyak, dan bagaimana menjangkaunya.
+* Merancang **uji coba**: siapa partisipannya, berapa banyak, dan bagaimana menjangkaunya.
 * Menyusun aturan pembersihan data **sebelum** data masuk.
 * Menyertakan **satu skala pembanding** yang pendek, untuk bukti hubungan dengan variabel lain.
 * Menyiapkan wawancara kognitif singkat dengan 3–5 orang sebelum kuesioner disebar.

@@ -110,7 +110,7 @@ The name of your construct must reflect **whose data you collected** (e.g., the 
 ## The latent variable as a *cause*
 
 ::: {.columns}
-::: {.column width="70%"}
+::: {.column width="60%"}
 
 ::: {.incremental}
 
@@ -133,9 +133,9 @@ Inter-item correlations can be computed. The latent variable cannot. So those co
 
 
 :::
-::: {.column width="30%"}
+::: {.column width="40%"}
 
-![](libs/reflektif.png){fig-align="center" width="60%"}
+![](libs/reflektif.png){fig-align="center" width="100%"}
 
 :::
 :::
@@ -154,8 +154,7 @@ Inter-item correlations can be computed. The latent variable cannot. So those co
 
 . . .
 
-::: {.callout-note}
-### Worth remembering
+::: {.callout-note appearance="simple"}
 The procedures you will run in Session 13 — corrected item-total correlations, dropping weak items — rest entirely on this logic.
 :::
 
@@ -309,8 +308,8 @@ Lord & Novick (1968/2008); DeVellis & Thorpe (2022), Chapter 3.
 
 . . .
 
-::: {.callout-warning}
-#### The important conclusion
+::: {.callout-warning appearance="simple"}
+
 CTT has **no way** to detect a consistent bias. Systematic bias goes into $T$, not into $E$.
 
 Which means: **a reliable instrument can measure the wrong thing, very consistently.**
@@ -496,7 +495,7 @@ The reliability you report is **not purely a property of your instrument** — i
 
 ## Three measurement models
 
-![](libs/model-pengukuran.svg){fig-align="center" width="78%"}
+![](libs/model-pengukuran.svg){fig-align="center" width="70%"}
 
 ::: aside
 **1** marks the reference indicator; **a** marks loadings constrained to be equal; **b** marks error variances constrained to be equal; $\lambda_2, \lambda_3$ mark free loadings (allowed to differ from each other) in the congeneric model.
@@ -516,7 +515,7 @@ The reliability you report is **not purely a property of your instrument** — i
 
 . . .
 
-::: {.callout-note}
+::: {.callout-note appearance="simple"}
 Note that all three are assumptions about **your items**, not about the people. This follows directly from the unit-weighting assumption in Session 2.
 :::
 
@@ -582,7 +581,7 @@ Reliability is raised by **selecting better items**.
 
 . . .
 
-::: {.callout-note}
+::: {.callout-note appearance="simple"}
 This difference has a large practical consequence: CTT tends to produce long, redundant scales; IRT tends to produce short, selected ones.
 :::
 
@@ -682,8 +681,7 @@ The closest CTT equivalent of discrimination is the **item–total correlation**
 
 . . .
 
-::: {.callout-note}
-#### Notice
+::: {.callout-note appearance="simple"}
 The first two are precisely assumption 4 from Session 2. IRT does **not remove** assumptions — it demands them more strictly.
 :::
 
@@ -750,7 +748,7 @@ while IRT does.
 
 . . .
 
-::: {.callout-tip}
+::: {.callout-tip appearance="simple"}
 We will use question 3 directly when building the blueprint in Session 10.
 :::
 
@@ -805,7 +803,7 @@ Read the response-format sections of **DeVellis & Thorpe (2022), Chapter 5**. If
 * Reach me at <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
 :::
 
-## References {.smaller}
+## References {.scrollable}
 
 AERA, APA, & NCME. (2014). *Standards for educational and psychological testing*. American Educational Research Association.
 

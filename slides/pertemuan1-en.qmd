@@ -49,7 +49,7 @@ We used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate referen
   + Add your group members' names to [this spreadsheet](https://docs.google.com/spreadsheets/d/1fTRKB_1MbFcJhqbmfC_gg8h5YDJlRPmh/edit?usp=sharing&ouid=100126014993390956583&rtpof=true&sd=true).
   + Access to the spreadsheet will be locked after Session 3.
 
-* **First half (Sessions 1–7)**: laying the conceptual groundwork. What measurement is, which assumptions we rely on (some implicit and easy to miss), what a latent variable is, how to choose a response format, and what it means for a scale to be reliable and for scores to be valid.
+* **First half (Sessions 1–7)**: laying the conceptual groundwork. What measurement is, which assumptions we rely on (some implicit and easy to miss), what a latent variable is, how to choose a response format, and what it means for scores to be reliable and valid.
 
 * **Second half (Sessions 9–15)**: building the scale itself. Defining the construct, writing items, getting expert review, collecting pilot data, running item analysis, and developing norms and a manual.
 
@@ -96,7 +96,7 @@ Adapted from DeVellis & Thorpe (2022), Chapter 1.
 
 ::: {.callout-warning}
 #### Why this matters
-If you take that shortcut, every conclusion in the study rests on an assumption nobody ever checked. The problem is that the data will still **look completely fine**. There will still be means, still be *p*-values, still be a plot you can put in a paper.
+If you take that shortcut, every conclusion in the study rests on an assumption nobody ever checked. The problem is that the data will still **look completely fine**. There will still be means, still be *p*-values, still be a plot you can put in a paper. But does the resulting data actually match what it claims to measure?
 :::
 
 ## The central question of this course
@@ -233,7 +233,7 @@ Bernoulli's comparison describes what we will later call ***random error***, and
 
 ::: {.callout-warning}
 #### An inheritance that is not neutral
-Many early contributors to psychometrics worked within a **[eugenics](https://www.genome.gov/about-genomics/fact-sheets/Eugenics-and-Scientific-Racism)** framework. We still use their statistical tools today, but we are **not obligated to carry forward** the political assumptions and consequences behind them (e.g., forced sterilization or restricted reproduction for groups deemed "inferior", among others). Knowing this history is part of being critical about the theories we use.
+Many early contributors to psychometrics worked within a **[eugenics](https://www.genome.gov/about-genomics/fact-sheets/Eugenics-and-Scientific-Racism)** framework. We still use their statistical tools today, but we are **not obligated to carry forward** the political assumptions and consequences behind them (e.g., forced sterilization or restricted reproduction for groups deemed "inferior").
 :::
 
 ## When psychology was declared unmeasurable
@@ -279,8 +279,6 @@ Many early contributors to psychometrics worked within a **[eugenics](https://ww
 ::: {.callout-note}
 #### What Duncan adds
 A **correspondence** requirement. Numbers must not merely follow a rule; their structure must mirror the structure of the attribute. If A has twice as much of the attribute as B, the numbers should say so too.
-
-Duncan compares Stevens's definition to saying "playing the piano is striking the keys of the instrument according to some pattern" — not exactly wrong, but clearly incomplete.
 :::
 
 ## A more fundamental critique: Michell
@@ -779,7 +777,7 @@ If the data cannot be interpreted in the end, the amount collected is irrelevant
 
 4. **Most psychological data are ordinal but treated as interval.** That is allowed — provided you know you are doing it.
 
-5. **Not every set of items is a scale.** What decides is the direction of causality between construct and items, and that is a theoretical judgement — not a software output.
+5. **Not every set of items is a scale.** What decides is the direction of causality between construct and items.
 
 :::
 

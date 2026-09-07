@@ -55,8 +55,7 @@ When we use a Likert scale, we quietly accept three things:
 
 . . .
 
-::: {.callout-note}
-#### What today covers
+::: {.callout-note appearance="simple"}
 Three formats, each of which **gives up one** of these — and pays a price for it.
 :::
 
@@ -70,8 +69,7 @@ Three formats, each of which **gives up one** of these — and pays a price for 
 
 . . .
 
-::: {.callout-warning}
-### Keep in mind
+::: {.callout-warning appearance="simple"}
 All three are conceptually attractive, but **far harder to build** than Likert, and two of them break assumptions we established in Session 3.
 :::
 
@@ -95,7 +93,7 @@ Analogy from DeVellis & Thorpe (2022), Chapter 5.
 
 . . .
 
-::: {.callout-tip}
+::: {.callout-caution appearance="simple"}
 Contrast this with Likert, where every item is essentially **the same detector** and only the degree of the answer varies.
 :::
 
@@ -133,8 +131,7 @@ Contrast this with Likert, where every item is essentially **the same detector**
 
 . . .
 
-::: {.callout-note}
-#### Notice what just happened
+::: {.callout-note appearance="simple"}
 We have established each item's "difficulty" **before a single respondent has answered**. CTT cannot do that.
 :::
 
@@ -180,7 +177,8 @@ Like Guttman in Session 4, Thurstone items are **not equally weighted**. So the 
 
 ::: {.incremental}
 
-* **Inside IRT.** DeVellis notes that IRT-based methods **share the same goals** as Thurstone scaling. The difficulty parameter $b$ from Session 3 is essentially a Thurstone scale value — except that IRT estimates it from respondent data rather than from a judge panel.
+* **Inside IRT.** IRT-based methods **share the same goal** as Thurstone scaling.
+  + The difficulty parameter $b$ from Session 3 is essentially a Thurstone scale value, except that IRT estimates it from respondent data rather than from a judge panel.
 
 * **Inside your own project.** In Session 11 you will ask a panel of experts to rate the relevance of each item and compute a *Content Validity Index*.
 
@@ -190,9 +188,7 @@ Like Guttman in Session 4, Thurstone items are **not equally weighted**. So the 
 
 ::: {.callout-tip}
 #### Notice the resemblance
-The CVI procedure is **Thurstone's logic applied to content relevance** rather than to position on a continuum. A panel of judges, item-by-item ratings, and discarding items the judges disagree about — all the same.
-
-So you will be running a version of Thurstone without realising it.
+The CVI procedure is **Thurstone's logic applied to content relevance**, rather than to position on a continuum.
 :::
 
 # Situational Judgement Tests {background-color="#14497F" .center}
@@ -205,7 +201,7 @@ So you will be running a version of Thurstone without realising it.
 
 * What is measured is not a self-description but **judgement in a concrete situation**.
 
-* Rooted in personnel selection testing since the 1940s, and revived after Motowidlo et al. (1990) described it as a *low-fidelity simulation*.
+* Rooted in personnel selection testing since the 1940s, and revived after [Motowidlo et al. (1990)](https://psycnet.apa.org/record/1991-11281-001) described it as a *low-fidelity simulation*.
 
 :::
 
@@ -255,11 +251,8 @@ More resistant to impression management.
 
 . . .
 
-::: {.callout-warning}
-#### This is not a cosmetic difference
-Ployhart & Ehrhart (2003) showed that **changing the response instruction changes the test's psychometric properties** — both its reliability and the construct it measures.
-
-The response instruction must be decided in advance, not chosen afterwards.
+::: {.callout-warning appearance="simple"}
+[Ployhart & Ehrhart (2003)](https://onlinelibrary.wiley.com/doi/abs/10.1111/1468-2389.00222) showed that **changing the response instruction changes the test's psychometric properties** — both its reliability and the construct it measures.
 :::
 
 ## How it is scored
@@ -276,7 +269,7 @@ The response instruction must be decided in advance, not chosen afterwards.
 
 . . .
 
-::: {.callout-note}
+::: {.callout-note appearance="simple"}
 Note that the first two **require a panel**, exactly like Thurstone and like the CVI in Session 11.
 :::
 
@@ -288,7 +281,7 @@ Note that the first two **require a panel**, exactly like Thurstone and like the
 
 * **Face relevance**, which makes it easier to accept in a selection setting.
 
-* **Reasonable prediction of performance.** McDaniel et al. (2001) show SJTs predict job performance adequately.
+* **Reasonable prediction of performance.** [McDaniel et al. (2001)](https://psycnet.apa.org/record/2001-01869-017) show SJTs predict job performance adequately.
 
 :::
 
@@ -305,7 +298,7 @@ Note that the first two **require a panel**, exactly like Thurstone and like the
 :::
 
 ::: aside
-Whetzel & McDaniel (2009).
+[Whetzel & McDaniel (2009)](https://www.sciencedirect.com/science/article/pii/S1053482209000394).
 :::
 
 . . .
@@ -391,8 +384,7 @@ The classic example is the *Edwards Personal Preference Schedule* (Edwards, 1959
 
 . . .
 
-::: {.callout-warning}
-#### The sentence to remember
+::: {.callout-warning appearance="simple"}
 With ipsative data, a score answers *"of all these things, which stands out most in me?"* — **not** *"how much of this trait do I have compared with other people?"*
 :::
 
@@ -418,7 +410,7 @@ $$\bar{r} = -\frac{1}{k-1}$$
 
 . . .
 
-::: {.callout-warning}
+::: {.callout-warning appearance="simple"}
 Those numbers come **from the format**, not from the respondents' psychology.
 :::
 
@@ -435,23 +427,22 @@ Those numbers come **from the format**, not from the respondents' psychology.
 :::
 
 ::: aside
-Hicks (1970) reviews these problems in detail.
+[Hicks (1970)](https://psycnet.apa.org/record/1971-01501-001)
 :::
 
 . . .
 
-::: {.callout-warning}
-#### The practical conclusion
-Ipsative instruments **should not** be used for selection, ranking, or comparison between individuals — which is precisely what such instruments are often sold for.
+::: {.callout-warning appearance="simple"}
+Ipsative instruments **should not** be used for selection, ranking, or comparison between individuals.
 :::
 
 ## There is a way out
 
 ::: {.incremental}
 
-* Brown & Maydeu-Olivares (2011) showed that with **IRT** modelling, normative scores can be recovered from forced-choice responses.
+* [Brown & Maydeu-Olivares (2011)](https://journals.sagepub.com/doi/abs/10.1177/0013164410375112) showed that with **IRT** modelling, normative scores can be recovered from forced-choice responses.
 
-* The approach is called ***Thurstonian IRT***, because it builds on Thurstone's model of paired comparisons.
+* The approach is called [***Thurstonian IRT***](https://pmc.ncbi.nlm.nih.gov/articles/PMC6713979/), because it builds on Thurstone's model of paired comparisons.
 
 * So the format remains usable — provided the analysis uses the right model rather than simple summing.
 
@@ -459,9 +450,8 @@ Ipsative instruments **should not** be used for selection, ranking, or compariso
 
 . . .
 
-::: {.callout-tip}
-#### Notice who reappears
-We opened today with Thurstone and we close with Thurstone. A 1920s idea turns out to be what rescues the most problematic of the three formats.
+::: {.callout-tip appearance="simple"}
+We opened today with Thurstone, and we close with Thurstone. Thurstone's 1920s idea turns out to be the solution to this problem.
 :::
 
 # What is realistic for your project {background-color="#14497F" .center}
@@ -470,7 +460,7 @@ We opened today with Thurstone and we close with Thurstone. A 1920s idea turns o
 
 ::: {.incremental}
 
-* **Thurstone** — not realistic. You would need a separate judge panel before data collection, and there is no time.
+* **Thurstone** — still realistic.
 
 * **SJT** — not realistic this semester. Writing good scenarios and building a scoring key is a project in itself.
 
@@ -529,7 +519,7 @@ If time is short, use only statements 1, 3, and 6.
 
 . . .
 
-::: {.callout-tip}
+::: {.callout-tip appearance="simple"}
 Notice that you have just run the same procedure you will use for the CVI in Session 11 — only the criterion differs.
 :::
 
@@ -573,6 +563,7 @@ Time: **10 minutes**. For any pair that is not well matched, write down how you 
 5. ***Forced-choice* protects against social desirability**, but produces **ipsative** data.
 
 6. **Ipsative data forces negative correlations between scales** and makes between-person comparison invalid.
+  + But this can be corrected with the right modelling technique ([Thurstonian IRT](https://pmc.ncbi.nlm.nih.gov/articles/PMC6713979/)).
 
 :::
 

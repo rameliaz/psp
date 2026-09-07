@@ -28,7 +28,7 @@ execute:
 * **Asumsi 3**: atributnya *continuous*, bukan kategorikal
 * **Asumsi 4**: semua item mengukur satu hal yang sama
 * **Asumsi 5**: item bekerja dengan cara yang sama untuk semua kelompok
-* **Asumsi 6**: responden **bisa** dan **mau** melaporkan kondisi internalnya
+* **Asumsi 6**: partisipan **bisa** dan **mau** melaporkan kondisi internalnya
 * Apa yang bisa kita lakukan terhadap asumsi-asumsi ini
 
 :::
@@ -119,7 +119,7 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 | 3 | Atributnya **continuous**, bukan kategorikal | Sebagian |
 | 4 | Semua item mengukur **satu konstruk yang sama** | Ya |
 | 5 | Cara item bekerja, sama untuk **semua kelompok** (*invariance*) | Ya, kalau datanya cukup |
-| 6 | Responden **bisa dan mau** menjawab secara akurat | Sebagian |
+| 6 | partisipan **bisa dan mau** menjawab secara akurat | Sebagian |
 
 : {tbl-colwidths="[8,62,30]"}
 
@@ -199,7 +199,7 @@ Tidak pernah ada bukti kuat bahwa atribut psikologis **harus** terdistribusi nor
 
 * Dalam penyusunan skala, kita **membuang item** yang terlalu mudah atau terlalu sulit disetujui — item yang hampir semua orang menjawab "5/sangat setuju" (e.g., "*Saya percaya Tuhan benar-benar ada*"), atau hampir semua orang menjawab "1/sangat tidak setuju" (e.g., "*Seks pranikah adalah kewajiban moral yang harus dilakukan semua orang*").
 
-* Item yang tersisa adalah item yang **membelah responden di tengah**.
+* Item yang tersisa adalah item yang **membelah partisipan di tengah**.
 
 * Hasilnya: sebaran skor total menjadi lebih simetris dan menumpuk di tengah.
 
@@ -214,7 +214,7 @@ Kita **memilih item supaya sebarannya normal**, lalu memperlakukan normalitas it
 
 ## Mari lihat data yang sebenarnya
 
-Data IPIP *Big Five* (`data/data.csv` di repositori mata kuliah ini), 50 item, skala 1–5, **n = 19.719** responden (jumlah baris mentah; Pertemuan 6 memakai n = 19.718 setelah *listwise deletion*).
+Data IPIP *Big Five* (`data/data.csv` di repositori mata kuliah ini), 50 item, skala 1–5, **n = 19.719** partisipan (jumlah baris mentah; Pertemuan 6 memakai n = 19.718 setelah *listwise deletion*).
 
 Pertama, lihat tiga **item** secara terpisah:
 
@@ -261,7 +261,7 @@ Skor total tiap dimensi (10 item, rentang 10–50), data yang sama:
 
 * Hasilnya terlihat simetris, tetapi **bukan berarti atributnya normal**. Yang terjadi adalah efek penjumlahan.
 
-* Dan sebarannya tetap tidak persis normal: bentuknya lebih datar, dengan responden yang lebih menyebar di rentang tengah daripada yang diperkirakan kurva normal.
+* Dan sebarannya tetap tidak persis normal: bentuknya lebih datar, dengan partisipan yang lebih menyebar di rentang tengah daripada yang diperkirakan kurva normal.
 
 :::
 
@@ -464,7 +464,7 @@ Uji formalnya membutuhkan keterampilan teknis yang lebih kompleks dan sampel den
 
 * Ketika seseorang menjawab *"Saya orang yang teliti"*, ia menilai dirinya **relatif terhadap orang-orang di sekitarnya**, bukan terhadap standar universal.
 
-* Akibatnya, responden dari budaya yang punya standar ketelitian tinggi bisa memberi skor diri **lebih rendah**, meskipun perilakunya justru lebih sesuai dengan konstruk itu.
+* Akibatnya, partisipan dari budaya yang punya standar ketelitian tinggi bisa memberi skor diri **lebih rendah**, meskipun perilakunya justru lebih sesuai dengan konstruk itu.
 
 :::
 
@@ -494,7 +494,7 @@ Perbandingan rata-rata skor antar-negara pada skala *self-report* bisa **berkeba
 Siapa populasi sasaran skala Anda, dan apakah item Anda masuk akal untuk **seluruh** subkelompok di dalamnya? Kita pakai pertanyaan ini lagi saat menetapkan sampel uji coba di Pertemuan 12.
 :::
 
-# Asumsi 6: responden bisa dan mau menjawab akurat {background-color="#14497F" .center}
+# Asumsi 6: partisipan bisa dan mau menjawab akurat {background-color="#14497F" .center}
 
 ## Asumsi yang paling sering dilupakan
 
@@ -502,9 +502,9 @@ Skala *self-report* mengandaikan dua hal sekaligus:
 
 ::: {.incremental}
 
-1. Responden **mampu** mengamati kondisi internalnya dan melaporkannya.
+1. partisipan **mampu** mengamati kondisi internalnya dan melaporkannya.
 
-2. Responden **bersedia** melaporkannya apa adanya.
+2. partisipan **bersedia** melaporkannya apa adanya.
 
 :::
 
@@ -535,7 +535,7 @@ Kita pakai prinsip ini saat menulis item di Pertemuan 10.
 
 ::: {.incremental}
 
-* Responden cenderung menjawab dengan cara yang **membuat dirinya tampak baik**: kadang sadar, kadang tidak.
+* partisipan cenderung menjawab dengan cara yang **membuat dirinya tampak baik**: kadang sadar, kadang tidak.
 
 * Efeknya paling kuat pada konstruk yang punya muatan moral: kejujuran, prasangka, kepatuhan beragama, penggunaan zat, perilaku seksual.
 
@@ -547,7 +547,7 @@ Kita pakai prinsip ini saat menulis item di Pertemuan 10.
 
 ::: {.callout-warning}
 #### Yang perlu diantisipasi kelompok Anda
-Kalau konstruk yang Anda pilih punya "jawaban yang diterima" secara sosial, sebaran skor Anda akan **menumpuk di satu ujung** (e.g., [*ceiling* atau *floor effect*](https://matilda.fss.uu.nl/articles/floor-ceiling-effects.html)). Anda akan kesulitan membedakan responden satu sama lain karena data Anda variansnya rendah. 
+Kalau konstruk yang Anda pilih punya "jawaban yang diterima" secara sosial, sebaran skor Anda akan **menumpuk di satu ujung** (e.g., [*ceiling* atau *floor effect*](https://matilda.fss.uu.nl/articles/floor-ceiling-effects.html)). Anda akan kesulitan membedakan partisipan satu sama lain karena data Anda variansnya rendah. 
 :::
 
 ## Gaya menjawab (*response styles*)
@@ -570,14 +570,14 @@ Kalau konstruk yang Anda pilih punya "jawaban yang diterima" secara sosial, seba
 #### Satu solusi parsial, dengan risiko yang berbeda
 *Acquiescence* biasanya diredam dengan menyisipkan **item bernada terbalik** (*unfavorable* atau *reverse-worded*).
 
-Tetapi item terbalik punya masalahnya sendiri: sebagian responden salah membacanya, dan seringkali item-item terbalik justru mengelompok sendiri dalam analisis faktor seolah-olah membentuk dimensi terpisah. Kita bahas plus-minusnya di Pertemuan 10.
+Tetapi item terbalik punya masalahnya sendiri: sebagian partisipan salah membacanya, dan seringkali item-item terbalik justru mengelompok sendiri dalam analisis faktor seolah-olah membentuk dimensi terpisah. Kita bahas plus-minusnya di Pertemuan 10.
 :::
 
 ## Partisipan yang menjawab asal-asalan
 
 ::: {.incremental}
 
-* Sebagian responden mengisi tanpa membaca, terutama pada kuesioner panjang, daring, dan tanpa insentif.
+* Sebagian partisipan mengisi tanpa membaca, terutama pada kuesioner panjang, daring, dan tanpa insentif.
 
 * **[Meade & Craig (2012)](https://psycnet.apa.org/record/2012-10015-001)** menunjukkan bahwa proporsinya bisa cukup besar untuk mengubah hasil analisis faktor dan estimasi reliabilitas.
 

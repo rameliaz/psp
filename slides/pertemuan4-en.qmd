@@ -54,8 +54,7 @@ We used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate referen
 
 . . .
 
-::: {.callout-note}
-#### What to hold on to today
+::: {.callout-note appearance="simple"}
 A response format is **not a matter of taste or habit**. Each format carries its own package of assumptions, and that package determines which analyses you may later use.
 :::
 
@@ -95,8 +94,7 @@ DeVellis & Thorpe (2022), Chapter 5.
 
 . . .
 
-::: {.callout-warning}
-#### A precision most people skip
+::: {.callout-warning appearance="simple"}
 A single item with five options is **not** a "Likert scale". It is a **Likert-type item**.
 
 A Likert scale exists only when items are summed. Note that this is consistent with Session 3: reliability can only be computed for a **set** of items.
@@ -195,8 +193,7 @@ DeVellis states this plainly: **neither format is inherently superior**. It depe
 
 . . .
 
-::: {.callout-warning}
-#### Something you can check yourself
+::: {.callout-warning appearance="minimal"}
 When a midpoint is available it is often **the most frequently chosen option**. If that happens in your pilot data in Session 12, do not immediately conclude your respondents are genuinely neutral.
 :::
 
@@ -392,7 +389,7 @@ Test your adjective pairs on a few prospective respondents before the pilot. Ask
 
 . . .
 
-::: {.callout-note}
+::: {.callout-note appearance="simple"}
 Note the contrast with Likert. In Likert we sum **degrees of agreement across all items**. In Guttman we look for **the point of transition** from "yes" to "no".
 :::
 
@@ -426,7 +423,7 @@ Note the contrast with Likert. In Likert we sum **degrees of agreement across al
 
 . . .
 
-::: {.callout-tip}
+::: {.callout-tip appearance="simple"}
 Note that all three concern **concrete behaviour or capability**, not abstract attitudes.
 :::
 

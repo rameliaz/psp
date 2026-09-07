@@ -80,6 +80,8 @@ We used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate referen
 
 * The target is simple: **5 to 10 definitions**, quoted in full, with their sources.
 
+* If you want to go deeper and work more systematically, try the [*construct profiling template*](https://docs.google.com/document/d/1JUtv6JsyaOPtBVC79j2Dk9bafFV1XEnH/edit) built for another course (Data Literacy and Academic Writing, MA Psychology).
+
 :::
 
 . . .
@@ -104,7 +106,7 @@ Make a three-column table: **source**, **definition (quoted exactly)**, **what i
 . . .
 
 ::: {.callout-note}
-Recall Fried's (2017) finding from Session 1: seven depression scales contained 52 different symptoms. Disagreement between definitions is not rare; it is the norm.
+Recall [Fried's (2017)](https://www.sciencedirect.com/science/article/pii/S016503271631312X) finding from Session 1: seven depression scales contained 52 different symptoms. Disagreement between definitions is not rare; it is the norm.
 :::
 
 # Step 2: writing the construct definition {background-color="#14497F" .center}
@@ -161,7 +163,7 @@ The construct name in your report must match who actually completed the question
 
 * The level of specificity is **your decision**, not something that emerges on its own.
 
-* DeVellis's example: locus of control. Rotter (1966) framed it generally. Levenson (1973) separated three loci. Wallston et al. (1978) made the outcomes health-specific. A later version can be narrowed to a single illness.
+* DeVellis's example: locus of control. [Rotter (1966)](https://psycnet.apa.org/record/2011-19211-001) framed it generally. [Levenson (1973)](https://psycnet.apa.org/record/1974-09295-001) separated three loci. [Wallston et al. (1978)](https://journals.sagepub.com/doi/abs/10.1177/109019817800600107) made the outcomes health-specific. A later version can be narrowed to a single illness.
 
 * All four are useful. What determines which is right is **the research question**.
 
@@ -203,12 +205,6 @@ Write two lists side by side: **included** and **excluded**. Fill both with conc
 
 * If you cannot write down the difference, you probably cannot separate them through items either.
 
-:::
-
-. . .
-
-::: {.callout-note}
-This list becomes directly useful in Session 12, when you choose a comparison scale for discriminant evidence.
 :::
 
 ## Two classic errors
@@ -269,7 +265,7 @@ The terms come from Thorndike (1904) and Kelley (1927).
 
 . . .
 
-::: {.callout-tip}
+::: {.callout-tip appearance="simple"}
 This sentence is the hardest part of today's work. If your group can write it clearly, the rest of the semester becomes considerably easier.
 :::
 
@@ -393,7 +389,7 @@ One page, containing:
 
 . . .
 
-::: {.callout-note}
+::: {.callout-note appearance="simple"}
 This specification becomes an appendix to your final report, and the material the expert panel reads in Session 11. The panel cannot judge item relevance without first reading the construct definition.
 :::
 

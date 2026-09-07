@@ -170,7 +170,7 @@ $$X = T + E$$
 
 ::: {.incremental}
 
-* $X$ — ***observed score***. Skor yang benar-benar Anda dapatkan dari responden.
+* $X$ — ***observed score***. Skor yang benar-benar Anda dapatkan dari partisipan.
 
 * $T$ — ***true score***. Skor yang akan diperoleh seseorang kalau pengukurannya sempurna.
 
@@ -182,7 +182,7 @@ $$X = T + E$$
 
 ::: {.callout-note}
 #### Cakupan $E$
-Kondisi fisik responden saat mengisi, suasana hati sesaat, ambiguitas kalimat item, gangguan di ruangan, salah klik/pilih jawaban. CTT **tidak memisahkan** sumber-sumber ini. Semuanya dikumpulkan menjadi satu suku *error*.
+Kondisi fisik partisipan saat mengisi, suasana hati sesaat, ambiguitas kalimat item, gangguan di ruangan, salah klik/pilih jawaban. CTT **tidak memisahkan** sumber-sumber ini. Semuanya dikumpulkan menjadi satu suku *error*.
 :::
 
 ## Tiga asumsi CTT
@@ -201,7 +201,7 @@ Kondisi fisik responden saat mengisi, suasana hati sesaat, ambiguitas kalimat it
 
 ::: {.callout-warning}
 #### Perhatikan apa yang diasumsikan di sini
-Ketiganya menyatakan bahwa *error* bersifat **acak**, bukan sistematis. Bias yang konsisten, misalnya seluruh responden menjawab lebih positif karena *social desirability*, **tidak termasuk ke dalam** $E$.
+Ketiganya menyatakan bahwa *error* bersifat **acak**, bukan sistematis. Bias yang konsisten, misalnya seluruh partisipan menjawab lebih positif karena *social desirability*, **tidak termasuk ke dalam** $E$.
 :::
 
 ## Memecah varians skor total
@@ -288,7 +288,7 @@ Di Pertemuan 14 Anda akan mengubah skor menjadi kategori. Kalau batas kategoriny
 
 * Perhatikan: definisinya **melekat pada alat ukurnya**, bukan pada konstruknya.
 
-* *True score* adalah "skor yang stabil yang dihasilkan oleh suatu skala", bukan "kadar konstruk yang sesungguhnya ada pada partisipan/responden".
+* *True score* adalah "skor yang stabil yang dihasilkan oleh suatu skala", bukan "kadar konstruk yang sesungguhnya ada pada partisipan/partisipan".
 
 :::
 
@@ -424,7 +424,7 @@ Rumusnya (*Spearman-Brown*) kita bahas di Pertemuan 6.
 
 * Menambah item yang isinya nyaris sama akan menaikkan $\alpha$ tanpa menambah informasi apa pun dan ini pelanggaran *local independence* dari Pertemuan 2.
 
-* Dan kuesioner yang terlalu panjang memunculkan masalah baru: kelelahan responden dan jawaban yang asal-asalan.
+* Dan kuesioner yang terlalu panjang memunculkan masalah baru: kelelahan partisipan dan jawaban yang asal-asalan.
 
 :::
 
@@ -466,7 +466,7 @@ Semakin besar porsi *noise*/*error* pengukuran dalam skor kasar Anda, semakin ke
 
 * Reliabilitas dalam CTT **bergantung pada sampel**.
 
-* Kalau responden Anda sangat seragam pada atribut yang diukur, rentang *true score* mereka sempit. Korelasi antar-item ikut mengecil, dan **reliabilitas terhitung menjadi rendah** — padahal alat ukurnya sama saja.
+* Kalau partisipan Anda sangat seragam pada atribut yang diukur, rentang *true score* mereka sempit. Korelasi antar-item ikut mengecil, dan **reliabilitas terhitung menjadi rendah** — padahal alat ukurnya sama saja.
 
 * Sebaliknya, sampel yang sangat beragam akan membuat alat yang sama tampak lebih reliabel.
 
@@ -487,7 +487,7 @@ Reliabilitas yang Anda laporkan **bukan sekadar sifat alat ukur Anda**. Ia juga 
 
 ::: {.incremental}
 
-* **Tingkat kesulitan item** dalam CTT diukur sebagai proporsi responden yang menyetujuinya. Angka ini berubah kalau sampelnya berubah.
+* **Tingkat kesulitan item** dalam CTT diukur sebagai proporsi partisipan yang menyetujuinya. Angka ini berubah kalau sampelnya berubah.
 
 * **Daya diskriminasi item** diukur sebagai korelasi item dengan skor total. Ini pun berubah mengikuti sampel.
 
@@ -746,7 +746,7 @@ informasi ini secara eksplisit, sementara IRT memakainya.
 
 3. **Sekarang lihat konstruk kelompok Anda sendiri.** Apakah item yang sudah terbayang di kepala Anda menumpuk di satu bagian rentang, atau tersebar?
 
-4. **Kalau seluruh item Anda "mudah disetujui", apa yang akan terjadi** pada sebaran skor dan pada kemampuan skala Anda membedakan responden?
+4. **Kalau seluruh item Anda "mudah disetujui", apa yang akan terjadi** pada sebaran skor dan pada kemampuan skala Anda membedakan partisipan?
 
 :::
 

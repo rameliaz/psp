@@ -53,6 +53,8 @@ We used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate referen
 . . .
 
 ::: {.callout-warning}
+### Note
+
 If your group does not yet have a construct specification, do that first today. Writing items without a construct definition only produces work that has to be redone.
 :::
 
@@ -70,7 +72,7 @@ If your group does not yet have a construct specification, do that first today. 
 
 . . .
 
-::: {.callout-note}
+::: {.callout-note appearance="simple"}
 Without a blueprint, the same thing happens almost every time: the facet that is easiest to picture gets ten items, while the difficult one gets two.
 :::
 
@@ -109,8 +111,7 @@ Construct: **social anxiety** in undergraduates.
 
 . . .
 
-::: {.callout-tip}
-#### How many items in the end
+::: {.callout-tip appearance="simple"}
 Recall from Session 6: reliability is driven by the number of items and the mean inter-item correlation. For a scale with moderate inter-item correlations, **10–20 items** is usually enough.
 
 Adding items past that point makes the scale perform worse, not just improve more slowly, and it increases respondent burden.
@@ -131,6 +132,7 @@ Adding items past that point makes the scale perform worse, not just improve mor
 . . .
 
 ::: {.callout-tip}
+### Tip
 This is also what prevents the ceiling and floor effects that will show up immediately in the score distribution in Session 13.
 :::
 
@@ -203,6 +205,8 @@ DeVellis suggests a reading level around grades 5–7 for instruments used with 
 . . .
 
 ::: {.callout-warning}
+### Important
+
 Mixing time frames within one scale adds a source of variation you did not intend, and it usually appears as an extra factor in the analysis in Session 13.
 :::
 
@@ -383,7 +387,7 @@ Bikos, *ReCentering Psych Stats: Psychometrics*, Chapter 2.
 
 . . .
 
-::: {.callout-warning}
+::: {.callout-warning appearance="simple"}
 A cluttered questionnaire reduces respondent engagement, and that feeds directly into the reliability and validity of your scores.
 :::
 

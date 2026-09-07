@@ -58,9 +58,8 @@ $$\rho_{XX'} = \frac{\sigma^2_T}{\sigma^2_X}$$
 
 . . .
 
-::: {.callout-note}
-#### The data we use today
-Every number on the following slides is computed from `data/data.csv` in this course repository — 50 IPIP *Big Five* items, **n = 19,718**. You can reproduce all of it in jamovi.
+::: {.callout-note appearance="simple"}
+Every number on the following slides is computed from [`data/data.csv`](https://rameliaz.github.io/psp/data/data.csv) — 50 IPIP *Big Five* items, **n = 19,718**. You can reproduce all of it in jamovi.
 :::
 
 # Reliability {background-color="#14497F" .center}
@@ -75,8 +74,7 @@ Every number on the following slides is computed from `data/data.csv` in this co
 
 . . .
 
-::: {.callout-warning}
-#### These are not three ways of computing the same thing
+::: {.callout-warning appearance="simple"}
 Each examines a **different source of error**. A scale can be highly internally consistent and yet completely unstable from one week to the next.
 
 Reporting $\alpha$ tells you **nothing** about the stability of your scores over time.
@@ -128,8 +126,7 @@ $$r = 0.748$$
 
 . . .
 
-::: {.callout-tip}
-#### What we need
+::: {.callout-tip appearance="simple"}
 A formula that answers: *"if a test of this length has reliability X, what would its reliability be if we doubled its length?"*
 :::
 
@@ -147,7 +144,7 @@ $$\rho = \frac{2 \times 0.748}{1 + 0.748} = \frac{1.496}{1.748} = \mathbf{0.856}
 
 . . .
 
-::: {.callout-note}
+::: {.callout-note appearance="simple"}
 The formula was derived independently by **Spearman (1910)** and **Brown (1910)** in the same year and the same journal, which is why both names are attached.
 :::
 
@@ -225,9 +222,7 @@ where $k$ is the number of items, $\sigma^2_i$ each item's variance, and $\sigma
 
 ::: {.callout-note}
 #### What $\alpha$ actually is
-$\alpha$ is not a special coefficient. It is **the average of all possible split-halves** of your scale (Cronbach, 1951).
-
-That is how it solves the "which half?" problem: it uses all of them.
+$\alpha$ is **the average of all possible split-halves** of your scale (Cronbach, 1951).
 :::
 
 ## What determines the size of $\alpha$
@@ -290,8 +285,7 @@ Starting from $\alpha = .892$ at 10 items:
 
 . . .
 
-::: {.callout-warning}
-#### What to do instead
+::: {.callout-warning appearance="simple"}
 Do not treat .70 as pass or fail. **Match it to what your scores are for**: for group-level research .70 is adequate; for decisions about individuals, especially in high-stakes contexts, .70 is nowhere near enough.
 :::
 
@@ -323,7 +317,7 @@ $\alpha = 0.616$
 
 * Many reports would describe it as "acceptable" and carry on with the analysis.
 
-* Yet that scale **mixes two different constructs**, and we know it does, because we built it that way on purpose.
+* Yet that scale **mixes two different constructs**.
 
 :::
 
@@ -410,7 +404,7 @@ The IPIP Extraversion scale, 10 items:
 
 ::: {.incremental}
 
-* The two are **almost identical**. That is not a coincidence.
+* The two are **almost identical**.
 
 * The loadings are fairly uniform (.55 to .76), so the violation of tau-equivalence here is **small**.
 
@@ -418,8 +412,7 @@ The IPIP Extraversion scale, 10 items:
 
 . . .
 
-::: {.callout-note}
-#### A note on this
+::: {.callout-note appearance="simple"}
 $\omega$ is **not** always larger or smaller than $\alpha$. When items are uniform, the two sit close together. The difference appears precisely when your construct is not unidimensional.
 :::
 
@@ -435,9 +428,8 @@ $\omega$ is **not** always larger or smaller than $\alpha$. When items are unifo
 
 . . .
 
-::: {.callout-tip}
-#### How to use this in practice
-Compute **both**. If $\alpha$ and $\omega$ are close, you have additional evidence that your scale's structure is reasonably clean. If they are far apart, that is **a sign that something needs checking**, not a choice of which number to use.
+::: {.callout-tip appearance="simple"}
+Compute **both**. If $\alpha$ and $\omega$ are close, you have additional evidence that your scale's structure is unidimensional. If they are far apart, that is **a sign that something about the construct needs checking**.
 :::
 
 ## But neither replaces checking dimensionality
@@ -507,9 +499,8 @@ Two people scoring 30 and 35 **cannot** be said to differ.
 
 . . .
 
-::: {.callout-warning}
-#### The most common mistake
-Forgetting to reverse the reverse-worded items. When that happens, your $\alpha$ drops sharply and you conclude the scale is faulty — when what is faulty is the scoring.
+::: {.callout-warning appearance="simple"}
+Do not forget to reverse the reverse-worded items. When that step is skipped, your $\alpha$ drops sharply and it looks like the scale is faulty — when what is actually faulty is the scoring.
 
 The tell-tale sign: **a negative item-rest correlation**.
 :::
@@ -548,9 +539,8 @@ The tell-tale sign: **a negative item-rest correlation**.
 
 . . .
 
-::: {.callout-tip}
-#### Something to be careful about
-Do not drop items purely on the numbers. If an item is **conceptually essential** to defining your construct, removing it to raise α means trading content validity for a higher coefficient.
+::: {.callout-tip appearance="simple"}
+Do not drop an item just because its item-rest correlation is low. If the item is **conceptually essential** to defining your construct, removing it to raise $\alpha$ means trading content validity for internal consistency.
 :::
 
 ## Checking dimensionality ('*nice to know*')
@@ -596,11 +586,11 @@ For the mixed set earlier, the eigenvalues were 3.53 and 2.23 — both large. Th
 *"This 10-item scale had $\alpha = .89$ and $\omega = .89$ in n = 200 undergraduates (aged 18–23). Exploratory factor analysis indicated one dominant factor (eigenvalue 4.5 versus 0.9). SEM = 3.0."*
 :::
 
-# Group discussion {background-color="#14497F" .center}
+# Activity {background-color="#14497F" .center}
 
 ## Four situations
 
-Discuss in your group, **25 minutes**. For each: **what do you conclude, and what would you do next?**
+Look at the four situations below: **what do you conclude, and what's the next step?**
 
 ::: {.incremental}
 
@@ -627,7 +617,7 @@ reversed; check the scoring before concluding anything about the item.
 
 ::: {.incremental}
 
-1. Of the four situations, which would be **most problematic** if it reached a final report? Why?
+1. Of the four situations, which is **most problematic**? Why?
 
 2. For your group's construct, how many items can you realistically write, and what **mean inter-item correlation** do you expect?
 

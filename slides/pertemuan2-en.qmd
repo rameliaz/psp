@@ -126,7 +126,7 @@ We used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate referen
 
 . . .
 
-::: {.callout-note}
+::: {.callout-note appearance="simple"}
 Note that the most fundamental assumption (number 1) is also the hardest to check.
 :::
 
@@ -177,7 +177,8 @@ This course uses CTT, so *unit weighting* is an assumption you will be making. W
 
 ::: {.incremental}
 
-* **Adolphe Quetelet** (1835) introduced *l'homme moyen*, "the average man". He applied the normal curve — at the time a model of **observational error** in astronomy — to human characteristics.
+* **Adolphe Quetelet** (1835) introduced *l'homme moyen*, "the average man".
+  + He applied the normal curve — at the time a model of **observational error** in astronomy — to human characteristics.
 
 * The implication: the normal curve moved from being **a model of error** to being **a model of people**.
 

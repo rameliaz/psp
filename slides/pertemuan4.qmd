@@ -84,7 +84,7 @@ DeVellis & Thorpe (2022), Bab 5.
 
 ::: {.incremental}
 
-* Diperkenalkan **Rensis Likert (1932)** dalam disertasinya, *A technique for the measurement of attitudes*.
+* Diperkenalkan [**Rensis Likert (1932)**](https://psycnet.apa.org/record/1933-01885-001) dalam disertasinya, *A technique for the measurement of attitudes*.
 
 * Gagasan intinya bukan pada opsi "Sangat Setuju sampai Sangat Tidak Setuju", melainkan pada ***summated ratings***: sekumpulan item yang direspons dengan skala berjenjang, lalu **dijumlahkan** menjadi satu skor.
 
@@ -129,7 +129,7 @@ Keempatnya adalah keputusan yang berbeda.
 
 ::: {.incremental}
 
-* **Empat pilihan atau kurang** menekan variasi antar-responden dan menurunkan presisi. 
+* **Empat pilihan atau kurang** menekan variasi antar-partisipan dan menurunkan presisi. 
   + [Preston & Colman (2000)](https://www.sciencedirect.com/science/article/abs/pii/S0001691899000505) melaporkan skala dua, tiga, dan empat pilihan membuat skala kurang presisi.
 
 * **Sekitar 5–7 pilihan** adalah wilayah yang paling sering direkomendasikan. 
@@ -144,7 +144,7 @@ Keempatnya adalah keputusan yang berbeda.
 
 ::: {.callout-note}
 #### Dua pertimbangan lain dari DeVellis
-Pertama, **kemampuan responden membedakan**. Kalau responden tidak sanggup membedakan tujuh pilihan respon, menyediakan tujuh pilihan hanya akan menambah *noise*.
+Pertama, **kemampuan partisipan membedakan**. Kalau partisipan tidak sanggup membedakan tujuh pilihan respon, menyediakan tujuh pilihan hanya akan menambah *noise*.
 
 Kedua, **tujuan pengukuran yang Anda tetapkan sendiri**. Kalau nanti skornya Anda kelompokkan menjadi tiga kategori, buat apa Anda menggunakan 10 pilihan respons?
 :::
@@ -165,7 +165,7 @@ Cocok kalau posisi netral memang bermakna secara teoretis.
 
 ### Jumlah genap
 
-**Memaksa** responden memberikan pilihan, walaupun berbeda dengan kondisi mereka sebenarnya.
+**Memaksa** partisipan memberikan pilihan, walaupun berbeda dengan kondisi mereka sebenarnya.
 
 Cocok kalau Anda curiga netral akan dipakai partisipan untuk menghindar.
 
@@ -183,11 +183,11 @@ DeVellis menyebutkan bahwa **tidak ada format yang otomatis lebih baik**. Piliha
 
 ::: {.incremental}
 
-* Kalau setiap item punya pilihan di tengah, sebagian responden akan belajar bahwa mereka **selalu bisa memilih pilihan tengah** dan menyelesaikan kuesioner lebih cepat.
+* Kalau setiap item punya pilihan di tengah, sebagian partisipan akan belajar bahwa mereka **selalu bisa memilih pilihan tengah** dan menyelesaikan kuesioner lebih cepat.
 
 * Pilihan tengah menjadi pilihan yang aman dan paling mudah, bukan laporan yang aktual tentang kondisi psikologis partisipan.
 
-* [Krosnick (1991)](https://onlinelibrary.wiley.com/doi/abs/10.1002/acp.2350050305) menyebut pola ini ***satisficing***: responden memberi jawaban yang "cukup memadai", bukan jawaban yang paling akurat.
+* [Krosnick (1991)](https://onlinelibrary.wiley.com/doi/abs/10.1002/acp.2350050305) menyebut pola ini ***satisficing***: partisipan memberi jawaban yang "cukup memadai", bukan jawaban yang paling akurat.
 
 :::
 
@@ -222,7 +222,7 @@ Pemilihan istilah yang tidak sesuai (i.e., "netral" vs. "ragu-ragu" vs. "kurang 
 
 * Melabeli **semua pilihan** umumnya menghasilkan reliabilitas dan validitas yang lebih baik daripada hanya melabeli kedua ujungnya [(Krosnick, dkk., 2010)](https://www.researchgate.net/profile/Nasir-Ali-22/post/Writing-a-survey/attachment/59d6467e79197b80779a1841/AS%3A458354666545152%401486291676030/download/The+Future+of+Survey+Research+-+Challenges+and+Opportunities.pdf).
 
-* Alasannya sederhana: kalau hanya ujungnya yang diberi label, tiap responden menafsirkan sendiri arti titik-titik di antaranya.
+* Alasannya sederhana: kalau hanya ujungnya yang diberi label, tiap partisipan menafsirkan sendiri arti titik-titik di antaranya.
 
 * Tetapi label yang dipilih harus benar-benar dapat dibedakan oleh partisipan.
 
@@ -255,7 +255,7 @@ Sangat Membantu ➡️ Kurang Membantu ➡️ Agak Membantu ➡️ Tidak Membant
 
 ::: {.callout-tip}
 #### Penting diketahui
-*Anchor* persetujuan mendorong responden untuk sekadar mengiyakan. [Weijters dkk. (2010)](https://psycnet.apa.org/record/2010-04293-009) memperkuat hal ini dengan menunjukkan bahwa format skala ikut menentukan *response style* yang muncul.
+*Anchor* persetujuan mendorong partisipan untuk sekadar mengiyakan. [Weijters dkk. (2010)](https://psycnet.apa.org/record/2010-04293-009) memperkuat hal ini dengan menunjukkan bahwa format skala ikut menentukan *response style* yang muncul.
 :::
 
 ## Seberapa kuat sebaiknya kalimat itemnya?
@@ -370,7 +370,7 @@ Logikanya persis sama: satu variabel laten sebagai penyebab beberapa item (*shar
 
 ::: {.callout-warning}
 #### Kalau kelompok Anda memakai format ini
-Uji pasangan kata sifatnya pada beberapa calon responden sebelum uji coba. Tanyakan satu hal sederhana: *"Menurut Anda, apa lawan kata dari ini?"* Kalau jawabannya bukan kata yang Anda pasangkan, pasangan kata tsb. perlu diganti.
+Uji pasangan kata sifatnya pada beberapa calon partisipan sebelum uji coba. Tanyakan satu hal sederhana: *"Menurut Anda, apa lawan kata dari ini?"* Kalau jawabannya bukan kata yang Anda pasangkan, pasangan kata tsb. perlu diganti.
 :::
 
 # Guttman {background-color="#14497F" .center}
@@ -403,7 +403,7 @@ Perhatikan bedanya dengan Likert. Pada Likert, yang dijumlahkan adalah **derajat
 
 * Pada pola yang sempurna, **skor total sudah memberi tahu persis item mana saja yang disetujui**. Tidak ada informasi yang hilang ketika kita meringkasnya menjadi satu angka.
 
-* Pada panel kanan, 3️⃣ responden menyimpang: ada yang menyetujui item yang sulit tetapi menolak item yang lebih mudah.
+* Pada panel kanan, 3️⃣ partisipan menyimpang: ada yang menyetujui item yang sulit tetapi menolak item yang lebih mudah.
 
 * Semakin banyak penyimpangan, semakin kecil arti skor totalnya. Ukuran yang lazim dipakai untuk ini adalah ***coefficient of reproducibility***.
 
@@ -475,9 +475,9 @@ Perhatikan bahwa ketiganya berhubungan dengan **perilaku atau kemampuan yang kon
 
 ::: {.incremental}
 
-* **Likert** mengasumsikan jarak antar-kategori setara, semua responden memaknai jangkar dengan cara yang sama, dan semua item berbobot sama.
+* **Likert** mengasumsikan jarak antar-kategori setara, semua partisipan memaknai jangkar dengan cara yang sama, dan semua item berbobot sama.
 
-* **Semantic Differential** mengasumsikan pasangan kata sifatnya benar-benar bipolar, dan maknanya sama bagi semua responden.
+* **Semantic Differential** mengasumsikan pasangan kata sifatnya benar-benar bipolar, dan maknanya sama bagi semua partisipan.
 
 * **Guttman** mengasumsikan urutan kumulatif yang **deterministik** — asumsi yang paling sulit dipenuhi kalau dibandingkan dengan Likert dan *Semantic Differential*.
 
@@ -487,7 +487,7 @@ Perhatikan bahwa ketiganya berhubungan dengan **perilaku atau kemampuan yang kon
 
 ## Temukan masalah pada item di bawah ini
 
-Empat format respons berikut punya masalah.
+Tiga format respons berikut punya masalah.
 
 ::: {.incremental}
 
@@ -505,7 +505,7 @@ Sangat Tidak Setuju — Tidak Setuju — Netral — Setuju — Sangat Setuju
 ::: {.notes}
 Jawaban yang diharapkan — A: jangkar tidak seimbang, tiga positif satu negatif, sehingga sebaran skor terdorong ke atas. 
 B: kuantifier tanpa rujukan waktu; "sering" berbeda artinya bagi tiap orang.
-C: item ganda (kompeten dan peduli adalah dua hal), responden yang setuju pada satu bagian saja
+C: item ganda (kompeten dan peduli adalah dua hal), partisipan yang setuju pada satu bagian saja
 tidak punya jawaban yang benar. 
 
 Kalau waktu mepet, cukup bahas A dan C.
@@ -517,7 +517,7 @@ Kalau waktu mepet, cukup bahas A dan C.
 
 ::: {.incremental}
 
-1. **Format respons bukan soal selera individual.** Setiap format punya asumsinya sendiri.
+1. **Format respons bukan soal kebiasaan atau selera pembuat skala.** Setiap format punya asumsinya sendiri, sehingga memilih format = memilih asumsi.
 
 2. **"Skala Likert" berarti sekumpulan item yang dijumlahkan**, bukan satu item dengan lima pilihan.
 
@@ -537,9 +537,9 @@ Kita lanjutkan ke format respons yang lebih jarang dipakai, tetapi punya kelebih
 
 ::: {.incremental}
 
-* **Thurstone** — ketika item diberi bobot berbeda oleh panel ahli, sehingga tidak diperlakukan setara.
-* ***Situational Judgement Test*** — ketika yang diukur adalah penilaian dalam situasi konkret.
-* ***Forced-choice*** — ketika *social desirability* menjadi masalah utama, dan partisipan dipaksa memilih di antara dua hal yang sama-sama menarik.
+* **Thurstone** — item diberi bobot berbeda oleh panel ahli, sehingga tidak diperlakukan setara.
+* ***Situational Judgement Test*** — yang diukur adalah penilaian dalam situasi konkret.
+* ***Forced-choice*** — digunakan ketika *social desirability* menjadi masalah utama, dan partisipan dipaksa memilih di antara dua hal yang sama-sama menarik.
 
 :::
 

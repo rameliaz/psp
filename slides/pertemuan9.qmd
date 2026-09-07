@@ -26,8 +26,8 @@ execute:
 * **Tinjauan pustaka** yang berguna untuk penyusunan skala (dan yang tidak)
 * Cara menuliskan **definisi konstruk** yang bisa dipakai
 * **Batas konstruk**: apa yang tidak termasuk, dan *sibling construct*
-* **Estimand**: besaran apa, pada siapa, dalam kondisi apa
-* Dari definisi konstruk ke **definisi operasional**
+* ***Estimand***: besaran apa, pada siapa, dalam kondisi apa
+* Definisi konstruk dan **definisi operasional**
 
 :::
 
@@ -40,13 +40,13 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 
 # Mulai mengerjakan {background-color="#14497F" .center}
 
-## Yang berubah mulai hari ini
+## Yang perlu diingat
 
 ::: {.incremental}
 
 * Tujuh pertemuan pertama membahas apa yang perlu Anda ketahui. Mulai sekarang, semuanya menjadi **keputusan yang harus kelompok Anda ambil**.
 
-* Pertemuan hari ini bukan kuliah. Sebagian besar waktunya adalah **kerja kelompok**.
+* Pertemuan hari ini hanya sedikit ceramah. Sebagian besar waktunya perlu dihabiskan untuk **kerja kelompok**.
 
 * Yang Anda hasilkan hari ini akan dipakai terus sampai Pertemuan 15.
 
@@ -80,13 +80,15 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 
 * Targetnya sederhana: **5 sampai 10 definisi**, dikutip utuh, lengkap dengan sumbernya.
 
+* Kalau Anda ingin melakukan riset yang lebih mendalam dan sistematis, coba ikuti [*template construct profiling*](https://docs.google.com/document/d/1JUtv6JsyaOPtBVC79j2Dk9bafFV1XEnH/edit) yang dibuat untuk MK yang lain (MK Literasi Data dan Penulisan Ilmiah, S2 Psikologi).
+
 :::
 
 . . .
 
 ::: {.callout-tip}
-#### Cara mencatatnya
-Buat tabel tiga kolom: **sumber**, **definisi (dikutip persis)**, **apa yang ditekankan**. Jangan diparafrasekan dulu. Perbedaan antar-definisi sering terletak pada kata-kata yang tepat.
+#### Cara sederhananya
+Buat tabel tiga kolom: **sumber**, **definisi (dikutip persis)**, **apa yang ditekankan**. Jangan diparafrasekan dulu. Perbedaan antar-definisi sering terletak pada pemilihan kata-kata tertentu.
 :::
 
 ## Yang Anda cari di dalam tabel
@@ -104,7 +106,7 @@ Buat tabel tiga kolom: **sumber**, **definisi (dikutip persis)**, **apa yang dit
 . . .
 
 ::: {.callout-note}
-Ingat temuan Fried (2017) dari Pertemuan 1: tujuh skala depresi memuat 52 gejala berbeda. Perbedaan definisi sebenarnya adalah hal yang biasa.
+Ingat temuan [Fried (2017)](https://www.sciencedirect.com/science/article/pii/S016503271631312X) dari Pertemuan 1: tujuh skala depresi memuat 52 gejala berbeda. Perbedaan definisi sebenarnya adalah hal yang sering ditemui.
 :::
 
 # Langkah 2️⃣: menuliskan definisi konstruk {background-color="#14497F" .center}
@@ -146,11 +148,11 @@ Diadaptasi dari [Podsakoff, MacKenzie, & Podsakoff (2016)](https://journals.sage
 Nama konstruk pada laporan Anda harus sesuai dengan siapa yang mengisi kuesionernya. Ketidaksesuaian di sini akan merembet ke seluruh laporan.
 :::
 
-## Kesalahan yang sering muncul
+## Kesalahan yang umum muncul
 
 | Definisi | Masalahnya |
 |---|---|
-| "Kecemasan akademik adalah kecemasan yang dialami dalam konteks akademik." | **Melingkar.** Kata yang didefinisikan dipakai lagi di dalam definisinya. |
+| "Kecemasan akademik adalah kecemasan yang dialami dalam konteks akademik." | **Melingkar/tautologis.** Kata yang didefinisikan dipakai lagi di dalam definisinya. |
 | "Kecemasan akademik adalah skor pada Skala Kecemasan Akademik." | **Menyebut alat ukur**, bukan makna. Ini definisi operasional yang salah tempat. |
 | "Kecemasan akademik adalah perasaan tidak nyaman terkait perkuliahan." | **Terlalu kabur.** "Tidak nyaman" bisa berarti apa saja. |
 | "Kecemasan akademik adalah gangguan yang merugikan mahasiswa." | **Menghakimi.** Definisi menjelaskan apa fenomena psikologis tersebut, bukan menilai baik-buruknya. |
@@ -204,19 +206,13 @@ Tulis dua daftar berdampingan: **termasuk** dan **tidak termasuk**. Isi keduanya
 
 :::
 
-. . .
-
-::: {.callout-note}
-Daftar ini akan langsung berguna di Pertemuan 12, ketika Anda memilih skala pembanding untuk bukti validitas diskriminan.
-:::
-
 ## 2️⃣ kekeliruan yang umum terjadi
 
 ::: {.incremental}
 
-* ***Jingle fallacy*** — mengira dua hal sama karena **namanya sama**. Dua skala "resiliensi" bisa mengukur hal yang sangat berbeda.
+* ***Jingle fallacy*** — mengira dua hal sama karena **namanya sama**. Dua skala yang *supposedly* mengukur "resiliensi" bisa mengukur hal yang sangat berbeda. 
 
-* ***Jangle fallacy*** — mengira dua hal berbeda karena **namanya berbeda**. "Grit" dan "conscientiousness" berkorelasi sangat tinggi, meski dinamai berbeda.
+* ***Jangle fallacy*** — mengira dua hal berbeda karena **namanya berbeda**. "*Grit*" dan "*conscientiousness*" berkorelasi sangat tinggi, meski dinamai berbeda.
 
 :::
 
@@ -226,11 +222,11 @@ Istilahnya berasal dari [Thorndike (1904)](https://psycnet.apa.org/fulltext/2005
 
 # Langkah 4️⃣: menetapkan estimand {background-color="#14497F" .center}
 
-## Istilah yang dipinjam dari tempat lain
+## Istilah yang dipinjam dari disiplin ilmu lain
 
 ::: {.incremental}
 
-* Dalam penelitian kuantitatif, **estimand** adalah **besaran yang ingin Anda ketahui**, dinyatakan sebelum Anda memilih metode apa pun.
+* Dalam penelitian kuantitatif, ***estimand*** adalah **besaran yang ingin Anda ketahui**, dinyatakan sebelum Anda memilih metode apa pun.
 
 * [Lundberg, Johnson, & Stewart (2021)](https://journals.sagepub.com/doi/abs/10.1177/00031224211004187) berargumen bahwa banyak penelitian melompati langkah ini: metodenya dipilih lebih dulu, lalu maknanya ditentukan belakangan.
 
@@ -238,7 +234,7 @@ Istilahnya berasal dari [Thorndike (1904)](https://psycnet.apa.org/fulltext/2005
 
 :::
 
-## Empat pertanyaan
+## 4️⃣ pertanyaan
 
 ::: {.incremental}
 
@@ -268,7 +264,7 @@ Istilahnya berasal dari [Thorndike (1904)](https://psycnet.apa.org/fulltext/2005
 
 . . .
 
-::: {.callout-tip}
+::: {.callout-tip appearance="simple"}
 Satu kalimat ini adalah bagian tersulit dari pekerjaan hari ini. Kalau kelompok Anda bisa menuliskannya dengan jelas, sisa perkuliahan semester ini jauh lebih mudah.
 :::
 
@@ -392,7 +388,7 @@ Satu halaman, memuat:
 
 . . .
 
-::: {.callout-note}
+::: {.callout-note appearance="simple"}
 Uraian ini menjadi lampiran laporan akhir Anda, dan menjadi bahan yang dinilai oleh panel ahli di Pertemuan 11. Panel tidak bisa menilai relevansi item tanpa membaca definisi konstruknya lebih dulu.
 :::
 

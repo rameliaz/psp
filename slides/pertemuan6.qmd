@@ -26,8 +26,8 @@ execute:
 * *Split-half* dan rumus **Spearman-Brown** 
 * ***Cronbach's alpha***: apa yang sebenarnya diukurnya
 * Demonstrasi dengan data riil: **$\alpha$ tidak bisa mendeteksi multidimensionalitas**
-* Koefisien ***omega*** dan asumsi *tau-equivalent* dari Pertemuan 3
-* Menghitungnya di **jamovi**, dan apa yang sebaiknya Anda laporkan
+* Koefisien **$\omega$** dan asumsi *tau-equivalent* dari Pertemuan 3
+* Menghitungnya di `jamovi`, dan apa yang sebaiknya Anda laporkan
 
 :::
 
@@ -38,9 +38,9 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 
 :::
 
-# Dari definisi ke perhitungan {background-color="#14497F" .center}
+# Definisi dan estimasinya {background-color="#14497F" .center}
 
-## Yang sudah kita punya
+## Yang sudah Anda pelajari
 
 Di Pertemuan 3 kita mendefinisikan reliabilitas sebagai proporsi varians:
 
@@ -52,15 +52,14 @@ $$\rho_{XX'} = \frac{\sigma^2_T}{\sigma^2_X}$$
 
 * Masalahnya, $\sigma^2_T$ **tidak bisa kita amati**. Jadi rumus itu tidak bisa langsung dihitung.
 
-* Seluruh isi pertemuan hari ini adalah tentang **cara mengestimasinya** dari sesuatu yang bisa kita amati: korelasi antar-item.
+* Seluruh isi pertemuan hari ini adalah tentang **cara mengestimasinya** dari sesuatu yang bisa kita amati, yaitu **korelasi antar-item**.
 
 :::
 
 . . .
 
-::: {.callout-note}
-#### Data yang kita pakai hari ini
-Semua angka pada slide-slide berikut dihitung dari `data/data.csv` di repositori mata kuliah ini — 50 item IPIP *Big Five*, **n = 19.718**. Anda bisa menghitung ulang semuanya sendiri di `jamovi`.
+::: {.callout-note appearance="simple"}
+Semua angka pada slide-slide berikut dihitung dari [`data/data.csv`](https://rameliaz.github.io/psp/data/data.csv), yang terdiri atas 50 item IPIP *Big Five*, **n = 19.718**. Anda bisa menghitung ulang semuanya sendiri di `jamovi`.
 :::
 
 # Reliabilitas {background-color="#14497F" .center}
@@ -75,8 +74,7 @@ Semua angka pada slide-slide berikut dihitung dari `data/data.csv` di repositori
 
 . . .
 
-::: {.callout-warning}
-#### Tiga cara yang berbeda
+::: {.callout-warning appearance="simple"}
 Ketiganya menguji **sumber *error* yang berbeda**. Sebuah skala bisa sangat konsisten secara internal tetapi sama sekali tidak stabil antarwaktu (e.g., dari minggu ke minggu).
 
 Melaporkan $\alpha$ **tidak memberikan informasi apapun** tentang stabilitas skor Anda antarwaktu.
@@ -88,7 +86,7 @@ Melaporkan $\alpha$ **tidak memberikan informasi apapun** tentang stabilitas sko
 
 * Ukur orang yang sama dua kali, lalu korelasikan kedua skornya.
 
-* **Jarak waktunya sangat menentukan.** Terlalu dekat, responden masih ingat jawabannya. Terlalu jauh, atribut ukurnya mungkin memang sudah berubah.
+* **Jarak waktunya sangat menentukan.** Terlalu dekat, partisipan masih ingat jawabannya. Terlalu jauh, atribut ukurnya mungkin memang sudah berubah.
 
 * Ada satu persoalan yang tidak bisa dihindari: kalau korelasinya rendah, kita **tidak bisa membedakan** apakah alat ukurnya tidak reliabel atau orangnya memang berubah.
 
@@ -100,7 +98,7 @@ Melaporkan $\alpha$ **tidak memberikan informasi apapun** tentang stabilitas sko
 
 ::: {.incremental}
 
-* Belah skala menjadi dua bagian — misalnya item ganjil dan item genap.
+* Belah skala menjadi dua bagian, misalnya item ganjil dan item genap.
 
 * Hitung skor total tiap bagian, lalu korelasikan keduanya.
 
@@ -128,8 +126,7 @@ $$r = 0{.}748$$
 
 . . .
 
-::: {.callout-tip}
-#### Yang dibutuhkan
+::: {.callout-tip appearance="simple"}
 Rumus lain yang bisa menjawab: *"kalau tes sepanjang n punya reliabilitas x, berapa reliabilitasnya kalau panjangnya dilipatgandakan?"*
 :::
 
@@ -147,8 +144,8 @@ $$\rho = \frac{2 \times 0{.}748}{1 + 0{.}748} = \frac{1{.}496}{1{.}748} = \mathb
 
 . . .
 
-::: {.callout-note}
-Rumus ini diturunkan secara terpisah oleh **Spearman (1910)** dan **Brown (1910)** pada tahun dan jurnal yang sama, sehingga namanya digabung.
+::: {.callout-note appearance="simple"}
+Rumus ini diturunkan secara terpisah oleh [**Spearman (1910)**](https://www.proquest.com/openview/9e46330dba2285dea63dd35588155383/1?pq-origsite=gscholar&cbl=1818401) dan [**Brown (1910)**](https://jhanley.biostat.mcgill.ca/bios601/Surveys/1910-brownReliability.pdf) pada tahun dan jurnal yang sama, sehingga namanya digabung.
 :::
 
 ## Bentuk umumnya
@@ -174,7 +171,7 @@ Rumus ini mengasumsikan item tambahannya **setara** dengan item yang sudah ada. 
 
 * Skala 10 item bisa dibelah menjadi dua bagian dengan **126 cara berbeda**. Ganjil-genap hanyalah salah satunya.
 
-* Kami mencoba **500 pembelahan acak** pada skala Extraversion. Hasil Spearman-Brown-nya berkisar dari **0.845 sampai 0.920**.
+* Setelah dicoba **500 pembelahan acak** pada skala Extraversion. Hasil Spearman-Brown-nya berkisar dari **0.845 sampai 0.920**.
 
 * Jadi jawabannya bergantung pada belahan mana yang kebetulan Anda pilih. Ini tentu bukan situasi yang ideal.
 
@@ -189,7 +186,7 @@ Kalau tiap pembelahan memberi jawaban yang berbeda, **ambil saja rata-rata dari 
 Inilah dasar rumus Cronbach's $\alpha$.
 :::
 
-# Cronbach's alpha {background-color="#14497F" .center}
+# Cronbach's $\alpha$ {background-color="#14497F" .center}
 
 ## Rumusnya
 
@@ -225,7 +222,7 @@ dengan $k$ = jumlah item, $\sigma^2_i$ = varians tiap item, $\sigma^2_X$ = varia
 
 ::: {.callout-note}
 #### Apa arti $\alpha$ sebenarnya
-$\alpha$ bukan koefisien istimewa. Ia adalah **rata-rata dari seluruh kemungkinan *split-half*** pada skala Anda (Cronbach, 1951).
+$\alpha$ adalah **rata-rata dari seluruh kemungkinan *split-half*** pada skala Anda ([Cronbach, 1951](https://www.cambridge.org/core/journals/psychometrika/article/abs/coefficient-alpha-and-the-internal-structure-of-tests/81D0CB193FA731FF5220FEB678FC4FAA)).
 :::
 
 ## Apa yang menentukan besarnya $\alpha$
@@ -288,9 +285,8 @@ Mulai dari $\alpha = 0{.}892$ pada 10 item:
 
 . . .
 
-::: {.callout-warning}
-#### Yang perlu Anda lakukan
-Jangan memperlakukan 0.70 sebagai *threshold*. **Sesuaikan dengan tujuan penggunaan skor Anda**: untuk penelitian kelompok, 0.70 memang memadai; untuk keputusan tentang individu utamanya ketika konteksnya *high-stake*, 0.7 masih jauh dari cukup.
+::: {.callout-warning appearance="simple"}
+Jangan memperlakukan 0.70 sebagai *threshold*, tetapi **sesuaikan dengan tujuan penggunaan skor Anda**: untuk penelitian kelompok, 0.70 memang memadai; untuk keputusan tentang individu utamanya ketika konteksnya *high-stake*, 0.7 masih jauh dari cukup.
 :::
 
 # Apa yang tidak diukur oleh $\alpha$ {background-color="#14497F" .center}
@@ -299,11 +295,11 @@ Jangan memperlakukan 0.70 sebagai *threshold*. **Sesuaikan dengan tujuan penggun
 
 ::: {.incremental}
 
-* Kami mengambil **5 item Extraversion** dan **5 item Neuroticism** dari data yang sama.
+* Saya mengambil **5 item Extraversion** dan **5 item Neuroticism** dari data yang sama.
 
 * Keduanya jelas mengukur konstruk yang **berbeda**. Skala gabungan ini secara substantif tidak masuk akal.
 
-* Lalu kami memperlakukannya sebagai satu skala 10 item dan menghitung $\alpha$.
+* Lalu saya memperlakukannya sebagai satu skala 10 item dan menghitung $\alpha$.
 
 :::
 
@@ -344,9 +340,9 @@ $\alpha = 0{.}616$
 
 ::: {.incremental}
 
-* Di dalam tiap subskala, korelasinya tinggi. Itu sudah cukup untuk mengangkat $\alpha$ ke 0.616.
+* Di dalam tiap subskala, korelasinya tinggi. Hal ini sudah cukup untuk mengangkat $\alpha$ ke 0.616.
 
-* Korelasi antar-subskala negatif dan kecil — tanda bahwa keduanya bukan satu konstruk yang sama.
+* Korelasi antar-subskala negatif dan kecil, yang merupakan tanda bahwa keduanya bukan satu konstruk yang sama.
 
 * *Eigenvalue* matriks korelasinya: **3.53 — 2.23 — 0.79**. Dua yang pertama sama-sama besar, artinya ada **dua** dimensi, bukan satu.
 
@@ -366,7 +362,7 @@ $\alpha = 0{.}616$ tetapi $\omega = 0{.}151$
 
 * $\omega$ menanyakan hal yang berbeda dibandingkan $\alpha$: **berapa proporsi varians skor total yang berasal dari satu faktor laten yang general?**
 
-* Pada campuran dua subskala ini, jawabannya nyaris tidak ada, karena memang tidak ada satu faktor umum di sana.
+* Pada campuran dua subskala ini, jawabannya **nyaris tidak ada**, karena memang tidak ada satu faktor umum di sana.
 
 * Kesimpulannya
   + $\alpha$ = 0.616 artinya *"item-item ini saling berkorelasi"*
@@ -374,17 +370,17 @@ $\alpha = 0{.}616$ tetapi $\omega = 0{.}151$
  
 :::
 
-# Omega {background-color="#14497F" .center}
+# $\omega$  {background-color="#14497F" .center}
 
 ## Kenapa $\alpha$ saja tidak cukup
 
 ::: {.incremental}
 
-* Ingat dari Pertemuan 3: $\alpha$ mengasumsikan model **tau-equivalent**, yaitu semua item punya hubungan yang **sama kuat** dengan variabel laten.
+* Ingat dari Pertemuan 3: $\alpha$ mengasumsikan model ***tau-equivalent***, yaitu semua item punya hubungan yang **sama kuat** dengan variabel laten ($\theta$).
 
-* Kalau item Anda sebenarnya *congeneric* (dan hampir selalu seperti ini), asumsi ini tidak terpenuhi.
+* Kalau item Anda sebenarnya *congeneric* (dan hampir selalu seperti ini), asumsi ini kemungkinan besar tidak terpenuhi.
 
-* $\omega$ tidak mensyaratkan asumsi tersebut. Perhitungannya memakai korelasi antara masing-masing item dengan faktor laten.
+* $\omega$ tidak mensyaratkan asumsi tersebut. Perhitungannya memakai korelasi antara masing-masing item dengan faktor laten ($\theta$).
 
 :::
 
@@ -410,14 +406,13 @@ Skala Extraversion IPIP, 10 item:
 
 * Keduanya **hampir sama**. 
 
-* *Loading*-nya cukup seragam (0.55 sampai 0.76), sehingga pelanggaran asumsi *tau-equivalent* di sini **kecil**.
+* *Loading*-nya cukup seragam (0.55 sampai 0.76), sehingga pelanggaran asumsi *tau-equivalent* di sini kemungkinannya **kecil**.
 
 :::
 
 . . .
 
-::: {.callout-note}
-#### Catatan
+::: {.callout-note appearance="simple"}
 $\omega$ **bukan** selalu lebih besar atau lebih kecil dari $\alpha$. Ketika itemnya seragam, keduanya berdekatan. Perbedaannya muncul justru ketika struktur konstruk Anda tidak unidimensional.
 :::
 
@@ -427,14 +422,13 @@ $\omega$ **bukan** selalu lebih besar atau lebih kecil dari $\alpha$. Ketika ite
 
 * **Ketika *loading* (i.e., korelasi antara item dengan faktor laten) item sangat beragam.** Di sini $\alpha$ cenderung lebih rendah daripada reliabilitas yang sesungguhnya.
 
-* **Ketika skalanya multidimensional.** Di sini $\alpha$ tetap terlihat normal, sementara $\omega$ sangat rendah — persis seperti demonstrasi tadi.
+* **Ketika skalanya multidimensional.** Di sini $\alpha$ tetap terlihat normal, sementara $\omega$ sangat rendah. Jadi, persis seperti demonstrasi tadi.
 
 :::
 
 . . .
 
-::: {.callout-tip}
-#### Cara memakainya secara praktis
+::: {.callout-tip appearance="simple"}
 Hitung **keduanya**. Kalau $\alpha$ dan $\omega$ berdekatan, Anda punya bukti tambahan bahwa struktur skala Anda unidimensional. Kalau jaraknya jauh, itu **tanda bahwa ada asumsi tentang konstruk yang harus diperiksa**.
 :::
 
@@ -505,11 +499,10 @@ Dua orang dengan skor 30 dan 35 **tidak bisa** Anda katakan berbeda signifikan.
 
 . . .
 
-::: {.callout-warning}
-#### Kesalahan yang paling sering terjadi
-Lupa membalik item yang terbalik. Kalau itu terjadi, $\alpha$ Anda akan turun drastis dan Anda akan mengira skalanya bermasalah — padahal yang bermasalah adalah penskorannya.
+::: {.callout-warning appearance="simple"}
+Jangan lupa membalik item yang diskor terbalik. Kalau tidak dilakukan, $\alpha$ Anda akan turun drastis dan Anda akan mengira skalanya bermasalah. Padahal yang bermasalah adalah penskorannya.
 
-Tandanya khas: **korelasi item-rest bernilai negatif**.
+Tandanya sangat mudah dikenali: **korelasi item-rest bernilai negatif**.
 :::
 
 ## Apa yang akan Anda lihat
@@ -546,8 +539,7 @@ Tandanya khas: **korelasi item-rest bernilai negatif**.
 
 . . .
 
-::: {.callout-tip}
-#### Yang perlu diperhatikan
+::: {.callout-tip appearance="simple"}
 Jangan membuang item hanya karena korelasi *item-rest*nya rendah. Kalau sebuah item **penting secara konseptual** untuk mendefinisikan konstruk Anda, membuangnya demi menaikkan α berarti Anda menukar validitas isi hanya untuk konsistensi internal.
 :::
 
@@ -566,7 +558,7 @@ Jangan membuang item hanya karena korelasi *item-rest*nya rendah. Kalau sebuah i
 . . .
 
 ::: {.callout-note}
-Pada set campuran tadi, *eigenvalue*-nya 3.53 dan 2.23 — dua-duanya besar. Itulah yang tidak bisa dilihat dari $\alpha = 0{.}616$.
+Pada set campuran tadi, *eigenvalue*-nya 3.53 dan 2.23, artinya keduanya besar. Inilah yang tidak bisa dilihat dari $\alpha = 0{.}616$.
 :::
 
 # Apa yang sebaiknya Anda laporkan {background-color="#14497F" .center}
@@ -583,7 +575,7 @@ Pada set campuran tadi, *eigenvalue*-nya 3.53 dan 2.23 — dua-duanya besar. Itu
 
 * **Bukti tentang dimensinya** (apabila memungkinkan), sekurang-kurangnya *eigenvalue* atau *scree plot*.
 
-* **SEM**, kalau skor Anda akan dipakai untuk menafsirkan individu.
+* ***Standard error of measurement* (SEM)**, kalau skor Anda akan dipakai untuk menafsirkan individu.
 
 :::
 
@@ -594,19 +586,19 @@ Pada set campuran tadi, *eigenvalue*-nya 3.53 dan 2.23 — dua-duanya besar. Itu
 *"Skala 10 item ini memiliki $\alpha = 0{.}89$ dan $\omega = 0{.}89$ pada n = 200 mahasiswa S1 (usia 18–23). Analisis faktor eksploratori menunjukkan satu faktor dominan (eigenvalue 4.5 berbanding 0.9). SEM = 3.0."*
 :::
 
-# Diskusi kelompok {background-color="#14497F" .center}
+# Aktivitas {background-color="#14497F" .center}
 
 ## Empat situasi
 
-Diskusikan dalam kelompok, **25 menit**. Untuk tiap situasi: **apa yang Anda simpulkan, dan apa langkah berikutnya?**
+Perhatikan empat situasi di bawah: **apa yang Anda simpulkan, dan apa langkah berikutnya?**
 
 ::: {.incremental}
 
-**A.** Skala 30 item, $\alpha = 0{.}95$, rata-rata korelasi antar-item 0.42. Peneliti menyimpulkan skalanya sangat baik.
+**A.** Skala 30 item, $\alpha = 0{.}95$, rata-rata korelasi antar-item 0.42. Peneliti menyimpulkan reliabilitas skalanya sangat baik.
 
-**B.** Skala 10 item, $\alpha = 0{.}62$, $\omega = 0{.}20$, dua *eigenvalue* besar.
+**B.** Skala 10 item, $\alpha = 0{.}62$, $\omega = 0{.}20$, ada dua nilai *eigenvalue* yang besar.
 
-**C.** Skala 4 item, $\alpha = 0{.}55$. Kelompok ingin menaikkannya sampai di atas 0.70.
+**C.** Skala 4 item, $\alpha = 0{.}55$. Peneliti ingin menaikkannya sampai di atas 0.70.
 
 **D.** Satu item punya *item-rest correlation* sebesar **−0.38**.
 
@@ -614,7 +606,7 @@ Diskusikan dalam kelompok, **25 menit**. Untuk tiap situasi: **apa yang Anda sim
 
 ::: {.notes}
 Jawaban yang diharapkan — A: α tinggi sebagian besar karena k = 30; perlu dicek apakah itemnya
-redundan (pelanggaran local independence dari Pertemuan 2), dan apakah beban responden sepadan.
+redundan (pelanggaran local independence dari Pertemuan 2), dan apakah beban partisipan sepadan.
 B: jelas dua dimensi; pisahkan dulu, jangan laporkan satu koefisien. C: naikkan lewat penulisan
 item yang lebih baik atau tambah item setara — bukan dengan membuang item, karena k sudah kecil;
 tunjukkan proyeksi Spearman-Brown. D: hampir pasti item terbalik yang lupa dibalik; periksa
@@ -625,17 +617,17 @@ penskorannya sebelum menyimpulkan apa pun tentang itemnya.
 
 ::: {.incremental}
 
-1. Dari keempat situasi tadi, mana yang **paling bermasalah** kalau lolos ke laporan akhir? Kenapa?
+1. Dari keempat situasi tadi, mana yang **paling bermasalah**? Kenapa?
 
 2. Untuk konstruk kelompok Anda, berapa banyak item yang realistis Anda tulis, dan **rata-rata korelasi antar-item** seperti apa yang Anda harapkan?
 
-3. Skor kelompok Anda akan dipakai untuk apa — **menggambarkan kelompok** atau **menafsirkan individu**? Bagaimana itu mengubah standar reliabilitas yang Anda kejar?
+3. Skor kelompok Anda akan dipakai untuk apa? **Menggambarkan kelompok** atau **menafsirkan individu**? Bagaimana itu mengubah standar reliabilitas yang Anda perlu pikirkan?
 
 :::
 
 # Rangkuman {background-color="#14497F" .center}
 
-## Enam poin utama
+## 6️⃣ poin utama
 
 ::: {.incremental}
 
@@ -655,7 +647,7 @@ penskorannya sebelum menyimpulkan apa pun tentang itemnya.
 
 ## Untuk Pertemuan 7
 
-Kita masuk ke **validitas** — dan pertanyaan yang jauh lebih sulit.
+Kita masuk ke **validitas** dan pertanyaan soal validitas jauh lebih sulit dijawab.
 
 ::: {.incremental}
 
@@ -670,7 +662,7 @@ Kita masuk ke **validitas** — dan pertanyaan yang jauh lebih sulit.
 
 ::: {.callout-tip}
 #### Persiapan
-Baca **DeVellis & Thorpe (2022), Bab 4**. Kalau sempat, bab *Psychometric Validity* pada [Bikos](https://lhbikos.github.io/ReC_Psychometrics/).
+Baca **DeVellis & Thorpe (2022), Bab 4**. Kalau sempat, bab baca *Psychometric Validity* pada [Bikos](https://lhbikos.github.io/ReC_Psychometrics/).
 :::
 
 ## Ada pertanyaan❓
