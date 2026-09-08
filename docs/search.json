@@ -2596,7 +2596,7 @@
     "href": "slides/pertemuan5.html#yang-belum-dijelaskan-di-pertemuan-sebelumnya",
     "title": "Format Respons II: Thurstone, Situational Judgement Test, dan Forced-Choice",
     "section": "Yang belum dijelaskan di pertemuan sebelumnya",
-    "text": "Yang belum dijelaskan di pertemuan sebelumnya\nKetika kita memakai skala Likert, secara implisit kita menerima 3️⃣ hal:\n\nSemua item berbobot sama. Item nomor 1 dan nomor 7 sama-sama bernilai maksimum 5 poin.\nItem berupa pernyataan tentang diri sendiri (self-report), secara abstrak. (e.g., “Saya orang yang teliti.”)\nSetiap item dijawab secara terpisah. Menyetujui satu item tidak berarti memaksa Anda menolak item lain.\n\n\n\n\n\n\n\n\nHari ini kita akan memperlajari tiga format respons yang masing-masing menolak ketiga asumsi ini.",
+    "text": "Yang belum dijelaskan di pertemuan sebelumnya\nKetika kita memakai skala Likert, secara implisit kita menerima 3️⃣ hal:\n\nSemua item berbobot sama. Item nomor 1 dan nomor 7 sama-sama bernilai maksimum 5 poin.\nItem berupa pernyataan tentang diri sendiri (self-report), secara abstrak. (e.g., “Saya orang yang teliti.”)\nSetiap item dijawab secara terpisah. Menyetujui satu item tidak berarti memaksa partisipan menolak item lain.\n\n\n\n\n\n\n\n\nHari ini kita akan memperlajari tiga format respons yang masing-masing menolak ketiga asumsi ini.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -2608,7 +2608,7 @@
     "href": "slides/pertemuan5.html#format-respons-dan-asumsi-likert-yang-ditolak",
     "title": "Format Respons II: Thurstone, Situational Judgement Test, dan Forced-Choice",
     "section": "Format respons dan asumsi Likert yang ditolak",
-    "text": "Format respons dan asumsi Likert yang ditolak\n\n\n\n\n\n\n\n\nFormat\nYang ditolak\nYang diasumsikan\n\n\n\n\nThurstone\nBobot item yang sama\nItem terkalibrasi di sepanjang kontinum\n\n\nSJT\nPernyataan diri yang abstrak\nKonteks dan penilaian yang lebih konkret\n\n\nForced-choice\nKebebasan menjawab tiap item\nMenangkal problem social desirability\n\n\n\n\n\n\n\n\n\n\nKetiganya kelihatannya menarik secara konseptual, tetapi jauh lebih sulit dikembangkan daripada Likert, dan dua di antaranya berlawanan dengan asumsi yang kita bangun di Pertemuan 3.",
+    "text": "Format respons dan asumsi Likert yang ditolak\n\n\n\n\n\n\n\n\nFormat\nYang ditolak\nYang diasumsikan\n\n\n\n\nThurstone\nBobot item yang sama\nItem terkalibrasi di sepanjang kontinum\n\n\nSJT\nPernyataan tentang diri sendiri yang cenderung abstrak\nKonteks dan penilaian yang lebih konkret\n\n\nForced-choice\nKebebasan menjawab tiap item\nMenangkal problem social desirability\n\n\n\n\n\n\n\n\n\n\nKetiganya kelihatannya menarik secara konseptual, tetapi jauh lebih sulit dikembangkan daripada Likert, dan dua di antaranya berlawanan dengan asumsi yang kita bangun di Pertemuan 3.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -2632,7 +2632,7 @@
     "href": "slides/pertemuan5.html#bagaimana-skala-thurstone-dibuat",
     "title": "Format Respons II: Thurstone, Situational Judgement Test, dan Forced-Choice",
     "section": "Bagaimana skala Thurstone dibuat",
-    "text": "Bagaimana skala Thurstone dibuat\n\nKumpulkan banyak pernyataan tentang objek sikap, yang biasanya puluhan hingga ratusan.\nMinta anggota panel menempatkan tiap pernyataan ke dalam 11 kategori, dari paling bertentangan sampai paling mendukung konstruk. Anggota panel tidak diminta pendapat pribadinya; mereka diminta menilai posisi pernyataannya di garis kontinum level atribut (\\(\\theta\\)).\nHitung median penilaian anggota panel untuk tiap pernyataan. Itulah nilai skala (scale value) pernyataan tersebut.\nHitung sebaran penilaian anggota panel (rentang antar-kuartil). Pernyataan yang juri-jurinya tidak sepakat berarti ambigu, dan dibuang.\nPilih pernyataan yang tersisa sedemikian rupa sehingga nilai skalanya tersebar merata di sepanjang kontinum level atribut (\\(\\theta\\)).",
+    "text": "Bagaimana skala Thurstone dibuat\n\nKumpulkan banyak pernyataan tentang objek sikap, yang biasanya puluhan hingga ratusan.\nMinta anggota panel menempatkan tiap pernyataan ke dalam 11 kategori, dari paling bertentangan sampai paling mendukung konstruk.\n\n\nAnggota panel tidak diminta pendapat pribadinya; mereka diminta menilai posisi pernyataannya di garis kontinum level atribut (\\(\\theta\\)).\n\n\nHitung median penilaian anggota panel untuk tiap pernyataan. Itulah nilai skala (scale value) pernyataan tersebut.\nHitung sebaran penilaian anggota panel (rentang antar-kuartil). Pernyataan yang juri-jurinya tidak sepakat berarti ambigu, dan dibuang.\nPilih pernyataan yang tersisa sedemikian rupa sehingga nilai skalanya tersebar merata di sepanjang kontinum level atribut (\\(\\theta\\)).",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -2656,7 +2656,7 @@
     "href": "slides/pertemuan5.html#membaca-ilustrasi-sebelumnya",
     "title": "Format Respons II: Thurstone, Situational Judgement Test, dan Forced-Choice",
     "section": "Membaca ilustrasi sebelumnya",
-    "text": "Membaca ilustrasi sebelumnya\n\nTiap pernyataan punya satu angka yang menandai posisinya di kontinum. Angka inilah yang mencerminkan kalibrasinya.\nPernyataan 4 punya rentang antar-kuartil yang sangat lebar: para anggota panel tidak sepakat pernyataan itu ada di posisi mana. Pernyataan seperti ini dibuang, sebagus apapun penulisan kalimatnya.\nPernyataan yang lolos harus tersebar dari ujung ke ujung kontinum level atribut (\\(\\theta\\)), sehingga merepresentasikan seluruh spektrum konstruk.\n\n\n\n\n\n\n\n\nKita sudah menentukan “tingkat kesulitan” tiap item sebelum partisipan mengisinya. Ini adalah sesuatu yang tidak bisa dilakukan dengan CTT.",
+    "text": "Membaca ilustrasi sebelumnya\n\nTiap pernyataan punya satu angka yang menandai posisinya di kontinum.\n\nAngka inilah yang mencerminkan kalibrasinya.\n\nPernyataan 4 punya rentang antar-kuartil yang sangat lebar: para anggota panel tidak sepakat pernyataan itu ada di posisi mana.\n\nPernyataan seperti ini sebaiknya dibuang, sebagus apapun penulisan kalimatnya.\n\nPernyataan yang lolos harus tersebar dari ujung ke ujung kontinum level atribut (\\(\\theta\\)), sehingga merepresentasikan seluruh spektrum konstruk.\n\n\n\n\n\n\n\n\nPembuat skala sudah menentukan “tingkat kesulitan” tiap item sebelum partisipan mengisinya. Ini adalah sesuatu yang tidak bisa dilakukan dengan CTT.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -2668,7 +2668,7 @@
     "href": "slides/pertemuan5.html#cara-partisipan-menjawab-dan-cara-menskornya",
     "title": "Format Respons II: Thurstone, Situational Judgement Test, dan Forced-Choice",
     "section": "Cara partisipan menjawab dan cara menskornya",
-    "text": "Cara partisipan menjawab dan cara menskornya\n\npartisipan hanya diminta setuju atau tidak setuju (ya/tidak) pada tiap pernyataan.\nSkor partisipan adalah rata-rata nilai skala dari pernyataan yang ia setujui.\nJadi orang yang menyetujui dua pernyataan dengan nilai skala masing-masing 8.5 dan 10.5, akan mendapat skor 9.5.\n\n\n\n\n\n\n\n\nApa perbedaannya dengan Likert?\n\n\nPada Likert, informasi ada pada derajat jawaban. Pada Thurstone, informasi ada pada item mana yang disetujui. Pilihan jawabannya sendiri hanya ya/tidak.",
+    "text": "Cara partisipan menjawab dan cara menskornya\n\npartisipan hanya diminta setuju atau tidak setuju (ya/tidak) pada tiap pernyataan.\nSkor partisipan adalah rata-rata nilai skala dari pernyataan yang ia setujui.\nJadi orang yang menyetujui dua pernyataan dengan nilai skala masing-masing 8.5 dan 10.5, akan mendapat skor 9.5.\n\n\n\n\n\n\n\n\nApa perbedaannya dengan Likert?\n\n\nPada Likert, informasi ada pada derajat jawaban. Pada Thurstone, informasi ada pada item mana yang disetujui.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -2716,7 +2716,7 @@
     "href": "slides/pertemuan5.html#contoh",
     "title": "Format Respons II: Thurstone, Situational Judgement Test, dan Forced-Choice",
     "section": "Contoh",
-    "text": "Contoh\n\nSituasi. Anda memimpin kelompok tugas beranggotakan lima orang. Dua hari sebelum tenggat, satu anggota memberi tahu bahwa bagiannya belum dikerjakan sama sekali karena ada urusan keluarga.\n\n\nSeberapa efektif tiap tindakan berikut?\n\n\n\n\n\n\n\n\n\nTindakan\n\n\n\n\n\nA\nMengerjakan sendiri bagian itu agar tenggat terkejar\n1–5\n\n\nB\nMembagi bagian tersebut ke anggota lain yang sudah selesai\n1–5\n\n\nC\nMeminta perpanjangan waktu kepada dosen\n1–5\n\n\nD\nMenyerahkan tugas apa adanya dan menuliskan siapa yang tidak berkontribusi\n1–5",
+    "text": "Contoh\n\nSituasi. Anda memimpin kelompok tugas beranggotakan lima orang. Dua hari sebelum tenggat, satu anggota memberi tahu bahwa bagiannya belum dikerjakan sama sekali karena ada urusan keluarga.\n\n\nSeberapa efektif tiap tindakan berikut?\n\n\n\n\n\n\n\n\n\nTindakan\nRespon Partisipan (1: sama sekali tidak efektif; 5: sangat efektif)\n\n\n\n\nA\nMengerjakan sendiri bagian itu agar tenggat terkejar\n1–5\n\n\nB\nMembagi bagian tersebut ke anggota lain yang sudah selesai\n1–5\n\n\nC\nMeminta perpanjangan waktu kepada dosen\n1–5\n\n\nD\nMenyerahkan tugas apa adanya dan menuliskan siapa yang tidak berkontribusi\n1–5",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -2752,7 +2752,7 @@
     "href": "slides/pertemuan5.html#kelebihannya",
     "title": "Format Respons II: Thurstone, Situational Judgement Test, dan Forced-Choice",
     "section": "Kelebihannya",
-    "text": "Kelebihannya\n\nKonteks yang konkret. partisipan tidak diminta menggeneralisasi tentang dirinya, melainkan menanggapi situasi tertentu. Ini menghindari sebagian masalah akses introspektif dari Pertemuan 2.\nTampak relevan bagi partisipan, sehingga lebih mudah diterima dalam konteks seleksi.\nPrediksi kinerja yang cukup baik. McDaniel dkk. (2001) menunjukkan SJT memprediksi job performance secara memadai.",
+    "text": "Kelebihannya\n\nKonteks yang konkret. partisipan tidak diminta menggeneralisasi tentang dirinya, melainkan menanggapi situasi tertentu.\n\nIni menghindari sebagian masalah akses introspektif dari Pertemuan 2.\n\nTampak relevan bagi partisipan, sehingga lebih mudah diterima dalam konteks seleksi.\nPrediksi kinerja yang cukup baik. McDaniel dkk. (2001) menunjukkan SJT memprediksi job performance secara memadai.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -2808,11 +2808,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan5.html#risiko-yang-harus-diterima",
-    "href": "slides/pertemuan5.html#risiko-yang-harus-diterima",
+    "objectID": "slides/pertemuan5.html#risiko-yang-harus-diterima-ipsativitas",
+    "href": "slides/pertemuan5.html#risiko-yang-harus-diterima-ipsativitas",
     "title": "Format Respons II: Thurstone, Situational Judgement Test, dan Forced-Choice",
-    "section": "Risiko yang harus diterima",
-    "text": "Risiko yang harus diterima\n\nSetiap kali partisipan memilih satu pernyataan, ia otomatis tidak memilih yang lain.\nAkibatnya, total skor semua skala menjadi konstan untuk setiap partisipan.\n\nKalau skor satu skala naik, skor skala lain harus turun.\n\nData dengan sifat ini disebut ipsatif: skornya bermakna di dalam diri seseorang, bukan antar-orang.\n\n\n\n\n\n\n\n\nPada data ipsatif, skor menjawab pertanyaan “dari semua hal ini, mana yang paling menonjol pada diri saya?”, sedangkan untuk Likert: “seberapa banyak sifat konstruk ini saya miliki dibandingkan orang lain?”",
+    "section": "Risiko yang harus diterima: Ipsativitas",
+    "text": "Risiko yang harus diterima: Ipsativitas\n\nSetiap kali partisipan memilih satu pernyataan, ia otomatis tidak memilih yang lain.\nAkibatnya, total skor semua skala menjadi konstan untuk setiap partisipan.\n\nKalau skor satu skala naik, skor skala lain harus turun.\n\nData dengan sifat ini disebut ipsatif: skornya bermakna di dalam diri seseorang, bukan antar-orang.\n\n\n\n\n\n\n\n\nPada data ipsatif, skor menjawab pertanyaan “dari semua hal ini, mana yang paling menonjol pada diri saya?”, sedangkan untuk Likert: “seberapa banyak sifat konstruk ini saya miliki dibandingkan orang lain?”",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -2824,7 +2824,7 @@
     "href": "slides/pertemuan5.html#kenapa-ini-berpontesi-merumitkan-analisis",
     "title": "Format Respons II: Thurstone, Situational Judgement Test, dan Forced-Choice",
     "section": "Kenapa ini berpontesi merumitkan analisis",
-    "text": "Kenapa ini berpontesi merumitkan analisis\n\nKarena skor totalnya dipaksa konstan, korelasi antar-skala dipaksa menjadi negatif, bahkan kalau konstruk yang sesungguhnya sama sekali tidak berhubungan.\nUntuk instrumen ipsatif dengan \\(k\\) skala, rata-rata korelasi antar-skalanya adalah:\n\n\\[\\bar{r} = -\\frac{1}{k-1}\\]\n\n\n\n\nJumlah skala (\\(k\\))\nRata-rata korelasi yang dipaksakan\n\n\n\n\n3\n−0,50\n\n\n5\n−0,25\n\n\n10\n−0,11\n\n\n\n\n\n\n\n\n\n\n\nAngka-angka itu muncul dari formatnya, bukan dari proses psikologis partisipannya.",
+    "text": "Kenapa ini berpontesi merumitkan analisis\n\nKarena skor totalnya dipaksa konstan, korelasi antar-skala dipaksa menjadi negatif, bahkan kalau konstruk yang sesungguhnya sama sekali tidak berhubungan.\nUntuk instrumen ipsatif dengan \\(k\\) skala, rata-rata korelasi antar-skalanya adalah:\n\n\\[\\bar{r} = -\\frac{1}{k-1}\\]\n\n\n\n\nJumlah skala (\\(k\\))\nRata-rata korelasi yang dipaksakan\n\n\n\n\n3\n−0,50\n\n\n5\n−0,25\n\n\n10\n−0,11\n\n\n\n\n\n\n\n\n\n\n\nKoefisien-koefisien ini lebih banyak dijelaskan oleh format skalanya, bukan dari proses psikologis partisipan yang ingin diukur.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -2848,7 +2848,7 @@
     "href": "slides/pertemuan5.html#tetapi-ada-beberapa-alternatif-solusi",
     "title": "Format Respons II: Thurstone, Situational Judgement Test, dan Forced-Choice",
     "section": "Tetapi, ada beberapa alternatif solusi",
-    "text": "Tetapi, ada beberapa alternatif solusi\n\nBrown & Maydeu-Olivares (2011) menunjukkan bahwa dengan pemodelan IRT, skor normatif bisa dipulihkan dari respons forced-choice.\nPendekatannya disebut Thurstonian IRT, karena berangkat dari model Thurstone tentang perbandingan berpasangan.\nJadi format ini tetap bisa dipakai. Asalkan analisisnya memakai model yang tepat, bukan penjumlahan sederhana.\n\n\n\n\n\n\n\n\nKita membuka hari ini dengan Thurstone, dan menutupnya dengan Thurstone. Ide Thurstone di tahun 1920-an itu ternyata yang menjadi solusi untuk masalah ini.",
+    "text": "Tetapi, ada beberapa alternatif solusi\n\nBrown & Maydeu-Olivares (2011) menunjukkan bahwa dengan pemodelan IRT, skor normatif bisa dipulihkan dari respons forced-choice.\nPendekatannya disebut Thurstonian IRT, karena berangkat dari model Thurstone tentang perbandingan berpasangan.\nJadi format ini tetap bisa dipakai. Asalkan analisisnya memakai model yang tepat, bukan penjumlahan sederhana.\n\n\n\n\n\n\n\n\nKita membuka hari ini dengan Thurstone, dan menutupnya dengan Thurstone. Ide kalibrasi item ala Thurstone di tahun 1920-an ini ternyata yang menjadi solusi untuk banyak masalah.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -2856,11 +2856,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan5.html#ketiganya-tidak-realistis-diterapkan-untuk-uas",
-    "href": "slides/pertemuan5.html#ketiganya-tidak-realistis-diterapkan-untuk-uas",
+    "objectID": "slides/pertemuan5.html#ketiganya-tidak-terlalu-realistis-diterapkan-untuk-uas",
+    "href": "slides/pertemuan5.html#ketiganya-tidak-terlalu-realistis-diterapkan-untuk-uas",
     "title": "Format Respons II: Thurstone, Situational Judgement Test, dan Forced-Choice",
-    "section": "Ketiganya tidak realistis diterapkan untuk UAS",
-    "text": "Ketiganya tidak realistis diterapkan untuk UAS\n\nThurstone — masih realistis.\nSJT — tidak realistis untuk UAS ini. Menulis skenario yang baik dan menyusun kunci jawabannya adalah penelitian empirik tersendiri.\nForced-choice — tidak realistis. Analisis yang benar untuk data ipsatif berada di luar cakupan mata kuliah ini.\n\n\n\n\n\n\n\n\nLalu mengapa dibahas?\n\n\nKarena Anda akan menemui ketiganya dalam praktiknya, terutama SJT dan forced-choice, yang banyak dipakai dalam asesmen dan seleksi kerja di Indonesia.\nOleh karena itu, Anda perlu dibekali kemampuan untuk menilai apakah alat semacam ini dipakai secara benar.",
+    "section": "Ketiganya tidak terlalu realistis diterapkan untuk UAS",
+    "text": "Ketiganya tidak terlalu realistis diterapkan untuk UAS\n\nThurstone — masih realistis, tetapi lebih sulit secara teknis dibandingkan membuat skala Likert.\nSJT — tidak realistis. Menulis skenario yang baik dan menyusun kunci jawabannya adalah penelitian empirik tersendiri.\nForced-choice — tidak realistis. Analisis yang benar untuk data ipsatif berada di luar cakupan mata kuliah ini.\n\n\n\n\n\n\n\n\nLalu mengapa dibahas?\n\n\nKarena Anda akan menemui ketiganya dalam praktiknya, terutama SJT dan forced-choice, yang banyak dipakai dalam asesmen dan seleksi kerja di Indonesia.\nOleh karena itu, Anda perlu dibekali kemampuan untuk menilai apakah alat semacam ini dipakai secara benar.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -2880,11 +2880,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan5.html#bagian-1-yang-perlu-dihitung-dan-didiskusikan",
-    "href": "slides/pertemuan5.html#bagian-1-yang-perlu-dihitung-dan-didiskusikan",
+    "objectID": "slides/pertemuan5.html#bagian-1-menjadi-reviewer-untuk-item-thurstone-1",
+    "href": "slides/pertemuan5.html#bagian-1-menjadi-reviewer-untuk-item-thurstone-1",
     "title": "Format Respons II: Thurstone, Situational Judgement Test, dan Forced-Choice",
-    "section": "Bagian 1: yang perlu dihitung dan didiskusikan",
-    "text": "Bagian 1: yang perlu dihitung dan didiskusikan\n\nHitung median penilaian kelas untuk tiap pernyataan. Itulah nilai skalanya.\nHitung rentang antar-kuartil tiap pernyataan. Mana yang paling tidak disepakati?\nPernyataan mana yang akan Anda buang, dan kenapa?\nApakah pernyataan yang tersisa tersebar merata di sepanjang kontinum, atau menumpuk di satu sisi?\n\n\n\n\n\n\n\n\nPerhatikan bahwa Anda baru saja menjalankan prosedur yang sama dengan yang akan Anda pakai untuk CVI di Pertemuan 11, hanya saja kriterianya yang berbeda.",
+    "section": "Bagian 1: menjadi reviewer untuk item Thurstone",
+    "text": "Bagian 1: menjadi reviewer untuk item Thurstone\n\nHitung median penilaian kelas untuk tiap pernyataan. Itulah nilai skalanya.\nHitung rentang antar-kuartil tiap pernyataan. Mana yang paling tidak disepakati?\nPernyataan mana yang akan Anda buang, dan kenapa?\nApakah pernyataan yang tersisa tersebar merata di sepanjang kontinum, atau menumpuk di satu sisi?\n\n\n\n\n\n\n\n\nPerhatikan bahwa Anda baru saja menjalankan prosedur yang sama dengan yang akan Anda pakai untuk CVI di Pertemuan 11, hanya saja kriterianya yang berbeda.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -2896,7 +2896,7 @@
     "href": "slides/pertemuan5.html#bagian-2-menyetarakan-kemenarikan",
     "title": "Format Respons II: Thurstone, Situational Judgement Test, dan Forced-Choice",
     "section": "Bagian 2: menyetarakan kemenarikan",
-    "text": "Bagian 2: menyetarakan kemenarikan\nPerhatikan tiga pasangan forced-choice berikut. Mana yang sudah disetarakan dengan baik, mana yang belum?\nPasangan 1 (a) Saya orang yang teratur. (b) Saya orang yang mudah bergaul.\nPasangan 2 (a) Saya suka merencanakan segala sesuatu. (b) Saya kadang menunda pekerjaan.\nPasangan 3 (a) Saya menikmati bekerja sendirian. (b) Saya menikmati bekerja dalam tim.\n\n\n\n\n\n\n\nNote\n\n\nWaktu: 10 menit. Untuk pasangan yang belum setara, tuliskan bagaimana Anda memperbaikinya.",
+    "text": "Bagian 2: menyetarakan kemenarikan\nPerhatikan tiga pasangan forced-choice berikut. Mana yang sudah disetarakan dengan baik, mana yang belum?\nPasangan 1 (a) Saya orang yang teratur. (b) Saya orang yang mudah bergaul.\nPasangan 2 (a) Saya suka merencanakan segala sesuatu. (b) Saya kadang menunda pekerjaan.\nPasangan 3 (a) Saya menikmati bekerja sendirian. (b) Saya menikmati bekerja dalam tim.\n\n\n\n\n\n\n\nUntuk pasangan yang belum setara, tuliskan bagaimana Anda memperbaikinya.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -7075,7 +7075,7 @@
     "href": "slides/pertemuan5-en.html#an-example",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
     "section": "An example",
-    "text": "An example\n\nSituation. You are leading a five-person group assignment. Two days before the deadline, one member tells you they have not started their section at all because of a family emergency.\n\n\nHow effective is each of the following actions?\n\n\n\n\n\n\n\n\n\nAction\n\n\n\n\n\nA\nDo that section yourself so the deadline is met\n1–5\n\n\nB\nRedistribute the section to members who have finished\n1–5\n\n\nC\nAsk the lecturer for an extension\n1–5\n\n\nD\nSubmit as is and note who did not contribute\n1–5",
+    "text": "An example\n\nSituation. You are leading a five-person group assignment. Two days before the deadline, one member tells you they have not started their section at all because of a family emergency.\n\n\nHow effective is each of the following actions?\n\n\n\n\n\n\n\n\n\nAction\nResponse (1: not at all effective; 5: very effective)\n\n\n\n\nA\nDo that section yourself so the deadline is met\n1–5\n\n\nB\nRedistribute the section to members who have finished\n1–5\n\n\nC\nAsk the lecturer for an extension\n1–5\n\n\nD\nSubmit as is and note who did not contribute\n1–5",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7123,7 +7123,7 @@
     "href": "slides/pertemuan5-en.html#its-psychometric-problem",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
     "section": "Its psychometric problem",
-    "text": "Its psychometric problem\n\nSJTs are almost always multidimensional. A single scenario can involve knowledge, personality, and reasoning at once.\nAs a result, internal consistency is often low — and it should be.\nThis violates the unidimensionality assumption from Session 2, and makes the CTT model from Session 3 a poor fit as it stands.\n\n\n\n\n\n\n\n\n\nA mistake people make often\n\n\nReporting Cronbach’s alpha for an SJT and concluding the test is poor because the number is low.\n\\(\\alpha\\) assumes every item is driven by one shared latent variable. In an SJT that assumption is not even intended to hold. The wrong coefficient produces the wrong conclusion, not a bad instrument.\n\n\n\n\n\nWhetzel & McDaniel (2009).",
+    "text": "Its psychometric problem\n\nSJTs are almost always multidimensional. A single scenario can involve knowledge, personality, and reasoning at once.\nAs a result, internal consistency is often low.\nThis violates the unidimensionality assumption from Session 2, and means the CTT model from Session 3 needs an extra layer of complexity.\n\n\n\n\n\n\n\n\n\nA mistake people make often\n\n\nReporting Cronbach’s alpha for an SJT and concluding the test is poor because the number is low.\n\\(\\alpha\\) assumes every item is driven by one shared latent variable. In an SJT that assumption is not even intended to hold. The wrong coefficient produces the wrong conclusion, not a bad instrument.\n\n\n\n\n\nWhetzel & McDaniel (2009).",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7167,11 +7167,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan5-en.html#the-price",
-    "href": "slides/pertemuan5-en.html#the-price",
+    "objectID": "slides/pertemuan5-en.html#ipsativity-the-price",
+    "href": "slides/pertemuan5-en.html#ipsativity-the-price",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
-    "section": "The price",
-    "text": "The price\n\nEvery time a respondent picks one statement, they automatically do not pick the other.\nAs a result, the total across all scales is constant for every respondent. If one scale score goes up, another must go down.\nData with this property are called ipsative: the scores are meaningful within a person, not between people.\n\n\n\n\n\n\n\n\nWith ipsative data, a score answers “of all these things, which stands out most in me?” — not “how much of this trait do I have compared with other people?”",
+    "section": "Ipsativity: the price",
+    "text": "Ipsativity: the price\n\nEvery time a respondent picks one statement, they automatically do not pick the other.\nAs a result, the total across all scales is constant for every respondent. If one scale score goes up, another must go down.\nData with this property are called ipsative: the scores are meaningful within a person, not between people.\n\n\n\n\n\n\n\n\nWith ipsative data, a score answers “of all these things, which stands out most in me?” — not “how much of this trait do I have compared with other people?”",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7215,11 +7215,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan5-en.html#all-three-are-unrealistic",
-    "href": "slides/pertemuan5-en.html#all-three-are-unrealistic",
+    "objectID": "slides/pertemuan5-en.html#all-three-are-not-fully-realistic-for-your-project",
+    "href": "slides/pertemuan5-en.html#all-three-are-not-fully-realistic-for-your-project",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
-    "section": "All three are unrealistic",
-    "text": "All three are unrealistic\n\nThurstone — still realistic.\nSJT — not realistic this semester. Writing good scenarios and building a scoring key is a project in itself.\nForced-choice — not realistic. The correct analysis of ipsative data is outside the scope of this course.\n\n\n\n\n\n\n\n\nSo why cover them?\n\n\nBecause you will encounter all three in practice — especially SJTs and forced-choice instruments, which are widely used in assessment and recruitment.\nWhat you should take from today is not the ability to build them, but the ability to judge whether such an instrument is being used properly.",
+    "section": "All three are not fully realistic for your project",
+    "text": "All three are not fully realistic for your project\n\nThurstone — still realistic, but technically harder than building a Likert scale.\nSJT — not realistic. Writing good scenarios and building a scoring key is a project in itself.\nForced-choice — not realistic. The correct analysis of ipsative data is outside the scope of this course.\n\n\n\n\n\n\n\n\nSo why cover them?\n\n\nBecause you will encounter all three in practice — especially SJTs and forced-choice instruments, which are widely used in assessment and recruitment.\nWhat you should take from today is not the ability to build them, but the ability to judge whether such an instrument is being used properly.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7255,7 +7255,7 @@
     "href": "slides/pertemuan5-en.html#part-2-matching-for-attractiveness",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
     "section": "Part 2: matching for attractiveness",
-    "text": "Part 2: matching for attractiveness\nLook at these three forced-choice pairs. Which are well matched, and which are not?\nPair 1 (a) I am an organised person. (b) I am an outgoing person.\nPair 2 (a) I like to plan things in advance. (b) I sometimes put things off.\nPair 3 (a) I enjoy working alone. (b) I enjoy working in a team.\n\n\n\n\n\n\n\nNote\n\n\nTime: 10 minutes. For any pair that is not well matched, write down how you would fix it.",
+    "text": "Part 2: matching for attractiveness\nLook at these three forced-choice pairs. Which are well matched, and which are not?\nPair 1 (a) I am an organised person. (b) I am an outgoing person.\nPair 2 (a) I like to plan things in advance. (b) I sometimes put things off.\nPair 3 (a) I enjoy working alone. (b) I enjoy working in a team.\n\n\n\n\n\n\n\nFor any pair that is not well matched, write down how you would fix it.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",

@@ -213,7 +213,7 @@ The CVI procedure is **Thurstone's logic applied to content relevance**, rather 
 
 **How effective is each of the following actions?**
 
-| | Action | |
+| | Action | Response (1: not at all effective; 5: very effective) |
 |---|---|---|
 | A | Do that section yourself so the deadline is met | 1–5 |
 | B | Redistribute the section to members who have finished | 1–5 |
@@ -291,9 +291,9 @@ Note that the first two **require a panel**, exactly like Thurstone and like the
 
 * SJTs are almost always **multidimensional**. A single scenario can involve knowledge, personality, and reasoning at once.
 
-* As a result, internal consistency is often **low** — and it **should be**.
+* As a result, internal consistency is often **low**.
 
-* This violates the unidimensionality assumption from Session 2, and makes the CTT model from Session 3 a poor fit as it stands.
+* This violates the unidimensionality assumption from Session 2, and means the CTT model from Session 3 needs an extra layer of complexity.
 
 :::
 
@@ -368,9 +368,7 @@ The classic example is the *Edwards Personal Preference Schedule* (Edwards, 1959
 
 :::
 
-# Ipsativity {background-color="#14497F" .center}
-
-## The price
+## Ipsativity: the price
 
 ::: {.incremental}
 
@@ -456,13 +454,13 @@ We opened today with Thurstone, and we close with Thurstone. Thurstone's 1920s i
 
 # What is realistic for your project {background-color="#14497F" .center}
 
-## All three are unrealistic
+## All three are not fully realistic for your project
 
 ::: {.incremental}
 
-* **Thurstone** — still realistic.
+* **Thurstone** — still realistic, but technically harder than building a Likert scale.
 
-* **SJT** — not realistic this semester. Writing good scenarios and building a scoring key is a project in itself.
+* **SJT** — not realistic. Writing good scenarios and building a scoring key is a project in itself.
 
 * ***Forced-choice*** — not realistic. The correct analysis of ipsative data is outside the scope of this course.
 
@@ -542,8 +540,8 @@ Look at these three forced-choice pairs. **Which are well matched, and which are
 
 . . .
 
-::: {.callout-note}
-Time: **10 minutes**. For any pair that is not well matched, write down how you would fix it.
+::: {.callout-note appearance="simple"}
+For any pair that is not well matched, write down how you would fix it.
 :::
 
 # Summary {background-color="#14497F" .center}

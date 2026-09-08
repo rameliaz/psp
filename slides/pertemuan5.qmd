@@ -48,7 +48,7 @@ Ketika kita memakai skala Likert, secara implisit kita menerima 3️⃣ hal:
 
 2. **Item berupa pernyataan tentang diri sendiri (*self-report*), secara abstrak.** (e.g., *"Saya orang yang teliti."*)
 
-3. **Setiap item dijawab secara terpisah.** Menyetujui satu item tidak berarti memaksa Anda menolak item lain.
+3. **Setiap item dijawab secara terpisah.** Menyetujui satu item tidak berarti memaksa partisipan menolak item lain.
 
 :::
 
@@ -63,7 +63,7 @@ Hari ini kita akan memperlajari tiga format respons yang masing-masing **menolak
 | Format | Yang ditolak | Yang diasumsikan |
 |--------|-----------------|----------------|
 | **Thurstone** | Bobot item yang sama | Item terkalibrasi di sepanjang kontinum |
-| **SJT** | Pernyataan diri yang abstrak | Konteks dan penilaian yang lebih konkret |
+| **SJT** | Pernyataan tentang diri sendiri yang cenderung abstrak | Konteks dan penilaian yang lebih konkret |
 | ***Forced-choice*** | Kebebasan menjawab tiap item | Menangkal problem *social desirability* |
 
 . . .
@@ -102,7 +102,8 @@ Bandingkan dengan Likert, di mana semua item pada dasarnya adalah **detektor yan
 
 1. **Kumpulkan banyak pernyataan** tentang objek sikap, yang biasanya puluhan hingga ratusan.
 
-2. **Minta anggota panel** menempatkan tiap pernyataan ke dalam 11 kategori, dari paling bertentangan sampai paling mendukung konstruk. Anggota panel **tidak** diminta pendapat pribadinya; mereka diminta menilai **posisi pernyataannya** di garis kontinum level atribut ($\theta$).
+2. **Minta anggota panel** menempatkan tiap pernyataan ke dalam 11 kategori, dari paling bertentangan sampai paling mendukung konstruk. 
+  - Anggota panel **tidak** diminta pendapat pribadinya; mereka diminta menilai **posisi pernyataannya** di garis kontinum level atribut ($\theta$).
 
 3. **Hitung median** penilaian anggota panel untuk tiap pernyataan. Itulah **nilai skala** (*scale value*) pernyataan tersebut.
 
@@ -120,9 +121,11 @@ Bandingkan dengan Likert, di mana semua item pada dasarnya adalah **detektor yan
 
 ::: {.incremental}
 
-* Tiap pernyataan punya **satu angka** yang menandai posisinya di kontinum. Angka inilah yang mencerminkan kalibrasinya.
+* Tiap pernyataan punya **satu angka** yang menandai posisinya di kontinum. 
+  - Angka inilah yang mencerminkan kalibrasinya.
 
-* Pernyataan 4 punya rentang antar-kuartil yang **sangat lebar**: para anggota panel tidak sepakat pernyataan itu ada di posisi mana. Pernyataan seperti ini dibuang, sebagus apapun penulisan kalimatnya.
+* Pernyataan 4 punya rentang antar-kuartil yang **sangat lebar**: para anggota panel tidak sepakat pernyataan itu ada di posisi mana. 
+  - Pernyataan seperti ini sebaiknya dibuang, sebagus apapun penulisan kalimatnya.
 
 * Pernyataan yang lolos harus **tersebar** dari ujung ke ujung kontinum level atribut ($\theta$), sehingga merepresentasikan seluruh spektrum konstruk. 
 
@@ -131,7 +134,7 @@ Bandingkan dengan Likert, di mana semua item pada dasarnya adalah **detektor yan
 . . .
 
 ::: {.callout-note appearance="simple"}
-Kita sudah menentukan "tingkat kesulitan" tiap item **sebelum partisipan mengisinya**. Ini adalah sesuatu yang tidak bisa dilakukan dengan CTT.
+Pembuat skala sudah menentukan "tingkat kesulitan" tiap item **sebelum partisipan mengisinya**. Ini adalah sesuatu yang tidak bisa dilakukan dengan CTT.
 :::
 
 ## Cara partisipan menjawab dan cara menskornya
@@ -150,7 +153,7 @@ Kita sudah menentukan "tingkat kesulitan" tiap item **sebelum partisipan mengisi
 
 ::: {.callout-warning}
 #### Apa perbedaannya dengan Likert?
-Pada Likert, **informasi ada pada derajat jawaban**. Pada Thurstone, informasi ada pada **item mana yang disetujui**. Pilihan jawabannya sendiri hanya ya/tidak.
+Pada Likert, **informasi ada pada derajat jawaban**. Pada Thurstone, informasi ada pada **item mana yang disetujui**.
 :::
 
 ## Kenapa Thurstone jarang dipakai
@@ -179,7 +182,7 @@ Seperti Guttman di Pertemuan 4, item Thurstone **tidak berbobot sama**. Artinya 
 * **Pengembangan Model IRT.** Metode berbasis IRT **punya tujuan yang sama** dengan Thurstone. 
   + Parameter kesulitan $b$ yang kita lihat di Pertemuan 3 pada dasarnya adalah nilai skala Thurstone, tetapi bedanya, IRT mengestimasinya dari data pengukuran yang dilakukan pada partisipan, bukan dari panel *reviewer*.
 
-* **Untuk proyek pengembangan skala Anda.** Di Pertemuan 11, Anda akan meminta panel ahli menilai relevansi tiap item, lalu menghitung *Content Validity Index*.
+* **Untuk proyek pengembangan skala Anda.** Di Pertemuan 11, Anda akan meminta panel ahli menilai relevansi tiap item, lalu menghitung [*Content Validity Index*](/slides/pertemuan11.html).
 
 :::
 
@@ -212,7 +215,7 @@ Prosedur CVI adalah **logika Thurstone yang diterapkan pada relevansi item denga
 
 **Seberapa efektif tiap tindakan berikut?**
 
-| | Tindakan | |
+| | Tindakan | Respon Partisipan (1: sama sekali tidak efektif; 5: sangat efektif) |
 |---|---|---|
 | A | Mengerjakan sendiri bagian itu agar tenggat terkejar | 1–5 |
 | B | Membagi bagian tersebut ke anggota lain yang sudah selesai | 1–5 |
@@ -277,7 +280,8 @@ Perhatikan bahwa dua yang pertama **membutuhkan panel**, persis seperti Thurston
 
 ::: {.incremental}
 
-* **Konteks yang konkret.** partisipan tidak diminta menggeneralisasi tentang dirinya, melainkan menanggapi situasi tertentu. Ini menghindari sebagian masalah akses introspektif dari Pertemuan 2.
+* **Konteks yang konkret.** partisipan tidak diminta menggeneralisasi tentang dirinya, melainkan menanggapi situasi tertentu. 
+  - Ini menghindari sebagian masalah akses introspektif dari Pertemuan 2.
 
 * **Tampak relevan bagi partisipan**, sehingga lebih mudah diterima dalam konteks seleksi.
 
@@ -369,9 +373,7 @@ Contoh klasiknya adalah *Edwards Personal Preference Schedule* (Edwards, 1959), 
 
 :::
 
-# Ipsativitas {background-color="#14497F" .center}
-
-## Risiko yang harus diterima
+## Risiko yang harus diterima: Ipsativitas
 
 ::: {.incremental}
 
@@ -413,7 +415,7 @@ $$\bar{r} = -\frac{1}{k-1}$$
 . . .
 
 ::: {.callout-warning appearance="simple"}
-Angka-angka itu **muncul dari formatnya**, bukan dari proses psikologis partisipannya.
+Koefisien-koefisien ini **lebih banyak dijelaskan oleh format skalanya**, bukan dari proses psikologis partisipan yang ingin diukur.
 :::
 
 ## Konsekuensinya
@@ -453,18 +455,18 @@ Instrumen ipsatif **tidak boleh** dipakai untuk seleksi, pemeringkatan, atau per
 . . .
 
 ::: {.callout-tip appearance="simple"}
-Kita membuka hari ini dengan Thurstone, dan menutupnya dengan Thurstone. Ide Thurstone di tahun 1920-an itu ternyata yang menjadi solusi untuk masalah ini.
+Kita membuka hari ini dengan Thurstone, dan menutupnya dengan Thurstone. Ide kalibrasi item ala Thurstone di tahun 1920-an ini ternyata yang menjadi solusi untuk banyak masalah.
 :::
 
 # Apa yang realistis untuk proyek tugas UAS Anda {background-color="#14497F" .center}
 
-## Ketiganya tidak realistis diterapkan untuk UAS
+## Ketiganya tidak terlalu realistis diterapkan untuk UAS
 
 ::: {.incremental}
 
-* **Thurstone** — masih realistis. 
+* **Thurstone** — masih realistis, tetapi lebih sulit secara teknis dibandingkan membuat skala Likert. 
 
-* **SJT** — tidak realistis untuk UAS ini. Menulis skenario yang baik dan menyusun kunci jawabannya adalah penelitian empirik tersendiri.
+* **SJT** — tidak realistis. Menulis skenario yang baik dan menyusun kunci jawabannya adalah penelitian empirik tersendiri.
 
 * ***Forced-choice*** — tidak realistis. Analisis yang benar untuk data ipsatif berada di luar cakupan mata kuliah ini.
 
@@ -505,7 +507,7 @@ tidak disepakati, karena keduanya bisa dibaca sebagai pernyataan normatif maupun
 Kalau waktunya sempit, cukup pakai tiga pernyataan: 1, 3, dan 6.
 :::
 
-## Bagian 1: yang perlu dihitung dan didiskusikan
+## Bagian 1: menjadi *reviewer* untuk item Thurstone
 
 ::: {.incremental}
 
@@ -544,8 +546,8 @@ Perhatikan tiga pasangan *forced-choice* berikut. **Mana yang sudah disetarakan 
 
 . . .
 
-::: {.callout-note}
-Waktu: **10 menit**. Untuk pasangan yang belum setara, tuliskan bagaimana Anda memperbaikinya.
+::: {.callout-note appearance="simple"}
+Untuk pasangan yang belum setara, tuliskan bagaimana Anda memperbaikinya.
 :::
 
 # Rangkuman {background-color="#14497F" .center}
