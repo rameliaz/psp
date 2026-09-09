@@ -220,7 +220,7 @@ The CVI procedure is **Thurstone's logic applied to content relevance**, rather 
 | C | Ask the lecturer for an extension | 1–5 |
 | D | Submit as is and note who did not contribute | 1–5 |
 
-: {tbl-colwidths="[8,77,15]"}
+: {tbl-colwidths="[5,60,35]"}
 
 ## Notice the difference
 

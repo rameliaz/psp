@@ -223,7 +223,7 @@ Prosedur CVI adalah **logika Thurstone yang diterapkan pada relevansi item denga
 | C | Meminta perpanjangan waktu kepada dosen | 1–5 |
 | D | Menyerahkan tugas apa adanya dan menuliskan siapa yang tidak berkontribusi | 1–5 |
 
-: {tbl-colwidths="[8,77,15]"}
+: {tbl-colwidths="[5,60,35]"}
 
 ## Perhatikan perbedaannya
 
