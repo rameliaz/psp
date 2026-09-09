@@ -100,16 +100,17 @@ Bandingkan dengan Likert, di mana semua item pada dasarnya adalah **detektor yan
 
 ::: {.incremental}
 
-1. **Kumpulkan banyak pernyataan** tentang objek sikap, yang biasanya puluhan hingga ratusan.
+* **Kumpulkan banyak pernyataan** tentang objek sikap, yang biasanya puluhan hingga ratusan.
 
-2. **Minta anggota panel** menempatkan tiap pernyataan ke dalam 11 kategori, dari paling bertentangan sampai paling mendukung konstruk. 
+* **Minta anggota panel** menempatkan tiap pernyataan ke dalam 11 kategori, dari paling bertentangan sampai paling mendukung konstruk. 
   - Anggota panel **tidak** diminta pendapat pribadinya; mereka diminta menilai **posisi pernyataannya** di garis kontinum level atribut ($\theta$).
 
-3. **Hitung median** penilaian anggota panel untuk tiap pernyataan. Itulah **nilai skala** (*scale value*) pernyataan tersebut.
+* **Hitung median** penilaian anggota panel untuk tiap pernyataan. 
+  + Inilah yang dijadikan **nilai skala** (*scale value*) pernyataan tersebut.
 
-4. **Hitung sebaran penilaian anggota panel** (rentang antar-kuartil). Pernyataan yang juri-jurinya tidak sepakat berarti **ambigu**, dan dibuang.
+* **Hitung sebaran penilaian anggota panel** (rentang antar-kuartil). Pernyataan yang reviewernya tidak sepakat berarti **ambigu**, dan dibuang.
 
-5. **Pilih pernyataan yang tersisa** sedemikian rupa sehingga nilai skalanya **tersebar merata** di sepanjang kontinum level atribut ($\theta$).
+* **Pilih pernyataan yang tersisa** sedemikian rupa sehingga nilai skalanya **tersebar merata** di sepanjang kontinum level atribut ($\theta$).
 
 :::
 
@@ -558,7 +559,7 @@ Untuk pasangan yang belum setara, tuliskan bagaimana Anda memperbaikinya.
 
 1. **Thurstone mengkalibrasi item lebih dulu** lewat panel *reviewer*, sehingga item punya posisi yang diketahui di kontinum level atribut ($\theta$).
 
-2. **Kalibrasi nilai skala Thurstone adalah asal mula parameter kesulitan dalam IRT**, dan prosedur jurinya adalah menginspirasi prosedur penilaian *reviewer* dalam proses penghitungan CVI.
+2. **Kalibrasi nilai skala Thurstone adalah asal mula parameter kesulitan dalam IRT**, dan prosedur *expert review*nya menginspirasi prosedur penilaian *reviewer* dalam proses penghitungan CVI.
 
 3. **SJT mengukur penilaian dalam konteks**, dan konstruknya hampir selalu multidimensional, sehingga Cronbach's $\alpha$ hampir selalu rendah.
 
