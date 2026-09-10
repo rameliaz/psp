@@ -47,7 +47,7 @@ We used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate referen
 
 * **Session 10** produced the blueprint and the item list, with a response format.
 
-* **Today** that item list is judged by other people, before any respondent completes it.
+* **Today** that item list is judged by other people, before any participant completes it.
 
 :::
 
@@ -77,14 +77,14 @@ practical work; have them complete it during this session.
 
 * **Method experts** — people who know scale construction and can judge whether an item is well written.
 
-* **Representatives of the target population** — people whose characteristics resemble those of your respondents.
+* **Representatives of the target population** — people whose characteristics resemble those of your participants.
 
 :::
 
 . . .
 
 ::: {.callout-note appearance="simple"}
-These three give different kinds of feedback. A panel made up entirely of academics tends to miss readability problems that a prospective respondent spots immediately.
+These three give different kinds of feedback. A panel made up entirely of academics tends to miss readability problems that a prospective participant spots immediately.
 :::
 
 ## How many
@@ -193,7 +193,7 @@ That is construct underrepresentation from Session 7. The only way to check it t
 
 . . .
 
-### [Click here to download the template](libs/menghitung-icvi.xlsx)
+### [Click here to download the template](https://docs.google.com/spreadsheets/d/11cgFFurEdYTaD1UHNh3PuLSAMNbCDLyK/edit?usp=sharing&ouid=100126014993390956583&rtpof=true&sd=true)
 
 
 ## The formula
@@ -297,7 +297,7 @@ where $N$ is the number of raters and $A$ the number judging the item relevant.
 
 . . .
 
-::: {.callout-note}
+::: {.callout-note appearance="simple"}
 The usual benchmarks: $\kappa^* > 0.74$ excellent, $0.60$–$0.74$ good, $0.40$–$0.59$ fair, below that poor.
 
 Note A8: an I-CVI of 0.50 looks like "half agreed", but once corrected, the agreement is barely better than guessing.
@@ -335,7 +335,7 @@ $$\text{S-CVI/Ave} = \frac{6.83}{8} = 0.85 \qquad \text{S-CVI/UA} = \frac{4}{8} 
 
 * Both come from exactly the same table.
 
-* Polit & Beck (2006) wrote a paper specifically about this confusion: many reports cite "the CVI" without saying which one.
+* [Polit & Beck (2006)](https://onlinelibrary.wiley.com/doi/abs/10.1002/nur.20147) wrote a paper specifically about this confusion: many reports cite "the CVI" without saying which one.
 
 :::
 
@@ -402,7 +402,7 @@ Report **both**: the result before revision and after, together with the decisio
 
 * **Completeness.** The CVI judges the items that exist, not the items that should exist. For that you have to ask the panel directly.
 
-* **Clarity for respondents.** Expert raters read items differently from prospective respondents. Clarity is checked through cognitive interviewing, as covered in Session 7.
+* **Clarity for participants.** Expert raters read items differently from prospective participants. Clarity is checked through cognitive interviewing, as covered in Session 7.
 
 * **Whether the construct itself makes sense.** If your construct definition is flawed, the panel will rate relevance against that flawed definition.
 
@@ -450,6 +450,8 @@ are back before the pilot in Session 12.
 
 * Collect the ratings and compute: **I-CVI for each item**, **$\kappa^*$**, and both **S-CVI/Ave** and **S-CVI/UA**.
 
+* Use [the provided spreadsheet](https://docs.google.com/spreadsheets/d/11cgFFurEdYTaD1UHNh3PuLSAMNbCDLyK/edit?usp=sharing&ouid=100126014993390956583&rtpof=true&sd=true) to compute the parameters above.
+
 * Identify which items fail, and write one revision suggestion for each.
 
 :::
@@ -481,9 +483,9 @@ Leave 15 minutes to work through one or two groups' results with the whole class
 
 ::: {.incremental}
 
-* Designing the **pilot study**: who the respondents are, how many, and how to reach them.
+* Designing the **pilot study**: who the participants are, how many, and how to reach them.
 * Setting data-cleaning rules **before** the data arrives.
-* Including **one short comparison scale** for evidence on relations to other variables.
+* Including **one short comparison scale** for evidence on relations to other variables (*discriminant* vs. *convergent validity*).
 * Running short cognitive interviews with 3–5 people before distributing the questionnaire.
 
 :::

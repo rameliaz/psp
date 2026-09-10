@@ -47,7 +47,7 @@ Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 
 * **Pertemuan 10** menghasilkan kisi-kisi dan daftar item, beserta format responsnya.
 
-* **Hari ini** daftar item ini akan dinilai *reviewer*, sebelum partisipan mengisinya.
+* **Hari ini** daftar item akan dinilai *reviewer*, sebelum partisipan mengisinya.
 
 :::
 
@@ -84,7 +84,7 @@ mengikuti praktik hari ini secara penuh; minta mereka mengerjakannya di sesi ini
 . . .
 
 ::: {.callout-note appearance="simple"}
-Ketiganya memberi masukan yang berbeda. Panel yang seluruhnya berisi dosen cenderung melewatkan persoalan keterbacaan yang langsung terlihat oleh calon partisipan.
+Ketiganya memberi masukan yang berbeda. **Panel yang seluruhnya berisi dosen** cenderung melewatkan persoalan keterbacaan yang langsung terlihat oleh calon partisipan.
 :::
 
 ## Berapa orang
@@ -106,8 +106,8 @@ Ketiganya memberi masukan yang berbeda. Panel yang seluruhnya berisi dosen cende
 . . .
 
 ::: {.callout-warning}
-#### Jumlah ganjil lebih praktis
-Dengan jumlah genap, kesepakatan bisa terbelah tepat separuh, dan Anda tidak punya dasar untuk memutuskan item mana yang lulus.
+#### *Reviewer* dengan jumlah ganjil vs. genap
+Dengan jumlah genap, kesepakatan bisa terbelah tepat separuh, dan Anda akan kesulitan untuk memutuskan item mana yang lulus.
 :::
 
 ::: {.notes}
@@ -116,7 +116,7 @@ dan satu atau dua wakil populasi sasaran. Tekankan bahwa dengan panel kecil, kri
 lebih ketat — semua penilai harus sepakat.
 :::
 
-## Apa yang dikirim ke panel
+## Apa yang perlu dipersiapkan untuk *reviewer*
 
 ::: {.incremental}
 
@@ -124,7 +124,7 @@ lebih ketat — semua penilai harus sepakat.
 2. **Kisi-kisi**, supaya penilai tahu tiap item dimaksudkan mewakili aspek yang mana.
 3. **Daftar item** dengan penomoran yang jelas.
 4. **Formulir penilaian** beserta petunjuk pengisiannya.
-5. **Tenggat** yang jelas.
+5. **Tenggat waktu** yang jelas.
 
 :::
 
@@ -132,7 +132,7 @@ lebih ketat — semua penilai harus sepakat.
 
 ::: {.callout-warning}
 #### Jangan dilakukan ❌❌❌
-Mengirim daftar item **tanpa definisi konstruknya**. Penilai kemudian menilai relevansi berdasarkan pemahaman masing-masing tentang konstruk itu, dan hasilnya sulit ditafsirkan.
+Mengirim daftar item **tanpa definisi konstruknya**. *Reviewer* kemudian menilai relevansi berdasarkan pemahaman masing-masing tentang konstruk itu, dan hasilnya sulit ditafsirkan.
 :::
 
 # Formulir penilaian {background-color="#14497F" .center}
@@ -174,9 +174,9 @@ Mengirim daftar item **tanpa definisi konstruknya**. Penilai kemudian menilai re
 
 ::: {.callout-tip}
 #### Kenapa pertanyaan terakhir penting disertakan
-CVI hanya memeriksa apakah item yang **ada** itu relevan. Ia tidak bisa memeriksa apakah ada bagian konstruk yang **tidak tercakup sama sekali**.
+CVI hanya memeriksa apakah item yang **tersedia** relevan. Ia tidak bisa memeriksa apakah ada bagian konstruk yang **tidak tercakup sama sekali** (*construct coverage*).
 
-Itulah *construct underrepresentation* dari Pertemuan 7. Satu-satunya cara memeriksanya lewat panel adalah dengan menanyakannya secara langsung.
+Masalah ini disebut sebagai *construct underrepresentation* dari Pertemuan 7. Satu-satunya cara memeriksanya adalah dengan meminta panel menilai *coverage* secara langsung.
 :::
 
 # Menghitung I-CVI {background-color="#14497F" .center}
@@ -193,7 +193,7 @@ Itulah *construct underrepresentation* dari Pertemuan 7. Satu-satunya cara memer
 
 . . .
 
-### [Klik di sini untuk mengunduh *template*](libs/menghitung-icvi.xlsx)
+### [Klik di sini untuk mengunduh *template*](https://docs.google.com/spreadsheets/d/11cgFFurEdYTaD1UHNh3PuLSAMNbCDLyK/edit?usp=sharing&ouid=100126014993390956583&rtpof=true&sd=true)
 
 
 ## Rumusnya
@@ -309,7 +309,7 @@ Perhatikan A8: I-CVI 0.50 terlihat seperti "setengah setuju", tetapi setelah dik
 
 ::: {.incremental}
 
-* **S-CVI/Ave** — rata-rata dari seluruh I-CVI. Menggambarkan relevansi rata-rata.
+* **S-CVI/Ave** — rata-rata dari seluruh I-CVI. Menggambarkan relevansi rata-rata item.
 
 * **S-CVI/UA** — proporsi item yang disepakati **semua** penilai (*universal agreement*), yang jauh lebih ketat daripada S-CVI(Ave).
 
@@ -345,7 +345,7 @@ $$\text{S-CVI/Ave} = \frac{6{.}83}{8} = 0{.}85 \qquad \text{S-CVI/UA} = \frac{4}
 #### Yang harus kelompok Anda lakukan
 Sebutkan **secara eksplisit** cara perhitungan yang dipakai. Menulis "CVI = 0.85" tanpa keterangan membuat angka itu tidak bisa ditafsirkan orang lain.
 
-Yang lazim dilaporkan adalah **S-CVI/Ave**, dengan patokan minimal **0.90**.
+Yang lazim dilaporkan adalah **S-CVI/Ave**, dengan patokan (*rule of thumb*) minimal **0.90**.
 :::
 
 ::: {.notes}
@@ -360,7 +360,7 @@ mereka sendiri dan membandingkannya.
 
 ::: {.incremental}
 
-* **Perbaiki dulu, jangan langsung dibuang.** Baca komentar anggota panel. Sering kali masalahnya ada pada penulisan kalimatnya.
+* **Perbaiki dulu, jangan langsung dibuang.** Baca komentar *reviewer*. Sering kali masalahnya ada pada penulisan kalimatnya.
 
 * **Buang** kalau item itu memang mengukur hal lain, atau kalau aspeknya sudah diwakili item lain yang lebih baik.
 
@@ -371,7 +371,7 @@ mereka sendiri dan membandingkannya.
 . . .
 
 ::: {.callout-warning appearance="simple"}
-Ingat paradoks atenuasi dari Pertemuan 7. Membuang item hanya demi koefisien reliabilitas yang lebih tinggi bisa mempersempit cakupan isi skala, dan itu justru merugikan.
+Ingat paradoks atenuasi dari Pertemuan 7. Membuang item hanya demi koefisien reliabilitas yang lebih tinggi bisa mempersempit cakupan isi skala, dan ini justru lebih banyak merugikan Anda.
 :::
 
 ## Hitung ulang setelah perbaikan
@@ -400,11 +400,11 @@ Laporkan **kedua-duanya**: hasil sebelum perbaikan dan sesudahnya, beserta keput
 
 ::: {.incremental}
 
-* **Kelengkapan.** CVI menilai item yang ada, bukan item yang seharusnya ada. Untuk itu Anda perlu bertanya langsung kepada anggota panel.
+* **Cakupan konstruk.** CVI menilai item yang tersedia, bukan item yang **seharusnya tersedia**. Untuk itu Anda perlu bertanya langsung kepada *reviewer*.
 
-* **Kejelasan bagi partisipan.** Penilai ahli membaca item dengan cara yang berbeda dari calon partisipan. Pemeriksaan kejelasan dilakukan lewat wawancara kognitif, seperti yang dibahas di Pertemuan 7.
+* **Kejelasan bagi partisipan.** *Reviewer* membaca item dengan cara yang berbeda dari calon partisipan. Pemeriksaan kejelasan dilakukan lewat wawancara kognitif, seperti yang dibahas di Pertemuan 7.
 
-* **Apakah konstruknya sendiri masuk akal.** Kalau definisi konstruk Anda bermasalah, anggota panel akan menilai relevansi terhadap definisi yang bermasalah itu.
+* **Apakah konstruknya sendiri masuk akal.** Kalau definisi konstruk Anda bermasalah, *reviewer* akan menilai relevansi terhadap definisi yang bermasalah itu.
 
 :::
 
@@ -415,7 +415,7 @@ Laporkan **kedua-duanya**: hasil sebelum perbaikan dan sesudahnya, beserta keput
 . . .
 
 ::: {.callout-tip appearance="simple"}
-CVI adalah satu sumber bukti validitas. Ia "hanya" menempati satu baris pada tabel bukti validitas di Pertemuan 7.
+CVI adalah satu sumber bukti validitas. Ia "hanya" salah satu dari sekian banyak alternatif bukti validitas yang sudah dipelajari di Pertemuan 7.
 :::
 
 # Praktik {background-color="#14497F" .center}
@@ -450,14 +450,16 @@ ini, supaya hasilnya sudah kembali sebelum uji coba di Pertemuan 12.
 
 * Kumpulkan penilaiannya, lalu hitung: **I-CVI tiap item**, **$\kappa^*$**, serta **S-CVI/Ave** dan **S-CVI/UA**.
 
+* Gunakan [*spreadsheet* yang sudah disediakan](https://docs.google.com/spreadsheets/d/11cgFFurEdYTaD1UHNh3PuLSAMNbCDLyK/edit?usp=sharing&ouid=100126014993390956583&rtpof=true&sd=true) untuk menghitung parameter di atas.
+
 * Tentukan item mana yang tidak lolos, dan tuliskan satu saran perbaikan untuk masing-masing.
 
 :::
 
 . . .
 
-::: {.callout-tip}
-Latihan ini memakai kelompok sebagai penilai, jadi hasilnya bukan bukti validitas yang sesungguhnya. Tujuannya adalah memastikan perhitungannya sudah benar sebelum data dari panel yang sebenarnya masuk.
+::: {.callout-tip appearance="simple"}
+Latihan ini tujuannya melatih mahasiswa untuk bertindak sebagai *reviewer*, jadi hasilnya bukan bukti validitas yang sesungguhnya. Tujuannya adalah memastikan perhitungannya sudah benar sebelum data dari *reviewer* yang sebenarnya sudah diperoleh.
 :::
 
 ::: {.notes}
@@ -484,7 +486,7 @@ Sisakan 15 menit untuk membahas hasil satu atau dua kelompok di depan kelas.
 
 * Merancang **uji coba**: siapa partisipannya, berapa banyak, dan bagaimana menjangkaunya.
 * Menyusun aturan pembersihan data **sebelum** data masuk.
-* Menyertakan **satu skala pembanding** yang pendek, untuk bukti hubungan dengan variabel lain.
+* Menyertakan **satu skala pembanding** yang pendek, untuk bukti korelasi dengan variabel lain (*discriminant* vs. *convergent validity*).
 * Menyiapkan wawancara kognitif singkat dengan 3–5 orang sebelum kuesioner disebar.
 
 :::
@@ -493,7 +495,7 @@ Sisakan 15 menit untuk membahas hasil satu atau dua kelompok di depan kelas.
 
 ::: {.callout-tip}
 #### Persiapan
-Bawa daftar item hasil revisi hari ini. Kalau hasil penilaian dari panel yang sebenarnya sudah kembali, bawa juga.
+Bawa daftar item hasil revisi hari ini. Kalau hasil penilaian dari *reviewer* yang sebenarnya sudah didapatkan, silakan bawa juga.
 :::
 
 ## Ada pertanyaan❓

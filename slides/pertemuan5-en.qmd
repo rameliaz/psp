@@ -25,7 +25,7 @@ execute:
 * Three things we have been taking for granted — and the formats that give them up
 * **Thurstone**: items calibrated in advance by a panel of judges
 * ***Situational Judgement Tests***: measuring judgement rather than self-description
-* ***Forced-choice***: when respondents must choose, and scores become **ipsative**
+* ***Forced-choice***: when participants must choose, and scores become **ipsative**
 * Why ipsative data breaks almost everything we built in Session 3
 
 :::
@@ -101,15 +101,17 @@ Contrast this with Likert, where every item is essentially **the same detector**
 
 ::: {.incremental}
 
-1. **Generate many statements** about the attitude object — usually dozens or hundreds.
+* **Generate many statements** about the attitude object — usually dozens or hundreds.
 
-2. **Ask a panel of judges** to sort each statement into 11 piles, from most opposed to most in favour. Judges are **not** asked their own opinion; they judge **where the statement sits**.
+* **Ask a panel of judges** to sort each statement into 11 piles, from most opposed to most in favour.
+  - Judges are **not** asked their own opinion; they judge **where the statement sits** on the attribute continuum ($\theta$).
 
-3. **Take the median** judge rating for each statement. That is its **scale value**.
+* **Take the median** judge rating for each statement.
+  + That is its **scale value**.
 
-4. **Look at the spread** of judge ratings (the interquartile range). Statements the judges disagreed about are **ambiguous**, and get discarded.
+* **Look at the spread** of judge ratings (the interquartile range). Statements the judges disagreed about are **ambiguous**, and get discarded.
 
-5. **Select from what remains** so that the scale values are **evenly spread** across the continuum.
+* **Select from what remains** so that the scale values are **evenly spread** across the continuum ($\theta$).
 
 :::
 
@@ -121,27 +123,29 @@ Contrast this with Likert, where every item is essentially **the same detector**
 
 ::: {.incremental}
 
-* Each statement has **one number** marking its position on the continuum — that is the calibration.
+* Each statement has **one number** marking its position on the continuum.
+  - That is what reflects its calibration.
 
-* Statement 4 has a **very wide** interquartile range: the judges could not agree where it sits. Statements like this are discarded, however well written.
+* Statement 4 has a **very wide** interquartile range: the judges could not agree where it sits.
+  - Statements like this are discarded, however well written.
 
-* The surviving statements are **spread** from end to end. That is by design, not by accident.
+* The surviving statements must be **spread** from end to end of the attribute continuum ($\theta$), so they represent the whole spectrum of the construct.
 
 :::
 
 . . .
 
 ::: {.callout-note appearance="simple"}
-We have established each item's "difficulty" **before a single respondent has answered**. CTT cannot do that.
+We have established each item's "difficulty" **before a single participant has answered**. CTT cannot do that.
 :::
 
-## How respondents answer, and how it is scored
+## How participants answer, and how it is scored
 
 ::: {.incremental}
 
-* Respondents are only asked to **agree or disagree** with each statement. There are no degrees.
+* participants are only asked to **agree or disagree** with each statement. There are no degrees.
 
-* A respondent's score is the **mean scale value of the statements they endorsed**.
+* A participant's score is the **mean scale value of the statements they endorsed**.
 
 * So someone endorsing statements with scale values 8.5 and 10.5 scores 9.5 — nothing is summed.
 
@@ -158,7 +162,7 @@ In Likert, **the information is in the degree of the answer**. In Thurstone, the
 
 ::: {.incremental}
 
-* **The workload is heavy.** You need a judge panel before any respondent data is collected.
+* **The workload is heavy.** You need a judge panel before any participant data is collected.
 
 * **Finding items that genuinely "resonate"** at a specific level is much harder than it sounds.
 
@@ -178,9 +182,9 @@ Like Guttman in Session 4, Thurstone items are **not equally weighted**. So the 
 ::: {.incremental}
 
 * **Inside IRT.** IRT-based methods **share the same goal** as Thurstone scaling.
-  + The difficulty parameter $b$ from Session 3 is essentially a Thurstone scale value, except that IRT estimates it from respondent data rather than from a judge panel.
+  + The difficulty parameter $b$ from Session 3 is essentially a Thurstone scale value, except that IRT estimates it from participant data rather than from a judge panel.
 
-* **Inside your own project.** In Session 11 you will ask a panel of experts to rate the relevance of each item and compute a *Content Validity Index*.
+* **Inside your own project.** In Session 11 you will ask a panel of experts to rate the relevance of each item and compute a [*Content Validity Index*](slides/pertemuan11-en.html).
 
 :::
 
@@ -197,7 +201,7 @@ The CVI procedure is **Thurstone's logic applied to content relevance**, rather 
 
 ::: {.incremental}
 
-* Respondents are given a **realistic scenario** and asked to evaluate several possible actions.
+* participants are given a **realistic scenario** and asked to evaluate several possible actions.
 
 * What is measured is not a self-description but **judgement in a concrete situation**.
 
@@ -220,7 +224,7 @@ The CVI procedure is **Thurstone's logic applied to content relevance**, rather 
 | C | Ask the lecturer for an extension | 1–5 |
 | D | Submit as is and note who did not contribute | 1–5 |
 
-: {tbl-colwidths="[5,60,35]"}
+: {tbl-colwidths="[5,50,45]"}
 
 ## Notice the difference
 
@@ -277,7 +281,8 @@ Note that the first two **require a panel**, exactly like Thurstone and like the
 
 ::: {.incremental}
 
-* **Concrete context.** Respondents are not asked to generalise about themselves but to react to a specific situation — sidestepping part of the introspective-access problem from Session 2.
+* **Concrete context.** participants are not asked to generalise about themselves but to react to a specific situation.
+  - This sidesteps part of the introspective-access problem from Session 2.
 
 * **Face relevance**, which makes it easier to accept in a selection setting.
 
@@ -316,11 +321,11 @@ $\alpha$ assumes every item is driven by one shared latent variable. In an SJT t
 
 ::: {.incremental}
 
-* Recall the sixth assumption from Session 2: respondents are **willing** to report their state honestly.
+* Recall the sixth assumption from Session 2: participants are **willing** to report their state honestly.
 
 * In a job selection setting that assumption is plainly unrealistic. Everyone has a reason to look good.
 
-* With a Likert format, a respondent can simply rate **every** attractive-sounding statement highly.
+* With a Likert format, a participant can simply rate **every** attractive-sounding statement highly.
 
 :::
 
@@ -328,7 +333,7 @@ $\alpha$ assumes every item is driven by one shared latent variable. In an SJT t
 
 ::: {.callout-tip}
 #### The core idea
-If respondents are **forced to choose** between two equally attractive statements, they can no longer endorse everything. They must reveal **which one describes them better**.
+If participants are **forced to choose** between two equally attractive statements, they can no longer endorse everything. They must reveal **which one describes them better**.
 :::
 
 ## The format
@@ -362,9 +367,10 @@ The classic example is the *Edwards Personal Preference Schedule* (Edwards, 1959
 
 * The statements in a pair must be **matched for attractiveness** beforehand — which requires its own preliminary study.
 
-* Without that matching, the format **solves nothing**: respondents will still pick whichever sounds better.
+* Without that matching, the format **solves nothing**: participants will still pick whichever sounds better.
 
-* Matching attractiveness is itself a calibration task — once again, Thurstone-style work.
+* Matching attractiveness is itself a calibration task.
+  + Once again, Thurstone-style work.
 
 :::
 
@@ -372,9 +378,10 @@ The classic example is the *Edwards Personal Preference Schedule* (Edwards, 1959
 
 ::: {.incremental}
 
-* Every time a respondent picks one statement, they automatically **do not pick** the other.
+* Every time a participant picks one statement, they automatically **do not pick** the other.
 
-* As a result, **the total across all scales is constant** for every respondent. If one scale score goes up, another **must** go down.
+* As a result, **the total across all scales is constant** for every participant.
+  + If one scale score goes up, another **must** go down.
 
 * Data with this property are called **ipsative**: the scores are meaningful **within a person**, not between people.
 
@@ -409,7 +416,7 @@ $$\bar{r} = -\frac{1}{k-1}$$
 . . .
 
 ::: {.callout-warning appearance="simple"}
-Those numbers come **from the format**, not from the respondents' psychology.
+Those numbers come **from the format**, not from the participants' psychology.
 :::
 
 ## The knock-on effects

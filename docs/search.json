@@ -16,7 +16,7 @@
     "href": "slides/pertemuan11-en.html#where-we-are",
     "title": "Expert Review and Content Validity: Computing and Interpreting the CVI",
     "section": "Where we are",
-    "text": "Where we are\n\nSession 9 produced the construct specification: definition, boundary, estimand, facets, and indicators.\nSession 10 produced the blueprint and the item list, with a response format.\nToday that item list is judged by other people, before any respondent completes it.\n\n\nBrief introduction if this is the first session with this class. Check that every group has brought its construct specification and item list. Groups without them cannot fully take part in today’s practical work; have them complete it during this session.",
+    "text": "Where we are\n\nSession 9 produced the construct specification: definition, boundary, estimand, facets, and indicators.\nSession 10 produced the blueprint and the item list, with a response format.\nToday that item list is judged by other people, before any participant completes it.\n\n\nBrief introduction if this is the first session with this class. Check that every group has brought its construct specification and item list. Groups without them cannot fully take part in today’s practical work; have them complete it during this session.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -40,7 +40,7 @@
     "href": "slides/pertemuan11-en.html#who-counts-as-an-expert",
     "title": "Expert Review and Content Validity: Computing and Interpreting the CVI",
     "section": "Who counts as an expert",
-    "text": "Who counts as an expert\n\nContent experts — people who know the construct: lecturers, researchers, or practitioners in the field.\nMethod experts — people who know scale construction and can judge whether an item is well written.\nRepresentatives of the target population — people whose characteristics resemble those of your respondents.\n\n\n\n\n\n\n\n\nThese three give different kinds of feedback. A panel made up entirely of academics tends to miss readability problems that a prospective respondent spots immediately.",
+    "text": "Who counts as an expert\n\nContent experts — people who know the construct: lecturers, researchers, or practitioners in the field.\nMethod experts — people who know scale construction and can judge whether an item is well written.\nRepresentatives of the target population — people whose characteristics resemble those of your participants.\n\n\n\n\n\n\n\n\nThese three give different kinds of feedback. A panel made up entirely of academics tends to miss readability problems that a prospective participant spots immediately.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -172,7 +172,7 @@
     "href": "slides/pertemuan11-en.html#applied-to-the-example",
     "title": "Expert Review and Content Validity: Computing and Interpreting the CVI",
     "section": "Applied to the example",
-    "text": "Applied to the example\n\n\n\nItem\n\\(A\\)\nI-CVI\n\\(p_c\\)\n\\(\\kappa^*\\)\nVerdict\n\n\n\n\nA1\n6\n1.00\n0.016\n1.00\nexcellent\n\n\nA3\n5\n0.83\n0.094\n0.82\nexcellent\n\n\nA5\n4\n0.67\n0.234\n0.56\nfair\n\n\nA8\n3\n0.50\n0.313\n0.27\npoor\n\n\n\n\n\n\n\n\n\n\nNote\n\n\nThe usual benchmarks: \\(\\kappa^* &gt; 0.74\\) excellent, \\(0.60\\)–\\(0.74\\) good, \\(0.40\\)–\\(0.59\\) fair, below that poor.\nNote A8: an I-CVI of 0.50 looks like “half agreed”, but once corrected, the agreement is barely better than guessing.",
+    "text": "Applied to the example\n\n\n\nItem\n\\(A\\)\nI-CVI\n\\(p_c\\)\n\\(\\kappa^*\\)\nVerdict\n\n\n\n\nA1\n6\n1.00\n0.016\n1.00\nexcellent\n\n\nA3\n5\n0.83\n0.094\n0.82\nexcellent\n\n\nA5\n4\n0.67\n0.234\n0.56\nfair\n\n\nA8\n3\n0.50\n0.313\n0.27\npoor\n\n\n\n\n\n\n\n\n\n\nThe usual benchmarks: \\(\\kappa^* &gt; 0.74\\) excellent, \\(0.60\\)–\\(0.74\\) good, \\(0.40\\)–\\(0.59\\) fair, below that poor.\nNote A8: an I-CVI of 0.50 looks like “half agreed”, but once corrected, the agreement is barely better than guessing.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -232,7 +232,7 @@
     "href": "slides/pertemuan11-en.html#three-things-it-does-not-check",
     "title": "Expert Review and Content Validity: Computing and Interpreting the CVI",
     "section": "Three things it does not check",
-    "text": "Three things it does not check\n\nCompleteness. The CVI judges the items that exist, not the items that should exist. For that you have to ask the panel directly.\nClarity for respondents. Expert raters read items differently from prospective respondents. Clarity is checked through cognitive interviewing, as covered in Session 7.\nWhether the construct itself makes sense. If your construct definition is flawed, the panel will rate relevance against that flawed definition.\n\n\n\n\n\n\n\n\n\nThe CVI is one source of evidence. It occupies one row of the validity evidence table from Session 7.\n\n\n\n\n\nHaynes, Richard, & Kubany (1995); Rubio et al. (2003).",
+    "text": "Three things it does not check\n\nCompleteness. The CVI judges the items that exist, not the items that should exist. For that you have to ask the panel directly.\nClarity for participants. Expert raters read items differently from prospective participants. Clarity is checked through cognitive interviewing, as covered in Session 7.\nWhether the construct itself makes sense. If your construct definition is flawed, the panel will rate relevance against that flawed definition.\n\n\n\n\n\n\n\n\n\nThe CVI is one source of evidence. It occupies one row of the validity evidence table from Session 7.\n\n\n\n\n\nHaynes, Richard, & Kubany (1995); Rubio et al. (2003).",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -256,7 +256,7 @@
     "href": "slides/pertemuan11-en.html#part-2-practising-the-computation",
     "title": "Expert Review and Content Validity: Computing and Interpreting the CVI",
     "section": "Part 2: practising the computation",
-    "text": "Part 2: practising the computation\n25 minutes. Groups swap and act as raters for one another.\n\nEach group member rates 10 items belonging to another group using the 4-point scale.\nCollect the ratings and compute: I-CVI for each item, \\(\\kappa^*\\), and both S-CVI/Ave and S-CVI/UA.\nIdentify which items fail, and write one revision suggestion for each.\n\n\n\n\n\n\n\n\nTip\n\n\nThis exercise uses classmates as raters, so the result is not genuine validity evidence. The point is to make sure the computation is correct before the real panel data arrives.\n\n\n\n\nThe computation can be done on paper or in a spreadsheet. The most frequent mistakes: forgetting that ratings of 3 and 4 both count as relevant, and confusing S-CVI/Ave with S-CVI/UA. Leave 15 minutes to work through one or two groups’ results with the whole class.",
+    "text": "Part 2: practising the computation\n25 minutes. Groups swap and act as raters for one another.\n\nEach group member rates 10 items belonging to another group using the 4-point scale.\nCollect the ratings and compute: I-CVI for each item, \\(\\kappa^*\\), and both S-CVI/Ave and S-CVI/UA.\nUse the provided spreadsheet to compute the parameters above.\nIdentify which items fail, and write one revision suggestion for each.\n\n\n\n\n\n\n\n\nTip\n\n\nThis exercise uses classmates as raters, so the result is not genuine validity evidence. The point is to make sure the computation is correct before the real panel data arrives.\n\n\n\n\nThe computation can be done on paper or in a spreadsheet. The most frequent mistakes: forgetting that ratings of 3 and 4 both count as relevant, and confusing S-CVI/Ave with S-CVI/UA. Leave 15 minutes to work through one or two groups’ results with the whole class.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -280,7 +280,7 @@
     "href": "slides/pertemuan11-en.html#for-session-12",
     "title": "Expert Review and Content Validity: Computing and Interpreting the CVI",
     "section": "For Session 12",
-    "text": "For Session 12\n\nDesigning the pilot study: who the respondents are, how many, and how to reach them.\nSetting data-cleaning rules before the data arrives.\nIncluding one short comparison scale for evidence on relations to other variables.\nRunning short cognitive interviews with 3–5 people before distributing the questionnaire.\n\n\n\n\n\n\n\n\nPreparation\n\n\nBring today’s revised item list. If ratings from your actual panel have come back, bring those too.",
+    "text": "For Session 12\n\nDesigning the pilot study: who the participants are, how many, and how to reach them.\nSetting data-cleaning rules before the data arrives.\nIncluding one short comparison scale for evidence on relations to other variables (discriminant vs. convergent validity).\nRunning short cognitive interviews with 3–5 people before distributing the questionnaire.\n\n\n\n\n\n\n\n\nPreparation\n\n\nBring today’s revised item list. If ratings from your actual panel have come back, bring those too.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -5611,7 +5611,7 @@
     "href": "slides/pertemuan11.html#yang-anda-sudah-pelajari",
     "title": "Review Ahli dan Validitas Isi: Perhitungan dan Interpretasi CVI",
     "section": "Yang Anda sudah pelajari",
-    "text": "Yang Anda sudah pelajari\n\nPertemuan 9 menghasilkan uraian spesifikasi konstruk: definisi, batas, estimand, aspek, dan indikator.\nPertemuan 10 menghasilkan kisi-kisi dan daftar item, beserta format responsnya.\nHari ini daftar item ini akan dinilai reviewer, sebelum partisipan mengisinya.\n\n\nPerkenalan singkat kalau ini pertemuan pertama dengan kelas ini. Pastikan tiap kelompok sudah membawa dokumen spesifikasi konstruk dan daftar item. Kelompok yang belum membawa tidak bisa mengikuti praktik hari ini secara penuh; minta mereka mengerjakannya di sesi ini juga.",
+    "text": "Yang Anda sudah pelajari\n\nPertemuan 9 menghasilkan uraian spesifikasi konstruk: definisi, batas, estimand, aspek, dan indikator.\nPertemuan 10 menghasilkan kisi-kisi dan daftar item, beserta format responsnya.\nHari ini daftar item akan dinilai reviewer, sebelum partisipan mengisinya.\n\n\nPerkenalan singkat kalau ini pertemuan pertama dengan kelas ini. Pastikan tiap kelompok sudah membawa dokumen spesifikasi konstruk dan daftar item. Kelompok yang belum membawa tidak bisa mengikuti praktik hari ini secara penuh; minta mereka mengerjakannya di sesi ini juga.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5647,7 +5647,7 @@
     "href": "slides/pertemuan11.html#berapa-orang",
     "title": "Review Ahli dan Validitas Isi: Perhitungan dan Interpretasi CVI",
     "section": "Berapa orang",
-    "text": "Berapa orang\n\nMinimal 3 orang. Di bawah itu, kesepakatan hampir tidak berarti apa-apa.\n5 sampai 10 orang adalah keputusan yang umum diambil dan lebih aman.\nJumlah panel menentukan kriteria kelulusan itemnya, jadi tetapkan jumlah anggota panelnya lebih dulu.\n\n\n\n\n\n\n\n\n\nJumlah ganjil lebih praktis\n\n\nDengan jumlah genap, kesepakatan bisa terbelah tepat separuh, dan Anda tidak punya dasar untuk memutuskan item mana yang lulus.\n\n\n\n\nUntuk proyek semester ini, 3–5 penilai realistis: dosen mata kuliah terkait, mahasiswa pascasarjana, dan satu atau dua wakil populasi sasaran. Tekankan bahwa dengan panel kecil, kriterianya justru lebih ketat — semua penilai harus sepakat.\n\n\n\nLynn (1986).",
+    "text": "Berapa orang\n\nMinimal 3 orang. Di bawah itu, kesepakatan hampir tidak berarti apa-apa.\n5 sampai 10 orang adalah keputusan yang umum diambil dan lebih aman.\nJumlah panel menentukan kriteria kelulusan itemnya, jadi tetapkan jumlah anggota panelnya lebih dulu.\n\n\n\n\n\n\n\n\n\nReviewer dengan jumlah ganjil vs. genap\n\n\nDengan jumlah genap, kesepakatan bisa terbelah tepat separuh, dan Anda akan kesulitan untuk memutuskan item mana yang lulus.\n\n\n\n\nUntuk proyek semester ini, 3–5 penilai realistis: dosen mata kuliah terkait, mahasiswa pascasarjana, dan satu atau dua wakil populasi sasaran. Tekankan bahwa dengan panel kecil, kriterianya justru lebih ketat — semua penilai harus sepakat.\n\n\n\nLynn (1986).",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5655,11 +5655,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan11.html#apa-yang-dikirim-ke-panel",
-    "href": "slides/pertemuan11.html#apa-yang-dikirim-ke-panel",
+    "objectID": "slides/pertemuan11.html#apa-yang-perlu-dipersiapkan-untuk-reviewer",
+    "href": "slides/pertemuan11.html#apa-yang-perlu-dipersiapkan-untuk-reviewer",
     "title": "Review Ahli dan Validitas Isi: Perhitungan dan Interpretasi CVI",
-    "section": "Apa yang dikirim ke panel",
-    "text": "Apa yang dikirim ke panel\n\nDefinisi konstruk dari Pertemuan 9, lengkap dengan batas konstruknya.\nKisi-kisi, supaya penilai tahu tiap item dimaksudkan mewakili aspek yang mana.\nDaftar item dengan penomoran yang jelas.\nFormulir penilaian beserta petunjuk pengisiannya.\nTenggat yang jelas.\n\n\n\n\n\n\n\n\nJangan dilakukan ❌❌❌\n\n\nMengirim daftar item tanpa definisi konstruknya. Penilai kemudian menilai relevansi berdasarkan pemahaman masing-masing tentang konstruk itu, dan hasilnya sulit ditafsirkan.",
+    "section": "Apa yang perlu dipersiapkan untuk reviewer",
+    "text": "Apa yang perlu dipersiapkan untuk reviewer\n\nDefinisi konstruk dari Pertemuan 9, lengkap dengan batas konstruknya.\nKisi-kisi, supaya penilai tahu tiap item dimaksudkan mewakili aspek yang mana.\nDaftar item dengan penomoran yang jelas.\nFormulir penilaian beserta petunjuk pengisiannya.\nTenggat waktu yang jelas.\n\n\n\n\n\n\n\n\nJangan dilakukan ❌❌❌\n\n\nMengirim daftar item tanpa definisi konstruknya. Reviewer kemudian menilai relevansi berdasarkan pemahaman masing-masing tentang konstruk itu, dan hasilnya sulit ditafsirkan.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5683,7 +5683,7 @@
     "href": "slides/pertemuan11.html#tambahkan-dua-hal-ini",
     "title": "Review Ahli dan Validitas Isi: Perhitungan dan Interpretasi CVI",
     "section": "Tambahkan dua hal ini",
-    "text": "Tambahkan dua hal ini\n\nKolom komentar untuk tiap item. Angka saja tidak memberi tahu apa yang harus diperbaiki.\nSatu pertanyaan di akhir: “Menurut Anda, adakah aspek penting dari konstruk ini yang belum tercakup oleh item-item di atas?”\n\n\n\n\n\n\n\n\nKenapa pertanyaan terakhir penting disertakan\n\n\nCVI hanya memeriksa apakah item yang ada itu relevan. Ia tidak bisa memeriksa apakah ada bagian konstruk yang tidak tercakup sama sekali.\nItulah construct underrepresentation dari Pertemuan 7. Satu-satunya cara memeriksanya lewat panel adalah dengan menanyakannya secara langsung.",
+    "text": "Tambahkan dua hal ini\n\nKolom komentar untuk tiap item. Angka saja tidak memberi tahu apa yang harus diperbaiki.\nSatu pertanyaan di akhir: “Menurut Anda, adakah aspek penting dari konstruk ini yang belum tercakup oleh item-item di atas?”\n\n\n\n\n\n\n\n\nKenapa pertanyaan terakhir penting disertakan\n\n\nCVI hanya memeriksa apakah item yang tersedia relevan. Ia tidak bisa memeriksa apakah ada bagian konstruk yang tidak tercakup sama sekali (construct coverage).\nMasalah ini disebut sebagai construct underrepresentation dari Pertemuan 7. Satu-satunya cara memeriksanya adalah dengan meminta panel menilai coverage secara langsung.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5779,7 +5779,7 @@
     "href": "slides/pertemuan11.html#i-cvi-vs.-s-cvi",
     "title": "Review Ahli dan Validitas Isi: Perhitungan dan Interpretasi CVI",
     "section": "I-CVI vs. S-CVI",
-    "text": "I-CVI vs. S-CVI\n\nS-CVI/Ave — rata-rata dari seluruh I-CVI. Menggambarkan relevansi rata-rata.\nS-CVI/UA — proporsi item yang disepakati semua penilai (universal agreement), yang jauh lebih ketat daripada S-CVI(Ave).\n\n\nPada contoh tadi:\n\\[\\text{S-CVI/Ave} = \\frac{6{.}83}{8} = 0{.}85 \\qquad \\text{S-CVI/UA} = \\frac{4}{8} = 0{.}50\\]",
+    "text": "I-CVI vs. S-CVI\n\nS-CVI/Ave — rata-rata dari seluruh I-CVI. Menggambarkan relevansi rata-rata item.\nS-CVI/UA — proporsi item yang disepakati semua penilai (universal agreement), yang jauh lebih ketat daripada S-CVI(Ave).\n\n\nPada contoh tadi:\n\\[\\text{S-CVI/Ave} = \\frac{6{.}83}{8} = 0{.}85 \\qquad \\text{S-CVI/UA} = \\frac{4}{8} = 0{.}50\\]",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5791,7 +5791,7 @@
     "href": "slides/pertemuan11.html#data-yang-sama-tapi-informasi-yang-berbeda",
     "title": "Review Ahli dan Validitas Isi: Perhitungan dan Interpretasi CVI",
     "section": "Data yang sama, tapi informasi yang berbeda",
-    "text": "Data yang sama, tapi informasi yang berbeda\n\n0.85 terlihat memadai.\n0.50 terlihat bermasalah.\n\n\n\nKeduanya dihitung dari tabel yang persis sama.\nPolit & Beck (2006) menulis artikel khusus tentang keruwetan ini: banyak laporan menyebut “CVI” tanpa menjelaskan CVI yang versi mana.\n\n\n\n\n\n\n\n\n\nYang harus kelompok Anda lakukan\n\n\nSebutkan secara eksplisit cara perhitungan yang dipakai. Menulis “CVI = 0.85” tanpa keterangan membuat angka itu tidak bisa ditafsirkan orang lain.\nYang lazim dilaporkan adalah S-CVI/Ave, dengan patokan minimal 0.90.\n\n\n\n\nIni bagian yang paling sering salah di laporan mahasiswa. Tekankan bahwa keduanya sah, asalkan disebutkan yang mana. Kalau ada waktu, minta satu kelompok menghitung kedua angka itu dari data mereka sendiri dan membandingkannya.",
+    "text": "Data yang sama, tapi informasi yang berbeda\n\n0.85 terlihat memadai.\n0.50 terlihat bermasalah.\n\n\n\nKeduanya dihitung dari tabel yang persis sama.\nPolit & Beck (2006) menulis artikel khusus tentang keruwetan ini: banyak laporan menyebut “CVI” tanpa menjelaskan CVI yang versi mana.\n\n\n\n\n\n\n\n\n\nYang harus kelompok Anda lakukan\n\n\nSebutkan secara eksplisit cara perhitungan yang dipakai. Menulis “CVI = 0.85” tanpa keterangan membuat angka itu tidak bisa ditafsirkan orang lain.\nYang lazim dilaporkan adalah S-CVI/Ave, dengan patokan (rule of thumb) minimal 0.90.\n\n\n\n\nIni bagian yang paling sering salah di laporan mahasiswa. Tekankan bahwa keduanya sah, asalkan disebutkan yang mana. Kalau ada waktu, minta satu kelompok menghitung kedua angka itu dari data mereka sendiri dan membandingkannya.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5803,7 +5803,7 @@
     "href": "slides/pertemuan11.html#item-yang-tidak-lolos",
     "title": "Review Ahli dan Validitas Isi: Perhitungan dan Interpretasi CVI",
     "section": "Item yang tidak lolos",
-    "text": "Item yang tidak lolos\n\nPerbaiki dulu, jangan langsung dibuang. Baca komentar anggota panel. Sering kali masalahnya ada pada penulisan kalimatnya.\nBuang kalau item itu memang mengukur hal lain, atau kalau aspeknya sudah diwakili item lain yang lebih baik.\nPertahankan dengan alasan kalau item itu penting secara konseptual dan tidak ada penggantinya. Tuliskan alasannya di laporan.\n\n\n\n\n\n\n\n\nIngat paradoks atenuasi dari Pertemuan 7. Membuang item hanya demi koefisien reliabilitas yang lebih tinggi bisa mempersempit cakupan isi skala, dan itu justru merugikan.",
+    "text": "Item yang tidak lolos\n\nPerbaiki dulu, jangan langsung dibuang. Baca komentar reviewer. Sering kali masalahnya ada pada penulisan kalimatnya.\nBuang kalau item itu memang mengukur hal lain, atau kalau aspeknya sudah diwakili item lain yang lebih baik.\nPertahankan dengan alasan kalau item itu penting secara konseptual dan tidak ada penggantinya. Tuliskan alasannya di laporan.\n\n\n\n\n\n\n\n\nIngat paradoks atenuasi dari Pertemuan 7. Membuang item hanya demi koefisien reliabilitas yang lebih tinggi bisa mempersempit cakupan isi skala, dan ini justru lebih banyak merugikan Anda.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5827,7 +5827,7 @@
     "href": "slides/pertemuan11.html#tiga-hal-yang-tidak-diperiksa-cvi",
     "title": "Review Ahli dan Validitas Isi: Perhitungan dan Interpretasi CVI",
     "section": "Tiga hal yang tidak diperiksa CVI",
-    "text": "Tiga hal yang tidak diperiksa CVI\n\nKelengkapan. CVI menilai item yang ada, bukan item yang seharusnya ada. Untuk itu Anda perlu bertanya langsung kepada anggota panel.\nKejelasan bagi partisipan. Penilai ahli membaca item dengan cara yang berbeda dari calon partisipan. Pemeriksaan kejelasan dilakukan lewat wawancara kognitif, seperti yang dibahas di Pertemuan 7.\nApakah konstruknya sendiri masuk akal. Kalau definisi konstruk Anda bermasalah, anggota panel akan menilai relevansi terhadap definisi yang bermasalah itu.\n\n\n\n\n\n\n\n\n\nCVI adalah satu sumber bukti validitas. Ia “hanya” menempati satu baris pada tabel bukti validitas di Pertemuan 7.\n\n\n\n\n\nHaynes, Richard, & Kubany (1995); Rubio dkk. (2003).",
+    "text": "Tiga hal yang tidak diperiksa CVI\n\nCakupan konstruk. CVI menilai item yang tersedia, bukan item yang seharusnya tersedia. Untuk itu Anda perlu bertanya langsung kepada reviewer.\nKejelasan bagi partisipan. Reviewer membaca item dengan cara yang berbeda dari calon partisipan. Pemeriksaan kejelasan dilakukan lewat wawancara kognitif, seperti yang dibahas di Pertemuan 7.\nApakah konstruknya sendiri masuk akal. Kalau definisi konstruk Anda bermasalah, reviewer akan menilai relevansi terhadap definisi yang bermasalah itu.\n\n\n\n\n\n\n\n\n\nCVI adalah satu sumber bukti validitas. Ia “hanya” salah satu dari sekian banyak alternatif bukti validitas yang sudah dipelajari di Pertemuan 7.\n\n\n\n\n\nHaynes, Richard, & Kubany (1995); Rubio dkk. (2003).",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5851,7 +5851,7 @@
     "href": "slides/pertemuan11.html#bagian-2-berlatih-menghitung",
     "title": "Review Ahli dan Validitas Isi: Perhitungan dan Interpretasi CVI",
     "section": "Bagian 2: berlatih menghitung",
-    "text": "Bagian 2: berlatih menghitung\n25 menit. Kelompok saling bertukar peran sebagai penilai.\n\nTiap anggota kelompok menilai 10 item milik kelompok lain dengan skala 4 poin.\nKumpulkan penilaiannya, lalu hitung: I-CVI tiap item, \\(\\kappa^*\\), serta S-CVI/Ave dan S-CVI/UA.\nTentukan item mana yang tidak lolos, dan tuliskan satu saran perbaikan untuk masing-masing.\n\n\n\n\n\n\n\n\nTip\n\n\nLatihan ini memakai kelompok sebagai penilai, jadi hasilnya bukan bukti validitas yang sesungguhnya. Tujuannya adalah memastikan perhitungannya sudah benar sebelum data dari panel yang sebenarnya masuk.\n\n\n\n\nPerhitungan bisa dilakukan di kertas atau di spreadsheet. Kesalahan yang paling sering: lupa bahwa nilai 3 dan 4 dihitung sebagai relevan, dan salah membedakan S-CVI/Ave dari S-CVI/UA. Sisakan 15 menit untuk membahas hasil satu atau dua kelompok di depan kelas.",
+    "text": "Bagian 2: berlatih menghitung\n25 menit. Kelompok saling bertukar peran sebagai penilai.\n\nTiap anggota kelompok menilai 10 item milik kelompok lain dengan skala 4 poin.\nKumpulkan penilaiannya, lalu hitung: I-CVI tiap item, \\(\\kappa^*\\), serta S-CVI/Ave dan S-CVI/UA.\nGunakan spreadsheet yang sudah disediakan untuk menghitung parameter di atas.\nTentukan item mana yang tidak lolos, dan tuliskan satu saran perbaikan untuk masing-masing.\n\n\n\n\n\n\n\n\nLatihan ini tujuannya melatih mahasiswa untuk bertindak sebagai reviewer, jadi hasilnya bukan bukti validitas yang sesungguhnya. Tujuannya adalah memastikan perhitungannya sudah benar sebelum data dari reviewer yang sebenarnya sudah diperoleh.\n\n\n\n\nPerhitungan bisa dilakukan di kertas atau di spreadsheet. Kesalahan yang paling sering: lupa bahwa nilai 3 dan 4 dihitung sebagai relevan, dan salah membedakan S-CVI/Ave dari S-CVI/UA. Sisakan 15 menit untuk membahas hasil satu atau dua kelompok di depan kelas.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5875,7 +5875,7 @@
     "href": "slides/pertemuan11.html#untuk-pertemuan-12",
     "title": "Review Ahli dan Validitas Isi: Perhitungan dan Interpretasi CVI",
     "section": "Untuk Pertemuan 12",
-    "text": "Untuk Pertemuan 12\n\nMerancang uji coba: siapa partisipannya, berapa banyak, dan bagaimana menjangkaunya.\nMenyusun aturan pembersihan data sebelum data masuk.\nMenyertakan satu skala pembanding yang pendek, untuk bukti hubungan dengan variabel lain.\nMenyiapkan wawancara kognitif singkat dengan 3–5 orang sebelum kuesioner disebar.\n\n\n\n\n\n\n\n\nPersiapan\n\n\nBawa daftar item hasil revisi hari ini. Kalau hasil penilaian dari panel yang sebenarnya sudah kembali, bawa juga.",
+    "text": "Untuk Pertemuan 12\n\nMerancang uji coba: siapa partisipannya, berapa banyak, dan bagaimana menjangkaunya.\nMenyusun aturan pembersihan data sebelum data masuk.\nMenyertakan satu skala pembanding yang pendek, untuk bukti korelasi dengan variabel lain (discriminant vs. convergent validity).\nMenyiapkan wawancara kognitif singkat dengan 3–5 orang sebelum kuesioner disebar.\n\n\n\n\n\n\n\n\nPersiapan\n\n\nBawa daftar item hasil revisi hari ini. Kalau hasil penilaian dari reviewer yang sebenarnya sudah didapatkan, silakan bawa juga.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -6943,7 +6943,7 @@
     "href": "slides/pertemuan5-en.html#outline",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
     "section": "Outline",
-    "text": "Outline\n\nThree things we have been taking for granted — and the formats that give them up\nThurstone: items calibrated in advance by a panel of judges\nSituational Judgement Tests: measuring judgement rather than self-description\nForced-choice: when respondents must choose, and scores become ipsative\nWhy ipsative data breaks almost everything we built in Session 3\n\n\n\nDisclosure on the use of artificial intelligence (AI)\nWe used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate references, and troubleshoot quarto and git code. We (Amel and Dian) take full responsibility for the substance and presentation of these slides.",
+    "text": "Outline\n\nThree things we have been taking for granted — and the formats that give them up\nThurstone: items calibrated in advance by a panel of judges\nSituational Judgement Tests: measuring judgement rather than self-description\nForced-choice: when participants must choose, and scores become ipsative\nWhy ipsative data breaks almost everything we built in Session 3\n\n\n\nDisclosure on the use of artificial intelligence (AI)\nWe used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate references, and troubleshoot quarto and git code. We (Amel and Dian) take full responsibility for the substance and presentation of these slides.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -6991,7 +6991,7 @@
     "href": "slides/pertemuan5-en.html#how-a-thurstone-scale-is-built",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
     "section": "How a Thurstone scale is built",
-    "text": "How a Thurstone scale is built\n\nGenerate many statements about the attitude object — usually dozens or hundreds.\nAsk a panel of judges to sort each statement into 11 piles, from most opposed to most in favour. Judges are not asked their own opinion; they judge where the statement sits.\nTake the median judge rating for each statement. That is its scale value.\nLook at the spread of judge ratings (the interquartile range). Statements the judges disagreed about are ambiguous, and get discarded.\nSelect from what remains so that the scale values are evenly spread across the continuum.",
+    "text": "How a Thurstone scale is built\n\nGenerate many statements about the attitude object — usually dozens or hundreds.\nAsk a panel of judges to sort each statement into 11 piles, from most opposed to most in favour.\n\nJudges are not asked their own opinion; they judge where the statement sits on the attribute continuum (\\(\\theta\\)).\n\nTake the median judge rating for each statement.\n\nThat is its scale value.\n\nLook at the spread of judge ratings (the interquartile range). Statements the judges disagreed about are ambiguous, and get discarded.\nSelect from what remains so that the scale values are evenly spread across the continuum (\\(\\theta\\)).",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7015,7 +7015,7 @@
     "href": "slides/pertemuan5-en.html#reading-that-figure",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
     "section": "Reading that figure",
-    "text": "Reading that figure\n\nEach statement has one number marking its position on the continuum — that is the calibration.\nStatement 4 has a very wide interquartile range: the judges could not agree where it sits. Statements like this are discarded, however well written.\nThe surviving statements are spread from end to end. That is by design, not by accident.\n\n\n\n\n\n\n\n\nWe have established each item’s “difficulty” before a single respondent has answered. CTT cannot do that.",
+    "text": "Reading that figure\n\nEach statement has one number marking its position on the continuum.\n\nThat is what reflects its calibration.\n\nStatement 4 has a very wide interquartile range: the judges could not agree where it sits.\n\nStatements like this are discarded, however well written.\n\nThe surviving statements must be spread from end to end of the attribute continuum (\\(\\theta\\)), so they represent the whole spectrum of the construct.\n\n\n\n\n\n\n\n\nWe have established each item’s “difficulty” before a single participant has answered. CTT cannot do that.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7023,11 +7023,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan5-en.html#how-respondents-answer-and-how-it-is-scored",
-    "href": "slides/pertemuan5-en.html#how-respondents-answer-and-how-it-is-scored",
+    "objectID": "slides/pertemuan5-en.html#how-participants-answer-and-how-it-is-scored",
+    "href": "slides/pertemuan5-en.html#how-participants-answer-and-how-it-is-scored",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
-    "section": "How respondents answer, and how it is scored",
-    "text": "How respondents answer, and how it is scored\n\nRespondents are only asked to agree or disagree with each statement. There are no degrees.\nA respondent’s score is the mean scale value of the statements they endorsed.\nSo someone endorsing statements with scale values 8.5 and 10.5 scores 9.5 — nothing is summed.\n\n\n\n\n\n\n\n\nA fundamental difference from Likert\n\n\nIn Likert, the information is in the degree of the answer. In Thurstone, the information is in which items were endorsed — the answer itself is only yes or no.",
+    "section": "How participants answer, and how it is scored",
+    "text": "How participants answer, and how it is scored\n\nparticipants are only asked to agree or disagree with each statement. There are no degrees.\nA participant’s score is the mean scale value of the statements they endorsed.\nSo someone endorsing statements with scale values 8.5 and 10.5 scores 9.5 — nothing is summed.\n\n\n\n\n\n\n\n\nA fundamental difference from Likert\n\n\nIn Likert, the information is in the degree of the answer. In Thurstone, the information is in which items were endorsed — the answer itself is only yes or no.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7039,7 +7039,7 @@
     "href": "slides/pertemuan5-en.html#why-thurstone-is-rarely-used",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
     "section": "Why Thurstone is rarely used",
-    "text": "Why Thurstone is rarely used\n\nThe workload is heavy. You need a judge panel before any respondent data is collected.\nFinding items that genuinely “resonate” at a specific level is much harder than it sounds.\nNunnally (1978), as cited by DeVellis, judged that the practical problems often outweigh the advantages, unless a researcher genuinely needs that kind of calibration.\n\n\n\n\n\n\n\n\nAnd there is a theoretical consequence\n\n\nLike Guttman in Session 4, Thurstone items are not equally weighted. So the parallel and tau-equivalent models from Session 3 do not apply, and \\(\\alpha\\) cannot simply be used.",
+    "text": "Why Thurstone is rarely used\n\nThe workload is heavy. You need a judge panel before any participant data is collected.\nFinding items that genuinely “resonate” at a specific level is much harder than it sounds.\nNunnally (1978), as cited by DeVellis, judged that the practical problems often outweigh the advantages, unless a researcher genuinely needs that kind of calibration.\n\n\n\n\n\n\n\n\nAnd there is a theoretical consequence\n\n\nLike Guttman in Session 4, Thurstone items are not equally weighted. So the parallel and tau-equivalent models from Session 3 do not apply, and \\(\\alpha\\) cannot simply be used.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7051,7 +7051,7 @@
     "href": "slides/pertemuan5-en.html#but-the-idea-survives-in-two-places",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
     "section": "But the idea survives in two places",
-    "text": "But the idea survives in two places\n\nInside IRT. IRT-based methods share the same goal as Thurstone scaling.\n\nThe difficulty parameter \\(b\\) from Session 3 is essentially a Thurstone scale value, except that IRT estimates it from respondent data rather than from a judge panel.\n\nInside your own project. In Session 11 you will ask a panel of experts to rate the relevance of each item and compute a Content Validity Index.\n\n\n\n\n\n\n\n\nNotice the resemblance\n\n\nThe CVI procedure is Thurstone’s logic applied to content relevance, rather than to position on a continuum.",
+    "text": "But the idea survives in two places\n\nInside IRT. IRT-based methods share the same goal as Thurstone scaling.\n\nThe difficulty parameter \\(b\\) from Session 3 is essentially a Thurstone scale value, except that IRT estimates it from participant data rather than from a judge panel.\n\nInside your own project. In Session 11 you will ask a panel of experts to rate the relevance of each item and compute a Content Validity Index.\n\n\n\n\n\n\n\n\nNotice the resemblance\n\n\nThe CVI procedure is Thurstone’s logic applied to content relevance, rather than to position on a continuum.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7063,7 +7063,7 @@
     "href": "slides/pertemuan5-en.html#the-format",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
     "section": "The format",
-    "text": "The format\n\nRespondents are given a realistic scenario and asked to evaluate several possible actions.\nWhat is measured is not a self-description but judgement in a concrete situation.\nRooted in personnel selection testing since the 1940s, and revived after Motowidlo et al. (1990) described it as a low-fidelity simulation.",
+    "text": "The format\n\nparticipants are given a realistic scenario and asked to evaluate several possible actions.\nWhat is measured is not a self-description but judgement in a concrete situation.\nRooted in personnel selection testing since the 1940s, and revived after Motowidlo et al. (1990) described it as a low-fidelity simulation.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7111,7 +7111,7 @@
     "href": "slides/pertemuan5-en.html#its-strengths",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
     "section": "Its strengths",
-    "text": "Its strengths\n\nConcrete context. Respondents are not asked to generalise about themselves but to react to a specific situation — sidestepping part of the introspective-access problem from Session 2.\nFace relevance, which makes it easier to accept in a selection setting.\nReasonable prediction of performance. McDaniel et al. (2001) show SJTs predict job performance adequately.",
+    "text": "Its strengths\n\nConcrete context. participants are not asked to generalise about themselves but to react to a specific situation.\n\nThis sidesteps part of the introspective-access problem from Session 2.\n\nFace relevance, which makes it easier to accept in a selection setting.\nReasonable prediction of performance. McDaniel et al. (2001) show SJTs predict job performance adequately.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7135,7 +7135,7 @@
     "href": "slides/pertemuan5-en.html#the-problem-it-solves",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
     "section": "The problem it solves",
-    "text": "The problem it solves\n\nRecall the sixth assumption from Session 2: respondents are willing to report their state honestly.\nIn a job selection setting that assumption is plainly unrealistic. Everyone has a reason to look good.\nWith a Likert format, a respondent can simply rate every attractive-sounding statement highly.\n\n\n\n\n\n\n\n\nThe core idea\n\n\nIf respondents are forced to choose between two equally attractive statements, they can no longer endorse everything. They must reveal which one describes them better.",
+    "text": "The problem it solves\n\nRecall the sixth assumption from Session 2: participants are willing to report their state honestly.\nIn a job selection setting that assumption is plainly unrealistic. Everyone has a reason to look good.\nWith a Likert format, a participant can simply rate every attractive-sounding statement highly.\n\n\n\n\n\n\n\n\nThe core idea\n\n\nIf participants are forced to choose between two equally attractive statements, they can no longer endorse everything. They must reveal which one describes them better.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7159,7 +7159,7 @@
     "href": "slides/pertemuan5-en.html#a-requirement-people-forget",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
     "section": "A requirement people forget",
-    "text": "A requirement people forget\n\nThe statements in a pair must be matched for attractiveness beforehand — which requires its own preliminary study.\nWithout that matching, the format solves nothing: respondents will still pick whichever sounds better.\nMatching attractiveness is itself a calibration task — once again, Thurstone-style work.",
+    "text": "A requirement people forget\n\nThe statements in a pair must be matched for attractiveness beforehand — which requires its own preliminary study.\nWithout that matching, the format solves nothing: participants will still pick whichever sounds better.\nMatching attractiveness is itself a calibration task.\n\nOnce again, Thurstone-style work.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7171,7 +7171,7 @@
     "href": "slides/pertemuan5-en.html#ipsativity-the-price",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
     "section": "Ipsativity: the price",
-    "text": "Ipsativity: the price\n\nEvery time a respondent picks one statement, they automatically do not pick the other.\nAs a result, the total across all scales is constant for every respondent. If one scale score goes up, another must go down.\nData with this property are called ipsative: the scores are meaningful within a person, not between people.\n\n\n\n\n\n\n\n\nWith ipsative data, a score answers “of all these things, which stands out most in me?” — not “how much of this trait do I have compared with other people?”",
+    "text": "Ipsativity: the price\n\nEvery time a participant picks one statement, they automatically do not pick the other.\nAs a result, the total across all scales is constant for every participant.\n\nIf one scale score goes up, another must go down.\n\nData with this property are called ipsative: the scores are meaningful within a person, not between people.\n\n\n\n\n\n\n\n\nWith ipsative data, a score answers “of all these things, which stands out most in me?” — not “how much of this trait do I have compared with other people?”",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7183,7 +7183,7 @@
     "href": "slides/pertemuan5-en.html#why-this-breaks-the-analysis",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
     "section": "Why this breaks the analysis",
-    "text": "Why this breaks the analysis\n\nBecause the total is forced to be constant, correlations between scales are forced negative — even if the underlying constructs are entirely unrelated.\nFor an ipsative instrument with \\(k\\) scales, the average intercorrelation is:\n\n\\[\\bar{r} = -\\frac{1}{k-1}\\]\n\n\n\n\nNumber of scales (\\(k\\))\nForced average correlation\n\n\n\n\n3\n−0.50\n\n\n5\n−0.25\n\n\n10\n−0.11\n\n\n\n\n\n\n\n\n\n\n\nThose numbers come from the format, not from the respondents’ psychology.",
+    "text": "Why this breaks the analysis\n\nBecause the total is forced to be constant, correlations between scales are forced negative — even if the underlying constructs are entirely unrelated.\nFor an ipsative instrument with \\(k\\) scales, the average intercorrelation is:\n\n\\[\\bar{r} = -\\frac{1}{k-1}\\]\n\n\n\n\nNumber of scales (\\(k\\))\nForced average correlation\n\n\n\n\n3\n−0.50\n\n\n5\n−0.25\n\n\n10\n−0.11\n\n\n\n\n\n\n\n\n\n\n\nThose numbers come from the format, not from the participants’ psychology.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
