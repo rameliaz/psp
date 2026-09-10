@@ -274,7 +274,7 @@ More resistant to impression management.
 . . .
 
 ::: {.callout-note appearance="simple"}
-Note that the first two **require a panel**, exactly like Thurstone and like the CVI in Session 11.
+The first two **require a panel**, exactly like Thurstone and like the CVI in Session 11.
 :::
 
 ## Its strengths
@@ -321,7 +321,7 @@ $\alpha$ assumes every item is driven by one shared latent variable. In an SJT t
 
 ::: {.incremental}
 
-* Recall the sixth assumption from Session 2: participants are **willing** to report their state honestly.
+* Recall the sixth assumption from Session 2: participants are **willing** to report their internal, psychological state honestly.
 
 * In a job selection setting that assumption is plainly unrealistic. Everyone has a reason to look good.
 
@@ -456,7 +456,7 @@ Ipsative instruments **should not** be used for selection, ranking, or compariso
 . . .
 
 ::: {.callout-tip appearance="simple"}
-We opened today with Thurstone, and we close with Thurstone. Thurstone's 1920s idea turns out to be the solution to this problem.
+Thurstone's 1920s idea turns out to be the solution to this problem.
 :::
 
 # What is realistic for your project {background-color="#14497F" .center}

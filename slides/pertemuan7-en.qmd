@@ -205,7 +205,7 @@ This change requires more honesty: you have to name the evidence you **lack**, n
 | Source of evidence | The question it asks | Can you do it? |
 |---|---|:--:|
 | **Test content** | Do the items represent the construct? | Yes (S11) |
-| **Response processes** | Do respondents think the way we assume? | Yes (before S12) |
+| **Response processes** | Do participants think the way we assume? | Yes (before S12) |
 | **Internal structure** | Does the item structure match the theory? | Yes (S13) |
 | **Relations to other variables** | Do the scores behave as theory predicts? | Partly (S12) |
 | **Consequences of use** | What follows from using these scores? | Discussed in the manual (S14) |
@@ -268,11 +268,11 @@ CVI uses the same logic with a different criterion.
 
 ::: {.incremental}
 
-* When respondents answer your items, are they actually going through **the thought process you assume**?
+* When participants answer your items, are they actually going through **the thought process you assume**?
 
 * Recall Session 2: [Nisbett & Wilson (1977)](https://psycnet.apa.org/record/1978-00295-001) showed that people often have no access to their own mental processes.
 
-* An item can look perfect on paper and still be read by respondents in an entirely different way.
+* An item can look perfect on paper and still be read by participants in an entirely different way.
 
 :::
 
@@ -280,7 +280,7 @@ CVI uses the same logic with a different criterion.
 
 ::: {.incremental}
 
-* Ask a few prospective respondents to complete your items while **saying out loud what they are thinking** (*think aloud*).
+* Ask a few prospective participants to complete your items while **saying out loud what they are thinking** (*think aloud*).
 
 * Afterwards, ask: *"What do you think this question is asking?"* and *"How did you arrive at that answer?"*
 
@@ -481,7 +481,7 @@ $$r_{XY} \leq \sqrt{\rho_{XX'} \times \rho_{YY'}}$$
 
 ::: {.incremental}
 
-* Low reliability — **in your scale or in the criterion** — limits the correlation you can obtain.
+* Low reliability, **in your scale or in the criterion**, limits the correlation you can obtain.
 
 * So reliability is necessary.
 

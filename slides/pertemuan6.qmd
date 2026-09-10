@@ -22,7 +22,7 @@ execute:
 
 ::: {.incremental}
 
-* Reliabilitas terdiri atas **tiga pertanyaan yang berbeda**
+* Reliabilitas terdiri atas **tiga pertanyaan/sumber *error* yang berbeda**
 * *Split-half* dan rumus **Spearman-Brown** 
 * ***Cronbach's alpha***: apa yang sebenarnya diukurnya
 * Demonstrasi dengan data riil: **$\alpha$ tidak bisa mendeteksi multidimensionalitas**
@@ -50,9 +50,9 @@ $$\rho_{XX'} = \frac{\sigma^2_T}{\sigma^2_X}$$
 
 ::: {.incremental}
 
-* Masalahnya, $\sigma^2_T$ **tidak bisa kita amati**. Jadi rumus itu tidak bisa langsung dihitung.
+* Masalahnya, $\sigma^2_T$ **tidak bisa kita amati**. Jadi rumus ini tidak bisa langsung diimplementasikan.
 
-* Seluruh isi pertemuan hari ini adalah tentang **cara mengestimasinya** dari sesuatu yang bisa kita amati, yaitu **korelasi antar-item**.
+* Seluruh isi pertemuan hari ini adalah tentang **cara mengestimasinya** secara tidak langsung dari sesuatu yang bisa kita amati, yaitu **korelasi antar-item**.
 
 :::
 
@@ -66,7 +66,7 @@ Semua angka pada slide-slide berikut dihitung dari [`data/data.csv`](https://ram
 
 ## Tiga pertanyaan yang berbeda
 
-| Pertanyaan | Sumber *error* yang diperiksa | Metode |
+| Pertanyaan | Sumber error yang diperiksa | Metode |
 |---|---|---|
 | Apakah skornya stabil **lintas waktu**? | Fluktuasi sesaat | *Test-retest* |
 | Apakah skornya setara **antar bentuk tes yang berbeda**? | Pemilihan item | *Alternate forms* |
@@ -86,9 +86,9 @@ Melaporkan $\alpha$ **tidak memberikan informasi apapun** tentang stabilitas sko
 
 * Ukur orang yang sama dua kali, lalu korelasikan kedua skornya.
 
-* **Jarak waktunya sangat menentukan.** Terlalu dekat, partisipan masih ingat jawabannya. Terlalu jauh, atribut ukurnya mungkin memang sudah berubah.
+* **Jarak waktunya sangat menentukan.** Terlalu dekat, partisipan masih ingat jawabannya. Terlalu jauh, atribut ukurnya mungkin memang sudah berubah secara alamiah.
 
-* Ada satu persoalan yang tidak bisa dihindari: kalau korelasinya rendah, kita **tidak bisa membedakan** apakah alat ukurnya tidak reliabel atau orangnya memang berubah.
+* Masalahnya, kalau korelasinya rendah, kita **tidak bisa membedakan** apakah alat ukurnya tidak reliabel atau orangnya memang berubah.
 
 :::
 
@@ -102,7 +102,7 @@ Melaporkan $\alpha$ **tidak memberikan informasi apapun** tentang stabilitas sko
 
 * Hitung skor total tiap bagian, lalu korelasikan keduanya.
 
-* Kalau kedua bagian mengukur hal yang sama, korelasinya harus tinggi.
+* Kalau kedua bagian mengukur hal yang sama, korelasinya seharusnya tinggi.
 
 :::
 
@@ -112,13 +112,13 @@ Pada skala Extraversion IPIP (10 item), korelasi antara belahan item ganjil dan 
 
 $$r = 0{.}748$$
 
-## Tetapi ada masalah
+## Tetapi...
 
 ::: {.incremental}
 
 * Korelasi itu adalah reliabilitas **tes sepanjang 5 item**, bukan 10 item.
 
-* Kita baru saja memotong skala kita menjadi separuhnya, lalu melaporkan reliabilitas versi separuh bagian itu.
+* Kita baru saja memotong skala kita menjadi separuhnya, lalu melaporkan reliabilitas versi separuh dari keseluruhan skala.
 
 * Ingat dari Pertemuan 3: makin sedikit item, makin besar porsi *error*. Jadi angka 0.748 **lebih rendah** daripada reliabilitas skala yang sebenarnya.
 
@@ -127,7 +127,7 @@ $$r = 0{.}748$$
 . . .
 
 ::: {.callout-tip appearance="simple"}
-Rumus lain yang bisa menjawab: *"kalau tes sepanjang n punya reliabilitas x, berapa reliabilitasnya kalau panjangnya dilipatgandakan?"*
+Untuk menangani masalah ini, pembuat skala akan sangat terbantu kalau bisa menghitung berapa kira-kira reliabilitas suatu skala kalau jumlah itemnya dilipatgandakan dua kali. 
 :::
 
 ## Rumus Spearman-Brown
@@ -162,18 +162,20 @@ Ingat kembali di Pertemuan 1 kita membahas anak panah Bernoulli. Rumus Spearman-
 
 ::: {.callout-warning}
 #### Tetapi...
-Rumus ini mengasumsikan item tambahannya **setara** dengan item yang sudah ada. Menambah sepuluh item yang ditulis asal-asalan tidak akan menghasilkan reliabilitas yang baik.
+Rumus ini mengasumsikan item tambahannya **setara** dengan item yang sudah ada. Padahal kenyataannya, menambah sepuluh item yang ditulis asal-asalan justru akan membuat reliabilitas menjadi lebih buruk.
 :::
 
 ## Belahan yang mana?
 
 ::: {.incremental}
 
-* Skala 10 item bisa dibelah menjadi dua bagian dengan **126 cara berbeda**. Ganjil-genap hanyalah salah satunya.
+* Skala 10 item bisa dibelah menjadi dua bagian dengan **126 cara berbeda** (ingat operasi kombinasi di matematika dasar!). 
+  + Membagi skala menjadi dua belahan, masing-masing terdiri atas item nomor ganjil-genap hanyalah salah satunya.
 
 * Setelah dicoba **500 pembelahan acak** pada skala Extraversion. Hasil Spearman-Brown-nya berkisar dari **0.845 sampai 0.920**.
 
-* Jadi jawabannya bergantung pada belahan mana yang kebetulan Anda pilih. Ini tentu bukan situasi yang ideal.
+* Jadi jawabannya bergantung pada belahan mana yang kebetulan Anda pilih. 
+  + Ini tentu bukan situasi yang ideal.
 
 :::
 
@@ -183,7 +185,7 @@ Rumus ini mengasumsikan item tambahannya **setara** dengan item yang sudah ada. 
 #### Jalan keluarnya
 Kalau tiap pembelahan memberi jawaban yang berbeda, **ambil saja rata-rata dari semuanya**.
 
-Inilah dasar rumus Cronbach's $\alpha$.
+Inilah ide dasar rumus Cronbach's $\alpha$.
 :::
 
 # Cronbach's $\alpha$ {background-color="#14497F" .center}
@@ -271,7 +273,7 @@ Mulai dari $\alpha = 0{.}892$ pada 10 item:
 
 :::
 
-## Tentang ambang 0.70
+## Mengapa reliabilitas harus setidaknya 0.70?
 
 ::: {.incremental}
 
@@ -286,7 +288,7 @@ Mulai dari $\alpha = 0{.}892$ pada 10 item:
 . . .
 
 ::: {.callout-warning appearance="simple"}
-Jangan memperlakukan 0.70 sebagai *threshold*, tetapi **sesuaikan dengan tujuan penggunaan skor Anda**: untuk penelitian kelompok, 0.70 memang memadai; untuk keputusan tentang individu utamanya ketika konteksnya *high-stake*, 0.7 masih jauh dari cukup.
+Jangan memperlakukan 0.70 sebagai *threshold*, tetapi **sesuaikan dengan tujuan penggunaan skor Anda**. Untuk penelitian kelompok, 0.70 memang memadai; untuk keputusan tentang individu utamanya ketika konteksnya *high-stake*, 0.7 masih jauh dari cukup.
 :::
 
 # Apa yang tidak diukur oleh $\alpha$ {background-color="#14497F" .center}

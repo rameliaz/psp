@@ -158,7 +158,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <section id="outline" class="slide level2">
 <h2><em>Outline</em></h2>
 <ul>
-<li class="fragment">Reliabilitas terdiri atas <strong>tiga pertanyaan yang berbeda</strong></li>
+<li class="fragment">Reliabilitas terdiri atas <strong>tiga pertanyaan/sumber <em>error</em> yang berbeda</strong></li>
 <li class="fragment"><em>Split-half</em> dan rumus <strong>Spearman-Brown</strong></li>
 <li class="fragment"><strong><em>Cronbach’s alpha</em></strong>: apa yang sebenarnya diukurnya</li>
 <li class="fragment">Demonstrasi dengan data riil: <strong><span class="math inline">\(\alpha\)</span> tidak bisa mendeteksi multidimensionalitas</strong></li>
@@ -181,8 +181,8 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <p><span class="math display">\[\rho_{XX'} = \frac{\sigma^2_T}{\sigma^2_X}\]</span></p>
 <div class="fragment">
 <ul>
-<li class="fragment"><p>Masalahnya, <span class="math inline">\(\sigma^2_T\)</span> <strong>tidak bisa kita amati</strong>. Jadi rumus itu tidak bisa langsung dihitung.</p></li>
-<li class="fragment"><p>Seluruh isi pertemuan hari ini adalah tentang <strong>cara mengestimasinya</strong> dari sesuatu yang bisa kita amati, yaitu <strong>korelasi antar-item</strong>.</p></li>
+<li class="fragment"><p>Masalahnya, <span class="math inline">\(\sigma^2_T\)</span> <strong>tidak bisa kita amati</strong>. Jadi rumus ini tidak bisa langsung diimplementasikan.</p></li>
+<li class="fragment"><p>Seluruh isi pertemuan hari ini adalah tentang <strong>cara mengestimasinya</strong> secara tidak langsung dari sesuatu yang bisa kita amati, yaitu <strong>korelasi antar-item</strong>.</p></li>
 </ul>
 </div>
 <div class="fragment">
@@ -214,7 +214,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <thead>
 <tr class="header">
 <th>Pertanyaan</th>
-<th>Sumber <em>error</em> yang diperiksa</th>
+<th>Sumber error yang diperiksa</th>
 <th>Metode</th>
 </tr>
 </thead>
@@ -254,8 +254,8 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <h2><em>Test-retest</em></h2>
 <ul>
 <li class="fragment"><p>Ukur orang yang sama dua kali, lalu korelasikan kedua skornya.</p></li>
-<li class="fragment"><p><strong>Jarak waktunya sangat menentukan.</strong> Terlalu dekat, partisipan masih ingat jawabannya. Terlalu jauh, atribut ukurnya mungkin memang sudah berubah.</p></li>
-<li class="fragment"><p>Ada satu persoalan yang tidak bisa dihindari: kalau korelasinya rendah, kita <strong>tidak bisa membedakan</strong> apakah alat ukurnya tidak reliabel atau orangnya memang berubah.</p></li>
+<li class="fragment"><p><strong>Jarak waktunya sangat menentukan.</strong> Terlalu dekat, partisipan masih ingat jawabannya. Terlalu jauh, atribut ukurnya mungkin memang sudah berubah secara alamiah.</p></li>
+<li class="fragment"><p>Masalahnya, kalau korelasinya rendah, kita <strong>tidak bisa membedakan</strong> apakah alat ukurnya tidak reliabel atau orangnya memang berubah.</p></li>
 </ul>
 </section></section>
 <section>
@@ -268,18 +268,18 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <ul>
 <li class="fragment"><p>Belah skala menjadi dua bagian, misalnya item ganjil dan item genap.</p></li>
 <li class="fragment"><p>Hitung skor total tiap bagian, lalu korelasikan keduanya.</p></li>
-<li class="fragment"><p>Kalau kedua bagian mengukur hal yang sama, korelasinya harus tinggi.</p></li>
+<li class="fragment"><p>Kalau kedua bagian mengukur hal yang sama, korelasinya seharusnya tinggi.</p></li>
 </ul>
 <div class="fragment">
 <p>Pada skala Extraversion IPIP (10 item), korelasi antara belahan item ganjil dan genap adalah:</p>
 <p><span class="math display">\[r = 0{.}748\]</span></p>
 </div>
 </section>
-<section id="tetapi-ada-masalah" class="slide level2">
-<h2>Tetapi ada masalah</h2>
+<section id="tetapi" class="slide level2">
+<h2>Tetapi…</h2>
 <ul>
 <li class="fragment"><p>Korelasi itu adalah reliabilitas <strong>tes sepanjang 5 item</strong>, bukan 10 item.</p></li>
-<li class="fragment"><p>Kita baru saja memotong skala kita menjadi separuhnya, lalu melaporkan reliabilitas versi separuh bagian itu.</p></li>
+<li class="fragment"><p>Kita baru saja memotong skala kita menjadi separuhnya, lalu melaporkan reliabilitas versi separuh dari keseluruhan skala.</p></li>
 <li class="fragment"><p>Ingat dari Pertemuan 3: makin sedikit item, makin besar porsi <em>error</em>. Jadi angka 0.748 <strong>lebih rendah</strong> daripada reliabilitas skala yang sebenarnya.</p></li>
 </ul>
 <div class="fragment">
@@ -289,7 +289,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <i class="callout-icon"></i>
 </div>
 <div class="callout-content">
-<p>Rumus lain yang bisa menjawab: <em>“kalau tes sepanjang n punya reliabilitas x, berapa reliabilitasnya kalau panjangnya dilipatgandakan?”</em></p>
+<p>Untuk menangani masalah ini, pembuat skala akan sangat terbantu kalau bisa menghitung berapa kira-kira reliabilitas suatu skala kalau jumlah itemnya dilipatgandakan dua kali.</p>
 </div>
 </div>
 </div>
@@ -333,7 +333,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <p><strong>Tetapi…</strong></p>
 </div>
 <div class="callout-content">
-<p>Rumus ini mengasumsikan item tambahannya <strong>setara</strong> dengan item yang sudah ada. Menambah sepuluh item yang ditulis asal-asalan tidak akan menghasilkan reliabilitas yang baik.</p>
+<p>Rumus ini mengasumsikan item tambahannya <strong>setara</strong> dengan item yang sudah ada. Padahal kenyataannya, menambah sepuluh item yang ditulis asal-asalan justru akan membuat reliabilitas menjadi lebih buruk.</p>
 </div>
 </div>
 </div>
@@ -342,9 +342,15 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <section id="belahan-yang-mana" class="slide level2">
 <h2>Belahan yang mana?</h2>
 <ul>
-<li class="fragment"><p>Skala 10 item bisa dibelah menjadi dua bagian dengan <strong>126 cara berbeda</strong>. Ganjil-genap hanyalah salah satunya.</p></li>
+<li class="fragment"><p>Skala 10 item bisa dibelah menjadi dua bagian dengan <strong>126 cara berbeda</strong> (ingat operasi kombinasi di matematika dasar!).</p>
+<ul>
+<li class="fragment">Membagi skala menjadi dua belahan, masing-masing terdiri atas item nomor ganjil-genap hanyalah salah satunya.</li>
+</ul></li>
 <li class="fragment"><p>Setelah dicoba <strong>500 pembelahan acak</strong> pada skala Extraversion. Hasil Spearman-Brown-nya berkisar dari <strong>0.845 sampai 0.920</strong>.</p></li>
-<li class="fragment"><p>Jadi jawabannya bergantung pada belahan mana yang kebetulan Anda pilih. Ini tentu bukan situasi yang ideal.</p></li>
+<li class="fragment"><p>Jadi jawabannya bergantung pada belahan mana yang kebetulan Anda pilih.</p>
+<ul>
+<li class="fragment">Ini tentu bukan situasi yang ideal.</li>
+</ul></li>
 </ul>
 <div class="fragment">
 <div class="callout callout-tip callout-titled callout-style-default">
@@ -357,7 +363,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 </div>
 <div class="callout-content">
 <p>Kalau tiap pembelahan memberi jawaban yang berbeda, <strong>ambil saja rata-rata dari semuanya</strong>.</p>
-<p>Inilah dasar rumus Cronbach’s <span class="math inline">\(\alpha\)</span>.</p>
+<p>Inilah ide dasar rumus Cronbach’s <span class="math inline">\(\alpha\)</span>.</p>
 </div>
 </div>
 </div>
@@ -473,8 +479,8 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 </ul>
 </div>
 </section>
-<section id="tentang-ambang-0.70" class="slide level2">
-<h2>Tentang ambang 0.70</h2>
+<section id="mengapa-reliabilitas-harus-setidaknya-0.70" class="slide level2">
+<h2>Mengapa reliabilitas harus setidaknya 0.70?</h2>
 <ul>
 <li class="fragment"><p>Hampir semua orang mengutip <strong>0.70</strong> sebagai batas minimum, dan menyebut Nunnally sebagai sumbernya.</p></li>
 <li class="fragment"><p><a href="https://journals.sagepub.com/doi/abs/10.1177/1094428105284919">Lance, Butts, &amp; Michels (2006)</a> memeriksa sumber aslinya. Nunnally menyebut 0.70 hanya untuk <strong>tahap awal penelitian</strong>; untuk penelitian dasar ia menyarankan <strong>0.80</strong>, dan untuk pengambilan keputusan tentang individu <strong>0.90 atau lebih</strong>.</p></li>
@@ -487,7 +493,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <i class="callout-icon"></i>
 </div>
 <div class="callout-content">
-<p>Jangan memperlakukan 0.70 sebagai <em>threshold</em>, tetapi <strong>sesuaikan dengan tujuan penggunaan skor Anda</strong>: untuk penelitian kelompok, 0.70 memang memadai; untuk keputusan tentang individu utamanya ketika konteksnya <em>high-stake</em>, 0.7 masih jauh dari cukup.</p>
+<p>Jangan memperlakukan 0.70 sebagai <em>threshold</em>, tetapi <strong>sesuaikan dengan tujuan penggunaan skor Anda</strong>. Untuk penelitian kelompok, 0.70 memang memadai; untuk keputusan tentang individu utamanya ketika konteksnya <em>high-stake</em>, 0.7 masih jauh dari cukup.</p>
 </div>
 </div>
 </div>

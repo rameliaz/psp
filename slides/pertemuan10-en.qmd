@@ -114,7 +114,7 @@ Construct: **social anxiety** in undergraduates.
 ::: {.callout-tip appearance="simple"}
 Recall from Session 6: reliability is driven by the number of items and the mean inter-item correlation. For a scale with moderate inter-item correlations, **10–20 items** is usually enough.
 
-Adding items past that point makes the scale perform worse, not just improve more slowly, and it increases respondent burden.
+Adding items past that point makes the scale perform worse, not just improve more slowly, and it increases participant burden.
 :::
 
 ## Spread the items out
@@ -125,7 +125,7 @@ Adding items past that point makes the scale perform worse, not just improve mor
 
 * For each facet, write some items that are **easy to endorse** (indicating a low level) and some that are **hard to endorse** (indicating a high level).
 
-* If every item describes a severe level, respondents at moderate levels will not be distinguished from one another.
+* If every item describes a severe level, participants at moderate levels will not be distinguished from one another.
 
 :::
 
@@ -142,7 +142,7 @@ This is also what prevents the ceiling and floor effects that will show up immed
 
 ::: {.incremental}
 
-* A double-barrelled item contains two ideas at once, so a respondent who agrees with only one half has no correct answer available.
+* A double-barrelled item contains two ideas at once, so a participant who agrees with only one half has no correct answer available.
 
 * The words **"and"**, **"because"**, and **"if"** are frequent signs of a double-barrelled item.
 
@@ -159,7 +159,7 @@ This is also what prevents the ceiling and floor effects that will show up immed
 
 ::: {.incremental}
 
-* A long item forces the respondent to hold the start of the sentence in mind while reading the end.
+* A long item forces the participant to hold the start of the sentence in mind while reading the end.
 
 * Avoid **double negatives**. *"I do not mind not being invited to discussions"* is hard for anyone to process.
 
@@ -170,7 +170,7 @@ This is also what prevents the ceiling and floor effects that will show up immed
 . . .
 
 ::: {.callout-note}
-DeVellis suggests a reading level around grades 5–7 for instruments used with the general population. With undergraduate respondents you have a little more room, but short sentences are still better.
+DeVellis suggests a reading level around grades 5–7 for instruments used with the general population. With undergraduate participants you have a little more room, but short sentences are still better.
 :::
 
 ## Concrete behaviour, not its causes
@@ -228,7 +228,7 @@ Mixing time frames within one scale adds a source of variation you did not inten
 
 * Words such as *"reasonable"*, *"should"*, *"excessive"*, or *"fail"* steer the answer.
 
-* Items should also avoid making respondents feel judged, particularly for constructs vulnerable to social desirability (Session 2).
+* Items should also avoid making participants feel judged, particularly for constructs vulnerable to social desirability (Session 2).
 
 :::
 
@@ -247,7 +247,7 @@ Mixing time frames within one scale adds a source of variation you did not inten
 
 * The idea comes from Likert (1932) himself: to reduce the tendency to agree with anything, half the items were worded in one direction and half in the other.
 
-* If a respondent is simply agreeing, the pattern becomes visible: they endorse both the forward and the reversed items.
+* If a participant is simply agreeing, the pattern becomes visible: they endorse both the forward and the reversed items.
 
 :::
 
@@ -273,13 +273,13 @@ So far the idea is sound. The difficulty is in the execution.
 Summarised from [Chyung, Barkin, & Shamsy (2018)](https://onlinelibrary.wiley.com/doi/abs/10.1002/pfi.21749); see also [Weijters, Baumgartner, & Schillewaert (2013)](https://psycnet.apa.org/record/2013-15543-001).
 :::
 
-## And respondents stop noticing
+## And participants stop noticing
 
 ::: {.incremental}
 
-* Respondent performance declines roughly **12 minutes** after starting a survey.
+* Participant performance declines roughly **12 minutes** after starting a survey.
 
-* After that, many stop registering the word "not" in an item — even when it is bolded, underlined, or capitalised.
+* After that, many stop registering the word "not" in an item, even when it is bolded, underlined, or capitalised.
 
 :::
 
@@ -388,7 +388,7 @@ Bikos, *ReCentering Psych Stats: Psychometrics*, Chapter 2.
 . . .
 
 ::: {.callout-warning appearance="simple"}
-A cluttered questionnaire reduces respondent engagement, and that feeds directly into the reliability and validity of your scores.
+A cluttered questionnaire reduces participant engagement, and that feeds directly into the reliability and validity of your scores.
 :::
 
 ## Layout
@@ -396,7 +396,7 @@ A cluttered questionnaire reduces respondent engagement, and that feeds directly
 ::: {.incremental}
 
 * Leave enough **white space**; do not crowd the page.
-* **Number** items and use section headings so respondents can see their progress.
+* **Number** items and use section headings so participants can see their progress.
 * Insert a break every **4–6 items**, or shade alternate rows.
 * For online administration, check that it reads well on a phone screen.
 
@@ -406,7 +406,7 @@ A cluttered questionnaire reduces respondent engagement, and that feeds directly
 
 ::: {.callout-tip}
 #### Demographic questions
-Put them at the **end**, unless they are needed to screen respondents at the start. Demographic questions at the beginning make some respondents feel identified before they know what the questionnaire is about.
+Put them at the **end**, unless they are needed to screen participants at the start. Demographic questions at the beginning make some participants feel identified before they know what the questionnaire is about.
 :::
 
 # Workshop {background-color="#14497F" .center}
@@ -427,7 +427,7 @@ Put them at the **end**, unless they are needed to screen respondents at the sta
 The most common problem in this session: a group writes ten paraphrases of one indicator and
 thinks it is done. Remind them that near-identical items violate local independence from Session 2
 and raise alpha without adding information.
-The second: every item describes a severe level. Ask them to picture a respondent at a moderate
+The second: every item describes a severe level. Ask them to picture a participant at a moderate
 level, then ask which item would distinguish that person.
 :::
 

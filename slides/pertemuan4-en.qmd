@@ -62,7 +62,7 @@ A response format is **not a matter of taste or habit**. Each format carries its
 
 ::: {.incremental}
 
-* A response format is **a rule that maps a respondent's internal state onto a number**.
+* A response format is **a rule that maps a participant's internal state onto a number**.
 
 * Most items have two parts: a **stem** (a statement or question) and a set of **response options**.
 
@@ -129,7 +129,7 @@ All four are decisions. Let us take them one at a time.
 
 ::: {.incremental}
 
-* **Four points or fewer** compresses variation between respondents and lowers precision.
+* **Four points or fewer** compresses variation between participants and lowers precision.
   + [Preston & Colman (2000)](https://www.sciencedirect.com/science/article/abs/pii/S0001691899000505) found 2-, 3-, and 4-point scales all performed poorly.
 
 * **Around 5–7 points** is the range most often recommended.
@@ -144,7 +144,7 @@ All four are decisions. Let us take them one at a time.
 
 ::: {.callout-note}
 #### Two further considerations from DeVellis
-First, **whether respondents can actually discriminate**. If they cannot tell seven levels apart, seven points only add noise.
+First, **whether participants can actually discriminate**. If they cannot tell seven levels apart, seven points only add noise.
 
 Second, **whether you will use that precision**. If you are going to collapse the scores into three categories anyway, why ask for ten points of resolution?
 :::
@@ -165,7 +165,7 @@ Appropriate when a neutral position is theoretically meaningful.
 
 ### Even number
 
-**Forces** respondents to take a side, however weakly.
+**Forces** participants to take a side, however weakly.
 
 Appropriate when you suspect the midpoint will be used to avoid choosing.
 
@@ -183,7 +183,7 @@ DeVellis states this plainly: **neither format is inherently superior**. It depe
 
 ::: {.incremental}
 
-* If every item has a midpoint, some respondents will learn they can **always choose it** and finish faster.
+* If every item has a midpoint, some participants will learn they can **always choose it** and finish faster.
 
 * The midpoint becomes the safe, lowest-effort option — not a report of their state.
 
@@ -194,7 +194,7 @@ DeVellis states this plainly: **neither format is inherently superior**. It depe
 . . .
 
 ::: {.callout-warning appearance="minimal"}
-When a midpoint is available it is often **the most frequently chosen option**. If that happens in your pilot data in Session 12, do not immediately conclude your respondents are genuinely neutral.
+When a midpoint is available it is often **the most frequently chosen option**. If that happens in your pilot data in Session 12, do not immediately conclude your participants are genuinely neutral.
 :::
 
 ## "Neutral" and "undecided" are not the same thing
@@ -222,7 +222,7 @@ This violates the equal-interval assumption from Session 2. If "Slightly Disagre
 
 * Labelling **every point** generally yields better reliability and validity than labelling only the endpoints [(Krosnick et al., 2010)](https://www.researchgate.net/profile/Nasir-Ali-22/post/Writing-a-survey/attachment/59d6467e79197b80779a1841/AS%3A458354666545152%401486291676030/download/The+Future+of+Survey+Research+-+Challenges+and+Opportunities.pdf).
 
-* The reason is simple: if only the ends are labelled, each respondent decides for themselves what the points in between mean.
+* The reason is simple: if only the ends are labelled, each participant decides for themselves what the points in between mean.
 
 * But the labels you choose have to be genuinely distinguishable.
 
@@ -247,15 +247,15 @@ Very Helpful ➡️ Not Very Helpful ➡️ Somewhat Helpful ➡️ Not at All H
 
 * **Frequency** — "Never" to "Always". More concrete, but it needs an explicit **time referent**: "often" within a week, or within a year?
 
-* **Item-specific anchors** — for example "How often do you feel nervous before a presentation?" with "Never / Once or twice / Several times / Almost every time / Always".
+* **Item-specific anchors** — for example "How often do you feel nervous before a presentation?" with "Never/Once or twice/Several times/Almost every time/Always".
 
 :::
 
 . . .
 
 ::: {.callout-tip}
-#### A tendency worth knowing
-Agreement anchors invite respondents simply to agree. [Weijters et al. (2010)](https://psycnet.apa.org/record/2010-04293-009) reinforce this point, showing that scale format itself shapes which response styles appear.
+#### Agreement anchors invite agreement
+Agreement anchors invite participants simply to agree. [Weijters et al. (2010)](https://psycnet.apa.org/record/2010-04293-009) reinforce this point, showing that scale format itself shapes which response styles appear.
 :::
 
 ## How strongly should the stem be worded?
@@ -297,7 +297,7 @@ Developed by **Osgood, Suci, & Tannenbaum (1957)** in research on meaning and at
 
 . . .
 
-The respondent marks one point between a pair of opposing adjectives.
+The participant marks one point between a pair of opposing adjectives.
 
 ## Bipolar and unipolar pairs
 
@@ -358,7 +358,7 @@ The logic is identical: one latent variable as the common cause, the items as it
 
 ::: {.incremental}
 
-* **The pair must be genuinely opposite in the respondent's language.** Pairs that feel neatly opposed in English often have no clean counterpart in another language.
+* **The pair must be genuinely opposite in the participant's language.** Pairs that feel neatly opposed in English often have no clean counterpart in another language.
 
 * **The midpoint is ambiguous.** Does point 4 mean "neutral", "both at once", or "I don't know"?
 
@@ -370,7 +370,7 @@ The logic is identical: one latent variable as the common cause, the items as it
 
 ::: {.callout-warning}
 #### If your group uses this format
-Test your adjective pairs on a few prospective respondents before the pilot. Ask one simple question: *"What would you say is the opposite of this word?"* If the answer is not the word you paired it with, the pair needs replacing.
+Test your adjective pairs on a few prospective participants before the pilot. Ask one simple question: *"What would you say is the opposite of this word?"* If the answer is not the word you paired it with, the pair needs replacing.
 :::
 
 # Guttman {background-color="#14497F" .center}
@@ -403,7 +403,7 @@ Note the contrast with Likert. In Likert we sum **degrees of agreement across al
 
 * In a perfect pattern, **the total score tells you exactly which items were endorsed**. Nothing is lost by summarising it as a single number.
 
-* In the right-hand panel, three respondents deviate: they endorse a harder item while rejecting an easier one.
+* In the right-hand panel, three participants deviate: they endorse a harder item while rejecting an easier one.
 
 * The more deviations, the less the total score means. The usual index for this is the ***coefficient of reproducibility***.
 
@@ -439,7 +439,7 @@ Note that all three concern **concrete behaviour or capability**, not abstract a
 
 * Under Guttman logic, agreeing with item 1 should mean agreeing with item 2 as well.
 
-* But a respondent might believe that being active in student organisations does build time-management skills while **also** costing academic achievement — a pattern that breaks the Guttman order.
+* But a participant might believe that being active in student organisations does build time-management skills while **also** costing academic achievement — a pattern that breaks the Guttman order.
 
 * **The assumption that all items relate equally strongly to the latent variable does not hold** for Guttman items.
   + So the *parallel* and *tau-equivalent* models from Session 3 **do not fit** a Guttman scale, and coefficients such as Cronbach's $\alpha$ cannot be used for one.
@@ -475,7 +475,7 @@ Note that all three concern **concrete behaviour or capability**, not abstract a
 
 ::: {.incremental}
 
-* **Likert** assumes equal intervals between categories, that all respondents read the anchors the same way, and that all items carry equal weight.
+* **Likert** assumes equal intervals between categories, that all participants read the anchors the same way, and that all items carry equal weight.
 
 * **Semantic Differential** assumes the adjective pair is genuinely bipolar and means the same thing to everyone.
 
@@ -505,7 +505,7 @@ Strongly Disagree — Disagree — Neutral — Agree — Strongly Agree
 ::: {.notes}
 Expected answers — A: unbalanced anchors, three positive and one negative, which pushes the score
 distribution upward. B: vague quantifiers with no time referent; "often" means different things to
-different people. C: double-barrelled (competent and caring are two things); a respondent who agrees
+different people. C: double-barrelled (competent and caring are two things); a participant who agrees
 with only one half has no correct answer available.
 If time is short, cover A and C only.
 :::
@@ -524,7 +524,7 @@ If time is short, cover A and C only.
 
 4. **Midpoints have costs and benefits.** Neither format is automatically better — and "neutral", "undecided", and "slightly disagree" are not the same thing.
 
-5. **Semantic Differential** requires adjective pairs that are genuinely opposed in the respondent's language.
+5. **Semantic Differential** requires adjective pairs that are genuinely opposed in the participant's language.
 
 6. **Guttman** requires a deterministic cumulative order, so it rarely fits psychological constructs — but its idea reappears inside IRT.
 
@@ -538,7 +538,7 @@ We continue to response formats that are used less often but have particular str
 
 * **Thurstone** — when items are given different weights by a panel of judges rather than treated as equivalent.
 * ***Situational Judgement Tests*** — when what is measured is judgement in a concrete situation.
-* ***Forced-choice*** — when social desirability is the main threat, and respondents must choose between options that are equally attractive.
+* ***Forced-choice*** — when social desirability is the main threat, and participants must choose between options that are equally attractive.
 
 :::
 

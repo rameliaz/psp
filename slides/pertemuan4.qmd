@@ -86,9 +86,10 @@ DeVellis & Thorpe (2022), Bab 5.
 
 * Diperkenalkan [**Rensis Likert (1932)**](https://psycnet.apa.org/record/1933-01885-001) dalam disertasinya, *A technique for the measurement of attitudes*.
 
-* Gagasan intinya bukan pada opsi "Sangat Setuju sampai Sangat Tidak Setuju", melainkan pada ***summated ratings***: sekumpulan item yang direspons dengan skala berjenjang, lalu **dijumlahkan** menjadi satu skor.
+* Gagasan intinya bukan pada opsi "Sangat Setuju sampai Sangat Tidak Setuju", melainkan pada ***summated ratings***. 
+  + Artinya, sekumpulan item yang direspons dengan skala berjenjang, lalu **dijumlahkan** menjadi satu skor.
 
-* Jadi yang disebut "skala" oleh Likert adalah **kumpulan itemnya**, bukan opsi responsnya.
+* Jadi yang disebut "skala" oleh Likert adalah **kumpulan itemnya** (yang kemudian dijumlahkan skornya), bukan opsi responsnya.
 
 :::
 

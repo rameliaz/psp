@@ -86,7 +86,7 @@ Reporting $\alpha$ tells you **nothing** about the stability of your scores over
 
 * Measure the same people twice and correlate the two scores.
 
-* **The interval matters a great deal.** Too short and respondents remember their answers; too long and the attribute may genuinely have changed.
+* **The interval matters a great deal.** Too short and participants remember their answers; too long and the attribute may genuinely have changed.
 
 * There is one problem that cannot be avoided: if the correlation is low, we **cannot tell** whether the instrument is unreliable or the people have changed.
 
@@ -145,7 +145,7 @@ $$\rho = \frac{2 \times 0.748}{1 + 0.748} = \frac{1.496}{1.748} = \mathbf{0.856}
 . . .
 
 ::: {.callout-note appearance="simple"}
-The formula was derived independently by **Spearman (1910)** and **Brown (1910)** in the same year and the same journal, which is why both names are attached.
+The formula was derived independently by [**Spearman (1910)**](https://www.proquest.com/openview/9e46330dba2285dea63dd35588155383/1?pq-origsite=gscholar&cbl=1818401) and [**Brown (1910)**](https://jhanley.biostat.mcgill.ca/bios601/Surveys/1910-brownReliability.pdf) in the same year and the same journal, which is why both names are attached.
 :::
 
 ## The general form
@@ -169,11 +169,13 @@ The formula assumes the added items are **equivalent** to the existing ones. Add
 
 ::: {.incremental}
 
-* A 10-item scale can be split into halves in **126 different ways**. Odd-even is only one of them.
+* A 10-item scale can be split into halves in **126 different ways** (recall combinations from basic math!).
+  + Odd-even is only one of them.
 
 * We tried **500 random splits** of the Extraversion scale. The Spearman-Brown results ranged from **0.845 to 0.920**.
 
-* So the answer depends on which split you happen to choose. That is not an ideal situation.
+* So the answer depends on which split you happen to choose.
+  + That is not an ideal situation.
 
 :::
 
@@ -222,7 +224,7 @@ where $k$ is the number of items, $\sigma^2_i$ each item's variance, and $\sigma
 
 ::: {.callout-note}
 #### What $\alpha$ actually is
-$\alpha$ is **the average of all possible split-halves** of your scale (Cronbach, 1951).
+$\alpha$ is **the average of all possible split-halves** of your scale ([Cronbach, 1951](https://www.cambridge.org/core/journals/psychometrika/article/abs/coefficient-alpha-and-the-internal-structure-of-tests/81D0CB193FA731FF5220FEB678FC4FAA)).
 :::
 
 ## What determines the size of $\alpha$
@@ -246,7 +248,7 @@ $$\alpha = \frac{k\bar{r}}{1 + (k-1)\bar{r}}$$
 . . .
 
 ::: {.callout-warning}
-#### A consequence worth noting
+#### More items, not better items
 Because $k$ is part of it, **a high $\alpha$ can be bought simply by adding items**. You do not need better items; you just need more of them.
 :::
 
@@ -267,7 +269,7 @@ Starting from $\alpha = .892$ at 10 items:
 
 * Doubling the scale from 10 to 20 items raises $\alpha$ by .05. Adding 10 more items (20 to 30, a 50% increase) adds only .018.
 
-* **The returns keep shrinking** while respondent burden keeps growing.
+* **The returns keep shrinking** while participant burden keeps growing.
 
 :::
 
@@ -344,7 +346,7 @@ $\alpha = 0.616$
 
 * The between-block correlation is small and negative — a sign that these are not one thing.
 
-* The eigenvalues of the correlation matrix: **3.53 — 2.23 — 0.79**. The first two are both large, meaning **two** dimensions, not one.
+* The eigenvalues of the correlation matrix: **3.53, 2.23, 0.79**. The first two are both large, meaning **two** dimensions, not one.
 
 :::
 
@@ -606,7 +608,7 @@ Look at the four situations below: **what do you conclude, and what's the next s
 
 ::: {.notes}
 Expected answers — A: the high α is largely because k = 30; check whether the items are redundant
-(a local independence violation from Session 2) and whether the respondent burden is justified.
+(a local independence violation from Session 2) and whether the participant burden is justified.
 B: clearly two dimensions; separate them first, do not report a single coefficient. C: raise it by
 writing better items or adding equivalent ones — not by dropping items, since k is already small;
 show them the Spearman-Brown projection. D: almost certainly a reverse-worded item that was not

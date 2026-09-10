@@ -113,7 +113,7 @@ With an even number, agreement can split exactly down the middle, leaving you wi
 ::: {.notes}
 For a one-semester project, 3–5 raters is realistic: a lecturer from a related course, a postgraduate
 student, and one or two representatives of the target population. Stress that with a small panel the
-criterion is actually stricter — every rater must agree.
+criterion is actually stricter: every rater must agree.
 :::
 
 ## What to send the panel
@@ -126,13 +126,15 @@ criterion is actually stricter — every rater must agree.
 4. The **rating form** with its instructions.
 5. A clear **deadline**.
 
+[Click here to see the example.](https://docs.google.com/spreadsheets/d/1jenpE2FSvtAhPAgcw3rKembyOzA0sVFV/edit?usp=sharing&ouid=100126014993390956583&rtpof=true&sd=true)
+
 :::
 
 . . .
 
 ::: {.callout-warning}
 #### The most commonly forgotten item
-Sending the item list **without the construct definition**. Raters then judge relevance against their own understanding of the construct — and the result cannot be interpreted.
+Sending the item list **without the construct definition**. Raters then judge relevance against their own understanding of the construct, and the result cannot be interpreted.
 :::
 
 # The rating form {background-color="#14497F" .center}
@@ -434,7 +436,7 @@ The CVI is one source of evidence. It occupies one row of the validity evidence 
 :::
 
 ::: {.notes}
-Circulate and check that the construct definition is actually included — this is the step most often
+Circulate and check that the construct definition is actually included; this is the step most often
 missed. Check too that item numbering is consistent with the blueprint.
 If possible, encourage each group to send the pack to raters by the end of this week, so responses
 are back before the pilot in Session 12.

@@ -126,6 +126,8 @@ lebih ketat — semua penilai harus sepakat.
 4. **Formulir penilaian** beserta petunjuk pengisiannya.
 5. **Tenggat waktu** yang jelas.
 
+[**Klik di sini untuk melihat contoh dokumennya.**](https://docs.google.com/spreadsheets/d/1jenpE2FSvtAhPAgcw3rKembyOzA0sVFV/edit?usp=sharing&ouid=100126014993390956583&rtpof=true&sd=true)
+
 :::
 
 . . .

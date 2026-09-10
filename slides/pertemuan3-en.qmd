@@ -168,7 +168,7 @@ $$X = T + E$$
 
 ::: {.incremental}
 
-* $X$ — the ***observed score***. What you actually get from a respondent.
+* $X$ — the ***observed score***. What you actually get from a participant.
 
 * $T$ — the ***true score***. What that person would score if measurement were perfect.
 
@@ -180,7 +180,7 @@ $$X = T + E$$
 
 ::: {.callout-note}
 #### What goes into $E$
-The respondent's physical state, a passing mood, an ambiguous item, noise in the room, a mis-click. CTT does **not separate** these sources. They are all collected into a single error term.
+The participant's physical state, a passing mood, an ambiguous item, noise in the room, a mis-click. CTT does **not separate** these sources. They are all collected into a single error term.
 :::
 
 ## The three CTT assumptions
@@ -199,7 +199,7 @@ The respondent's physical state, a passing mood, an ambiguous item, noise in the
 
 ::: {.callout-warning}
 #### Notice what is being assumed
-All three say that error is **random**, not systematic. A consistent bias — for example every respondent answering more positively because of social desirability — does **not** enter $E$.
+All three say that error is **random**, not systematic. A consistent bias — for example every participant answering more positively because of social desirability — does **not** enter $E$.
 :::
 
 ## Splitting score variance
@@ -462,7 +462,7 @@ The larger the share of noise in your scores, the smaller every correlation you 
 
 * Reliability in CTT **depends on the sample**.
 
-* If your respondents are very uniform on the attribute, their range of true scores is narrow. Inter-item correlations shrink, and the **computed reliability drops** — even though the instrument is unchanged.
+* If your participants are very uniform on the attribute, their range of true scores is narrow. Inter-item correlations shrink, and the **computed reliability drops** — even though the instrument is unchanged.
 
 * Conversely, a highly heterogeneous sample makes the same instrument look more reliable.
 
@@ -483,7 +483,7 @@ The reliability you report is **not purely a property of your instrument** — i
 
 ::: {.incremental}
 
-* **Item difficulty** in CTT is the proportion of respondents endorsing an item. That number changes when the sample changes.
+* **Item difficulty** in CTT is the proportion of participants endorsing an item. That number changes when the sample changes.
 
 * **Item discrimination** is the item's correlation with the total score. That shifts with the sample too.
 
@@ -657,7 +657,7 @@ The closest CTT equivalent of discrimination is the **item–total correlation**
 
 ::: {.incremental}
 
-* **Rasch / 1PL** — models **difficulty** ($b$) only.
+* **Rasch/1PL** — models **difficulty** ($b$) only.
 
 * **2PL** — models **difficulty** and **discrimination** ($a$).
 
@@ -742,7 +742,7 @@ while IRT does.
 
 3. **Now look at your own group's construct.** Do the items you already have in mind bunch in one part of the range, or spread across it?
 
-4. **If every one of your items is "easy to endorse", what will happen** to your score distribution and to your scale's ability to tell respondents apart?
+4. **If every one of your items is "easy to endorse", what will happen** to your score distribution and to your scale's ability to tell participants apart?
 
 :::
 

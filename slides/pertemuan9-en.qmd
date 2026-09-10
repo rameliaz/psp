@@ -62,7 +62,7 @@ We used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate referen
 
 * Many reports begin directly with *"we adapted scale X"*. The construct definition is never written, because it is assumed to be obvious.
 
-* DeVellis calls this "deceptively obvious": many researchers believe they have a clear idea, then discover it was vague — usually after items have been written and data collected.
+* DeVellis calls this "deceptively obvious": many researchers believe they have a clear idea, then discover it was vague, usually after items have been written and data collected.
 
 * At that point, fixing it is far more costly than it would have been at the start.
 
@@ -88,7 +88,7 @@ We used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate referen
 
 ::: {.callout-tip}
 #### How to record them
-Make a three-column table: **source**, **definition (quoted exactly)**, **what it emphasises**. Do not paraphrase yet — the differences between definitions often lie in the exact wording.
+Make a three-column table: **source**, **definition (quoted exactly)**, **what it emphasises**. Do not paraphrase yet: the differences between definitions often lie in the exact wording.
 :::
 
 ## What to look for in the table
@@ -99,14 +99,14 @@ Make a three-column table: **source**, **definition (quoted exactly)**, **what i
 
 * **Points of disagreement.** Which elements appear in only some? That is where you have to take a position.
 
-* **What nobody mentions.** Sometimes an obviously relevant aspect appears in no definition at all. That can be your group's contribution — as long as you say so openly.
+* **What nobody mentions.** Sometimes an obviously relevant aspect appears in no definition at all. That can be your group's contribution, as long as you say so openly.
 
 :::
 
 . . .
 
 ::: {.callout-note}
-Recall [Fried's (2017)](https://www.sciencedirect.com/science/article/pii/S016503271631312X) finding from Session 1: seven depression scales contained 52 different symptoms. Disagreement between definitions is not rare; it is the norm.
+Recall [Fried's (2017)](https://www.sciencedirect.com/science/article/pii/S016503271631312X) finding from Session 1: seven depression scales contained 52 different symptoms. Disagreement between definitions is common.
 :::
 
 # Step 2: writing the construct definition {background-color="#14497F" .center}
@@ -241,7 +241,7 @@ The terms come from Thorndike (1904) and Kelley (1927).
 
 1. **What is the attribute called?** A person's level of it? Their standing relative to others? The presence or absence of a condition?
 
-2. **In whom?** The target population must be named specifically — not "the public", but for instance "enrolled undergraduates in Surabaya, aged 18–24".
+2. **In whom?** The target population must be named specifically: not "the public", but for instance "enrolled undergraduates in Surabaya, aged 18–24".
 
 3. **Under what conditions?** Are you measuring a present state, a general tendency, or experience within a particular period?
 
@@ -320,7 +320,7 @@ Each indicator should yield more than one item. Recall from Session 6 that the n
 
 * If multidimensional, name the dimensions and explain how they relate to one another.
 
-* State also whether you treat it as **dimensional** or **categorical** — assumption three from Session 2.
+* State also whether you treat it as **dimensional** or **categorical** (assumption three from Session 2).
 
 :::
 
@@ -345,9 +345,9 @@ Each indicator should yield more than one item. Recall from Session 6 that the n
 ::: {.notes}
 The two most common problems: circular definitions, and target populations that are far too broad
 ("the general public", "adolescents"). For the second, ask directly: "who can you realistically
-reach for a pilot next month?" The answer is usually much narrower, and that is the more honest
-estimand.
-If a group still has no settled construct, steer them toward one with an adequate literature —
+reach for a pilot next month?" The answer is usually much narrower, and that narrower answer is
+the estimand they should use.
+If a group still has no settled construct, steer them toward one with an adequate literature,
 not the one they find most interesting.
 Leave 20 minutes for brief presentations.
 :::

@@ -28,7 +28,7 @@ execute:
 * **Assumption 3**: the attribute is continuous, not categorical
 * **Assumption 4**: all items measure the same single thing
 * **Assumption 5**: items work the same way for every group
-* **Assumption 6**: respondents can and will report their internal states
+* **Assumption 6**: participants can and will report their internal states
 * What we can actually do about all of this
 
 :::
@@ -120,7 +120,7 @@ We used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate referen
 | 3 | The attribute is **continuous**, not categorical | Partly |
 | 4 | All items measure **one and the same thing** | Yes |
 | 5 | Items work the same for **every group** | Yes, with enough data |
-| 6 | Respondents **can and will** answer accurately | Partly |
+| 6 | Participants **can and will** answer accurately | Partly |
 
 : {tbl-colwidths="[8,62,30]"}
 
@@ -190,7 +190,7 @@ This course uses CTT, so *unit weighting* is an assumption you will be making. W
 . . .
 
 ::: {.callout-warning}
-#### Worth noticing
+#### An inherited habit, not a finding
 There was never strong evidence that psychological attributes **must** be normally distributed. What there was, was a habit inherited from a different context.
 :::
 
@@ -200,7 +200,7 @@ There was never strong evidence that psychological attributes **must** be normal
 
 * In scale construction we **discard items** that are too easy or too hard to endorse — items that nearly everyone answers "5/strongly agree" (e.g., *"I believe God truly exists"*), or that nearly everyone answers "1/strongly disagree" (e.g., *"Premarital sex is a moral obligation everyone must fulfil"*).
 
-* The items that survive are the ones that **split respondents down the middle**.
+* The items that survive are the ones that **split participants down the middle**.
 
 * The result: the distribution of total scores becomes more symmetric and piles up in the centre.
 
@@ -215,7 +215,7 @@ We **select items so the distribution comes out normal**, and then treat that no
 
 ## Let us look at real data
 
-IPIP *Big Five* data (`data/data.csv` in this course repository), 50 items, 1–5 scale, **n = 19,719** respondents (the raw row count; Session 6 uses n = 19,718 after listwise deletion).
+IPIP *Big Five* data (`data/data.csv` in this course repository), 50 items, 1–5 scale, **n = 19,719** participants (the raw row count; Session 6 uses n = 19,718 after listwise deletion).
 
 First, three **individual items**:
 
@@ -262,7 +262,7 @@ Total score per dimension (10 items, range 10–50), same dataset:
 
 * The result looks symmetric, but that is **not evidence that the attribute is normal**. It is an effect of aggregation.
 
-* And the distribution is still not quite normal: it is flatter, with respondents spread more evenly across the middle than a normal curve would predict.
+* And the distribution is still not quite normal: it is flatter, with participants spread more evenly across the middle than a normal curve would predict.
 
 :::
 
@@ -318,7 +318,7 @@ There really are **two naturally distinct groups**.
 
 The boundary is not the researcher's invention.
 
-Example: pregnant / not pregnant.
+Example: pregnant/not pregnant.
 
 :::
 ::::
@@ -419,7 +419,7 @@ A score of 40 might mean "calm mind, struggling financially" or "financially sec
 
 * Once we account for the latent variable, the items **should no longer be related to each other**.
 
-* In other words: the entire reason two items correlate should come from the latent construct, **not** from anything else.
+* In other words: any correlation between two items should trace entirely to the latent construct, **not** to anything else.
 
 * The most common violation: two items that say nearly the same thing.
 
@@ -442,7 +442,7 @@ We will cover how to avoid this when we write items in Session 10.
 
 ::: {.incremental}
 
-* We assume the same item **means the same thing** to men and women, to students and workers, to respondents from different ethnic backgrounds (e.g., Javanese and Sulawesi respondents).
+* We assume the same item **means the same thing** to men and women, to students and workers, to participants from different ethnic backgrounds (e.g., Javanese and Sulawesi participants).
 
 * If that fails, comparing scores between groups is not legitimate — like comparing temperatures read off two thermometers with different scales (e.g., Kelvin and Celsius).
 
@@ -465,7 +465,7 @@ The formal test requires more complex technical skills and a large sample, so we
 
 * When someone answers *"I am a conscientious person"*, they judge themselves **relative to the people around them** — not against a universal standard.
 
-* As a result, respondents from a culture with a higher local standard may rate themselves **lower**, even when their behaviour fits the construct better.
+* As a result, participants from a culture with a higher local standard may rate themselves **lower**, even when their behaviour fits the construct better.
 
 :::
 
@@ -482,7 +482,7 @@ Cross-national comparisons of mean self-report scores can come out **backwards**
 
 * Many scales in use in Indonesia are **adaptations** of English-language instruments.
 
-* Back-translation ensures the **words** match. It does not ensure the **meaning** matches, still less that the item functions the same way for Indonesian respondents.
+* Back-translation ensures the **words** match. It does not ensure the **meaning** matches, still less that the item functions the same way for Indonesian participants.
 
 * If your group chooses to adapt an existing scale — one written in a foreign language and validated empirically in another country — that is not a translation job, it is a psychometric one.
 
@@ -495,7 +495,7 @@ Cross-national comparisons of mean self-report scores can come out **backwards**
 Who is the target population for your scale, and does your item make sense for **every** subgroup within it? We will use this question again when setting the pilot sample in Session 12.
 :::
 
-# Assumption 6: respondents can and will answer accurately {background-color="#14497F" .center}
+# Assumption 6: participants can and will answer accurately {background-color="#14497F" .center}
 
 ## The assumption most often forgotten
 
@@ -503,9 +503,9 @@ A self-report scale presumes two things at once:
 
 ::: {.incremental}
 
-1. Respondents are **able** to observe their internal states and report them.
+1. Participants are **able** to observe their internal states and report them.
 
-2. Respondents are **willing** to report them honestly.
+2. Participants are **willing** to report them honestly.
 
 :::
 
@@ -536,7 +536,7 @@ We will apply this principle when writing items in Session 10.
 
 ::: {.incremental}
 
-* Respondents tend to answer in ways that make them look good — sometimes deliberately, often not.
+* Participants tend to answer in ways that make them look good — sometimes deliberately, often not.
 
 * The effect is strongest for constructs with moral weight: honesty, prejudice, religious observance, substance use, sexual behaviour.
 
@@ -548,7 +548,7 @@ We will apply this principle when writing items in Session 10.
 
 ::: {.callout-warning}
 #### What your group should anticipate
-If your construct has a socially "correct" answer, your score distribution will **pile up at one end** (e.g., a [*ceiling* or *floor effect*](https://matilda.fss.uu.nl/articles/floor-ceiling-effects.html)). You will struggle to distinguish respondents from one another because your data will have low variance.
+If your construct has a socially "correct" answer, your score distribution will **pile up at one end** (e.g., a [*ceiling* or *floor effect*](https://matilda.fss.uu.nl/articles/floor-ceiling-effects.html)). You will struggle to distinguish participants from one another because your data will have low variance.
 :::
 
 ## Response styles
@@ -571,18 +571,18 @@ If your construct has a socially "correct" answer, your score distribution will 
 #### One partial fix, with a cost of its own
 Acquiescence is usually dampened by including **reverse-worded** items.
 
-But reverse-worded items bring their own problems: some respondents misread them, and they often cluster together in factor analysis as though they formed a separate dimension. We weigh this up in Session 10.
+But reverse-worded items bring their own problems: some participants misread them, and they often cluster together in factor analysis as though they formed a separate dimension. We weigh this up in Session 10.
 :::
 
 ## Careless responding
 
 ::: {.incremental}
 
-* Some respondents complete a questionnaire without reading it — especially long, online, unincentivised ones.
+* Some participants complete a questionnaire without reading it — especially long, online, unincentivised ones.
 
 * **[Meade & Craig (2012)](https://psycnet.apa.org/record/2012-10015-001)** showed the proportion can be large enough to change the results of factor analysis and reliability estimates.
 
-* This is not only about respondent attitude; it is a consequence of **instrument design** that overburdens people.
+* This is not only about participant attitude; it is a consequence of **instrument design** that overburdens people.
 
 :::
 
@@ -670,7 +670,7 @@ These five points will form part of your final report.
 
 5. **The same for every group** — an identical item does not always mean the same thing for everyone.
 
-6. **Accurate respondents** — people have limited access to themselves, and reasons not to be candid.
+6. **Accurate participants** — people have limited access to themselves, and reasons not to be candid.
 
 :::
 
