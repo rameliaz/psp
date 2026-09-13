@@ -18,24 +18,14 @@ execute:
   echo: true
 ---
 
-## _Outline_
+## Agenda {.agenda-slide}
 
-::: {.incremental}
+1. Kenapa validitas adalah sifat **tafsiran atas skor**, bukan sifat dari skala
+2. Bagaimana tiga "jenis validitas" berubah menjadi **satu konsep dengan lima sumber bukti**
+3. Lima sumber bukti validitas
+4. *Construct underrepresentation* dan *construct-irrelevant variance*
+5. Kenapa menaikkan $\alpha$ terus-menerus justru bisa **menurunkan** validitas
 
-* Kenapa validitas adalah sifat **tafsiran atas skor**, bukan sifat dari skala
-* Bagaimana tiga "jenis validitas" berubah menjadi **satu konsep dengan lima sumber bukti**
-* Lima sumber bukti validitas
-* *Construct underrepresentation* dan *construct-irrelevant variance*
-* Kenapa menaikkan $\alpha$ terus-menerus justru bisa **menurunkan** validitas
-
-:::
-
-::: aside
-***Disclosure* penggunaan akal imitasi (AI)**
-
-Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* materi, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini.
-
-:::
 
 # Dari reliabilitas ke validitas {background-color="#14497F" .center}
 
@@ -637,15 +627,23 @@ Cara belajar yang mungkin membantu: ambil satu skala apa pun yang Anda temukan, 
 Mulai Pertemuan 9, semua yang kita bahas di paruh pertama berubah menjadi keputusan yang harus Anda ambil sendiri.
 :::
 
-## Ada pertanyaan❓
+## Terima kasih!😊 {.closing-slide}
 
-![](libs/closing.JPG){fig-align="center"}
+::: {.closing-subtitle}
+Ada pertanyaan?
+:::
 
-::: {.callout-note}
-### Catatan
+::: {.closing-contact}
 
-* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
-* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+* [ ]{.fa-solid .fa-envelope .fa-fw} [amelia.zein@psikologi.unair.ac.id](mailto:amelia.zein@psikologi.unair.ac.id)
+* [ ]{.fa-solid .fa-globe .fa-fw} https://rameliaz.github.io/
+* [ ]{.fa-brands .fa-discord .fa-fw} [@rameliaz](https://discord.com/users/807046335613632555)
+* [ ]{.fa-brands .fa-keybase .fa-fw} [@rameliaz](https://keybase.io/rameliaz)
+* [ ]{.fa-brands .fa-github .fa-fw} [@rameliaz](https://github.com/rameliaz)
+:::
+
+::: {.closing-note}
+Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [Quarto](https://quarto.org/) dengan template dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
 :::
 
 ## Rujukan {.smaller}

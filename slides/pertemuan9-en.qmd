@@ -18,25 +18,15 @@ execute:
   echo: true
 ---
 
-## _Outline_
+## Agenda {.agenda-slide}
 
-::: {.incremental}
+1. What your group has to produce today
+2. The kind of **literature review** that helps scale construction (and the kind that does not)
+3. How to write a **construct definition** you can actually use
+4. **Construct boundary**: what is excluded, and sibling constructs
+5. **Estimand**: which quantity, in whom, under what conditions
+6. From construct definition to **operational definition**
 
-* What your group has to produce today
-* The kind of **literature review** that helps scale construction (and the kind that does not)
-* How to write a **construct definition** you can actually use
-* **Construct boundary**: what is excluded, and sibling constructs
-* **Estimand**: which quantity, in whom, under what conditions
-* From construct definition to **operational definition**
-
-:::
-
-::: aside
-***Disclosure* on the use of artificial intelligence (AI)**
-
-We used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate references, and troubleshoot `quarto` and `git` code. We (Amel and Dian) take full responsibility for the substance and presentation of these slides.
-
-:::
 
 # Starting the work {background-color="#14497F" .center}
 
@@ -411,15 +401,23 @@ This specification becomes an appendix to your final report, and the material th
 Read **DeVellis & Thorpe (2022), Chapter 5**, the sections on item writing.
 :::
 
-## Any questions❓
+## Thank you!😊 {.closing-slide}
 
-![](libs/closing.JPG){fig-align="center"}
+::: {.closing-subtitle}
+Questions?
+:::
 
-::: {.callout-note}
-### Notes
+::: {.closing-contact}
 
-* These slides were built with {{< fa brands r-project >}} and [**Quarto**](https://quarto.org), using the [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme) template.
-* Reach me at <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+* [ ]{.fa-solid .fa-envelope .fa-fw} [amelia.zein@psikologi.unair.ac.id](mailto:amelia.zein@psikologi.unair.ac.id)
+* [ ]{.fa-solid .fa-globe .fa-fw} https://rameliaz.github.io/
+* [ ]{.fa-brands .fa-discord .fa-fw} [@rameliaz](https://discord.com/users/807046335613632555)
+* [ ]{.fa-brands .fa-keybase .fa-fw} [@rameliaz](https://keybase.io/rameliaz)
+* [ ]{.fa-brands .fa-github .fa-fw} [@rameliaz](https://github.com/rameliaz)
+:::
+
+::: {.closing-note}
+These slides were made using {{< fa brands r-project >}} and [Quarto](https://quarto.org/), with a template from [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
 :::
 
 ## References {.smaller}

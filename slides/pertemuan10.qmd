@@ -18,25 +18,15 @@ execute:
   echo: true
 ---
 
-## _Outline_
+## Agenda {.agenda-slide}
 
-::: {.incremental}
+1. Menyusun **kisi-kisi**: berapa item untuk tiap aspek, dan kenapa perlu sejumlah itu
+2. Kaidah menulis item, dengan contoh yang salah dan perbaikannya
+3. **Item *unfavorable***: bagaimana bukti empiriknya, dan kapan sebaiknya dipakai
+4. Menetapkan **format respons** untuk seluruh skala
+5. Merakit kuesionernya: pengantar, petunjuk, tata letak
+6. *Workshop* dan saling menelaah antar-kelompok
 
-* Menyusun **kisi-kisi**: berapa item untuk tiap aspek, dan kenapa perlu sejumlah itu
-* Kaidah menulis item, dengan contoh yang salah dan perbaikannya
-* **Item *unfavorable***: bagaimana bukti empiriknya, dan kapan sebaiknya dipakai
-* Menetapkan **format respons** untuk seluruh skala
-* Merakit kuesionernya: pengantar, petunjuk, tata letak
-* *Workshop* dan saling menelaah antar-kelompok
-
-:::
-
-::: aside
-***Disclosure* penggunaan akal imitasi (AI)**
-
-Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* materi, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini.
-
-:::
 
 # Spesifikasi konstruk menjadi item {background-color="#14497F" .center}
 
@@ -471,15 +461,23 @@ Kembalikan daftarnya dengan **catatan tertulis**, bukan penilaian umum. "Item 7 
 Bawa semuanya ke Pertemuan 11. Panel ahli tidak bisa menilai relevansi item tanpa membaca definisi konstruk dan kisi-kisi Anda.
 :::
 
-## Ada pertanyaan❓
+## Terima kasih!😊 {.closing-slide}
 
-![](libs/closing.JPG){fig-align="center"}
+::: {.closing-subtitle}
+Ada pertanyaan?
+:::
 
-::: {.callout-note}
-### Catatan
+::: {.closing-contact}
 
-* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
-* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+* [ ]{.fa-solid .fa-envelope .fa-fw} [amelia.zein@psikologi.unair.ac.id](mailto:amelia.zein@psikologi.unair.ac.id)
+* [ ]{.fa-solid .fa-globe .fa-fw} https://rameliaz.github.io/
+* [ ]{.fa-brands .fa-discord .fa-fw} [@rameliaz](https://discord.com/users/807046335613632555)
+* [ ]{.fa-brands .fa-keybase .fa-fw} [@rameliaz](https://keybase.io/rameliaz)
+* [ ]{.fa-brands .fa-github .fa-fw} [@rameliaz](https://github.com/rameliaz)
+:::
+
+::: {.closing-note}
+Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [Quarto](https://quarto.org/) dengan template dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
 :::
 
 ## Rujukan {.smaller}

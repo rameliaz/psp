@@ -18,24 +18,14 @@ execute:
   echo: true
 ---
 
-## _Outline_
+## Agenda {.agenda-slide}
 
-::: {.incremental}
+1. Why validity is a property of **score interpretations**, not of a scale
+2. How three "types of validity" became **one concept with five sources of evidence**
+3. Those five sources, one at a time
+4. *Construct underrepresentation* and *construct-irrelevant variance*
+5. Why pushing $\alpha$ ever higher can actually **reduce** validity
 
-* Why validity is a property of **score interpretations**, not of a scale
-* How three "types of validity" became **one concept with five sources of evidence**
-* Those five sources, one at a time
-* *Construct underrepresentation* and *construct-irrelevant variance*
-* Why pushing $\alpha$ ever higher can actually **reduce** validity
-
-:::
-
-::: aside
-***Disclosure* on the use of artificial intelligence (AI)**
-
-We used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate references, and troubleshoot `quarto` and `git` code. We (Amel and Dian) take full responsibility for the substance and presentation of these slides.
-
-:::
 
 # From reliability to validity {background-color="#14497F" .center}
 
@@ -637,15 +627,23 @@ The most useful way to revise: take any scale you can find and answer the seven 
 From Session 9 onward, everything from the first half turns into decisions you have to make yourselves.
 :::
 
-## Any questions❓
+## Thank you!😊 {.closing-slide}
 
-![](libs/closing.JPG){fig-align="center"}
+::: {.closing-subtitle}
+Questions?
+:::
 
-::: {.callout-note}
-### Notes
+::: {.closing-contact}
 
-* These slides were built with {{< fa brands r-project >}} and [**Quarto**](https://quarto.org), using the [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme) template.
-* Reach me at <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+* [ ]{.fa-solid .fa-envelope .fa-fw} [amelia.zein@psikologi.unair.ac.id](mailto:amelia.zein@psikologi.unair.ac.id)
+* [ ]{.fa-solid .fa-globe .fa-fw} https://rameliaz.github.io/
+* [ ]{.fa-brands .fa-discord .fa-fw} [@rameliaz](https://discord.com/users/807046335613632555)
+* [ ]{.fa-brands .fa-keybase .fa-fw} [@rameliaz](https://keybase.io/rameliaz)
+* [ ]{.fa-brands .fa-github .fa-fw} [@rameliaz](https://github.com/rameliaz)
+:::
+
+::: {.closing-note}
+These slides were made using {{< fa brands r-project >}} and [Quarto](https://quarto.org/), with a template from [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
 :::
 
 ## References {.smaller}

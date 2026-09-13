@@ -18,32 +18,22 @@ execute:
   echo: true
 ---
 
-## _Outline_
+## Agenda {.agenda-slide}
 
-::: {.incremental}
+1. Kenapa asumsi perlu diperiksa
+2. **Asumsi 1**: atribut psikologis bervariasi secara kuantitatif
+3. **Asumsi 2**: atributnya terdistribusi normal
+4. **Asumsi 3**: atributnya *continuous*, bukan kategorikal
+5. **Asumsi 4**: semua item mengukur satu hal yang sama
+6. **Asumsi 5**: item bekerja dengan cara yang sama untuk semua kelompok
+7. **Asumsi 6**: partisipan **bisa** dan **mau** melaporkan kondisi internalnya
+8. Apa yang bisa kita lakukan terhadap asumsi-asumsi ini
 
-* Kenapa asumsi perlu diperiksa
-* **Asumsi 1**: atribut psikologis bervariasi secara kuantitatif
-* **Asumsi 2**: atributnya terdistribusi normal
-* **Asumsi 3**: atributnya *continuous*, bukan kategorikal
-* **Asumsi 4**: semua item mengukur satu hal yang sama
-* **Asumsi 5**: item bekerja dengan cara yang sama untuk semua kelompok
-* **Asumsi 6**: partisipan **bisa** dan **mau** melaporkan kondisi internalnya
-* Apa yang bisa kita lakukan terhadap asumsi-asumsi ini
-
-:::
 
 . . .
 
 ::: {.callout-note appearance="simple"}
 Semua asumsi di atas punya kesamaan: **asumsi-asumsi ini kita anggap benar tanpa pernah benar-benar kita periksa**.
-:::
-
-::: aside
-***Disclosure* penggunaan akal imitasi (AI)**
-
-Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* materi, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini.
-
 :::
 
 # Kilas balik Pertemuan 1 {background-color="#14497F" .center}
@@ -693,15 +683,23 @@ Kita masuk ke kerangka utama mata kuliah ini: **variabel laten**.
 Baca **DeVellis & Thorpe (2022), Bab 2**. Kalau sempat, Bab 3 dari [Petersen](https://isaactpetersen.github.io/Principles-Psychological-Assessment/) tentang konstruk.
 :::
 
-## Ada pertanyaan❓
+## Terima kasih!😊 {.closing-slide}
 
-![](libs/closing.JPG){fig-align="center"}
+::: {.closing-subtitle}
+Ada pertanyaan?
+:::
 
-::: {.callout-note}
-### Catatan
+::: {.closing-contact}
 
-* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
-* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+* [ ]{.fa-solid .fa-envelope .fa-fw} [amelia.zein@psikologi.unair.ac.id](mailto:amelia.zein@psikologi.unair.ac.id)
+* [ ]{.fa-solid .fa-globe .fa-fw} https://rameliaz.github.io/
+* [ ]{.fa-brands .fa-discord .fa-fw} [@rameliaz](https://discord.com/users/807046335613632555)
+* [ ]{.fa-brands .fa-keybase .fa-fw} [@rameliaz](https://keybase.io/rameliaz)
+* [ ]{.fa-brands .fa-github .fa-fw} [@rameliaz](https://github.com/rameliaz)
+:::
+
+::: {.closing-note}
+Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [Quarto](https://quarto.org/) dengan template dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
 :::
 
 ## Rujukan {.smaller}

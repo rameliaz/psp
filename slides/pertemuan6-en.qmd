@@ -18,25 +18,15 @@ execute:
   echo: true
 ---
 
-## _Outline_
+## Agenda {.agenda-slide}
 
-::: {.incremental}
+1. Reliability is not one thing: **three different questions**
+2. *Split-half* and the **Spearman-Brown** formula
+3. ***Cronbach's alpha***: what it actually measures, and what it does not
+4. A demonstration with real data: **$\alpha$ cannot detect multidimensionality**
+5. The ***omega*** coefficient and the tau-equivalence assumption from Session 3
+6. Computing it in **jamovi**, and what you should report
 
-* Reliability is not one thing: **three different questions**
-* *Split-half* and the **Spearman-Brown** formula
-* ***Cronbach's alpha***: what it actually measures, and what it does not
-* A demonstration with real data: **$\alpha$ cannot detect multidimensionality**
-* The ***omega*** coefficient and the tau-equivalence assumption from Session 3
-* Computing it in **jamovi**, and what you should report
-
-:::
-
-::: aside
-***Disclosure* on the use of artificial intelligence (AI)**
-
-We used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate references, and troubleshoot `quarto` and `git` code. We (Amel and Dian) take full responsibility for the substance and presentation of these slides.
-
-:::
 
 # From a definition to a computation {background-color="#14497F" .center}
 
@@ -667,15 +657,23 @@ We turn to **validity** — and a much harder question.
 Read **DeVellis & Thorpe (2022), Chapter 4**. If you have time, the *Psychometric Validity* chapter of [Bikos](https://lhbikos.github.io/ReC_Psychometrics/).
 :::
 
-## Any questions❓
+## Thank you!😊 {.closing-slide}
 
-![](libs/closing.JPG){fig-align="center"}
+::: {.closing-subtitle}
+Questions?
+:::
 
-::: {.callout-note}
-### Notes
+::: {.closing-contact}
 
-* These slides were built with {{< fa brands r-project >}} and [**Quarto**](https://quarto.org), using the [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme) template.
-* Reach me at <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+* [ ]{.fa-solid .fa-envelope .fa-fw} [amelia.zein@psikologi.unair.ac.id](mailto:amelia.zein@psikologi.unair.ac.id)
+* [ ]{.fa-solid .fa-globe .fa-fw} https://rameliaz.github.io/
+* [ ]{.fa-brands .fa-discord .fa-fw} [@rameliaz](https://discord.com/users/807046335613632555)
+* [ ]{.fa-brands .fa-keybase .fa-fw} [@rameliaz](https://keybase.io/rameliaz)
+* [ ]{.fa-brands .fa-github .fa-fw} [@rameliaz](https://github.com/rameliaz)
+:::
+
+::: {.closing-note}
+These slides were made using {{< fa brands r-project >}} and [Quarto](https://quarto.org/), with a template from [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
 :::
 
 ## References {.smaller}

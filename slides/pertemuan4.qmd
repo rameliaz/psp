@@ -18,25 +18,15 @@ execute:
   echo: true
 ---
 
-## _Outline_
+## Agenda {.agenda-slide}
 
-::: {.incremental}
+1. Memilih format respons: Apa yang harus diperhatikan?
+2. **Likert**: asal-usulnya, dan 4️⃣ keputusan yang harus Anda ambil
+3. **Semantic Differential**: kapan pasangan kata sifat lebih tepat digunakan daripada pernyataan
+4. **Guttman**: ketika item memang berjenjang secara logis dan kenapa format ini jarang berhasil
+5. Membandingkan format Likert, Semantic Differential, dan Guttman
+6. Pertanyaan penutup: **memilih format respons berkaitan dengan asumsi pengukuran yang mana?**
 
-* Memilih format respons: Apa yang harus diperhatikan?
-* **Likert**: asal-usulnya, dan 4️⃣ keputusan yang harus Anda ambil
-* **Semantic Differential**: kapan pasangan kata sifat lebih tepat digunakan daripada pernyataan
-* **Guttman**: ketika item memang berjenjang secara logis dan kenapa format ini jarang berhasil
-* Membandingkan format Likert, Semantic Differential, dan Guttman
-* Pertanyaan penutup: **memilih format respons berkaitan dengan asumsi pengukuran yang mana?**
-
-:::
-
-::: aside
-***Disclosure* penggunaan akal imitasi (AI)**
-
-Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* materi, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini.
-
-:::
 
 # Memilih format respon {background-color="#14497F" .center}
 
@@ -551,15 +541,23 @@ Kita lanjutkan ke format respons yang lebih jarang dipakai, tetapi punya kelebih
 Baca bagian *Thurstone Scaling* pada **DeVellis & Thorpe (2022), Bab 5**.
 :::
 
-## Ada pertanyaan❓
+## Terima kasih!😊 {.closing-slide}
 
-![](libs/closing.JPG){fig-align="center"}
+::: {.closing-subtitle}
+Ada pertanyaan?
+:::
 
-::: {.callout-note}
-### Catatan
+::: {.closing-contact}
 
-* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
-* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+* [ ]{.fa-solid .fa-envelope .fa-fw} [amelia.zein@psikologi.unair.ac.id](mailto:amelia.zein@psikologi.unair.ac.id)
+* [ ]{.fa-solid .fa-globe .fa-fw} https://rameliaz.github.io/
+* [ ]{.fa-brands .fa-discord .fa-fw} [@rameliaz](https://discord.com/users/807046335613632555)
+* [ ]{.fa-brands .fa-keybase .fa-fw} [@rameliaz](https://keybase.io/rameliaz)
+* [ ]{.fa-brands .fa-github .fa-fw} [@rameliaz](https://github.com/rameliaz)
+:::
+
+::: {.closing-note}
+Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [Quarto](https://quarto.org/) dengan template dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
 :::
 
 ## Rujukan {.smaller}

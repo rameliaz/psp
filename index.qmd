@@ -196,5 +196,6 @@ Bagi mahasiswa yang ingin memperdalam pengetahuan mengenai validitas, saya sanga
 Halaman ini merupakan ringkasan **Kontrak Perkuliahan Kelas A-2**.
 :::
 
-### *Disclosure* penggunaan akal imitasi (AI)
+::: {.callout-note appearance="simple"}
 Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* materi, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian materi di mata kuliah ini.
+:::

@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "slides/pertemuan11-en.html#outline",
-    "href": "slides/pertemuan11-en.html#outline",
+    "objectID": "slides/pertemuan11-en.html#agenda",
+    "href": "slides/pertemuan11-en.html#agenda",
     "title": "Expert Review and Content Validity: Computing and Interpreting the CVI",
-    "section": "Outline",
-    "text": "Outline\n\nWhy items need to be rated by an expert panel before piloting\nAssembling the panel: who counts as an expert, and how many\nThe relevance rating form and how to send it out\nComputing I-CVI and S-CVI, and why the two can give different impressions\nCorrecting for agreement that occurs by chance\nWhat to do with items that do not pass\nWhat the CVI cannot tell you\n\n\n\nDisclosure on the use of artificial intelligence (AI)\nWe used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate references, and troubleshoot quarto and git code. We (Amel and Dian) take full responsibility for the substance and presentation of these slides.",
+    "section": "Agenda",
+    "text": "Agenda\n\nWhy items need to be rated by an expert panel before piloting\nAssembling the panel: who counts as an expert, and how many\nThe relevance rating form and how to send it out\nComputing I-CVI and S-CVI, and why the two can give different impressions\nCorrecting for agreement that occurs by chance\nWhat to do with items that do not pass\nWhat the CVI cannot tell you",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -288,11 +288,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan11-en.html#any-questions",
-    "href": "slides/pertemuan11-en.html#any-questions",
+    "objectID": "slides/pertemuan11-en.html#thank-you",
+    "href": "slides/pertemuan11-en.html#thank-you",
     "title": "Expert Review and Content Validity: Computing and Interpreting the CVI",
-    "section": "Any questions❓",
-    "text": "Any questions❓\n\n\n\n\n\n\n\nNotes\n\n\n\nThese slides were built with  and Quarto, using the UNAIR Theme template.\nReach us at  amelia.zein@psikologi.unair.ac.id",
+    "section": "Thank you!😊",
+    "text": "Thank you!😊\n\nQuestions?\n\n\n\n amelia.zein@psikologi.unair.ac.id\n https://rameliaz.github.io/\n @rameliaz\n @rameliaz\n @rameliaz\n\n\n\nThese slides were made using  and Quarto, with a template from UNAIR Theme.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -312,11 +312,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan9-en.html#outline",
-    "href": "slides/pertemuan9-en.html#outline",
+    "objectID": "slides/pertemuan9-en.html#agenda",
+    "href": "slides/pertemuan9-en.html#agenda",
     "title": "Identifying the Construct and Setting the Estimand",
-    "section": "Outline",
-    "text": "Outline\n\nWhat your group has to produce today\nThe kind of literature review that helps scale construction (and the kind that does not)\nHow to write a construct definition you can actually use\nConstruct boundary: what is excluded, and sibling constructs\nEstimand: which quantity, in whom, under what conditions\nFrom construct definition to operational definition\n\n\n\nDisclosure on the use of artificial intelligence (AI)\nWe used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate references, and troubleshoot quarto and git code. We (Amel and Dian) take full responsibility for the substance and presentation of these slides.",
+    "section": "Agenda",
+    "text": "Agenda\n\nWhat your group has to produce today\nThe kind of literature review that helps scale construction (and the kind that does not)\nHow to write a construct definition you can actually use\nConstruct boundary: what is excluded, and sibling constructs\nEstimand: which quantity, in whom, under what conditions\nFrom construct definition to operational definition",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -600,11 +600,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan9-en.html#any-questions",
-    "href": "slides/pertemuan9-en.html#any-questions",
+    "objectID": "slides/pertemuan9-en.html#thank-you",
+    "href": "slides/pertemuan9-en.html#thank-you",
     "title": "Identifying the Construct and Setting the Estimand",
-    "section": "Any questions❓",
-    "text": "Any questions❓\n\n\n\n\n\n\n\nNotes\n\n\n\nThese slides were built with  and Quarto, using the UNAIR Theme template.\nReach me at  amelia.zein@psikologi.unair.ac.id",
+    "section": "Thank you!😊",
+    "text": "Thank you!😊\n\nQuestions?\n\n\n\n amelia.zein@psikologi.unair.ac.id\n https://rameliaz.github.io/\n @rameliaz\n @rameliaz\n @rameliaz\n\n\n\nThese slides were made using  and Quarto, with a template from UNAIR Theme.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -624,11 +624,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan6-en.html#outline",
-    "href": "slides/pertemuan6-en.html#outline",
+    "objectID": "slides/pertemuan6-en.html#agenda",
+    "href": "slides/pertemuan6-en.html#agenda",
     "title": "Reliability: Core Concepts and Implementation",
-    "section": "Outline",
-    "text": "Outline\n\nReliability is not one thing: three different questions\nSplit-half and the Spearman-Brown formula\nCronbach’s alpha: what it actually measures, and what it does not\nA demonstration with real data: \\(\\alpha\\) cannot detect multidimensionality\nThe omega coefficient and the tau-equivalence assumption from Session 3\nComputing it in jamovi, and what you should report\n\n\n\nDisclosure on the use of artificial intelligence (AI)\nWe used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate references, and troubleshoot quarto and git code. We (Amel and Dian) take full responsibility for the substance and presentation of these slides.",
+    "section": "Agenda",
+    "text": "Agenda\n\nReliability is not one thing: three different questions\nSplit-half and the Spearman-Brown formula\nCronbach’s alpha: what it actually measures, and what it does not\nA demonstration with real data: \\(\\alpha\\) cannot detect multidimensionality\nThe omega coefficient and the tau-equivalence assumption from Session 3\nComputing it in jamovi, and what you should report",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1032,11 +1032,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan6-en.html#any-questions",
-    "href": "slides/pertemuan6-en.html#any-questions",
+    "objectID": "slides/pertemuan6-en.html#thank-you",
+    "href": "slides/pertemuan6-en.html#thank-you",
     "title": "Reliability: Core Concepts and Implementation",
-    "section": "Any questions❓",
-    "text": "Any questions❓\n\n\n\n\n\n\n\nNotes\n\n\n\nThese slides were built with  and Quarto, using the UNAIR Theme template.\nReach me at  amelia.zein@psikologi.unair.ac.id",
+    "section": "Thank you!😊",
+    "text": "Thank you!😊\n\nQuestions?\n\n\n\n amelia.zein@psikologi.unair.ac.id\n https://rameliaz.github.io/\n @rameliaz\n @rameliaz\n @rameliaz\n\n\n\nThese slides were made using  and Quarto, with a template from UNAIR Theme.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1056,11 +1056,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan4-en.html#outline",
-    "href": "slides/pertemuan4-en.html#outline",
+    "objectID": "slides/pertemuan4-en.html#agenda",
+    "href": "slides/pertemuan4-en.html#agenda",
     "title": "Response Formats I: Likert, Semantic Differential, and Guttman",
-    "section": "Outline",
-    "text": "Outline\n\nWhat we are actually choosing when we choose a response format\nLikert: where it came from, and the four decisions you have to make\nSemantic Differential: when adjective pairs work better than statements\nGuttman: when items really are ordered by logic — and why it rarely works\nComparing the three\nThe closing question: which assumptions does a response format change?\n\n\n\nDisclosure on the use of artificial intelligence (AI)\nWe used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate references, and troubleshoot quarto and git code. We (Amel and Dian) take full responsibility for the substance and presentation of these slides.",
+    "section": "Agenda",
+    "text": "Agenda\n\nWhat we are actually choosing when we choose a response format\nLikert: where it came from, and the four decisions you have to make\nSemantic Differential: when adjective pairs work better than statements\nGuttman: when items really are ordered by logic — and why it rarely works\nComparing the three\nThe closing question: which assumptions does a response format change?",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1380,11 +1380,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan4-en.html#any-questions",
-    "href": "slides/pertemuan4-en.html#any-questions",
+    "objectID": "slides/pertemuan4-en.html#thank-you",
+    "href": "slides/pertemuan4-en.html#thank-you",
     "title": "Response Formats I: Likert, Semantic Differential, and Guttman",
-    "section": "Any questions❓",
-    "text": "Any questions❓\n\n\n\n\n\n\n\nNotes\n\n\n\nThese slides were built with  and Quarto, using the UNAIR Theme template.\nReach me at  amelia.zein@psikologi.unair.ac.id",
+    "section": "Thank you!😊",
+    "text": "Thank you!😊\n\nQuestions?\n\n\n\n amelia.zein@psikologi.unair.ac.id\n https://rameliaz.github.io/\n @rameliaz\n @rameliaz\n @rameliaz\n\n\n\nThese slides were made using  and Quarto, with a template from UNAIR Theme.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1404,11 +1404,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan2-en.html#outline",
-    "href": "slides/pertemuan2-en.html#outline",
+    "objectID": "slides/pertemuan2-en.html#agenda",
+    "href": "slides/pertemuan2-en.html#agenda",
     "title": "Common Assumptions in Psychological Measurement",
-    "section": "Outline",
-    "text": "Outline\n\nWhy assumptions need checking\nAssumption 1: psychological attributes vary quantitatively\nAssumption 2: the attribute is normally distributed\nAssumption 3: the attribute is continuous, not categorical\nAssumption 4: all items measure the same single thing\nAssumption 5: items work the same way for every group\nAssumption 6: participants can and will report their internal states\nWhat we can actually do about all of this\n\n\n\n\n\n\n\n\nAll of the above share the same shape: we take these assumptions to be true without ever actually checking them.\n\n\n\n\n\n\nDisclosure on the use of artificial intelligence (AI)\nWe used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate references, and troubleshoot quarto and git code. We (Amel and Dian) take full responsibility for the substance and presentation of these slides.",
+    "section": "Agenda",
+    "text": "Agenda\n\nWhy assumptions need checking\nAssumption 1: psychological attributes vary quantitatively\nAssumption 2: the attribute is normally distributed\nAssumption 3: the attribute is continuous, not categorical\nAssumption 4: all items measure the same single thing\nAssumption 5: items work the same way for every group\nAssumption 6: participants can and will report their internal states\nWhat we can actually do about all of this\n\n\n\n\n\n\n\n\nAll of the above share the same shape: we take these assumptions to be true without ever actually checking them.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1800,11 +1800,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan2-en.html#any-questions",
-    "href": "slides/pertemuan2-en.html#any-questions",
+    "objectID": "slides/pertemuan2-en.html#thank-you",
+    "href": "slides/pertemuan2-en.html#thank-you",
     "title": "Common Assumptions in Psychological Measurement",
-    "section": "Any questions❓",
-    "text": "Any questions❓\n\n\n\n\n\n\n\nNotes\n\n\n\nThese slides were built with  and Quarto, using the UNAIR Theme template.\nReach me at  amelia.zein@psikologi.unair.ac.id",
+    "section": "Thank you!😊",
+    "text": "Thank you!😊\n\nQuestions?\n\n\n\n amelia.zein@psikologi.unair.ac.id\n https://rameliaz.github.io/\n @rameliaz\n @rameliaz\n @rameliaz\n\n\n\nThese slides were made using  and Quarto, with a template from UNAIR Theme.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1824,11 +1824,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan10.html#outline",
-    "href": "slides/pertemuan10.html#outline",
+    "objectID": "slides/pertemuan10.html#agenda",
+    "href": "slides/pertemuan10.html#agenda",
     "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
-    "section": "Outline",
-    "text": "Outline\n\nMenyusun kisi-kisi: berapa item untuk tiap aspek, dan kenapa perlu sejumlah itu\nKaidah menulis item, dengan contoh yang salah dan perbaikannya\nItem unfavorable: bagaimana bukti empiriknya, dan kapan sebaiknya dipakai\nMenetapkan format respons untuk seluruh skala\nMerakit kuesionernya: pengantar, petunjuk, tata letak\nWorkshop dan saling menelaah antar-kelompok\n\n\n\nDisclosure penggunaan akal imitasi (AI)\nKami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk brainstorming materi, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini.",
+    "section": "Agenda",
+    "text": "Agenda\n\nMenyusun kisi-kisi: berapa item untuk tiap aspek, dan kenapa perlu sejumlah itu\nKaidah menulis item, dengan contoh yang salah dan perbaikannya\nItem unfavorable: bagaimana bukti empiriknya, dan kapan sebaiknya dipakai\nMenetapkan format respons untuk seluruh skala\nMerakit kuesionernya: pengantar, petunjuk, tata letak\nWorkshop dan saling menelaah antar-kelompok",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -2112,11 +2112,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan10.html#ada-pertanyaan",
-    "href": "slides/pertemuan10.html#ada-pertanyaan",
+    "objectID": "slides/pertemuan10.html#terima-kasih",
+    "href": "slides/pertemuan10.html#terima-kasih",
     "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
-    "section": "Ada pertanyaan❓",
-    "text": "Ada pertanyaan❓\n\n\n\n\n\n\n\nCatatan\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.\nKontak saya via  amelia.zein@psikologi.unair.ac.id",
+    "section": "Terima kasih!😊",
+    "text": "Terima kasih!😊\n\nAda pertanyaan?\n\n\n\n amelia.zein@psikologi.unair.ac.id\n https://rameliaz.github.io/\n @rameliaz\n @rameliaz\n @rameliaz\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -2136,11 +2136,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan7.html#outline",
-    "href": "slides/pertemuan7.html#outline",
+    "objectID": "slides/pertemuan7.html#agenda",
+    "href": "slides/pertemuan7.html#agenda",
     "title": "Validitas: Konsep Dasar dan Implementasinya",
-    "section": "Outline",
-    "text": "Outline\n\nKenapa validitas adalah sifat tafsiran atas skor, bukan sifat dari skala\nBagaimana tiga “jenis validitas” berubah menjadi satu konsep dengan lima sumber bukti\nLima sumber bukti validitas\nConstruct underrepresentation dan construct-irrelevant variance\nKenapa menaikkan \\(\\alpha\\) terus-menerus justru bisa menurunkan validitas\n\n\n\nDisclosure penggunaan akal imitasi (AI)\nKami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk brainstorming materi, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini.",
+    "section": "Agenda",
+    "text": "Agenda\n\nKenapa validitas adalah sifat tafsiran atas skor, bukan sifat dari skala\nBagaimana tiga “jenis validitas” berubah menjadi satu konsep dengan lima sumber bukti\nLima sumber bukti validitas\nConstruct underrepresentation dan construct-irrelevant variance\nKenapa menaikkan \\(\\alpha\\) terus-menerus justru bisa menurunkan validitas",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -2556,11 +2556,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan7.html#ada-pertanyaan",
-    "href": "slides/pertemuan7.html#ada-pertanyaan",
+    "objectID": "slides/pertemuan7.html#terima-kasih",
+    "href": "slides/pertemuan7.html#terima-kasih",
     "title": "Validitas: Konsep Dasar dan Implementasinya",
-    "section": "Ada pertanyaan❓",
-    "text": "Ada pertanyaan❓\n\n\n\n\n\n\n\nCatatan\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.\nKontak saya via  amelia.zein@psikologi.unair.ac.id",
+    "section": "Terima kasih!😊",
+    "text": "Terima kasih!😊\n\nAda pertanyaan?\n\n\n\n amelia.zein@psikologi.unair.ac.id\n https://rameliaz.github.io/\n @rameliaz\n @rameliaz\n @rameliaz\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -2580,11 +2580,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan5.html#outline",
-    "href": "slides/pertemuan5.html#outline",
+    "objectID": "slides/pertemuan5.html#agenda",
+    "href": "slides/pertemuan5.html#agenda",
     "title": "Format Respons II: Thurstone, Situational Judgement Test, dan Forced-Choice",
-    "section": "Outline",
-    "text": "Outline\n\n3️⃣ asumsi pengukuran yang selama ini diterima begitu saja\nThurstone: item yang sudah dikalibrasi lebih dulu oleh panel\nSituational Judgement Test: mengukur penilaian atas situasi, bukan pernyataan tentang diri sendiri (self-report)\nForced-choice: partisipan dipaksa memilih, dan skornya menjadi ipsatif\nKenapa data ipsatif berlawanan dengan hampir semua asumsi yang kita pelajari di Pertemuan 3\n\n\n\nDisclosure penggunaan akal imitasi (AI)\nKami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk brainstorming materi, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini.",
+    "section": "Agenda",
+    "text": "Agenda\n\n3️⃣ asumsi pengukuran yang selama ini diterima begitu saja\nThurstone: item yang sudah dikalibrasi lebih dulu oleh panel\nSituational Judgement Test: mengukur penilaian atas situasi, bukan pernyataan tentang diri sendiri (self-report)\nForced-choice: partisipan dipaksa memilih, dan skornya menjadi ipsatif\nKenapa data ipsatif berlawanan dengan hampir semua asumsi yang kita pelajari di Pertemuan 3",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -2928,11 +2928,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan5.html#ada-pertanyaan",
-    "href": "slides/pertemuan5.html#ada-pertanyaan",
+    "objectID": "slides/pertemuan5.html#terima-kasih",
+    "href": "slides/pertemuan5.html#terima-kasih",
     "title": "Format Respons II: Thurstone, Situational Judgement Test, dan Forced-Choice",
-    "section": "Ada pertanyaan❓",
-    "text": "Ada pertanyaan❓\n\n\n\n\n\n\n\nCatatan\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.\nKontak saya via  amelia.zein@psikologi.unair.ac.id",
+    "section": "Terima kasih!😊",
+    "text": "Terima kasih!😊\n\nAda pertanyaan?\n\n\n\n amelia.zein@psikologi.unair.ac.id\n https://rameliaz.github.io/\n @rameliaz\n @rameliaz\n @rameliaz\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -2952,11 +2952,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan9.html#outline",
-    "href": "slides/pertemuan9.html#outline",
+    "objectID": "slides/pertemuan9.html#agenda",
+    "href": "slides/pertemuan9.html#agenda",
     "title": "Pengenalan Konstruk dan Penetapan Estimand",
-    "section": "Outline",
-    "text": "Outline\n\nApa yang harus dihasilkan kelompok Anda hari ini\nTinjauan pustaka yang berguna untuk penyusunan skala (dan yang tidak)\nCara menuliskan definisi konstruk yang bisa dipakai\nBatas konstruk: apa yang tidak termasuk, dan sibling construct\nEstimand: besaran apa, pada siapa, dalam kondisi apa\nDefinisi konstruk dan definisi operasional\n\n\n\nDisclosure penggunaan akal imitasi (AI)\nKami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk brainstorming materi, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini.",
+    "section": "Agenda",
+    "text": "Agenda\n\nApa yang harus dihasilkan kelompok Anda hari ini\nTinjauan pustaka yang berguna untuk penyusunan skala (dan yang tidak)\nCara menuliskan definisi konstruk yang bisa dipakai\nBatas konstruk: apa yang tidak termasuk, dan sibling construct\nEstimand: besaran apa, pada siapa, dalam kondisi apa\nDefinisi konstruk dan definisi operasional",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -3240,11 +3240,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan9.html#ada-pertanyaan",
-    "href": "slides/pertemuan9.html#ada-pertanyaan",
+    "objectID": "slides/pertemuan9.html#terima-kasih",
+    "href": "slides/pertemuan9.html#terima-kasih",
     "title": "Pengenalan Konstruk dan Penetapan Estimand",
-    "section": "Ada pertanyaan❓",
-    "text": "Ada pertanyaan❓\n\n\n\n\n\n\n\nCatatan\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.\nKontak saya via  amelia.zein@psikologi.unair.ac.id",
+    "section": "Terima kasih!😊",
+    "text": "Terima kasih!😊\n\nAda pertanyaan?\n\n\n\n amelia.zein@psikologi.unair.ac.id\n https://rameliaz.github.io/\n @rameliaz\n @rameliaz\n @rameliaz\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -3264,11 +3264,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan2.html#outline",
-    "href": "slides/pertemuan2.html#outline",
+    "objectID": "slides/pertemuan2.html#agenda",
+    "href": "slides/pertemuan2.html#agenda",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
-    "section": "Outline",
-    "text": "Outline\n\nKenapa asumsi perlu diperiksa\nAsumsi 1: atribut psikologis bervariasi secara kuantitatif\nAsumsi 2: atributnya terdistribusi normal\nAsumsi 3: atributnya continuous, bukan kategorikal\nAsumsi 4: semua item mengukur satu hal yang sama\nAsumsi 5: item bekerja dengan cara yang sama untuk semua kelompok\nAsumsi 6: partisipan bisa dan mau melaporkan kondisi internalnya\nApa yang bisa kita lakukan terhadap asumsi-asumsi ini\n\n\n\n\n\n\n\n\nSemua asumsi di atas punya kesamaan: asumsi-asumsi ini kita anggap benar tanpa pernah benar-benar kita periksa.\n\n\n\n\n\n\nDisclosure penggunaan akal imitasi (AI)\nKami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk brainstorming materi, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini.",
+    "section": "Agenda",
+    "text": "Agenda\n\nKenapa asumsi perlu diperiksa\nAsumsi 1: atribut psikologis bervariasi secara kuantitatif\nAsumsi 2: atributnya terdistribusi normal\nAsumsi 3: atributnya continuous, bukan kategorikal\nAsumsi 4: semua item mengukur satu hal yang sama\nAsumsi 5: item bekerja dengan cara yang sama untuk semua kelompok\nAsumsi 6: partisipan bisa dan mau melaporkan kondisi internalnya\nApa yang bisa kita lakukan terhadap asumsi-asumsi ini\n\n\n\n\n\n\n\n\nSemua asumsi di atas punya kesamaan: asumsi-asumsi ini kita anggap benar tanpa pernah benar-benar kita periksa.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -3660,11 +3660,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan2.html#ada-pertanyaan",
-    "href": "slides/pertemuan2.html#ada-pertanyaan",
+    "objectID": "slides/pertemuan2.html#terima-kasih",
+    "href": "slides/pertemuan2.html#terima-kasih",
     "title": "Asumsi Umum dalam Pengukuran Psikologis",
-    "section": "Ada pertanyaan❓",
-    "text": "Ada pertanyaan❓\n\n\n\n\n\n\n\nCatatan\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.\nKontak saya via  amelia.zein@psikologi.unair.ac.id",
+    "section": "Terima kasih!😊",
+    "text": "Terima kasih!😊\n\nAda pertanyaan?\n\n\n\n amelia.zein@psikologi.unair.ac.id\n https://rameliaz.github.io/\n @rameliaz\n @rameliaz\n @rameliaz\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -3776,18 +3776,18 @@
     "href": "index.html#bahan-bacaan-wajib",
     "title": "Penyusunan Skala Psikologi",
     "section": "Bahan Bacaan Wajib",
-    "text": "Bahan Bacaan Wajib\n\nCohen, R., & Swerdlik, M. (2018). Psychological testing and assessment. Boston: McGraw-Hill Higher Education.\nCoulacoglou, C., & Saklofske, D. H. (2017). Psychometrics and psychological assessment: Principles and applications. London: Elsevier Academic Press.\nCrocker, L., & Algina, J. (2008). Introduction to classical and modern test theory. Mason, OH: Cengage.\nDeVellis, R. F., & Thorpe, C. T. (2022). Scale development: Theory and applications (5th ed.). Thousand Oaks, CA: SAGE Publications.\nDomino, G., & Domino, M. L. (2006). Psychological testing: An introduction. Cambridge University Press.\nRaykov, T., & Marcoulides, G. A. (2011). Introduction to psychometric theory. New York: Taylor & Francis Group.\n\n\nSumber terbuka (open access)\n\nPetersen, I. T. Principles of psychological assessment: With applied examples in R. https://isaactpetersen.github.io/Principles-Psychological-Assessment/\nBikos, L. H. ReCentering psych stats: Psychometrics. https://lhbikos.github.io/ReC_Psychometrics/\n\n\n\n\n\n\n\nBagi mahasiswa yang ingin memperdalam pengetahuan mengenai validitas, saya sangat merekomendasikan untuk menyimak  AIMOS seminar “Rethinking Measurement Validity” yang diberikan oleh Dr. Wendy Higgins.\n\n\n\n\n\n\n\n\n\n\nHalaman ini merupakan ringkasan Kontrak Perkuliahan Kelas A-2.\n\n\n\n\n\nDisclosure penggunaan akal imitasi (AI)\nKami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk brainstorming materi, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian materi di mata kuliah ini.",
+    "text": "Bahan Bacaan Wajib\n\nCohen, R., & Swerdlik, M. (2018). Psychological testing and assessment. Boston: McGraw-Hill Higher Education.\nCoulacoglou, C., & Saklofske, D. H. (2017). Psychometrics and psychological assessment: Principles and applications. London: Elsevier Academic Press.\nCrocker, L., & Algina, J. (2008). Introduction to classical and modern test theory. Mason, OH: Cengage.\nDeVellis, R. F., & Thorpe, C. T. (2022). Scale development: Theory and applications (5th ed.). Thousand Oaks, CA: SAGE Publications.\nDomino, G., & Domino, M. L. (2006). Psychological testing: An introduction. Cambridge University Press.\nRaykov, T., & Marcoulides, G. A. (2011). Introduction to psychometric theory. New York: Taylor & Francis Group.\n\n\nSumber terbuka (open access)\n\nPetersen, I. T. Principles of psychological assessment: With applied examples in R. https://isaactpetersen.github.io/Principles-Psychological-Assessment/\nBikos, L. H. ReCentering psych stats: Psychometrics. https://lhbikos.github.io/ReC_Psychometrics/\n\n\n\n\n\n\n\nBagi mahasiswa yang ingin memperdalam pengetahuan mengenai validitas, saya sangat merekomendasikan untuk menyimak  AIMOS seminar “Rethinking Measurement Validity” yang diberikan oleh Dr. Wendy Higgins.\n\n\n\n\n\n\n\n\n\n\nHalaman ini merupakan ringkasan Kontrak Perkuliahan Kelas A-2.\n\n\n\n\n\n\n\n\n\nKami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk brainstorming materi, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian materi di mata kuliah ini.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Beranda"
     ]
   },
   {
-    "objectID": "slides/pertemuan1.html#outline",
-    "href": "slides/pertemuan1.html#outline",
+    "objectID": "slides/pertemuan1.html#agenda",
+    "href": "slides/pertemuan1.html#agenda",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
-    "section": "Outline",
-    "text": "Outline\n\nApa sebenarnya yang kita lakukan ketika kita “mengukur konstruk psikologis”?\nSejarah singkat: pengukuran lahir dari kebutuhan sosial\nMengapa definisi “pengukuran” masih diperdebatkan sampai hari ini\nLevel pengukuran (Stevens) dan persoalan yang ditinggalkannya\nMengapa konstruk psikologis hanya bisa diukur secara tidak langsung\nSkala, indeks, dan emergent variable\nApa akibat dari strategi pengukuran yang buruk?\n\n\n\nDisclosure penggunaan akal imitasi (AI)\nKami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk brainstorming materi, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini.",
+    "section": "Agenda",
+    "text": "Agenda\n\nApa sebenarnya yang kita lakukan ketika kita “mengukur konstruk psikologis”?\nSejarah singkat: pengukuran lahir dari kebutuhan sosial\nMengapa definisi “pengukuran” masih diperdebatkan sampai hari ini\nLevel pengukuran (Stevens) dan persoalan yang ditinggalkannya\nMengapa konstruk psikologis hanya bisa diukur secara tidak langsung\nSkala, indeks, dan emergent variable\nApa akibat dari strategi pengukuran yang buruk?",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -4299,11 +4299,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan1.html#ada-pertanyaan",
-    "href": "slides/pertemuan1.html#ada-pertanyaan",
+    "objectID": "slides/pertemuan1.html#terima-kasih",
+    "href": "slides/pertemuan1.html#terima-kasih",
     "title": "Apa itu Pengukuran? Dasar dan Filsafat Pengukuran Psikologi",
-    "section": "Ada pertanyaan❓",
-    "text": "Ada pertanyaan❓\n\n\n\n\n\n\n\nCatatan\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.\nKontak saya via  amelia.zein@psikologi.unair.ac.id",
+    "section": "Terima kasih!😊",
+    "text": "Terima kasih!😊\n\nAda pertanyaan?\n\n\n\n amelia.zein@psikologi.unair.ac.id\n https://rameliaz.github.io/\n @rameliaz\n @rameliaz\n @rameliaz\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -4323,11 +4323,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan3.html#outline",
-    "href": "slides/pertemuan3.html#outline",
+    "objectID": "slides/pertemuan3.html#agenda",
+    "href": "slides/pertemuan3.html#agenda",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
-    "section": "Outline",
-    "text": "Outline\n\nApa yang dimaksud dengan variabel laten, dan kenapa ia disebut sebagai penyebab\nClassical Test Theory: \\(X = T + E\\) dan asumsi-asumsinya\nKenapa reliabilitas didefinisikan sebagai proporsi varians dari true score dan error pengukuran\nApa sebenarnya arti true score dan kenapa ia bukan “nilai konstruk yang sesungguhnya”\nKonsekuensi CTT: jumlah item, atenuasi, dan ketergantungan pada sampel\nKeluarga model dalam CTT: parallel, tau-equivalent, congeneric\nSekilas Item Response Theory dan apa benefit yang ditawarkannya\n\n\n\nDisclosure penggunaan akal imitasi (AI)\nKami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk brainstorming materi, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini.",
+    "section": "Agenda",
+    "text": "Agenda\n\nApa yang dimaksud dengan variabel laten, dan kenapa ia disebut sebagai penyebab\nClassical Test Theory: \\(X = T + E\\) dan asumsi-asumsinya\nKenapa reliabilitas didefinisikan sebagai proporsi varians dari true score dan error pengukuran\nApa sebenarnya arti true score dan kenapa ia bukan “nilai konstruk yang sesungguhnya”\nKonsekuensi CTT: jumlah item, atenuasi, dan ketergantungan pada sampel\nKeluarga model dalam CTT: parallel, tau-equivalent, congeneric\nSekilas Item Response Theory dan apa benefit yang ditawarkannya",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -4791,11 +4791,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan3.html#ada-pertanyaan",
-    "href": "slides/pertemuan3.html#ada-pertanyaan",
+    "objectID": "slides/pertemuan3.html#terima-kasih",
+    "href": "slides/pertemuan3.html#terima-kasih",
     "title": "Variabel Laten: Classical Test Theory dan Sekilas Item Response Theory",
-    "section": "Ada pertanyaan❓",
-    "text": "Ada pertanyaan❓\n\n\n\n\n\n\n\nCatatan\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.\nKontak saya via  amelia.zein@psikologi.unair.ac.id",
+    "section": "Terima kasih!😊",
+    "text": "Terima kasih!😊\n\nAda pertanyaan?\n\n\n\n amelia.zein@psikologi.unair.ac.id\n https://rameliaz.github.io/\n @rameliaz\n @rameliaz\n @rameliaz\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -4815,11 +4815,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan4.html#outline",
-    "href": "slides/pertemuan4.html#outline",
+    "objectID": "slides/pertemuan4.html#agenda",
+    "href": "slides/pertemuan4.html#agenda",
     "title": "Format Respons I: Likert, Semantic Differential, dan Guttman",
-    "section": "Outline",
-    "text": "Outline\n\nMemilih format respons: Apa yang harus diperhatikan?\nLikert: asal-usulnya, dan 4️⃣ keputusan yang harus Anda ambil\nSemantic Differential: kapan pasangan kata sifat lebih tepat digunakan daripada pernyataan\nGuttman: ketika item memang berjenjang secara logis dan kenapa format ini jarang berhasil\nMembandingkan format Likert, Semantic Differential, dan Guttman\nPertanyaan penutup: memilih format respons berkaitan dengan asumsi pengukuran yang mana?\n\n\n\nDisclosure penggunaan akal imitasi (AI)\nKami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk brainstorming materi, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini.",
+    "section": "Agenda",
+    "text": "Agenda\n\nMemilih format respons: Apa yang harus diperhatikan?\nLikert: asal-usulnya, dan 4️⃣ keputusan yang harus Anda ambil\nSemantic Differential: kapan pasangan kata sifat lebih tepat digunakan daripada pernyataan\nGuttman: ketika item memang berjenjang secara logis dan kenapa format ini jarang berhasil\nMembandingkan format Likert, Semantic Differential, dan Guttman\nPertanyaan penutup: memilih format respons berkaitan dengan asumsi pengukuran yang mana?",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5139,11 +5139,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan4.html#ada-pertanyaan",
-    "href": "slides/pertemuan4.html#ada-pertanyaan",
+    "objectID": "slides/pertemuan4.html#terima-kasih",
+    "href": "slides/pertemuan4.html#terima-kasih",
     "title": "Format Respons I: Likert, Semantic Differential, dan Guttman",
-    "section": "Ada pertanyaan❓",
-    "text": "Ada pertanyaan❓\n\n\n\n\n\n\n\nCatatan\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.\nKontak saya via  amelia.zein@psikologi.unair.ac.id",
+    "section": "Terima kasih!😊",
+    "text": "Terima kasih!😊\n\nAda pertanyaan?\n\n\n\n amelia.zein@psikologi.unair.ac.id\n https://rameliaz.github.io/\n @rameliaz\n @rameliaz\n @rameliaz\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5163,11 +5163,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan6.html#outline",
-    "href": "slides/pertemuan6.html#outline",
+    "objectID": "slides/pertemuan6.html#agenda",
+    "href": "slides/pertemuan6.html#agenda",
     "title": "Reliabilitas: Konsep Dasar dan Implementasinya",
-    "section": "Outline",
-    "text": "Outline\n\nReliabilitas terdiri atas tiga pertanyaan/sumber error yang berbeda\nSplit-half dan rumus Spearman-Brown\nCronbach’s alpha: apa yang sebenarnya diukurnya\nDemonstrasi dengan data riil: \\(\\alpha\\) tidak bisa mendeteksi multidimensionalitas\nKoefisien \\(\\omega\\) dan asumsi tau-equivalent dari Pertemuan 3\nMenghitungnya di jamovi, dan apa yang sebaiknya Anda laporkan\n\n\n\nDisclosure penggunaan akal imitasi (AI)\nKami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk brainstorming materi, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini.",
+    "section": "Agenda",
+    "text": "Agenda\n\nReliabilitas terdiri atas tiga pertanyaan/sumber error yang berbeda\nSplit-half dan rumus Spearman-Brown\nCronbach’s alpha: apa yang sebenarnya diukurnya\nDemonstrasi dengan data riil: \\(\\alpha\\) tidak bisa mendeteksi multidimensionalitas\nKoefisien \\(\\omega\\) dan asumsi tau-equivalent dari Pertemuan 3\nMenghitungnya di jamovi, dan apa yang sebaiknya Anda laporkan",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5571,11 +5571,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan6.html#ada-pertanyaan",
-    "href": "slides/pertemuan6.html#ada-pertanyaan",
+    "objectID": "slides/pertemuan6.html#terima-kasih",
+    "href": "slides/pertemuan6.html#terima-kasih",
     "title": "Reliabilitas: Konsep Dasar dan Implementasinya",
-    "section": "Ada pertanyaan❓",
-    "text": "Ada pertanyaan❓\n\n\n\n\n\n\n\nCatatan\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.\nKontak saya via  amelia.zein@psikologi.unair.ac.id",
+    "section": "Terima kasih!😊",
+    "text": "Terima kasih!😊\n\nAda pertanyaan?\n\n\n\n amelia.zein@psikologi.unair.ac.id\n https://rameliaz.github.io/\n @rameliaz\n @rameliaz\n @rameliaz\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5595,11 +5595,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan11.html#outline",
-    "href": "slides/pertemuan11.html#outline",
+    "objectID": "slides/pertemuan11.html#agenda",
+    "href": "slides/pertemuan11.html#agenda",
     "title": "Review Ahli dan Validitas Isi: Perhitungan dan Interpretasi CVI",
-    "section": "Outline",
-    "text": "Outline\n\nKenapa item perlu dinilai oleh panel ahli sebelum diujicobakan\nMenyusun panel: siapa yang dianggap ahli, dan berapa orang\nFormulir penilaian relevansi dan cara mengirimkannya\nMenghitung I-CVI dan S-CVI, dan kenapa keduanya memberikan informasi yang berbeda\nMengoreksi kesepakatan yang terjadi secara kebetulan\nApa yang dilakukan terhadap item yang tidak lolos\nKeterbatasan CVI\n\n\n\nDisclosure penggunaan akal imitasi (AI)\nKami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk brainstorming materi, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini.",
+    "section": "Agenda",
+    "text": "Agenda\n\nKenapa item perlu dinilai oleh panel ahli sebelum diujicobakan\nMenyusun panel: siapa yang dianggap ahli, dan berapa orang\nFormulir penilaian relevansi dan cara mengirimkannya\nMenghitung I-CVI dan S-CVI, dan kenapa keduanya memberikan informasi yang berbeda\nMengoreksi kesepakatan yang terjadi secara kebetulan\nApa yang dilakukan terhadap item yang tidak lolos\nKeterbatasan CVI",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5883,11 +5883,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan11.html#ada-pertanyaan",
-    "href": "slides/pertemuan11.html#ada-pertanyaan",
+    "objectID": "slides/pertemuan11.html#terima-kasih",
+    "href": "slides/pertemuan11.html#terima-kasih",
     "title": "Review Ahli dan Validitas Isi: Perhitungan dan Interpretasi CVI",
-    "section": "Ada pertanyaan❓",
-    "text": "Ada pertanyaan❓\n\n\n\n\n\n\n\nCatatan\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.\nKontak kami via  amelia.zein@psikologi.unair.ac.id",
+    "section": "Terima kasih!😊",
+    "text": "Terima kasih!😊\n\nAda pertanyaan?\n\n\n\n amelia.zein@psikologi.unair.ac.id\n https://rameliaz.github.io/\n @rameliaz\n @rameliaz\n @rameliaz\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5907,11 +5907,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan1-en.html#outline",
-    "href": "slides/pertemuan1-en.html#outline",
+    "objectID": "slides/pertemuan1-en.html#agenda",
+    "href": "slides/pertemuan1-en.html#agenda",
     "title": "What Is Measurement? Foundations and Philosophy of Psychological Measurement",
-    "section": "Outline",
-    "text": "Outline\n\nWhat are we actually doing when we “measure” something?\nA short history: measurement was born of social need, not of science\nWhy the definition of “measurement” is still contested today\nLevels of measurement (Stevens) — and the problem they leave behind\nWhy psychology is forced to measure indirectly\nScales, indices, and emergent variables — not every set of items is a scale\nWhat does bad measurement actually cost?\n\n\n\nDisclosure on the use of artificial intelligence (AI)\nWe used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate references, and troubleshoot quarto and git code. We (Amel and Dian) take full responsibility for the substance and presentation of these slides.",
+    "section": "Agenda",
+    "text": "Agenda\n\nWhat are we actually doing when we “measure” something?\nA short history: measurement was born of social need, not of science\nWhy the definition of “measurement” is still contested today\nLevels of measurement (Stevens) — and the problem they leave behind\nWhy psychology is forced to measure indirectly\nScales, indices, and emergent variables — not every set of items is a scale\nWhat does bad measurement actually cost?",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -6423,11 +6423,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan1-en.html#any-questions",
-    "href": "slides/pertemuan1-en.html#any-questions",
+    "objectID": "slides/pertemuan1-en.html#thank-you",
+    "href": "slides/pertemuan1-en.html#thank-you",
     "title": "What Is Measurement? Foundations and Philosophy of Psychological Measurement",
-    "section": "Any questions❓",
-    "text": "Any questions❓\n\n\n\n\n\n\n\nNotes\n\n\n\nThese slides were built with  and Quarto, using the UNAIR Theme template.\nReach me at  amelia.zein@psikologi.unair.ac.id",
+    "section": "Thank you!😊",
+    "text": "Thank you!😊\n\nQuestions?\n\n\n\n amelia.zein@psikologi.unair.ac.id\n https://rameliaz.github.io/\n @rameliaz\n @rameliaz\n @rameliaz\n\n\n\nThese slides were made using  and Quarto, with a template from UNAIR Theme.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -6447,11 +6447,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan3-en.html#outline",
-    "href": "slides/pertemuan3-en.html#outline",
+    "objectID": "slides/pertemuan3-en.html#agenda",
+    "href": "slides/pertemuan3-en.html#agenda",
     "title": "Latent Variables: Classical Test Theory and a Glimpse of Item Response Theory",
-    "section": "Outline",
-    "text": "Outline\n\nWhat a latent variable is, and why we call it a cause\nClassical Test Theory: \\(X = T + E\\) and its assumptions\nWhy reliability can be defined as a proportion of variance\nWhat true score actually means — and why it is not “the real amount of the construct”\nConsequences of CTT: number of items, attenuation, and sample dependence\nThe family of CTT models: parallel, tau-equivalent, congeneric\nA glimpse of Item Response Theory and what it offers\n\n\n\nDisclosure on the use of artificial intelligence (AI)\nWe used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate references, and troubleshoot quarto and git code. We (Amel and Dian) take full responsibility for the substance and presentation of these slides.",
+    "section": "Agenda",
+    "text": "Agenda\n\nWhat a latent variable is, and why we call it a cause\nClassical Test Theory: \\(X = T + E\\) and its assumptions\nWhy reliability can be defined as a proportion of variance\nWhat true score actually means — and why it is not “the real amount of the construct”\nConsequences of CTT: number of items, attenuation, and sample dependence\nThe family of CTT models: parallel, tau-equivalent, congeneric\nA glimpse of Item Response Theory and what it offers",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -6915,11 +6915,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan3-en.html#any-questions",
-    "href": "slides/pertemuan3-en.html#any-questions",
+    "objectID": "slides/pertemuan3-en.html#thank-you",
+    "href": "slides/pertemuan3-en.html#thank-you",
     "title": "Latent Variables: Classical Test Theory and a Glimpse of Item Response Theory",
-    "section": "Any questions❓",
-    "text": "Any questions❓\n\n\n\n\n\n\n\nNotes\n\n\n\nThese slides were built with  and Quarto, using the UNAIR Theme template.\nReach me at  amelia.zein@psikologi.unair.ac.id",
+    "section": "Thank you!😊",
+    "text": "Thank you!😊\n\nQuestions?\n\n\n\n amelia.zein@psikologi.unair.ac.id\n https://rameliaz.github.io/\n @rameliaz\n @rameliaz\n @rameliaz\n\n\n\nThese slides were made using  and Quarto, with a template from UNAIR Theme.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -6939,11 +6939,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan5-en.html#outline",
-    "href": "slides/pertemuan5-en.html#outline",
+    "objectID": "slides/pertemuan5-en.html#agenda",
+    "href": "slides/pertemuan5-en.html#agenda",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
-    "section": "Outline",
-    "text": "Outline\n\nThree things we have been taking for granted — and the formats that give them up\nThurstone: items calibrated in advance by a panel of judges\nSituational Judgement Tests: measuring judgement rather than self-description\nForced-choice: when participants must choose, and scores become ipsative\nWhy ipsative data breaks almost everything we built in Session 3\n\n\n\nDisclosure on the use of artificial intelligence (AI)\nWe used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate references, and troubleshoot quarto and git code. We (Amel and Dian) take full responsibility for the substance and presentation of these slides.",
+    "section": "Agenda",
+    "text": "Agenda\n\nThree things we have been taking for granted — and the formats that give them up\nThurstone: items calibrated in advance by a panel of judges\nSituational Judgement Tests: measuring judgement rather than self-description\nForced-choice: when participants must choose, and scores become ipsative\nWhy ipsative data breaks almost everything we built in Session 3",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7287,11 +7287,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan5-en.html#any-questions",
-    "href": "slides/pertemuan5-en.html#any-questions",
+    "objectID": "slides/pertemuan5-en.html#thank-you",
+    "href": "slides/pertemuan5-en.html#thank-you",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
-    "section": "Any questions❓",
-    "text": "Any questions❓\n\n\n\n\n\n\n\nNotes\n\n\n\nThese slides were built with  and Quarto, using the UNAIR Theme template.\nReach me at  amelia.zein@psikologi.unair.ac.id",
+    "section": "Thank you!😊",
+    "text": "Thank you!😊\n\nQuestions?\n\n\n\n amelia.zein@psikologi.unair.ac.id\n https://rameliaz.github.io/\n @rameliaz\n @rameliaz\n @rameliaz\n\n\n\nThese slides were made using  and Quarto, with a template from UNAIR Theme.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7311,11 +7311,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan7-en.html#outline",
-    "href": "slides/pertemuan7-en.html#outline",
+    "objectID": "slides/pertemuan7-en.html#agenda",
+    "href": "slides/pertemuan7-en.html#agenda",
     "title": "Validity: Core Concepts and Implementation",
-    "section": "Outline",
-    "text": "Outline\n\nWhy validity is a property of score interpretations, not of a scale\nHow three “types of validity” became one concept with five sources of evidence\nThose five sources, one at a time\nConstruct underrepresentation and construct-irrelevant variance\nWhy pushing \\(\\alpha\\) ever higher can actually reduce validity\n\n\n\nDisclosure on the use of artificial intelligence (AI)\nWe used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate references, and troubleshoot quarto and git code. We (Amel and Dian) take full responsibility for the substance and presentation of these slides.",
+    "section": "Agenda",
+    "text": "Agenda\n\nWhy validity is a property of score interpretations, not of a scale\nHow three “types of validity” became one concept with five sources of evidence\nThose five sources, one at a time\nConstruct underrepresentation and construct-irrelevant variance\nWhy pushing \\(\\alpha\\) ever higher can actually reduce validity",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7731,11 +7731,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan7-en.html#any-questions",
-    "href": "slides/pertemuan7-en.html#any-questions",
+    "objectID": "slides/pertemuan7-en.html#thank-you",
+    "href": "slides/pertemuan7-en.html#thank-you",
     "title": "Validity: Core Concepts and Implementation",
-    "section": "Any questions❓",
-    "text": "Any questions❓\n\n\n\n\n\n\n\nNotes\n\n\n\nThese slides were built with  and Quarto, using the UNAIR Theme template.\nReach me at  amelia.zein@psikologi.unair.ac.id",
+    "section": "Thank you!😊",
+    "text": "Thank you!😊\n\nQuestions?\n\n\n\n amelia.zein@psikologi.unair.ac.id\n https://rameliaz.github.io/\n @rameliaz\n @rameliaz\n @rameliaz\n\n\n\nThese slides were made using  and Quarto, with a template from UNAIR Theme.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7755,11 +7755,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan10-en.html#outline",
-    "href": "slides/pertemuan10-en.html#outline",
+    "objectID": "slides/pertemuan10-en.html#agenda",
+    "href": "slides/pertemuan10-en.html#agenda",
     "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
-    "section": "Outline",
-    "text": "Outline\n\nBuilding a blueprint: how many items per facet, and why that many\nItem-writing principles, with faulty examples and their repairs\nReverse-worded items: what the evidence says, and when to use them\nSettling the response format for the whole scale\nAssembling the questionnaire: introduction, instructions, layout\nWorkshop and peer review between groups\n\n\n\nDisclosure on the use of artificial intelligence (AI)\nWe used Claude Code (Opus 5 and Sonnet 5) to brainstorm material, locate references, and troubleshoot quarto and git code. We (Amel and Dian) take full responsibility for the substance and presentation of these slides.",
+    "section": "Agenda",
+    "text": "Agenda\n\nBuilding a blueprint: how many items per facet, and why that many\nItem-writing principles, with faulty examples and their repairs\nReverse-worded items: what the evidence says, and when to use them\nSettling the response format for the whole scale\nAssembling the questionnaire: introduction, instructions, layout\nWorkshop and peer review between groups",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -8043,11 +8043,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan10-en.html#any-questions",
-    "href": "slides/pertemuan10-en.html#any-questions",
+    "objectID": "slides/pertemuan10-en.html#thank-you",
+    "href": "slides/pertemuan10-en.html#thank-you",
     "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
-    "section": "Any questions❓",
-    "text": "Any questions❓\n\n\n\n\n\n\n\nNotes\n\n\n\nThese slides were built with  and Quarto, using the UNAIR Theme template.\nReach me at  amelia.zein@psikologi.unair.ac.id",
+    "section": "Thank you!😊",
+    "text": "Thank you!😊\n\nQuestions?\n\n\n\n amelia.zein@psikologi.unair.ac.id\n https://rameliaz.github.io/\n @rameliaz\n @rameliaz\n @rameliaz\n\n\n\nThese slides were made using  and Quarto, with a template from UNAIR Theme.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",

@@ -18,26 +18,16 @@ execute:
   echo: true
 ---
 
-## _Outline_
+## Agenda {.agenda-slide}
 
-::: {.incremental}
+1. Apa yang dimaksud dengan **variabel laten**, dan kenapa ia disebut sebagai *penyebab*
+2. ***Classical Test Theory***: $X = T + E$ dan asumsi-asumsinya
+3. Kenapa reliabilitas didefinisikan sebagai **proporsi varians** dari *true score* dan *error* pengukuran
+4. Apa sebenarnya arti *true score* dan kenapa ia **bukan** "nilai konstruk yang sesungguhnya"
+5. Konsekuensi CTT: jumlah item, atenuasi, dan ketergantungan pada sampel
+6. Keluarga model dalam CTT: *parallel*, *tau-equivalent*, *congeneric*
+7. Sekilas ***Item Response Theory*** dan apa *benefit* yang ditawarkannya
 
-* Apa yang dimaksud dengan **variabel laten**, dan kenapa ia disebut sebagai *penyebab*
-* ***Classical Test Theory***: $X = T + E$ dan asumsi-asumsinya
-* Kenapa reliabilitas didefinisikan sebagai **proporsi varians** dari *true score* dan *error* pengukuran
-* Apa sebenarnya arti *true score* dan kenapa ia **bukan** "nilai konstruk yang sesungguhnya"
-* Konsekuensi CTT: jumlah item, atenuasi, dan ketergantungan pada sampel
-* Keluarga model dalam CTT: *parallel*, *tau-equivalent*, *congeneric*
-* Sekilas ***Item Response Theory*** dan apa *benefit* yang ditawarkannya
-
-:::
-
-::: aside
-***Disclosure* penggunaan akal imitasi (AI)**
-
-Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* materi, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini.
-
-:::
 
 # Asumsi ➡️ Model Pengukuran {background-color="#14497F" .center}
 
@@ -796,15 +786,23 @@ Kita turun ke tingkat yang paling konkrit: **format respons**.
 Baca **DeVellis & Thorpe (2022), Bab 5** bagian tentang format respons. Kalau ingin melihat versi formal dari materi hari ini, Bab 3 buku yang sama membahas reliabilitas secara lengkap.
 :::
 
-## Ada pertanyaan❓
+## Terima kasih!😊 {.closing-slide}
 
-![](libs/closing.JPG){fig-align="center"}
+::: {.closing-subtitle}
+Ada pertanyaan?
+:::
 
-::: {.callout-note}
-### Catatan
+::: {.closing-contact}
 
-* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
-* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+* [ ]{.fa-solid .fa-envelope .fa-fw} [amelia.zein@psikologi.unair.ac.id](mailto:amelia.zein@psikologi.unair.ac.id)
+* [ ]{.fa-solid .fa-globe .fa-fw} https://rameliaz.github.io/
+* [ ]{.fa-brands .fa-discord .fa-fw} [@rameliaz](https://discord.com/users/807046335613632555)
+* [ ]{.fa-brands .fa-keybase .fa-fw} [@rameliaz](https://keybase.io/rameliaz)
+* [ ]{.fa-brands .fa-github .fa-fw} [@rameliaz](https://github.com/rameliaz)
+:::
+
+::: {.closing-note}
+Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [Quarto](https://quarto.org/) dengan template dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
 :::
 
 ## Rujukan {.scrollable}

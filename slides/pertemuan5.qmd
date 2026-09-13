@@ -18,23 +18,13 @@ execute:
   echo: true
 ---
 
-## _Outline_
+## Agenda {.agenda-slide}
 
-::: {.incremental}
-
-* 3️⃣ asumsi pengukuran yang selama ini diterima begitu saja
-* **Thurstone**: item yang sudah dikalibrasi lebih dulu oleh panel
-* ***Situational Judgement Test***: mengukur penilaian atas situasi, bukan pernyataan tentang diri sendiri (*self-report*)
-* ***Forced-choice***: partisipan dipaksa memilih, dan skornya menjadi **ipsatif**
-* Kenapa data ipsatif berlawanan dengan hampir semua asumsi yang kita pelajari di Pertemuan 3
-:::
-
-::: aside
-***Disclosure* penggunaan akal imitasi (AI)**
-
-Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* materi, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini.
-
-:::
+1. 3️⃣ asumsi pengukuran yang selama ini diterima begitu saja
+2. **Thurstone**: item yang sudah dikalibrasi lebih dulu oleh panel
+3. ***Situational Judgement Test***: mengukur penilaian atas situasi, bukan pernyataan tentang diri sendiri (*self-report*)
+4. ***Forced-choice***: partisipan dipaksa memilih, dan skornya menjadi **ipsatif**
+5. Kenapa data ipsatif berlawanan dengan hampir semua asumsi yang kita pelajari di Pertemuan 3
 
 # 3️⃣ asumsi yang selama ini diterima begitu saja {background-color="#14497F" .center}
 
@@ -593,15 +583,23 @@ Setelah lima pertemuan membicarakan konsep dan format, kita mulai menghitung: **
 Baca **DeVellis & Thorpe (2022), Bab 3**. Kalau ingin melihat versinya dalam praktik, bab *Reliability* pada [Bikos](https://lhbikos.github.io/ReC_Psychometrics/) menunjukkan berbagai koefisien secara berdampingan.
 :::
 
-## Ada pertanyaan❓
+## Terima kasih!😊 {.closing-slide}
 
-![](libs/closing.JPG){fig-align="center"}
+::: {.closing-subtitle}
+Ada pertanyaan?
+:::
 
-::: {.callout-note}
-### Catatan
+::: {.closing-contact}
 
-* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
-* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+* [ ]{.fa-solid .fa-envelope .fa-fw} [amelia.zein@psikologi.unair.ac.id](mailto:amelia.zein@psikologi.unair.ac.id)
+* [ ]{.fa-solid .fa-globe .fa-fw} https://rameliaz.github.io/
+* [ ]{.fa-brands .fa-discord .fa-fw} [@rameliaz](https://discord.com/users/807046335613632555)
+* [ ]{.fa-brands .fa-keybase .fa-fw} [@rameliaz](https://keybase.io/rameliaz)
+* [ ]{.fa-brands .fa-github .fa-fw} [@rameliaz](https://github.com/rameliaz)
+:::
+
+::: {.closing-note}
+Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [Quarto](https://quarto.org/) dengan template dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
 :::
 
 ## Rujukan {.smaller}

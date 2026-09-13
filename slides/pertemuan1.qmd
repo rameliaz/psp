@@ -18,26 +18,16 @@ execute:
   echo: true
 ---
 
-## _Outline_
+## Agenda {.agenda-slide}
 
-::: {.incremental}
+1. Apa sebenarnya yang kita lakukan ketika kita "mengukur konstruk psikologis"?
+2. Sejarah singkat: pengukuran lahir dari kebutuhan sosial
+3. Mengapa definisi "pengukuran" masih diperdebatkan sampai hari ini
+4. Level pengukuran (Stevens) dan persoalan yang ditinggalkannya
+5. Mengapa konstruk psikologis hanya bisa diukur secara **tidak langsung**
+6. Skala, indeks, dan *emergent variable*
+7. Apa akibat dari strategi pengukuran yang buruk?
 
-* Apa sebenarnya yang kita lakukan ketika kita "mengukur konstruk psikologis"?
-* Sejarah singkat: pengukuran lahir dari kebutuhan sosial
-* Mengapa definisi "pengukuran" masih diperdebatkan sampai hari ini
-* Level pengukuran (Stevens) dan persoalan yang ditinggalkannya
-* Mengapa konstruk psikologis hanya bisa diukur secara **tidak langsung**
-* Skala, indeks, dan *emergent variable*
-* Apa akibat dari strategi pengukuran yang buruk?
-
-:::
-
-::: aside
-***Disclosure* penggunaan akal imitasi (AI)**
-
-Kami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* materi, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian presentasi ini.
-
-:::
 
 # Orientasi mata kuliah {background-color="#14497F" .center}
 
@@ -806,15 +796,23 @@ Kita akan membahas lebih detail **asumsi-asumsi** yang hari ini baru disinggung:
 Baca **DeVellis & Thorpe (2022), Bab 1**. Kalau sempat, baca juga Bab 1 dan Bab 2 dari [Petersen](https://isaactpetersen.github.io/Principles-Psychological-Assessment/).
 :::
 
-## Ada pertanyaan❓
+## Terima kasih!😊 {.closing-slide}
 
-![](libs/closing.JPG){fig-align="center"}
+::: {.closing-subtitle}
+Ada pertanyaan?
+:::
 
-::: {.callout-note}
-### Catatan
+::: {.closing-contact}
 
-* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
-* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+* [ ]{.fa-solid .fa-envelope .fa-fw} [amelia.zein@psikologi.unair.ac.id](mailto:amelia.zein@psikologi.unair.ac.id)
+* [ ]{.fa-solid .fa-globe .fa-fw} https://rameliaz.github.io/
+* [ ]{.fa-brands .fa-discord .fa-fw} [@rameliaz](https://discord.com/users/807046335613632555)
+* [ ]{.fa-brands .fa-keybase .fa-fw} [@rameliaz](https://keybase.io/rameliaz)
+* [ ]{.fa-brands .fa-github .fa-fw} [@rameliaz](https://github.com/rameliaz)
+:::
+
+::: {.closing-note}
+Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [Quarto](https://quarto.org/) dengan template dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
 :::
 
 ## Rujukan {.smaller}
