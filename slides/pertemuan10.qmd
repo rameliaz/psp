@@ -1,5 +1,5 @@
 ---
-title: "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons"
+title: "Workshop Penulisan Item"
 subtitle: "Penyusunan Skala Psikologi"
 author: "Rizqy Amelia Zein & Dian Kartika Amelia Arbi"
 institute:

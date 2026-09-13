@@ -1,5 +1,5 @@
 ---
-title: "Item-Writing Workshop: Blueprint and Choosing a Response Format"
+title: "Item-Writing Workshop"
 subtitle: "Psychological Scale Construction"
 author: "Rizqy Amelia Zein & Dian Kartika Amelia Arbi"
 institute:

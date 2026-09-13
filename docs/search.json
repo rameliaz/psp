@@ -1826,7 +1826,7 @@
   {
     "objectID": "slides/pertemuan10.html#agenda",
     "href": "slides/pertemuan10.html#agenda",
-    "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
+    "title": "Workshop Penulisan Item",
     "section": "Agenda",
     "text": "Agenda\n\nMenyusun kisi-kisi: berapa item untuk tiap aspek, dan kenapa perlu sejumlah itu\nKaidah menulis item, dengan contoh yang salah dan perbaikannya\nItem unfavorable: bagaimana bukti empiriknya, dan kapan sebaiknya dipakai\nMenetapkan format respons untuk seluruh skala\nMerakit kuesionernya: pengantar, petunjuk, tata letak\nWorkshop dan saling menelaah antar-kelompok",
     "crumbs": [
@@ -1838,7 +1838,7 @@
   {
     "objectID": "slides/pertemuan10.html#yang-anda-bawa-hari-ini",
     "href": "slides/pertemuan10.html#yang-anda-bawa-hari-ini",
-    "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
+    "title": "Workshop Penulisan Item",
     "section": "Yang Anda bawa hari ini",
     "text": "Yang Anda bawa hari ini\n\nUraian spesifikasi konstruk dari Pertemuan 9: definisi, batas, estimand, dimensi, aspek, dan indikator.\nHari ini indikator itu berubah menjadi item, dan item disusun menjadi kuesioner.\n\n\n\n\n\n\n\n\nPerhatikan\n\n\nKalau kelompok Anda belum punya uraian spesifikasi konstruk, kerjakan itu lebih dulu hari ini. Menulis item tanpa definisi konstruk akan membuat Anda kerja dua kali.",
     "crumbs": [
@@ -1850,7 +1850,7 @@
   {
     "objectID": "slides/pertemuan10.html#apa-yang-dicakup-oleh-kisi-kisi-blueprint",
     "href": "slides/pertemuan10.html#apa-yang-dicakup-oleh-kisi-kisi-blueprint",
-    "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
+    "title": "Workshop Penulisan Item",
     "section": "Apa yang dicakup oleh kisi-kisi (blueprint)",
     "text": "Apa yang dicakup oleh kisi-kisi (blueprint)\n\nKisi-kisi menghubungkan aspek konstruk dengan jumlah item yang akan mewakilinya.\nFungsinya menjaga agar cakupan isi item sesuai dengan definisi Anda, bukan mengikuti aspek mana yang paling mudah ditulis itemnya.\n\n\n\n\n\n\n\n\nTanpa kisi-kisi, aspek yang paling gampang dibayangkan mendapat sepuluh item, sementara aspek yang sulit hanya kebagian dua.",
     "crumbs": [
@@ -1862,7 +1862,7 @@
   {
     "objectID": "slides/pertemuan10.html#contoh-kisi-kisi",
     "href": "slides/pertemuan10.html#contoh-kisi-kisi",
-    "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
+    "title": "Workshop Penulisan Item",
     "section": "Contoh kisi-kisi",
     "text": "Contoh kisi-kisi\nKonstruk: kecemasan sosial pada mahasiswa S1.\n\n\n\nAspek\nBobot\nIndikator\nItem ditulis\nTarget akhir\n\n\n\n\nKetakutan akan penilaian negatif\n40%\n3\n12\n6\n\n\nPenghindaran situasi sosial\n35%\n3\n10\n5\n\n\nGejala fisiologis\n25%\n2\n8\n4\n\n\nTotal\n100%\n8\n30\n15\n\n\n\n\n\nBobot ditentukan oleh definisi konstruk Anda.\nPerhatikan dua kolom terakhir: Anda menulis jauh lebih banyak daripada yang akan dipakai.",
     "crumbs": [
@@ -1874,7 +1874,7 @@
   {
     "objectID": "slides/pertemuan10.html#kenapa-harus-melebihkan-jumlah-item",
     "href": "slides/pertemuan10.html#kenapa-harus-melebihkan-jumlah-item",
-    "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
+    "title": "Workshop Penulisan Item",
     "section": "Kenapa harus melebihkan jumlah item",
     "text": "Kenapa harus melebihkan jumlah item\n\nSebagian item akan gugur di review ahli (Pertemuan 11), sebagian lagi gugur di analisis item (Pertemuan 13).\nKalau Anda hanya menulis 15 item untuk target 15, Anda tidak punya ruang untuk membuang apa pun.\nPatokan yang umum: tulislah dua sampai tiga kali jumlah item yang Anda targetkan.\n\n\n\n\n\n\n\n\nIngat dari Pertemuan 6: reliabilitas ditentukan oleh jumlah item dan rata-rata korelasi antar-item. Untuk skala dengan rata-rata korelasi sedang, 10–20 item biasanya memadai.\nMenambah item terus-menerus membuat performa skala menjadi semakin jelek, dan menambah beban partisipann.",
     "crumbs": [
@@ -1886,7 +1886,7 @@
   {
     "objectID": "slides/pertemuan10.html#sebarkan-itemnya",
     "href": "slides/pertemuan10.html#sebarkan-itemnya",
-    "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
+    "title": "Workshop Penulisan Item",
     "section": "Sebarkan itemnya",
     "text": "Sebarkan itemnya\n\nIngat pembahasan tingkat kesulitan item di Pertemuan 3: item sebaiknya tersebar di sepanjang rentang konstruk.\nUntuk tiap aspek, tulis sebagian item yang mudah disetujui (menandakan tingkat rendah) dan sebagian yang sulit disetujui (menandakan tingkat tinggi).\nKalau semua item Anda menggambarkan tingkat yang ekstrim, partisipan dengan tingkat sedang tidak akan bisa dibedakan satu sama lain.\n\n\n\n\n\n\n\n\nTips\n\n\nIni juga yang mencegah ceiling effect dan floor effect yang akan langsung terlihat pada sebaran skor di Pertemuan 13.",
     "crumbs": [
@@ -1898,7 +1898,7 @@
   {
     "objectID": "slides/pertemuan10.html#satu-item-satu-ide-pokok",
     "href": "slides/pertemuan10.html#satu-item-satu-ide-pokok",
-    "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
+    "title": "Workshop Penulisan Item",
     "section": "Satu item, satu ide pokok",
     "text": "Satu item, satu ide pokok\n\nItem ganda (double-barrelled) memuat dua gagasan sekaligus, sehingga partisipan yang setuju pada satu bagian saja tidak punya jawaban yang benar.\nKata “dan”, “karena”, serta “kalau” sering menjadi penanda item ganda.\n\n\n\n\n\n\n\n\n\nBermasalah\nPerbaikannya\n\n\n\n\n“Saya gugup dan berkeringat saat presentasi.”\nPisahkan menjadi dua item.\n\n\n“Saya menghindari acara kampus karena takut dinilai.”\n“Saya menghindari acara kampus.” + item terpisah tentang alasannya.",
     "crumbs": [
@@ -1910,7 +1910,7 @@
   {
     "objectID": "slides/pertemuan10.html#pendek-dan-lugas",
     "href": "slides/pertemuan10.html#pendek-dan-lugas",
-    "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
+    "title": "Workshop Penulisan Item",
     "section": "Pendek dan lugas",
     "text": "Pendek dan lugas\n\nItem yang panjang memaksa partisipan mengingat awal kalimat saat membaca bagian akhirnya.\nHindari negasi ganda. “Saya tidak keberatan kalau tidak diajak berdiskusi” sulit diproses siapa pun.\nHindari kata ganti yang tidak jelas rujukannya, dan keterangan yang salah tempat.\n\n\n\n\n\n\n\n\nNote\n\n\nDeVellis menyarankan tingkat keterbacaan setara kelas 5–7 untuk instrumen yang dipakai pada masyarakat umum. Untuk partisipan mahasiswa, Anda punya sedikit kelonggaran, tetapi kalimat pendek tetap lebih baik.",
     "crumbs": [
@@ -1922,7 +1922,7 @@
   {
     "objectID": "slides/pertemuan10.html#perilaku-konkret-bukan-sebabnya",
     "href": "slides/pertemuan10.html#perilaku-konkret-bukan-sebabnya",
-    "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
+    "title": "Workshop Penulisan Item",
     "section": "Perilaku konkret, bukan sebabnya",
     "text": "Perilaku konkret, bukan sebabnya\n\nIngat Pertemuan 2: Nisbett & Wilson menunjukkan bahwa orang sering tidak punya akses pada alasan sebenarnya di balik perilakunya.\nItem yang menanyakan apa yang terjadi umumnya lebih dapat diandalkan daripada item yang menanyakan mengapa.\n\n\n\n\n\n\n\n\n\nBermasalah\nPerbaikannya\n\n\n\n\n“Saya cemas karena takut dinilai orang lain.”\n“Saya khawatir orang lain menilai saya negatif.”\n\n\n“Saya introvert, jadi saya menghindari keramaian.”\n“Saya menghindari pesta yang ramai.”",
     "crumbs": [
@@ -1934,7 +1934,7 @@
   {
     "objectID": "slides/pertemuan10.html#kurun-waktu-diambil-dari-estimand",
     "href": "slides/pertemuan10.html#kurun-waktu-diambil-dari-estimand",
-    "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
+    "title": "Workshop Penulisan Item",
     "section": "Kurun waktu diambil dari estimand",
     "text": "Kurun waktu diambil dari estimand\n\nKalimat estimand Anda di Pertemuan 9 sudah menyebutkan kurun waktunya. Kurun itu harus muncul di itemnya.\n“Dalam sebulan terakhir, saya …” mengukur hal yang berbeda dari “Saya biasanya …”.\nPastikan kurun waktunya sama untuk semua item dalam satu skala.\n\n\n\n\n\n\n\n\nPenting diingat\n\n\nMencampur item berkurun waktu berbeda dalam satu skala menambah sumber variasi yang tidak Anda maksud, dan biasanya muncul sebagai faktor tambahan pada analisis di Pertemuan 13.",
     "crumbs": [
@@ -1946,7 +1946,7 @@
   {
     "objectID": "slides/pertemuan10.html#seberapa-kuat-kalimatnya",
     "href": "slides/pertemuan10.html#seberapa-kuat-kalimatnya",
-    "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
+    "title": "Workshop Penulisan Item",
     "section": "Seberapa kuat kalimatnya",
     "text": "Seberapa kuat kalimatnya\n\nDari Pertemuan 4: untuk format Likert, pernyataan sebaiknya cukup kuat, tetapi tidak ekstrem, karena derajatnya sudah diwakili opsi respons.\nKalimat yang terlalu lunak akan disetujui hampir semua orang, dan item itu berhenti membedakan siapa pun.\nKalimat yang terlalu ekstrem akan ditolak hampir semua orang, dengan akibat yang sama.",
     "crumbs": [
@@ -1958,7 +1958,7 @@
   {
     "objectID": "slides/pertemuan10.html#hindari-kata-bermuatan-nilai",
     "href": "slides/pertemuan10.html#hindari-kata-bermuatan-nilai",
-    "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
+    "title": "Workshop Penulisan Item",
     "section": "Hindari kata bermuatan nilai",
     "text": "Hindari kata bermuatan nilai\n\nKata seperti “wajar”, “seharusnya”, “berlebihan”, atau “gagal” mengarahkan jawaban.\nItem juga sebaiknya tidak membuat partisipan merasa dihakimi, terutama untuk konstruk yang rawan social desirability (Pertemuan 2).\n\n\n\n\n\n\n\n\n\nBermasalah\nPerbaikannya\n\n\n\n\n“Saya berlebihan dalam mencemaskan pendapat orang.”\n“Saya sering memikirkan pendapat orang lain tentang saya.”\n\n\n“Saya gagal mengendalikan rasa cemas saya.”\n“Saya sulit menenangkan diri ketika cemas.”",
     "crumbs": [
@@ -1970,7 +1970,7 @@
   {
     "objectID": "slides/pertemuan10.html#kenapa-dipakai",
     "href": "slides/pertemuan10.html#kenapa-dipakai",
-    "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
+    "title": "Workshop Penulisan Item",
     "section": "Kenapa dipakai",
     "text": "Kenapa dipakai\n\nGagasannya berasal dari Likert (1932): untuk menekan kecenderungan partisipan menyetujui apa saja, separuh item dibuat searah dan separuh berlawanan arah.\nKalau partisipan hanya mengiyakan, polanya akan terlihat: ia menyetujui item yang searah dan yang berlawanan sekaligus.\n\n\n\n\n\n\n\n\nNote\n\n\nSampai di sini gagasannya masuk akal. Tetapi, persoalannya muncul pada pelaksanaannya.",
     "crumbs": [
@@ -1982,7 +1982,7 @@
   {
     "objectID": "slides/pertemuan10.html#bagaimana-bukti-empiriknya",
     "href": "slides/pertemuan10.html#bagaimana-bukti-empiriknya",
-    "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
+    "title": "Workshop Penulisan Item",
     "section": "Bagaimana bukti empiriknya",
     "text": "Bagaimana bukti empiriknya\n\nSkala yang seluruh itemnya searah menghasilkan jawaban yang lebih akurat dibandingkan skala campuran.\nSkor pada item searah dan item terbalik tidak simetris: sangat tidak setuju pada pernyataan positif tidak sama dengan sangat setuju pada pernyataan negatifnya.\nItem terbalik sering membentuk faktornya sendiri pada analisis faktor. Yang muncul di situ adalah cara penulisannya.\n\n\n\nRingkasan dari Chyung, Barkin, & Shamsy (2018); lihat juga Weijters, Baumgartner, & Schillewaert (2013).",
     "crumbs": [
@@ -1994,7 +1994,7 @@
   {
     "objectID": "slides/pertemuan10.html#partisipan-berhenti-memperhatikan",
     "href": "slides/pertemuan10.html#partisipan-berhenti-memperhatikan",
-    "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
+    "title": "Workshop Penulisan Item",
     "section": "Partisipan berhenti memperhatikan",
     "text": "Partisipan berhenti memperhatikan\n\nPerforma partisipan menurun sekitar 12 menit setelah mulai mengisi.\nSetelah itu, banyak yang tidak lagi menyadari adanya kata “tidak” di dalam item, bahkan ketika kata itu ditebalkan atau digarisbawahi.\n\n\n\n\n\n\n\n\nKalau tetap dipakai\n\n\n\nLetakkan item unfavorable di bagian awal kuesioner.\nPastikan item unfavorable benar-benar lawan yang setara, bukan sekadar penambahan kata “tidak”.\nPeriksa pengaruhnya saat analisis: lihat apakah item unfavorable mengelompok sendiri.",
     "crumbs": [
@@ -2006,7 +2006,7 @@
   {
     "objectID": "slides/pertemuan10.html#jebakan-kata-tidak",
     "href": "slides/pertemuan10.html#jebakan-kata-tidak",
-    "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
+    "title": "Workshop Penulisan Item",
     "section": "Jebakan kata “tidak”",
     "text": "Jebakan kata “tidak”\n\n“Saya merasa cemas saat presentasi” dan “Saya tidak merasa cemas saat presentasi” bukan dua ujung dari satu kontinum.\nTidak merasa cemas bukan berarti merasa tenang. Ada banyak keadaan di antaranya.\nKalau ingin item berlawanan arah, baliklah isinya, bukan tata bahasanya: “Saya merasa tenang saat presentasi.”\n\n\n\n\n\n\n\n\nUntuk konstruk tertentu, item searah justru lebih tepat\n\n\nUntuk konstruk yang sifatnya memang negatif, seperti kecemasan, depresi, kalimat bernada negatif adalah bentuk yang terbaik. Memaksakan item unfavorable di sini justru membuat kalimatnya berbelit.",
     "crumbs": [
@@ -2018,7 +2018,7 @@
   {
     "objectID": "slides/pertemuan10.html#yang-sudah-anda-pelajari",
     "href": "slides/pertemuan10.html#yang-sudah-anda-pelajari",
-    "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
+    "title": "Workshop Penulisan Item",
     "section": "Yang sudah Anda pelajari",
     "text": "Yang sudah Anda pelajari\nDari Pertemuan 4, tetapkan sekarang untuk seluruh skala:\n\nBerapa pilihan. Pilihan respons sebanyak 5–7 masuk akal untuk sebagian besar tujuan pengukuran.\nPilihan tengah atau tidak. Pakai kalau posisi tengah memang bermakna untuk konstruk Anda.\nLabel. Beri label pada semua pilihan, bukan hanya ujungnya.\nJangkar. Persetujuan, frekuensi, atau jangkar khusus per item.\n\n\n\n\n\n\n\n\nSoal pilihan tengah\n\n\nChyung dkk. (2017) menyarankan pertanyaannya diubah: bukan “perlu titik tengah atau tidak”, melainkan “kapan titik tengah itu diperlukan”. Titik tengah tepat kalau ia benar-benar meaningful secara teoretis.\nKalau yang Anda antisipasi adalah ketidaktahuan, sediakan pilihan terpisah seperti “tidak tahu”, jangan dicampur dengan titik tengah.",
     "crumbs": [
@@ -2030,7 +2030,7 @@
   {
     "objectID": "slides/pertemuan10.html#konsistensi-dan-urutan",
     "href": "slides/pertemuan10.html#konsistensi-dan-urutan",
-    "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
+    "title": "Workshop Penulisan Item",
     "section": "Konsistensi dan urutan",
     "text": "Konsistensi dan urutan\n\nPakai satu format respons untuk seluruh item dalam satu skala. Berganti format di tengah menambah beban dan menyulitkan penjumlahan skor.\nSusun pilihan responsnya dalam urutan menaik, dari yang paling rendah ke paling tinggi.\nPastikan arahnya konsisten dari awal sampai akhir kuesioner.\n\n\n\nChyung, Kennedy, & Campbell (2018).",
     "crumbs": [
@@ -2042,7 +2042,7 @@
   {
     "objectID": "slides/pertemuan10.html#bagian-bagiannya",
     "href": "slides/pertemuan10.html#bagian-bagiannya",
-    "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
+    "title": "Workshop Penulisan Item",
     "section": "Bagian-bagiannya",
     "text": "Bagian-bagiannya\n\nJudul — mencerminkan isi, singkat, dan tidak membuat partisipan segan mengisi.\nPengantar — tujuan singkat, pernyataan kerahasiaan dan persetujuan, serta perkiraan waktu pengisian.\nPetunjuk pengisian — lengkap, tidak ambigu, termasuk cara mengirimkan jawabannya.\nItem — dikelompokkan dan diberi nomor.\nPenutup — ucapan terima kasih dan langkah berikutnya kalau ada.\n\n\n\nBikos, ReCentering Psych Stats: Psychometrics, Bab 2.",
     "crumbs": [
@@ -2054,7 +2054,7 @@
   {
     "objectID": "slides/pertemuan10.html#mengapa-pengantar-dan-penutup-skala-penting",
     "href": "slides/pertemuan10.html#mengapa-pengantar-dan-penutup-skala-penting",
-    "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
+    "title": "Workshop Penulisan Item",
     "section": "Mengapa pengantar dan penutup skala penting?",
     "text": "Mengapa pengantar dan penutup skala penting?\n\nPershing & Pershing (2001) memeriksa 50 kuesioner evaluasi pelatihan yang dipakai di sebuah sekolah kedokteran ternama.\n72% tidak punya pengantar sama sekali. 78% tidak punya penutup. 30% tidak punya petunjuk pengisian, dan 54% lainnya hanya seadanya.\nHanya 8% yang tampilannya rapi secara profesional.\n\n\n\n\n\n\n\n\nTampilan yang berantakan menurunkan minat partisipan, dan itu langsung berpengaruh pada reliabilitas serta validitas skor Anda.",
     "crumbs": [
@@ -2066,7 +2066,7 @@
   {
     "objectID": "slides/pertemuan10.html#tata-letak",
     "href": "slides/pertemuan10.html#tata-letak",
-    "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
+    "title": "Workshop Penulisan Item",
     "section": "Tata letak",
     "text": "Tata letak\n\nBeri ruang kosong yang cukup; jangan padat.\nBeri nomor dan judul bagian supaya partisipan tahu sudah sampai mana.\nBeri jeda tiap 4–6 item, atau selang-seling warna latar barisnya.\nUntuk pengisian daring, pastikan tampilannya terbaca di layar ponsel.\n\n\n\n\n\n\n\n\nData demografis\n\n\nLetakkan di bagian akhir, kecuali kalau diperlukan untuk menyaring partisipan di awal. Pertanyaan demografis di awal membuat sebagian partisipan merasa diidentifikasi sebelum mereka tahu isi kuesionernya.",
     "crumbs": [
@@ -2078,7 +2078,7 @@
   {
     "objectID": "slides/pertemuan10.html#bagian-1-menulis-item",
     "href": "slides/pertemuan10.html#bagian-1-menulis-item",
-    "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
+    "title": "Workshop Penulisan Item",
     "section": "Bagian 1: menulis item",
     "text": "Bagian 1: menulis item\n\n15 menit — Lengkapi kisi-kisi kelompok Anda: aspek, bobot, indikator, dan jumlah item yang akan ditulis.\n40 menit — Tulis itemnya.\n10 menit — Tetapkan format respons dan tulis petunjuk pengisiannya.\n\n\nKesalahan yang paling sering muncul di sesi ini: kelompok menulis sepuluh parafrase dari satu indikator, lalu mengira sudah selesai. Ingatkan bahwa item yang nyaris sama melanggar local independence dari Pertemuan 2 dan menaikkan alpha tanpa menambah informasi. Kesalahan kedua: semua item menggambarkan tingkat yang parah. Minta mereka membayangkan partisipan dengan tingkat sedang, lalu tanya item mana yang bisa membedakannya.",
     "crumbs": [
@@ -2090,7 +2090,7 @@
   {
     "objectID": "slides/pertemuan10.html#bagian-2-saling-menelaah",
     "href": "slides/pertemuan10.html#bagian-2-saling-menelaah",
-    "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
+    "title": "Workshop Penulisan Item",
     "section": "Bagian 2: saling menelaah",
     "text": "Bagian 2: saling menelaah\nTukarkan daftar item dengan kelompok lain. 25 menit.\nUntuk tiap item, periksa:\n\nApakah item ini memuat lebih dari satu gagasan?\nApakah ada negasi ganda atau kata ganti yang rujukannya tidak jelas?\nApakah item ini menanyakan perilaku atau menanyakan alasan?\nApakah kurun waktunya sama dengan item lain?\nApakah ada kata bermuatan nilai yang mengarahkan jawaban?\nApakah item ini bisa dijawab sama oleh orang dengan tingkat konstruk yang berbeda? Kalau ya, item itu tidak membedakan apa pun.\n\n\n\n\n\n\n\n\nTip\n\n\nKembalikan daftarnya dengan catatan tertulis, bukan penilaian umum. “Item 7 ganda: gugup dan berkeringat” jauh lebih berguna daripada “itemnya kurang jelas”.",
     "crumbs": [
@@ -2102,7 +2102,7 @@
   {
     "objectID": "slides/pertemuan10.html#yang-harus-dihasilkan",
     "href": "slides/pertemuan10.html#yang-harus-dihasilkan",
-    "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
+    "title": "Workshop Penulisan Item",
     "section": "Yang harus dihasilkan",
     "text": "Yang harus dihasilkan\n\nKisi-kisi dalam bentuk tabel, lengkap dengan bobot dan jumlah item.\nDaftar item yang sudah diperbaiki setelah telaah antar-kelompok, disertai penanda aspek untuk tiap item.\nFormat respons beserta labelnya.\nDraf kuesioner lengkap dengan pengantar dan petunjuk pengisian.\n\n\n\n\n\n\n\n\nWarning\n\n\nBawa semuanya ke Pertemuan 11. Panel ahli tidak bisa menilai relevansi item tanpa membaca definisi konstruk dan kisi-kisi Anda.",
     "crumbs": [
@@ -2114,7 +2114,7 @@
   {
     "objectID": "slides/pertemuan10.html#terima-kasih",
     "href": "slides/pertemuan10.html#terima-kasih",
-    "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
+    "title": "Workshop Penulisan Item",
     "section": "Terima kasih!😊",
     "text": "Terima kasih!😊\n\nAda pertanyaan?\n\n\n\n amelia.zein@psikologi.unair.ac.id\n https://rameliaz.github.io/\n @rameliaz\n @rameliaz\n @rameliaz\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.",
     "crumbs": [
@@ -2126,7 +2126,7 @@
   {
     "objectID": "slides/pertemuan10.html#rujukan",
     "href": "slides/pertemuan10.html#rujukan",
-    "title": "Workshop Penulisan Item: Kisi-kisi dan Pemilihan Format Respons",
+    "title": "Workshop Penulisan Item",
     "section": "Rujukan",
     "text": "Rujukan\nBikos, L. H. ReCentering psych stats: Psychometrics. https://lhbikos.github.io/ReC_Psychometrics/\nChyung, S. Y., Barkin, J. R., & Shamsy, J. A. (2018). Evidence-based survey design: The use of negatively worded items in surveys. Performance Improvement, 57(3), 16–25.\nChyung, S. Y., Kennedy, M., & Campbell, I. (2018). Evidence-based survey design: The use of ascending or descending order of Likert-type response options. Performance Improvement, 57(9), 9–16.\nChyung, S. Y., Roberts, K., Swanson, I., & Hankinson, A. (2017). Evidence-based survey design: The use of a midpoint on the Likert scale. Performance Improvement, 56(10), 15–23.\nDeVellis, R. F., & Thorpe, C. T. (2022). Scale development: Theory and applications (5th ed.). SAGE.\nKrosnick, J. A., & Presser, S. (2010). Question and questionnaire design. In P. V. Marsden & J. D. Wright (Eds.), Handbook of survey research (2nd ed., pp. 263–313). Emerald.\nLikert, R. (1932). A technique for the measurement of attitudes. Archives of Psychology, 22(140), 1–55.\nPershing, J. A., & Pershing, J. L. (2001). Ineffective reaction evaluation. Performance Improvement Quarterly, 14(1), 73–90.\nWeijters, B., Baumgartner, H., & Schillewaert, N. (2013). Reversed item bias: An integrative model. Psychological Methods, 18(3), 320–334.",
     "crumbs": [
@@ -7757,7 +7757,7 @@
   {
     "objectID": "slides/pertemuan10-en.html#agenda",
     "href": "slides/pertemuan10-en.html#agenda",
-    "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
+    "title": "Item-Writing Workshop",
     "section": "Agenda",
     "text": "Agenda\n\nBuilding a blueprint: how many items per facet, and why that many\nItem-writing principles, with faulty examples and their repairs\nReverse-worded items: what the evidence says, and when to use them\nSettling the response format for the whole scale\nAssembling the questionnaire: introduction, instructions, layout\nWorkshop and peer review between groups",
     "crumbs": [
@@ -7769,7 +7769,7 @@
   {
     "objectID": "slides/pertemuan10-en.html#what-you-bring-today",
     "href": "slides/pertemuan10-en.html#what-you-bring-today",
-    "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
+    "title": "Item-Writing Workshop",
     "section": "What you bring today",
     "text": "What you bring today\n\nThe construct specification from Session 9: definition, boundary, estimand, dimensions, facets, and indicators.\nToday those indicators become items, and the items become a questionnaire.\n\n\n\n\n\n\n\n\nNote\n\n\nIf your group does not yet have a construct specification, do that first today. Writing items without a construct definition only produces work that has to be redone.",
     "crumbs": [
@@ -7781,7 +7781,7 @@
   {
     "objectID": "slides/pertemuan10-en.html#what-a-blueprint-does",
     "href": "slides/pertemuan10-en.html#what-a-blueprint-does",
-    "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
+    "title": "Item-Writing Workshop",
     "section": "What a blueprint does",
     "text": "What a blueprint does\n\nIt links facets of the construct to the number of items representing each one.\nIts job is to keep content coverage aligned with your definition, rather than with whichever facet is easiest to write items for.\n\n\n\n\n\n\n\n\nWithout a blueprint, the same thing happens almost every time: the facet that is easiest to picture gets ten items, while the difficult one gets two.",
     "crumbs": [
@@ -7793,7 +7793,7 @@
   {
     "objectID": "slides/pertemuan10-en.html#an-example-blueprint",
     "href": "slides/pertemuan10-en.html#an-example-blueprint",
-    "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
+    "title": "Item-Writing Workshop",
     "section": "An example blueprint",
     "text": "An example blueprint\nConstruct: social anxiety in undergraduates.\n\n\n\nFacet\nWeight\nIndicators\nItems written\nFinal target\n\n\n\n\nFear of negative evaluation\n40%\n3\n12\n6\n\n\nAvoidance of social situations\n35%\n3\n10\n5\n\n\nPhysiological symptoms\n25%\n2\n8\n4\n\n\nTotal\n100%\n8\n30\n15\n\n\n\n\n\nWeights come from your construct definition, not from preference.\nNote the last two columns: you write considerably more than you will use.",
     "crumbs": [
@@ -7805,7 +7805,7 @@
   {
     "objectID": "slides/pertemuan10-en.html#why-write-a-surplus",
     "href": "slides/pertemuan10-en.html#why-write-a-surplus",
-    "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
+    "title": "Item-Writing Workshop",
     "section": "Why write a surplus",
     "text": "Why write a surplus\n\nSome items will be dropped at expert review (Session 11), others at item analysis (Session 13).\nIf you write exactly 15 items for a 15-item target, you have no room to discard anything.\nA common rule of thumb: write two to three times your target number.\n\n\n\n\n\n\n\n\nRecall from Session 6: reliability is driven by the number of items and the mean inter-item correlation. For a scale with moderate inter-item correlations, 10–20 items is usually enough.\nAdding items past that point makes the scale perform worse, not just improve more slowly, and it increases participant burden.",
     "crumbs": [
@@ -7817,7 +7817,7 @@
   {
     "objectID": "slides/pertemuan10-en.html#spread-the-items-out",
     "href": "slides/pertemuan10-en.html#spread-the-items-out",
-    "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
+    "title": "Item-Writing Workshop",
     "section": "Spread the items out",
     "text": "Spread the items out\n\nRecall the discussion of item difficulty in Session 3: items should be spread across the range of the construct.\nFor each facet, write some items that are easy to endorse (indicating a low level) and some that are hard to endorse (indicating a high level).\nIf every item describes a severe level, participants at moderate levels will not be distinguished from one another.\n\n\n\n\n\n\n\n\nTip\n\n\nThis is also what prevents the ceiling and floor effects that will show up immediately in the score distribution in Session 13.",
     "crumbs": [
@@ -7829,7 +7829,7 @@
   {
     "objectID": "slides/pertemuan10-en.html#one-item-one-idea",
     "href": "slides/pertemuan10-en.html#one-item-one-idea",
-    "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
+    "title": "Item-Writing Workshop",
     "section": "One item, one idea",
     "text": "One item, one idea\n\nA double-barrelled item contains two ideas at once, so a participant who agrees with only one half has no correct answer available.\nThe words “and”, “because”, and “if” are frequent signs of a double-barrelled item.\n\n\n\n\n\n\n\n\n\nProblematic\nRepair\n\n\n\n\n“I feel nervous and sweaty when presenting.”\nSplit into two items.\n\n\n“I avoid campus events because I fear being judged.”\n“I avoid campus events.” + a separate item about the reason.",
     "crumbs": [
@@ -7841,7 +7841,7 @@
   {
     "objectID": "slides/pertemuan10-en.html#short-and-plain",
     "href": "slides/pertemuan10-en.html#short-and-plain",
-    "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
+    "title": "Item-Writing Workshop",
     "section": "Short and plain",
     "text": "Short and plain\n\nA long item forces the participant to hold the start of the sentence in mind while reading the end.\nAvoid double negatives. “I do not mind not being invited to discussions” is hard for anyone to process.\nAvoid ambiguous pronoun references and misplaced modifiers.\n\n\n\n\n\n\n\n\nNote\n\n\nDeVellis suggests a reading level around grades 5–7 for instruments used with the general population. With undergraduate participants you have a little more room, but short sentences are still better.",
     "crumbs": [
@@ -7853,7 +7853,7 @@
   {
     "objectID": "slides/pertemuan10-en.html#concrete-behaviour-not-its-causes",
     "href": "slides/pertemuan10-en.html#concrete-behaviour-not-its-causes",
-    "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
+    "title": "Item-Writing Workshop",
     "section": "Concrete behaviour, not its causes",
     "text": "Concrete behaviour, not its causes\n\nRecall Session 2: Nisbett & Wilson showed that people often have no access to the real reasons behind their behaviour.\nItems asking what happens are generally more dependable than items asking why.\n\n\n\n\n\n\n\n\n\nProblematic\nRepair\n\n\n\n\n“I feel anxious because I fear others’ judgement.”\n“I worry that others judge me negatively.”\n\n\n“I am introverted, so I avoid crowds.”\n“I avoid crowded events.”",
     "crumbs": [
@@ -7865,7 +7865,7 @@
   {
     "objectID": "slides/pertemuan10-en.html#the-time-frame-comes-from-the-estimand",
     "href": "slides/pertemuan10-en.html#the-time-frame-comes-from-the-estimand",
-    "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
+    "title": "Item-Writing Workshop",
     "section": "The time frame comes from the estimand",
     "text": "The time frame comes from the estimand\n\nYour estimand sentence from Session 9 already names a time frame. That time frame has to appear in the items.\n“In the past month, I have …” measures something different from “I usually …”.\nMake sure the time frame is the same across all items in a scale.\n\n\n\n\n\n\n\n\nImportant\n\n\nMixing time frames within one scale adds a source of variation you did not intend, and it usually appears as an extra factor in the analysis in Session 13.",
     "crumbs": [
@@ -7877,7 +7877,7 @@
   {
     "objectID": "slides/pertemuan10-en.html#how-strongly-to-word-the-stem",
     "href": "slides/pertemuan10-en.html#how-strongly-to-word-the-stem",
-    "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
+    "title": "Item-Writing Workshop",
     "section": "How strongly to word the stem",
     "text": "How strongly to word the stem\n\nFrom Session 4: for a Likert format, statements should be fairly strong but not extreme, because degree is already carried by the response options.\nA statement that is too mild will be endorsed by nearly everyone, and stops distinguishing anyone.\nA statement that is too extreme will be rejected by nearly everyone, with the same result.",
     "crumbs": [
@@ -7889,7 +7889,7 @@
   {
     "objectID": "slides/pertemuan10-en.html#avoid-loaded-words",
     "href": "slides/pertemuan10-en.html#avoid-loaded-words",
-    "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
+    "title": "Item-Writing Workshop",
     "section": "Avoid loaded words",
     "text": "Avoid loaded words\n\nWords such as “reasonable”, “should”, “excessive”, or “fail” steer the answer.\nItems should also avoid making participants feel judged, particularly for constructs vulnerable to social desirability (Session 2).\n\n\n\n\n\n\n\n\n\nProblematic\nRepair\n\n\n\n\n“I worry excessively about others’ opinions.”\n“I often think about what others think of me.”\n\n\n“I fail to control my anxiety.”\n“I find it hard to calm myself when anxious.”",
     "crumbs": [
@@ -7901,7 +7901,7 @@
   {
     "objectID": "slides/pertemuan10-en.html#why-they-were-introduced",
     "href": "slides/pertemuan10-en.html#why-they-were-introduced",
-    "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
+    "title": "Item-Writing Workshop",
     "section": "Why they were introduced",
     "text": "Why they were introduced\n\nThe idea comes from Likert (1932) himself: to reduce the tendency to agree with anything, half the items were worded in one direction and half in the other.\nIf a participant is simply agreeing, the pattern becomes visible: they endorse both the forward and the reversed items.\n\n\n\n\n\n\n\n\nNote\n\n\nSo far the idea is sound. The difficulty is in the execution.",
     "crumbs": [
@@ -7913,7 +7913,7 @@
   {
     "objectID": "slides/pertemuan10-en.html#what-the-evidence-shows",
     "href": "slides/pertemuan10-en.html#what-the-evidence-shows",
-    "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
+    "title": "Item-Writing Workshop",
     "section": "What the evidence shows",
     "text": "What the evidence shows\n\nScales with all items worded in one direction produce more accurate responses than mixed-worded scales.\nScores on forward and reversed items are not symmetric: strongly disagreeing with a positive statement is not the same as strongly agreeing with its negative counterpart.\nReversed items often form their own factor in factor analysis. What appears there is the wording.\n\n\n\nSummarised from Chyung, Barkin, & Shamsy (2018); see also Weijters, Baumgartner, & Schillewaert (2013).",
     "crumbs": [
@@ -7925,7 +7925,7 @@
   {
     "objectID": "slides/pertemuan10-en.html#and-participants-stop-noticing",
     "href": "slides/pertemuan10-en.html#and-participants-stop-noticing",
-    "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
+    "title": "Item-Writing Workshop",
     "section": "And participants stop noticing",
     "text": "And participants stop noticing\n\nParticipant performance declines roughly 12 minutes after starting a survey.\nAfter that, many stop registering the word “not” in an item, even when it is bolded, underlined, or capitalised.\n\n\n\n\n\n\n\n\nIf you use them anyway\n\n\n\nPlace reversed items early in the questionnaire.\nMake sure they are genuine polar opposites, not just a “not” added to the sentence.\nCheck their effect during analysis: see whether they cluster on their own.",
     "crumbs": [
@@ -7937,7 +7937,7 @@
   {
     "objectID": "slides/pertemuan10-en.html#the-not-trap",
     "href": "slides/pertemuan10-en.html#the-not-trap",
-    "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
+    "title": "Item-Writing Workshop",
     "section": "The “not” trap",
     "text": "The “not” trap\n\n“I feel anxious when presenting” and “I do not feel anxious when presenting” are not two ends of one continuum.\nNot feeling anxious is not the same as feeling calm. There is a great deal in between.\nIf you want a reversed item, reverse the content, not the grammar: “I feel calm when presenting.”\n\n\n\n\n\n\n\n\nFor some constructs, one-directional items are more appropriate\n\n\nFor constructs that are themselves negative — anxiety, depression — negatively worded statements are the natural form. Forcing reversals here only makes the sentences convoluted.",
     "crumbs": [
@@ -7949,7 +7949,7 @@
   {
     "objectID": "slides/pertemuan10-en.html#the-decisions-you-already-know",
     "href": "slides/pertemuan10-en.html#the-decisions-you-already-know",
-    "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
+    "title": "Item-Writing Workshop",
     "section": "The decisions you already know",
     "text": "The decisions you already know\nFrom Session 4, settle these now for the whole scale:\n\nHow many options. The 5–7 range is sensible for most purposes.\nMidpoint or not. Use one if a middle position is genuinely meaningful for your construct.\nLabels. Label every option, not only the endpoints.\nAnchors. Agreement, frequency, or item-specific anchors.\n\n\n\n\n\n\n\n\nOn the midpoint\n\n\nChyung et al. (2017) suggest reframing the question: not “should there be a midpoint” but “when is a midpoint appropriate”. A midpoint is appropriate when it is a genuine middle position, not somewhere to hedge.\nIf what you expect is genuine uncertainty, provide a separate “don’t know” option rather than folding it into the midpoint.",
     "crumbs": [
@@ -7961,7 +7961,7 @@
   {
     "objectID": "slides/pertemuan10-en.html#consistency-and-order",
     "href": "slides/pertemuan10-en.html#consistency-and-order",
-    "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
+    "title": "Item-Writing Workshop",
     "section": "Consistency and order",
     "text": "Consistency and order\n\nUse one response format across all items in a scale. Switching midway increases burden and complicates summing.\nPresent the response options in ascending order, from lowest to highest.\nKeep the direction consistent from beginning to end.\n\n\n\nChyung, Kennedy, & Campbell (2018).",
     "crumbs": [
@@ -7973,7 +7973,7 @@
   {
     "objectID": "slides/pertemuan10-en.html#its-parts",
     "href": "slides/pertemuan10-en.html#its-parts",
-    "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
+    "title": "Item-Writing Workshop",
     "section": "Its parts",
     "text": "Its parts\n\nTitle — reflects the content, concise, and not off-putting.\nIntroductory statement — brief purpose, confidentiality and consent, and the approximate time required.\nInstructions — complete, unambiguous, including how to submit responses.\nItems — grouped and numbered.\nClosing statement — thanks, and next steps if any.\n\n\n\nBikos, ReCentering Psych Stats: Psychometrics, Chapter 2.",
     "crumbs": [
@@ -7985,7 +7985,7 @@
   {
     "objectID": "slides/pertemuan10-en.html#this-is-not-a-formality",
     "href": "slides/pertemuan10-en.html#this-is-not-a-formality",
-    "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
+    "title": "Item-Writing Workshop",
     "section": "This is not a formality",
     "text": "This is not a formality\n\nPershing & Pershing (2001) examined 50 training-evaluation forms used at a well-regarded medical school.\n72% had no introductory statement at all. 78% had no closing statement. 30% had no instructions, and another 54% had minimal ones.\nOnly 8% were professional in appearance.\n\n\n\n\n\n\n\n\nA cluttered questionnaire reduces participant engagement, and that feeds directly into the reliability and validity of your scores.",
     "crumbs": [
@@ -7997,7 +7997,7 @@
   {
     "objectID": "slides/pertemuan10-en.html#layout",
     "href": "slides/pertemuan10-en.html#layout",
-    "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
+    "title": "Item-Writing Workshop",
     "section": "Layout",
     "text": "Layout\n\nLeave enough white space; do not crowd the page.\nNumber items and use section headings so participants can see their progress.\nInsert a break every 4–6 items, or shade alternate rows.\nFor online administration, check that it reads well on a phone screen.\n\n\n\n\n\n\n\n\nDemographic questions\n\n\nPut them at the end, unless they are needed to screen participants at the start. Demographic questions at the beginning make some participants feel identified before they know what the questionnaire is about.",
     "crumbs": [
@@ -8009,7 +8009,7 @@
   {
     "objectID": "slides/pertemuan10-en.html#part-1-writing-items",
     "href": "slides/pertemuan10-en.html#part-1-writing-items",
-    "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
+    "title": "Item-Writing Workshop",
     "section": "Part 1: writing items",
     "text": "Part 1: writing items\n\n15 minutes — Complete your group’s blueprint: facets, weights, indicators, and the number of items to write.\n40 minutes — Write the items.\n10 minutes — Settle the response format and draft the instructions.\n\n\nThe most common problem in this session: a group writes ten paraphrases of one indicator and thinks it is done. Remind them that near-identical items violate local independence from Session 2 and raise alpha without adding information. The second: every item describes a severe level. Ask them to picture a participant at a moderate level, then ask which item would distinguish that person.",
     "crumbs": [
@@ -8021,7 +8021,7 @@
   {
     "objectID": "slides/pertemuan10-en.html#part-2-peer-review",
     "href": "slides/pertemuan10-en.html#part-2-peer-review",
-    "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
+    "title": "Item-Writing Workshop",
     "section": "Part 2: peer review",
     "text": "Part 2: peer review\nSwap item lists with another group. 25 minutes.\nFor each item, check:\n\nDoes it contain more than one idea?\nAre there double negatives or unclear pronoun references?\nDoes it ask about behaviour or about reasons?\nIs the time frame the same as in the other items?\nAre there loaded words steering the answer?\nCould people at different levels of the construct answer this identically? If so, it distinguishes nothing.\n\n\n\n\n\n\n\n\nTip\n\n\nReturn the list with written notes, not a general verdict. “Item 7 is double-barrelled: nervous and sweaty” is far more useful than “the items are unclear”.",
     "crumbs": [
@@ -8033,7 +8033,7 @@
   {
     "objectID": "slides/pertemuan10-en.html#what-you-must-produce",
     "href": "slides/pertemuan10-en.html#what-you-must-produce",
-    "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
+    "title": "Item-Writing Workshop",
     "section": "What you must produce",
     "text": "What you must produce\n\nA blueprint table, with weights and item counts.\nAn item list revised after peer review, each item tagged with its facet.\nThe response format and its labels.\nA draft questionnaire with introduction and instructions.\n\n\n\n\n\n\n\n\nWarning\n\n\nBring all of it to Session 11. The expert panel cannot judge item relevance without reading your construct definition and blueprint.",
     "crumbs": [
@@ -8045,7 +8045,7 @@
   {
     "objectID": "slides/pertemuan10-en.html#thank-you",
     "href": "slides/pertemuan10-en.html#thank-you",
-    "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
+    "title": "Item-Writing Workshop",
     "section": "Thank you!😊",
     "text": "Thank you!😊\n\nQuestions?\n\n\n\n amelia.zein@psikologi.unair.ac.id\n https://rameliaz.github.io/\n @rameliaz\n @rameliaz\n @rameliaz\n\n\n\nThese slides were made using  and Quarto, with a template from UNAIR Theme.",
     "crumbs": [
@@ -8057,7 +8057,7 @@
   {
     "objectID": "slides/pertemuan10-en.html#references",
     "href": "slides/pertemuan10-en.html#references",
-    "title": "Item-Writing Workshop: Blueprint and Choosing a Response Format",
+    "title": "Item-Writing Workshop",
     "section": "References",
     "text": "References\nBikos, L. H. ReCentering psych stats: Psychometrics. https://lhbikos.github.io/ReC_Psychometrics/\nChyung, S. Y., Barkin, J. R., & Shamsy, J. A. (2018). Evidence-based survey design: The use of negatively worded items in surveys. Performance Improvement, 57(3), 16–25.\nChyung, S. Y., Kennedy, M., & Campbell, I. (2018). Evidence-based survey design: The use of ascending or descending order of Likert-type response options. Performance Improvement, 57(9), 9–16.\nChyung, S. Y., Roberts, K., Swanson, I., & Hankinson, A. (2017). Evidence-based survey design: The use of a midpoint on the Likert scale. Performance Improvement, 56(10), 15–23.\nDeVellis, R. F., & Thorpe, C. T. (2022). Scale development: Theory and applications (5th ed.). SAGE.\nKrosnick, J. A., & Presser, S. (2010). Question and questionnaire design. In P. V. Marsden & J. D. Wright (Eds.), Handbook of survey research (2nd ed., pp. 263–313). Emerald.\nLikert, R. (1932). A technique for the measurement of attitudes. Archives of Psychology, 22(140), 1–55.\nPershing, J. A., & Pershing, J. L. (2001). Ineffective reaction evaluation. Performance Improvement Quarterly, 14(1), 73–90.\nWeijters, B., Baumgartner, H., & Schillewaert, N. (2013). Reversed item bias: An integrative model. Psychological Methods, 18(3), 320–334.",
     "crumbs": [
