@@ -6,6 +6,7 @@ project:
     - slides/libs/
     - img/
     - _extensions/
+    - .nojekyll
   render:
     - index.qmd
     - slides/
