@@ -590,7 +590,7 @@ window.Quarto = {
 <section id="konteks" class="level2">
 <h2 class="anchored" data-anchor-id="konteks">Konteks</h2>
 <p><a href="../slides/pertemuan6.html"><em>Slide</em> Pertemuan 6</a> menunjukkan bahwa menggabungkan <strong>5 item Extraversion</strong> (E1, E2, E3, E5, E8) dengan <strong>5 item Neuroticism</strong> (N1, N2, N7, N8, N9) dari data IPIP <em>Big Five</em> (<code>data/data.csv</code>, <em>n</em> = 19.718) menghasilkan Cronbach’s <span class="math inline">\(\alpha = 0{.}616\)</span>. Koefisien ini terlihat tidak terlalu mengecewakan, padahal item-itemnya jelas mengukur dua konstruk yang berbeda.</p>
-<p>Laman ini menunjukkan perhitungannya secara langsung di <i class="fa-brands fa-r-project" aria-label="r-project"></i>, termasuk kenapa McDonald’s ω di <code>jamovi</code> <strong>tidak menangkap</strong> masalah ini, sementara <span class="math inline">\(\omega\)</span> <em>hierarchical</em> (dihitung lewat <a href="https://www.statpower.net/Content/319SEM/Lecture%20Notes/BiFactor.pdf">dekomposisi <em>bifactor</em> Schmid-Leiman</a> di <code>psych::omega()</code>) dapat menangkapnya dengan jelas.</p>
+<p>Laman ini menunjukkan perhitungannya secara langsung di <i class="fa-brands fa-r-project" aria-label="r-project"></i>, termasuk kenapa McDonald’s ω di <code>jamovi</code> <strong>tidak menangkap</strong> masalah ini, sementara <span class="math inline">\(\omega\)</span> <em>hierarchical</em> (dihitung lewat dekomposisi <a href="http://www.personalityresearch.org/intelligence/structure.html"><em>bifactor</em></a> <a href="https://www.statpower.net/Content/319SEM/Lecture%20Notes/BiFactor.pdf">Schmid-Leiman</a> di <code>psych::omega()</code>) dapat menangkapnya dengan jelas.</p>
 </section>
 <section id="setup" class="level2">
 <h2 class="anchored" data-anchor-id="setup">Setup</h2>
@@ -602,25 +602,27 @@ window.Quarto = {
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"../data/data.csv"</span>, <span class="at">sep =</span> <span class="st">"</span><span class="sc">\t</span><span class="st">"</span>) <span class="co"># import the dataset</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>data[data <span class="sc">==</span> <span class="dv">0</span>] <span class="ot">&lt;-</span> <span class="cn">NA</span>  <span class="co"># set 0 = missing </span></span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>rev_items <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"E2"</span>, <span class="st">"E4"</span>, <span class="st">"E6"</span>, <span class="st">"E8"</span>, <span class="st">"E10"</span>, <span class="st">"N2"</span>, <span class="st">"N4"</span>) <span class="co"># tell R which items should be reversed</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>items <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"E1"</span>, <span class="st">"E2"</span>, <span class="st">"E3"</span>, <span class="st">"E5"</span>, <span class="st">"E8"</span>, <span class="st">"N1"</span>, <span class="st">"N2"</span>, <span class="st">"N7"</span>, <span class="st">"N8"</span>, <span class="st">"N9"</span>) <span class="co"># these items should be fine</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>rev_items <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"E2"</span>, <span class="st">"E4"</span>, <span class="st">"E6"</span>, <span class="st">"E8"</span>, <span class="st">"E10"</span>, <span class="st">"N2"</span>, <span class="st">"N4"</span>) <span class="co"># tell R which items in Ext and Neu scale that are unfavorable</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>items <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"E1"</span>, <span class="st">"E2"</span>, <span class="st">"E3"</span>, <span class="st">"E5"</span>, <span class="st">"E8"</span>, <span class="st">"N1"</span>, <span class="st">"N2"</span>, <span class="st">"N7"</span>, <span class="st">"N8"</span>, <span class="st">"N9"</span>) <span class="co"># we are only interested in these items. We combine these 5 items Ext (E1, E2, E3, E5, E8) and 5 items Neu (N1, N2, N7, N8, N9) into one single scale.</span></span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>d <span class="ot">&lt;-</span> <span class="fu">reverse.code</span>(<span class="fu">ifelse</span>(items <span class="sc">%in%</span> rev_items, <span class="sc">-</span><span class="dv">1</span>, <span class="dv">1</span>), data[, items], <span class="at">mini =</span> <span class="dv">1</span>, <span class="at">maxi =</span> <span class="dv">5</span>) <span class="co"># reversing the score</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>d <span class="ot">&lt;-</span> <span class="fu">na.omit</span>(d) <span class="co"># get rid of participants with missing data, we're doing listwise deletion here</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu">nrow</span>(d)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>d <span class="ot">&lt;-</span> <span class="fu">reverse.code</span>(<span class="fu">ifelse</span>(items <span class="sc">%in%</span> rev_items, <span class="sc">-</span><span class="dv">1</span>, <span class="dv">1</span>), data[, items], <span class="at">mini =</span> <span class="dv">1</span>, <span class="at">maxi =</span> <span class="dv">5</span>) <span class="co"># make a new dataset that contains only in the `items` vector, then reversing the score of unfavorable items</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>d <span class="ot">&lt;-</span> <span class="fu">na.omit</span>(d) <span class="co"># get rid of participants with missing data for the sake of simplicity, we're essentially doing listwise deletion here</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="fu">nrow</span>(d) <span class="co"># how many participants do we have now after getting rid of those with missing data?</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 19718</code></pre>
 </div>
 </div>
-<p>Item direverse-score sesuai <a href="../data/codebook.txt"><code>codebook.txt</code></a>.</p>
+<p>Lihat mana item yang <em>favorable</em> dan <em>unfavorable</em> di kamus data: <a href="../data/codebook.txt"><code>codebook.txt</code></a>.</p>
 </section>
 <section id="cronbachs-alpha" class="level2">
 <h2 class="anchored" data-anchor-id="cronbachs-alpha">Cronbach’s alpha</h2>
 <div class="cell">
 <details open="" class="code-fold">
 <summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">alpha</span>(d, <span class="at">check.keys =</span> <span class="cn">FALSE</span>)<span class="sc">$</span>total<span class="sc">$</span>raw_alpha <span class="co"># calculate alpha</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">alpha</span>(d, <span class="at">check.keys =</span> <span class="cn">FALSE</span>)<span class="sc">$</span>total<span class="sc">$</span>raw_alpha <span class="co"># calculate alpha -- you will see the alpha coefficient in the end of this code</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-stderr">
 <pre><code>Warning in alpha(d, check.keys = FALSE): Some items were negatively correlated with the first principal component and probably 
@@ -643,7 +645,7 @@ To do this, run the function again with the 'check.keys=TRUE' option</code></pre
 <details open="" class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>om <span class="ot">&lt;-</span> <span class="fu">omega</span>(d, <span class="at">nfactors =</span> <span class="dv">2</span>, <span class="at">fm =</span> <span class="st">"minres"</span>, <span class="at">flip =</span> <span class="cn">FALSE</span>, <span class="at">plot =</span> <span class="cn">FALSE</span>,</span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>            <span class="at">title =</span> <span class="st">"E1,E2,E3,E5,E8 + N1,N2,N7,N8,N9"</span>) <span class="co"># now calculate omega</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>            <span class="at">title =</span> <span class="st">"E1,E2,E3,E5,E8 + N1,N2,N7,N8,N9"</span>) <span class="co"># now calculate omega -- here, you can see there than I specify `nfactors` = 2, because essentially we know that this scale consists of two latent constructs (Ext and Neu)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-stderr">
 <pre><code>Loading required namespace: GPArotation</code></pre>
@@ -724,11 +726,11 @@ Omega group for total scores and subscales    0.79 0.63 0.63</code></pre>
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Warning
+<span class="screen-reader-only">Warning</span>Lihat <em>error message</em> di <em>output</em>
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><code>psych</code> menampilkan peringatan <em>“Three factors are required for identification – general factor loadings set to be equal. Proceed with caution.”</em> Dekomposisi <em>bifactor</em> idealnya butuh <strong>≥3 faktor kelompok</strong> untuk identifikasi yang stabil; dengan hanya 2 (Extraversion dan Neuroticism), <span class="math inline">\(\omega_h\)</span> di atas adalah estimasi yang belum benar-benar stabil.</p>
+<p><code>psych</code> menampilkan peringatan <em>“Three factors are required for identification – general factor loadings set to be equal. Proceed with caution”</em> di bagian atas <em>output.</em> Dekomposisi <em>bifactor</em> idealnya butuh <strong>≥3 dimensi/faktor</strong> untuk identifikasi yang stabil; dengan hanya 2 (Extraversion dan Neuroticism), <span class="math inline">\(\omega_h\)</span> di atas adalah estimasi yang belum benar-benar stabil.</p>
 </div>
 </div>
 </section>
@@ -770,7 +772,7 @@ Warning
 </div>
 </div>
 <p><strong>Interpretasi:</strong> <span class="math inline">\(\alpha\)</span> dan G.6 tetap terlihat “cukup baik” karena keduanya hanya melihat <strong>rata-rata korelasi antar-item</strong> dan di dalam masing-masing subskala korelasinya memang tinggi.</p>
-<p>Sedangkan <span class="math inline">\(\omega_h\)</span> mendekati nol karena secara struktural <strong>tidak ada faktor umum tunggal</strong> yang mendasari kesepuluh item ini; yang ada adalah dua faktor kelompok (Extraversion, Neuroticism) yang berkorelasi negatif kecil satu sama lain.</p>
+<p>Sedangkan <span class="math inline">\(\omega_h\)</span> mendekati nol karena secara struktural <strong>tidak ada faktor umum tunggal</strong> yang mendasari kesepuluh item ini; yang ada adalah <strong>dua konstruk psikologis</strong> (Extraversion, Neuroticism) yang berkorelasi negatif kecil (tidak berhubungan) satu sama lain.</p>
 </section>
 <section id="kenapa-jamovi-tidak-menunjukkan-ini" class="level2">
 <h2 class="anchored" data-anchor-id="kenapa-jamovi-tidak-menunjukkan-ini">Kenapa <code>jamovi</code> tidak menunjukkan ini</h2>
@@ -1302,7 +1304,7 @@ loaded via a namespace (and not attached):
 <span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">*Slide* Pertemuan 6</span><span class="co">](/slides/pertemuan6.qmd)</span> menunjukkan bahwa menggabungkan **5 item Extraversion** (E1, E2, E3, E5, E8) dengan **5 item Neuroticism** (N1, N2, N7, N8, N9) dari data IPIP *Big Five* (`data/data.csv`, *n* = 19.718) menghasilkan Cronbach's $\alpha = 0{.}616$. Koefisien ini terlihat tidak terlalu mengecewakan, padahal item-itemnya jelas mengukur dua konstruk yang berbeda.</span>
 <span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a>Laman ini menunjukkan perhitungannya secara langsung di {{&lt; fa brands r-project &gt;}}, termasuk kenapa McDonald's ω di <span class="in">`jamovi`</span> **tidak menangkap** masalah ini, sementara $\omega$ *hierarchical* (dihitung lewat [dekomposisi *bifactor* Schmid-Leiman](https://www.statpower.net/Content/319SEM/Lecture%20Notes/BiFactor.pdf) di <span class="in">`psych::omega()`</span>) dapat menangkapnya dengan jelas.</span>
+<span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a>Laman ini menunjukkan perhitungannya secara langsung di {{&lt; fa brands r-project &gt;}}, termasuk kenapa McDonald's ω di <span class="in">`jamovi`</span> **tidak menangkap** masalah ini, sementara $\omega$ *hierarchical* (dihitung lewat dekomposisi [*bifactor*](http://www.personalityresearch.org/intelligence/structure.html) <span class="co">[</span><span class="ot">Schmid-Leiman</span><span class="co">](https://www.statpower.net/Content/319SEM/Lecture%20Notes/BiFactor.pdf)</span> di <span class="in">`psych::omega()`</span>) dapat menangkapnya dengan jelas.</span>
 <span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a><span class="fu">## Setup</span></span>
 <span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a></span>
@@ -1312,56 +1314,56 @@ loaded via a namespace (and not attached):
 <span id="cb14-25"><a href="#cb14-25" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"../data/data.csv"</span>, <span class="at">sep =</span> <span class="st">"</span><span class="sc">\t</span><span class="st">"</span>) <span class="co"># import the dataset</span></span>
 <span id="cb14-26"><a href="#cb14-26" aria-hidden="true" tabindex="-1"></a>data[data <span class="sc">==</span> <span class="dv">0</span>] <span class="ot">&lt;-</span> <span class="cn">NA</span>  <span class="co"># set 0 = missing </span></span>
 <span id="cb14-27"><a href="#cb14-27" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-28"><a href="#cb14-28" aria-hidden="true" tabindex="-1"></a>rev_items <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"E2"</span>, <span class="st">"E4"</span>, <span class="st">"E6"</span>, <span class="st">"E8"</span>, <span class="st">"E10"</span>, <span class="st">"N2"</span>, <span class="st">"N4"</span>) <span class="co"># tell R which items should be reversed</span></span>
-<span id="cb14-29"><a href="#cb14-29" aria-hidden="true" tabindex="-1"></a>items <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"E1"</span>, <span class="st">"E2"</span>, <span class="st">"E3"</span>, <span class="st">"E5"</span>, <span class="st">"E8"</span>, <span class="st">"N1"</span>, <span class="st">"N2"</span>, <span class="st">"N7"</span>, <span class="st">"N8"</span>, <span class="st">"N9"</span>) <span class="co"># these items should be fine</span></span>
+<span id="cb14-28"><a href="#cb14-28" aria-hidden="true" tabindex="-1"></a>rev_items <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"E2"</span>, <span class="st">"E4"</span>, <span class="st">"E6"</span>, <span class="st">"E8"</span>, <span class="st">"E10"</span>, <span class="st">"N2"</span>, <span class="st">"N4"</span>) <span class="co"># tell R which items in Ext and Neu scale that are unfavorable</span></span>
+<span id="cb14-29"><a href="#cb14-29" aria-hidden="true" tabindex="-1"></a>items <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"E1"</span>, <span class="st">"E2"</span>, <span class="st">"E3"</span>, <span class="st">"E5"</span>, <span class="st">"E8"</span>, <span class="st">"N1"</span>, <span class="st">"N2"</span>, <span class="st">"N7"</span>, <span class="st">"N8"</span>, <span class="st">"N9"</span>) <span class="co"># we are only interested in these items. We combine these 5 items Ext (E1, E2, E3, E5, E8) and 5 items Neu (N1, N2, N7, N8, N9) into one single scale.</span></span>
 <span id="cb14-30"><a href="#cb14-30" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-31"><a href="#cb14-31" aria-hidden="true" tabindex="-1"></a>d <span class="ot">&lt;-</span> <span class="fu">reverse.code</span>(<span class="fu">ifelse</span>(items <span class="sc">%in%</span> rev_items, <span class="sc">-</span><span class="dv">1</span>, <span class="dv">1</span>), data[, items], <span class="at">mini =</span> <span class="dv">1</span>, <span class="at">maxi =</span> <span class="dv">5</span>) <span class="co"># reversing the score</span></span>
-<span id="cb14-32"><a href="#cb14-32" aria-hidden="true" tabindex="-1"></a>d <span class="ot">&lt;-</span> <span class="fu">na.omit</span>(d) <span class="co"># get rid of participants with missing data, we're doing listwise deletion here</span></span>
-<span id="cb14-33"><a href="#cb14-33" aria-hidden="true" tabindex="-1"></a><span class="fu">nrow</span>(d)</span>
-<span id="cb14-34"><a href="#cb14-34" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb14-35"><a href="#cb14-35" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-36"><a href="#cb14-36" aria-hidden="true" tabindex="-1"></a>Item direverse-score sesuai <span class="co">[</span><span class="ot">`codebook.txt`</span><span class="co">](/data/codebook.txt)</span>.</span>
+<span id="cb14-31"><a href="#cb14-31" aria-hidden="true" tabindex="-1"></a>d <span class="ot">&lt;-</span> <span class="fu">reverse.code</span>(<span class="fu">ifelse</span>(items <span class="sc">%in%</span> rev_items, <span class="sc">-</span><span class="dv">1</span>, <span class="dv">1</span>), data[, items], <span class="at">mini =</span> <span class="dv">1</span>, <span class="at">maxi =</span> <span class="dv">5</span>) <span class="co"># make a new dataset that contains only in the `items` vector, then reversing the score of unfavorable items</span></span>
+<span id="cb14-32"><a href="#cb14-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-33"><a href="#cb14-33" aria-hidden="true" tabindex="-1"></a>d <span class="ot">&lt;-</span> <span class="fu">na.omit</span>(d) <span class="co"># get rid of participants with missing data for the sake of simplicity, we're essentially doing listwise deletion here</span></span>
+<span id="cb14-34"><a href="#cb14-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-35"><a href="#cb14-35" aria-hidden="true" tabindex="-1"></a><span class="fu">nrow</span>(d) <span class="co"># how many participants do we have now after getting rid of those with missing data?</span></span>
+<span id="cb14-36"><a href="#cb14-36" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb14-37"><a href="#cb14-37" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-38"><a href="#cb14-38" aria-hidden="true" tabindex="-1"></a><span class="fu">## Cronbach's alpha</span></span>
+<span id="cb14-38"><a href="#cb14-38" aria-hidden="true" tabindex="-1"></a>Lihat mana item yang *favorable* dan *unfavorable* di kamus data: <span class="co">[</span><span class="ot">`codebook.txt`</span><span class="co">](/data/codebook.txt)</span>.</span>
 <span id="cb14-39"><a href="#cb14-39" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-42"><a href="#cb14-42" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb14-43"><a href="#cb14-43" aria-hidden="true" tabindex="-1"></a><span class="fu">alpha</span>(d, <span class="at">check.keys =</span> <span class="cn">FALSE</span>)<span class="sc">$</span>total<span class="sc">$</span>raw_alpha <span class="co"># calculate alpha</span></span>
-<span id="cb14-44"><a href="#cb14-44" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb14-45"><a href="#cb14-45" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-46"><a href="#cb14-46" aria-hidden="true" tabindex="-1"></a><span class="fu">## Omega (hierarchical dan total)</span></span>
+<span id="cb14-40"><a href="#cb14-40" aria-hidden="true" tabindex="-1"></a><span class="fu">## Cronbach's alpha</span></span>
+<span id="cb14-41"><a href="#cb14-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-44"><a href="#cb14-44" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb14-45"><a href="#cb14-45" aria-hidden="true" tabindex="-1"></a><span class="fu">alpha</span>(d, <span class="at">check.keys =</span> <span class="cn">FALSE</span>)<span class="sc">$</span>total<span class="sc">$</span>raw_alpha <span class="co"># calculate alpha -- you will see the alpha coefficient in the end of this code</span></span>
+<span id="cb14-46"><a href="#cb14-46" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb14-47"><a href="#cb14-47" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-50"><a href="#cb14-50" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb14-51"><a href="#cb14-51" aria-hidden="true" tabindex="-1"></a>om <span class="ot">&lt;-</span> <span class="fu">omega</span>(d, <span class="at">nfactors =</span> <span class="dv">2</span>, <span class="at">fm =</span> <span class="st">"minres"</span>, <span class="at">flip =</span> <span class="cn">FALSE</span>, <span class="at">plot =</span> <span class="cn">FALSE</span>,</span>
-<span id="cb14-52"><a href="#cb14-52" aria-hidden="true" tabindex="-1"></a>            <span class="at">title =</span> <span class="st">"E1,E2,E3,E5,E8 + N1,N2,N7,N8,N9"</span>) <span class="co"># now calculate omega</span></span>
-<span id="cb14-53"><a href="#cb14-53" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb14-54"><a href="#cb14-54" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-57"><a href="#cb14-57" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb14-58"><a href="#cb14-58" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: false</span></span>
-<span id="cb14-59"><a href="#cb14-59" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="fu">capture.output</span>(<span class="fu">print</span>(om)), <span class="at">sep =</span> <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>) <span class="co"># printing out the results</span></span>
-<span id="cb14-60"><a href="#cb14-60" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb14-61"><a href="#cb14-61" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-62"><a href="#cb14-62" aria-hidden="true" tabindex="-1"></a>::: {.callout-warning}</span>
-<span id="cb14-63"><a href="#cb14-63" aria-hidden="true" tabindex="-1"></a><span class="in">`psych`</span> menampilkan peringatan *"Three factors are required for identification -- general factor</span>
-<span id="cb14-64"><a href="#cb14-64" aria-hidden="true" tabindex="-1"></a>loadings set to be equal. Proceed with caution."* Dekomposisi *bifactor* idealnya butuh **≥3</span>
-<span id="cb14-65"><a href="#cb14-65" aria-hidden="true" tabindex="-1"></a>faktor kelompok** untuk identifikasi yang stabil; dengan hanya 2 (Extraversion dan Neuroticism),</span>
-<span id="cb14-66"><a href="#cb14-66" aria-hidden="true" tabindex="-1"></a>$\omega_h$ di atas adalah estimasi yang belum benar-benar stabil.</span>
-<span id="cb14-67"><a href="#cb14-67" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb14-68"><a href="#cb14-68" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-69"><a href="#cb14-69" aria-hidden="true" tabindex="-1"></a><span class="fu">## Ringkasan</span></span>
-<span id="cb14-70"><a href="#cb14-70" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-73"><a href="#cb14-73" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb14-74"><a href="#cb14-74" aria-hidden="true" tabindex="-1"></a><span class="fu">data.frame</span>(</span>
-<span id="cb14-75"><a href="#cb14-75" aria-hidden="true" tabindex="-1"></a>  <span class="at">Koefisien =</span> <span class="fu">c</span>(<span class="st">"Cronbach's alpha"</span>, <span class="st">"Omega hierarchical"</span>, <span class="st">"Omega total"</span>),</span>
-<span id="cb14-76"><a href="#cb14-76" aria-hidden="true" tabindex="-1"></a>  <span class="at">Nilai =</span> <span class="fu">round</span>(<span class="fu">c</span>(om<span class="sc">$</span>alpha, om<span class="sc">$</span>omega_h, om<span class="sc">$</span>omega.tot), <span class="dv">3</span>)</span>
-<span id="cb14-77"><a href="#cb14-77" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb14-78"><a href="#cb14-78" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb14-79"><a href="#cb14-79" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-80"><a href="#cb14-80" aria-hidden="true" tabindex="-1"></a>**Interpretasi:** $\alpha$ dan G.6 tetap terlihat "cukup baik" karena keduanya hanya melihat</span>
-<span id="cb14-81"><a href="#cb14-81" aria-hidden="true" tabindex="-1"></a>**rata-rata korelasi antar-item** dan di dalam masing-masing subskala korelasinya memang tinggi.</span>
-<span id="cb14-82"><a href="#cb14-82" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-83"><a href="#cb14-83" aria-hidden="true" tabindex="-1"></a>Sedangkan $\omega_h$ mendekati nol karena secara struktural **tidak ada faktor umum tunggal** yang</span>
-<span id="cb14-84"><a href="#cb14-84" aria-hidden="true" tabindex="-1"></a>mendasari kesepuluh item ini; yang ada adalah dua faktor kelompok (Extraversion, Neuroticism)</span>
-<span id="cb14-85"><a href="#cb14-85" aria-hidden="true" tabindex="-1"></a>yang berkorelasi negatif kecil satu sama lain.</span>
+<span id="cb14-48"><a href="#cb14-48" aria-hidden="true" tabindex="-1"></a><span class="fu">## Omega (hierarchical dan total)</span></span>
+<span id="cb14-49"><a href="#cb14-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-52"><a href="#cb14-52" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb14-53"><a href="#cb14-53" aria-hidden="true" tabindex="-1"></a>om <span class="ot">&lt;-</span> <span class="fu">omega</span>(d, <span class="at">nfactors =</span> <span class="dv">2</span>, <span class="at">fm =</span> <span class="st">"minres"</span>, <span class="at">flip =</span> <span class="cn">FALSE</span>, <span class="at">plot =</span> <span class="cn">FALSE</span>,</span>
+<span id="cb14-54"><a href="#cb14-54" aria-hidden="true" tabindex="-1"></a>            <span class="at">title =</span> <span class="st">"E1,E2,E3,E5,E8 + N1,N2,N7,N8,N9"</span>) <span class="co"># now calculate omega -- here, you can see there than I specify `nfactors` = 2, because essentially we know that this scale consists of two latent constructs (Ext and Neu)</span></span>
+<span id="cb14-55"><a href="#cb14-55" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb14-56"><a href="#cb14-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-59"><a href="#cb14-59" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb14-60"><a href="#cb14-60" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: false</span></span>
+<span id="cb14-61"><a href="#cb14-61" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="fu">capture.output</span>(<span class="fu">print</span>(om)), <span class="at">sep =</span> <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>) <span class="co"># printing out the results</span></span>
+<span id="cb14-62"><a href="#cb14-62" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb14-63"><a href="#cb14-63" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-64"><a href="#cb14-64" aria-hidden="true" tabindex="-1"></a>::: {.callout-warning}</span>
+<span id="cb14-65"><a href="#cb14-65" aria-hidden="true" tabindex="-1"></a><span class="fu">### Lihat *error message* di *output*</span></span>
+<span id="cb14-66"><a href="#cb14-66" aria-hidden="true" tabindex="-1"></a><span class="in">`psych`</span> menampilkan peringatan *"Three factors are required for identification -- general factor</span>
+<span id="cb14-67"><a href="#cb14-67" aria-hidden="true" tabindex="-1"></a>loadings set to be equal. Proceed with caution"* di bagian atas *output.* Dekomposisi *bifactor* idealnya butuh **≥3 dimensi/faktor** untuk identifikasi yang stabil; dengan hanya 2 (Extraversion dan Neuroticism), $\omega_h$ di atas adalah estimasi yang belum benar-benar stabil.</span>
+<span id="cb14-68"><a href="#cb14-68" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb14-69"><a href="#cb14-69" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-70"><a href="#cb14-70" aria-hidden="true" tabindex="-1"></a><span class="fu">## Ringkasan</span></span>
+<span id="cb14-71"><a href="#cb14-71" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-74"><a href="#cb14-74" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb14-75"><a href="#cb14-75" aria-hidden="true" tabindex="-1"></a><span class="fu">data.frame</span>(</span>
+<span id="cb14-76"><a href="#cb14-76" aria-hidden="true" tabindex="-1"></a>  <span class="at">Koefisien =</span> <span class="fu">c</span>(<span class="st">"Cronbach's alpha"</span>, <span class="st">"Omega hierarchical"</span>, <span class="st">"Omega total"</span>),</span>
+<span id="cb14-77"><a href="#cb14-77" aria-hidden="true" tabindex="-1"></a>  <span class="at">Nilai =</span> <span class="fu">round</span>(<span class="fu">c</span>(om<span class="sc">$</span>alpha, om<span class="sc">$</span>omega_h, om<span class="sc">$</span>omega.tot), <span class="dv">3</span>)</span>
+<span id="cb14-78"><a href="#cb14-78" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb14-79"><a href="#cb14-79" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb14-80"><a href="#cb14-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-81"><a href="#cb14-81" aria-hidden="true" tabindex="-1"></a>**Interpretasi:** $\alpha$ dan G.6 tetap terlihat "cukup baik" karena keduanya hanya melihat</span>
+<span id="cb14-82"><a href="#cb14-82" aria-hidden="true" tabindex="-1"></a>**rata-rata korelasi antar-item** dan di dalam masing-masing subskala korelasinya memang tinggi.</span>
+<span id="cb14-83"><a href="#cb14-83" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-84"><a href="#cb14-84" aria-hidden="true" tabindex="-1"></a>Sedangkan $\omega_h$ mendekati nol karena secara struktural **tidak ada faktor umum tunggal** yang</span>
+<span id="cb14-85"><a href="#cb14-85" aria-hidden="true" tabindex="-1"></a>mendasari kesepuluh item ini; yang ada adalah **dua konstruk psikologis** (Extraversion, Neuroticism) yang berkorelasi negatif kecil (tidak berhubungan) satu sama lain.</span>
 <span id="cb14-86"><a href="#cb14-86" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-87"><a href="#cb14-87" aria-hidden="true" tabindex="-1"></a><span class="fu">## Kenapa `jamovi` tidak menunjukkan ini</span></span>
 <span id="cb14-88"><a href="#cb14-88" aria-hidden="true" tabindex="-1"></a></span>

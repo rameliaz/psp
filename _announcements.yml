@@ -1,0 +1,19 @@
+# This file controls the optional site-wide announcement bar.
+# Quarto reads this file via metadata-files in _quarto.yml.
+#
+# Important: this file cannot be completely empty. Keep at least "{}" when no announcement is active.
+# Docs: https://quarto.org/docs/websites/website-tools.html#announcement-bar
+
+# Default state (no announcement):
+# {}
+
+# To enable an announcement, comment out the "{}" and add the following content, customizing as needed:
+website:
+  announcement:
+    icon: info-circle
+    dismissable: true
+    content: '**Saya menambahkan demonstrasi perhitungan reliabilitas pada konstruk multidimensional. [Cek di sini](https://rameliaz.github.io/psp/scripts/omega-demo.html)**'
+    type: primary
+    position: below-navbar
+
+
