@@ -337,9 +337,6 @@ $\alpha = 0{.}616$
 * Di dalam tiap subskala, korelasinya tinggi. Hal ini sudah cukup untuk mengangkat $\alpha$ ke 0.616.
 
 * Korelasi antar-subskala negatif dan kecil, yang merupakan tanda bahwa keduanya bukan satu konstruk yang sama.
-
-* *Eigenvalue* matriks korelasinya: **3.39 — 2.28 — 0.89**. Dua yang pertama sama-sama besar, artinya ada **dua** dimensi, bukan satu.
-
 :::
 
 ## Sekarang hitung $\omega_h$
@@ -435,10 +432,10 @@ Hitung **keduanya**. Kalau $\alpha$ dan $\omega$ berdekatan, Anda punya bukti ta
 
 ::: {.incremental}
 
-* **McDonald's $\omega$ (versi asli, 1999)** — dihitung dari **satu** faktor laten (model *congeneric*). Formula yang barusan kita pakai: $(\sum\lambda_i)^2/[(\sum\lambda_i)^2+\sum\psi_i]$. 
+* **McDonald's $\omega$ (versi asli, 1999)** — dihitung dari **satu** faktor laten (model *congeneric*).
   + Cocok digunakan kalau skala Anda memang unidimensional dan ini bisa dihitung dengan `jamovi`.
 
-* Ketika [**Zinbarg, Revelle, Yovel, & Li (2005)**](https://link.springer.com/article/10.1007/s11336-003-0974-7) memperluasnya untuk skala dengan **satu faktor umum + beberapa faktor kelompok** (model *bifactor*), muncul dua angka terpisah:
+* [**Zinbarg, Revelle, Yovel, & Li (2005)**](https://link.springer.com/article/10.1007/s11336-003-0974-7) memperluasnya untuk skala dengan **satu faktor umum + beberapa faktor kelompok** ([model *bifactor*](http://www.personalityresearch.org/intelligence/structure.html)):
   + **$\omega$ *hierarchical*** ($\omega_h$) — proporsi varians dari faktor umum **saja**.
   + **$\omega$ *total*** ($\omega_t$) — proporsi varians dari faktor umum **+ semua faktor kelompok**.
 
@@ -449,27 +446,19 @@ Hitung **keduanya**. Kalau $\alpha$ dan $\omega$ berdekatan, Anda punya bukti ta
 . . .
 
 ::: {.callout-warning appearance="simple"}
-`jamovi`'s "McDonald's ω" pada *Reliability Analysis* **bukan** $\omega_h$. Ia dihitung dari model satu-faktor saja, tanpa dekomposisi *bifactor* sehingga tidak bisa mendeteksi multidimensionalitas seperti yang barusan kita tunjukkan lewat `psych::omega()` di R.
+McDonald's ω di `jamovi` **bukan** $\omega_h$. Ia dihitung dari model satu-faktor saja, tanpa dekomposisi *bifactor* sehingga tidak bisa mendeteksi multidimensionalitas seperti yang barusan kita tunjukkan lewat `psych::omega()` di {{< fa brands r-project >}}.
 :::
 
-## Membandingkan koefisiennya
+## Membandingkan koefisiennya {.smaller}
 
 | Koefisien | Model yang diasumsikan | Mengukur apa | Bisa dihitung di |
 |---|---|---|---|
 | Cronbach's $\alpha$ | *tau-equivalent* (semua item sama kuat) | rata-rata konsistensi antar-item | `jamovi`, hampir semua software |
 | McDonald's $\omega$ | *congeneric*, satu faktor | varians dari satu faktor itu | `jamovi` ("McDonald's ω") |
-| $\omega$ *hierarchical* ($\omega_h$) | *bifactor*: 1 faktor umum + faktor kelompok | varians dari faktor **umum saja** | `psych::omega()` di R |
-| $\omega$ *total* ($\omega_t$) | *bifactor*: 1 faktor umum + faktor kelompok | varians dari faktor umum **+ kelompok** | `psych::omega()` di R |
+| $\omega$ *hierarchical* ($\omega_h$) | *bifactor*: 1 faktor umum + faktor kelompok | varians dari faktor **umum saja** | `psych::omega()` di {{< fa brands r-project >}} atau [*online calculator*](https://lensym.com/tools/mcdonalds-omega-calculator/) |
+| $\omega$ *total* ($\omega_t$) | *bifactor*: 1 faktor umum + faktor kelompok | varians dari faktor umum **+ kelompok** | `psych::omega()` di {{< fa brands r-project >}}  atau [*online calculator*](https://lensym.com/tools/mcdonalds-omega-calculator/) |
 
-: {tbl-colwidths="[15,30,30,25]"}
-
-. . .
-
-::: {.callout-tip appearance="simple"}
-Untuk demonstrasi tadi ($\alpha = 0{.}616$): $\omega$ versi `jamovi` akan tetap terlihat oke, tapi $\omega_h$ yang sesungguhnya **mendekati nol**. Kalau Anda mencurigai skala Anda multidimensional, jangan berhenti di angka yang ditampilkan `jamovi`, hitung $\omega_h$ lewat `psych::omega()` di R.
-
-*Catatan teknis:* dekomposisi *bifactor* idealnya butuh **≥3 faktor kelompok** untuk identifikasi yang stabil. Dengan hanya 2 subskala seperti contoh kita, `psych` akan memberi peringatan ("*proceed with caution*"). Angkanya tetap informatif, tapi interpretasikan sebagai indikasi, bukan estimasi yang akurat.
-:::
+: {tbl-colwidths="[18,27,27,28]"}
 
 ## Tetapi keduanya tidak menggantikan pemeriksaan struktur konstruk
 
@@ -479,7 +468,7 @@ Untuk demonstrasi tadi ($\alpha = 0{.}616$): $\omega$ versi `jamovi` akan tetap 
 
 * Satu angka tidak bisa memberi tahu Anda **ada berapa dimensi** di dalam item Anda.
 
-* Untuk itu Anda perlu melihat struktur korelasinya sendiri: *eigenvalue*, *scree plot*, dengan analisis faktor.
+* Untuk itu Anda perlu melihat struktur korelasinya sendiri: *eigenvalue*, *scree plot*, dengan [analisis faktor](https://rameliaz.github.io/statistik-lanjut/slides/bagian-7.html#/title-slide).
 
 :::
 

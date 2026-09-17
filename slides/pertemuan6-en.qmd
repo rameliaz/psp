@@ -338,8 +338,6 @@ $\alpha = 0.616$
 
 * The between-block correlation is small and negative — a sign that these are not one thing.
 
-* The eigenvalues of the correlation matrix: **3.39, 2.28, 0.89**. The first two are both large, meaning **two** dimensions, not one.
-
 :::
 
 ## Now compute $\omega_h$
@@ -435,10 +433,10 @@ Compute **both**. If $\alpha$ and $\omega$ are close, you have additional eviden
 
 ::: {.incremental}
 
-* **McDonald's $\omega$ (the original, 1999)** — computed from a **single** latent factor (a congeneric model). This is the formula we just used: $(\sum\lambda_i)^2/[(\sum\lambda_i)^2+\sum\psi_i]$.
+* **McDonald's $\omega$ (the original, 1999)** — computed from a **single** latent factor (a congeneric model).
   + Appropriate when your scale really is unidimensional, and this is what `jamovi` computes.
 
-* When [**Zinbarg, Revelle, Yovel, & Li (2005)**](https://link.springer.com/article/10.1007/s11336-003-0974-7) extended it to scales with **one general factor plus several group factors** (a bifactor model), two separate numbers emerged:
+* [**Zinbarg, Revelle, Yovel, & Li (2005)**](https://link.springer.com/article/10.1007/s11336-003-0974-7) extended it to scales with **one general factor plus several group factors** (a bifactor model):
   + **$\omega$ *hierarchical*** ($\omega_h$) — the proportion of variance from the general factor **alone**.
   + **$\omega$ *total*** ($\omega_t$) — the proportion of variance from the general factor **plus all the group factors**.
 
@@ -449,27 +447,19 @@ Compute **both**. If $\alpha$ and $\omega$ are close, you have additional eviden
 . . .
 
 ::: {.callout-warning appearance="simple"}
-`jamovi`'s "McDonald's ω" in Reliability Analysis is **not** $\omega_h$. It comes from a single-factor model with no bifactor decomposition, so it cannot detect multidimensionality the way we just demonstrated with `psych::omega()` in R.
+McDonald's ω in `jamovi` is **not** $\omega_h$. It comes from a single-factor model with no bifactor decomposition, so it cannot detect multidimensionality the way we just demonstrated with `psych::omega()` in {{< fa brands r-project >}}.
 :::
 
-## Comparing the coefficients
+## Comparing the coefficients {.smaller}
 
 | Coefficient | Model assumed | What it measures | Computable in |
 |---|---|---|---|
 | Cronbach's $\alpha$ | *tau-equivalent* (all items equally strong) | average inter-item consistency | `jamovi`, almost any software |
 | McDonald's $\omega$ | *congeneric*, one factor | variance from that one factor | `jamovi` ("McDonald's ω") |
-| $\omega$ *hierarchical* ($\omega_h$) | *bifactor*: 1 general factor + group factors | variance from the **general factor alone** | `psych::omega()` in R |
-| $\omega$ *total* ($\omega_t$) | *bifactor*: 1 general factor + group factors | variance from the general factor **plus group factors** | `psych::omega()` in R |
+| $\omega$ *hierarchical* ($\omega_h$) | *bifactor*: 1 general factor + group factors | variance from the **general factor alone** | `psych::omega()` in {{< fa brands r-project >}} or an [online calculator](https://lensym.com/tools/mcdonalds-omega-calculator/) |
+| $\omega$ *total* ($\omega_t$) | *bifactor*: 1 general factor + group factors | variance from the general factor **plus group factors** | `psych::omega()` in {{< fa brands r-project >}} or an [online calculator](https://lensym.com/tools/mcdonalds-omega-calculator/) |
 
-: {tbl-colwidths="[15,30,30,25]"}
-
-. . .
-
-::: {.callout-tip appearance="simple"}
-For our demonstration ($\alpha = 0.616$): `jamovi`'s version of $\omega$ would still look fine, but the true $\omega_h$ is **close to zero**. If you suspect your scale is multidimensional, do not stop at what `jamovi` displays — compute $\omega_h$ with `psych::omega()` in R.
-
-*Technical note:* a bifactor decomposition ideally needs **≥3 group factors** for stable identification. With only 2 subscales, as in our example, `psych` will issue a warning ("proceed with caution"). The number is still informative, but treat it as an indication rather than a precise estimate.
-:::
+: {tbl-colwidths="[18,27,27,28]"}
 
 ## But neither replaces checking dimensionality
 
@@ -479,7 +469,7 @@ For our demonstration ($\alpha = 0.616$): `jamovi`'s version of $\omega$ would s
 
 * A single number cannot tell you **how many dimensions** live in your items.
 
-* For that you have to look at the correlation structure itself: eigenvalues, a scree plot, or a factor analysis.
+* For that you have to look at the correlation structure itself: eigenvalues, a scree plot, or a [factor analysis](https://rameliaz.github.io/statistik-lanjut/slides/bagian-7.html#/title-slide).
 
 :::
 

@@ -569,7 +569,6 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <ul>
 <li class="fragment"><p>Within each block the correlations are high. That alone is enough to lift <span class="math inline">\(\alpha\)</span> to .616.</p></li>
 <li class="fragment"><p>The between-block correlation is small and negative — a sign that these are not one thing.</p></li>
-<li class="fragment"><p>The eigenvalues of the correlation matrix: <strong>3.39, 2.28, 0.89</strong>. The first two are both large, meaning <strong>two</strong> dimensions, not one.</p></li>
 </ul>
 </div>
 </section>
@@ -688,11 +687,11 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <section id="varieties-of-omega" class="slide level2">
 <h2>Varieties of <span class="math inline">\(\omega\)</span></h2>
 <ul>
-<li class="fragment"><strong>McDonald’s <span class="math inline">\(\omega\)</span> (the original, 1999)</strong> — computed from a <strong>single</strong> latent factor (a congeneric model). This is the formula we just used: <span class="math inline">\((\sum\lambda_i)^2/[(\sum\lambda_i)^2+\sum\psi_i]\)</span>.
+<li class="fragment"><strong>McDonald’s <span class="math inline">\(\omega\)</span> (the original, 1999)</strong> — computed from a <strong>single</strong> latent factor (a congeneric model).
 <ul>
 <li class="fragment">Appropriate when your scale really is unidimensional, and this is what <code>jamovi</code> computes.</li>
 </ul></li>
-<li class="fragment">When <a href="https://link.springer.com/article/10.1007/s11336-003-0974-7"><strong>Zinbarg, Revelle, Yovel, &amp; Li (2005)</strong></a> extended it to scales with <strong>one general factor plus several group factors</strong> (a bifactor model), two separate numbers emerged:
+<li class="fragment"><a href="https://link.springer.com/article/10.1007/s11336-003-0974-7"><strong>Zinbarg, Revelle, Yovel, &amp; Li (2005)</strong></a> extended it to scales with <strong>one general factor plus several group factors</strong> (a bifactor model):
 <ul>
 <li class="fragment"><strong><span class="math inline">\(\omega\)</span> <em>hierarchical</em></strong> (<span class="math inline">\(\omega_h\)</span>) — the proportion of variance from the general factor <strong>alone</strong>.</li>
 <li class="fragment"><strong><span class="math inline">\(\omega\)</span> <em>total</em></strong> (<span class="math inline">\(\omega_t\)</span>) — the proportion of variance from the general factor <strong>plus all the group factors</strong>.</li>
@@ -706,20 +705,20 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <i class="callout-icon"></i>
 </div>
 <div class="callout-content">
-<p><code>jamovi</code>’s “McDonald’s ω” in Reliability Analysis is <strong>not</strong> <span class="math inline">\(\omega_h\)</span>. It comes from a single-factor model with no bifactor decomposition, so it cannot detect multidimensionality the way we just demonstrated with <code>psych::omega()</code> in R.</p>
+<p>McDonald’s ω in <code>jamovi</code> is <strong>not</strong> <span class="math inline">\(\omega_h\)</span>. It comes from a single-factor model with no bifactor decomposition, so it cannot detect multidimensionality the way we just demonstrated with <code>psych::omega()</code> in <i class="fa-brands fa-r-project" aria-label="r-project"></i>.</p>
 </div>
 </div>
 </div>
 </div>
 </section>
-<section id="comparing-the-coefficients" class="slide level2">
+<section id="comparing-the-coefficients" class="slide level2 smaller">
 <h2>Comparing the coefficients</h2>
 <table class="caption-top">
 <colgroup>
-<col style="width: 15%">
-<col style="width: 30%">
-<col style="width: 30%">
-<col style="width: 25%">
+<col style="width: 18%">
+<col style="width: 27%">
+<col style="width: 27%">
+<col style="width: 28%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -746,36 +745,23 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <td><span class="math inline">\(\omega\)</span> <em>hierarchical</em> (<span class="math inline">\(\omega_h\)</span>)</td>
 <td><em>bifactor</em>: 1 general factor + group factors</td>
 <td>variance from the <strong>general factor alone</strong></td>
-<td><code>psych::omega()</code> in R</td>
+<td><code>psych::omega()</code> in <i class="fa-brands fa-r-project" aria-label="r-project"></i> or an <a href="https://lensym.com/tools/mcdonalds-omega-calculator/">online calculator</a></td>
 </tr>
 <tr class="even">
 <td><span class="math inline">\(\omega\)</span> <em>total</em> (<span class="math inline">\(\omega_t\)</span>)</td>
 <td><em>bifactor</em>: 1 general factor + group factors</td>
 <td>variance from the general factor <strong>plus group factors</strong></td>
-<td><code>psych::omega()</code> in R</td>
+<td><code>psych::omega()</code> in <i class="fa-brands fa-r-project" aria-label="r-project"></i> or an <a href="https://lensym.com/tools/mcdonalds-omega-calculator/">online calculator</a></td>
 </tr>
 </tbody>
 </table>
-<div class="fragment">
-<div class="callout callout-tip callout-style-simple">
-<div class="callout-body">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-content">
-<p>For our demonstration (<span class="math inline">\(\alpha = 0.616\)</span>): <code>jamovi</code>’s version of <span class="math inline">\(\omega\)</span> would still look fine, but the true <span class="math inline">\(\omega_h\)</span> is <strong>close to zero</strong>. If you suspect your scale is multidimensional, do not stop at what <code>jamovi</code> displays — compute <span class="math inline">\(\omega_h\)</span> with <code>psych::omega()</code> in R.</p>
-<p><em>Technical note:</em> a bifactor decomposition ideally needs <strong>≥3 group factors</strong> for stable identification. With only 2 subscales, as in our example, <code>psych</code> will issue a warning (“proceed with caution”). The number is still informative, but treat it as an indication rather than a precise estimate.</p>
-</div>
-</div>
-</div>
-</div>
 </section>
 <section id="but-neither-replaces-checking-dimensionality" class="slide level2">
 <h2>But neither replaces checking dimensionality</h2>
 <ul>
 <li class="fragment"><p>Both <span class="math inline">\(\alpha\)</span> and <span class="math inline">\(\omega\)</span> are <strong>single numbers</strong> summarising an entire scale.</p></li>
 <li class="fragment"><p>A single number cannot tell you <strong>how many dimensions</strong> live in your items.</p></li>
-<li class="fragment"><p>For that you have to look at the correlation structure itself: eigenvalues, a scree plot, or a factor analysis.</p></li>
+<li class="fragment"><p>For that you have to look at the correlation structure itself: eigenvalues, a scree plot, or a <a href="https://rameliaz.github.io/statistik-lanjut/slides/bagian-7.html#/title-slide">factor analysis</a>.</p></li>
 </ul>
 </section></section>
 <section>

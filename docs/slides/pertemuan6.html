@@ -569,7 +569,6 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <ul>
 <li class="fragment"><p>Di dalam tiap subskala, korelasinya tinggi. Hal ini sudah cukup untuk mengangkat <span class="math inline">\(\alpha\)</span> ke 0.616.</p></li>
 <li class="fragment"><p>Korelasi antar-subskala negatif dan kecil, yang merupakan tanda bahwa keduanya bukan satu konstruk yang sama.</p></li>
-<li class="fragment"><p><em>Eigenvalue</em> matriks korelasinya: <strong>3.39 — 2.28 — 0.89</strong>. Dua yang pertama sama-sama besar, artinya ada <strong>dua</strong> dimensi, bukan satu.</p></li>
 </ul>
 </div>
 </section>
@@ -688,11 +687,11 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <section id="ragam-definisi-omega" class="slide level2">
 <h2>Ragam definisi <span class="math inline">\(\omega\)</span></h2>
 <ul>
-<li class="fragment"><strong>McDonald’s <span class="math inline">\(\omega\)</span> (versi asli, 1999)</strong> — dihitung dari <strong>satu</strong> faktor laten (model <em>congeneric</em>). Formula yang barusan kita pakai: <span class="math inline">\((\sum\lambda_i)^2/[(\sum\lambda_i)^2+\sum\psi_i]\)</span>.
+<li class="fragment"><strong>McDonald’s <span class="math inline">\(\omega\)</span> (versi asli, 1999)</strong> — dihitung dari <strong>satu</strong> faktor laten (model <em>congeneric</em>).
 <ul>
 <li class="fragment">Cocok digunakan kalau skala Anda memang unidimensional dan ini bisa dihitung dengan <code>jamovi</code>.</li>
 </ul></li>
-<li class="fragment">Ketika <a href="https://link.springer.com/article/10.1007/s11336-003-0974-7"><strong>Zinbarg, Revelle, Yovel, &amp; Li (2005)</strong></a> memperluasnya untuk skala dengan <strong>satu faktor umum + beberapa faktor kelompok</strong> (model <em>bifactor</em>), muncul dua angka terpisah:
+<li class="fragment"><a href="https://link.springer.com/article/10.1007/s11336-003-0974-7"><strong>Zinbarg, Revelle, Yovel, &amp; Li (2005)</strong></a> memperluasnya untuk skala dengan <strong>satu faktor umum + beberapa faktor kelompok</strong> (<a href="http://www.personalityresearch.org/intelligence/structure.html">model <em>bifactor</em></a>):
 <ul>
 <li class="fragment"><strong><span class="math inline">\(\omega\)</span> <em>hierarchical</em></strong> (<span class="math inline">\(\omega_h\)</span>) — proporsi varians dari faktor umum <strong>saja</strong>.</li>
 <li class="fragment"><strong><span class="math inline">\(\omega\)</span> <em>total</em></strong> (<span class="math inline">\(\omega_t\)</span>) — proporsi varians dari faktor umum <strong>+ semua faktor kelompok</strong>.</li>
@@ -706,20 +705,20 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <i class="callout-icon"></i>
 </div>
 <div class="callout-content">
-<p><code>jamovi</code>’s “McDonald’s ω” pada <em>Reliability Analysis</em> <strong>bukan</strong> <span class="math inline">\(\omega_h\)</span>. Ia dihitung dari model satu-faktor saja, tanpa dekomposisi <em>bifactor</em> sehingga tidak bisa mendeteksi multidimensionalitas seperti yang barusan kita tunjukkan lewat <code>psych::omega()</code> di R.</p>
+<p>McDonald’s ω di <code>jamovi</code> <strong>bukan</strong> <span class="math inline">\(\omega_h\)</span>. Ia dihitung dari model satu-faktor saja, tanpa dekomposisi <em>bifactor</em> sehingga tidak bisa mendeteksi multidimensionalitas seperti yang barusan kita tunjukkan lewat <code>psych::omega()</code> di <i class="fa-brands fa-r-project" aria-label="r-project"></i>.</p>
 </div>
 </div>
 </div>
 </div>
 </section>
-<section id="membandingkan-koefisiennya" class="slide level2">
+<section id="membandingkan-koefisiennya" class="slide level2 smaller">
 <h2>Membandingkan koefisiennya</h2>
 <table class="caption-top">
 <colgroup>
-<col style="width: 15%">
-<col style="width: 30%">
-<col style="width: 30%">
-<col style="width: 25%">
+<col style="width: 18%">
+<col style="width: 27%">
+<col style="width: 27%">
+<col style="width: 28%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -746,36 +745,23 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <td><span class="math inline">\(\omega\)</span> <em>hierarchical</em> (<span class="math inline">\(\omega_h\)</span>)</td>
 <td><em>bifactor</em>: 1 faktor umum + faktor kelompok</td>
 <td>varians dari faktor <strong>umum saja</strong></td>
-<td><code>psych::omega()</code> di R</td>
+<td><code>psych::omega()</code> di <i class="fa-brands fa-r-project" aria-label="r-project"></i> atau <a href="https://lensym.com/tools/mcdonalds-omega-calculator/"><em>online calculator</em></a></td>
 </tr>
 <tr class="even">
 <td><span class="math inline">\(\omega\)</span> <em>total</em> (<span class="math inline">\(\omega_t\)</span>)</td>
 <td><em>bifactor</em>: 1 faktor umum + faktor kelompok</td>
 <td>varians dari faktor umum <strong>+ kelompok</strong></td>
-<td><code>psych::omega()</code> di R</td>
+<td><code>psych::omega()</code> di <i class="fa-brands fa-r-project" aria-label="r-project"></i> atau <a href="https://lensym.com/tools/mcdonalds-omega-calculator/"><em>online calculator</em></a></td>
 </tr>
 </tbody>
 </table>
-<div class="fragment">
-<div class="callout callout-tip callout-style-simple">
-<div class="callout-body">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-content">
-<p>Untuk demonstrasi tadi (<span class="math inline">\(\alpha = 0{.}616\)</span>): <span class="math inline">\(\omega\)</span> versi <code>jamovi</code> akan tetap terlihat oke, tapi <span class="math inline">\(\omega_h\)</span> yang sesungguhnya <strong>mendekati nol</strong>. Kalau Anda mencurigai skala Anda multidimensional, jangan berhenti di angka yang ditampilkan <code>jamovi</code>, hitung <span class="math inline">\(\omega_h\)</span> lewat <code>psych::omega()</code> di R.</p>
-<p><em>Catatan teknis:</em> dekomposisi <em>bifactor</em> idealnya butuh <strong>≥3 faktor kelompok</strong> untuk identifikasi yang stabil. Dengan hanya 2 subskala seperti contoh kita, <code>psych</code> akan memberi peringatan (“<em>proceed with caution</em>”). Angkanya tetap informatif, tapi interpretasikan sebagai indikasi, bukan estimasi yang akurat.</p>
-</div>
-</div>
-</div>
-</div>
 </section>
 <section id="tetapi-keduanya-tidak-menggantikan-pemeriksaan-struktur-konstruk" class="slide level2">
 <h2>Tetapi keduanya tidak menggantikan pemeriksaan struktur konstruk</h2>
 <ul>
 <li class="fragment"><p>Baik <span class="math inline">\(\alpha\)</span> maupun <span class="math inline">\(\omega\)</span> adalah <strong>satu koefisien</strong> yang meringkas keseluruhan skala.</p></li>
 <li class="fragment"><p>Satu angka tidak bisa memberi tahu Anda <strong>ada berapa dimensi</strong> di dalam item Anda.</p></li>
-<li class="fragment"><p>Untuk itu Anda perlu melihat struktur korelasinya sendiri: <em>eigenvalue</em>, <em>scree plot</em>, dengan analisis faktor.</p></li>
+<li class="fragment"><p>Untuk itu Anda perlu melihat struktur korelasinya sendiri: <em>eigenvalue</em>, <em>scree plot</em>, dengan <a href="https://rameliaz.github.io/statistik-lanjut/slides/bagian-7.html#/title-slide">analisis faktor</a>.</p></li>
 </ul>
 </section></section>
 <section>
