@@ -3,13 +3,14 @@ project:
   output-dir: docs
   resources:
     - data/
-    - slides/libs/
-    - img/
+    - slides/libs/    
     - _extensions/
     - .nojekyll
+    - scripts/
   render:
     - index.qmd
     - slides/
+    - scripts/
 
 website:
   title: "Penyusunan Skala Psikologi"

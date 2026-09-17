@@ -287,11 +287,13 @@ Do not treat .70 as pass or fail. **Match it to what your scores are for**: for 
 
 ::: {.incremental}
 
-* We took **5 Extraversion items** and **5 Neuroticism items** from the same dataset.
+* We took **5 Extraversion items** (E1, E2, E3, E5, E8) and **5 Neuroticism items** (N1, N2, N7, N8, N9) from the same dataset.
 
-* They clearly measure **different** constructs. The combined scale makes no substantive sense.
+* They clearly measure **different** constructs, so the combined scale makes no substantive sense.
 
 * We then treated them as a single 10-item scale and computed $\alpha$.
+
+* [See the demonstration here.](/scripts/omega-demo.qmd)
 
 :::
 
@@ -324,9 +326,9 @@ $\alpha = 0.616$
 
 | | Mean correlation |
 |---|:--:|
-| Between items within the Extraversion block | .507 |
-| Between items within the Neuroticism block | .421 |
-| **Between blocks** | **−.125** |
+| Between items within the Extraversion block | .436 |
+| Between items within the Neuroticism block | .456 |
+| **Between blocks** | **−.111** |
 
 . . .
 
@@ -336,30 +338,35 @@ $\alpha = 0.616$
 
 * The between-block correlation is small and negative — a sign that these are not one thing.
 
-* The eigenvalues of the correlation matrix: **3.53, 2.23, 0.79**. The first two are both large, meaning **two** dimensions, not one.
+* The eigenvalues of the correlation matrix: **3.39, 2.28, 0.89**. The first two are both large, meaning **two** dimensions, not one.
 
 :::
 
-## Now compute $\omega$
+## Now compute $\omega_h$
 
 ::: {.r-fit-text}
-$\alpha = 0.616$ but $\omega = 0.151$
+$\alpha = 0.616$ but $\omega_h \approx 0.00$
 :::
-
-<br>
 
 . . .
 
 ::: {.incremental}
 
-* $\omega$ asks a different question: **what proportion of total score variance comes from one general factor?**
+* $\omega$ *hierarchical* asks a different question from $\alpha$: **what proportion of total score variance comes from one general latent factor?**
 
 * For this mixed set the answer is almost none — because there is no single general factor there.
 
 * In short
   + $\alpha$ = 0.616 means *"these items correlate with each other"*
-  + $\omega$ = 0.151 means *"these items do **not** measure the same construct"*
+  + $\omega_h \approx 0.00$ means *"these items do **not** measure the same construct"*
 
+:::
+
+. . .
+
+::: {.callout-note}
+### How this was computed
+Computed with `psych::omega()` in {{< fa brands r-project >}}. Alternatively, you can use the [Lensym online calculator](https://lensym.com/tools/mcdonalds-omega-calculator/).
 :::
 
 # Omega {background-color="#14497F" .center}
@@ -422,6 +429,46 @@ $\omega$ is **not** always larger or smaller than $\alpha$. When items are unifo
 
 ::: {.callout-tip appearance="simple"}
 Compute **both**. If $\alpha$ and $\omega$ are close, you have additional evidence that your scale's structure is unidimensional. If they are far apart, that is **a sign that something about the construct needs checking**.
+:::
+
+## Varieties of $\omega$
+
+::: {.incremental}
+
+* **McDonald's $\omega$ (the original, 1999)** — computed from a **single** latent factor (a congeneric model). This is the formula we just used: $(\sum\lambda_i)^2/[(\sum\lambda_i)^2+\sum\psi_i]$.
+  + Appropriate when your scale really is unidimensional, and this is what `jamovi` computes.
+
+* When [**Zinbarg, Revelle, Yovel, & Li (2005)**](https://link.springer.com/article/10.1007/s11336-003-0974-7) extended it to scales with **one general factor plus several group factors** (a bifactor model), two separate numbers emerged:
+  + **$\omega$ *hierarchical*** ($\omega_h$) — the proportion of variance from the general factor **alone**.
+  + **$\omega$ *total*** ($\omega_t$) — the proportion of variance from the general factor **plus all the group factors**.
+
+* If your scale is genuinely unidimensional, all three coincide **exactly** — there is no group-factor variance to separate out.
+
+:::
+
+. . .
+
+::: {.callout-warning appearance="simple"}
+`jamovi`'s "McDonald's ω" in Reliability Analysis is **not** $\omega_h$. It comes from a single-factor model with no bifactor decomposition, so it cannot detect multidimensionality the way we just demonstrated with `psych::omega()` in R.
+:::
+
+## Comparing the coefficients
+
+| Coefficient | Model assumed | What it measures | Computable in |
+|---|---|---|---|
+| Cronbach's $\alpha$ | *tau-equivalent* (all items equally strong) | average inter-item consistency | `jamovi`, almost any software |
+| McDonald's $\omega$ | *congeneric*, one factor | variance from that one factor | `jamovi` ("McDonald's ω") |
+| $\omega$ *hierarchical* ($\omega_h$) | *bifactor*: 1 general factor + group factors | variance from the **general factor alone** | `psych::omega()` in R |
+| $\omega$ *total* ($\omega_t$) | *bifactor*: 1 general factor + group factors | variance from the general factor **plus group factors** | `psych::omega()` in R |
+
+: {tbl-colwidths="[15,30,30,25]"}
+
+. . .
+
+::: {.callout-tip appearance="simple"}
+For our demonstration ($\alpha = 0.616$): `jamovi`'s version of $\omega$ would still look fine, but the true $\omega_h$ is **close to zero**. If you suspect your scale is multidimensional, do not stop at what `jamovi` displays — compute $\omega_h$ with `psych::omega()` in R.
+
+*Technical note:* a bifactor decomposition ideally needs **≥3 group factors** for stable identification. With only 2 subscales, as in our example, `psych` will issue a warning ("proceed with caution"). The number is still informative, but treat it as an indication rather than a precise estimate.
 :::
 
 ## But neither replaces checking dimensionality
@@ -550,7 +597,7 @@ Do not drop an item just because its item-rest correlation is low. If the item i
 . . .
 
 ::: {.callout-note}
-For the mixed set earlier, the eigenvalues were 3.53 and 2.23 — both large. That is precisely what $\alpha = .616$ could not reveal.
+For the mixed set earlier, the eigenvalues were 3.39 and 2.28 — both large. That is precisely what $\alpha = .616$ could not reveal.
 :::
 
 # What you should report {background-color="#14497F" .center}
@@ -629,7 +676,7 @@ reversed; check the scoring before concluding anything about the item.
 
 3. **$\alpha$ is the average of all possible split-halves**, and is determined only by $k$ and $\bar{r}$.
 
-4. **A high $\alpha$ can be bought by adding items**, and **$\alpha$ cannot detect multidimensionality** — $\alpha = .62$ with $\omega = .15$ is the proof.
+4. **A high $\alpha$ can be bought by adding items**, and **$\alpha$ cannot detect multidimensionality** — $\alpha = .62$ against $\omega_h \approx 0$ is the proof.
 
 5. **Compute $\alpha$ and $\omega$ together**, and check dimensionality separately.
 

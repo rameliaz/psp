@@ -106,7 +106,7 @@ $$r = 0{.}748$$
 
 ::: {.incremental}
 
-* Korelasi itu adalah reliabilitas **tes sepanjang 5 item**, bukan 10 item.
+* Korelasi dari teknik *split-half* ini adalah reliabilitas **tes sepanjang 5 item**, bukan 10 item.
 
 * Kita baru saja memotong skala kita menjadi separuhnya, lalu melaporkan reliabilitas versi separuh dari keseluruhan skala.
 
@@ -117,7 +117,7 @@ $$r = 0{.}748$$
 . . .
 
 ::: {.callout-tip appearance="simple"}
-Untuk menangani masalah ini, pembuat skala akan sangat terbantu kalau bisa menghitung berapa kira-kira reliabilitas suatu skala kalau jumlah itemnya dilipatgandakan dua kali. 
+Untuk menangani masalah ini, pembuat skala akan sangat terbantu kalau bisa menghitung berapa **kira-kira** reliabilitas suatu skala kalau jumlah itemnya dilipatgandakan dua kali. 
 :::
 
 ## Rumus Spearman-Brown
@@ -283,15 +283,17 @@ Jangan memperlakukan 0.70 sebagai *threshold*, tetapi **sesuaikan dengan tujuan 
 
 # Apa yang tidak diukur oleh $\alpha$ {background-color="#14497F" .center}
 
-## Sebuah percobaan
+## Coba eksperimen
 
 ::: {.incremental}
 
-* Saya mengambil **5 item Extraversion** dan **5 item Neuroticism** dari data yang sama.
+* Saya mengambil **5 item Extraversion** (E1, E2, E3, E5, E8) dan **5 item Neuroticism** (N1, N2, N7, N8, N9) dari data yang sama.
 
 * Keduanya jelas mengukur konstruk yang **berbeda**. Skala gabungan ini secara substantif tidak masuk akal.
 
-* Lalu saya memperlakukannya sebagai satu skala 10 item dan menghitung $\alpha$.
+* Lalu saya memperlakukannya sebagai satu skala dengan 10 item dan menghitung $\alpha$.
+
+* [Lihat demonstrasinya di sini.](/scripts/omega-demo.qmd)
 
 :::
 
@@ -305,11 +307,11 @@ $\alpha = 0{.}616$
 
 ::: {.incremental}
 
-* Angka 0.616 **tidak terlihat bermasalah**. Ia terlihat seperti skala yang sedang-sedang saja dan masih bisa diperbaiki.
+* Angka 0.616 **tidak terlihat bermasalah**. Ia terlihat seperti skala yang tidak terlalu problematik dan masih bisa diperbaiki.
 
-* Banyak laporan akan menuliskannya sebagai "cukup memadai" dan melanjutkan analisis.
+* Banyak laporan penelitian akan menuliskannya sebagai "cukup memadai" dan melanjutkan analisis.
 
-* Padahal skala itu **mencampur dua konstruk yang berbeda**.
+* Padahal skala ini jelas-jelas **mencampur dua konstruk yang berbeda**.
 
 :::
 
@@ -324,9 +326,9 @@ $\alpha = 0{.}616$
 
 | | Rata-rata korelasi |
 |---|:--:|
-| Antar-item di dalam subskala Extraversion | 0.507 |
-| Antar-item di dalam subskala Neuroticism | 0.421 |
-| **Antar-subskala** | **−0.125** |
+| Antar-item di dalam subskala Extraversion | 0.436 |
+| Antar-item di dalam subskala Neuroticism | 0.456 |
+| **Antar-subskala** | **−0.111** |
 
 . . .
 
@@ -336,30 +338,35 @@ $\alpha = 0{.}616$
 
 * Korelasi antar-subskala negatif dan kecil, yang merupakan tanda bahwa keduanya bukan satu konstruk yang sama.
 
-* *Eigenvalue* matriks korelasinya: **3.53 — 2.23 — 0.79**. Dua yang pertama sama-sama besar, artinya ada **dua** dimensi, bukan satu.
+* *Eigenvalue* matriks korelasinya: **3.39 — 2.28 — 0.89**. Dua yang pertama sama-sama besar, artinya ada **dua** dimensi, bukan satu.
 
 :::
 
-## Sekarang hitung $\omega$
+## Sekarang hitung $\omega_h$
 
 ::: {.r-fit-text}
-$\alpha = 0{.}616$ tetapi $\omega = 0{.}151$
+$\alpha = 0{.}616$ tetapi $\omega_h \approx 0{.}00$
 :::
-
-<br>
 
 . . .
 
 ::: {.incremental}
 
-* $\omega$ menanyakan hal yang berbeda dibandingkan $\alpha$: **berapa proporsi varians skor total yang berasal dari satu faktor laten yang general?**
+* $\omega$ *hierarchical* menanyakan hal yang berbeda dibandingkan $\alpha$: **berapa proporsi varians skor total yang berasal dari satu faktor laten yang general?**
 
 * Pada campuran dua subskala ini, jawabannya **nyaris tidak ada**, karena memang tidak ada satu faktor umum di sana.
 
 * Kesimpulannya
   + $\alpha$ = 0.616 artinya *"item-item ini saling berkorelasi"*
-  + $\omega$ = 0.151 artinya *"item-item ini **tidak** mengukur satu konstruk yang sama"*
- 
+  + $\omega_h \approx 0.00$ artinya *"item-item ini **tidak** mengukur satu konstruk yang sama"*
+
+:::
+
+. . .
+
+::: {.callout-note}
+### Bagaimana cara menghitungnya
+Dihitung dengan `psych::omega()` di {{< fa brands r-project >}}. Alternatifnya, Anda bisa menggunakan [*online calculator* dari Lensym](https://lensym.com/tools/mcdonalds-omega-calculator/).
 :::
 
 # $\omega$  {background-color="#14497F" .center}
@@ -422,6 +429,46 @@ $\omega$ **bukan** selalu lebih besar atau lebih kecil dari $\alpha$. Ketika ite
 
 ::: {.callout-tip appearance="simple"}
 Hitung **keduanya**. Kalau $\alpha$ dan $\omega$ berdekatan, Anda punya bukti tambahan bahwa struktur skala Anda unidimensional. Kalau jaraknya jauh, itu **tanda bahwa ada asumsi tentang konstruk yang harus diperiksa**.
+:::
+
+## Ragam definisi $\omega$
+
+::: {.incremental}
+
+* **McDonald's $\omega$ (versi asli, 1999)** — dihitung dari **satu** faktor laten (model *congeneric*). Formula yang barusan kita pakai: $(\sum\lambda_i)^2/[(\sum\lambda_i)^2+\sum\psi_i]$. 
+  + Cocok digunakan kalau skala Anda memang unidimensional dan ini bisa dihitung dengan `jamovi`.
+
+* Ketika [**Zinbarg, Revelle, Yovel, & Li (2005)**](https://link.springer.com/article/10.1007/s11336-003-0974-7) memperluasnya untuk skala dengan **satu faktor umum + beberapa faktor kelompok** (model *bifactor*), muncul dua angka terpisah:
+  + **$\omega$ *hierarchical*** ($\omega_h$) — proporsi varians dari faktor umum **saja**.
+  + **$\omega$ *total*** ($\omega_t$) — proporsi varians dari faktor umum **+ semua faktor kelompok**.
+
+* Kalau skala Anda benar-benar unidimensional, ketiganya akan **sama persis**, tidak ada faktor perbedaan jumlah dimensi.
+
+:::
+
+. . .
+
+::: {.callout-warning appearance="simple"}
+`jamovi`'s "McDonald's ω" pada *Reliability Analysis* **bukan** $\omega_h$. Ia dihitung dari model satu-faktor saja, tanpa dekomposisi *bifactor* sehingga tidak bisa mendeteksi multidimensionalitas seperti yang barusan kita tunjukkan lewat `psych::omega()` di R.
+:::
+
+## Membandingkan koefisiennya
+
+| Koefisien | Model yang diasumsikan | Mengukur apa | Bisa dihitung di |
+|---|---|---|---|
+| Cronbach's $\alpha$ | *tau-equivalent* (semua item sama kuat) | rata-rata konsistensi antar-item | `jamovi`, hampir semua software |
+| McDonald's $\omega$ | *congeneric*, satu faktor | varians dari satu faktor itu | `jamovi` ("McDonald's ω") |
+| $\omega$ *hierarchical* ($\omega_h$) | *bifactor*: 1 faktor umum + faktor kelompok | varians dari faktor **umum saja** | `psych::omega()` di R |
+| $\omega$ *total* ($\omega_t$) | *bifactor*: 1 faktor umum + faktor kelompok | varians dari faktor umum **+ kelompok** | `psych::omega()` di R |
+
+: {tbl-colwidths="[15,30,30,25]"}
+
+. . .
+
+::: {.callout-tip appearance="simple"}
+Untuk demonstrasi tadi ($\alpha = 0{.}616$): $\omega$ versi `jamovi` akan tetap terlihat oke, tapi $\omega_h$ yang sesungguhnya **mendekati nol**. Kalau Anda mencurigai skala Anda multidimensional, jangan berhenti di angka yang ditampilkan `jamovi`, hitung $\omega_h$ lewat `psych::omega()` di R.
+
+*Catatan teknis:* dekomposisi *bifactor* idealnya butuh **≥3 faktor kelompok** untuk identifikasi yang stabil. Dengan hanya 2 subskala seperti contoh kita, `psych` akan memberi peringatan ("*proceed with caution*"). Angkanya tetap informatif, tapi interpretasikan sebagai indikasi, bukan estimasi yang akurat.
 :::
 
 ## Tetapi keduanya tidak menggantikan pemeriksaan struktur konstruk
@@ -550,7 +597,7 @@ Jangan membuang item hanya karena korelasi *item-rest*nya rendah. Kalau sebuah i
 . . .
 
 ::: {.callout-note}
-Pada set campuran tadi, *eigenvalue*-nya 3.53 dan 2.23, artinya keduanya besar. Inilah yang tidak bisa dilihat dari $\alpha = 0{.}616$.
+Pada set campuran tadi, *eigenvalue*-nya 3.39 dan 2.28, artinya keduanya besar. Inilah yang tidak bisa dilihat dari $\alpha = 0{.}616$.
 :::
 
 # Apa yang sebaiknya Anda laporkan {background-color="#14497F" .center}
@@ -629,7 +676,7 @@ penskorannya sebelum menyimpulkan apa pun tentang itemnya.
 
 3. **$\alpha$ adalah rata-rata dari seluruh kemungkinan *split-half***, dan hanya ditentukan oleh $k$ dan $\bar{r}$.
 
-4. **$\alpha$ yang tinggi bisa diusahakan dengan menambah item**, dan **$\alpha$ tidak bisa mendeteksi multidimensionalitas** — $\alpha = 0{.}62$ vs. $\omega = 0{.}15$ adalah buktinya.
+4. **$\alpha$ yang tinggi bisa diusahakan dengan menambah item**, dan **$\alpha$ tidak bisa mendeteksi multidimensionalitas** — $\alpha = 0{.}62$ vs. $\omega_h \approx 0$ adalah buktinya.
 
 5. **Hitung $\alpha$ dan $\omega$ bersama-sama**, dan periksa dimensinya secara terpisah.
 
@@ -697,6 +744,8 @@ Revelle, W., & Zinbarg, R. E. (2009). Coefficients alpha, beta, omega, and the g
 Schmitt, N. (1996). Uses and abuses of coefficient alpha. *Psychological Assessment, 8*(4), 350–353.
 
 Sijtsma, K. (2009). On the use, the misuse, and the very limited usefulness of Cronbach's alpha. *Psychometrika, 74*(1), 107–120.
+
+Zinbarg, R. E., Revelle, W., Yovel, I., & Li, W. (2005). Cronbach's $\alpha$, Revelle's $\beta$, and McDonald's $\omega_H$: Their relations with each other and two alternative conceptualizations of reliability. *Psychometrika, 70*(1), 123–133.
 
 Spearman, C. (1910). Correlation calculated from faulty data. *British Journal of Psychology, 3*(3), 271–295.
 
