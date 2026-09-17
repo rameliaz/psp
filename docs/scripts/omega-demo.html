@@ -625,7 +625,7 @@ window.Quarto = {
 <div class="cell">
 <details open="" class="code-fold">
 <summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">alpha</span>(d, <span class="at">check.keys =</span> <span class="cn">FALSE</span>)<span class="sc">$</span>total<span class="sc">$</span>raw_alpha <span class="co"># calculate alpha -- you will see the alpha coefficient in the end of this code</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>al <span class="ot">&lt;-</span> <span class="fu">alpha</span>(d, <span class="at">check.keys =</span> <span class="cn">FALSE</span>)<span class="sc">$</span>total<span class="sc">$</span>raw_alpha <span class="co"># calculate alpha -- you will see the alpha coefficient in the end of this code</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-stderr">
 <pre><code>Warning in alpha(d, check.keys = FALSE): Some items were negatively correlated with the first principal component and probably 
@@ -637,9 +637,6 @@ To do this, run the function again with the 'check.keys=TRUE' option</code></pre
 probably should be reversed.  
 To do this, run the function again with the 'check.keys=TRUE' option</code></pre>
 </div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 0.6159963</code></pre>
-</div>
 </div>
 </section>
 <section id="omega-hierarchical-dan-total" class="level2">
@@ -647,11 +644,11 @@ To do this, run the function again with the 'check.keys=TRUE' option</code></pre
 <div class="cell">
 <details open="" class="code-fold">
 <summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>om <span class="ot">&lt;-</span> <span class="fu">omega</span>(d, <span class="at">nfactors =</span> <span class="dv">2</span>, <span class="at">fm =</span> <span class="st">"minres"</span>, <span class="at">flip =</span> <span class="cn">FALSE</span>, <span class="at">plot =</span> <span class="cn">FALSE</span>,</span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>            <span class="at">title =</span> <span class="st">"E1,E2,E3,E5,E8 + N1,N2,N7,N8,N9"</span>) <span class="co"># now calculate omega -- here, you can see there than I specify `nfactors` = 2, because essentially we know that this scale consists of two latent constructs (Ext and Neu)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>om <span class="ot">&lt;-</span> <span class="fu">omega</span>(d, <span class="at">nfactors =</span> <span class="dv">2</span>, <span class="at">fm =</span> <span class="st">"minres"</span>, <span class="at">flip =</span> <span class="cn">FALSE</span>, <span class="at">plot =</span> <span class="cn">FALSE</span>,</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>            <span class="at">title =</span> <span class="st">"E1,E2,E3,E5,E8 + N1,N2,N7,N8,N9"</span>) <span class="co"># now calculate omega -- here, you can see there than I specify `nfactors` = 2, because essentially we know that this scale consists of two latent constructs (Ext and Neu)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-stderr">
-<pre><code>Lade nötigen Namensraum: GPArotation</code></pre>
+<pre><code>Loading required namespace: GPArotation</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
 <pre><code>
@@ -742,10 +739,10 @@ Omega group for total scores and subscales    0.79 0.63 0.63</code></pre>
 <div class="cell">
 <details open="" class="code-fold">
 <summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">data.frame</span>(</span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">Koefisien =</span> <span class="fu">c</span>(<span class="st">"Cronbach's alpha"</span>, <span class="st">"Omega hierarchical"</span>, <span class="st">"Omega total"</span>),</span>
-<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">Nilai =</span> <span class="fu">round</span>(<span class="fu">c</span>(om<span class="sc">$</span>alpha, om<span class="sc">$</span>omega_h, om<span class="sc">$</span>omega.tot), <span class="dv">3</span>)</span>
-<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">data.frame</span>(</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">Koefisien =</span> <span class="fu">c</span>(<span class="st">"Cronbach's alpha"</span>, <span class="st">"Omega hierarchical"</span>, <span class="st">"Omega total"</span>),</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">Nilai =</span> <span class="fu">round</span>(<span class="fu">c</span>(al, om<span class="sc">$</span>omega_h, om<span class="sc">$</span>omega.tot), <span class="dv">3</span>)</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>) <span class="co"># lets create a simple table consisting of alpha, omega hierarchical and omega total</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output-display">
 <div class="kable-table">
@@ -759,7 +756,7 @@ Omega group for total scores and subscales    0.79 0.63 0.63</code></pre>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">Cronbach’s alpha</td>
-<td style="text-align: right;">0.613</td>
+<td style="text-align: right;">0.616</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Omega hierarchical</td>
@@ -779,15 +776,16 @@ Omega group for total scores and subscales    0.79 0.63 0.63</code></pre>
 </section>
 <section id="kenapa-jamovi-tidak-menunjukkan-ini" class="level2">
 <h2 class="anchored" data-anchor-id="kenapa-jamovi-tidak-menunjukkan-ini">Kenapa <code>jamovi</code> tidak menunjukkan ini</h2>
-<p><code>jamovi</code> menghitung McDonald’s <span class="math inline">\(\omega\)</span> dari <strong>satu</strong> model faktor <em>congeneric</em> (bukan dekomposisi <em>bifactor</em>), dan menormalisasinya dengan varians total yang <strong>diobservasi</strong>, bukan varians yang diimplikasikan model.</p>
-<p>Itulah kenapa koefisiennya tetap tinggi meski struktur datanya jelas dua dimensi. McDonald’s <span class="math inline">\(\omega\)</span> tidak pernah “melihat” faktor kedua itu sama sekali. Untuk mendeteksi multidimensionalitas lewat omega, dekomposisi <em>bifactor</em> (<code>psych::omega()</code> di <i class="fa-brands fa-r-project" aria-label="r-project"></i>) adalah cara yang tepat. Alternatifnya, Anda bisa menggunakan <a href="https://lensym.com/tools/mcdonalds-omega-calculator/"><em>online calculator</em> dari Lensym</a>.</p>
+<p><code>jamovi</code> menghitung McDonald’s <span class="math inline">\(\omega\)</span> dari <strong>satu</strong> model faktor <em>congeneric</em> (bukan dekomposisi <em>bifactor</em>), dan menormalisasinya dengan <strong>varians total yang diobservasi</strong>, bukan varians yang diimplikasikan model.</p>
+<p>Itulah kenapa koefisiennya tetap tinggi meski struktur datanya jelas dua dimensi. McDonald’s <span class="math inline">\(\omega\)</span> tidak mampu “melihat” bahwa data Anda punya struktur multidimensional dengan dua dimensi ynang berbeda.</p>
+<p>Untuk mendeteksi multidimensionalitas lewat <span class="math inline">\(\omega\)</span>, dekomposisi <em>bifactor</em> (<code>psych::omega()</code> di <i class="fa-brands fa-r-project" aria-label="r-project"></i>) adalah cara yang tepat. Alternatifnya, Anda bisa menggunakan <a href="https://lensym.com/tools/mcdonalds-omega-calculator/"><em>online calculator</em> dari Lensym</a>.</p>
 </section>
 <section id="reka-ulang-analisis-ini" class="level2">
 <h2 class="anchored" data-anchor-id="reka-ulang-analisis-ini">Reka-ulang analisis ini</h2>
 <div class="cell">
 <details open="" class="code-fold">
 <summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sessionInfo</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sessionInfo</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>R version 4.6.1 (2026-06-24 ucrt)
@@ -814,11 +812,11 @@ other attached packages:
 loaded via a namespace (and not attached):
  [1] digest_0.6.39        fastmap_1.2.0        xfun_0.60           
  [4] lattice_0.22-9       GPArotation_2026.8-2 knitr_1.51          
- [7] parallel_4.6.1       htmltools_0.5.9      rmarkdown_2.32      
+ [7] parallel_4.6.1       htmltools_0.5.9      rmarkdown_2.31      
 [10] cli_3.6.6            grid_4.6.1           mnormt_2.1.2        
 [13] compiler_4.6.1       tools_4.6.1          nlme_3.1-170        
 [16] evaluate_1.0.5       yaml_2.3.12          otel_0.2.0          
-[19] rlang_1.3.0          jsonlite_2.0.0      </code></pre>
+[19] rlang_1.3.0          jsonlite_2.0.0       htmlwidgets_1.6.4   </code></pre>
 </div>
 </div>
 
@@ -1292,93 +1290,95 @@ loaded via a namespace (and not attached):
     }
   });
   </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb14" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Omega Hierarchical vs. Omega Total"</span></span>
-<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="an">subtitle:</span><span class="co"> "Demonstrasi reliabilitas di konstruk multidimensional"</span></span>
-<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span></span>
-<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a><span class="co">  html:</span></span>
-<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a><span class="co">    toc: true</span></span>
-<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a><span class="co">    code-fold: show</span></span>
-<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a><span class="co">    code-tools: true</span></span>
-<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a><span class="co">    df-print: kable</span></span>
-<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a><span class="fu">## Konteks</span></span>
-<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">*Slide* Pertemuan 6</span><span class="co">](/slides/pertemuan6.qmd)</span> menunjukkan bahwa menggabungkan **5 item Extraversion** (E1, E2, E3, E5, E8) dengan **5 item Neuroticism** (N1, N2, N7, N8, N9) dari data IPIP *Big Five* (`data/data.csv`, *n* = 19.718) menghasilkan Cronbach's $\alpha = 0{.}616$. Koefisien ini terlihat tidak terlalu mengecewakan, padahal item-itemnya jelas mengukur dua konstruk yang berbeda.</span>
-<span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a>Laman ini menunjukkan perhitungannya secara langsung di {{&lt; fa brands r-project &gt;}}, termasuk kenapa McDonald's ω di <span class="in">`jamovi`</span> **tidak menangkap** masalah ini, sementara $\omega$ *hierarchical* (dihitung lewat dekomposisi [*bifactor*](http://www.personalityresearch.org/intelligence/structure.html) <span class="co">[</span><span class="ot">Schmid-Leiman</span><span class="co">](https://www.statpower.net/Content/319SEM/Lecture%20Notes/BiFactor.pdf)</span> di <span class="in">`psych::omega()`</span>) dapat menangkapnya dengan jelas.</span>
-<span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a><span class="fu">## Setup</span></span>
-<span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-22"><a href="#cb14-22" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb14-23"><a href="#cb14-23" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(psych) <span class="co"># install the package</span></span>
-<span id="cb14-24"><a href="#cb14-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-25"><a href="#cb14-25" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"../data/data.csv"</span>, <span class="at">sep =</span> <span class="st">"</span><span class="sc">\t</span><span class="st">"</span>) <span class="co"># import the dataset</span></span>
-<span id="cb14-26"><a href="#cb14-26" aria-hidden="true" tabindex="-1"></a>data[data <span class="sc">==</span> <span class="dv">0</span>] <span class="ot">&lt;-</span> <span class="cn">NA</span>  <span class="co"># set 0 = missing </span></span>
-<span id="cb14-27"><a href="#cb14-27" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-28"><a href="#cb14-28" aria-hidden="true" tabindex="-1"></a>rev_items <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"E2"</span>, <span class="st">"E4"</span>, <span class="st">"E6"</span>, <span class="st">"E8"</span>, <span class="st">"E10"</span>, <span class="st">"N2"</span>, <span class="st">"N4"</span>) <span class="co"># tell R which items in Ext and Neu scale that are unfavorable</span></span>
-<span id="cb14-29"><a href="#cb14-29" aria-hidden="true" tabindex="-1"></a>items <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"E1"</span>, <span class="st">"E2"</span>, <span class="st">"E3"</span>, <span class="st">"E5"</span>, <span class="st">"E8"</span>, <span class="st">"N1"</span>, <span class="st">"N2"</span>, <span class="st">"N7"</span>, <span class="st">"N8"</span>, <span class="st">"N9"</span>) <span class="co"># we are only interested in these items. We combine these 5 items Ext (E1, E2, E3, E5, E8) and 5 items Neu (N1, N2, N7, N8, N9) into one single scale.</span></span>
-<span id="cb14-30"><a href="#cb14-30" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-31"><a href="#cb14-31" aria-hidden="true" tabindex="-1"></a>d <span class="ot">&lt;-</span> <span class="fu">reverse.code</span>(<span class="fu">ifelse</span>(items <span class="sc">%in%</span> rev_items, <span class="sc">-</span><span class="dv">1</span>, <span class="dv">1</span>), data[, items], <span class="at">mini =</span> <span class="dv">1</span>, <span class="at">maxi =</span> <span class="dv">5</span>) <span class="co"># make a new dataset that contains only in the `items` vector, then reversing the score of unfavorable items</span></span>
-<span id="cb14-32"><a href="#cb14-32" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-33"><a href="#cb14-33" aria-hidden="true" tabindex="-1"></a>d <span class="ot">&lt;-</span> <span class="fu">na.omit</span>(d) <span class="co"># get rid of participants with missing data for the sake of simplicity, we're essentially doing listwise deletion here</span></span>
-<span id="cb14-34"><a href="#cb14-34" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-35"><a href="#cb14-35" aria-hidden="true" tabindex="-1"></a><span class="fu">nrow</span>(d) <span class="co"># how many participants do we have now after getting rid of those with missing data?</span></span>
-<span id="cb14-36"><a href="#cb14-36" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb14-37"><a href="#cb14-37" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-38"><a href="#cb14-38" aria-hidden="true" tabindex="-1"></a>Lihat mana item yang *favorable* dan *unfavorable* di kamus data: <span class="co">[</span><span class="ot">`codebook.txt`</span><span class="co">](/data/codebook.txt)</span>.</span>
-<span id="cb14-39"><a href="#cb14-39" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-40"><a href="#cb14-40" aria-hidden="true" tabindex="-1"></a><span class="fu">## Cronbach's alpha</span></span>
-<span id="cb14-41"><a href="#cb14-41" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-44"><a href="#cb14-44" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb14-45"><a href="#cb14-45" aria-hidden="true" tabindex="-1"></a><span class="fu">alpha</span>(d, <span class="at">check.keys =</span> <span class="cn">FALSE</span>)<span class="sc">$</span>total<span class="sc">$</span>raw_alpha <span class="co"># calculate alpha -- you will see the alpha coefficient in the end of this code</span></span>
-<span id="cb14-46"><a href="#cb14-46" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb14-47"><a href="#cb14-47" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-48"><a href="#cb14-48" aria-hidden="true" tabindex="-1"></a><span class="fu">## Omega (hierarchical dan total)</span></span>
-<span id="cb14-49"><a href="#cb14-49" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-52"><a href="#cb14-52" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb14-53"><a href="#cb14-53" aria-hidden="true" tabindex="-1"></a>om <span class="ot">&lt;-</span> <span class="fu">omega</span>(d, <span class="at">nfactors =</span> <span class="dv">2</span>, <span class="at">fm =</span> <span class="st">"minres"</span>, <span class="at">flip =</span> <span class="cn">FALSE</span>, <span class="at">plot =</span> <span class="cn">FALSE</span>,</span>
-<span id="cb14-54"><a href="#cb14-54" aria-hidden="true" tabindex="-1"></a>            <span class="at">title =</span> <span class="st">"E1,E2,E3,E5,E8 + N1,N2,N7,N8,N9"</span>) <span class="co"># now calculate omega -- here, you can see there than I specify `nfactors` = 2, because essentially we know that this scale consists of two latent constructs (Ext and Neu)</span></span>
-<span id="cb14-55"><a href="#cb14-55" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb14-56"><a href="#cb14-56" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-59"><a href="#cb14-59" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb14-60"><a href="#cb14-60" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: false</span></span>
-<span id="cb14-61"><a href="#cb14-61" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="fu">capture.output</span>(<span class="fu">print</span>(om)), <span class="at">sep =</span> <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>) <span class="co"># printing out the results</span></span>
-<span id="cb14-62"><a href="#cb14-62" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb14-63"><a href="#cb14-63" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-64"><a href="#cb14-64" aria-hidden="true" tabindex="-1"></a>::: {.callout-warning}</span>
-<span id="cb14-65"><a href="#cb14-65" aria-hidden="true" tabindex="-1"></a><span class="fu">### Lihat *error message* di *output*</span></span>
-<span id="cb14-66"><a href="#cb14-66" aria-hidden="true" tabindex="-1"></a><span class="in">`psych`</span> menampilkan peringatan *"Three factors are required for identification -- general factor</span>
-<span id="cb14-67"><a href="#cb14-67" aria-hidden="true" tabindex="-1"></a>loadings set to be equal. Proceed with caution"* di bagian atas *output.* Dekomposisi *bifactor* idealnya butuh **≥3 dimensi/faktor** untuk identifikasi yang stabil; dengan hanya 2 (Extraversion dan Neuroticism), $\omega_h$ di atas adalah estimasi yang belum benar-benar stabil.</span>
-<span id="cb14-68"><a href="#cb14-68" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb14-69"><a href="#cb14-69" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-70"><a href="#cb14-70" aria-hidden="true" tabindex="-1"></a><span class="fu">## Ringkasan</span></span>
-<span id="cb14-71"><a href="#cb14-71" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-74"><a href="#cb14-74" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb14-75"><a href="#cb14-75" aria-hidden="true" tabindex="-1"></a><span class="fu">data.frame</span>(</span>
-<span id="cb14-76"><a href="#cb14-76" aria-hidden="true" tabindex="-1"></a>  <span class="at">Koefisien =</span> <span class="fu">c</span>(<span class="st">"Cronbach's alpha"</span>, <span class="st">"Omega hierarchical"</span>, <span class="st">"Omega total"</span>),</span>
-<span id="cb14-77"><a href="#cb14-77" aria-hidden="true" tabindex="-1"></a>  <span class="at">Nilai =</span> <span class="fu">round</span>(<span class="fu">c</span>(om<span class="sc">$</span>alpha, om<span class="sc">$</span>omega_h, om<span class="sc">$</span>omega.tot), <span class="dv">3</span>)</span>
-<span id="cb14-78"><a href="#cb14-78" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb14-79"><a href="#cb14-79" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb14-80"><a href="#cb14-80" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-81"><a href="#cb14-81" aria-hidden="true" tabindex="-1"></a>**Interpretasi:** $\alpha$ dan G.6 tetap terlihat "cukup baik" karena keduanya hanya melihat</span>
-<span id="cb14-82"><a href="#cb14-82" aria-hidden="true" tabindex="-1"></a>**rata-rata korelasi antar-item** dan di dalam masing-masing subskala korelasinya memang tinggi.</span>
-<span id="cb14-83"><a href="#cb14-83" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-84"><a href="#cb14-84" aria-hidden="true" tabindex="-1"></a>Sedangkan $\omega_h$ mendekati nol karena secara struktural **tidak ada faktor umum tunggal** yang</span>
-<span id="cb14-85"><a href="#cb14-85" aria-hidden="true" tabindex="-1"></a>mendasari kesepuluh item ini; yang ada adalah **dua konstruk psikologis** (Extraversion, Neuroticism) yang berkorelasi negatif kecil (tidak berhubungan) satu sama lain.</span>
-<span id="cb14-86"><a href="#cb14-86" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-87"><a href="#cb14-87" aria-hidden="true" tabindex="-1"></a><span class="fu">## Kenapa `jamovi` tidak menunjukkan ini</span></span>
-<span id="cb14-88"><a href="#cb14-88" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-89"><a href="#cb14-89" aria-hidden="true" tabindex="-1"></a><span class="in">`jamovi`</span> menghitung McDonald's $\omega$ dari **satu** model faktor *congeneric* (bukan dekomposisi *bifactor*), dan menormalisasinya dengan varians total yang **diobservasi**, bukan varians yang diimplikasikan model. </span>
-<span id="cb14-90"><a href="#cb14-90" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-91"><a href="#cb14-91" aria-hidden="true" tabindex="-1"></a>Itulah kenapa koefisiennya tetap tinggi meski struktur datanya jelas dua dimensi. McDonald's $\omega$ tidak pernah "melihat" faktor kedua itu sama sekali. Untuk mendeteksi multidimensionalitas lewat omega, dekomposisi *bifactor* (`psych::omega()` di {{&lt; fa brands r-project &gt;}}) adalah cara yang tepat. Alternatifnya, Anda bisa menggunakan [*online calculator* dari Lensym](https://lensym.com/tools/mcdonalds-omega-calculator/).</span>
-<span id="cb14-92"><a href="#cb14-92" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-93"><a href="#cb14-93" aria-hidden="true" tabindex="-1"></a><span class="fu">## Reka-ulang analisis ini</span></span>
-<span id="cb14-94"><a href="#cb14-94" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-97"><a href="#cb14-97" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb14-98"><a href="#cb14-98" aria-hidden="true" tabindex="-1"></a><span class="fu">sessionInfo</span>()</span>
-<span id="cb14-99"><a href="#cb14-99" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Omega Hierarchical vs. Omega Total"</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="an">subtitle:</span><span class="co"> "Demonstrasi reliabilitas di konstruk multidimensional"</span></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a><span class="co">  html:</span></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a><span class="co">    toc: true</span></span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a><span class="co">    code-fold: show</span></span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a><span class="co">    code-tools: true</span></span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a><span class="co">    df-print: kable</span></span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a><span class="fu">## Konteks</span></span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">*Slide* Pertemuan 6</span><span class="co">](/slides/pertemuan6.qmd)</span> menunjukkan bahwa menggabungkan **5 item Extraversion** (E1, E2, E3, E5, E8) dengan **5 item Neuroticism** (N1, N2, N7, N8, N9) dari data IPIP *Big Five* (`data/data.csv`, *n* = 19.718) menghasilkan Cronbach's $\alpha = 0{.}616$. Koefisien ini terlihat tidak terlalu mengecewakan, padahal item-itemnya jelas mengukur dua konstruk yang berbeda.</span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a>Laman ini menunjukkan perhitungannya secara langsung di {{&lt; fa brands r-project &gt;}}, termasuk kenapa McDonald's ω di <span class="in">`jamovi`</span> **tidak menangkap** masalah ini, sementara $\omega$ *hierarchical* (dihitung lewat dekomposisi [*bifactor*](http://www.personalityresearch.org/intelligence/structure.html) <span class="co">[</span><span class="ot">Schmid-Leiman</span><span class="co">](https://www.statpower.net/Content/319SEM/Lecture%20Notes/BiFactor.pdf)</span> di <span class="in">`psych::omega()`</span>) dapat menangkapnya dengan jelas.</span>
+<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a><span class="fu">## Setup</span></span>
+<span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-22"><a href="#cb13-22" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb13-23"><a href="#cb13-23" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(psych) <span class="co"># install the package</span></span>
+<span id="cb13-24"><a href="#cb13-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-25"><a href="#cb13-25" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"../data/data.csv"</span>, <span class="at">sep =</span> <span class="st">"</span><span class="sc">\t</span><span class="st">"</span>) <span class="co"># import the dataset</span></span>
+<span id="cb13-26"><a href="#cb13-26" aria-hidden="true" tabindex="-1"></a>data[data <span class="sc">==</span> <span class="dv">0</span>] <span class="ot">&lt;-</span> <span class="cn">NA</span>  <span class="co"># set 0 = missing </span></span>
+<span id="cb13-27"><a href="#cb13-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-28"><a href="#cb13-28" aria-hidden="true" tabindex="-1"></a>rev_items <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"E2"</span>, <span class="st">"E4"</span>, <span class="st">"E6"</span>, <span class="st">"E8"</span>, <span class="st">"E10"</span>, <span class="st">"N2"</span>, <span class="st">"N4"</span>) <span class="co"># tell R which items in Ext and Neu scale that are unfavorable</span></span>
+<span id="cb13-29"><a href="#cb13-29" aria-hidden="true" tabindex="-1"></a>items <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"E1"</span>, <span class="st">"E2"</span>, <span class="st">"E3"</span>, <span class="st">"E5"</span>, <span class="st">"E8"</span>, <span class="st">"N1"</span>, <span class="st">"N2"</span>, <span class="st">"N7"</span>, <span class="st">"N8"</span>, <span class="st">"N9"</span>) <span class="co"># we are only interested in these items. We combine these 5 items Ext (E1, E2, E3, E5, E8) and 5 items Neu (N1, N2, N7, N8, N9) into one single scale.</span></span>
+<span id="cb13-30"><a href="#cb13-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-31"><a href="#cb13-31" aria-hidden="true" tabindex="-1"></a>d <span class="ot">&lt;-</span> <span class="fu">reverse.code</span>(<span class="fu">ifelse</span>(items <span class="sc">%in%</span> rev_items, <span class="sc">-</span><span class="dv">1</span>, <span class="dv">1</span>), data[, items], <span class="at">mini =</span> <span class="dv">1</span>, <span class="at">maxi =</span> <span class="dv">5</span>) <span class="co"># make a new dataset that contains only in the `items` vector, then reversing the score of unfavorable items</span></span>
+<span id="cb13-32"><a href="#cb13-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-33"><a href="#cb13-33" aria-hidden="true" tabindex="-1"></a>d <span class="ot">&lt;-</span> <span class="fu">na.omit</span>(d) <span class="co"># get rid of participants with missing data for the sake of simplicity, we're essentially doing listwise deletion here</span></span>
+<span id="cb13-34"><a href="#cb13-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-35"><a href="#cb13-35" aria-hidden="true" tabindex="-1"></a><span class="fu">nrow</span>(d) <span class="co"># how many participants do we have now after getting rid of those with missing data?</span></span>
+<span id="cb13-36"><a href="#cb13-36" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb13-37"><a href="#cb13-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-38"><a href="#cb13-38" aria-hidden="true" tabindex="-1"></a>Lihat mana item yang *favorable* dan *unfavorable* di kamus data: <span class="co">[</span><span class="ot">`codebook.txt`</span><span class="co">](/data/codebook.txt)</span>.</span>
+<span id="cb13-39"><a href="#cb13-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-40"><a href="#cb13-40" aria-hidden="true" tabindex="-1"></a><span class="fu">## Cronbach's alpha</span></span>
+<span id="cb13-41"><a href="#cb13-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-44"><a href="#cb13-44" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb13-45"><a href="#cb13-45" aria-hidden="true" tabindex="-1"></a>al <span class="ot">&lt;-</span> <span class="fu">alpha</span>(d, <span class="at">check.keys =</span> <span class="cn">FALSE</span>)<span class="sc">$</span>total<span class="sc">$</span>raw_alpha <span class="co"># calculate alpha -- you will see the alpha coefficient in the end of this code</span></span>
+<span id="cb13-46"><a href="#cb13-46" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb13-47"><a href="#cb13-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-48"><a href="#cb13-48" aria-hidden="true" tabindex="-1"></a><span class="fu">## Omega (hierarchical dan total)</span></span>
+<span id="cb13-49"><a href="#cb13-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-52"><a href="#cb13-52" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb13-53"><a href="#cb13-53" aria-hidden="true" tabindex="-1"></a>om <span class="ot">&lt;-</span> <span class="fu">omega</span>(d, <span class="at">nfactors =</span> <span class="dv">2</span>, <span class="at">fm =</span> <span class="st">"minres"</span>, <span class="at">flip =</span> <span class="cn">FALSE</span>, <span class="at">plot =</span> <span class="cn">FALSE</span>,</span>
+<span id="cb13-54"><a href="#cb13-54" aria-hidden="true" tabindex="-1"></a>            <span class="at">title =</span> <span class="st">"E1,E2,E3,E5,E8 + N1,N2,N7,N8,N9"</span>) <span class="co"># now calculate omega -- here, you can see there than I specify `nfactors` = 2, because essentially we know that this scale consists of two latent constructs (Ext and Neu)</span></span>
+<span id="cb13-55"><a href="#cb13-55" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb13-56"><a href="#cb13-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-59"><a href="#cb13-59" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb13-60"><a href="#cb13-60" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: false</span></span>
+<span id="cb13-61"><a href="#cb13-61" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="fu">capture.output</span>(<span class="fu">print</span>(om)), <span class="at">sep =</span> <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>) <span class="co"># printing out the results</span></span>
+<span id="cb13-62"><a href="#cb13-62" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb13-63"><a href="#cb13-63" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-64"><a href="#cb13-64" aria-hidden="true" tabindex="-1"></a>::: {.callout-warning}</span>
+<span id="cb13-65"><a href="#cb13-65" aria-hidden="true" tabindex="-1"></a><span class="fu">### Lihat *error message* di *output*</span></span>
+<span id="cb13-66"><a href="#cb13-66" aria-hidden="true" tabindex="-1"></a><span class="in">`psych`</span> menampilkan peringatan *"Three factors are required for identification -- general factor</span>
+<span id="cb13-67"><a href="#cb13-67" aria-hidden="true" tabindex="-1"></a>loadings set to be equal. Proceed with caution"* di bagian atas *output.* Dekomposisi *bifactor* idealnya butuh **≥3 dimensi/faktor** untuk identifikasi yang stabil; dengan hanya 2 (Extraversion dan Neuroticism), $\omega_h$ di atas adalah estimasi yang belum benar-benar stabil.</span>
+<span id="cb13-68"><a href="#cb13-68" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb13-69"><a href="#cb13-69" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-70"><a href="#cb13-70" aria-hidden="true" tabindex="-1"></a><span class="fu">## Ringkasan</span></span>
+<span id="cb13-71"><a href="#cb13-71" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-74"><a href="#cb13-74" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb13-75"><a href="#cb13-75" aria-hidden="true" tabindex="-1"></a><span class="fu">data.frame</span>(</span>
+<span id="cb13-76"><a href="#cb13-76" aria-hidden="true" tabindex="-1"></a>  <span class="at">Koefisien =</span> <span class="fu">c</span>(<span class="st">"Cronbach's alpha"</span>, <span class="st">"Omega hierarchical"</span>, <span class="st">"Omega total"</span>),</span>
+<span id="cb13-77"><a href="#cb13-77" aria-hidden="true" tabindex="-1"></a>  <span class="at">Nilai =</span> <span class="fu">round</span>(<span class="fu">c</span>(al, om<span class="sc">$</span>omega_h, om<span class="sc">$</span>omega.tot), <span class="dv">3</span>)</span>
+<span id="cb13-78"><a href="#cb13-78" aria-hidden="true" tabindex="-1"></a>) <span class="co"># lets create a simple table consisting of alpha, omega hierarchical and omega total</span></span>
+<span id="cb13-79"><a href="#cb13-79" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb13-80"><a href="#cb13-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-81"><a href="#cb13-81" aria-hidden="true" tabindex="-1"></a>**Interpretasi:** $\alpha$ dan G.6 tetap terlihat "cukup baik" karena keduanya hanya melihat</span>
+<span id="cb13-82"><a href="#cb13-82" aria-hidden="true" tabindex="-1"></a>**rata-rata korelasi antar-item** dan di dalam masing-masing subskala korelasinya memang tinggi.</span>
+<span id="cb13-83"><a href="#cb13-83" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-84"><a href="#cb13-84" aria-hidden="true" tabindex="-1"></a>Sedangkan $\omega_h$ mendekati nol karena secara struktural **tidak ada faktor umum tunggal** yang</span>
+<span id="cb13-85"><a href="#cb13-85" aria-hidden="true" tabindex="-1"></a>mendasari kesepuluh item ini; yang ada adalah **dua konstruk psikologis** (Extraversion, Neuroticism) yang berkorelasi negatif kecil (tidak berhubungan) satu sama lain.</span>
+<span id="cb13-86"><a href="#cb13-86" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-87"><a href="#cb13-87" aria-hidden="true" tabindex="-1"></a><span class="fu">## Kenapa `jamovi` tidak menunjukkan ini</span></span>
+<span id="cb13-88"><a href="#cb13-88" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-89"><a href="#cb13-89" aria-hidden="true" tabindex="-1"></a><span class="in">`jamovi`</span> menghitung McDonald's $\omega$ dari **satu** model faktor *congeneric* (bukan dekomposisi *bifactor*), dan menormalisasinya dengan **varians total yang diobservasi**, bukan varians yang diimplikasikan model. </span>
+<span id="cb13-90"><a href="#cb13-90" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-91"><a href="#cb13-91" aria-hidden="true" tabindex="-1"></a>Itulah kenapa koefisiennya tetap tinggi meski struktur datanya jelas dua dimensi. McDonald's $\omega$ tidak mampu "melihat" bahwa data Anda punya struktur multidimensional dengan dua dimensi ynang berbeda. </span>
+<span id="cb13-92"><a href="#cb13-92" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-93"><a href="#cb13-93" aria-hidden="true" tabindex="-1"></a>Untuk mendeteksi multidimensionalitas lewat $\omega$, dekomposisi *bifactor* (`psych::omega()` di {{&lt; fa brands r-project &gt;}}) adalah cara yang tepat. Alternatifnya, Anda bisa menggunakan [*online calculator* dari Lensym](https://lensym.com/tools/mcdonalds-omega-calculator/).</span>
+<span id="cb13-94"><a href="#cb13-94" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-95"><a href="#cb13-95" aria-hidden="true" tabindex="-1"></a><span class="fu">## Reka-ulang analisis ini</span></span>
+<span id="cb13-96"><a href="#cb13-96" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-99"><a href="#cb13-99" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb13-100"><a href="#cb13-100" aria-hidden="true" tabindex="-1"></a><span class="fu">sessionInfo</span>()</span>
+<span id="cb13-101"><a href="#cb13-101" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 </code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->

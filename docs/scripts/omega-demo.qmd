@@ -38,7 +38,7 @@ Lihat mana item yang *favorable* dan *unfavorable* di kamus data: [`codebook.txt
 ## Cronbach's alpha
 
 ```{r}
-alpha(d, check.keys = FALSE)$total$raw_alpha # calculate alpha -- you will see the alpha coefficient in the end of this code
+al <- alpha(d, check.keys = FALSE)$total$raw_alpha # calculate alpha -- you will see the alpha coefficient in the end of this code
 ```
 
 ## Omega (hierarchical dan total)
@@ -64,8 +64,8 @@ loadings set to be equal. Proceed with caution"* di bagian atas *output.* Dekomp
 ```{r}
 data.frame(
   Koefisien = c("Cronbach's alpha", "Omega hierarchical", "Omega total"),
-  Nilai = round(c(om$alpha, om$omega_h, om$omega.tot), 3)
-)
+  Nilai = round(c(al, om$omega_h, om$omega.tot), 3)
+) # lets create a simple table consisting of alpha, omega hierarchical and omega total
 ```
 
 **Interpretasi:** $\alpha$ dan G.6 tetap terlihat "cukup baik" karena keduanya hanya melihat
@@ -76,9 +76,11 @@ mendasari kesepuluh item ini; yang ada adalah **dua konstruk psikologis** (Extra
 
 ## Kenapa `jamovi` tidak menunjukkan ini
 
-`jamovi` menghitung McDonald's $\omega$ dari **satu** model faktor *congeneric* (bukan dekomposisi *bifactor*), dan menormalisasinya dengan varians total yang **diobservasi**, bukan varians yang diimplikasikan model. 
+`jamovi` menghitung McDonald's $\omega$ dari **satu** model faktor *congeneric* (bukan dekomposisi *bifactor*), dan menormalisasinya dengan **varians total yang diobservasi**, bukan varians yang diimplikasikan model. 
 
-Itulah kenapa koefisiennya tetap tinggi meski struktur datanya jelas dua dimensi. McDonald's $\omega$ tidak pernah "melihat" faktor kedua itu sama sekali. Untuk mendeteksi multidimensionalitas lewat omega, dekomposisi *bifactor* (`psych::omega()` di {{< fa brands r-project >}}) adalah cara yang tepat. Alternatifnya, Anda bisa menggunakan [*online calculator* dari Lensym](https://lensym.com/tools/mcdonalds-omega-calculator/).
+Itulah kenapa koefisiennya tetap tinggi meski struktur datanya jelas dua dimensi. McDonald's $\omega$ tidak mampu "melihat" bahwa data Anda punya struktur multidimensional dengan dua dimensi ynang berbeda. 
+
+Untuk mendeteksi multidimensionalitas lewat $\omega$, dekomposisi *bifactor* (`psych::omega()` di {{< fa brands r-project >}}) adalah cara yang tepat. Alternatifnya, Anda bisa menggunakan [*online calculator* dari Lensym](https://lensym.com/tools/mcdonalds-omega-calculator/).
 
 ## Reka-ulang analisis ini
 
