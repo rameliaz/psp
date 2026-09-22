@@ -12,7 +12,7 @@ website:
   announcement:
     icon: info-circle
     dismissable: true
-    content: '**Saya menambahkan demonstrasi perhitungan reliabilitas pada konstruk multidimensional. [Cek di sini](https://rameliaz.github.io/psp/scripts/omega-demo.html)**'
+    content: '**ngin memberikan masukan tentang proses perkuliahan? Mohon isi [survei evaluasi perkuliahan di sini](https://www.soscisurvey.de/evaluasi/). Terima kasih!**'
     type: primary
     position: below-navbar
 

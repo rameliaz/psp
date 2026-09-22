@@ -20,14 +20,13 @@ execute:
 
 ## Agenda {.agenda-slide}
 
-1. Kenapa validitas adalah sifat **tafsiran atas skor**, bukan sifat dari skala
+1. Mengapa validitas adalah sifat **tafsiran atas skor**, bukan sifat dari skala
 2. Bagaimana tiga "jenis validitas" berubah menjadi **satu konsep dengan lima sumber bukti**
 3. Lima sumber bukti validitas
-4. *Construct underrepresentation* dan *construct-irrelevant variance*
-5. Kenapa menaikkan $\alpha$ terus-menerus justru bisa **menurunkan** validitas
+4. Kenapa menaikkan $\alpha$ terus-menerus justru bisa **menurunkan** validitas (paradoks atenuasi)
 
 
-# Dari reliabilitas ke validitas {background-color="#14497F" .center}
+# Reliabilitas vs. Validitas {background-color="#14497F" .center}
 
 ## Yang belum terjawab
 
@@ -43,11 +42,11 @@ execute:
 
 . . .
 
-::: {.callout-note}
+::: {.callout-note appearance="simple"}
 Ingat analogi timbangan dari Pertemuan 3. Timbangan yang selalu meleset 2 kg bisa *internally consistent*. Konsistensi internal tidak pernah bisa mendeteksi kesalahan pengukuran yang sistematis.
 :::
 
-## Ilustrasi yang sering dipakai
+## Ilustrasi yang sering digunakan
 
 ![](libs/rel_val.JPG){.nostretch fig-align="center" width="90%"}
 
@@ -55,22 +54,27 @@ Ingat analogi timbangan dari Pertemuan 3. Timbangan yang selalu meleset 2 kg bis
 Ilustrasi yang umum muncul di buku ajar pengukuran psikologi.
 :::
 
-## Kenapa Ilustrasi ini (sebenarnya) keliru secara faktual
+## Mengapa Ilustrasi ini tidak semuanya tepat
 
 ::: {.incremental}
 
-* Label *"Reliable"* dan *"Valid"* melekat pada **papan targetnya**, seolah-olah keduanya properti skalanya. Ini kesalahan yang sama seperti menulis "skala ini valid."
+* Label *"Reliable"* dan *"Valid"* melekat pada **papan targetnya**, seolah-olah keduanya properti skalanya.
+  + Padahal, keduanya adalah properti dari skor hasil pengukuran.
 
-* Panel *"Valid, Not reliable"* juga bermasalah untuk validitas kriteria secara khusus: reliabilitas jadi **batas atas** bagi koefisien validitas (ingat rumus atenuasi di Pertemuan 3, $r_{XY} \leq \sqrt{\rho_{XX'} \times \rho_{YY'}}$). Skor yang tidak konsisten otomatis membatasi seberapa tinggi korelasinya dengan kriteria manapun.
+* Panel *"Valid, Not reliable"* juga bermasalah untuk *criterion-related validity*.
+  + Reliabilitas jadi **batas atas** bagi koefisien *criterion-related validity* (ingat rumus atenuasi di Pertemuan 3, $r_{XY} \leq \sqrt{\rho_{XX'} \times \rho_{YY'}}$). 
+  + Skor yang tidak konsisten/reliabel otomatis membatasi seberapa besar korelasinya dengan kriteria manapun.
 
 :::
 
-. . .
+## Ilustrasi yang lebih tepat
 
-::: {.callout-tip}
-#### Cara membacanya yang lebih tepat
-Sumbu horizontal: **konsistensi skor** (reliabilitas). Sumbu vertikal: **ketepatan skor terhadap apa yang ingin diukur** (validitas). Keduanya sifat skor pada suatu penggunaan tertentu, bukan sesuatu yang "dimiliki" atau "tidak dimiliki" oleh instrumennya.
+![](libs/reliabilitas-validitas.svg){fig-align="center"}
+
+::: aside
+Gambar dibuat dengan Gemini 3.8 Flash
 :::
+
 
 # Validitas adalah sifat tafsiran atas skor {background-color="#14497F" .center}
 
@@ -129,7 +133,7 @@ Kolom kiri memperlakukan validitas sebagai sesuatu yang **dimiliki alat ukur** d
 
 # Dari 3️⃣ jenis menjadi 1️⃣ konsep {background-color="#14497F" .center}
 
-## Pembagian lama
+## Awalnya..
 
 Sampai sekitar 1970-an, buku teks membagi validitas menjadi tiga:
 
@@ -185,7 +189,7 @@ Kalimat ini menunjukkan satu argumen validitas yang buktinya diperoleh dari bebe
 . . .
 
 ::: {.callout-tip appearance="simple"}
-Perubahan ini memerlukan transparansi: Anda harus menyebutkan **bukti yang belum ada**, bukan hanya yang sudah ada.
+Perubahan ini memerlukan transparansi: Anda perlu menyebutkan **bukti yang belum ada**, bukan hanya yang sudah ada.
 :::
 
 # 5️⃣ sumber bukti {background-color="#14497F" .center}
@@ -381,7 +385,7 @@ Ini menjelaskan kenapa dua skala *self-report* apa pun cenderung berkorelasi: se
 
 * ***Predictive*** — skor memprediksi kriteria di masa depan.
 
-* ***Known-groups*** — skor membedakan kelompok yang secara teori memang berbeda. Misalnya, skala kecemasan sosial seharusnya memberi skor lebih tinggi pada kelompok yang sedang menjalani terapi untuk keluhan itu.
+* ***Known-groups*** — skor membedakan kelompok yang secara teori memang berbeda. Misalnya, skala kecemasan sosial seharusnya memberi skor lebih tinggi pada kelompok yang sedang menjalani terapi untuk menangani kecemasan sosial.
 
 :::
 
@@ -389,7 +393,7 @@ Ini menjelaskan kenapa dua skala *self-report* apa pun cenderung berkorelasi: se
 
 ::: {.callout-tip}
 #### Yang realistis untuk proyek UAS Anda
-*Known-groups* dan *concurrent* masih mungkin. Sertakan **satu skala yang sudah mapan tetapi pendek** di dalam kuesioner uji coba Anda di Pertemuan 12, lalu laporkan korelasinya.
+*Known-groups* dan *concurrent* masih mungkin. Sertakan **satu skala yang banyak dipakai tetapi dengan sedikit item** di dalam kuesioner uji coba Anda di Pertemuan 12, lalu laporkan korelasinya.
 
 Satu korelasi saja sudah jauh lebih baik daripada tidak ada bukti sama sekali.
 :::
@@ -400,9 +404,9 @@ Satu korelasi saja sudah jauh lebih baik daripada tidak ada bukti sama sekali.
 
 * Ingat temuan [Fried (2017)](https://www.sciencedirect.com/science/article/pii/S016503271631312X) dari Pertemuan 1: tujuh skala depresi memuat 52 gejala berbeda.
 
-* Karena itu, korelasi rendah dengan skala "sejenis" **belum tentu** berarti skala Anda buruk. Bisa jadi kedua skala memang mengukur hal yang berbeda meski namanya sama.
+* Karena itu, korelasi rendah dengan skala yang diklaim mengukur konstruk yang sama dengan yang Anda ukur **belum tentu** berarti skala Anda buruk. Bisa jadi kedua skala memang mengukur hal yang berbeda meski namanya sama.
 
-* Yang perlu Anda periksa adalah **isi skala pembanding**, bukan hanya namanya.
+* Yang perlu Anda periksa adalah **substansi dari skala pembanding** ini, bukan hanya nama konstruknya.
 
 :::
 
@@ -439,9 +443,7 @@ Sebagian ahli menilai konsekuensi sosial adalah persoalan kebijakan, bukan perso
 
 :::
 
-# Pandangan yang berbeda {background-color="#14497F" .center}
-
-## Keberatan Borsboom
+## Kritik Borsboom, dkk terhadap Messick
 
 ::: {.incremental}
 
@@ -531,7 +533,7 @@ Periksalah $\alpha$ bersama-sama dengan cakupan isi skala. Angka yang sangat tin
 
 ## Bagian 1: menilai klaim validitas
 
-Diskusikan **15 menit**. Untuk tiap klaim: **bukti apa yang sebenarnya ditunjukkan, dan bukti apa yang belum ada?**
+Untuk tiap klaim: **bukti apa yang sebenarnya ditunjukkan, dan bukti apa yang belum ada?**
 
 ::: {.incremental}
 
@@ -590,23 +592,17 @@ Jawaban nomor 1 dan 2 akan langsung Anda pakai ketika menyusun kisi-kisi di Pert
 . . .
 
 ::: {.callout-note appearance="simple"}
-Tujuh kesimpulan ini dapat dirangkum menjadi satu kalimat: **Anda perlu tahu asumsi apa yang sedang Anda pakai ketika membuat skala dan melakukan pengukuran, dan apa akibatnya kalau asumsi itu salah.**
+Tujuh kesimpulan ini dapat dirangkum menjadi satu kalimat: **Anda perlu tahu dan sadar asumsi apa yang sedang Anda pakai ketika membuat skala dan melakukan pengukuran, dan apa konsekuensinya apabila asumsi ini tidak terpenuhi.**
 :::
 
 ## Ujian Tengah Semester
 
 ::: {.incremental}
 
-* Bentuknya **pilihan ganda**, mencakup materi **Pertemuan 1 sampai 7**.
+* Bentuknya **pilihan ganda**, dengan materi tahapan penyusunan skala, Likert, SJT, Semantic Differential, Thurstone.
 
 * Yang diuji bukan hafalan nama dan tahun, melainkan kemampuan **mengenali situasi**: koefisien mana yang cocok, asumsi mana yang dilanggar, bukti mana yang sebenarnya ditunjukkan sebuah pernyataan.
 
-:::
-
-. . .
-
-::: {.callout-tip appearance="simple"}
-Cara belajar yang mungkin membantu: ambil satu skala apa pun yang Anda temukan, lalu jawab sendiri tujuh pertanyaan sesuai tujuh pertemuan di atas.
 :::
 
 ## Setelah UTS
@@ -617,14 +613,8 @@ Cara belajar yang mungkin membantu: ambil satu skala apa pun yang Anda temukan, 
 
 * **Pertemuan 10** — menyusun kisi-kisi dan menulis item.
 
-* **Pertemuan 11 dan seterusnya** — bimbingan langsung bersama Bu Dian, di Ruang 303, dengan hari dan jam yang berbeda. Periksa kembali [jadwalnya](https://rameliaz.github.io/psp/#rencana-pertemuan).
+* **Pertemuan 10 dan seterusnya** — bimbingan langsung bersama Bu Dian, di Ruang 303, dengan hari dan jam yang berbeda. Periksa kembali [jadwalnya](https://rameliaz.github.io/psp/#rencana-pertemuan).
 
-:::
-
-. . .
-
-::: {.callout-note}
-Mulai Pertemuan 9, semua yang kita bahas di paruh pertama berubah menjadi keputusan yang harus Anda ambil sendiri.
 :::
 
 ## Terima kasih!😊 {.closing-slide}

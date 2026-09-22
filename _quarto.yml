@@ -75,6 +75,10 @@ website:
             href: data/data.csv
           - text: "Kamus Data/*Codebook*"
             href: data/codebook.txt
+      - section: Survei
+        contents:
+          - text: "Survei Evaluasi Perkuliahan"
+            href: https://www.soscisurvey.de/evaluasi/
   navbar:
     left:
       - href: https://rameliaz.github.io/

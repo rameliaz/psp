@@ -372,7 +372,7 @@
     "href": "slides/pertemuan7-en.html#agenda",
     "title": "Validity: Core Concepts and Implementation",
     "section": "Agenda",
-    "text": "Agenda\n\nWhy validity is a property of score interpretations, not of a scale\nHow three “types of validity” became one concept with five sources of evidence\nThose five sources, one at a time\nConstruct underrepresentation and construct-irrelevant variance\nWhy pushing \\(\\alpha\\) ever higher can actually reduce validity",
+    "text": "Agenda\n\nWhy validity is a property of score interpretations, not of a scale\nHow three “types of validity” became one concept with five sources of evidence\nThose five sources, one at a time\nWhy pushing \\(\\alpha\\) ever higher can actually reduce validity",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -384,7 +384,7 @@
     "href": "slides/pertemuan7-en.html#the-question-still-open",
     "title": "Validity: Core Concepts and Implementation",
     "section": "The question still open",
-    "text": "The question still open\n\nSession 6 gave us ways to compute consistency: \\(\\alpha\\), \\(\\omega\\), split-half.\nAll of those coefficients answer the same question: are the scores stable?\nNone of them answers: do the scores reflect what we intended?\n\n\n\n\n\n\n\n\nNote\n\n\nRecall the bathroom scale from Session 3. A scale that is always 2 kg out can be internally consistent. Internal consistency can never detect a systematic measurement error.",
+    "text": "The question still open\n\nSession 6 gave us ways to compute consistency: \\(\\alpha\\), \\(\\omega\\), split-half.\nAll of those coefficients answer the same question: are the scores stable?\nNone of them answers: do the scores reflect what we intended?\n\n\n\n\n\n\n\n\nRecall the bathroom scale from Session 3. A scale that is always 2 kg out can be internally consistent. Internal consistency can never detect a systematic measurement error.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -404,11 +404,23 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan7-en.html#why-this-illustration-is-factually-wrong",
-    "href": "slides/pertemuan7-en.html#why-this-illustration-is-factually-wrong",
+    "objectID": "slides/pertemuan7-en.html#why-this-illustration-is-only-partially-correct",
+    "href": "slides/pertemuan7-en.html#why-this-illustration-is-only-partially-correct",
     "title": "Validity: Core Concepts and Implementation",
-    "section": "Why this illustration is factually wrong",
-    "text": "Why this illustration is factually wrong\n\nThe labels “Reliable” and “Valid” are attached to the target board itself — as if these were properties of the instrument. That is the same mistake as writing “this scale is valid.”\nThe “Valid, Not reliable” panel is also questionable, specifically for criterion validity: reliability sets an upper bound on the validity coefficient (recall the attenuation formula from Session 3, \\(r_{XY} \\leq \\sqrt{\\rho_{XX'} \\times \\rho_{YY'}}\\)). Inconsistent scores automatically cap how strongly they can correlate with any criterion.\n\n\n\n\n\n\n\n\nA more accurate reading\n\n\nHorizontal axis: consistency of the scores (reliability). Vertical axis: how well the scores track what you intend to measure (validity). Both are properties of scores for a given use, not something an instrument simply “has” or “lacks.”",
+    "section": "Why this illustration is only partially correct",
+    "text": "Why this illustration is only partially correct\n\nThe labels “Reliable” and “Valid” are attached to the target board itself, as if these were properties of the instrument.\n\nBut in fact, both are properties of the scores the measurement produces.\n\nThe “Valid, Not reliable” panel is also questionable for criterion-related validity.\n\nReliability sets an upper bound on the criterion-related validity coefficient (recall the attenuation formula from Session 3, \\(r_{XY} \\leq \\sqrt{\\rho_{XX'} \\times \\rho_{YY'}}\\)).\nInconsistent, unreliable scores automatically cap how strongly they can correlate with any criterion.",
+    "crumbs": [
+      "oleh Rizqy Amelia Zein",
+      "Materi 🇬🇧 ",
+      "7. Validity"
+    ]
+  },
+  {
+    "objectID": "slides/pertemuan7-en.html#a-more-accurate-illustration",
+    "href": "slides/pertemuan7-en.html#a-more-accurate-illustration",
+    "title": "Validity: Core Concepts and Implementation",
+    "section": "A more accurate illustration",
+    "text": "A more accurate illustration\n\n\n\n\n\n\n\nThe illustration was generated using Gemini 3.8 Flash.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -564,7 +576,7 @@
     "href": "slides/pertemuan7-en.html#cognitive-interviewing",
     "title": "Validity: Core Concepts and Implementation",
     "section": "Cognitive interviewing",
-    "text": "Cognitive interviewing\n\nAsk a few prospective participants to complete your items while saying out loud what they are thinking (think aloud).\nAfterwards, ask: “What do you think this question is asking?” and “How did you arrive at that answer?”\nNote any confusing words, items read two ways, and anchors that are unclear.\n\n\n\n\n\n\n\n\n\nThe cheapest step, and the one most often skipped\n\n\nJust 3 to 5 people before the pilot, and it almost always uncovers problems the authors could not see themselves.\nDo this before Session 12. It costs almost nothing and usually saves a great deal of analysis work later.\n\n\n\n\n\nWillis (2005).",
+    "text": "Cognitive interviewing\n\nAsk a few prospective participants to complete your items while saying out loud what they are thinking (think aloud).\nAfterwards, ask: “What do you think this question is asking?” and “How did you arrive at that answer?”\nNote any confusing words, items read two ways, and anchors that are unclear.\n\n\n\n\n\n\n\n\n\nThe easiest step, and the one most often skipped\n\n\nJust 3 to 5 people before the pilot, and it almost always uncovers problems the authors could not see themselves.\nDo this before Session 12. It costs almost nothing and usually saves a great deal of analysis work later.\n\n\n\n\n\nWillis (2005).",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -588,7 +600,7 @@
     "href": "slides/pertemuan7-en.html#what-this-includes",
     "title": "Validity: Core Concepts and Implementation",
     "section": "What this includes",
-    "text": "What this includes\n\nDimensionality — how many factors emerge, and whether items group as planned.\nEquivalence across groups — whether that structure is the same for men and women, or across age groups. This is assumption five from Session 2.\nInternal consistency — \\(\\alpha\\) and \\(\\omega\\) are also evidence about internal structure, but weak evidence.\n\n\n\n\n\n\n\n\nWhy \\(\\alpha\\) is only weak evidence\n\n\nSession 6 showed it with numbers: \\(\\alpha = .62\\) on a scale that was plainly two-dimensional. A single coefficient cannot describe a structure.",
+    "text": "What this includes\n\nDimensionality — how many factors emerge, and whether items group as planned.\nEquivalence across groups — whether that structure is the same for men and women, or across age groups. This is assumption five from Session 2.\nInternal consistency — \\(\\alpha\\) and \\(\\omega\\) are also evidence about internal structure, but weak evidence.\n\n\n\n\n\n\n\n\nWhy \\(\\alpha\\) is only weak evidence\n\n\nSession 6 showed it with numbers: \\(\\alpha = .62\\) on a scale that was plainly two-dimensional.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -732,7 +744,7 @@
     "href": "slides/pertemuan7-en.html#part-1-assessing-claims",
     "title": "Validity: Core Concepts and Implementation",
     "section": "Part 1: assessing claims",
-    "text": "Part 1: assessing claims\nDiscuss for 15 minutes. For each claim: what evidence does it actually provide, and what is missing?\nA. “Our scale is valid because every item has an item-total correlation above .30.”\nB. “Our scale’s validity is established by its correlation of .88 with a well-known anxiety scale.”\nC. “This scale has been validated on students, so it can be used for employee assessment.”\n\nExpected answers — A: item-total correlation is weak internal-structure evidence, and no evidence at all about content or relations to other variables. B: a correlation that high raises a discriminant question; if it measures the same thing, what is the new scale for? C: evidence does not transfer across populations or across purposes of use. If time is short, cover A and C only.",
+    "text": "Part 1: assessing claims\nFor each claim: what evidence does it actually provide, and what is missing?\nA. “Our scale is valid because every item has an item-total correlation above .30.”\nB. “Our scale’s validity is established by its correlation of .88 with a well-known anxiety scale.”\nC. “This scale has been validated on students, so it can be used for employee assessment.”\n\nExpected answers — A: item-total correlation is weak internal-structure evidence, and no evidence at all about content or relations to other variables. B: a correlation that high raises a discriminant question; if it measures the same thing, what is the new scale for? C: evidence does not transfer across populations or across purposes of use. If time is short, cover A and C only.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -768,7 +780,7 @@
     "href": "slides/pertemuan7-en.html#the-midterm-examination",
     "title": "Validity: Core Concepts and Implementation",
     "section": "The midterm examination",
-    "text": "The midterm examination\n\nIt is multiple choice, covering Sessions 1 to 7.\nWhat is tested is not memorised names and dates but the ability to recognise a situation: which coefficient fits, which assumption is being violated, what a given statement actually demonstrates.\n\n\n\n\n\n\n\n\nTip\n\n\nThe most useful way to revise: take any scale you can find and answer the seven questions above for it yourself.",
+    "text": "The midterm examination\n\nIt is multiple choice, covering the stages of scale construction, Likert, SJT, Semantic Differential, and Thurstone.\nWhat is tested is not memorised names and dates but the ability to recognise a situation: which coefficient fits, which assumption is being violated, what a given statement actually demonstrates.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -780,7 +792,7 @@
     "href": "slides/pertemuan7-en.html#after-the-midterm",
     "title": "Validity: Core Concepts and Implementation",
     "section": "After the midterm",
-    "text": "After the midterm\n\nSession 9 — the project begins: defining the construct and the estimand, from literature review to operational definition.\nSession 10 — building the blueprint and writing items.\nSession 11 onward — direct mentoring with Bu Dian, in Room 303, on a different day and time. Check the schedule again.\n\n\n\n\n\n\n\n\nNote\n\n\nFrom Session 9 onward, everything from the first half turns into decisions you have to make yourselves.",
+    "text": "After the midterm\n\nSession 9 — the project begins: defining the construct and the estimand, from literature review to operational definition.\nSession 10 — building the blueprint and writing items.\nSession 10 onward — direct mentoring with Bu Dian, in Room 303, on a different day and time. Check the schedule again.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -4456,7 +4468,7 @@
     "href": "index.html#bahan-bacaan-wajib",
     "title": "Penyusunan Skala Psikologi",
     "section": "Bahan Bacaan Wajib",
-    "text": "Bahan Bacaan Wajib\n\nCohen, R., & Swerdlik, M. (2018). Psychological testing and assessment. Boston: McGraw-Hill Higher Education.\nCoulacoglou, C., & Saklofske, D. H. (2017). Psychometrics and psychological assessment: Principles and applications. London: Elsevier Academic Press.\nCrocker, L., & Algina, J. (2008). Introduction to classical and modern test theory. Mason, OH: Cengage.\nDeVellis, R. F., & Thorpe, C. T. (2022). Scale development: Theory and applications (5th ed.). Thousand Oaks, CA: SAGE Publications.\nDomino, G., & Domino, M. L. (2006). Psychological testing: An introduction. Cambridge University Press.\nRaykov, T., & Marcoulides, G. A. (2011). Introduction to psychometric theory. New York: Taylor & Francis Group.\n\n\nSumber terbuka (open access)\n\nPetersen, I. T. Principles of psychological assessment: With applied examples in R. https://isaactpetersen.github.io/Principles-Psychological-Assessment/\nBikos, L. H. ReCentering psych stats: Psychometrics. https://lhbikos.github.io/ReC_Psychometrics/\n\n\n\n\n\n\n\nBagi mahasiswa yang ingin memperdalam pengetahuan mengenai validitas, saya sangat merekomendasikan untuk menyimak  AIMOS seminar “Rethinking Measurement Validity” yang diberikan oleh Dr. Wendy Higgins.\n\n\n\n\n\n\n\n\n\n\nHalaman ini merupakan ringkasan Kontrak Perkuliahan Kelas A-2.\n\n\n\n\n\n\n\n\n\nKami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk brainstorming materi, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian materi di mata kuliah ini.",
+    "text": "Bahan Bacaan Wajib\n\nCohen, R., & Swerdlik, M. (2018). Psychological testing and assessment. Boston: McGraw-Hill Higher Education.\nCoulacoglou, C., & Saklofske, D. H. (2017). Psychometrics and psychological assessment: Principles and applications. London: Elsevier Academic Press.\nCrocker, L., & Algina, J. (2008). Introduction to classical and modern test theory. Mason, OH: Cengage.\nDeVellis, R. F., & Thorpe, C. T. (2022). Scale development: Theory and applications (5th ed.). Thousand Oaks, CA: SAGE Publications.\nDomino, G., & Domino, M. L. (2006). Psychological testing: An introduction. Cambridge University Press.\nRaykov, T., & Marcoulides, G. A. (2011). Introduction to psychometric theory. New York: Taylor & Francis Group.\n\n\nSumber terbuka (open access)\n\nPetersen, I. T. Principles of psychological assessment: With applied examples in R. https://isaactpetersen.github.io/Principles-Psychological-Assessment/\nBikos, L. H. ReCentering psych stats: Psychometrics. https://lhbikos.github.io/ReC_Psychometrics/\n\n\n\n\n\n\n\nBagi mahasiswa yang ingin memperdalam pengetahuan mengenai validitas, saya sangat merekomendasikan untuk menyimak  AIMOS seminar “Rethinking Measurement Validity” yang diberikan oleh Dr. Wendy Higgins.\n\n\n\n\n\n\n\n\n\n\nHalaman ini merupakan ringkasan Kontrak Perkuliahan Kelas A-2.\n\n\n\n\n\n\n\n\n\nKami menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk brainstorming materi, mencari referensi, melakukan troubleshooting kode quarto dan git dan menggunakan Gemini Flash 3.8 untuk membuat ilustrasi. Kami (Amel dan Dian) bertanggung jawab penuh atas substansi dan penyajian materi di mata kuliah ini.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Beranda"
@@ -5571,7 +5583,7 @@
     "href": "slides/pertemuan7.html#agenda",
     "title": "Validitas: Konsep Dasar dan Implementasinya",
     "section": "Agenda",
-    "text": "Agenda\n\nKenapa validitas adalah sifat tafsiran atas skor, bukan sifat dari skala\nBagaimana tiga “jenis validitas” berubah menjadi satu konsep dengan lima sumber bukti\nLima sumber bukti validitas\nConstruct underrepresentation dan construct-irrelevant variance\nKenapa menaikkan \\(\\alpha\\) terus-menerus justru bisa menurunkan validitas",
+    "text": "Agenda\n\nMengapa validitas adalah sifat tafsiran atas skor, bukan sifat dari skala\nBagaimana tiga “jenis validitas” berubah menjadi satu konsep dengan lima sumber bukti\nLima sumber bukti validitas\nKenapa menaikkan \\(\\alpha\\) terus-menerus justru bisa menurunkan validitas (paradoks atenuasi)",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5583,7 +5595,7 @@
     "href": "slides/pertemuan7.html#yang-belum-terjawab",
     "title": "Validitas: Konsep Dasar dan Implementasinya",
     "section": "Yang belum terjawab",
-    "text": "Yang belum terjawab\n\nPertemuan 6 memberi kita cara menghitung konsistensi internal: \\(\\alpha\\), \\(\\omega\\), split-half.\nSemua koefisien itu menjawab pertanyaan yang sama: apakah skornya stabil?\nTidak satu pun dari koefisien itu menjawab: apakah skornya benar-benar menunjukkan konstruk yang ingin kita ukur?\n\n\n\n\n\n\n\n\nNote\n\n\nIngat analogi timbangan dari Pertemuan 3. Timbangan yang selalu meleset 2 kg bisa internally consistent. Konsistensi internal tidak pernah bisa mendeteksi kesalahan pengukuran yang sistematis.",
+    "text": "Yang belum terjawab\n\nPertemuan 6 memberi kita cara menghitung konsistensi internal: \\(\\alpha\\), \\(\\omega\\), split-half.\nSemua koefisien itu menjawab pertanyaan yang sama: apakah skornya stabil?\nTidak satu pun dari koefisien itu menjawab: apakah skornya benar-benar menunjukkan konstruk yang ingin kita ukur?\n\n\n\n\n\n\n\n\nIngat analogi timbangan dari Pertemuan 3. Timbangan yang selalu meleset 2 kg bisa internally consistent. Konsistensi internal tidak pernah bisa mendeteksi kesalahan pengukuran yang sistematis.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5591,11 +5603,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan7.html#ilustrasi-yang-sering-dipakai",
-    "href": "slides/pertemuan7.html#ilustrasi-yang-sering-dipakai",
+    "objectID": "slides/pertemuan7.html#ilustrasi-yang-sering-digunakan",
+    "href": "slides/pertemuan7.html#ilustrasi-yang-sering-digunakan",
     "title": "Validitas: Konsep Dasar dan Implementasinya",
-    "section": "Ilustrasi yang sering dipakai",
-    "text": "Ilustrasi yang sering dipakai\n\n\n\n\n\n\n\nIlustrasi yang umum muncul di buku ajar pengukuran psikologi.",
+    "section": "Ilustrasi yang sering digunakan",
+    "text": "Ilustrasi yang sering digunakan\n\n\n\n\n\n\n\nIlustrasi yang umum muncul di buku ajar pengukuran psikologi.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5603,11 +5615,23 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan7.html#kenapa-ilustrasi-ini-sebenarnya-keliru-secara-faktual",
-    "href": "slides/pertemuan7.html#kenapa-ilustrasi-ini-sebenarnya-keliru-secara-faktual",
+    "objectID": "slides/pertemuan7.html#mengapa-ilustrasi-ini-tidak-semuanya-tepat",
+    "href": "slides/pertemuan7.html#mengapa-ilustrasi-ini-tidak-semuanya-tepat",
     "title": "Validitas: Konsep Dasar dan Implementasinya",
-    "section": "Kenapa Ilustrasi ini (sebenarnya) keliru secara faktual",
-    "text": "Kenapa Ilustrasi ini (sebenarnya) keliru secara faktual\n\nLabel “Reliable” dan “Valid” melekat pada papan targetnya, seolah-olah keduanya properti skalanya. Ini kesalahan yang sama seperti menulis “skala ini valid.”\nPanel “Valid, Not reliable” juga bermasalah untuk validitas kriteria secara khusus: reliabilitas jadi batas atas bagi koefisien validitas (ingat rumus atenuasi di Pertemuan 3, \\(r_{XY} \\leq \\sqrt{\\rho_{XX'} \\times \\rho_{YY'}}\\)). Skor yang tidak konsisten otomatis membatasi seberapa tinggi korelasinya dengan kriteria manapun.\n\n\n\n\n\n\n\n\nCara membacanya yang lebih tepat\n\n\nSumbu horizontal: konsistensi skor (reliabilitas). Sumbu vertikal: ketepatan skor terhadap apa yang ingin diukur (validitas). Keduanya sifat skor pada suatu penggunaan tertentu, bukan sesuatu yang “dimiliki” atau “tidak dimiliki” oleh instrumennya.",
+    "section": "Mengapa Ilustrasi ini tidak semuanya tepat",
+    "text": "Mengapa Ilustrasi ini tidak semuanya tepat\n\nLabel “Reliable” dan “Valid” melekat pada papan targetnya, seolah-olah keduanya properti skalanya.\n\nPadahal, keduanya adalah properti dari skor hasil pengukuran.\n\nPanel “Valid, Not reliable” juga bermasalah untuk criterion-related validity.\n\nReliabilitas jadi batas atas bagi koefisien criterion-related validity (ingat rumus atenuasi di Pertemuan 3, \\(r_{XY} \\leq \\sqrt{\\rho_{XX'} \\times \\rho_{YY'}}\\)).\nSkor yang tidak konsisten/reliabel otomatis membatasi seberapa besar korelasinya dengan kriteria manapun.",
+    "crumbs": [
+      "oleh Rizqy Amelia Zein",
+      "Materi 🇮🇩 ",
+      "7. Validitas"
+    ]
+  },
+  {
+    "objectID": "slides/pertemuan7.html#ilustrasi-yang-lebih-tepat",
+    "href": "slides/pertemuan7.html#ilustrasi-yang-lebih-tepat",
+    "title": "Validitas: Konsep Dasar dan Implementasinya",
+    "section": "Ilustrasi yang lebih tepat",
+    "text": "Ilustrasi yang lebih tepat\n\n\n\n\n\n\n\nGambar dibuat dengan Gemini 3.8 Flash",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5651,11 +5675,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan7.html#pembagian-lama",
-    "href": "slides/pertemuan7.html#pembagian-lama",
+    "objectID": "slides/pertemuan7.html#awalnya..",
+    "href": "slides/pertemuan7.html#awalnya..",
     "title": "Validitas: Konsep Dasar dan Implementasinya",
-    "section": "Pembagian lama",
-    "text": "Pembagian lama\nSampai sekitar 1970-an, buku teks membagi validitas menjadi tiga:\n\nValiditas isi — apakah itemnya mewakili materi yang seharusnya?\nValiditas kriteria — apakah skornya berkorelasi dengan ukuran lain yang relevan, baik saat ini (concurrent) maupun di masa depan (predictive)?\nValiditas konstruk — apakah skornya berperilaku sesuai teori?\n\n\n\n\n\n\n\n\nPembagian ini membuat orang mengira ada tiga aktivitas terpisah untuk menguji validitas. Dalam praktiknya, banyak mahasiswa menuliskan “uji validitas isi sudah dilakukan” di tugas akhirnya, tetapi tidak menjelaskan lebih jauh apa maksudnya.",
+    "section": "Awalnya..",
+    "text": "Awalnya..\nSampai sekitar 1970-an, buku teks membagi validitas menjadi tiga:\n\nValiditas isi — apakah itemnya mewakili materi yang seharusnya?\nValiditas kriteria — apakah skornya berkorelasi dengan ukuran lain yang relevan, baik saat ini (concurrent) maupun di masa depan (predictive)?\nValiditas konstruk — apakah skornya berperilaku sesuai teori?\n\n\n\n\n\n\n\n\nPembagian ini membuat orang mengira ada tiga aktivitas terpisah untuk menguji validitas. Dalam praktiknya, banyak mahasiswa menuliskan “uji validitas isi sudah dilakukan” di tugas akhirnya, tetapi tidak menjelaskan lebih jauh apa maksudnya.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5679,7 +5703,7 @@
     "href": "slides/pertemuan7.html#apa-yang-berubah-di-sisi-praktis",
     "title": "Validitas: Konsep Dasar dan Implementasinya",
     "section": "Apa yang berubah di sisi praktis",
-    "text": "Apa yang berubah di sisi praktis\n\n\nCara lama\n“Kami melakukan uji validitas isi, lalu uji validitas konstruk.”\n\nCara sekarang\n“Berikut bukti yang kami kumpulkan untuk mendukung tafsiran skor ini, dan berikut yang belum kami punya.”\nKalimat ini menunjukkan satu argumen validitas yang buktinya diperoleh dari beberapa sumber.\n\n\n\n\n\n\n\n\nPerubahan ini memerlukan transparansi: Anda harus menyebutkan bukti yang belum ada, bukan hanya yang sudah ada.",
+    "text": "Apa yang berubah di sisi praktis\n\n\nCara lama\n“Kami melakukan uji validitas isi, lalu uji validitas konstruk.”\n\nCara sekarang\n“Berikut bukti yang kami kumpulkan untuk mendukung tafsiran skor ini, dan berikut yang belum kami punya.”\nKalimat ini menunjukkan satu argumen validitas yang buktinya diperoleh dari beberapa sumber.\n\n\n\n\n\n\n\n\nPerubahan ini memerlukan transparansi: Anda perlu menyebutkan bukti yang belum ada, bukan hanya yang sudah ada.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5823,7 +5847,7 @@
     "href": "slides/pertemuan7.html#bukti-berbasis-kriteria",
     "title": "Validitas: Konsep Dasar dan Implementasinya",
     "section": "Bukti berbasis kriteria",
-    "text": "Bukti berbasis kriteria\n\nConcurrent — skor berkorelasi dengan kriteria yang diukur pada waktu yang sama.\nPredictive — skor memprediksi kriteria di masa depan.\nKnown-groups — skor membedakan kelompok yang secara teori memang berbeda. Misalnya, skala kecemasan sosial seharusnya memberi skor lebih tinggi pada kelompok yang sedang menjalani terapi untuk keluhan itu.\n\n\n\n\n\n\n\n\nYang realistis untuk proyek UAS Anda\n\n\nKnown-groups dan concurrent masih mungkin. Sertakan satu skala yang sudah mapan tetapi pendek di dalam kuesioner uji coba Anda di Pertemuan 12, lalu laporkan korelasinya.\nSatu korelasi saja sudah jauh lebih baik daripada tidak ada bukti sama sekali.",
+    "text": "Bukti berbasis kriteria\n\nConcurrent — skor berkorelasi dengan kriteria yang diukur pada waktu yang sama.\nPredictive — skor memprediksi kriteria di masa depan.\nKnown-groups — skor membedakan kelompok yang secara teori memang berbeda. Misalnya, skala kecemasan sosial seharusnya memberi skor lebih tinggi pada kelompok yang sedang menjalani terapi untuk menangani kecemasan sosial.\n\n\n\n\n\n\n\n\nYang realistis untuk proyek UAS Anda\n\n\nKnown-groups dan concurrent masih mungkin. Sertakan satu skala yang banyak dipakai tetapi dengan sedikit item di dalam kuesioner uji coba Anda di Pertemuan 12, lalu laporkan korelasinya.\nSatu korelasi saja sudah jauh lebih baik daripada tidak ada bukti sama sekali.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5835,7 +5859,7 @@
     "href": "slides/pertemuan7.html#nama-konstruk-yang-sama-belum-tentu-benar-benar-sama",
     "title": "Validitas: Konsep Dasar dan Implementasinya",
     "section": "Nama konstruk yang sama belum tentu benar-benar sama",
-    "text": "Nama konstruk yang sama belum tentu benar-benar sama\n\nIngat temuan Fried (2017) dari Pertemuan 1: tujuh skala depresi memuat 52 gejala berbeda.\nKarena itu, korelasi rendah dengan skala “sejenis” belum tentu berarti skala Anda buruk. Bisa jadi kedua skala memang mengukur hal yang berbeda meski namanya sama.\nYang perlu Anda periksa adalah isi skala pembanding, bukan hanya namanya.",
+    "text": "Nama konstruk yang sama belum tentu benar-benar sama\n\nIngat temuan Fried (2017) dari Pertemuan 1: tujuh skala depresi memuat 52 gejala berbeda.\nKarena itu, korelasi rendah dengan skala yang diklaim mengukur konstruk yang sama dengan yang Anda ukur belum tentu berarti skala Anda buruk. Bisa jadi kedua skala memang mengukur hal yang berbeda meski namanya sama.\nYang perlu Anda periksa adalah substansi dari skala pembanding ini, bukan hanya nama konstruknya.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5867,11 +5891,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan7.html#keberatan-borsboom",
-    "href": "slides/pertemuan7.html#keberatan-borsboom",
+    "objectID": "slides/pertemuan7.html#kritik-borsboom-dkk-terhadap-messick",
+    "href": "slides/pertemuan7.html#kritik-borsboom-dkk-terhadap-messick",
     "title": "Validitas: Konsep Dasar dan Implementasinya",
-    "section": "Keberatan Borsboom",
-    "text": "Keberatan Borsboom\n\nBorsboom, Mellenbergh, & van Heerden (2004) menilai definisi Messick terlalu luas dan mencampurkan terlalu banyak hal.\nMenurut mereka, pertanyaan validitas seharusnya jauh lebih sederhana: apakah atribut itu ada, dan apakah variasi pada atribut itu menyebabkan variasi pada skor?\nKalau ya, tesnya valid. Kalau tidak, berarti tidak. Soal kegunaan dan konsekuensi, menurut mereka, adalah pertanyaan yang berbeda.\n\n\n\n\n\n\n\n\nSama seperti kritik Michell di Pertemuan 1: Anda tidak harus setuju. Yang perlu Anda tahu adalah bahwa konsep yang tampak mapan pun masih diperdebatkan oleh para ahli psikometri.",
+    "section": "Kritik Borsboom, dkk terhadap Messick",
+    "text": "Kritik Borsboom, dkk terhadap Messick\n\nBorsboom, Mellenbergh, & van Heerden (2004) menilai definisi Messick terlalu luas dan mencampurkan terlalu banyak hal.\nMenurut mereka, pertanyaan validitas seharusnya jauh lebih sederhana: apakah atribut itu ada, dan apakah variasi pada atribut itu menyebabkan variasi pada skor?\nKalau ya, tesnya valid. Kalau tidak, berarti tidak. Soal kegunaan dan konsekuensi, menurut mereka, adalah pertanyaan yang berbeda.\n\n\n\n\n\n\n\n\nSama seperti kritik Michell di Pertemuan 1: Anda tidak harus setuju. Yang perlu Anda tahu adalah bahwa konsep yang tampak mapan pun masih diperdebatkan oleh para ahli psikometri.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5931,7 +5955,7 @@
     "href": "slides/pertemuan7.html#bagian-1-menilai-klaim-validitas",
     "title": "Validitas: Konsep Dasar dan Implementasinya",
     "section": "Bagian 1: menilai klaim validitas",
-    "text": "Bagian 1: menilai klaim validitas\nDiskusikan 15 menit. Untuk tiap klaim: bukti apa yang sebenarnya ditunjukkan, dan bukti apa yang belum ada?\nA. “Skala kami valid karena semua item memiliki korelasi item-total di atas 0.30.”\nB. “Validitas skala kami terbukti karena berkorelasi 0.88 dengan skala kecemasan yang sudah mapan.”\nC. “Skala ini sudah divalidasi pada mahasiswa, jadi bisa dipakai untuk asesmen karyawan.”\n\nJawaban yang diharapkan — A: item-total correlation adalah bukti struktur internal yang lemah, sama sekali bukan bukti isi atau hubungan dengan variabel lain. B: korelasi setinggi itu justru memunculkan pertanyaan diskriminan; kalau memang mengukur hal yang sama, apa gunanya skala baru? C: bukti tidak berpindah antar-populasi dan antar-tujuan penggunaan. Kalau waktu sempit, cukup bahas A dan C.",
+    "text": "Bagian 1: menilai klaim validitas\nUntuk tiap klaim: bukti apa yang sebenarnya ditunjukkan, dan bukti apa yang belum ada?\nA. “Skala kami valid karena semua item memiliki korelasi item-total di atas 0.30.”\nB. “Validitas skala kami terbukti karena berkorelasi 0.88 dengan skala kecemasan yang sudah mapan.”\nC. “Skala ini sudah divalidasi pada mahasiswa, jadi bisa dipakai untuk asesmen karyawan.”\n\nJawaban yang diharapkan — A: item-total correlation adalah bukti struktur internal yang lemah, sama sekali bukan bukti isi atau hubungan dengan variabel lain. B: korelasi setinggi itu justru memunculkan pertanyaan diskriminan; kalau memang mengukur hal yang sama, apa gunanya skala baru? C: bukti tidak berpindah antar-populasi dan antar-tujuan penggunaan. Kalau waktu sempit, cukup bahas A dan C.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5955,7 +5979,7 @@
     "href": "slides/pertemuan7.html#yang-sudah-dipelajari-di-pertengahan-semester-ini",
     "title": "Validitas: Konsep Dasar dan Implementasinya",
     "section": "Yang sudah dipelajari di pertengahan semester ini",
-    "text": "Yang sudah dipelajari di pertengahan semester ini\n\nPengukuran psikologis bersifat tidak langsung, dan definisinya masih diperdebatkan.\nAda enam asumsi yang kita pakai, sebagian besar tanpa disadari.\nCTT merapikan asumsi ini menjadi \\(X = T + E\\).\nFormat respons menentukan asumsi mana yang Anda pakai.\nFormat lain melepaskan asumsi yang berbeda, dengan risikonya masing-masing.\nReliabilitas bisa dihitung, dan \\(\\alpha\\) punya batas yang jelas.\nValiditas adalah argumen yang dibangun dari beberapa sumber bukti.\n\n\n\n\n\n\n\n\nTujuh kesimpulan ini dapat dirangkum menjadi satu kalimat: Anda perlu tahu asumsi apa yang sedang Anda pakai ketika membuat skala dan melakukan pengukuran, dan apa akibatnya kalau asumsi itu salah.",
+    "text": "Yang sudah dipelajari di pertengahan semester ini\n\nPengukuran psikologis bersifat tidak langsung, dan definisinya masih diperdebatkan.\nAda enam asumsi yang kita pakai, sebagian besar tanpa disadari.\nCTT merapikan asumsi ini menjadi \\(X = T + E\\).\nFormat respons menentukan asumsi mana yang Anda pakai.\nFormat lain melepaskan asumsi yang berbeda, dengan risikonya masing-masing.\nReliabilitas bisa dihitung, dan \\(\\alpha\\) punya batas yang jelas.\nValiditas adalah argumen yang dibangun dari beberapa sumber bukti.\n\n\n\n\n\n\n\n\nTujuh kesimpulan ini dapat dirangkum menjadi satu kalimat: Anda perlu tahu dan sadar asumsi apa yang sedang Anda pakai ketika membuat skala dan melakukan pengukuran, dan apa konsekuensinya apabila asumsi ini tidak terpenuhi.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5967,7 +5991,7 @@
     "href": "slides/pertemuan7.html#ujian-tengah-semester",
     "title": "Validitas: Konsep Dasar dan Implementasinya",
     "section": "Ujian Tengah Semester",
-    "text": "Ujian Tengah Semester\n\nBentuknya pilihan ganda, mencakup materi Pertemuan 1 sampai 7.\nYang diuji bukan hafalan nama dan tahun, melainkan kemampuan mengenali situasi: koefisien mana yang cocok, asumsi mana yang dilanggar, bukti mana yang sebenarnya ditunjukkan sebuah pernyataan.\n\n\n\n\n\n\n\n\nCara belajar yang mungkin membantu: ambil satu skala apa pun yang Anda temukan, lalu jawab sendiri tujuh pertanyaan sesuai tujuh pertemuan di atas.",
+    "text": "Ujian Tengah Semester\n\nBentuknya pilihan ganda, dengan materi tahapan penyusunan skala, Likert, SJT, Semantic Differential, Thurstone.\nYang diuji bukan hafalan nama dan tahun, melainkan kemampuan mengenali situasi: koefisien mana yang cocok, asumsi mana yang dilanggar, bukti mana yang sebenarnya ditunjukkan sebuah pernyataan.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",
@@ -5979,7 +6003,7 @@
     "href": "slides/pertemuan7.html#setelah-uts",
     "title": "Validitas: Konsep Dasar dan Implementasinya",
     "section": "Setelah UTS",
-    "text": "Setelah UTS\n\nPertemuan 9 — kita mulai mengerjakan proyeknya: menetapkan konstruk dan estimand, dari tinjauan pustaka sampai definisi operasional.\nPertemuan 10 — menyusun kisi-kisi dan menulis item.\nPertemuan 11 dan seterusnya — bimbingan langsung bersama Bu Dian, di Ruang 303, dengan hari dan jam yang berbeda. Periksa kembali jadwalnya.\n\n\n\n\n\n\n\n\nNote\n\n\nMulai Pertemuan 9, semua yang kita bahas di paruh pertama berubah menjadi keputusan yang harus Anda ambil sendiri.",
+    "text": "Setelah UTS\n\nPertemuan 9 — kita mulai mengerjakan proyeknya: menetapkan konstruk dan estimand, dari tinjauan pustaka sampai definisi operasional.\nPertemuan 10 — menyusun kisi-kisi dan menulis item.\nPertemuan 10 dan seterusnya — bimbingan langsung bersama Bu Dian, di Ruang 303, dengan hari dan jam yang berbeda. Periksa kembali jadwalnya.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇮🇩 ",

@@ -23,8 +23,7 @@ execute:
 1. Why validity is a property of **score interpretations**, not of a scale
 2. How three "types of validity" became **one concept with five sources of evidence**
 3. Those five sources, one at a time
-4. *Construct underrepresentation* and *construct-irrelevant variance*
-5. Why pushing $\alpha$ ever higher can actually **reduce** validity
+4. Why pushing $\alpha$ ever higher can actually **reduce** validity
 
 
 # From reliability to validity {background-color="#14497F" .center}
@@ -43,7 +42,7 @@ execute:
 
 . . .
 
-::: {.callout-note}
+::: {.callout-note appearance="simple"}
 Recall the bathroom scale from Session 3. A scale that is always 2 kg out can be *internally consistent*. Internal consistency can never detect a systematic measurement error.
 :::
 
@@ -55,21 +54,25 @@ Recall the bathroom scale from Session 3. A scale that is always 2 kg out can be
 A common illustration from psychological measurement textbooks.
 :::
 
-## Why this illustration is factually wrong
+## Why this illustration is only partially correct
 
 ::: {.incremental}
 
-* The labels *"Reliable"* and *"Valid"* are attached to the **target board itself** — as if these were properties of the instrument. That is the same mistake as writing "this scale is valid."
+* The labels *"Reliable"* and *"Valid"* are attached to the **target board itself**, as if these were properties of the instrument.
+  + But in fact, both are properties of the scores the measurement produces.
 
-* The *"Valid, Not reliable"* panel is also questionable, specifically for criterion validity: reliability sets an **upper bound** on the validity coefficient (recall the attenuation formula from Session 3, $r_{XY} \leq \sqrt{\rho_{XX'} \times \rho_{YY'}}$). Inconsistent scores automatically cap how strongly they can correlate with any criterion.
+* The *"Valid, Not reliable"* panel is also questionable for criterion-related validity.
+  + Reliability sets an **upper bound** on the criterion-related validity coefficient (recall the attenuation formula from Session 3, $r_{XY} \leq \sqrt{\rho_{XX'} \times \rho_{YY'}}$).
+  + Inconsistent, unreliable scores automatically cap how strongly they can correlate with any criterion.
 
 :::
 
-. . .
+## A more accurate illustration
 
-::: {.callout-tip}
-#### A more accurate reading
-Horizontal axis: **consistency of the scores** (reliability). Vertical axis: **how well the scores track what you intend to measure** (validity). Both are properties of scores for a given use, not something an instrument simply "has" or "lacks."
+![](libs/reliabilitas-validitas-en.svg){fig-align="center"}
+
+::: aside
+The illustration was generated using Gemini 3.8 Flash.
 :::
 
 # Validity is a property of score interpretations {background-color="#14497F" .center}
@@ -285,7 +288,7 @@ CVI uses the same logic with a different criterion.
 . . .
 
 ::: {.callout-tip}
-#### The cheapest step, and the one most often skipped
+#### The easiest step, and the one most often skipped
 Just **3 to 5 people** before the pilot, and it almost always uncovers problems the authors could not see themselves.
 
 Do this before Session 12. It costs almost nothing and usually saves a great deal of analysis work later.
@@ -321,7 +324,7 @@ Do this before Session 12. It costs almost nothing and usually saves a great dea
 
 ::: {.callout-warning}
 #### Why $\alpha$ is only weak evidence
-Session 6 showed it with numbers: $\alpha = .62$ on a scale that was plainly two-dimensional. A single coefficient cannot describe a structure.
+Session 6 showed it with numbers: $\alpha = .62$ on a scale that was plainly two-dimensional.
 :::
 
 # Evidence 4: relations to other variables {background-color="#14497F" .center}
@@ -531,7 +534,7 @@ Check $\alpha$ alongside content coverage. A very high value on a short scale of
 
 ## Part 1: assessing claims
 
-Discuss for **15 minutes**. For each claim: **what evidence does it actually provide, and what is missing?**
+For each claim: **what evidence does it actually provide, and what is missing?**
 
 ::: {.incremental}
 
@@ -597,16 +600,10 @@ All of it comes down to one sentence: **know which assumptions you are relying o
 
 ::: {.incremental}
 
-* It is **multiple choice**, covering **Sessions 1 to 7**.
+* It is **multiple choice**, covering the stages of scale construction, Likert, SJT, Semantic Differential, and Thurstone.
 
 * What is tested is not memorised names and dates but the ability to **recognise a situation**: which coefficient fits, which assumption is being violated, what a given statement actually demonstrates.
 
-:::
-
-. . .
-
-::: {.callout-tip}
-The most useful way to revise: take any scale you can find and answer the seven questions above for it yourself.
 :::
 
 ## After the midterm
@@ -617,14 +614,8 @@ The most useful way to revise: take any scale you can find and answer the seven 
 
 * **Session 10** — building the blueprint and writing items.
 
-* **Session 11 onward** — direct mentoring with Bu Dian, in Room 303, on a different day and time. Check the [schedule](https://rameliaz.github.io/psp/#rencana-pertemuan) again.
+* **Session 10 onward** — direct mentoring with Bu Dian, in Room 303, on a different day and time. Check the [schedule](https://rameliaz.github.io/psp/#rencana-pertemuan) again.
 
-:::
-
-. . .
-
-::: {.callout-note}
-From Session 9 onward, everything from the first half turns into decisions you have to make yourselves.
 :::
 
 ## Thank you!😊 {.closing-slide}
