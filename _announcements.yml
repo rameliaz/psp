@@ -11,8 +11,8 @@
 website:
   announcement:
     icon: info-circle
-    dismissable: true
-    content: '**ngin memberikan masukan tentang proses perkuliahan? Mohon isi [survei evaluasi perkuliahan di sini](https://www.soscisurvey.de/evaluasi/). Terima kasih!**'
+    dismissable: false
+    content: '**Ingin memberikan masukan tentang proses perkuliahan? Mohon isi [survei evaluasi perkuliahan di sini](https://www.soscisurvey.de/evaluasi/). Terima kasih!**'
     type: primary
     position: below-navbar
 
