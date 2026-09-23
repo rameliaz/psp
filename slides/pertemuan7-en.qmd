@@ -69,7 +69,7 @@ A common illustration from psychological measurement textbooks.
 
 ## A more accurate illustration
 
-![](libs/reliabilitas-validitas-en.svg){fig-align="center"}
+![](libs/reliabilitas-validitas-en.png){fig-align="center"  width="110%"}
 
 ::: aside
 The illustration was generated using Gemini 3.8 Flash.
@@ -116,7 +116,7 @@ Instead of *"our scale is valid"*, write:
 It is a longer sentence, but it is the one you can defend.
 :::
 
-## Sentences worth fixing
+## How to report validity?
 
 | Often written | Better |
 |---|---|

@@ -69,7 +69,7 @@ Ilustrasi yang umum muncul di buku ajar pengukuran psikologi.
 
 ## Ilustrasi yang lebih tepat
 
-![](libs/reliabilitas-validitas.svg){fig-align="center"}
+![](libs/reliabilitas-validitas.png){fig-align="center" width="110%"}
 
 ::: aside
 Gambar dibuat dengan Gemini 3.8 Flash
@@ -117,7 +117,7 @@ Alih-alih *"skala kami valid"*, sebaiknya tulis:
 Kalimatnya lebih panjang dan mungkin rumit, tetapi lebih bisa dipertanggungjawabkan secara ilmiah.
 :::
 
-## Kalimat yang perlu diperbaiki
+## bagaimana melaporkan validitas?
 
 | Sering ditulis | Sebaiknya |
 |---|---|
