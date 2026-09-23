@@ -69,7 +69,7 @@ Ilustrasi yang umum muncul di buku ajar pengukuran psikologi.
 
 ## Ilustrasi yang lebih tepat
 
-![](libs/reliabilitas-validitas.png){fig-align="center" width="110%"}
+![](libs/reliabilitas-validitas.svg){fig-align="center" width="120%"}
 
 ::: aside
 Gambar dibuat dengan Gemini 3.8 Flash
