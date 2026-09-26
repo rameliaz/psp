@@ -48,7 +48,7 @@ All of the above share the same shape: **we take these assumptions to be true wi
 
 * Most psychological data are **ordinal** but are treated as **interval**.
 
-* What decides whether your item set is a scale is **theory**, and software output doesn't tell you anything except the numbers.
+* What decides whether your item set is a scale is **theory**, not software output.
 
 :::
 
@@ -56,7 +56,7 @@ All of the above share the same shape: **we take these assumptions to be true wi
 
 ::: {.incremental}
 
-* Because these assumptions **never appear in a research report**. Only the results do.
+* Because these assumptions **rarely appear explicitly in a research report**. Only the results do.
 
 * Because software will not warn you when an assumption is violated. It will simply return a number.
 
@@ -76,7 +76,7 @@ All of the above share the same shape: **we take these assumptions to be true wi
 
 * Assumptions are **the price we pay** for being able to measure anything at all.
 
-* The problem is not that assumptions exist. The problem is **assumptions nobody noticed making**.
+* What causes trouble is **assumptions nobody noticed making**.
 
 :::
 
@@ -167,21 +167,21 @@ This course uses CTT, so *unit weighting* is an assumption you will be making. W
 
 ::: {.incremental}
 
-* **Adolphe Quetelet** (1835) introduced *l'homme moyen*, "the average man".
+* [**Adolphe Quetelet** (1835)](https://direct.mit.edu/books/monograph/5435/chapter-abstract/3959228/L-Homme-Moyen?redirectedFrom=fulltext) introduced *l'homme moyen*, "the average man".
   + He applied the normal curve — at the time a model of **observational error** in astronomy — to human characteristics.
 
 * The implication: the normal curve moved from being **a model of error** to being **a model of people**.
 
 * **Galton** then extended it to psychological traits, and normality has been built into psychometrics ever since.
-  + This is what justified the deeply racist worldview of [*eugenics*](https://www.genome.gov/about-genomics/fact-sheets/Eugenics-and-Scientific-Racism).
+  + This is what was used to justify the deeply racist worldview of [*eugenics*](https://www.genome.gov/about-genomics/fact-sheets/Eugenics-and-Scientific-Racism).
 
 :::
 
 . . .
 
 ::: {.callout-warning}
-#### An inherited habit, not a finding
-There was never strong evidence that psychological attributes **must** be normally distributed. What there was, was a habit inherited from a different context.
+#### Worth being aware of
+There was never strong evidence that psychological attributes **must** be normally distributed. There was only a habit inherited from a very different context.
 :::
 
 ## There is a circularity here that is rarely discussed
@@ -267,7 +267,7 @@ A total-score distribution that "looks normal" is **not evidence** that the unde
 
 ::: {.incremental}
 
-* **Micceri (1989)** examined 440 large-sample distributions from achievement tests and psychometric instruments.
+* **[Micceri (1989)](https://psycnet.apa.org/record/1989-14214-001)** examined 440 large-sample distributions from achievement tests and psychometric instruments.
 
 * The title of the paper: *"The unicorn, the normal curve, and other improbable creatures."*
 
@@ -350,7 +350,7 @@ This is also the problem baked into diagnostic and classification systems for me
 
 * If your construct is **taxonic** but you scale it, your middle scores describe a person who does not actually exist.
 
-* Most psychological scales — including the one you are about to build — assume **dimensional**. That is a common assumption, but it is still one that needs to be tested.
+* Most psychological scales — including the one you are about to build — assume a **dimensional** construct. That is a common assumption, but it is still one that needs to be tested.
   + That said, testing it is beyond the scope of the project you are doing in this course.
 
 :::
@@ -421,7 +421,7 @@ A score of 40 might mean "calm mind, struggling financially" or "financially sec
 #### An example of a violation
 *"I often feel sad"* and *"I frequently feel down"*.
 
-These will correlate strongly — but partly because they are **almost the same sentence**, not only because of depression. Your reliability will look good for the wrong reason.
+These will correlate strongly — but partly because they are **almost the same sentence**, not only because of depression. Your reliability estimate will look good for the wrong reason.
 
 We will cover how to avoid this when we write items in Session 10.
 :::
@@ -436,7 +436,7 @@ We will cover how to avoid this when we write items in Session 10.
 
 * If that fails, comparing scores between groups is not legitimate — like comparing temperatures read off two thermometers with different scales (e.g., Kelvin and Celsius).
 
-* In psychometrics this property is called **measurement invariance**; a violation at the item level is called ***differential item functioning*** (DIF).
+* In psychometrics this property is called [***measurement invariance***](https://en.wikipedia.org/wiki/Measurement_invariance); a violation at the item level is called [***differential item functioning*** (DIF)](https://en.wikipedia.org/wiki/Differential_item_functioning).
 
 :::
 
@@ -474,7 +474,7 @@ Cross-national comparisons of mean self-report scores can come out **backwards**
 
 * Back-translation ensures the **words** match. It does not ensure the **meaning** matches, still less that the item functions the same way for Indonesian participants.
 
-* If your group chooses to adapt an existing scale — one written in a foreign language and validated empirically in another country — that is not a translation job, it is a psychometric one.
+* If your group chooses to adapt an existing scale — one written in a foreign language and whose scores were evaluated empirically in another country — that is not a translation job, it is a psychometric one.
 
 :::
 
@@ -601,7 +601,7 @@ Record completion time, watch for flat response patterns (all "3"s), and fix you
 
 ::: {.callout-note}
 #### What distinguishes good work
-Not a scale free of assumptions — there is no such thing. Rather a scale whose assumptions are **stated, checked as far as they can be checked, and reported honestly**.
+No scale is free of assumptions. The aim is a scale whose assumptions are **stated, checked as far as they can be checked, and reported honestly**.
 :::
 
 ## Why do so few people do this?
@@ -646,7 +646,7 @@ These five points will form part of your final report.
 
 # Summary {background-color="#14497F" .center}
 
-## Six assumptions, one stance
+## The six assumptions
 
 ::: {.incremental}
 

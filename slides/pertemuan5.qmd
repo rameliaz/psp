@@ -36,25 +36,25 @@ Ketika kita memakai skala Likert, secara implisit kita menerima 3️⃣ hal:
 
 1. **Semua item berbobot sama.** Item nomor 1 dan nomor 7 sama-sama bernilai maksimum 5 poin.
 
-2. **Item berupa pernyataan tentang diri sendiri (*self-report*), secara abstrak.** (e.g., *"Saya orang yang teliti."*)
+2. **Item berupa pernyataan tentang diri sendiri (*self-report*), secara abstrak.** (misalnya, *"Saya orang yang teliti."*)
 
-3. **Setiap item dijawab secara terpisah.** Menyetujui satu item tidak berarti memaksa partisipan menolak item lain.
+3. **Setiap item dijawab secara terpisah.** Menyetujui satu item tidak memaksa partisipan menolak item lain.
 
 :::
 
 . . .
 
 ::: {.callout-note appearance="simple"}
-Hari ini kita akan memperlajari tiga format respons yang masing-masing **menolak** ketiga asumsi ini.
+Hari ini kita akan mempelajari tiga format respons yang masing-masing **menolak salah satu** dari asumsi ini.
 :::
 
 ## Format respons dan asumsi Likert yang ditolak
 
-| Format | Yang ditolak | Yang diasumsikan |
+| Format | Yang ditolak | Yang diperoleh |
 |--------|-----------------|----------------|
 | **Thurstone** | Bobot item yang sama | Item terkalibrasi di sepanjang kontinum |
 | **SJT** | Pernyataan tentang diri sendiri yang cenderung abstrak | Konteks dan penilaian yang lebih konkret |
-| ***Forced-choice*** | Kebebasan menjawab tiap item | Menangkal problem *social desirability* |
+| ***Forced-choice*** | Kebebasan menjawab tiap item | Menangkal masalah *social desirability* |
 
 . . .
 
@@ -83,7 +83,7 @@ Analogi dari DeVellis & Thorpe (2022), Bab 5.
 . . .
 
 ::: {.callout-caution appearance="simple"}
-Bandingkan dengan Likert, di mana semua item pada dasarnya adalah **detektor yang sama** dan yang berbeda hanya derajat pilihan responnya.
+Bandingkan dengan Likert: semua item pada dasarnya adalah **detektor yang sama** dan yang berbeda hanya derajat pilihan responsnya.
 :::
 
 ## Bagaimana skala Thurstone dibuat
@@ -98,7 +98,7 @@ Bandingkan dengan Likert, di mana semua item pada dasarnya adalah **detektor yan
 * **Hitung median** penilaian anggota panel untuk tiap pernyataan. 
   + Inilah yang dijadikan **nilai skala** (*scale value*) pernyataan tersebut.
 
-* **Hitung sebaran penilaian anggota panel** (rentang antar-kuartil). Pernyataan yang reviewernya tidak sepakat berarti **ambigu**, dan dibuang.
+* **Hitung sebaran penilaian anggota panel** (rentang antarkuartil). Pernyataan yang tidak disepakati anggota panel berarti **ambigu**, dan dibuang.
 
 * **Pilih pernyataan yang tersisa** sedemikian rupa sehingga nilai skalanya **tersebar merata** di sepanjang kontinum level atribut ($\theta$).
 
@@ -115,8 +115,8 @@ Bandingkan dengan Likert, di mana semua item pada dasarnya adalah **detektor yan
 * Tiap pernyataan punya **satu angka** yang menandai posisinya di kontinum. 
   - Angka inilah yang mencerminkan kalibrasinya.
 
-* Pernyataan 4 punya rentang antar-kuartil yang **sangat lebar**: para anggota panel tidak sepakat pernyataan itu ada di posisi mana. 
-  - Pernyataan seperti ini sebaiknya dibuang, sebagus apapun penulisan kalimatnya.
+* Pernyataan 4 punya rentang antarkuartil yang **sangat lebar**: para anggota panel tidak sepakat pernyataan itu ada di posisi mana. 
+  - Pernyataan seperti ini sebaiknya dibuang, sebagus apa pun penulisan kalimatnya.
 
 * Pernyataan yang lolos harus **tersebar** dari ujung ke ujung kontinum level atribut ($\theta$), sehingga merepresentasikan seluruh spektrum konstruk. 
 
@@ -132,11 +132,11 @@ Pembuat skala sudah menentukan "tingkat kesulitan" tiap item **sebelum partisipa
 
 ::: {.incremental}
 
-* partisipan hanya diminta **setuju atau tidak setuju** (ya/tidak) pada tiap pernyataan.
+* Partisipan hanya diminta **setuju atau tidak setuju** (ya/tidak) pada tiap pernyataan.
 
-* Skor partisipan adalah **rata-rata nilai skala dari pernyataan yang ia setujui**.
+* Skor partisipan adalah **rata-rata (atau median) nilai skala dari pernyataan yang ia setujui**.
 
-* Jadi orang yang menyetujui dua pernyataan dengan nilai skala masing-masing 8.5 dan 10.5, akan mendapat skor 9.5.
+* Jadi orang yang menyetujui dua pernyataan dengan nilai skala masing-masing 8,5 dan 10,5 akan mendapat skor 9,5.
 
 :::
 
@@ -163,15 +163,16 @@ Pada Likert, **informasi ada pada derajat jawaban**. Pada Thurstone, informasi a
 
 ::: {.callout-warning}
 #### Konsekuensi teoretisnya
-Seperti Guttman di Pertemuan 4, item Thurstone **tidak berbobot sama**. Artinya model *parallel* dan *tau-equivalent* dari Pertemuan 3 tidak berlaku, dan Cronbach's $\alpha$ tidak bisa dipakai dalam konteks ini.
+Seperti Guttman di Pertemuan 4, item Thurstone **tidak berbobot sama**. Artinya model *parallel* dan *tau-equivalent* dari Pertemuan 3 tidak berlaku, dan Cronbach's $\alpha$ tidak tepat dipakai sebagai estimasi reliabilitas skornya.
 :::
 
 ## Tetapi gagasannya tetap bermanfaat dalam dua hal
 
 ::: {.incremental}
 
-* **Pengembangan Model IRT.** Metode berbasis IRT **punya tujuan yang sama** dengan Thurstone. 
-  + Parameter kesulitan $b$ yang kita lihat di Pertemuan 3 pada dasarnya adalah nilai skala Thurstone, tetapi bedanya, IRT mengestimasinya dari data pengukuran yang dilakukan pada partisipan, bukan dari panel *reviewer*.
+* **Pengembangan model IRT.** Metode berbasis IRT **punya tujuan yang sama** dengan Thurstone. 
+  + Parameter lokasi item $b$ yang kita lihat di Pertemuan 3 punya peran yang **mirip** dengan nilai skala Thurstone, tetapi IRT mengestimasinya dari data partisipan, bukan dari panel *reviewer*.
+  + Catatan: item Thurstone mengikuti model *ideal point* (peluang setuju paling besar di sekitar posisi item, seperti garpu tala tadi), sedangkan model IRT yang umum adalah model dominansi (peluang setuju terus naik seiring $\theta$).
 
 * **Untuk proyek pengembangan skala Anda.** Di Pertemuan 11, Anda akan meminta panel ahli menilai relevansi tiap item, lalu menghitung [*Content Validity Index*](/slides/pertemuan11.html).
 
@@ -190,11 +191,11 @@ Prosedur CVI adalah **logika Thurstone yang diterapkan pada relevansi item denga
 
 ::: {.incremental}
 
-* partisipan diberi **skenario yang realistis**, lalu diminta menilai beberapa kemungkinan tindakan.
+* Partisipan diberi **skenario yang realistis**, lalu diminta menilai beberapa kemungkinan tindakan.
 
-* Yang diukur bukan pernyataan tentang diri sendiri (*self report*), melainkan **penilaian dalam situasi konkret**.
+* Yang diukur bukan pernyataan tentang diri sendiri (*self-report*), melainkan **penilaian dalam situasi konkret**.
 
-* Berakar pada tes seleksi personel sejak 1940-an, dan populer kembali sejak [Motowidlo dkk. (1990)](https://psycnet.apa.org/record/1991-11281-001) menyebutnya sebagai *low-fidelity simulation*.
+* Berakar sejak 1920-an (Moss, 1926), dipakai luas oleh militer AS pada Perang Dunia II, dan populer kembali sejak [Motowidlo dkk. (1990)](https://psycnet.apa.org/record/1991-11281-001) menyebutnya sebagai *low-fidelity simulation*.
 
 :::
 
@@ -206,7 +207,7 @@ Prosedur CVI adalah **logika Thurstone yang diterapkan pada relevansi item denga
 
 **Seberapa efektif tiap tindakan berikut?**
 
-| | Tindakan | Respon Partisipan (1: sama sekali tidak efektif; 5: sangat efektif) |
+| | Tindakan | Respons partisipan (1: sama sekali tidak efektif; 5: sangat efektif) |
 |---|---|---|
 | A | Mengerjakan sendiri bagian itu agar tenggat terkejar | 1–5 |
 | B | Membagi bagian tersebut ke anggota lain yang sudah selesai | 1–5 |
@@ -245,7 +246,7 @@ Lebih tahan terhadap *social desirability*.
 . . .
 
 ::: {.callout-warning appearance="simple"}
-[Ployhart & Ehrhart (2003)](https://onlinelibrary.wiley.com/doi/abs/10.1111/1468-2389.00222) menunjukkan bahwa **mengganti instruksi respons mengubah properti psikometrik tesnya**, yaitu reliabilitas maupun validitasnya.
+[Ployhart & Ehrhart (2003)](https://onlinelibrary.wiley.com/doi/abs/10.1111/1468-2389.00222) menunjukkan bahwa **mengganti instruksi respons mengubah reliabilitas skor dan konstruk yang terukur**.
 
 :::
 
@@ -264,14 +265,14 @@ Lebih tahan terhadap *social desirability*.
 . . .
 
 ::: {.callout-note appearance="simple"}
-Perhatikan bahwa dua yang pertama **membutuhkan panel**, persis seperti Thurstone dan seperti CVI nanti di Pertemuan 11.
+Perhatikan bahwa kunci berbasis ahli **membutuhkan panel**, persis seperti Thurstone dan seperti CVI nanti di Pertemuan 11. Kunci berbasis konsensus memakai sampel besar sebagai "panel"-nya.
 :::
 
 ## Kelebihannya
 
 ::: {.incremental}
 
-* **Konteks yang konkret.** partisipan tidak diminta menggeneralisasi tentang dirinya, melainkan menanggapi situasi tertentu. 
+* **Konteks yang konkret.** Partisipan tidak diminta menggeneralisasi tentang dirinya, melainkan menanggapi situasi tertentu. 
   - Ini menghindari sebagian masalah akses introspektif dari Pertemuan 2.
 
 * **Tampak relevan bagi partisipan**, sehingga lebih mudah diterima dalam konteks seleksi.
@@ -288,7 +289,7 @@ Perhatikan bahwa dua yang pertama **membutuhkan panel**, persis seperti Thurston
 
 * Akibatnya, konsistensi internalnya sering **rendah**.
 
-* Ini melanggar asumsi unidimensionalitas dari Pertemuan 2, dan membuat model CTT di Pertemuan 3 perlu ditambah *layer* kompleksitasnya.
+* Ini melanggar asumsi unidimensionalitas dari Pertemuan 2, dan membuat model CTT di Pertemuan 3 perlu diperluas.
 
 :::
 
@@ -300,9 +301,9 @@ Perhatikan bahwa dua yang pertama **membutuhkan panel**, persis seperti Thurston
 
 ::: {.callout-warning}
 #### Kesalahan yang umum
-Melaporkan Cronbach's $\alpha$ untuk SJT lalu menyimpulkan tesnya kurang reliabel karena koefisiennya rendah.
+Melaporkan Cronbach's $\alpha$ untuk SJT lalu menyimpulkan skor tesnya kurang reliabel karena koefisiennya rendah.
 
-$\alpha$ mengasumsikan semua item digerakkan oleh satu variabel laten yang sama. Pada SJT, asumsi itu memang tidak dimaksudkan untuk terpenuhi. **Koefisien yang salah akan selalu menghasilkan kesimpulan yang salah**.
+$\alpha$ mengasumsikan semua item digerakkan oleh satu variabel laten yang sama. Pada SJT, asumsi itu memang tidak dimaksudkan untuk terpenuhi. **Koefisien yang tidak sesuai dengan struktur datanya menghasilkan kesimpulan yang keliru**.
 :::
 
 # Forced-choice {background-color="#14497F" .center}
@@ -343,7 +344,7 @@ Kalau partisipan **dipaksa memilih** di antara dua pernyataan yang sama-sama men
 
 * Keduanya mengukur **konstruk yang berbeda**. Di dua item ini kira-kira ketelitian dan keramahan.
 
-* Variasi lain: blok berisi tiga atau empat pernyataan, dengan instruksi *"paling menggambarkan"* dan *"paling tidak menggambarkan"* saya.
+* Variasi lain: blok berisi tiga atau empat pernyataan, dengan instruksi *"paling menggambarkan saya"* dan *"paling tidak menggambarkan saya"*.
 
 :::
 
@@ -359,21 +360,21 @@ Contoh klasiknya adalah *Edwards Personal Preference Schedule* (Edwards, 1959), 
 
 * Kalau tidak disetarakan, format ini **tidak menyelesaikan masalah *social desirability***: partisipan akan tetap memilih yang terdengar lebih baik.
 
-* Menyetarakan kemenarikan prosesnya sama dengan dengan mengkalibrasi item.
+* Proses menyetarakan kemenarikan sama dengan mengalibrasi item.
   + Sekali lagi, mirip dengan Thurstone.
 
 :::
 
-## Risiko yang harus diterima: Ipsativitas
+## Risiko yang harus diterima: ipsativitas
 
 ::: {.incremental}
 
 * Setiap kali partisipan memilih satu pernyataan, ia otomatis **tidak memilih** yang lain.
 
-* Akibatnya, **total skor semua skala menjadi konstan** untuk setiap partisipan. 
+* Akibatnya, **skor total semua skala menjadi konstan** untuk setiap partisipan. 
   + Kalau skor satu skala naik, skor skala lain **harus** turun.
 
-* Data dengan sifat ini disebut **ipsatif**: skornya bermakna **di dalam diri seseorang**, bukan antar-orang.
+* Data dengan sifat ini disebut **ipsatif**: skornya bermakna **di dalam diri seseorang**, bukan antarorang.
 
 :::
 
@@ -383,13 +384,13 @@ Contoh klasiknya adalah *Edwards Personal Preference Schedule* (Edwards, 1959), 
 Pada data ipsatif, skor menjawab pertanyaan *"dari semua hal ini, mana yang paling menonjol pada diri saya?"*, sedangkan untuk Likert: *"seberapa banyak sifat konstruk ini saya miliki dibandingkan orang lain?"*
 :::
 
-## Kenapa ini berpontesi merumitkan analisis
+## Kenapa ini memperumit analisis
 
 ::: {.incremental}
 
-* Karena skor totalnya dipaksa konstan, **korelasi antar-skala dipaksa menjadi negatif**, bahkan kalau konstruk yang sesungguhnya sama sekali tidak berhubungan.
+* Karena skor totalnya dipaksa konstan, **korelasi antarskala dipaksa menjadi negatif**, bahkan kalau konstruk yang sesungguhnya sama sekali tidak berhubungan.
 
-* Untuk instrumen ipsatif dengan $k$ skala, rata-rata korelasi antar-skalanya adalah:
+* Untuk instrumen ipsatif dengan $k$ skala (dengan asumsi varians tiap skala setara), rata-rata korelasi antarskalanya adalah:
 
 $$\bar{r} = -\frac{1}{k-1}$$
 
@@ -406,18 +407,18 @@ $$\bar{r} = -\frac{1}{k-1}$$
 . . .
 
 ::: {.callout-warning appearance="simple"}
-Koefisien-koefisien ini **lebih banyak dijelaskan oleh format skalanya**, bukan dari proses psikologis partisipan yang ingin diukur.
+Koefisien-koefisien ini **lebih banyak dijelaskan oleh format skalanya**, bukan oleh proses psikologis partisipan yang ingin diukur.
 :::
 
 ## Konsekuensinya
 
 ::: {.incremental}
 
-* **Perbandingan antar-orang menjadi tidak memungkinkan.** Skor 8 pada skala ketelitian milik A tidak bisa langsung dibandingkan dengan skor 8 milik B.
+* **Skor tidak bisa dibandingkan antarorang.** Skor 8 pada skala ketelitian milik A tidak bisa langsung dibandingkan dengan skor 8 milik B.
 
 * **Analisis faktor menjadi menyesatkan**, karena struktur korelasinya sudah diganggu lebih dulu oleh formatnya.
 
-* **Koefisien reliabilitas klasik jadi sulit ditafsirkan**. Model CTT di Pertemuan 3 mengandaikan skor yang bebas bergerak, dan data skala *forced-choice* skornya sudah dibatasi formatnya.
+* **Koefisien reliabilitas klasik jadi sulit ditafsirkan**. Model CTT di Pertemuan 3 mengandaikan skor yang bebas bergerak, sedangkan skor *forced-choice* sudah dibatasi oleh formatnya.
 
 :::
 
@@ -428,36 +429,36 @@ Koefisien-koefisien ini **lebih banyak dijelaskan oleh format skalanya**, bukan 
 . . .
 
 ::: {.callout-warning appearance="simple"}
-Instrumen ipsatif **tidak boleh** dipakai untuk seleksi, pemeringkatan, atau perbandingan antar-individu.
+Instrumen ipsatif **tidak boleh** dipakai untuk seleksi, pemeringkatan, atau perbandingan antarindividu.
 :::
 
-## Tetapi, ada beberapa alternatif solusi
+## Ada jalan keluarnya
 
 ::: {.incremental}
 
 * [Brown & Maydeu-Olivares (2011)](https://journals.sagepub.com/doi/abs/10.1177/0013164410375112) menunjukkan bahwa dengan pemodelan **IRT**, skor normatif bisa dipulihkan dari respons *forced-choice*.
 
-* Pendekatannya disebut [***Thurstonian IRT***](https://pmc.ncbi.nlm.nih.gov/articles/PMC6713979/), karena berangkat dari model Thurstone tentang perbandingan berpasangan.
+* Pendekatannya disebut [***Thurstonian IRT***](https://pmc.ncbi.nlm.nih.gov/articles/PMC6713979/), karena berangkat dari model Thurstone tentang perbandingan berpasangan (*law of comparative judgement*; [Thurstone, 1927](https://doi.org/10.1037/h0070288)).
 
-* Jadi format ini tetap bisa dipakai. Asalkan analisisnya memakai model yang tepat, bukan penjumlahan sederhana.
+* Jadi format ini tetap bisa dipakai, asalkan analisisnya memakai model yang tepat, bukan penjumlahan sederhana.
 
 :::
 
 . . .
 
 ::: {.callout-tip appearance="simple"}
-Kita membuka hari ini dengan Thurstone, dan menutupnya dengan Thurstone. Ide kalibrasi item ala Thurstone di tahun 1920-an ini ternyata yang menjadi solusi untuk banyak masalah.
+Model perbandingan berpasangan Thurstone (*law of comparative judgement*, 1927) — bukan metode panel yang kita bahas di awal — ternyata menjadi dasar solusi untuk masalah ini.
 :::
 
-# Apa yang realistis untuk proyek tugas UAS Anda {background-color="#14497F" .center}
+# Apa yang realistis untuk proyek Anda {background-color="#14497F" .center}
 
-## Ketiganya tidak terlalu realistis diterapkan untuk UAS
+## Seberapa realistis ketiganya untuk proyek Anda
 
 ::: {.incremental}
 
 * **Thurstone** — masih realistis, tetapi lebih sulit secara teknis dibandingkan membuat skala Likert. 
 
-* **SJT** — tidak realistis. Menulis skenario yang baik dan menyusun kunci jawabannya adalah penelitian empirik tersendiri.
+* **SJT** — tidak realistis. Menulis skenario yang baik dan menyusun kunci jawabannya adalah penelitian empiris tersendiri.
 
 * ***Forced-choice*** — tidak realistis. Analisis yang benar untuk data ipsatif berada di luar cakupan mata kuliah ini.
 
@@ -493,18 +494,18 @@ Nilai tiap pernyataan berikut dari **1** (sangat menentang) sampai **11** (sanga
 
 ::: {.notes}
 Kumpulkan penilaian seluruh kelas untuk tiap pernyataan, tulis di papan atau di kolom chat.
-Hitung median dan rentang antar-kuartil bersama-sama. Pernyataan 4 dan 6 biasanya paling
+Hitung median dan rentang antarkuartil bersama-sama. Pernyataan 4 dan 6 biasanya paling
 tidak disepakati, karena keduanya bisa dibaca sebagai pernyataan normatif maupun deskriptif.
 Kalau waktunya sempit, cukup pakai tiga pernyataan: 1, 3, dan 6.
 :::
 
-## Bagian 1: menjadi *reviewer* untuk item Thurstone
+## Bagian 1: apa yang dihitung dan didiskusikan
 
 ::: {.incremental}
 
 1. Hitung **median** penilaian kelas untuk tiap pernyataan. Itulah nilai skalanya.
 
-2. Hitung **rentang antar-kuartil** tiap pernyataan. Mana yang paling tidak disepakati?
+2. Hitung **rentang antarkuartil** tiap pernyataan. Mana yang paling tidak disepakati?
 
 3. Pernyataan mana yang akan Anda **buang**, dan kenapa?
 
@@ -547,18 +548,18 @@ Untuk pasangan yang belum setara, tuliskan bagaimana Anda memperbaikinya.
 
 ::: {.incremental}
 
-1. **Thurstone mengkalibrasi item lebih dulu** lewat panel *reviewer*, sehingga item punya posisi yang diketahui di kontinum level atribut ($\theta$).
+1. **Thurstone mengalibrasi item lebih dulu** lewat panel *reviewer*, sehingga item punya posisi yang diketahui di kontinum level atribut ($\theta$).
 
-2. **Kalibrasi nilai skala Thurstone adalah asal mula parameter kesulitan dalam IRT**, dan prosedur *expert review*nya menginspirasi prosedur penilaian *reviewer* dalam proses penghitungan CVI.
+2. **Nilai skala Thurstone punya peran yang mirip dengan parameter lokasi item dalam IRT** (walaupun Thurstone memakai model *ideal point*), dan prosedur *expert review*nya menginspirasi prosedur penilaian *reviewer* dalam proses penghitungan CVI.
 
-3. **SJT mengukur penilaian dalam konteks**, dan konstruknya hampir selalu multidimensional, sehingga Cronbach's $\alpha$ hampir selalu rendah.
+3. **SJT mengukur penilaian dalam konteks**, dan konstruknya hampir selalu multidimensional, sehingga Cronbach's $\alpha$ yang rendah tidak otomatis menandakan masalah.
 
 4. **Instruksi respons pada SJT mengubah konstruk yang terukur.** "*Akan saya lakukan*" dan "*apa yang sebaiknya dilakukan*" bukan hal yang sama.
 
-5. ***Forced-choice* mencegah *social desirability***, tetapi menghasilkan data **ipsatif**.
+5. ***Forced-choice* mengurangi pengaruh *social desirability***, tetapi menghasilkan data **ipsatif**.
 
-6. **Data ipsatif membuat korelasi antar-skala menjadi negatif** dan membuat perbandingan antar-orang sulit dilakukan.
-  + Tetapi, data ini dapat dikoreksi dengan teknik permodelan yang tepat ([Thurstonian IRT](https://pmc.ncbi.nlm.nih.gov/articles/PMC6713979/)).
+6. **Data ipsatif membuat korelasi antarskala menjadi negatif** dan membuat perbandingan antarorang sulit dilakukan.
+  + Tetapi, data ini dapat dikoreksi dengan teknik pemodelan yang tepat ([Thurstonian IRT](https://pmc.ncbi.nlm.nih.gov/articles/PMC6713979/)).
 
 :::
 
@@ -571,7 +572,7 @@ Setelah lima pertemuan membicarakan konsep dan format, kita mulai menghitung: **
 * Rumus **Spearman-Brown** yang sudah dua kali kita tunda.
 * ***Cronbach's alpha*** dan asumsi *tau-equivalent* yang jarang terpenuhi.
 * Koefisien ***omega*** dan kenapa umumnya lebih tepat.
-* *Test-retest*, *split-half*, dan konsistensi internal: tiga pertanyaan yang berbeda, bukan tiga cara menghitung hal yang sama.
+* *Test-retest*, *alternate forms*, dan konsistensi internal: tiga pertanyaan yang berbeda, bukan tiga cara menghitung hal yang sama.
 * Koefisien mana yang sebaiknya Anda laporkan di laporan proyek.
 
 :::
@@ -614,11 +615,15 @@ Hicks, L. E. (1970). Some properties of ipsative, normative, and forced-choice n
 
 McDaniel, M. A., Morgeson, F. P., Finnegan, E. B., Campion, M. A., & Braverman, E. P. (2001). Use of situational judgment tests to predict job performance. *Journal of Applied Psychology, 86*(4), 730–740.
 
+Moss, F. A. (1926). Do you know how to get along with people? *Scientific American, 135*(1), 26–27. https://doi.org/10.1038/scientificamerican0726-26
+
 Motowidlo, S. J., Dunnette, M. D., & Carter, G. W. (1990). An alternative selection procedure: The low-fidelity simulation. *Journal of Applied Psychology, 75*(6), 640–647.
 
 Nunnally, J. C. (1978). *Psychometric theory* (2nd ed.). McGraw-Hill.
 
 Ployhart, R. E., & Ehrhart, M. G. (2003). Be careful what you ask for: Effects of response instructions on the construct validity and reliability of situational judgment tests. *International Journal of Selection and Assessment, 11*(1), 1–16.
+
+Thurstone, L. L. (1927). A law of comparative judgment. *Psychological Review, 34*(4), 273–286. https://doi.org/10.1037/h0070288
 
 Thurstone, L. L. (1928). Attitudes can be measured. *American Journal of Sociology, 33*(4), 529–554.
 

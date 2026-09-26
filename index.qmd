@@ -190,6 +190,10 @@ Mengikuti peraturan akademik Universitas Airlangga:
 Bagi mahasiswa yang ingin memperdalam pengetahuan mengenai validitas, saya sangat merekomendasikan untuk menyimak <i class="fab fa-youtube"></i></a> [AIMOS seminar](https://aimos.community/metascience-seminars) ["*Rethinking Measurement Validity*"](https://www.youtube.com/watch?v=ni4N9aZ2N8A) yang diberikan oleh [Dr. Wendy Higgins](https://findanexpert.unimelb.edu.au/profile/1102472-wendy-higgins).
 :::
 
+### TEDTalk: Mengapa validitas penting? (Mellisa Wolf)
+
+{{< video https://vimeo.com/336426047 >}}
+
 ---
 
 ::: {.callout-tip appearance="simple"}

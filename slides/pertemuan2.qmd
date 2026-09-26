@@ -42,7 +42,7 @@ Semua asumsi di atas punya kesamaan: **asumsi-asumsi ini kita anggap benar tanpa
 
 ::: {.incremental}
 
-* Pengukuran psikologis dilakukan secara **tidak langsung**, lewat indikator sebagai "proksi."
+* Pengukuran psikologis dilakukan secara **tidak langsung**, lewat indikator sebagai "proksi".
 
 * Definisi pengukuran sendiri masih diperdebatkan, dan kritik Michell soal apakah atribut psikologis benar-benar kuantitatif belum benar-benar tuntas dijawab.
 
@@ -56,7 +56,7 @@ Semua asumsi di atas punya kesamaan: **asumsi-asumsi ini kita anggap benar tanpa
 
 ::: {.incremental}
 
-* Karena asumsi-asumsi ini biasanya **tidak dilaporkan secara eksplisit di laporan penelitian**, hanya hasil penelitiannya saja.
+* Karena asumsi-asumsi ini biasanya **jarang ditulis secara eksplisit di laporan penelitian**; yang ditulis hanya hasilnya.
 
 * Karena *software* tidak akan memperingatkan Anda kalau asumsi-asumsi ini dilanggar. Ia tetap mengeluarkan angka.
 
@@ -71,9 +71,9 @@ Semua asumsi di atas punya kesamaan: **asumsi-asumsi ini kita anggap benar tanpa
 ::: {.incremental}
 * Ingat, pengukuran tidak pernah benar-benar bebas nilai atau objektif. Ia selalu *theory-laden*, sehingga hasil pengukuran harus dibaca dalam kerangka asumsi yang menyertainya.
 
-* Oleh karena itu, tidak ada pengukuran yang bebas asumsi. Termometer pun mengasumsikan bahwa hubungan/korelasi pemuaian air raksa bersifat linear terhadap suhu.
+* Oleh karena itu, tidak ada pengukuran yang bebas asumsi. Termometer pun mengasumsikan bahwa pemuaian air raksa linear terhadap suhu.
 
-* Asumsi adalah **pegangan yang harus kita punya** agar bisa mengukur objek ingin kita ukur.
+* Asumsi adalah **pegangan yang harus kita punya** agar bisa mengukur objek yang ingin kita ukur.
 
 * Yang problematik bukan ada atau tidaknya asumsi, melainkan **asumsi yang tidak disadari dan tidak pernah dideklarasikan**.
 
@@ -106,10 +106,10 @@ Semua asumsi di atas punya kesamaan: **asumsi-asumsi ini kita anggap benar tanpa
 |:-:|--------|:---------------------------:|
 | 1 | Atribut psikologis bervariasi secara **kuantitatif** | Sangat sulit |
 | 2 | Sebaran datanya **normal** | Ya |
-| 3 | Atributnya **continuous**, bukan kategorikal | Sebagian |
+| 3 | Atributnya ***continuous***, bukan kategorikal | Sebagian |
 | 4 | Semua item mengukur **satu konstruk yang sama** | Ya |
-| 5 | Cara item bekerja, sama untuk **semua kelompok** (*invariance*) | Ya, kalau datanya cukup |
-| 6 | partisipan **bisa dan mau** menjawab secara akurat | Sebagian |
+| 5 | Item bekerja sama untuk **semua kelompok** (*invariance*) | Ya, kalau datanya cukup |
+| 6 | Partisipan **bisa dan mau** menjawab secara akurat | Sebagian |
 
 : {tbl-colwidths="[8,62,30]"}
 
@@ -133,13 +133,13 @@ Dengan menjumlahkan, Anda sudah mengasumsikan setidaknya tiga hal:
 
 * **Setiap item punya bobot yang sama.** Item 1 dianggap menyumbang sama besar dengan item 7.
 
-* **Jarak antar-kategori respons setara.** Selisih skor depresi 1→2 dianggap sama dengan selisih skor 4→5.
+* **Jarak antarkategori respons setara.** Selisih skor 1→2 dianggap sama dengan selisih skor 4→5.
 
 * **Skor bisa dijumlahkan.** Orang dengan skor 40 dianggap punya kecemasan "dua kali lipat" orang dengan skor 20, atau setidaknya, selisih 10 poin punya arti yang sama di seluruh rentang skala.
 
 :::
 
-## Semua item punya bobot sama = *bold assumption*
+## Kenapa bobot yang sama untuk semua item adalah *bold assumption*
 
 ::: {.incremental}
 
@@ -172,7 +172,7 @@ Mata kuliah ini memakai CTT, jadi *unit weighting* adalah asumsi yang akan Anda 
 * Implikasinya: kurva normal yang awalnya digunakan untuk **memodelkan *error* pengukuran** digunakan juga untuk **memodelkan atribut yang melekat di manusia**.
 
 * **Galton** kemudian memakainya untuk sifat-sifat psikologis, dan sejak itu normalitas menjadi semacam asumsi otomatis dalam psikometri.
-  + Inilah yang menjustifikasi pandangan [*eugenics* yang amat rasis](https://www.genome.gov/about-genomics/fact-sheets/Eugenics-and-Scientific-Racism).
+  + Inilah yang ikut dipakai untuk menjustifikasi pandangan [*eugenics* yang amat rasis](https://www.genome.gov/about-genomics/fact-sheets/Eugenics-and-Scientific-Racism).
 
 :::
 
@@ -180,14 +180,14 @@ Mata kuliah ini memakai CTT, jadi *unit weighting* adalah asumsi yang akan Anda 
 
 ::: {.callout-warning}
 #### Yang perlu disadari
-Tidak pernah ada bukti kuat bahwa atribut psikologis **harus** terdistribusi normal. Yang ada adalah kebiasaan yang diwariskan tetapi dari konteks yang amat berbeda.
+Tidak pernah ada bukti kuat bahwa atribut psikologis **harus** terdistribusi normal. Yang ada hanyalah kebiasaan yang diwariskan dari konteks yang amat berbeda.
 :::
 
 ## Ada sirkularitas yang jarang dibicarakan
 
 ::: {.incremental}
 
-* Dalam penyusunan skala, kita **membuang item** yang terlalu mudah atau terlalu sulit disetujui — item yang hampir semua orang menjawab "5/sangat setuju" (e.g., "*Saya percaya Tuhan benar-benar ada*"), atau hampir semua orang menjawab "1/sangat tidak setuju" (e.g., "*Seks pranikah adalah kewajiban moral yang harus dilakukan semua orang*").
+* Dalam penyusunan skala, kita **membuang item** yang terlalu mudah atau terlalu sulit disetujui — item yang hampir semua orang menjawab "5/sangat setuju" (misalnya "*Saya percaya Tuhan benar-benar ada*"), atau hampir semua orang menjawab "1/sangat tidak setuju" (misalnya "*Seks pranikah adalah kewajiban moral yang harus dilakukan semua orang*").
 
 * Item yang tersisa adalah item yang **membelah partisipan di tengah**.
 
@@ -199,7 +199,7 @@ Tidak pernah ada bukti kuat bahwa atribut psikologis **harus** terdistribusi nor
 
 ::: {.callout-warning}
 #### Perhatikan urutannya
-Kita **memilih item supaya sebarannya normal**, lalu memperlakukan normalitas itu sebagai temuan tentang manusia. Padahal bagaimana cara partisipan merespon skala kita adalah konsekuensi dari cara kita menyusun skalanya.
+Kita **memilih item supaya sebarannya normal**, lalu memperlakukan normalitas itu sebagai temuan tentang manusia. Padahal bagaimana cara partisipan merespons skala kita adalah konsekuensi dari cara kita menyusun skalanya.
 :::
 
 ## Mari lihat data yang sebenarnya
@@ -262,7 +262,7 @@ Skor total tiap dimensi (10 item, rentang 10–50), data yang sama:
 Sebaran skor total yang "terlihat normal" **bukan bukti** bahwa atribut psikologisnya terdistribusi normal. Itu sebagian besar konsekuensi dari menjumlahkan banyak item.
 :::
 
-## Secara umum..
+## Bukan hanya di data ini
 
 ::: {.incremental}
 
@@ -270,7 +270,7 @@ Sebaran skor total yang "terlihat normal" **bukan bukti** bahwa atribut psikolog
 
 * Judul artikelnya: *"The unicorn, the normal curve, and other improbable creatures."*
 
-* Temuannya: **tidak satu pun** sebaran itu memenuhi kriteria normalitas. Sebagian besar menunjukkan asimetri, ekor yang *skewed*, atau multimodalitas.
+* Temuannya: **tidak satu pun** sebaran itu memenuhi kriteria normalitas. Sebagian besar menunjukkan asimetri, ekor yang tebal (*heavy tails*), atau multimodalitas.
 
 :::
 
@@ -283,7 +283,7 @@ Sebaran skor total yang "terlihat normal" **bukan bukti** bahwa atribut psikolog
 Kalau sebaran empirisnya tidak seperti itu, norma Anda akan **salah menempatkan orang** dan yang paling parah justru di ujung-ujung sebaran, tempat keputusan biasanya diambil.
 :::
 
-# Asumsi 3: atributnya continuous, bukan kategorikal {background-color="#14497F" .center}
+# Asumsi 3: atributnya *continuous*, bukan kategorikal {background-color="#14497F" .center}
 
 ## Dua kemungkinan bentuk konstruk
 
@@ -316,7 +316,7 @@ Contoh: hamil/tidak hamil.
 
 ::: {.incremental}
 
-* Ketika Anda ingin mengukur suatu konstruk psikologis, cari tahu **mana yang benar secara teoretis untuk konstruk yang Anda ukur**.
+* Ketika Anda ingin mengukur suatu konstruk psikologis, pertanyaannya: **mana yang benar untuk konstruk yang Anda ukur**?
 
 * Ini adalah pertanyaan **empiris**, dan ada metodenya: [*taxometrics*, dikembangkan Paul Meehl](https://meehl.umn.edu/sites/meehl.umn.edu/files/files/122txmethodschapter.pdf).
 
@@ -338,7 +338,7 @@ Contoh: hamil/tidak hamil.
 
 ::: {.callout-note}
 #### Hubungkan dengan Pertemuan 1
-Ini juga problem yang melekat pada sistem diagnosis dan klasifikasi gangguan jiwa/kesehatan mental: sistem klasifikasi yang kategorikal, dipakai untuk konstruk yang buktinya menunjukkan kontinum. Itu juga yang melatarbelakangi *project* [Research Domain Criteria (RDoC)](https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc).
+Ini juga problem yang melekat pada sistem diagnosis dan klasifikasi gangguan jiwa/kesehatan mental: sistem klasifikasi yang kategorikal, dipakai untuk konstruk yang buktinya menunjukkan kontinum. Itu juga yang melatarbelakangi proyek [Research Domain Criteria (RDoC)](https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc).
 :::
 
 ## Kenapa ini penting untuk skala Anda
@@ -349,8 +349,8 @@ Ini juga problem yang melekat pada sistem diagnosis dan klasifikasi gangguan jiw
 
 * Kalau konstruk Anda **taksonik** tetapi Anda menskalakannya, skor tengah Anda menggambarkan orang yang sebenarnya tidak ada.
 
-* Sebagian besar skala psikologis, termasuk yang akan Anda buat alat ukurnya, kemungkinan besar mengasumsikan **dimensionalitas/*continuum***. Ini adalah asumsi yang umum, tapi asumsi ini perlu diuji.
-  + Tetapi, pengujian ini di luar cakupan *project* yang Anda kerjakan di MK ini.
+* Sebagian besar skala psikologis, termasuk skala yang akan Anda susun, kemungkinan besar mengasumsikan konstruk yang **dimensional** (kontinum). Ini adalah asumsi yang umum, tapi asumsi ini perlu diuji.
+  + Tetapi, pengujian ini di luar cakupan proyek yang Anda kerjakan di mata kuliah ini.
 
 :::
 
@@ -360,13 +360,13 @@ Ini juga problem yang melekat pada sistem diagnosis dan klasifikasi gangguan jiw
 
 ::: {.incremental}
 
-* Ingat logika skala dari Pertemuan 1: konstruk laten adalah **penyebab** respon partisipan atas item dari skala.
+* Ingat logika skala dari Pertemuan 1: konstruk laten adalah **penyebab** respons partisipan atas item dari skala.
 
 * Kalau satu penyebab yang sama menyebabkan sepuluh item, kesepuluh item itu **harus** saling berkorelasi.
 
-* Korelasi antar-item itulah satu-satunya tanda yang bisa kita amati dari variabel yang tidak bisa kita amati.
+* Korelasi antaritem itulah satu-satunya tanda yang bisa kita amati dari variabel yang tidak bisa kita amati.
 
-* Ketika mengasumsikan bahwa ada "penyebab yang sama" yang membuat item saling berkorelasi, maka item-item ini tidak boleh berkorelasi lagi ([*local independence*](https://en.wikipedia.org/wiki/Local_independence)).
+* Kalau kita mengasumsikan bahwa "penyebab yang sama" itulah yang membuat item saling berkorelasi, item-item ini tidak boleh berkorelasi karena alasan lain ([*local independence*](https://en.wikipedia.org/wiki/Local_independence)).
 
 :::
 
@@ -378,7 +378,7 @@ DeVellis & Thorpe (2022), Bab 2.
 
 ::: {.callout-note}
 #### Konsekuensinya
-Karena itu, korelasi antar-item bisa dipakai untuk **mengestimasi** seberapa kuat hubungan tiap item dengan konstruk latennya, meskipun konstruknya sendiri tidak pernah kita ukur langsung.
+Karena itu, korelasi antaritem bisa dipakai untuk **mengestimasi** seberapa kuat hubungan tiap item dengan konstruk latennya, meskipun konstruknya sendiri tidak pernah kita ukur langsung.
 :::
 
 ## Asumsi unidimensionalitas
@@ -420,7 +420,7 @@ Skor 40 bisa berarti "hati tenang, ekonomi sulit" atau "ekonomi mapan, hati geli
 #### Contoh pelanggaran
 *"Saya sering merasa sedih"* dan *"Saya kerap merasa murung"*.
 
-Kedua item ini akan berkorelasi tinggi, tapi sebagian karena keduanya memang **kalimat yang hampir sama**, bukan hanya karena depresi. Reliabilitas skala Anda akan terlihat bagus secara artifisial.
+Kedua item ini akan berkorelasi tinggi, tapi sebagian karena keduanya memang **kalimat yang hampir sama**, bukan hanya karena depresi. Estimasi reliabilitas skor skala Anda akan terlihat bagus secara artifisial.
 
 Kita bahas cara menghindarinya saat menulis item di Pertemuan 10.
 :::
@@ -433,7 +433,7 @@ Kita bahas cara menghindarinya saat menulis item di Pertemuan 10.
 
 * Kita mengasumsikan bahwa item yang sama **artinya sama** bagi laki-laki dan perempuan, bagi mahasiswa dan pekerja, bagi orang Jawa dan orang Sulawesi.
 
-* Kalau asumsi ini tidak terpenuhi, membandingkan skor antar-kelompok menjadi tidak sah dilakukan, ini mirip seperti membandingkan suhu yang diukur dengan dua termometer yang skalanya berbeda (e.g., termometer Kelvin dan Celcius).
+* Kalau asumsi ini tidak terpenuhi, membandingkan skor antarkelompok tidak sah, mirip dengan membandingkan suhu dari dua termometer yang skalanya berbeda (misalnya Kelvin dan Celsius).
 
 * Dalam psikometri, properti ini disebut [***measurement invariance***](https://en.wikipedia.org/wiki/Measurement_invariance); pelanggarannya di tingkat item disebut [***differential item functioning*** (DIF)](https://en.wikipedia.org/wiki/Differential_item_functioning).
 
@@ -450,7 +450,7 @@ Uji formalnya membutuhkan keterampilan teknis yang lebih kompleks dan sampel den
 
 ::: {.incremental}
 
-* **[Heine, Lehman, Peng, & Greenholtz (2002)](https://psycnet.apa.org/record/2002-02942-003)** menunjukkan masalah pada perbandingan skala Likert antar-budaya.
+* **[Heine, Lehman, Peng, & Greenholtz (2002)](https://psycnet.apa.org/record/2002-02942-003)** menunjukkan masalah pada perbandingan skala Likert antarbudaya.
 
 * Ketika seseorang menjawab *"Saya orang yang teliti"*, ia menilai dirinya **relatif terhadap orang-orang di sekitarnya**, bukan terhadap standar universal.
 
@@ -462,7 +462,7 @@ Uji formalnya membutuhkan keterampilan teknis yang lebih kompleks dan sampel den
 
 ::: {.callout-warning}
 #### Implikasinya cukup mengganggu
-Perbandingan rata-rata skor antar-negara pada skala *self-report* bisa **berkebalikan** dengan keadaan sebenarnya, tetapi anehnya, datanya kelihatannya baik-baik saja.
+Perbandingan rata-rata skor antarnegara pada skala *self-report* bisa **berkebalikan** dengan keadaan sebenarnya, dan datanya tetap terlihat baik-baik saja.
 :::
 
 ## Kenapa ini sangat relevan untuk Anda
@@ -473,7 +473,7 @@ Perbandingan rata-rata skor antar-negara pada skala *self-report* bisa **berkeba
 
 * *Back-translation* memastikan **terjemahannya** setara. Ia tidak memastikan **maknanya** setara, apalagi bahwa itemnya berfungsi sama pada partisipan Indonesia.
 
-* Kalau kelompok Anda memilih mengadaptasi skala yang sudah ada (tetapi ditulis dalam bahasa asing dan diuji secara empirik di negara lain), *measurement invariance* bukan sekadar masalah penerjemahan, tetapi masalah psikometrik.
+* Kalau kelompok Anda memilih mengadaptasi skala yang sudah ada (tetapi ditulis dalam bahasa asing dan diuji secara empiris di negara lain), *measurement invariance* bukan sekadar masalah penerjemahan, tetapi masalah psikometrik.
 
 :::
 
@@ -492,9 +492,9 @@ Skala *self-report* mengandaikan dua hal sekaligus:
 
 ::: {.incremental}
 
-1. partisipan **mampu** mengamati kondisi internalnya dan melaporkannya.
+1. Partisipan **mampu** mengamati kondisi internalnya dan melaporkannya.
 
-2. partisipan **bersedia** melaporkannya apa adanya.
+2. Partisipan **bersedia** melaporkannya apa adanya.
 
 :::
 
@@ -525,7 +525,7 @@ Kita pakai prinsip ini saat menulis item di Pertemuan 10.
 
 ::: {.incremental}
 
-* partisipan cenderung menjawab dengan cara yang **membuat dirinya tampak baik**: kadang sadar, kadang tidak.
+* Partisipan cenderung menjawab dengan cara yang **membuat dirinya tampak baik**: kadang sadar, kadang tidak.
 
 * Efeknya paling kuat pada konstruk yang punya muatan moral: kejujuran, prasangka, kepatuhan beragama, penggunaan zat, perilaku seksual.
 
@@ -537,7 +537,7 @@ Kita pakai prinsip ini saat menulis item di Pertemuan 10.
 
 ::: {.callout-warning}
 #### Yang perlu diantisipasi kelompok Anda
-Kalau konstruk yang Anda pilih punya "jawaban yang diterima" secara sosial, sebaran skor Anda akan **menumpuk di satu ujung** (e.g., [*ceiling* atau *floor effect*](https://matilda.fss.uu.nl/articles/floor-ceiling-effects.html)). Anda akan kesulitan membedakan partisipan satu sama lain karena data Anda variansnya rendah. 
+Kalau konstruk yang Anda pilih punya "jawaban yang diterima" secara sosial, sebaran skor Anda akan **menumpuk di satu ujung** (misalnya [*ceiling* atau *floor effect*](https://matilda.fss.uu.nl/articles/floor-ceiling-effects.html)). Anda akan kesulitan membedakan partisipan satu sama lain karena data Anda variansnya rendah. 
 :::
 
 ## Gaya menjawab (*response styles*)
@@ -548,9 +548,9 @@ Kalau konstruk yang Anda pilih punya "jawaban yang diterima" secara sosial, seba
 
 * ***Extreme responding***: kecenderungan memilih ujung skala (1 atau 5).
 
-* ***Midpoint responding***: kecenderungan bertahan di tengah (3) untuk menghindari ekstrimitas jawaban.
+* ***Midpoint responding***: kecenderungan bertahan di tengah (3) untuk menghindari jawaban ekstrem.
 
-* Ketiganya **berbeda antar-budaya**, sehingga bercampur dengan persoalan *invariance* di asumsi sebelumnya.
+* Ketiganya **berbeda antarbudaya**, sehingga bercampur dengan persoalan *invariance* di asumsi sebelumnya.
 
 :::
 
@@ -560,7 +560,7 @@ Kalau konstruk yang Anda pilih punya "jawaban yang diterima" secara sosial, seba
 #### Satu solusi parsial, dengan risiko yang berbeda
 *Acquiescence* biasanya diredam dengan menyisipkan **item bernada terbalik** (*unfavorable* atau *reverse-worded*).
 
-Tetapi item terbalik punya masalahnya sendiri: sebagian partisipan salah membacanya, dan seringkali item-item terbalik justru mengelompok sendiri dalam analisis faktor seolah-olah membentuk dimensi terpisah. Kita bahas plus-minusnya di Pertemuan 10.
+Tetapi item terbalik punya masalahnya sendiri: sebagian partisipan salah membacanya, dan sering kali item-item terbalik justru mengelompok sendiri dalam analisis faktor seolah-olah membentuk dimensi terpisah. Kita bahas plus-minusnya di Pertemuan 10.
 :::
 
 ## Partisipan yang menjawab asal-asalan
@@ -571,7 +571,7 @@ Tetapi item terbalik punya masalahnya sendiri: sebagian partisipan salah membaca
 
 * **[Meade & Craig (2012)](https://psycnet.apa.org/record/2012-10015-001)** menunjukkan bahwa proporsinya bisa cukup besar untuk mengubah hasil analisis faktor dan estimasi reliabilitas.
 
-* Ini adalah konsekuensi dari **desain instrumen** yang terlalu membebani partisipan secara kognitif.
+* Sebagian penyebabnya adalah **desain instrumen** yang terlalu membebani partisipan secara kognitif.
 
 :::
 
@@ -579,7 +579,7 @@ Tetapi item terbalik punya masalahnya sendiri: sebagian partisipan salah membaca
 
 ::: {.callout-note}
 #### Yang bisa Anda lakukan saat uji coba
-Catat waktu pengerjaan, perhatikan pola jawaban yang seragam (misalnya semua "3"), dan tetapkan **aturan pembersihan data sebelum melihat hasilnya**. Anda bisa rencanakan bersama kelompok di Pertemuan 12.
+Catat waktu pengerjaan, perhatikan pola jawaban yang seragam (misalnya semua "3"), dan tetapkan **aturan pembersihan data sebelum melihat hasilnya**. Anda bisa merencanakannya bersama kelompok di Pertemuan 12.
 :::
 
 # Lalu, apa yang harus dilakukan? {background-color="#14497F" .center}
@@ -600,7 +600,7 @@ Catat waktu pengerjaan, perhatikan pola jawaban yang seragam (misalnya semua "3"
 
 ::: {.callout-note}
 #### Apa yang bisa diusahakan
-Bukan berarti Anda diminta untuk membuat skala yang bebas asumsi, karena ini tidak mungkin dilakukan. Melainkan Anda harus membuat skala yang **asumsinya dinyatakan, diperiksa sejauh bisa diperiksa, dan dilaporkan apa adanya**.
+Anda tidak diminta membuat skala yang bebas asumsi, karena itu tidak mungkin. Yang diminta adalah skala yang **asumsinya dinyatakan, diperiksa sejauh bisa diperiksa, dan dilaporkan apa adanya**.
 :::
 
 ## Kenapa banyak orang tidak melakukannya?
@@ -617,7 +617,7 @@ Bukan berarti Anda diminta untuk membuat skala yang bebas asumsi, karena ini tid
 
 * Alat untuk memeriksa asumsi-asumsi ini **sudah tersedia sejak lama**, tetapi jarang dipakai oleh peneliti yang tidak memiliki *training* psikometri.
 
-* Salah satu tujuan mata kuliah ini adalah mencegah agar ini tidak terjadi pada Anda.
+* Salah satu tujuan mata kuliah ini adalah mencegah hal ini terjadi pada Anda.
 
 :::
 
@@ -645,17 +645,17 @@ Lima poin ini akan menjadi bagian dari laporan akhir Anda.
 
 # Rangkuman {background-color="#14497F" .center}
 
-## 6️⃣ asumsi pengukuran psikologi
+## Enam asumsi pengukuran psikologi
 
 ::: {.incremental}
 
 1. **Kuantitatif** — menjumlahkan item mengasumsikan bobot yang sama dan jarak yang setara.
 
-2. **Normal** — asumsi warisan dari konteks lain, bukan temuan empirik. Sebaran skor total yang simetris sebagian besar adalah efek penjumlahan.
+2. **Normal** — asumsi warisan dari konteks lain, bukan temuan empiris. Sebaran skor total yang simetris sebagian besar adalah efek penjumlahan.
 
 3. ***Continuous*** — sebagian besar konstruk psikologis tampak dimensional, tetapi ini tetap perlu dideklarasikan.
 
-4. **Penyebab variabel laten yang sama** — unidimensionalitas dan *local independence* menentukan apakah skor total Anda bermakna.
+4. **Satu penyebab laten yang sama** — unidimensionalitas dan *local independence* menentukan apakah skor total Anda bermakna.
 
 5. **Berlaku untuk semua kelompok** — item yang sama tidak selalu berarti sama untuk semua kelompok.
 

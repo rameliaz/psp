@@ -12,7 +12,7 @@
   <meta name="generator" content="quarto-1.10.18">
 
   <meta name="author" content="Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi">
-  <meta name="dcterms.date" content="2026-09-23">
+  <meta name="dcterms.date" content="2026-09-26">
   <title>Penyusunan Skala Psikologi – Reliability: Core Concepts and Implementation</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -157,7 +157,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
     </div>
 </div>
 
-  <p class="date">2026-09-23</p>
+  <p class="date">2026-09-26</p>
 </section>
 <section id="agenda" class="slide level2 agenda-slide">
 <h2>Agenda</h2>
@@ -171,8 +171,8 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 </ol>
 </section>
 <section>
-<section id="from-a-definition-to-a-computation" class="title-slide slide level1 center" data-background-color="#14497F">
-<h1>From a definition to a computation</h1>
+<section id="definition-and-estimation" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1>Definition and estimation</h1>
 
 </section>
 <section id="what-we-already-have" class="slide level2">
@@ -243,7 +243,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <i class="callout-icon"></i>
 </div>
 <div class="callout-content">
-<p>Each examines a <strong>different source of error</strong>. A scale can be highly internally consistent and yet completely unstable from one week to the next.</p>
+<p>Each examines a <strong>different source of error</strong>. Scores can be highly internally consistent and yet completely unstable from one week to the next.</p>
 <p>Reporting <span class="math inline">\(\alpha\)</span> tells you <strong>nothing</strong> about the stability of your scores over time.</p>
 </div>
 </div>
@@ -255,7 +255,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <ul>
 <li class="fragment"><p>Measure the same people twice and correlate the two scores.</p></li>
 <li class="fragment"><p><strong>The interval matters a great deal.</strong> Too short and participants remember their answers; too long and the attribute may genuinely have changed.</p></li>
-<li class="fragment"><p>There is one problem that cannot be avoided: if the correlation is low, we <strong>cannot tell</strong> whether the instrument is unreliable or the people have changed.</p></li>
+<li class="fragment"><p>If the correlation is low, we <strong>cannot tell</strong> whether measurement error is large or the people have changed.</p></li>
 </ul>
 </section></section>
 <section>
@@ -272,7 +272,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 </ul>
 <div class="fragment">
 <p>For the IPIP Extraversion scale (10 items), the odd-even correlation is:</p>
-<p><span class="math display">\[r = 0.748\]</span></p>
+<p><span class="math display">\[r = .748\]</span></p>
 </div>
 </section>
 <section id="but-there-is-a-problem" class="slide level2">
@@ -280,7 +280,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <ul>
 <li class="fragment"><p>That correlation is the reliability of a <strong>5-item test</strong>, not a 10-item one.</p></li>
 <li class="fragment"><p>We have just cut our scale in half and then reported the reliability of the halved version.</p></li>
-<li class="fragment"><p>Recall from Session 3: fewer items means a larger share of error. So 0.748 <strong>underestimates</strong> the real reliability of the scale.</p></li>
+<li class="fragment"><p>Recall from Session 3: fewer items means a larger share of error. So .748 <strong>underestimates</strong> the reliability of the full-length scores.</p></li>
 </ul>
 <div class="fragment">
 <div class="callout callout-tip callout-style-simple">
@@ -300,8 +300,8 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <p>For split-half, correcting from half length to full length:</p>
 <p><span class="math display">\[\rho_{\text{full}} = \frac{2r}{1+r}\]</span></p>
 <div class="fragment">
-<p>With <span class="math inline">\(r = 0.748\)</span>:</p>
-<p><span class="math display">\[\rho = \frac{2 \times 0.748}{1 + 0.748} = \frac{1.496}{1.748} = \mathbf{0.856}\]</span></p>
+<p>With <span class="math inline">\(r = .748\)</span>:</p>
+<p><span class="math display">\[\rho = \frac{2 \times .748}{1 + .748} = \frac{1.496}{1.748} = \mathbf{.856}\]</span></p>
 </div>
 <div class="fragment">
 <div class="callout callout-note callout-style-simple">
@@ -333,7 +333,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <p><strong>The condition people forget</strong></p>
 </div>
 <div class="callout-content">
-<p>The formula assumes the added items are <strong>equivalent</strong> to the existing ones. Adding ten careless items will not produce this result.</p>
+<p>The formula assumes the added items are <strong>equivalent</strong> to the existing ones. Adding ten careless items will not produce a gain that large.</p>
 </div>
 </div>
 </div>
@@ -346,7 +346,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <ul>
 <li class="fragment">Odd-even is only one of them.</li>
 </ul></li>
-<li class="fragment"><p>We tried <strong>500 random splits</strong> of the Extraversion scale. The Spearman-Brown results ranged from <strong>0.845 to 0.920</strong>.</p></li>
+<li class="fragment"><p>We tried <strong>500 random splits</strong> of the Extraversion scale. The Spearman-Brown results ranged from <strong>.845 to .920</strong>.</p></li>
 <li class="fragment"><p>So the answer depends on which split you happen to choose.</p>
 <ul>
 <li class="fragment">That is not an ideal situation.</li>
@@ -389,8 +389,8 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <section id="alpha-is-the-average-of-all-splits" class="slide level2">
 <h2><span class="math inline">\(\alpha\)</span> is the average of all splits</h2>
 <ul>
-<li class="fragment"><p>Across those 500 random splits, the mean Spearman-Brown coefficient was <strong>0.892</strong>.</p></li>
-<li class="fragment"><p>Cronbach’s alpha for the same scale is <strong>0.892</strong>.</p></li>
+<li class="fragment"><p>Across those 500 random splits, the mean Spearman-Brown coefficient was <strong>.892</strong>.</p></li>
+<li class="fragment"><p>Cronbach’s alpha for the same scale is <strong>.892</strong>.</p></li>
 <li class="fragment"><p>Exactly the same number.</p></li>
 </ul>
 <div class="fragment">
@@ -434,7 +434,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>More items, not better items</strong></p>
+<p><strong>Adding items raises <span class="math inline">\(\alpha\)</span></strong></p>
 </div>
 <div class="callout-content">
 <p>Because <span class="math inline">\(k\)</span> is part of it, <strong>a high <span class="math inline">\(\alpha\)</span> can be bought simply by adding items</strong>. You do not need better items; you just need more of them.</p>
@@ -514,14 +514,14 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 </ul>
 <div class="fragment">
 <div class="r-fit-text">
-<p><span class="math inline">\(\alpha = 0.616\)</span></p>
+<p><span class="math inline">\(\alpha = .616\)</span></p>
 </div>
 </div>
 </section>
 <section id="why-doesnt-mixing-two-scales-produce-an-obviously-bad-alpha" class="slide level2">
 <h2>Why doesn’t mixing two scales produce an obviously bad <span class="math inline">\(\alpha\)</span>?</h2>
 <ul>
-<li class="fragment"><p>0.616 <strong>does not look problematic</strong>. It looks like a middling scale that could be improved.</p></li>
+<li class="fragment"><p>An <span class="math inline">\(\alpha\)</span> of .616 <strong>does not look problematic</strong>. It looks like a middling scale that could be improved.</p></li>
 <li class="fragment"><p>Many reports would describe it as “acceptable” and carry on with the analysis.</p></li>
 <li class="fragment"><p>Yet that scale <strong>mixes two different constructs</strong>.</p></li>
 </ul>
@@ -575,7 +575,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <section id="now-compute-omega_h" class="slide level2">
 <h2>Now compute <span class="math inline">\(\omega_h\)</span></h2>
 <div class="r-fit-text">
-<p><span class="math inline">\(\alpha = 0.616\)</span> but <span class="math inline">\(\omega_h \approx 0.00\)</span></p>
+<p><span class="math inline">\(\alpha = .616\)</span> but <span class="math inline">\(\omega_h \approx .00\)</span></p>
 </div>
 <div class="fragment">
 <ul>
@@ -583,8 +583,8 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <li class="fragment"><p>For this mixed set the answer is almost none — because there is no single general factor there.</p></li>
 <li class="fragment"><p>In short</p>
 <ul>
-<li class="fragment"><span class="math inline">\(\alpha\)</span> = 0.616 means <em>“these items correlate with each other”</em></li>
-<li class="fragment"><span class="math inline">\(\omega_h \approx 0.00\)</span> means <em>“these items do <strong>not</strong> measure the same construct”</em></li>
+<li class="fragment"><span class="math inline">\(\alpha\)</span> = .616 means <em>“these items correlate with each other”</em></li>
+<li class="fragment"><span class="math inline">\(\omega_h \approx .00\)</span> means <em>“these items do <strong>not</strong> measure the same construct”</em></li>
 </ul></li>
 </ul>
 </div>
@@ -669,7 +669,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <h2>When they diverge</h2>
 <ul>
 <li class="fragment"><p><strong>When item loadings vary widely.</strong> Here <span class="math inline">\(\alpha\)</span> tends to fall below the true reliability.</p></li>
-<li class="fragment"><p><strong>When the scale is multidimensional.</strong> Here <span class="math inline">\(\alpha\)</span> still looks reasonable while <span class="math inline">\(\omega\)</span> collapses — exactly as in the demonstration.</p></li>
+<li class="fragment"><p><strong>When the scale is multidimensional.</strong> Here <span class="math inline">\(\alpha\)</span> still looks reasonable while <span class="math inline">\(\omega_h\)</span> is very low, as in the demonstration.</p></li>
 </ul>
 <div class="fragment">
 <div class="callout callout-tip callout-style-simple">
@@ -678,7 +678,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <i class="callout-icon"></i>
 </div>
 <div class="callout-content">
-<p>Compute <strong>both</strong>. If <span class="math inline">\(\alpha\)</span> and <span class="math inline">\(\omega\)</span> are close, you have additional evidence that your scale’s structure is unidimensional. If they are far apart, that is <strong>a sign that something about the construct needs checking</strong>.</p>
+<p>Compute <strong>both</strong>. If <span class="math inline">\(\alpha\)</span> and <span class="math inline">\(\omega\)</span> are close, a tau-equivalence violation is unlikely; dimensionality still needs checking separately. If they are far apart, that is <strong>a sign that something about the construct needs checking</strong>.</p>
 </div>
 </div>
 </div>
@@ -774,7 +774,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <p>The IPIP Extraversion scale: <span class="math inline">\(\sigma_X = 9.22\)</span> and <span class="math inline">\(\alpha = .892\)</span>.</p>
 <p><span class="math display">\[SEM = \sigma_X\sqrt{1-\alpha} = 9.22 \times \sqrt{0.108} = \mathbf{3.03}\]</span></p>
 <div class="fragment">
-<p>A 95% interval for someone scoring <strong>30</strong>:</p>
+<p>A 95% confidence interval for someone scoring <strong>30</strong>:</p>
 <p><span class="math display">\[30 \pm 1.96 \times 3.03 \;\approx\; 24.1 \text{ to } 35.9\]</span></p>
 </div>
 <div class="fragment">
@@ -787,7 +787,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <p><strong>Note the width of that interval</strong></p>
 </div>
 <div class="callout-content">
-<p>This is a scale with <span class="math inline">\(\alpha = .89\)</span> — excellent by any criterion. Yet one person’s confidence interval is <strong>nearly 12 points wide</strong> on a scale running from 10 to 50.</p>
+<p>This is a scale with <span class="math inline">\(\alpha = .89\)</span> — high by most conventions. Yet one person’s confidence interval is <strong>nearly 12 points wide</strong> on a scale running from 10 to 50.</p>
 <p>Two people scoring 30 and 35 <strong>cannot</strong> be said to differ.</p>
 </div>
 </div>
@@ -960,7 +960,7 @@ Rizqy Amelia Zein &amp; Dian Kartika Amelia Arbi
 <p><strong>An example of how to report it</strong></p>
 </div>
 <div class="callout-content">
-<p><em>“This 10-item scale had <span class="math inline">\(\alpha = .89\)</span> and <span class="math inline">\(\omega = .89\)</span> in n = 200 undergraduates (aged 18–23). Exploratory factor analysis indicated one dominant factor (eigenvalue 4.5 versus 0.9). SEM = 3.0.”</em></p>
+<p><em>“In a sample of 200 undergraduates (aged 18–23), scores on this 10-item scale had <span class="math inline">\(\alpha = .89\)</span> and <span class="math inline">\(\omega = .89\)</span>. Exploratory factor analysis indicated one dominant factor (eigenvalue 4.5 versus 0.9). SEM = 3.0.”</em></p>
 </div>
 </div>
 </div>

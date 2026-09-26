@@ -25,7 +25,7 @@ execute:
 3. **Item *unfavorable***: bagaimana bukti empiriknya, dan kapan sebaiknya dipakai
 4. Menetapkan **format respons** untuk seluruh skala
 5. Merakit kuesionernya: pengantar, petunjuk, tata letak
-6. *Workshop* dan saling menelaah antar-kelompok
+6. *Workshop* dan saling menelaah antarkelompok
 
 
 # Spesifikasi konstruk menjadi item {background-color="#14497F" .center}
@@ -45,7 +45,7 @@ execute:
 ::: {.callout-warning}
 ### Perhatikan
 
-Kalau kelompok Anda belum punya uraian spesifikasi konstruk, kerjakan itu lebih dulu hari ini. Menulis item tanpa definisi konstruk akan membuat Anda kerja dua kali.
+Kalau kelompok Anda belum punya uraian spesifikasi konstruk, kerjakan itu lebih dulu hari ini. Menulis item tanpa definisi konstruk akan membuat Anda bekerja dua kali.
 :::
 
 # Kisi-kisi {background-color="#14497F" .center}
@@ -102,9 +102,9 @@ Konstruk: **kecemasan sosial** pada mahasiswa S1.
 . . .
 
 ::: {.callout-tip appearance="simple"}
-Ingat dari Pertemuan 6: reliabilitas ditentukan oleh jumlah item dan rata-rata korelasi antar-item. Untuk skala dengan rata-rata korelasi sedang, **10–20 item** biasanya memadai.
+Ingat dari Pertemuan 6: reliabilitas ditentukan oleh jumlah item dan rata-rata korelasi antaritem. Untuk skala dengan rata-rata korelasi sedang, **10–20 item** biasanya memadai.
 
-Menambah item terus-menerus membuat performa skala menjadi semakin jelek, dan menambah beban partisipann.
+Setelah itu, tambahan item hanya sedikit menaikkan reliabilitas, sementara beban partisipan terus bertambah.
 :::
 
 ## Sebarkan itemnya
@@ -115,7 +115,7 @@ Menambah item terus-menerus membuat performa skala menjadi semakin jelek, dan me
 
 * Untuk tiap aspek, tulis sebagian item yang **mudah disetujui** (menandakan tingkat rendah) dan sebagian yang **sulit disetujui** (menandakan tingkat tinggi).
 
-* Kalau semua item Anda menggambarkan tingkat yang ekstrim, partisipan dengan tingkat sedang tidak akan bisa dibedakan satu sama lain.
+* Kalau semua item Anda menggambarkan tingkat yang ekstrem, partisipan dengan tingkat sedang tidak akan bisa dibedakan satu sama lain.
 
 :::
 
@@ -169,7 +169,7 @@ DeVellis menyarankan tingkat keterbacaan setara kelas 5–7 untuk instrumen yang
 
 * Ingat Pertemuan 2: Nisbett & Wilson menunjukkan bahwa orang sering tidak punya akses pada alasan sebenarnya di balik perilakunya.
 
-* Item yang menanyakan **apa yang terjadi** umumnya lebih dapat diandalkan daripada item yang menanyakan **mengapa**.
+* Item yang menanyakan **apa yang terjadi** umumnya menghasilkan jawaban yang lebih akurat daripada item yang menanyakan **mengapa**.
 
 :::
 
@@ -195,7 +195,7 @@ DeVellis menyarankan tingkat keterbacaan setara kelas 5–7 untuk instrumen yang
 . . .
 
 ::: {.callout-warning}
-### Penting diingat
+### Kurun waktu yang bercampur
 
 Mencampur item berkurun waktu berbeda dalam satu skala menambah sumber variasi yang tidak Anda maksud, dan biasanya muncul sebagai faktor tambahan pada analisis di Pertemuan 13.
 :::
@@ -206,7 +206,7 @@ Mencampur item berkurun waktu berbeda dalam satu skala menambah sumber variasi y
 
 * Dari Pertemuan 4: untuk format Likert, pernyataan sebaiknya **cukup kuat, tetapi tidak ekstrem**, karena derajatnya sudah diwakili opsi respons.
 
-* Kalimat yang terlalu lunak akan disetujui hampir semua orang, dan item itu berhenti membedakan siapa pun.
+* Kalimat yang terlalu lunak akan disetujui hampir semua orang, dan item itu tidak lagi membedakan partisipan.
 
 * Kalimat yang terlalu ekstrem akan ditolak hampir semua orang, dengan akibat yang sama.
 
@@ -229,33 +229,33 @@ Mencampur item berkurun waktu berbeda dalam satu skala menambah sumber variasi y
 | "Saya berlebihan dalam mencemaskan pendapat orang." | "Saya sering memikirkan pendapat orang lain tentang saya." |
 | "Saya gagal mengendalikan rasa cemas saya." | "Saya sulit menenangkan diri ketika cemas." |
 
-# Item unfavorable {background-color="#14497F" .center}
+# Item *unfavorable* {background-color="#14497F" .center}
 
 ## Kenapa dipakai
 
 ::: {.incremental}
 
-* Gagasannya berasal dari [Likert (1932)](https://psycnet.apa.org/record/1933-01885-001): untuk menekan kecenderungan partisipan menyetujui apa saja, separuh item dibuat searah dan separuh berlawanan arah.
+* Gagasannya berasal dari [Likert (1932)](https://psycnet.apa.org/record/1933-01885-001): untuk menekan kecenderungan partisipan menyetujui apa saja, separuh item dibuat *favorable* dan separuh *unfavorable*.
 
-* Kalau partisipan hanya mengiyakan, polanya akan terlihat: ia menyetujui item yang searah **dan** yang berlawanan sekaligus.
+* Kalau partisipan hanya mengiyakan, polanya akan terlihat: ia menyetujui item *favorable* **dan** *unfavorable* sekaligus.
 
 :::
 
 . . .
 
 ::: {.callout-note}
-Sampai di sini gagasannya masuk akal. Tetapi, persoalannya muncul pada pelaksanaannya.
+Sampai di sini gagasannya masuk akal. Masalahnya ada pada pelaksanaannya.
 :::
 
 ## Bagaimana bukti empiriknya
 
 ::: {.incremental}
 
-* Skala yang seluruh itemnya searah menghasilkan jawaban yang **lebih akurat** dibandingkan skala campuran.
+* Skala yang seluruh itemnya *favorable* menghasilkan jawaban yang **lebih akurat** dibandingkan skala yang mencampur item *favorable* dan *unfavorable*.
 
-* Skor pada item searah dan item terbalik **tidak simetris**: sangat tidak setuju pada pernyataan positif tidak sama dengan sangat setuju pada pernyataan negatifnya.
+* Skor pada item *favorable* dan item *unfavorable* **tidak simetris**: sangat tidak setuju pada pernyataan positif tidak sama dengan sangat setuju pada pernyataan negatifnya.
 
-* Item terbalik sering **membentuk faktornya sendiri** pada analisis faktor. Yang muncul di situ adalah cara penulisannya.
+* Item *unfavorable* sering **membentuk faktornya sendiri** pada analisis faktor. Yang muncul di situ adalah cara penulisannya.
 
 :::
 
@@ -290,15 +290,15 @@ Ringkasan dari [Chyung, Barkin, & Shamsy (2018)](https://onlinelibrary.wiley.com
 
 * Tidak merasa cemas bukan berarti merasa tenang. Ada banyak keadaan di antaranya.
 
-* Kalau ingin item berlawanan arah, baliklah **isinya**, bukan tata bahasanya: *"Saya merasa tenang saat presentasi."*
+* Kalau ingin menulis item *unfavorable*, baliklah **isinya**, bukan tata bahasanya: *"Saya merasa tenang saat presentasi."*
 
 :::
 
 . . .
 
 ::: {.callout-warning}
-#### Untuk konstruk tertentu, item searah justru lebih tepat
-Untuk konstruk yang sifatnya memang negatif, seperti kecemasan, depresi, kalimat bernada negatif adalah bentuk yang terbaik. Memaksakan item *unfavorable* di sini justru membuat kalimatnya berbelit.
+#### Untuk konstruk tertentu, item *favorable* saja justru lebih tepat
+Untuk konstruk yang sifatnya memang negatif, seperti kecemasan dan depresi, kalimat bernada negatif adalah bentuk yang paling wajar. Memaksakan item *unfavorable* di sini justru membuat kalimatnya berbelit.
 :::
 
 # Format respons {background-color="#14497F" .center}
@@ -312,7 +312,7 @@ Dari Pertemuan 4, tetapkan sekarang untuk **seluruh skala**:
 * **Berapa pilihan.** Pilihan respons sebanyak 5–7 masuk akal untuk sebagian besar tujuan pengukuran.
 * **Pilihan tengah atau tidak.** Pakai kalau posisi tengah memang bermakna untuk konstruk Anda.
 * **Label.** Beri label pada semua pilihan, bukan hanya ujungnya.
-* **Jangkar.** Persetujuan, frekuensi, atau jangkar khusus per item.
+* ***Anchor*.** Persetujuan, frekuensi, atau *anchor* khusus per item.
 
 :::
 
@@ -320,7 +320,7 @@ Dari Pertemuan 4, tetapkan sekarang untuk **seluruh skala**:
 
 ::: {.callout-note}
 #### Soal pilihan tengah
-[Chyung dkk. (2017)](https://onlinelibrary.wiley.com/doi/abs/10.1002/pfi.21727) menyarankan pertanyaannya diubah: bukan *"perlu titik tengah atau tidak"*, melainkan *"kapan titik tengah itu diperlukan"*. Titik tengah tepat kalau ia benar-benar *meaningful* secara teoretis.
+[Chyung dkk. (2017)](https://onlinelibrary.wiley.com/doi/abs/10.1002/pfi.21727) menyarankan pertanyaannya diubah: bukan *"perlu titik tengah atau tidak"*, melainkan *"kapan titik tengah itu diperlukan"*. Titik tengah tepat dipakai kalau posisi tengah memang bermakna secara teoretis.
 
 Kalau yang Anda antisipasi adalah ketidaktahuan, sediakan pilihan terpisah seperti "tidak tahu", jangan dicampur dengan titik tengah.
 :::
@@ -363,7 +363,7 @@ Kalau yang Anda antisipasi adalah ketidaktahuan, sediakan pilihan terpisah seper
 Bikos, *ReCentering Psych Stats: Psychometrics*, Bab 2.
 :::
 
-## Mengapa pengantar dan penutup skala penting?
+## Mengapa pengantar dan penutup kuesioner penting?
 
 ::: {.incremental}
 
@@ -399,7 +399,7 @@ Tampilan yang berantakan menurunkan minat partisipan, dan itu langsung berpengar
 Letakkan di bagian **akhir**, kecuali kalau diperlukan untuk menyaring partisipan di awal. Pertanyaan demografis di awal membuat sebagian partisipan merasa diidentifikasi sebelum mereka tahu isi kuesionernya.
 :::
 
-# Workshop {background-color="#14497F" .center}
+# *Workshop* {background-color="#14497F" .center}
 
 ## Bagian 1: menulis item
 
@@ -416,7 +416,7 @@ Letakkan di bagian **akhir**, kecuali kalau diperlukan untuk menyaring partisipa
 ::: {.notes}
 Kesalahan yang paling sering muncul di sesi ini: kelompok menulis sepuluh parafrase dari satu
 indikator, lalu mengira sudah selesai. Ingatkan bahwa item yang nyaris sama melanggar
-local independence dari Pertemuan 2 dan menaikkan alpha tanpa menambah informasi.
+*local independence* dari Pertemuan 2 dan menaikkan alpha tanpa menambah informasi.
 Kesalahan kedua: semua item menggambarkan tingkat yang parah. Minta mereka membayangkan
 partisipan dengan tingkat sedang, lalu tanya item mana yang bisa membedakannya.
 :::
@@ -449,7 +449,7 @@ Kembalikan daftarnya dengan **catatan tertulis**, bukan penilaian umum. "Item 7 
 ::: {.incremental}
 
 * **Kisi-kisi** dalam bentuk tabel, lengkap dengan bobot dan jumlah item.
-* **Daftar item** yang sudah diperbaiki setelah telaah antar-kelompok, disertai penanda aspek untuk tiap item.
+* **Daftar item** yang sudah diperbaiki setelah telaah antarkelompok, disertai penanda aspek untuk tiap item.
 * **Format respons** beserta labelnya.
 * **Draf kuesioner** lengkap dengan pengantar dan petunjuk pengisian.
 

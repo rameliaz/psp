@@ -37,12 +37,12 @@ execute:
 
 * **Session 10** produced the blueprint and the item list, with a response format.
 
-* **Today** that item list is judged by other people, before any participant completes it.
+* **Today** that item list is judged by an expert panel, before any participant completes it.
 
 :::
 
 ::: {.notes}
-Brief introduction if this is the first session with this class. Check that every group has brought
+This is Bu Dian's first session with this class (Sessions 11–15, Room 303). Brief introduction, then check that every group has brought
 its construct specification and item list. Groups without them cannot fully take part in today's
 practical work; have them complete it during this session.
 :::
@@ -55,6 +55,10 @@ practical work; have them complete it during this session.
 
 * The CVI is a way of making content evidence **computable and reportable**.
 
+:::
+
+::: {.notes}
+Sources of validity evidence were covered in Session 7 (see pertemuan7-en.qmd, section "The five sources of evidence").
 :::
 
 # Assembling the panel {background-color="#14497F" .center}
@@ -96,8 +100,8 @@ These three give different kinds of feedback. A panel made up entirely of academ
 . . .
 
 ::: {.callout-warning}
-#### An odd number is more practical
-With an even number, agreement can split exactly down the middle, leaving you with no basis for a decision.
+#### Odd or even
+The pass criteria on the next slide settle the decision for odd and even panels alike. Choose the panel size based on which experts are available.
 :::
 
 ::: {.notes}
@@ -123,7 +127,7 @@ criterion is actually stricter: every rater must agree.
 . . .
 
 ::: {.callout-warning}
-#### The most commonly forgotten item
+#### The most common omission
 Sending the item list **without the construct definition**. Raters then judge relevance against their own understanding of the construct, and the result cannot be interpreted.
 :::
 
@@ -169,6 +173,10 @@ Sending the item list **without the construct definition**. Raters then judge re
 The CVI only checks whether the items that **exist** are relevant. It cannot check whether part of the construct is **not covered at all**.
 
 That is construct underrepresentation from Session 7. The only way to check it through a panel is to ask directly.
+:::
+
+::: {.notes}
+Construct underrepresentation was covered in Session 7 (see pertemuan7-en.qmd, slide "Two threats").
 :::
 
 # Computing the I-CVI {background-color="#14497F" .center}
@@ -297,7 +305,7 @@ Note A8: an I-CVI of 0.50 looks like "half agreed", but once corrected, the agre
 
 # Computing the S-CVI {background-color="#14497F" .center}
 
-## Two methods, two numbers
+## S-CVI/Ave and S-CVI/UA
 
 ::: {.incremental}
 
@@ -366,9 +374,13 @@ compare them.
 Recall the attenuation paradox from Session 7. Dropping items purely for a higher reliability coefficient can narrow content coverage, which does more harm than good.
 :::
 
+::: {.notes}
+The attenuation paradox was covered in Session 7 (see pertemuan7-en.qmd, slide "The attenuation paradox").
+:::
+
 ## Recompute after revision
 
-If A5 and A8 are revised and re-rated, or removed:
+If A5 and A8 are removed:
 
 ::: {.incremental}
 
@@ -408,6 +420,10 @@ Report **both**: the result before revision and after, together with the decisio
 
 ::: {.callout-tip appearance="simple"}
 The CVI is one source of evidence. It occupies one row of the validity evidence table from Session 7.
+:::
+
+::: {.notes}
+Cognitive interviewing was covered in Session 7 (see pertemuan7-en.qmd, slide "Cognitive interviewing").
 :::
 
 # Practical work {background-color="#14497F" .center}
@@ -477,7 +493,7 @@ Leave 15 minutes to work through one or two groups' results with the whole class
 
 * Designing the **pilot study**: who the participants are, how many, and how to reach them.
 * Setting data-cleaning rules **before** the data arrives.
-* Including **one short comparison scale** for evidence on relations to other variables (*discriminant* vs. *convergent validity*).
+* Including **one short comparison scale** for evidence based on relations to other variables (*convergent* and *discriminant* evidence).
 * Running short cognitive interviews with 3–5 people before distributing the questionnaire.
 
 :::
@@ -502,6 +518,7 @@ Questions?
 * [ ]{.fa-brands .fa-discord .fa-fw} [@rameliaz](https://discord.com/users/807046335613632555)
 * [ ]{.fa-brands .fa-keybase .fa-fw} [@rameliaz](https://keybase.io/rameliaz)
 * [ ]{.fa-brands .fa-github .fa-fw} [@rameliaz](https://github.com/rameliaz)
+* [ ]{.fa-solid .fa-chalkboard-user .fa-fw} Sessions 11–15: Bu Dian (Dian Kartika Amelia Arbi), Room 303
 :::
 
 ::: {.closing-note}

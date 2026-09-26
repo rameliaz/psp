@@ -22,7 +22,7 @@ execute:
 
 1. Building a **blueprint**: how many items per facet, and why that many
 2. Item-writing principles, with faulty examples and their repairs
-3. **Reverse-worded items**: what the evidence says, and when to use them
+3. ***Unfavorable* items**: what the evidence says, and when to use them
 4. Settling the **response format** for the whole scale
 5. Assembling the questionnaire: introduction, instructions, layout
 6. Workshop and peer review between groups
@@ -63,7 +63,7 @@ If your group does not yet have a construct specification, do that first today. 
 . . .
 
 ::: {.callout-note appearance="simple"}
-Without a blueprint, the same thing happens almost every time: the facet that is easiest to picture gets ten items, while the difficult one gets two.
+Without a blueprint, the facet that is easiest to picture gets ten items, while the difficult one gets two.
 :::
 
 ## An example blueprint
@@ -81,7 +81,7 @@ Construct: **social anxiety** in undergraduates.
 
 ::: {.incremental}
 
-* **Weights** come from your construct definition, not from preference.
+* **Weights** come from your construct definition.
 
 * Note the last two columns: you write **considerably more** than you will use.
 
@@ -104,7 +104,7 @@ Construct: **social anxiety** in undergraduates.
 ::: {.callout-tip appearance="simple"}
 Recall from Session 6: reliability is driven by the number of items and the mean inter-item correlation. For a scale with moderate inter-item correlations, **10–20 items** is usually enough.
 
-Adding items past that point makes the scale perform worse, not just improve more slowly, and it increases participant burden.
+Beyond that, extra items add little reliability while participant burden keeps growing.
 :::
 
 ## Spread the items out
@@ -169,7 +169,7 @@ DeVellis suggests a reading level around grades 5–7 for instruments used with 
 
 * Recall Session 2: Nisbett & Wilson showed that people often have no access to the real reasons behind their behaviour.
 
-* Items asking **what happens** are generally more dependable than items asking **why**.
+* Items asking **what happens** generally yield more accurate answers than items asking **why**.
 
 :::
 
@@ -195,7 +195,7 @@ DeVellis suggests a reading level around grades 5–7 for instruments used with 
 . . .
 
 ::: {.callout-warning}
-### Important
+### Mixed time frames
 
 Mixing time frames within one scale adds a source of variation you did not intend, and it usually appears as an extra factor in the analysis in Session 13.
 :::
@@ -206,7 +206,7 @@ Mixing time frames within one scale adds a source of variation you did not inten
 
 * From Session 4: for a Likert format, statements should be **fairly strong but not extreme**, because degree is already carried by the response options.
 
-* A statement that is too mild will be endorsed by nearly everyone, and stops distinguishing anyone.
+* A statement that is too mild will be endorsed by nearly everyone, and no longer distinguishes between participants.
 
 * A statement that is too extreme will be rejected by nearly everyone, with the same result.
 
@@ -229,15 +229,15 @@ Mixing time frames within one scale adds a source of variation you did not inten
 | "I worry excessively about others' opinions." | "I often think about what others think of me." |
 | "I fail to control my anxiety." | "I find it hard to calm myself when anxious." |
 
-# Reverse-worded items {background-color="#14497F" .center}
+# *Unfavorable* items {background-color="#14497F" .center}
 
 ## Why they were introduced
 
 ::: {.incremental}
 
-* The idea comes from Likert (1932) himself: to reduce the tendency to agree with anything, half the items were worded in one direction and half in the other.
+* The idea comes from Likert (1932) himself: to reduce the tendency to agree with anything, half the items were written as *favorable* and half as *unfavorable*.
 
-* If a participant is simply agreeing, the pattern becomes visible: they endorse both the forward and the reversed items.
+* If a participant is simply agreeing, the pattern becomes visible: they endorse both the *favorable* and the *unfavorable* items.
 
 :::
 
@@ -251,11 +251,11 @@ So far the idea is sound. The difficulty is in the execution.
 
 ::: {.incremental}
 
-* Scales with all items worded in one direction produce **more accurate** responses than mixed-worded scales.
+* Scales with only *favorable* items produce **more accurate** responses than scales that mix *favorable* and *unfavorable* items.
 
-* Scores on forward and reversed items are **not symmetric**: strongly disagreeing with a positive statement is not the same as strongly agreeing with its negative counterpart.
+* Scores on *favorable* and *unfavorable* items are **not symmetric**: strongly disagreeing with a positive statement is not the same as strongly agreeing with its negative counterpart.
 
-* Reversed items often **form their own factor** in factor analysis. What appears there is the wording.
+* *Unfavorable* items often **form their own factor** in factor analysis. What appears there is the wording.
 
 :::
 
@@ -269,7 +269,7 @@ Summarised from [Chyung, Barkin, & Shamsy (2018)](https://onlinelibrary.wiley.co
 
 * Participant performance declines roughly **12 minutes** after starting a survey.
 
-* After that, many stop registering the word "not" in an item, even when it is bolded, underlined, or capitalised.
+* After that, many stop registering the word "not" in an item, even when it is bolded or underlined.
 
 :::
 
@@ -277,7 +277,7 @@ Summarised from [Chyung, Barkin, & Shamsy (2018)](https://onlinelibrary.wiley.co
 
 ::: {.callout-tip}
 #### If you use them anyway
-* Place reversed items **early** in the questionnaire.
+* Place *unfavorable* items **early** in the questionnaire.
 * Make sure they are genuine **polar opposites**, not just a "not" added to the sentence.
 * **Check their effect** during analysis: see whether they cluster on their own.
 :::
@@ -290,15 +290,15 @@ Summarised from [Chyung, Barkin, & Shamsy (2018)](https://onlinelibrary.wiley.co
 
 * Not feeling anxious is not the same as feeling calm. There is a great deal in between.
 
-* If you want a reversed item, reverse the **content**, not the grammar: *"I feel calm when presenting."*
+* If you want an *unfavorable* item, reverse the **content**, not the grammar: *"I feel calm when presenting."*
 
 :::
 
 . . .
 
 ::: {.callout-warning}
-#### For some constructs, one-directional items are more appropriate
-For constructs that are themselves negative — anxiety, depression — negatively worded statements are the natural form. Forcing reversals here only makes the sentences convoluted.
+#### For some constructs, *favorable* items alone are more appropriate
+For constructs that are themselves negative, such as anxiety and depression, negatively worded statements are the natural form. Forcing *unfavorable* items here only makes the sentences convoluted.
 :::
 
 # Response format {background-color="#14497F" .center}
@@ -320,9 +320,9 @@ From Session 4, settle these now for **the whole scale**:
 
 ::: {.callout-note}
 #### On the midpoint
-[Chyung et al. (2017)](https://onlinelibrary.wiley.com/doi/abs/10.1002/pfi.21727) suggest reframing the question: not *"should there be a midpoint"* but *"when is a midpoint appropriate"*. A midpoint is appropriate when it is a genuine middle position, not somewhere to hedge.
+[Chyung et al. (2017)](https://onlinelibrary.wiley.com/doi/abs/10.1002/pfi.21727) suggest reframing the question: not *"should there be a midpoint"* but *"when is a midpoint appropriate"*. A midpoint is appropriate when it is a meaningful middle position, not somewhere to hedge.
 
-If what you expect is genuine uncertainty, provide a separate "don't know" option rather than folding it into the midpoint.
+If you expect some participants simply not to know, provide a separate "don't know" option rather than folding it into the midpoint.
 :::
 
 ## Consistency and order
@@ -363,7 +363,7 @@ If what you expect is genuine uncertainty, provide a separate "don't know" optio
 Bikos, *ReCentering Psych Stats: Psychometrics*, Chapter 2.
 :::
 
-## This is not a formality
+## Why the introduction and closing matter
 
 ::: {.incremental}
 

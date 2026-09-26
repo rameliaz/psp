@@ -36,9 +36,9 @@ execute:
 
 * The first seven sessions covered what you need to know. From now on, all of it becomes **decisions your group has to make**.
 
-* Today is not a lecture. Most of the time is **group work**.
+* Today has only a short lecture. Most of the time is for **group work**.
 
-* What you produce today will be used continuously through to Session 15.
+* What you produce today will be used all the way to Session 15.
 
 :::
 
@@ -134,7 +134,7 @@ Adapted from [Podsakoff, MacKenzie, & Podsakoff (2016)](https://journals.sagepub
 . . .
 
 ::: {.callout-warning}
-#### This will be checked
+#### Check this
 The construct name in your report must match who actually completed the questionnaire. A mismatch here will run through the entire report.
 :::
 
@@ -229,7 +229,7 @@ The terms come from Thorndike (1904) and Kelley (1927).
 
 ::: {.incremental}
 
-1. **What is the attribute called?** A person's level of it? Their standing relative to others? The presence or absence of a condition?
+1. **Which quantity?** A person's level of it? Their standing relative to others? The presence or absence of a condition?
 
 2. **In whom?** The target population must be named specifically: not "the public", but for instance "enrolled undergraduates in Surabaya, aged 18–24".
 
@@ -299,14 +299,14 @@ This sentence is the hardest part of today's work. If your group can write it cl
 . . .
 
 ::: {.callout-note}
-Each indicator should yield more than one item. Recall from Session 6 that the number of items affects reliability, and from Session 7 that content coverage affects validity.
+Each indicator should yield more than one item. Recall from Session 6 that the number of items affects reliability, and from Session 7 that content coverage affects the validity of score interpretations.
 :::
 
 ## Dimensional structure
 
 ::: {.incremental}
 
-* Now is the point to state it: is your construct **unidimensional** or **multidimensional**?
+* Now state it: is your construct **unidimensional** or **multidimensional**?
 
 * If multidimensional, name the dimensions and explain how they relate to one another.
 
@@ -389,7 +389,7 @@ This specification becomes an appendix to your final report, and the material th
 
 * We build the **blueprint**: how many items per facet, and why that many.
 * We write items, using the principles covered in Sessions 4 and 5.
-* The most common item-writing faults: double-barrelled items, convoluted sentences, loaded words, and badly designed reverse-worded items.
+* The most common item-writing faults: double-barrelled items, convoluted sentences, loaded words, and badly designed *unfavorable* items.
 * Bring your group's **construct specification**. Without it, there is nothing to work from.
 
 :::

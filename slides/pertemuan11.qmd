@@ -29,7 +29,7 @@ execute:
 7. Keterbatasan CVI
 
 
-## Yang Anda sudah pelajari
+## Yang sudah Anda pelajari
 
 ::: {.incremental}
 
@@ -37,12 +37,12 @@ execute:
 
 * **Pertemuan 10** menghasilkan kisi-kisi dan daftar item, beserta format responsnya.
 
-* **Hari ini** daftar item akan dinilai *reviewer*, sebelum partisipan mengisinya.
+* **Hari ini** daftar item akan dinilai panel ahli, sebelum partisipan mengisinya.
 
 :::
 
 ::: {.notes}
-Perkenalan singkat kalau ini pertemuan pertama dengan kelas ini. Pastikan tiap kelompok sudah
+Ini pertemuan pertama Bu Dian dengan kelas ini (TM11–15, Ruang 303). Perkenalan singkat, lalu pastikan tiap kelompok sudah
 membawa dokumen spesifikasi konstruk dan daftar item. Kelompok yang belum membawa tidak bisa
 mengikuti praktik hari ini secara penuh; minta mereka mengerjakannya di sesi ini juga.
 :::
@@ -51,10 +51,14 @@ mengikuti praktik hari ini secara penuh; minta mereka mengerjakannya di sesi ini
 
 ::: {.incremental}
 
-* Di **Pertemuan 7**, validitas dibahas sebagai kumpulan bukti, bukan satu angka/koefisien khusus. Salah satu sumbernya adalah **bukti berdasarkan isi/konten skala dan konstruknya**.
+* Di **Pertemuan 7**, validitas dibahas sebagai kumpulan bukti, bukan satu angka/koefisien khusus. Salah satu sumbernya adalah **bukti berdasarkan isi tes** (*test content*).
 
 * CVI adalah cara membuat bukti validitas itu **bisa dihitung dan dilaporkan**.
 
+:::
+
+::: {.notes}
+Sumber bukti validitas dibahas di Pertemuan 7 (lihat pertemuan7.qmd, bagian "5️⃣ sumber bukti").
 :::
 
 # Menyusun panel {background-color="#14497F" .center}
@@ -67,7 +71,7 @@ mengikuti praktik hari ini secara penuh; minta mereka mengerjakannya di sesi ini
 
 * **Ahli metode** — orang yang menguasai penyusunan skala, yang bisa menilai apakah item ditulis dengan baik.
 
-* **Perwakilan orang awam dengan karakteristik populasi sasaran** — orang dengan karakteristik yang mirip dengan karakteristik partisipan.
+* **Wakil populasi sasaran** — orang awam yang karakteristiknya mirip dengan calon partisipan.
 
 :::
 
@@ -83,7 +87,7 @@ Ketiganya memberi masukan yang berbeda. **Panel yang seluruhnya berisi dosen** c
 
 * **Minimal 3 orang.** Di bawah itu, kesepakatan hampir tidak berarti apa-apa.
 
-* **5 sampai 10 orang** adalah keputusan yang umum diambil dan lebih aman.
+* **5 sampai 10 orang** adalah jumlah yang umum dan lebih aman.
 
 * Jumlah panel menentukan kriteria kelulusan itemnya, jadi tetapkan jumlah anggota panelnya lebih dulu.
 
@@ -96,8 +100,8 @@ Ketiganya memberi masukan yang berbeda. **Panel yang seluruhnya berisi dosen** c
 . . .
 
 ::: {.callout-warning}
-#### *Reviewer* dengan jumlah ganjil vs. genap
-Dengan jumlah genap, kesepakatan bisa terbelah tepat separuh, dan Anda akan kesulitan untuk memutuskan item mana yang lulus.
+#### Ganjil atau genap
+Kriteria kelulusan di slide berikutnya sudah menentukan keputusan untuk jumlah ganjil maupun genap. Pilih jumlah penilai berdasarkan ketersediaan ahli.
 :::
 
 ::: {.notes}
@@ -106,7 +110,7 @@ dan satu atau dua wakil populasi sasaran. Tekankan bahwa dengan panel kecil, kri
 lebih ketat — semua penilai harus sepakat.
 :::
 
-## Apa yang perlu dipersiapkan untuk *reviewer*
+## Apa yang perlu dipersiapkan untuk panel
 
 ::: {.incremental}
 
@@ -123,8 +127,8 @@ lebih ketat — semua penilai harus sepakat.
 . . .
 
 ::: {.callout-warning}
-#### Jangan dilakukan ❌❌❌
-Mengirim daftar item **tanpa definisi konstruknya**. *Reviewer* kemudian menilai relevansi berdasarkan pemahaman masing-masing tentang konstruk itu, dan hasilnya sulit ditafsirkan.
+#### Yang paling sering terlupa
+Mengirim daftar item **tanpa definisi konstruknya**. Penilai kemudian menilai relevansi berdasarkan pemahaman masing-masing tentang konstruk itu, dan hasilnya sulit ditafsirkan.
 :::
 
 # Formulir penilaian {background-color="#14497F" .center}
@@ -168,12 +172,16 @@ Mengirim daftar item **tanpa definisi konstruknya**. *Reviewer* kemudian menilai
 #### Kenapa pertanyaan terakhir penting disertakan
 CVI hanya memeriksa apakah item yang **tersedia** relevan. Ia tidak bisa memeriksa apakah ada bagian konstruk yang **tidak tercakup sama sekali** (*construct coverage*).
 
-Masalah ini disebut sebagai *construct underrepresentation* dari Pertemuan 7. Satu-satunya cara memeriksanya adalah dengan meminta panel menilai *coverage* secara langsung.
+Ini yang di Pertemuan 7 disebut *construct underrepresentation*. Lewat panel, satu-satunya cara memeriksanya adalah bertanya langsung.
+:::
+
+::: {.notes}
+*Construct underrepresentation* dibahas di Pertemuan 7 (lihat pertemuan7.qmd, slide "*Underrepresentation* vs. *irrelevant*").
 :::
 
 # Menghitung I-CVI {background-color="#14497F" .center}
 
-## *Download* Template Excel untuk menghitung CVI
+## Mengunduh *template* Excel untuk menghitung CVI
 
 ::: {.incremental}
 
@@ -206,7 +214,7 @@ $$\text{I-CVI} = \frac{\text{jumlah penilai yang memberi nilai 3 atau 4}}{\text{
 
 ## Contoh: 8 item, 6 penilai
 
-| Item | Penilai yang menilai relevansi | I-CVI |
+| Item | Jumlah penilai yang menilai relevan | I-CVI |
 |:--:|:--:|:--:|
 | A1 | 6 | 1.00 |
 | A2 | 6 | 1.00 |
@@ -280,7 +288,7 @@ dengan $N$ = jumlah penilai dan $A$ = jumlah penilai yang menilai relevan.
 
 ## Hasilnya pada contoh tadi
 
-| Item | $A$ | I-CVI | $p_c$ | $\kappa^*$ | Penilaian |
+| Item | $A$ | I-CVI | $p_c$ | $\kappa^*$ | Kategori |
 |:--:|:--:|:--:|:--:|:--:|---|
 | A1 | 6 | 1.00 | 0.016 | 1.00 | sangat baik |
 | A3 | 5 | 0.83 | 0.094 | 0.82 | sangat baik |
@@ -297,13 +305,13 @@ Perhatikan A8: I-CVI 0.50 terlihat seperti "setengah setuju", tetapi setelah dik
 
 # Menghitung S-CVI {background-color="#14497F" .center}
 
-## I-CVI vs. S-CVI
+## S-CVI/Ave dan S-CVI/UA
 
 ::: {.incremental}
 
 * **S-CVI/Ave** — rata-rata dari seluruh I-CVI. Menggambarkan relevansi rata-rata item.
 
-* **S-CVI/UA** — proporsi item yang disepakati **semua** penilai (*universal agreement*), yang jauh lebih ketat daripada S-CVI(Ave).
+* **S-CVI/UA** — proporsi item yang disepakati **semua** penilai (*universal agreement*), yang jauh lebih ketat daripada S-CVI/Ave.
 
 :::
 
@@ -313,7 +321,7 @@ Pada contoh tadi:
 
 $$\text{S-CVI/Ave} = \frac{6{.}83}{8} = 0{.}85 \qquad \text{S-CVI/UA} = \frac{4}{8} = 0{.}50$$
 
-## Data yang sama, tapi informasi yang berbeda
+## Data yang sama, tetapi informasi yang berbeda
 
 ::: {.r-fit-text}
 0.85 terlihat memadai.
@@ -327,7 +335,7 @@ $$\text{S-CVI/Ave} = \frac{6{.}83}{8} = 0{.}85 \qquad \text{S-CVI/UA} = \frac{4}
 
 * Keduanya dihitung dari tabel yang persis sama.
 
-* [Polit & Beck (2006)](https://onlinelibrary.wiley.com/doi/abs/10.1002/nur.20147) menulis artikel khusus tentang *keruwetan* ini: banyak laporan menyebut "CVI" tanpa menjelaskan CVI yang versi mana.
+* [Polit & Beck (2006)](https://onlinelibrary.wiley.com/doi/abs/10.1002/nur.20147) menulis artikel khusus tentang kerancuan ini: banyak laporan menyebut "CVI" tanpa menjelaskan versi yang mana.
 
 :::
 
@@ -352,7 +360,7 @@ mereka sendiri dan membandingkannya.
 
 ::: {.incremental}
 
-* **Perbaiki dulu, jangan langsung dibuang.** Baca komentar *reviewer*. Sering kali masalahnya ada pada penulisan kalimatnya.
+* **Perbaiki dulu, jangan langsung dibuang.** Baca komentar penilai. Sering kali masalahnya ada pada penulisan kalimatnya.
 
 * **Buang** kalau item itu memang mengukur hal lain, atau kalau aspeknya sudah diwakili item lain yang lebih baik.
 
@@ -363,12 +371,16 @@ mereka sendiri dan membandingkannya.
 . . .
 
 ::: {.callout-warning appearance="simple"}
-Ingat paradoks atenuasi dari Pertemuan 7. Membuang item hanya demi koefisien reliabilitas yang lebih tinggi bisa mempersempit cakupan isi skala, dan ini justru lebih banyak merugikan Anda.
+Ingat paradoks atenuasi dari Pertemuan 7. Membuang item hanya demi koefisien reliabilitas yang lebih tinggi bisa mempersempit cakupan isi skala, dan kerugiannya lebih besar daripada manfaatnya.
+:::
+
+::: {.notes}
+Paradoks atenuasi dibahas di Pertemuan 7 (lihat pertemuan7.qmd, slide "Paradoks atenuasi").
 :::
 
 ## Hitung ulang setelah perbaikan
 
-Kalau A5 dan A8 diperbaiki lalu dinilai ulang, atau dikeluarkan:
+Kalau A5 dan A8 dikeluarkan:
 
 ::: {.incremental}
 
@@ -392,11 +404,11 @@ Laporkan **kedua-duanya**: hasil sebelum perbaikan dan sesudahnya, beserta keput
 
 ::: {.incremental}
 
-* **Cakupan konstruk.** CVI menilai item yang tersedia, bukan item yang **seharusnya tersedia**. Untuk itu Anda perlu bertanya langsung kepada *reviewer*.
+* **Cakupan konstruk.** CVI menilai item yang tersedia, bukan item yang **seharusnya tersedia**. Untuk itu Anda perlu bertanya langsung kepada panel.
 
-* **Kejelasan bagi partisipan.** *Reviewer* membaca item dengan cara yang berbeda dari calon partisipan. Pemeriksaan kejelasan dilakukan lewat wawancara kognitif, seperti yang dibahas di Pertemuan 7.
+* **Kejelasan bagi partisipan.** Penilai ahli membaca item dengan cara yang berbeda dari calon partisipan. Pemeriksaan kejelasan dilakukan lewat wawancara kognitif, seperti yang dibahas di Pertemuan 7.
 
-* **Apakah konstruknya sendiri masuk akal.** Kalau definisi konstruk Anda bermasalah, *reviewer* akan menilai relevansi terhadap definisi yang bermasalah itu.
+* **Apakah konstruknya sendiri masuk akal.** Kalau definisi konstruk Anda bermasalah, panel akan menilai relevansi terhadap definisi yang bermasalah itu.
 
 :::
 
@@ -407,7 +419,11 @@ Laporkan **kedua-duanya**: hasil sebelum perbaikan dan sesudahnya, beserta keput
 . . .
 
 ::: {.callout-tip appearance="simple"}
-CVI adalah satu sumber bukti validitas. Ia "hanya" salah satu dari sekian banyak alternatif bukti validitas yang sudah dipelajari di Pertemuan 7.
+CVI hanya satu sumber bukti validitas, yaitu satu baris pada tabel sumber bukti validitas dari Pertemuan 7.
+:::
+
+::: {.notes}
+Wawancara kognitif dibahas di Pertemuan 7 (lihat pertemuan7.qmd, slide "Wawancara kognitif (*cognitive interviewing*)").
 :::
 
 # Praktik {background-color="#14497F" .center}
@@ -420,7 +436,7 @@ CVI adalah satu sumber bukti validitas. Ia "hanya" salah satu dari sekian banyak
 
 1. Berkas untuk penilai: definisi konstruk, kisi-kisi, daftar item bernomor.
 2. Formulir penilaian dengan skala 4 poin, kolom komentar, dan pertanyaan tentang kelengkapan.
-3. Daftar calon penilai beserta perannya: ahli isi, ahli metode, atau wakil populasi.
+3. Daftar calon penilai beserta perannya: ahli substansi, ahli metode, atau wakil populasi.
 4. Tenggat pengembalian.
 
 :::
@@ -451,7 +467,7 @@ ini, supaya hasilnya sudah kembali sebelum uji coba di Pertemuan 12.
 . . .
 
 ::: {.callout-tip appearance="simple"}
-Latihan ini tujuannya melatih mahasiswa untuk bertindak sebagai *reviewer*, jadi hasilnya bukan bukti validitas yang sesungguhnya. Tujuannya adalah memastikan perhitungannya sudah benar sebelum data dari *reviewer* yang sebenarnya sudah diperoleh.
+Latihan ini memakai teman sekelas sebagai penilai, jadi hasilnya bukan bukti validitas yang sesungguhnya. Tujuannya memastikan perhitungan Anda sudah benar sebelum data dari panel yang sebenarnya masuk.
 :::
 
 ::: {.notes}
@@ -464,7 +480,7 @@ Sisakan 15 menit untuk membahas hasil satu atau dua kelompok di depan kelas.
 
 ::: {.incremental}
 
-* **Berkas untuk dikirim ke anggota panel** yang sudah siap.
+* **Berkas panel** yang siap dikirim.
 * **Tabel perhitungan** berisi I-CVI, $\kappa^*$, S-CVI/Ave, dan S-CVI/UA.
 * **Catatan keputusan** untuk tiap item: dipertahankan, diperbaiki, atau dikeluarkan, beserta alasannya.
 * **Daftar item hasil revisi**, siap dipakai untuk uji coba.
@@ -478,7 +494,7 @@ Sisakan 15 menit untuk membahas hasil satu atau dua kelompok di depan kelas.
 
 * Merancang **uji coba**: siapa partisipannya, berapa banyak, dan bagaimana menjangkaunya.
 * Menyusun aturan pembersihan data **sebelum** data masuk.
-* Menyertakan **satu skala pembanding** yang pendek, untuk bukti korelasi dengan variabel lain (*discriminant* vs. *convergent validity*).
+* Menyertakan **satu skala pembanding** yang pendek, untuk bukti berdasarkan hubungan dengan variabel lain (*convergent* dan *discriminant evidence*).
 * Menyiapkan wawancara kognitif singkat dengan 3–5 orang sebelum kuesioner disebar.
 
 :::
@@ -487,7 +503,7 @@ Sisakan 15 menit untuk membahas hasil satu atau dua kelompok di depan kelas.
 
 ::: {.callout-tip}
 #### Persiapan
-Bawa daftar item hasil revisi hari ini. Kalau hasil penilaian dari *reviewer* yang sebenarnya sudah didapatkan, silakan bawa juga.
+Bawa daftar item hasil revisi hari ini. Kalau hasil penilaian dari panel yang sebenarnya sudah didapatkan, silakan bawa juga.
 :::
 
 ## Terima kasih!😊 {.closing-slide}
@@ -503,6 +519,7 @@ Ada pertanyaan?
 * [ ]{.fa-brands .fa-discord .fa-fw} [@rameliaz](https://discord.com/users/807046335613632555)
 * [ ]{.fa-brands .fa-keybase .fa-fw} [@rameliaz](https://keybase.io/rameliaz)
 * [ ]{.fa-brands .fa-github .fa-fw} [@rameliaz](https://github.com/rameliaz)
+* [ ]{.fa-solid .fa-chalkboard-user .fa-fw} Pertemuan 11–15: Bu Dian (Dian Kartika Amelia Arbi), Ruang 303
 :::
 
 ::: {.closing-note}

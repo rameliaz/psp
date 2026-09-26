@@ -94,7 +94,7 @@ DeVellis & Thorpe (2022), Chapter 2.
 
 ::: {.callout-warning}
 #### A naming error that happens often
-The name of your construct must reflect **whose data you collected** (e.g., the *estimand*).
+The name of your construct must reflect **whose data you collected** (i.e., the *estimand*).
 :::
 
 ## The latent variable as a *cause*
@@ -108,7 +108,7 @@ The name of your construct must reflect **whose data you collected** (e.g., the 
 
 * Take the item *"No sacrifice is too great if it helps my child succeed."* How strongly someone agrees is determined by how strong their aspiration is.
 
-* Note the direction of the arrow: from construct **to** item (e.g., ["Reflective Model"](slides/pertemuan1-en.html#/a-scale-items-as-effects)). Not the other way round.
+* Note the direction of the arrow: from construct **to** item (see ["the reflective model"](pertemuan1-en.html#/the-reflective-model)). Not the other way round.
 
 :::
 
@@ -226,7 +226,7 @@ $$\rho_{XX'} = \frac{\sigma^2_T}{\sigma^2_X} = \frac{\sigma^2_T}{\sigma^2_T + \s
 
 ## A worked example
 
-Suppose your scale has a total-score standard deviation of $\sigma_X = 5$, so $\sigma^2_X = 25$, with reliability $\rho = 0.80$.
+Suppose your scale has a total-score standard deviation of $\sigma_X = 5$, so $\sigma^2_X = 25$, with score reliability $\rho = 0.80$.
 
 . . .
 
@@ -253,7 +253,7 @@ $$30 \pm 1.96 \times 2.24 \;\approx\; 25.6 \text{ to } 34.4$$
 
 * Two people scoring **30** and **33** **cannot** be said to differ. Their ranges overlap almost entirely.
 
-* And a scale with $\rho = 0.80$ already counts as good by the usual rules of thumb.
+* And scores with $\rho = 0.80$ already counts as good by the usual rules of thumb.
 
 * The lower the reliability, the wider the range, and the less we can say about any individual.
 
@@ -263,7 +263,7 @@ $$30 \pm 1.96 \times 2.24 \;\approx\; 25.6 \text{ to } 34.4$$
 
 ::: {.callout-warning}
 #### Remember this when you build norms
-In Session 14 you will convert scores into categories. If your category boundaries are narrower than your scale's $SEM$, those categories are **not meaningful** — the same person could land in different categories simply by responding on a different day.
+In Session 14 you will convert scores into categories. If your categories are narrower than your scale's $SEM$, those categories are **not meaningful** — the same person could land in different categories simply by responding on a different day.
 :::
 
 # What is a *true score*, really? {background-color="#14497F" .center}
@@ -290,7 +290,7 @@ Lord & Novick (1968/2008); DeVellis & Thorpe (2022), Chapter 3.
 
 * Imagine a bathroom scale that always reads **2 kg heavier** than the truth.
 
-* Weigh someone a hundred times. The results are highly consistent — random error is small, so **reliability is high**.
+* Weigh someone a hundred times. The results are highly consistent — random error is small, so **score reliability is high**.
 
 * That person's true score, by the CTT definition, is their real weight **+ 2 kg**.
 
@@ -302,7 +302,7 @@ Lord & Novick (1968/2008); DeVellis & Thorpe (2022), Chapter 3.
 
 CTT has **no way** to detect a consistent bias. Systematic bias goes into $T$, not into $E$.
 
-Which means: **a reliable instrument can measure the wrong thing, very consistently.**
+Which means: **highly reliable scores can come from an instrument that measures the wrong thing, very consistently.**
 :::
 
 ## Reliability is not validity
@@ -313,7 +313,7 @@ Which means: **a reliable instrument can measure the wrong thing, very consisten
 
 * **Validity** is also a property of scores — more precisely, of the **interpretation of scores for a proposed use**.
 
-* The first does **not guarantee** the second. Your scale can have $\alpha = 0.92$ and its scores still reflect a construct other than the one you claim.
+* The first does **not guarantee** the second. Scores on your scale can have $\alpha = 0.92$ and its scores still reflect a construct other than the one you claim.
 
 :::
 
@@ -352,7 +352,7 @@ This involves the criterion's reliability too. If the criterion is assumed to be
 
 * As soon as the population, the purpose, or the use changes, the evidence has to be re-examined.
 
-* So validity is **never finished**. It is not stamped once and valid forever.
+* So validity is **never finished**. The evidence is not gathered once and settled forever.
 
 :::
 
@@ -433,7 +433,7 @@ $$r_{XY} = \rho_{T_X T_Y} \times \sqrt{\rho_{XX'} \times \rho_{YY'}}$$
 
 * Its origin is now clear: what we correlate is $X$, and $X$ contains $E$.
 
-* The $E$ part correlates with nothing — by CTT's second assumption.
+* The $E$ part correlates with nothing — by CTT's second and third assumptions.
 
 * So error adds to the denominator without adding to the numerator, and the correlation shrinks.
 
@@ -454,7 +454,7 @@ The larger the share of noise in your scores, the smaller every correlation you 
 
 * If your participants are very uniform on the attribute, their range of true scores is narrow. Inter-item correlations shrink, and the **computed reliability drops** — even though the instrument is unchanged.
 
-* Conversely, a highly heterogeneous sample makes the same instrument look more reliable.
+* Conversely, a highly heterogeneous sample makes scores from the same instrument look more reliable.
 
 :::
 
@@ -466,7 +466,7 @@ DeVellis & Thorpe (2022), Chapter 8.
 
 ::: {.callout-warning}
 #### A practical consequence for your pilot study
-The reliability you report is **not purely a property of your instrument** — it is partly a property of your sample. So always report **sample characteristics** alongside the coefficient.
+The reliability coefficient you report partly reflects **your sample's characteristics**. So always report **sample characteristics** alongside the coefficient.
 :::
 
 ## And not only reliability
@@ -744,7 +744,7 @@ We will use question 3 directly when building the blueprint in Session 10.
 
 # Summary {background-color="#14497F" .center}
 
-## 6️⃣ Key points
+## Six key points
 
 ::: {.incremental}
 
@@ -754,7 +754,7 @@ We will use question 3 directly when building the blueprint in Session 10.
 
 3. **Reliability is a proportion of variance**: the share of score variability that is not noise.
 
-4. **True score attaches to the instrument**, not to the construct. A consistently biased instrument can still be highly reliable — and reliability and validity are both properties of **scores**, not of a scale.
+4. **True score attaches to the instrument**, not to the construct. Scores from a consistently biased instrument can still be highly reliable — and reliability and validity are both properties of **scores**, not of a scale.
 
 5. **CTT item statistics depend on the sample.** Report sample characteristics alongside every coefficient.
 

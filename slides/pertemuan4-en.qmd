@@ -28,7 +28,7 @@ execute:
 6. The closing question: **which assumptions does a response format change?**
 
 
-# From a model to the first real decision {background-color="#14497F" .center}
+# Choosing a response format {background-color="#14497F" .center}
 
 ## Where we are
 
@@ -56,7 +56,7 @@ A response format is **not a matter of taste or habit**. Each format carries its
 
 * Most items have two parts: a **stem** (a statement or question) and a set of **response options**.
 
-* What you choose is not just the appearance, but:
+* What you are choosing includes:
   - how much information one item can yield,
   - the level of measurement you are claiming,
   - which kinds of error become possible,
@@ -119,7 +119,7 @@ All four are decisions. Let us take them one at a time.
 
 ::: {.incremental}
 
-* **Four points or fewer** compresses variation between participants and lowers precision.
+* **Two to four points** compresses variation between participants and lowers precision.
   + [Preston & Colman (2000)](https://www.sciencedirect.com/science/article/abs/pii/S0001691899000505) found 2-, 3-, and 4-point scales all performed poorly.
 
 * **Around 5–7 points** is the range most often recommended.
@@ -184,7 +184,7 @@ DeVellis states this plainly: **neither format is inherently superior**. It depe
 . . .
 
 ::: {.callout-warning appearance="minimal"}
-When a midpoint is available it is often **the most frequently chosen option**. If that happens in your pilot data in Session 12, do not immediately conclude your participants are genuinely neutral.
+When a midpoint is available it is often **heavily used**. If that happens in your pilot data in Session 12, do not immediately conclude your participants are genuinely neutral.
 :::
 
 ## "Neutral" and "undecided" are not the same thing
@@ -202,7 +202,7 @@ When a midpoint is available it is often **the most frequently chosen option**. 
 . . .
 
 ::: {.callout-warning}
-#### Why this is not a small matter
+#### What this does to the scale
 This violates the equal-interval assumption from Session 2. If "Slightly Disagree" is used as the midpoint, the scale is no longer symmetric: the distance from 2 to 3 is not the same as the distance from 3 to 4.
 :::
 
@@ -210,7 +210,7 @@ This violates the equal-interval assumption from Session 2. If "Slightly Disagre
 
 ::: {.incremental}
 
-* Labelling **every point** generally yields better reliability and validity than labelling only the endpoints [(Krosnick et al., 2010)](https://www.researchgate.net/profile/Nasir-Ali-22/post/Writing-a-survey/attachment/59d6467e79197b80779a1841/AS%3A458354666545152%401486291676030/download/The+Future+of+Survey+Research+-+Challenges+and+Opportunities.pdf).
+* Labelling **every point** generally yields scores with higher reliability and better validity evidence than labelling only the endpoints [(Krosnick & Presser, 2010)](https://www.researchgate.net/profile/Nasir-Ali-22/post/Writing-a-survey/attachment/59d6467e79197b80779a1841/AS%3A458354666545152%401486291676030/download/The+Future+of+Survey+Research+-+Challenges+and+Opportunities.pdf).
 
 * The reason is simple: if only the ends are labelled, each participant decides for themselves what the points in between mean.
 
@@ -222,11 +222,14 @@ This violates the equal-interval assumption from Session 2. If "Slightly Disagre
 
 ::: {.callout-warning}
 #### An example of problematic labels
-Consider this arrangement, adapted from DeVellis:
+Consider this two-column arrangement, adapted from DeVellis:
 
-Very Helpful ➡️ Not Very Helpful ➡️ Somewhat Helpful ➡️ Not at All Helpful
+| | |
+|---|---|
+| Very Helpful | Not Very Helpful |
+| Somewhat Helpful | Not at All Helpful |
 
-**The problem**: "Somewhat" and "Not Very" are hard to tell apart, even with the order reversed.
+**The problem**: "Somewhat" and "Not Very" are hard to tell apart to begin with. Read down the columns and "Somewhat" looks higher than "Not Very"; read across the rows and the order flips.
 :::
 
 ## Decision 4: which anchors?
@@ -317,7 +320,7 @@ The presence and absence of **one** attribute.
 
 ::: {.incremental}
 
-* Choosing between them is a matter of the logic of your construct, not of style.
+* Choosing between them should follow the logic of your construct.
 
 * "Not friendly" is not necessarily the same as "hostile". Treating them as one continuum is already a theoretical claim.
 
@@ -407,14 +410,14 @@ Note the contrast with Likert. In Likert we sum **degrees of agreement across al
 
 * **Physical functioning**: can get out of bed → can walk indoors → can climb stairs → can walk a kilometre.
 
-* **Social distance** ([Bogardus, 1925](https://link.springer.com/article/10.1007/s12108-007-9023-9)): willing to live in the same country → the same city → the same neighbourhood → be close friends → marry into the family.
+* **Social distance** (adapted from [Bogardus, 1925](https://link.springer.com/article/10.1007/s12108-007-9023-9)): willing to live in the same country → the same city → the same neighbourhood → be close friends → marry into the family.
 
 :::
 
 . . .
 
 ::: {.callout-tip appearance="simple"}
-Note that all three concern **concrete behaviour or capability**, not abstract attitudes.
+Note that all three have a **clear, concrete ordering**, even though social distance itself is an attitude. The order does not depend on each participant's abstract interpretation.
 :::
 
 ## Where Guttman fails
@@ -432,7 +435,7 @@ Note that all three concern **concrete behaviour or capability**, not abstract a
 * But a participant might believe that being active in student organisations does build time-management skills while **also** costing academic achievement — a pattern that breaks the Guttman order.
 
 * **The assumption that all items relate equally strongly to the latent variable does not hold** for Guttman items.
-  + So the *parallel* and *tau-equivalent* models from Session 3 **do not fit** a Guttman scale, and coefficients such as Cronbach's $\alpha$ cannot be used for one.
+  + So the *parallel* and *tau-equivalent* models from Session 3 **do not fit** a Guttman scale, and Cronbach's $\alpha$ is **not an appropriate** reliability estimate for Guttman scale scores.
 
 :::
 
@@ -510,7 +513,7 @@ If time is short, cover A and C only.
 
 2. **A "Likert scale" means a set of summed items**, not one item with five options.
 
-3. **Around 5–7 points** is the sensible range; below 4 loses information, above 7 adds little.
+3. **Around 5–7 points** is the sensible range; four points or fewer loses information, above 7 adds little.
 
 4. **Midpoints have costs and benefits.** Neither format is automatically better — and "neutral", "undecided", and "slightly disagree" are not the same thing.
 

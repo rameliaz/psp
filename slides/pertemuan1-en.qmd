@@ -39,7 +39,7 @@ execute:
   + Add your group members' names to [this spreadsheet](https://docs.google.com/spreadsheets/d/1fTRKB_1MbFcJhqbmfC_gg8h5YDJlRPmh/edit?usp=sharing&ouid=100126014993390956583&rtpof=true&sd=true).
   + Access to the spreadsheet will be locked after Session 3.
 
-* **First half (Sessions 1–7)**: laying the conceptual groundwork. What measurement is, which assumptions we rely on (some implicit and easy to miss), what a latent variable is, how to choose a response format, and what it means for scores to be reliable and valid.
+* **First half (Sessions 1–7)**: laying the conceptual groundwork. What measurement is, which assumptions we rely on (some implicit and easy to miss), what a latent variable is, how to choose a response format, and what it means for scores to be reliable and for score interpretations to be valid.
 
 * **Second half (Sessions 9–15)**: building the scale itself. Defining the construct, writing items, getting expert review, collecting pilot data, running item analysis, and developing norms and a manual.
 
@@ -101,7 +101,7 @@ What makes a number
 
 <br>
 
-Note that this is a **normative** question ("deserve"), which is very different from a technical one like "what's the scale's reliability coefficient?" The answer is not inside the data — it has to be justified on its own terms.
+Note that this is a **normative** question ("deserve"), which is very different from a technical one like "what's the reliability coefficient of the scores?" The answer is not inside the data — it has to be justified conceptually.
 
 # Measurement was born before science {background-color="#14497F" .center}
 
@@ -127,10 +127,10 @@ Note that this is a **normative** question ("deserve"), which is very different 
 
 ::: {.incremental}
 
-* **c. 2200 BCE, China** — civil service examinations for selecting officials.
+* **c. 2200 BCE, China** (per DuBois, 1964; the date is legendary) — civil service examinations for selecting officials.
 
 * A dishonest scale was treated as a moral failing, not merely a technical one — a concern that recurs across religious traditions.
-  + **Qur'an, Al-Muttaffifin 1–3** — condemns those who demand full measure from others but give less when they weigh or measure for others.
+  + **Qur'an, Al-Mutaffifin 1–3** — condemns those who demand full measure from others but give less when they weigh or measure for others.
   + **Qur'an, Al-An'am 152** — commands giving full measure and weight, in justice.
   + **Proverbs 11:1** — *"A false balance is an abomination to the Lord, but a just weight is a delight."*
 
@@ -149,7 +149,7 @@ Every entry is about **fairness**, and less about scientific accuracy. Measureme
 
 ::: {.incremental}
 
-* Late 1660s: **Isaac Newton**, still in his twenties, appears to have been the first to **average repeated observations** in order to obtain a more accurate value.
+* Late 1660s–early 1670s: **Isaac Newton**, still in his twenties, appears to have been the first to **average repeated observations** in order to obtain a more accurate value.
 
 * But he **concealed** the practice for decades and did not document it in his early reports.
 
@@ -178,7 +178,7 @@ It took **a full century after Newton** before scientists widely accepted that *
   + Scientists were expected to produce an "ideal picture" of a natural phenomenon, using their own judgement to decide what should count as ideal.
   + As a result, "accidental" or random deviations were typically excluded from the scientific record ([Daston & Galison, 2007](https://www.amazon.de/-/en/Objectivity-Mit-Press-Lorraine-Daston/dp/189095179X)).
 
-* **The consequence of this shift was enormous**: error, once read as evidence of an observer's incompetence, came to be understood as a "systematic," but random (*stochastic*), property of the measurement process itself — one that could be modelled and estimated.
+* **The consequence of this shift was enormous**: error, once read as evidence of an observer's incompetence, came to be understood as a lawful, random (*stochastic*) property of the measurement process itself — one that could be modelled and estimated.
 
 * Without this shift, *Classical Test Theory* could not exist as we know it today.
 
@@ -200,7 +200,7 @@ It took **a full century after Newton** before scientists widely accepted that *
 
 ::: {.callout-tip}
 #### Remember this analogy
-Bernoulli's comparison describes what we will later call ***random error***, and exactly why reliability can be raised simply by **adding items**.
+Bernoulli's comparison describes what we will later call ***random error***, and exactly why reliability can be raised simply by **adding items that measure the same construct**.
 :::
 
 ## How psychometrics was born
@@ -223,7 +223,7 @@ Bernoulli's comparison describes what we will later call ***random error***, and
 
 ::: {.callout-warning}
 #### An inheritance that is not neutral
-Many early contributors to psychometrics worked within a **[eugenics](https://www.genome.gov/about-genomics/fact-sheets/Eugenics-and-Scientific-Racism)** framework. We still use their statistical tools today, but we are **not obligated to carry forward** the political assumptions and consequences behind them (e.g., forced sterilization or restricted reproduction for groups deemed "inferior").
+Many early contributors to psychometrics worked within a **[eugenics](https://www.genome.gov/about-genomics/fact-sheets/Eugenics-and-Scientific-Racism)** framework. We still use their statistical tools today, but we **must not carry forward** the political assumptions and consequences behind them (e.g., forced sterilization or restricted reproduction for groups deemed "inferior").
 :::
 
 ## When psychology was declared unmeasurable
@@ -232,7 +232,7 @@ Many early contributors to psychometrics worked within a **[eugenics](https://ww
 
 * In the late 19th century **Helmholtz** observed that physical attributes such as length and mass share the same mathematical structure as the positive real numbers: they can be ordered **and added**.
 
-* The **Commission of the British Association for the Advancement of Science** (appointed 1932) concluded that **fundamental measurement of psychological variables was impossible** — because sensory perceptions cannot be ordered or added the way length and mass can.
+* The **Commission of the British Association for the Advancement of Science** (appointed 1932; final report 1940) was divided, but its physicist members held that **fundamental measurement of sensory intensity was impossible** — because sensory perceptions cannot be ordered or added the way length and mass can.
 
 * **S. S. Stevens** disagreed: strict additivity is **not required**. People can make reasonably consistent ratio judgements — judging one sound to be twice as loud as another, for example.
 
@@ -405,7 +405,7 @@ When the relationship between a variable and its indicator is **much weaker** th
 
 * A researcher wants to examine the role of **social support** in later professional attainment, using an existing dataset.
 
-* The data are rich on professional status over time. On social support? Nothing. Only a few items asking **whether the participant was married**.
+* The data are rich on professional status over time. On social support there is nothing, only a few items asking **whether and how long the participant had been married**.
 
 * The researcher sums those marriage items, calls the result a "social support scale", and finds **no relationship** with professional attainment.
 
@@ -525,8 +525,8 @@ Look at the response format you will meet most often:
 . . .
 
 ::: {.callout-warning}
-#### The statistical consequence is real
-The parametric techniques you will use — Pearson correlation, *t*-tests, ANOVA, linear regression — **assume interval or ratio data**. Applying them to ordinal data violates that foundational assumption.
+#### The statistical consequence
+Under Stevens's framework, means and differences are only meaningful for interval or ratio data, so the parametric techniques you will use — Pearson correlation, *t*-tests, ANOVA, linear regression — **presume interval or ratio data**. Applying them to ordinal data borrows that assumption.
 :::
 
 ## So do we stop?
@@ -580,7 +580,7 @@ The effect/cause indicator distinction comes from Bollen (1989); see DeVellis & 
 
 ::: {.callout-tip}
 #### Practical implication
-Because all items are driven by the same cause, they **should correlate highly** and are largely **interchangeable**. That is precisely what makes coefficients like $\alpha$ and $\omega$ sensible for a scale. Session 6.
+Because all items are driven by the same cause, they **should correlate highly** and are largely **interchangeable**. That is precisely what makes coefficients like $\alpha$ and $\omega$ sensible for scale scores. Session 6.
 :::
 
 ## The reflective model
@@ -682,7 +682,7 @@ Increasing your sample size, changing the statistical model, or using more sophi
 
 Suppose the **true** correlation between anxiety and procrastination is $\rho_{T_X T_Y} = 0.60$.
 
-You use an anxiety scale with reliability $0.70$ and a procrastination scale with reliability $0.65$.
+Scores on your anxiety scale have reliability $0.70$, and scores on your procrastination scale have reliability $0.65$.
 
 . . .
 
@@ -694,14 +694,14 @@ $$r_{XY} = \rho_{T_X T_Y} \times \sqrt{\rho_{XX'} \times \rho_{YY'}} = 0.60 \tim
 
 ::: {.callout-warning}
 #### You will report 0.40 for a relationship that is really 0.60
-The instruments were simply noisy, not because you miscalculated or because your sample was too small.
+The gap comes from noisy instruments, not from a miscalculation or a sample that was too small.
 :::
 
 ## Measurement and the replication crisis
 
 ::: {.incremental}
 
-* Many findings in psychology fail to be replicated independently, partly attributable to **imprecise measurement**, combined with researcher degrees of freedom in data analysis.
+* Many findings in psychology have failed independent replication, partly because of **imprecise measurement** combined with researcher degrees of freedom in data analysis.
 
 * Noisy measures, **combined with publication bias**, can actually **inflate** published effect sizes: only the samples that happened to produce large estimates make it into print.
 
@@ -729,7 +729,7 @@ Petersen, Chapter 1; Flake & Fried (2020).
 
 ::: {.callout-warning}
 #### What follows from this
-Two studies can both report on "depression", both use scales that are equally reliable, and **still not be measuring the same thing**. Comparing them is far more fragile than it looks.
+Two studies can both report on "depression", both use scales whose scores are equally reliable, and **still not be measuring the same thing**. Comparing them is far more fragile than it looks.
 
 This is the ***jingle fallacy***: assuming two things are the same because they share a name.
 :::
@@ -740,9 +740,9 @@ This is the ***jingle fallacy***: assuming two things are the same because they 
 
 * Researchers often economise by using instruments that are **too brief**, hoping to reduce participant burden.
 
-* But a questionnaire too short to be reliable is **a bad idea**, however convenient it feels.
+* But a questionnaire too short to yield reliable scores is **a bad idea**, however convenient it feels.
 
-* A **reliable** questionnaire completed by half your participants yields more information than an **unreliable** one completed by all of them.
+* A questionnaire with **reliable** scores completed by half your participants yields more information than one with **unreliable** scores completed by all of them.
 
 :::
 
@@ -750,7 +750,7 @@ This is the ***jingle fallacy***: assuming two things are the same because they 
 
 ::: {.callout-warning}
 #### Asking for participants' time has ethical consequences
-If the data cannot be interpreted in the end, the amount collected is irrelevant. Asking 300 people to complete an instrument that cannot possibly support a valid conclusion is an **ethical** problem, not merely a technical one.
+If the data cannot be interpreted in the end, the amount collected is irrelevant. Asking 300 people to complete an instrument that cannot possibly support a valid conclusion is an **ethical** problem.
 :::
 
 # Summary {background-color="#14497F" .center}

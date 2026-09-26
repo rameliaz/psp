@@ -28,7 +28,7 @@ execute:
 6. Computing it in **jamovi**, and what you should report
 
 
-# From a definition to a computation {background-color="#14497F" .center}
+# Definition and estimation {background-color="#14497F" .center}
 
 ## What we already have
 
@@ -65,7 +65,7 @@ Every number on the following slides is computed from [`data/data.csv`](https://
 . . .
 
 ::: {.callout-warning appearance="simple"}
-Each examines a **different source of error**. A scale can be highly internally consistent and yet completely unstable from one week to the next.
+Each examines a **different source of error**. Scores can be highly internally consistent and yet completely unstable from one week to the next.
 
 Reporting $\alpha$ tells you **nothing** about the stability of your scores over time.
 :::
@@ -78,7 +78,7 @@ Reporting $\alpha$ tells you **nothing** about the stability of your scores over
 
 * **The interval matters a great deal.** Too short and participants remember their answers; too long and the attribute may genuinely have changed.
 
-* There is one problem that cannot be avoided: if the correlation is low, we **cannot tell** whether the instrument is unreliable or the people have changed.
+* If the correlation is low, we **cannot tell** whether measurement error is large or the people have changed.
 
 :::
 
@@ -100,7 +100,7 @@ Reporting $\alpha$ tells you **nothing** about the stability of your scores over
 
 For the IPIP Extraversion scale (10 items), the odd-even correlation is:
 
-$$r = 0.748$$
+$$r = .748$$
 
 ## But there is a problem
 
@@ -110,7 +110,7 @@ $$r = 0.748$$
 
 * We have just cut our scale in half and then reported the reliability of the halved version.
 
-* Recall from Session 3: fewer items means a larger share of error. So 0.748 **underestimates** the real reliability of the scale.
+* Recall from Session 3: fewer items means a larger share of error. So .748 **underestimates** the reliability of the full-length scores.
 
 :::
 
@@ -128,9 +128,9 @@ $$\rho_{\text{full}} = \frac{2r}{1+r}$$
 
 . . .
 
-With $r = 0.748$:
+With $r = .748$:
 
-$$\rho = \frac{2 \times 0.748}{1 + 0.748} = \frac{1.496}{1.748} = \mathbf{0.856}$$
+$$\rho = \frac{2 \times .748}{1 + .748} = \frac{1.496}{1.748} = \mathbf{.856}$$
 
 . . .
 
@@ -152,7 +152,7 @@ Recall Bernoulli's arrows from Session 1. The Spearman-Brown formula shows why a
 
 ::: {.callout-warning}
 #### The condition people forget
-The formula assumes the added items are **equivalent** to the existing ones. Adding ten careless items will not produce this result.
+The formula assumes the added items are **equivalent** to the existing ones. Adding ten careless items will not produce a gain that large.
 :::
 
 ## But which half?
@@ -162,7 +162,7 @@ The formula assumes the added items are **equivalent** to the existing ones. Add
 * A 10-item scale can be split into halves in **126 different ways** (recall combinations from basic math!).
   + Odd-even is only one of them.
 
-* We tried **500 random splits** of the Extraversion scale. The Spearman-Brown results ranged from **0.845 to 0.920**.
+* We tried **500 random splits** of the Extraversion scale. The Spearman-Brown results ranged from **.845 to .920**.
 
 * So the answer depends on which split you happen to choose.
   + That is not an ideal situation.
@@ -202,9 +202,9 @@ where $k$ is the number of items, $\sigma^2_i$ each item's variance, and $\sigma
 
 ::: {.incremental}
 
-* Across those 500 random splits, the mean Spearman-Brown coefficient was **0.892**.
+* Across those 500 random splits, the mean Spearman-Brown coefficient was **.892**.
 
-* Cronbach's alpha for the same scale is **0.892**.
+* Cronbach's alpha for the same scale is **.892**.
 
 * Exactly the same number.
 
@@ -238,7 +238,7 @@ $$\alpha = \frac{k\bar{r}}{1 + (k-1)\bar{r}}$$
 . . .
 
 ::: {.callout-warning}
-#### More items, not better items
+#### Adding items raises $\alpha$
 Because $k$ is part of it, **a high $\alpha$ can be bought simply by adding items**. You do not need better items; you just need more of them.
 :::
 
@@ -300,14 +300,14 @@ Do not treat .70 as pass or fail. **Match it to what your scores are for**: for 
 . . .
 
 ::: {.r-fit-text}
-$\alpha = 0.616$
+$\alpha = .616$
 :::
 
 ## Why doesn't mixing two scales produce an obviously bad $\alpha$?
 
 ::: {.incremental}
 
-* 0.616 **does not look problematic**. It looks like a middling scale that could be improved.
+* An $\alpha$ of .616 **does not look problematic**. It looks like a middling scale that could be improved.
 
 * Many reports would describe it as "acceptable" and carry on with the analysis.
 
@@ -343,7 +343,7 @@ $\alpha = 0.616$
 ## Now compute $\omega_h$
 
 ::: {.r-fit-text}
-$\alpha = 0.616$ but $\omega_h \approx 0.00$
+$\alpha = .616$ but $\omega_h \approx .00$
 :::
 
 . . .
@@ -355,8 +355,8 @@ $\alpha = 0.616$ but $\omega_h \approx 0.00$
 * For this mixed set the answer is almost none — because there is no single general factor there.
 
 * In short
-  + $\alpha$ = 0.616 means *"these items correlate with each other"*
-  + $\omega_h \approx 0.00$ means *"these items do **not** measure the same construct"*
+  + $\alpha$ = .616 means *"these items correlate with each other"*
+  + $\omega_h \approx .00$ means *"these items do **not** measure the same construct"*
 
 :::
 
@@ -419,14 +419,14 @@ $\omega$ is **not** always larger or smaller than $\alpha$. When items are unifo
 
 * **When item loadings vary widely.** Here $\alpha$ tends to fall below the true reliability.
 
-* **When the scale is multidimensional.** Here $\alpha$ still looks reasonable while $\omega$ collapses — exactly as in the demonstration.
+* **When the scale is multidimensional.** Here $\alpha$ still looks reasonable while $\omega_h$ is very low, as in the demonstration.
 
 :::
 
 . . .
 
 ::: {.callout-tip appearance="simple"}
-Compute **both**. If $\alpha$ and $\omega$ are close, you have additional evidence that your scale's structure is unidimensional. If they are far apart, that is **a sign that something about the construct needs checking**.
+Compute **both**. If $\alpha$ and $\omega$ are close, a tau-equivalence violation is unlikely; dimensionality still needs checking separately. If they are far apart, that is **a sign that something about the construct needs checking**.
 :::
 
 ## Varieties of $\omega$
@@ -483,7 +483,7 @@ $$SEM = \sigma_X\sqrt{1-\alpha} = 9.22 \times \sqrt{0.108} = \mathbf{3.03}$$
 
 . . .
 
-A 95% interval for someone scoring **30**:
+A 95% confidence interval for someone scoring **30**:
 
 $$30 \pm 1.96 \times 3.03 \;\approx\; 24.1 \text{ to } 35.9$$
 
@@ -491,7 +491,7 @@ $$30 \pm 1.96 \times 3.03 \;\approx\; 24.1 \text{ to } 35.9$$
 
 ::: {.callout-warning}
 #### Note the width of that interval
-This is a scale with $\alpha = .89$ — excellent by any criterion. Yet one person's confidence interval is **nearly 12 points wide** on a scale running from 10 to 50.
+This is a scale with $\alpha = .89$ — high by most conventions. Yet one person's confidence interval is **nearly 12 points wide** on a scale running from 10 to 50.
 
 Two people scoring 30 and 35 **cannot** be said to differ.
 :::
@@ -612,7 +612,7 @@ For the mixed set earlier, the eigenvalues were 3.39 and 2.28 — both large. Th
 
 ::: {.callout-tip}
 #### An example of how to report it
-*"This 10-item scale had $\alpha = .89$ and $\omega = .89$ in n = 200 undergraduates (aged 18–23). Exploratory factor analysis indicated one dominant factor (eigenvalue 4.5 versus 0.9). SEM = 3.0."*
+*"In a sample of 200 undergraduates (aged 18–23), scores on this 10-item scale had $\alpha = .89$ and $\omega = .89$. Exploratory factor analysis indicated one dominant factor (eigenvalue 4.5 versus 0.9). SEM = 3.0."*
 :::
 
 # Activity {background-color="#14497F" .center}

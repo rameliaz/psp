@@ -133,7 +133,7 @@ We have established each item's "difficulty" **before a single participant has a
 
 ::: {.incremental}
 
-* participants are only asked to **agree or disagree** with each statement. There are no degrees.
+* Participants are only asked to **agree or disagree** with each statement. There are no degrees.
 
 * A participant's score is the **mean scale value of the statements they endorsed**.
 
@@ -174,7 +174,7 @@ Like Guttman in Session 4, Thurstone items are **not equally weighted**. So the 
 * **Inside IRT.** IRT-based methods **share the same goal** as Thurstone scaling.
   + The difficulty parameter $b$ from Session 3 is essentially a Thurstone scale value, except that IRT estimates it from participant data rather than from a judge panel.
 
-* **Inside your own project.** In Session 11 you will ask a panel of experts to rate the relevance of each item and compute a [*Content Validity Index*](slides/pertemuan11-en.html).
+* **Inside your own project.** In Session 11 you will ask a panel of experts to rate the relevance of each item and compute a [*Content Validity Index*](/slides/pertemuan11-en.html).
 
 :::
 
@@ -191,7 +191,7 @@ The CVI procedure is **Thurstone's logic applied to content relevance**, rather 
 
 ::: {.incremental}
 
-* participants are given a **realistic scenario** and asked to evaluate several possible actions.
+* Participants are given a **realistic scenario** and asked to evaluate several possible actions.
 
 * What is measured is not a self-description but **judgement in a concrete situation**.
 
@@ -246,7 +246,7 @@ More resistant to impression management.
 . . .
 
 ::: {.callout-warning appearance="simple"}
-[Ployhart & Ehrhart (2003)](https://onlinelibrary.wiley.com/doi/abs/10.1111/1468-2389.00222) showed that **changing the response instruction changes the test's psychometric properties** — both its reliability and the construct it measures.
+[Ployhart & Ehrhart (2003)](https://onlinelibrary.wiley.com/doi/abs/10.1111/1468-2389.00222) showed that **changing the response instruction changes both the reliability of the scores and the construct being measured**.
 :::
 
 ## How it is scored
@@ -271,7 +271,7 @@ The first two **require a panel**, exactly like Thurstone and like the CVI in Se
 
 ::: {.incremental}
 
-* **Concrete context.** participants are not asked to generalise about themselves but to react to a specific situation.
+* **Concrete context.** Participants are not asked to generalise about themselves but to react to a specific situation.
   - This sidesteps part of the introspective-access problem from Session 2.
 
 * **Face relevance**, which makes it easier to accept in a selection setting.
@@ -302,7 +302,7 @@ The first two **require a panel**, exactly like Thurstone and like the CVI in Se
 #### A mistake people make often
 Reporting Cronbach's alpha for an SJT and concluding the test is poor because the number is low.
 
-$\alpha$ assumes every item is driven by one shared latent variable. In an SJT that assumption is not even intended to hold. **The wrong coefficient produces the wrong conclusion**, not a bad instrument.
+$\alpha$ assumes every item is driven by one shared latent variable. In an SJT that assumption is not even intended to hold. **A coefficient that does not fit the data's structure leads to the wrong conclusion about the scores.**
 :::
 
 # Forced-choice {background-color="#14497F" .center}
@@ -357,7 +357,7 @@ The classic example is the *Edwards Personal Preference Schedule* (Edwards, 1959
 
 * The statements in a pair must be **matched for attractiveness** beforehand — which requires its own preliminary study.
 
-* Without that matching, the format **solves nothing**: participants will still pick whichever sounds better.
+* Without that matching, the format **does not remove social desirability**: participants will still pick whichever sounds better.
 
 * Matching attractiveness is itself a calibration task.
   + Once again, Thurstone-style work.
@@ -451,7 +451,7 @@ Thurstone's 1920s idea turns out to be the solution to this problem.
 
 # What is realistic for your project {background-color="#14497F" .center}
 
-## All three are not fully realistic for your project
+## How realistic each format is for your project
 
 ::: {.incremental}
 
@@ -469,7 +469,7 @@ Thurstone's 1920s idea turns out to be the solution to this problem.
 #### So why cover them?
 Because you **will encounter all three** in practice — especially SJTs and forced-choice instruments, which are widely used in assessment and recruitment.
 
-What you should take from today is not the ability to build them, but the ability to **judge whether such an instrument is being used properly**.
+What you should take from today is the ability to **judge whether such an instrument is being used properly**.
 :::
 
 # Demonstration and exercise {background-color="#14497F" .center}
