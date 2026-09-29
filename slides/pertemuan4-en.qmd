@@ -23,7 +23,7 @@ execute:
 1. What we are actually choosing when we choose a response format
 2. **Likert**: where it came from, and the four decisions you have to make
 3. **Semantic Differential**: when adjective pairs work better than statements
-4. **Guttman**: when items really are ordered by logic — and why it rarely works
+4. **Guttman**: when items really are ordered by logic, and why it rarely works
 5. Comparing the three
 6. The closing question: **which assumptions does a response format change?**
 
@@ -45,7 +45,7 @@ execute:
 . . .
 
 ::: {.callout-note appearance="simple"}
-A response format is **not a matter of taste or habit**. Each format carries its own package of assumptions, and that package determines which analyses you may later use.
+Each response format carries its own package of assumptions, and that package determines which analyses you may later use.
 :::
 
 ## What a response format does
@@ -76,7 +76,7 @@ DeVellis & Thorpe (2022), Chapter 5.
 
 * Introduced by **Rensis Likert (1932)** in his dissertation, *A technique for the measurement of attitudes*.
 
-* The core idea is not the "Strongly Disagree to Strongly Agree" options, but ***summated ratings***: a set of items answered on a graded scale and then **added together** into one score.
+* The core idea is ***summated ratings***: a set of items answered on a graded scale and then **added together** into one score.
 
 * So what Likert called a "scale" is the **set of items**, not the response options.
 
@@ -175,7 +175,7 @@ DeVellis states this plainly: **neither format is inherently superior**. It depe
 
 * If every item has a midpoint, some participants will learn they can **always choose it** and finish faster.
 
-* The midpoint becomes the safe, lowest-effort option — not a report of their state.
+* The midpoint becomes the safe, lowest-effort option, not a report of their state.
 
 * [Krosnick (1991)](https://onlinelibrary.wiley.com/doi/abs/10.1002/acp.2350050305) calls this ***satisficing***: giving an answer that is good enough rather than the most accurate one.
 
@@ -248,7 +248,7 @@ Consider this two-column arrangement, adapted from DeVellis:
 
 ::: {.callout-tip}
 #### Agreement anchors invite agreement
-Agreement anchors invite participants simply to agree. [Weijters et al. (2010)](https://psycnet.apa.org/record/2010-04293-009) reinforce this point, showing that scale format itself shapes which response styles appear.
+[Weijters et al. (2010)](https://psycnet.apa.org/record/2010-04293-009) show that scale format itself shapes which response styles appear.
 :::
 
 ## How strongly should the stem be worded?
@@ -330,7 +330,7 @@ The presence and absence of **one** attribute.
 
 ::: {.incremental}
 
-* When you are measuring an **attitude or impression toward an object** — a service, a product, a programme, a group, a public figure.
+* When you are measuring an **attitude or impression toward an object**: a service, a product, a programme, a group, a public figure.
 
 * When you want to **compare several objects** on the same dimensions.
 
@@ -432,7 +432,7 @@ Note that all three have a **clear, concrete ordering**, even though social dist
 
 * Under Guttman logic, agreeing with item 1 should mean agreeing with item 2 as well.
 
-* But a participant might believe that being active in student organisations does build time-management skills while **also** costing academic achievement — a pattern that breaks the Guttman order.
+* But a participant might believe that being active in student organisations does build time-management skills while **also** costing academic achievement, a pattern that breaks the Guttman order.
 
 * **The assumption that all items relate equally strongly to the latent variable does not hold** for Guttman items.
   + So the *parallel* and *tau-equivalent* models from Session 3 **do not fit** a Guttman scale, and Cronbach's $\alpha$ is **not an appropriate** reliability estimate for Guttman scale scores.
@@ -472,7 +472,7 @@ Note that all three have a **clear, concrete ordering**, even though social dist
 
 * **Semantic Differential** assumes the adjective pair is genuinely bipolar and means the same thing to everyone.
 
-* **Guttman** assumes a **deterministic** cumulative order — the strongest assumption of the three.
+* **Guttman** assumes a **deterministic** cumulative order, the strongest assumption of the three.
 
 :::
 
@@ -509,17 +509,17 @@ If time is short, cover A and C only.
 
 ::: {.incremental}
 
-1. **Response format is not a matter of taste.** Each format brings its own package of assumptions.
+1. **Each response format brings its own package of assumptions.**
 
 2. **A "Likert scale" means a set of summed items**, not one item with five options.
 
 3. **Around 5–7 points** is the sensible range; four points or fewer loses information, above 7 adds little.
 
-4. **Midpoints have costs and benefits.** Neither format is automatically better — and "neutral", "undecided", and "slightly disagree" are not the same thing.
+4. **Midpoints have costs and benefits.** Neither format is automatically better, and "neutral", "undecided", and "slightly disagree" are not the same thing.
 
 5. **Semantic Differential** requires adjective pairs that are genuinely opposed in the participant's language.
 
-6. **Guttman** requires a deterministic cumulative order, so it rarely fits psychological constructs — but its idea reappears inside IRT.
+6. **Guttman** requires a deterministic cumulative order, so it rarely fits psychological constructs, but its idea reappears inside IRT.
 
 :::
 

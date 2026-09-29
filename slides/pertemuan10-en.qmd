@@ -320,7 +320,7 @@ From Session 4, settle these now for **the whole scale**:
 
 ::: {.callout-note}
 #### On the midpoint
-[Chyung et al. (2017)](https://onlinelibrary.wiley.com/doi/abs/10.1002/pfi.21727) suggest reframing the question: not *"should there be a midpoint"* but *"when is a midpoint appropriate"*. A midpoint is appropriate when it is a meaningful middle position, not somewhere to hedge.
+[Chyung et al. (2017)](https://onlinelibrary.wiley.com/doi/abs/10.1002/pfi.21727) suggest asking *"when is a midpoint appropriate"* instead of *"should there be a midpoint"*. A midpoint is appropriate when it is a meaningful middle position, not somewhere to hedge.
 
 If you expect some participants simply not to know, provide a separate "don't know" option rather than folding it into the midpoint.
 :::

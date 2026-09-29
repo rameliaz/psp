@@ -252,7 +252,7 @@
     "href": "slides/pertemuan10-en.html#the-decisions-you-already-know",
     "title": "Item-Writing Workshop",
     "section": "The decisions you already know",
-    "text": "The decisions you already know\nFrom Session 4, settle these now for the whole scale:\n\nHow many options. The 5–7 range is sensible for most purposes.\nMidpoint or not. Use one if a middle position is genuinely meaningful for your construct.\nLabels. Label every option, not only the endpoints.\nAnchors. Agreement, frequency, or item-specific anchors.\n\n\n\n\n\n\n\n\nOn the midpoint\n\n\nChyung et al. (2017) suggest reframing the question: not “should there be a midpoint” but “when is a midpoint appropriate”. A midpoint is appropriate when it is a meaningful middle position, not somewhere to hedge.\nIf you expect some participants simply not to know, provide a separate “don’t know” option rather than folding it into the midpoint.",
+    "text": "The decisions you already know\nFrom Session 4, settle these now for the whole scale:\n\nHow many options. The 5–7 range is sensible for most purposes.\nMidpoint or not. Use one if a middle position is genuinely meaningful for your construct.\nLabels. Label every option, not only the endpoints.\nAnchors. Agreement, frequency, or item-specific anchors.\n\n\n\n\n\n\n\n\nOn the midpoint\n\n\nChyung et al. (2017) suggest asking “when is a midpoint appropriate” instead of “should there be a midpoint”. A midpoint is appropriate when it is a meaningful middle position, not somewhere to hedge.\nIf you expect some participants simply not to know, provide a separate “don’t know” option rather than folding it into the midpoint.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -480,7 +480,7 @@
     "href": "slides/pertemuan7-en.html#how-the-view-changed",
     "title": "Validity: Core Concepts and Implementation",
     "section": "How the view changed",
-    "text": "How the view changed\n\nCronbach & Meehl (1955) developed the idea of construct validity, first proposed in the APA Technical Recommendations (1954), together with the nomological network: a construct’s meaning lies in its network of relations with other constructs and with observable behaviour.\nLoevinger (1957) went further: construct validity is not one type among several but the whole of validity.\nMessick (1989, 1995) unified it: validity is a single integrated judgement of how far evidence and theory support the inferences and actions taken from scores.\nThe Standards (from the 1999 edition, retained in 2014) turned this into something practical: not “types of validity” but sources of evidence, all supporting one interpretation.",
+    "text": "How the view changed\n\nCronbach & Meehl (1955) developed the idea of construct validity, first proposed in the APA Technical Recommendations (1954), together with the nomological network: a construct’s meaning lies in its network of relations with other constructs and with observable behaviour.\nLoevinger (1957) went further: construct validity is validity itself, not one type among several.\nMessick (1989, 1995) unified it: validity is a single integrated judgement of how far evidence and theory support the inferences and actions taken from scores.\nThe Standards (from the 1999 edition, retained in 2014) turned this into something practical: sources of evidence, all supporting one interpretation.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -516,7 +516,7 @@
     "href": "slides/pertemuan7-en.html#the-question",
     "title": "Validity: Core Concepts and Implementation",
     "section": "The question",
-    "text": "The question\n\nDo the items you wrote represent the whole construct you intend?\nTo answer that, you first need a clear definition of the domain — what is in and what is out.\nThat is the work of Session 9. Without a clear construct boundary, there is no way to judge whether the items represent it.",
+    "text": "The question\n\nDo the items you wrote represent the construct you intend?\nTo answer that, you first need a clear definition of the domain: what is in and what is out.\nThat is the work of Session 9. Without a clear construct boundary, there is no way to judge whether the items represent it.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -780,7 +780,7 @@
     "href": "slides/pertemuan7-en.html#the-midterm-examination",
     "title": "Validity: Core Concepts and Implementation",
     "section": "The midterm examination",
-    "text": "The midterm examination\n\nIt is multiple choice, covering the stages of scale construction, Likert, SJT, Semantic Differential, and Thurstone.\nWhat is tested is not memorised names and dates but the ability to recognise a situation: which coefficient fits, which assumption is being violated, what a given statement actually demonstrates.",
+    "text": "The midterm examination\n\nIt is multiple choice, covering the stages of scale construction, Likert, SJT, Semantic Differential, and Thurstone.\nWhat is tested is the ability to recognise a situation: which coefficient fits, which assumption is being violated, what a given statement actually demonstrates.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -828,7 +828,7 @@
     "href": "slides/pertemuan5-en.html#agenda",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
     "section": "Agenda",
-    "text": "Agenda\n\nThree things we have been taking for granted — and the formats that give them up\nThurstone: items calibrated in advance by a panel of judges\nSituational Judgement Tests: measuring judgement rather than self-description\nForced-choice: when participants must choose, and scores become ipsative\nWhy ipsative data breaks almost everything we built in Session 3",
+    "text": "Agenda\n\nThree things we have been taking for granted, and the formats that give them up\nThurstone: items calibrated in advance by a panel of judges\nSituational Judgement Tests: measuring judgement rather than self-description\nForced-choice: when participants must choose, and scores become ipsative\nWhy ipsative data breaks almost everything we built in Session 3",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -840,7 +840,7 @@
     "href": "slides/pertemuan5-en.html#what-sits-behind-the-session-4-formats",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
     "section": "What sits behind the Session 4 formats",
-    "text": "What sits behind the Session 4 formats\nWhen we use a Likert scale, we quietly accept three things:\n\nAll items carry equal weight. Item 1 and item 7 are each worth a maximum of 5 points.\nItems are abstract self-descriptions. “I am a careful person.”\nEach item is answered independently. Agreeing with one item does not force you to reject another.\n\n\n\n\n\n\n\n\nThree formats, each of which gives up one of these — and pays a price for it.",
+    "text": "What sits behind the Session 4 formats\nWhen we use a Likert scale, we quietly accept three things:\n\nAll items carry equal weight. Item 1 and item 7 are each worth a maximum of 5 points.\nItems are abstract self-descriptions. “I am a careful person.”\nEach item is answered independently. Agreeing with one item does not force you to reject another.\n\n\n\n\n\n\n\n\nThree formats, each of which gives up one of these, and pays a price for it.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -912,7 +912,7 @@
     "href": "slides/pertemuan5-en.html#how-participants-answer-and-how-it-is-scored",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
     "section": "How participants answer, and how it is scored",
-    "text": "How participants answer, and how it is scored\n\nParticipants are only asked to agree or disagree with each statement. There are no degrees.\nA participant’s score is the mean scale value of the statements they endorsed.\nSo someone endorsing statements with scale values 8.5 and 10.5 scores 9.5 — nothing is summed.\n\n\n\n\n\n\n\n\nA fundamental difference from Likert\n\n\nIn Likert, the information is in the degree of the answer. In Thurstone, the information is in which items were endorsed — the answer itself is only yes or no.",
+    "text": "How participants answer, and how it is scored\n\nParticipants are only asked to agree or disagree with each statement. There are no degrees.\nA participant’s score is the mean scale value of the statements they endorsed.\nSo someone endorsing statements with scale values 8.5 and 10.5 scores 9.5; nothing is summed.\n\n\n\n\n\n\n\n\nA fundamental difference from Likert\n\n\nIn Likert, the information is in the degree of the answer. In Thurstone, the information is in which items were endorsed; the answer itself is only yes or no.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -948,7 +948,7 @@
     "href": "slides/pertemuan5-en.html#the-format",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
     "section": "The format",
-    "text": "The format\n\nParticipants are given a realistic scenario and asked to evaluate several possible actions.\nWhat is measured is not a self-description but judgement in a concrete situation.\nRooted in personnel selection testing since the 1940s, and revived after Motowidlo et al. (1990) described it as a low-fidelity simulation.",
+    "text": "The format\n\nParticipants are given a realistic scenario and asked to evaluate several possible actions.\nWhat is measured is judgement in a concrete situation.\nRooted in personnel selection testing since the 1940s, and revived after Motowidlo et al. (1990) described it as a low-fidelity simulation.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -996,7 +996,7 @@
     "href": "slides/pertemuan5-en.html#its-strengths",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
     "section": "Its strengths",
-    "text": "Its strengths\n\nConcrete context. Participants are not asked to generalise about themselves but to react to a specific situation.\n\nThis sidesteps part of the introspective-access problem from Session 2.\n\nFace relevance, which makes it easier to accept in a selection setting.\nReasonable prediction of performance. McDaniel et al. (2001) show SJTs predict job performance adequately.",
+    "text": "Its strengths\n\nConcrete context. Participants react to a specific situation instead of generalising about themselves.\n\nThis sidesteps part of the introspective-access problem from Session 2.\n\nFace relevance, which makes it easier to accept in a selection setting.\nReasonable prediction of performance. McDaniel et al. (2001) show SJTs predict job performance adequately.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1044,7 +1044,7 @@
     "href": "slides/pertemuan5-en.html#a-requirement-people-forget",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
     "section": "A requirement people forget",
-    "text": "A requirement people forget\n\nThe statements in a pair must be matched for attractiveness beforehand — which requires its own preliminary study.\nWithout that matching, the format does not remove social desirability: participants will still pick whichever sounds better.\nMatching attractiveness is itself a calibration task.\n\nOnce again, Thurstone-style work.",
+    "text": "A requirement people forget\n\nThe statements in a pair must be matched for attractiveness beforehand, which requires its own preliminary study.\nWithout that matching, the format does not remove social desirability: participants will still pick whichever sounds better.\nMatching attractiveness is itself a calibration task.\n\nOnce again, Thurstone-style work.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1056,7 +1056,7 @@
     "href": "slides/pertemuan5-en.html#ipsativity-the-price",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
     "section": "Ipsativity: the price",
-    "text": "Ipsativity: the price\n\nEvery time a participant picks one statement, they automatically do not pick the other.\nAs a result, the total across all scales is constant for every participant.\n\nIf one scale score goes up, another must go down.\n\nData with this property are called ipsative: the scores are meaningful within a person, not between people.\n\n\n\n\n\n\n\n\nWith ipsative data, a score answers “of all these things, which stands out most in me?” — not “how much of this trait do I have compared with other people?”",
+    "text": "Ipsativity: the price\n\nEvery time a participant picks one statement, they automatically do not pick the other.\nAs a result, the total across all scales is constant for every participant.\n\nIf one scale score goes up, another must go down.\n\nData with this property are called ipsative: the scores are meaningful within a person, not between people.\n\n\n\n\n\n\n\n\nWith ipsative data, a score answers “of all these things, which stands out most in me?” It says nothing about “how much of this trait do I have compared with other people?”",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1068,7 +1068,7 @@
     "href": "slides/pertemuan5-en.html#why-this-breaks-the-analysis",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
     "section": "Why this breaks the analysis",
-    "text": "Why this breaks the analysis\n\nBecause the total is forced to be constant, correlations between scales are forced negative — even if the underlying constructs are entirely unrelated.\nFor an ipsative instrument with \\(k\\) scales, the average intercorrelation is:\n\n\\[\\bar{r} = -\\frac{1}{k-1}\\]\n\n\n\n\nNumber of scales (\\(k\\))\nForced average correlation\n\n\n\n\n3\n−0.50\n\n\n5\n−0.25\n\n\n10\n−0.11\n\n\n\n\n\n\n\n\n\n\n\nThose numbers come from the format, not from the participants’ psychology.",
+    "text": "Why this breaks the analysis\n\nBecause the total is forced to be constant, correlations between scales are forced negative, even if the underlying constructs are entirely unrelated.\nFor an ipsative instrument with \\(k\\) scales, the average intercorrelation is:\n\n\\[\\bar{r} = -\\frac{1}{k-1}\\]\n\n\n\n\nNumber of scales (\\(k\\))\nForced average correlation\n\n\n\n\n3\n−0.50\n\n\n5\n−0.25\n\n\n10\n−0.11\n\n\n\n\n\n\n\n\n\n\n\nThose numbers come from the format, not from the participants’ psychology.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1080,7 +1080,7 @@
     "href": "slides/pertemuan5-en.html#the-knock-on-effects",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
     "section": "The knock-on effects",
-    "text": "The knock-on effects\n\nBetween-person comparison becomes invalid. A conscientiousness score of 8 for person A cannot be compared directly with 8 for person B.\nFactor analysis becomes misleading, because the correlation structure was distorted by the format before any analysis began.\nClassical reliability coefficients become hard to interpret — the CTT model in Session 3 assumes scores are free to vary, and here they are not.\n\n\n\n\n\n\n\n\n\nIpsative instruments should not be used for selection, ranking, or comparison between individuals.\n\n\n\n\n\nHicks (1970)",
+    "text": "The knock-on effects\n\nBetween-person comparison becomes invalid. A conscientiousness score of 8 for person A cannot be compared directly with 8 for person B.\nFactor analysis becomes misleading, because the correlation structure was distorted by the format before any analysis began.\nClassical reliability coefficients become hard to interpret: the CTT model in Session 3 assumes scores are free to vary, and here they are not.\n\n\n\n\n\n\n\n\n\nIpsative instruments should not be used for selection, ranking, or comparison between individuals.\n\n\n\n\n\nHicks (1970)",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1104,7 +1104,7 @@
     "href": "slides/pertemuan5-en.html#how-realistic-each-format-is-for-your-project",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
     "section": "How realistic each format is for your project",
-    "text": "How realistic each format is for your project\n\nThurstone — still realistic, but technically harder than building a Likert scale.\nSJT — not realistic. Writing good scenarios and building a scoring key is a project in itself.\nForced-choice — not realistic. The correct analysis of ipsative data is outside the scope of this course.\n\n\n\n\n\n\n\n\nSo why cover them?\n\n\nBecause you will encounter all three in practice — especially SJTs and forced-choice instruments, which are widely used in assessment and recruitment.\nWhat you should take from today is the ability to judge whether such an instrument is being used properly.",
+    "text": "How realistic each format is for your project\n\nThurstone — still realistic, but technically harder than building a Likert scale.\nSJT — not realistic. Writing good scenarios and building a scoring key is a project in itself.\nForced-choice — not realistic. The correct analysis of ipsative data is outside the scope of this course.\n\n\n\n\n\n\n\n\nSo why cover them?\n\n\nBecause you will encounter all three in practice, especially SJTs and forced-choice instruments, which are widely used in assessment and recruitment.\nWhat you should take from today is the ability to judge whether such an instrument is being used properly.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1164,7 +1164,7 @@
     "href": "slides/pertemuan5-en.html#for-session-6",
     "title": "Response Formats II: Thurstone, Situational Judgement Tests, and Forced-Choice",
     "section": "For Session 6",
-    "text": "For Session 6\nAfter five sessions on concepts and formats, we start computing: reliability.\n\nThe Spearman-Brown formula we have now deferred twice.\nCronbach’s alpha and the tau-equivalence assumption that is rarely met.\nThe omega coefficient and why it is generally more appropriate.\nTest-retest, split-half, and internal consistency: three different questions, not three ways of computing the same thing.\nWhich coefficient you should actually report in your project.\n\n\n\n\n\n\n\n\nPreparation\n\n\nRead DeVellis & Thorpe (2022), Chapter 3. To see it in practice, the Reliability chapter of Bikos lays the coefficients out side by side.",
+    "text": "For Session 6\nAfter five sessions on concepts and formats, we start computing: reliability.\n\nThe Spearman-Brown formula we have now deferred twice.\nCronbach’s alpha and the tau-equivalence assumption that is rarely met.\nThe omega coefficient and why it is generally more appropriate.\nTest-retest, split-half, and internal consistency: three different questions.\nWhich coefficient you should actually report in your project.\n\n\n\n\n\n\n\n\nPreparation\n\n\nRead DeVellis & Thorpe (2022), Chapter 3. To see it in practice, the Reliability chapter of Bikos lays the coefficients out side by side.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1200,7 +1200,7 @@
     "href": "slides/pertemuan3-en.html#agenda",
     "title": "Latent Variables: Classical Test Theory and a Glimpse of Item Response Theory",
     "section": "Agenda",
-    "text": "Agenda\n\nWhat a latent variable is, and why we call it a cause\nClassical Test Theory: \\(X = T + E\\) and its assumptions\nWhy reliability can be defined as a proportion of variance\nWhat true score actually means — and why it is not “the real amount of the construct”\nConsequences of CTT: number of items, attenuation, and sample dependence\nThe family of CTT models: parallel, tau-equivalent, congeneric\nA glimpse of Item Response Theory and what it offers",
+    "text": "Agenda\n\nWhat a latent variable is, and why we call it a cause\nClassical Test Theory: \\(X = T + E\\) and its assumptions\nWhy reliability can be defined as a proportion of variance\nWhat true score actually means, and why it is not “the real amount of the construct”\nConsequences of CTT: number of items, attenuation, and sample dependence\nThe family of CTT models: parallel, tau-equivalent, congeneric\nA glimpse of Item Response Theory and what it offers",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1224,7 +1224,7 @@
     "href": "slides/pertemuan3-en.html#two-words-two-properties",
     "title": "Latent Variables: Classical Test Theory and a Glimpse of Item Response Theory",
     "section": "Two words, two properties",
-    "text": "Two words, two properties\n\n\n\nLatent, not manifest. Not directly observable. Parents’ aspirations for their child’s achievement cannot be seen, only inferred.\nVariable, not constant. Something about it changes — its strength, its magnitude — across people, times, and situations.\nA latent variable is usually a characteristic of the person supplying the data (e.g., the parent), not of the object being asked about (e.g., the child’s achievement).\n\n\n\n\n\n\n\n\n\n\nDeVellis & Thorpe (2022), Chapter 2.",
+    "text": "Two words, two properties\n\n\n\nLatent, not manifest. Not directly observable. Parents’ aspirations for their child’s achievement cannot be seen, only inferred.\nVariable, not constant. Something about it changes (its strength, its magnitude) across people, times, and situations.\nA latent variable is usually a characteristic of the person supplying the data (e.g., the parent), not of the object being asked about (e.g., the child’s achievement).\n\n\n\n\n\n\n\n\n\n\nDeVellis & Thorpe (2022), Chapter 2.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1260,7 +1260,7 @@
     "href": "slides/pertemuan3-en.html#this-is-what-makes-item-analysis-possible",
     "title": "Latent Variables: Classical Test Theory and a Glimpse of Item Response Theory",
     "section": "This is what makes item analysis possible",
-    "text": "This is what makes item analysis possible\n\nWe can never compute the correlation between an item and the true score, because the true score is unobserved.\nBut we can compute the correlations between items.\nFrom the pattern of inter-item correlations, we can infer how strongly each item is tied to the latent variable.\n\n\n\n\n\n\n\n\nThe procedures you will run in Session 13 — corrected item-total correlations, dropping weak items — rest entirely on this logic.",
+    "text": "This is what makes item analysis possible\n\nWe can never compute the correlation between an item and the true score, because the true score is unobserved.\nBut we can compute the correlations between items.\nFrom the pattern of inter-item correlations, we can infer how strongly each item is tied to the latent variable.\n\n\n\n\n\n\n\n\nThe procedures you will run in Session 13 (corrected item-total correlations, dropping weak items) rest entirely on this logic.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1284,7 +1284,7 @@
     "href": "slides/pertemuan3-en.html#the-three-ctt-assumptions",
     "title": "Latent Variables: Classical Test Theory and a Glimpse of Item Response Theory",
     "section": "The three CTT assumptions",
-    "text": "The three CTT assumptions\n\nThe mean of the errors is zero: \\(E(e) = 0\\). Over infinitely many repeated measurements, errors cancel out.\nError is uncorrelated with true score: \\(\\text{Cov}(T, E) = 0\\). Highly anxious people do not systematically have larger errors.\nErrors across measurements are uncorrelated: \\(\\text{Cov}(E_1, E_2) = 0\\).\n\n\n\n\n\n\n\n\nNotice what is being assumed\n\n\nAll three say that error is random, not systematic. A consistent bias — for example every participant answering more positively because of social desirability — does not enter \\(E\\).",
+    "text": "The three CTT assumptions\n\nThe mean of the errors is zero: \\(E(e) = 0\\). Over infinitely many repeated measurements, errors cancel out.\nError is uncorrelated with true score: \\(\\text{Cov}(T, E) = 0\\). Highly anxious people do not systematically have larger errors.\nErrors across measurements are uncorrelated: \\(\\text{Cov}(E_1, E_2) = 0\\).\n\n\n\n\n\n\n\n\nNotice what is being assumed\n\n\nAll three say that error is random, not systematic. A consistent bias (for example every participant answering more positively because of social desirability) does not enter \\(E\\).",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1332,7 +1332,7 @@
     "href": "slides/pertemuan3-en.html#what-that-range-means",
     "title": "Latent Variables: Classical Test Theory and a Glimpse of Item Response Theory",
     "section": "What that range means",
-    "text": "What that range means\n\nTwo people scoring 30 and 33 cannot be said to differ. Their ranges overlap almost entirely.\nAnd scores with \\(\\rho = 0.80\\) already counts as good by the usual rules of thumb.\nThe lower the reliability, the wider the range, and the less we can say about any individual.\n\n\n\n\n\n\n\n\nRemember this when you build norms\n\n\nIn Session 14 you will convert scores into categories. If your categories are narrower than your scale’s \\(SEM\\), those categories are not meaningful — the same person could land in different categories simply by responding on a different day.",
+    "text": "What that range means\n\nTwo people scoring 30 and 33 cannot be said to differ. Their ranges overlap almost entirely.\nAnd a reliability of \\(\\rho = 0.80\\) already counts as good by the usual rules of thumb.\nThe lower the reliability, the wider the range, and the less we can say about any individual.\n\n\n\n\n\n\n\n\nRemember this when you build norms\n\n\nIn Session 14 you will convert scores into categories. If your categories are narrower than your scale’s \\(SEM\\), those categories are not meaningful; the same person could land in different categories simply by responding on a different day.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1368,7 +1368,7 @@
     "href": "slides/pertemuan3-en.html#reliability-is-not-validity",
     "title": "Latent Variables: Classical Test Theory and a Glimpse of Item Response Theory",
     "section": "Reliability is not validity",
-    "text": "Reliability is not validity\n\nReliability is a property of scores: how consistent they are when measurement is repeated.\nValidity is also a property of scores — more precisely, of the interpretation of scores for a proposed use.\nThe first does not guarantee the second. Scores on your scale can have \\(\\alpha = 0.92\\) and its scores still reflect a construct other than the one you claim.\n\n\n\n\n\n\n\n\nBut they are connected\n\n\nReliability sets an upper bound on the validity coefficient, the correlation between your scores and a criterion:\n\\[r_{XY} \\leq \\sqrt{\\rho_{XX'} \\times \\rho_{YY'}}\\]\nThis involves the criterion’s reliability too. If the criterion is assumed to be measured without error (\\(\\rho_{YY'}=1\\)), the formula simplifies to \\(r_{XY} \\leq \\sqrt{\\rho_{XX'}}\\): with \\(\\rho_{XX'} = 0.64\\), the largest correlation you could possibly obtain is \\(0.80\\) — however strong the real relationship is. If the criterion is itself fallible, the upper bound drops further.",
+    "text": "Reliability is not validity\n\nReliability is a property of scores: how consistent they are when measurement is repeated.\nValidity is also a property of scores; more precisely, of the interpretation of scores for a proposed use.\nThe first does not guarantee the second. Scores on your scale can have \\(\\alpha = 0.92\\) and its scores still reflect a construct other than the one you claim.\n\n\n\n\n\n\n\n\nBut they are connected\n\n\nReliability sets an upper bound on the validity coefficient, the correlation between your scores and a criterion:\n\\[r_{XY} \\leq \\sqrt{\\rho_{XX'} \\times \\rho_{YY'}}\\]\nThis involves the criterion’s reliability too. If the criterion is assumed to be measured without error (\\(\\rho_{YY'}=1\\)), the formula simplifies to \\(r_{XY} \\leq \\sqrt{\\rho_{XX'}}\\): with \\(\\rho_{XX'} = 0.64\\), the largest correlation you could possibly obtain is \\(0.80\\) — however strong the real relationship is. If the criterion is itself fallible, the upper bound drops further.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1416,7 +1416,7 @@
     "href": "slides/pertemuan3-en.html#why-adding-items-raises-reliability",
     "title": "Latent Variables: Classical Test Theory and a Glimpse of Item Response Theory",
     "section": "Why adding items raises reliability",
-    "text": "Why adding items raises reliability\n\nError is random. Some items push a score too high, others too low.\nWhen items are summed, errors in opposite directions cancel out — while true score accumulates.\nThe more items, the smaller \\(\\sigma^2_E\\) is as a proportion of \\(\\sigma^2_X\\).\n\n\n\n\n\n\n\n\nRemember Bernoulli’s arrows from Session 1\n\n\nExactly the same principle: one shot tells you little, but the average of many shots converges on the real centre.\nThe formula (Spearman-Brown) comes in Session 6.",
+    "text": "Why adding items raises reliability\n\nError is random. Some items push a score too high, others too low.\nWhen items are summed, errors in opposite directions cancel out, while true score accumulates.\nThe more items, the smaller \\(\\sigma^2_E\\) is as a proportion of \\(\\sigma^2_X\\).\n\n\n\n\n\n\n\n\nRemember Bernoulli’s arrows from Session 1\n\n\nExactly the same principle: one shot tells you little, but the average of many shots converges on the real centre.\nThe formula (Spearman-Brown) comes in Session 6.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1428,7 +1428,7 @@
     "href": "slides/pertemuan3-en.html#there-is-a-limit",
     "title": "Latent Variables: Classical Test Theory and a Glimpse of Item Response Theory",
     "section": "There is a limit",
-    "text": "There is a limit\n\nAdding items only helps if the new items actually measure the same construct.\nAdding near-duplicate items will raise \\(\\alpha\\) without adding any information — this is the local independence violation from Session 2.\nAnd an over-long questionnaire creates new problems: fatigue and careless responding.\n\n\n\n\n\n\n\n\nFor your project\n\n\nA high \\(\\alpha\\) is not evidence that your scale is good. It can be achieved by writing ten paraphrases of the same sentence.",
+    "text": "There is a limit\n\nAdding items only helps if the new items actually measure the same construct.\nAdding near-duplicate items will raise \\(\\alpha\\) without adding any information; this is the local independence violation from Session 2.\nAnd an over-long questionnaire creates new problems: fatigue and careless responding.\n\n\n\n\n\n\n\n\nFor your project\n\n\nA high \\(\\alpha\\) is not evidence that your scale is good. It can be achieved by writing ten paraphrases of the same sentence.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1440,7 +1440,7 @@
     "href": "slides/pertemuan3-en.html#now-attenuation-makes-sense",
     "title": "Latent Variables: Classical Test Theory and a Glimpse of Item Response Theory",
     "section": "Now attenuation makes sense",
-    "text": "Now attenuation makes sense\nIn Session 1 we used this formula without explaining it:\n\\[r_{XY} = \\rho_{T_X T_Y} \\times \\sqrt{\\rho_{XX'} \\times \\rho_{YY'}}\\]\n\n\nIts origin is now clear: what we correlate is \\(X\\), and \\(X\\) contains \\(E\\).\nThe \\(E\\) part correlates with nothing — by CTT’s second and third assumptions.\nSo error adds to the denominator without adding to the numerator, and the correlation shrinks.\n\n\n\n\n\n\n\n\n\nThe takeaway\n\n\nThe larger the share of noise in your scores, the smaller every correlation you report.",
+    "text": "Now attenuation makes sense\nIn Session 1 we used this formula without explaining it:\n\\[r_{XY} = \\rho_{T_X T_Y} \\times \\sqrt{\\rho_{XX'} \\times \\rho_{YY'}}\\]\n\n\nIts origin is now clear: what we correlate is \\(X\\), and \\(X\\) contains \\(E\\).\nThe \\(E\\) part correlates with nothing, by CTT’s second and third assumptions.\nSo error adds to the denominator without adding to the numerator, and the correlation shrinks.\n\n\n\n\n\n\n\n\n\nThe takeaway\n\n\nThe larger the share of noise in your scores, the smaller every correlation you report.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1452,7 +1452,7 @@
     "href": "slides/pertemuan3-en.html#the-most-serious-weakness-of-ctt",
     "title": "Latent Variables: Classical Test Theory and a Glimpse of Item Response Theory",
     "section": "The most serious weakness of CTT",
-    "text": "The most serious weakness of CTT\n\nReliability in CTT depends on the sample.\nIf your participants are very uniform on the attribute, their range of true scores is narrow. Inter-item correlations shrink, and the computed reliability drops — even though the instrument is unchanged.\nConversely, a highly heterogeneous sample makes scores from the same instrument look more reliable.\n\n\n\n\n\n\n\n\n\nA practical consequence for your pilot study\n\n\nThe reliability coefficient you report partly reflects your sample’s characteristics. So always report sample characteristics alongside the coefficient.\n\n\n\n\n\nDeVellis & Thorpe (2022), Chapter 8.",
+    "text": "The most serious weakness of CTT\n\nReliability in CTT depends on the sample.\nIf your participants are very uniform on the attribute, their range of true scores is narrow. Inter-item correlations shrink, and the computed reliability drops, even though the instrument is unchanged.\nConversely, a highly heterogeneous sample makes scores from the same instrument look more reliable.\n\n\n\n\n\n\n\n\n\nA practical consequence for your pilot study\n\n\nThe reliability coefficient you report partly reflects your sample’s characteristics. So always report sample characteristics alongside the coefficient.\n\n\n\n\n\nDeVellis & Thorpe (2022), Chapter 8.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1460,11 +1460,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan3-en.html#and-not-only-reliability",
-    "href": "slides/pertemuan3-en.html#and-not-only-reliability",
+    "objectID": "slides/pertemuan3-en.html#item-statistics-depend-on-the-sample-too",
+    "href": "slides/pertemuan3-en.html#item-statistics-depend-on-the-sample-too",
     "title": "Latent Variables: Classical Test Theory and a Glimpse of Item Response Theory",
-    "section": "And not only reliability",
-    "text": "And not only reliability\n\nItem difficulty in CTT is the proportion of participants endorsing an item. That number changes when the sample changes.\nItem discrimination is the item’s correlation with the total score. That shifts with the sample too.\nSo nearly every item statistic in CTT is relative to whichever group you happened to measure.",
+    "section": "Item statistics depend on the sample too",
+    "text": "Item statistics depend on the sample too\n\nItem difficulty in CTT is the proportion of participants endorsing an item. That number changes when the sample changes.\nItem discrimination is the item’s correlation with the total score. That shifts with the sample too.\nSo nearly every item statistic in CTT is relative to whichever group you happened to measure.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1596,7 +1596,7 @@
     "href": "slides/pertemuan3-en.html#what-irt-demands-in-return",
     "title": "Latent Variables: Classical Test Theory and a Glimpse of Item Response Theory",
     "section": "What IRT demands in return",
-    "text": "What IRT demands in return\n\nUnidimensionality — the same as CTT. Items must share one latent variable.\nLocal independence — formally required, not merely recommended.\nLarge, heterogeneous samples. IRT’s theoretical advantage is only realised when items are calibrated on such samples.\n\n\n\n\n\n\n\n\nThe first two are precisely assumption 4 from Session 2. IRT does not remove assumptions — it demands them more strictly.",
+    "text": "What IRT demands in return\n\nUnidimensionality — the same as CTT. Items must share one latent variable.\nLocal independence — formally required, not merely recommended.\nLarge, heterogeneous samples. IRT’s theoretical advantage is only realised when items are calibrated on such samples.\n\n\n\n\n\n\n\n\nThe first two are precisely assumption 4 from Session 2. IRT does not remove assumptions; it demands them more strictly.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1608,7 +1608,7 @@
     "href": "slides/pertemuan3-en.html#why-this-course-still-uses-ctt",
     "title": "Latent Variables: Classical Test Theory and a Glimpse of Item Response Theory",
     "section": "Why this course still uses CTT",
-    "text": "Why this course still uses CTT\n\nSample size. A realistic pilot study for your group this semester will not support stable IRT calibration.\nSoftware. We use jamovi, where the CTT workflow is far simpler to learn in one semester.\nThe results are still good. For constructing a Likert scale for research purposes, classical methods are adequate.\n\n\n\n\n\n\n\n\nWhat to take from this section\n\n\nNot the ability to run an IRT analysis, but the awareness that CTT item statistics are relative to your sample — and that another framework exists which tackles that problem head-on.",
+    "text": "Why this course still uses CTT\n\nSample size. A realistic pilot study for your group this semester will not support stable IRT calibration.\nSoftware. We use jamovi, where the CTT workflow is far simpler to learn in one semester.\nThe results are still good. For constructing a Likert scale for research purposes, classical methods are adequate.\n\n\n\n\n\n\n\n\nWhat to take from this section\n\n\nAwareness matters more than the ability to run an IRT analysis: CTT item statistics are relative to your sample, and another framework exists that tackles that problem head-on.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1644,7 +1644,7 @@
     "href": "slides/pertemuan3-en.html#six-key-points",
     "title": "Latent Variables: Classical Test Theory and a Glimpse of Item Response Theory",
     "section": "Six key points",
-    "text": "Six key points\n\nThe latent variable is a cause, and that is why items in one scale must correlate.\n\\(X = T + E\\), assuming error is random — not systematic.\nReliability is a proportion of variance: the share of score variability that is not noise.\nTrue score attaches to the instrument, not to the construct. Scores from a consistently biased instrument can still be highly reliable — and reliability and validity are both properties of scores, not of a scale.\nCTT item statistics depend on the sample. Report sample characteristics alongside every coefficient.\n\\(\\alpha\\) assumes the tau-equivalent model, which is rarely satisfied — so \\(\\omega\\), which assumes the congeneric model, is usually the better choice.",
+    "text": "Six key points\n\nThe latent variable is a cause, and that is why items in one scale must correlate.\n\\(X = T + E\\), assuming error is random, not systematic.\nReliability is a proportion of variance: the share of score variability that is not noise.\nTrue score attaches to the instrument, not to the construct. Scores from a consistently biased instrument can still be highly reliable; reliability and validity are both properties of scores, not of a scale.\nCTT item statistics depend on the sample. Report sample characteristics alongside every coefficient.\n\\(\\alpha\\) assumes the tau-equivalent model, which is rarely satisfied — so \\(\\omega\\), which assumes the congeneric model, is usually the better choice.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1692,7 +1692,7 @@
     "href": "slides/pertemuan1-en.html#agenda",
     "title": "What Is Measurement? Foundations and Philosophy of Psychological Measurement",
     "section": "Agenda",
-    "text": "Agenda\n\nWhat are we actually doing when we “measure” something?\nA short history: measurement was born of social need, not of science\nWhy the definition of “measurement” is still contested today\nLevels of measurement (Stevens) — and the problem they leave behind\nWhy psychology is forced to measure indirectly\nScales, indices, and emergent variables — not every set of items is a scale\nWhat does bad measurement actually cost?",
+    "text": "Agenda\n\nWhat are we actually doing when we “measure” something?\nA short history: measurement began with social need, well before science\nWhy the definition of “measurement” is still contested today\nLevels of measurement (Stevens) and the problem they leave behind\nWhy psychology is forced to measure indirectly\nScales, indices, and emergent variables: not every set of items is a scale\nWhat does bad measurement actually cost?",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1704,7 +1704,7 @@
     "href": "slides/pertemuan1-en.html#what-will-we-be-doing-this-semester",
     "title": "What Is Measurement? Foundations and Philosophy of Psychological Measurement",
     "section": "What will we be doing this semester?",
-    "text": "What will we be doing this semester?\n\nFinal project: each group of five students will build a complete psychological scale, together with its manual.\n\nAdd your group members’ names to this spreadsheet.\nAccess to the spreadsheet will be locked after Session 3.\n\nFirst half (Sessions 1–7): laying the conceptual groundwork. What measurement is, which assumptions we rely on (some implicit and easy to miss), what a latent variable is, how to choose a response format, and what it means for scores to be reliable and for score interpretations to be valid.\nSecond half (Sessions 9–15): building the scale itself. Defining the construct, writing items, getting expert review, collecting pilot data, running item analysis, and developing norms and a manual.\n\n\n\n\n\n\n\n\nThe first half sets up the second\n\n\nThe first half is not just an introduction. Almost every technical decision you will make in the second half — how many items to include, what response format to use, which coefficient to report — follows from the conceptual positions we establish in the first half.",
+    "text": "What will we be doing this semester?\n\nFinal project: each group of five students will build a complete psychological scale, together with its manual.\n\nAdd your group members’ names to this spreadsheet.\nAccess to the spreadsheet will be locked after Session 3.\n\nFirst half (Sessions 1–7): laying the conceptual groundwork. What measurement is, which assumptions we rely on (some implicit and easy to miss), what a latent variable is, how to choose a response format, and what it means for scores to be reliable and for score interpretations to be valid.\nSecond half (Sessions 9–15): building the scale itself. Defining the construct, writing items, getting expert review, collecting pilot data, running item analysis, and developing norms and a manual.\n\n\n\n\n\n\n\n\nThe first half sets up the second\n\n\nAlmost every technical decision you will make in the second half (how many items to include, what response format to use, which coefficient to report) follows from the conceptual positions we establish in the first half.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1716,7 +1716,7 @@
     "href": "slides/pertemuan1-en.html#three-situations",
     "title": "What Is Measurement? Foundations and Philosophy of Psychological Measurement",
     "section": "Three situations",
-    "text": "Three situations\n\nA health psychologist wants to distinguish what patients want to happen from what they expect to happen when they see a physician. Existing scales conflate the two. She could invent a few questions herself — but what guarantees that invented questions measure anything at all?\nAn epidemiologist has a large national survey dataset with no stress scale in it. A handful of items seem to touch on stress. May he pool those items and call the result a “stress scale”?\nA marketing team finds that parents’ purchasing decisions are driven by something they cannot name, let alone measure.\n\n\n\nAdapted from DeVellis & Thorpe (2022), Chapter 1.",
+    "text": "Three situations\n\nA health psychologist wants to distinguish what patients want to happen from what they expect to happen when they see a physician. Existing scales conflate the two. She could invent a few questions herself, but what guarantees that invented questions measure anything at all?\nAn epidemiologist has a large national survey dataset with no stress scale in it. A handful of items seem to touch on stress. May he pool those items and call the result a “stress scale”?\nA marketing team finds that parents’ purchasing decisions are driven by something they cannot name, let alone measure.\n\n\n\nAdapted from DeVellis & Thorpe (2022), Chapter 1.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1740,7 +1740,7 @@
     "href": "slides/pertemuan1-en.html#the-central-question-of-this-course",
     "title": "What Is Measurement? Foundations and Philosophy of Psychological Measurement",
     "section": "The central question of this course",
-    "text": "The central question of this course\n\nWhat makes a number\ndeserve to be called a measurement?\n\n\n\nNote that this is a normative question (“deserve”), which is very different from a technical one like “what’s the reliability coefficient of the scores?” The answer is not inside the data — it has to be justified conceptually.",
+    "text": "The central question of this course\n\nWhat makes a number\ndeserve to be called a measurement?\n\n\n\nNote that this is a normative question (“deserve”), which is very different from a technical one like “what’s the reliability coefficient of the scores?” The answer is not inside the data; it has to be justified conceptually.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1752,7 +1752,7 @@
     "href": "slides/pertemuan1-en.html#all-measurement-is-social-measurement",
     "title": "What Is Measurement? Foundations and Philosophy of Psychological Measurement",
     "section": "“All measurement is social measurement”",
-    "text": "“All measurement is social measurement”\n\nAll measurement . . . is social measurement. Physical measures are made for social purposes.\n— Duncan (1984, p. 35)\n\n\n\nDuncan argues that the roots of measurement lie in social processes, and that those processes precede science.\nVoting, census-taking, systems of job advancement — all of them arose to meet everyday human needs, not as experiments to satisfy scientific curiosity.\nThe measurement of length, area, volume, weight, and time was achieved by ancient peoples in the course of solving practical problems — and physics was later built on those foundations.",
+    "text": "“All measurement is social measurement”\n\nAll measurement . . . is social measurement. Physical measures are made for social purposes.\n— Duncan (1984, p. 35)\n\n\n\nDuncan argues that the roots of measurement lie in social processes, and that those processes precede science.\nVoting, census-taking, and systems of job advancement all arose to meet everyday human needs.\nThe measurement of length, area, volume, weight, and time was achieved by ancient peoples in the course of solving practical problems, and physics was later built on those foundations.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1764,7 +1764,7 @@
     "href": "slides/pertemuan1-en.html#the-earliest-traces",
     "title": "What Is Measurement? Foundations and Philosophy of Psychological Measurement",
     "section": "The earliest traces",
-    "text": "The earliest traces\n\nc. 2200 BCE, China (per DuBois, 1964; the date is legendary) — civil service examinations for selecting officials.\nA dishonest scale was treated as a moral failing, not merely a technical one — a concern that recurs across religious traditions.\n\nQur’an, Al-Mutaffifin 1–3 — condemns those who demand full measure from others but give less when they weigh or measure for others.\nQur’an, Al-An’am 152 — commands giving full measure and weight, in justice.\nProverbs 11:1 — “A false balance is an abomination to the Lord, but a just weight is a delight.”\n\nThe French Revolution — driven in part by peasants fed up with unfair measurement practices.\n\n\n\n\n\n\n\n\nWhat is striking about this list\n\n\nEvery entry is about fairness, and less about scientific accuracy. Measurement has been an instrument of power and distribution from the very beginning, something that becomes relevant again when we discuss test bias and the use of psychological tests for selection.",
+    "text": "The earliest traces\n\nc. 2200 BCE, China (per DuBois, 1964; the date is legendary) — civil service examinations for selecting officials.\nA dishonest scale was treated as a moral failing as well as a technical one, a concern that recurs across religious traditions.\n\nQur’an, Al-Mutaffifin 1–3 — condemns those who demand full measure from others but give less when they weigh or measure for others.\nQur’an, Al-An’am 152 — commands giving full measure and weight, in justice.\nProverbs 11:1 — “A false balance is an abomination to the Lord, but a just weight is a delight.”\n\nThe French Revolution — driven in part by peasants fed up with unfair measurement practices.\n\n\n\n\n\n\n\n\nWhat is striking about this list\n\n\nEvery entry is about fairness, and less about scientific accuracy. Measurement has been an instrument of power and distribution from the very beginning, something that becomes relevant again when we discuss test bias and the use of psychological tests for selection.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1776,7 +1776,7 @@
     "href": "slides/pertemuan1-en.html#the-idea-that-measurement-can-be-wrong-is-relatively-recent",
     "title": "What Is Measurement? Foundations and Philosophy of Psychological Measurement",
     "section": "The idea that measurement can be wrong is relatively recent",
-    "text": "The idea that measurement can be wrong is relatively recent\n\nLate 1660s–early 1670s: Isaac Newton, still in his twenties, appears to have been the first to average repeated observations in order to obtain a more accurate value.\nBut he concealed the practice for decades and did not document it in his early reports.\nWhy conceal it? Because at the time, discrepancies between observations were not understood as an inherent feature of measurement — they were read as evidence of incompetence.",
+    "text": "The idea that measurement can be wrong is relatively recent\n\nLate 1660s–early 1670s: Isaac Newton, still in his twenties, appears to have been the first to average repeated observations in order to obtain a more accurate value.\nBut he concealed the practice for decades and did not document it in his early reports.\nWhy conceal it? Because at the time, discrepancies between observations were not understood as an inherent feature of measurement; they were read as evidence of incompetence.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1800,7 +1800,7 @@
     "href": "slides/pertemuan1-en.html#a-conceptual-shift-and-the-rise-of-psychometrics",
     "title": "What Is Measurement? Foundations and Philosophy of Psychological Measurement",
     "section": "A conceptual shift, and the rise of psychometrics",
-    "text": "A conceptual shift, and the rise of psychometrics\n\nConcealing differences between observations used to be standard practice.\n\nScientists were expected to produce an “ideal picture” of a natural phenomenon, using their own judgement to decide what should count as ideal.\nAs a result, “accidental” or random deviations were typically excluded from the scientific record (Daston & Galison, 2007).\n\nThe consequence of this shift was enormous: error, once read as evidence of an observer’s incompetence, came to be understood as a lawful, random (stochastic) property of the measurement process itself — one that could be modelled and estimated.\nWithout this shift, Classical Test Theory could not exist as we know it today.",
+    "text": "A conceptual shift, and the rise of psychometrics\n\nConcealing differences between observations used to be standard practice.\n\nScientists were expected to produce an “ideal picture” of a natural phenomenon, using their own judgement to decide what should count as ideal.\nAs a result, “accidental” or random deviations were typically excluded from the scientific record (Daston & Galison, 2007).\n\nThe consequence of this shift was enormous: error, once read as evidence of an observer’s incompetence, came to be understood as a lawful, random (stochastic) property of the measurement process itself, one that could be modelled and estimated.\nWithout this shift, Classical Test Theory could not exist as we know it today.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1812,7 +1812,7 @@
     "href": "slides/pertemuan1-en.html#modeling-measurement-error-statistically",
     "title": "What Is Measurement? Foundations and Philosophy of Psychological Measurement",
     "section": "Modeling measurement error statistically",
-    "text": "Modeling measurement error statistically\n\n1660s, John Graunt compiled birth and death rates from christening and burial records in London, England. He averaged them to capture a “true” value he believed lay hidden behind the unpredictable events of any given year.\n1777, Daniel Bernoulli compared the distribution of astronomical observations to an archer’s arrows: clustering around a central point, with progressively fewer at greater distances from it.\nBuchwald (2006) argues the fundamental shortcoming of 18th-century thinking was the failure to distinguish random from systematic error — a distinction that only matured in the following century.\n\n\n\n\n\n\n\n\nRemember this analogy\n\n\nBernoulli’s comparison describes what we will later call random error, and exactly why reliability can be raised simply by adding items that measure the same construct.",
+    "text": "Modeling measurement error statistically\n\n1660s, John Graunt compiled birth and death rates from christening and burial records in London, England. He averaged them to capture a “true” value he believed lay hidden behind the unpredictable events of any given year.\n1777, Daniel Bernoulli compared the distribution of astronomical observations to an archer’s arrows: clustering around a central point, with progressively fewer at greater distances from it.\nBuchwald (2006) argues the fundamental shortcoming of 18th-century thinking was the failure to distinguish random from systematic error; a distinction that only matured in the following century.\n\n\n\n\n\n\n\n\nRemember this analogy\n\n\nBernoulli’s comparison describes what we will later call random error, and exactly why reliability can be raised simply by adding items that measure the same construct.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1872,7 +1872,7 @@
     "href": "slides/pertemuan1-en.html#a-more-fundamental-critique-michell",
     "title": "What Is Measurement? Foundations and Philosophy of Psychological Measurement",
     "section": "A more fundamental critique: Michell",
-    "text": "A more fundamental critique: Michell\n\nJoel Michell (2007, 2011) argues that Stevens’s definition is not merely incomplete — it obscures the real question.\nOn his account, genuine measurement is the estimation of the ratio of a magnitude of a quantitative attribute to a unit of the same attribute.\nThat definition carries an empirical precondition: the attribute being measured must actually be quantitative — it must genuinely possess additive magnitude structure.\n\n\n\n\n\n\n\n\nMichell’s main critique\n\n\nWhether psychological attributes (anxiety, personality, motivation) are in fact quantitative is, Michell says, an empirical question that should have been tested first — but psychology skipped it and simply assumed the answer was yes. He calls this the quantitative imperative, and calls psychometrics an instance of pathological science.",
+    "text": "A more fundamental critique: Michell\n\nJoel Michell (2007, 2011) argues that Stevens’s definition is incomplete and obscures the real question.\nOn his account, genuine measurement is the estimation of the ratio of a magnitude of a quantitative attribute to a unit of the same attribute.\nThat definition carries an empirical precondition: the attribute being measured must actually be quantitative: it must genuinely possess additive magnitude structure.\n\n\n\n\n\n\n\n\nMichell’s main critique\n\n\nWhether psychological attributes (anxiety, personality, motivation) are in fact quantitative is, Michell says, an empirical question that should have been tested first — but psychology skipped it and simply assumed the answer was yes. He calls this the quantitative imperative, and calls psychometrics an instance of pathological science.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1884,7 +1884,7 @@
     "href": "slides/pertemuan1-en.html#you-do-not-have-to-agree-with-michell",
     "title": "What Is Measurement? Foundations and Philosophy of Psychological Measurement",
     "section": "You do not have to agree with Michell",
-    "text": "You do not have to agree with Michell\n\nMany psychometricians do not agree, and they have serious rebuttals.\nBut you do have to know the objection exists, and you have to be able to state which assumption you are relying on when you add up 10 Likert items into a single score.\n\n\n\n\n\n\n\n\nThe stance we are training in this course\n\n\nThis course does not ask you to reject psychometrics, nor to swallow it whole. What it asks is that you be able to say: I know exactly which assumptions I am borrowing, and what follows if they are wrong.",
+    "text": "You do not have to agree with Michell\n\nMany psychometricians do not agree, and they have serious rebuttals.\nBut you do have to know the objection exists, and you have to be able to state which assumption you are relying on when you add up 10 Likert items into a single score.\n\n\n\n\n\n\n\n\nThe stance we are training in this course\n\n\nThe aim is to be able to say: I know exactly which assumptions I am borrowing, and what follows if they are wrong.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -1932,7 +1932,7 @@
     "href": "slides/pertemuan1-en.html#example-social-support-or-marital-status",
     "title": "What Is Measurement? Foundations and Philosophy of Psychological Measurement",
     "section": "Example: social support, or marital status?",
-    "text": "Example: social support, or marital status?\n\nA researcher wants to examine the role of social support in later professional attainment, using an existing dataset.\nThe data are rich on professional status over time. On social support there is nothing, only a few items asking whether and how long the participant had been married.\nThe researcher sums those marriage items, calls the result a “social support scale”, and finds no relationship with professional attainment.\n\n\n\n\n\n\n\n\nWhat actually happened\n\n\nThe comparison was between marital status and professional attainment — not social support. Marital status omits important aspects of social support (the perceived quality of support received) and includes irrelevant ones (being too young to have married).\nThe conclusion “social support plays no role” could be completely wrong — and nothing inside the data would tell us.",
+    "text": "Example: social support, or marital status?\n\nA researcher wants to examine the role of social support in later professional attainment, using an existing dataset.\nThe data are rich on professional status over time. On social support there is nothing, only a few items asking whether and how long the participant had been married.\nThe researcher sums those marriage items, calls the result a “social support scale”, and finds no relationship with professional attainment.\n\n\n\n\n\n\n\n\nWhat actually happened\n\n\nThe comparison was between marital status and professional attainment, not social support. Marital status omits important aspects of social support (the perceived quality of support received) and includes irrelevant ones (being too young to have married).\nThe conclusion “social support plays no role” could be completely wrong, and nothing inside the data would tell us.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -2004,7 +2004,7 @@
     "href": "slides/pertemuan1-en.html#another-example-counting-symptoms",
     "title": "What Is Measurement? Foundations and Philosophy of Psychological Measurement",
     "section": "Another example: counting symptoms",
-    "text": "Another example: counting symptoms\n\nSuppose a depression score is the number of symptoms endorsed.\nIs the difference between 2 and 4 symptoms the same size — clinically, conceptually — as the difference between 4 and 6?\nArithmetically both are “2”. Psychologically, almost certainly not.\n\n\n\n\n\n\n\n\nThe statistical consequence\n\n\nUnder Stevens’s framework, means and differences are only meaningful for interval or ratio data, so the parametric techniques you will use — Pearson correlation, t-tests, ANOVA, linear regression — presume interval or ratio data. Applying them to ordinal data borrows that assumption.",
+    "text": "Another example: counting symptoms\n\nSuppose a depression score is the number of symptoms endorsed.\nIs the difference between 2 and 4 symptoms the same size — clinically, conceptually — as the difference between 4 and 6?\nArithmetically both are “2”. Psychologically, almost certainly not.\n\n\n\n\n\n\n\n\nThe statistical consequence\n\n\nUnder Stevens’s framework, means and differences are only meaningful for interval or ratio data, so the parametric techniques you will use (Pearson correlation, t-tests, ANOVA, linear regression) presume interval or ratio data. Applying them to ordinal data borrows that assumption.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -2016,7 +2016,7 @@
     "href": "slides/pertemuan1-en.html#so-do-we-stop",
     "title": "What Is Measurement? Foundations and Philosophy of Psychological Measurement",
     "section": "So do we stop?",
-    "text": "So do we stop?\n\nNo. The field does treat Likert scores as interval, and there are reasonable pragmatic arguments for doing so — especially with many items and non-extreme distributions.\nWhat we may not do is pretend no assumption is being borrowed.\n\n\n\n\n\n\n\n\nWhat I expect from you\n\n\nIn your project report, when you sum items into a total score, I want you to be able to name the assumption you are making — not simply do it because everyone does. We go deeper in Sessions 2 and 4.",
+    "text": "So do we stop?\n\nNo. The field does treat Likert scores as interval, and there are reasonable pragmatic arguments for doing so — especially with many items and non-extreme distributions.\nWhat we may not do is pretend no assumption is being borrowed.\n\n\n\n\n\n\n\n\nWhat I expect from you\n\n\nIn your project report, when you sum items into a total score, I want you to be able to name the assumption you are making, not simply do it because everyone does. We go deeper in Sessions 2 and 4.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -2064,7 +2064,7 @@
     "href": "slides/pertemuan1-en.html#an-index-items-as-causes",
     "title": "What Is Measurement? Foundations and Philosophy of Psychological Measurement",
     "section": "An index: items as causes",
-    "text": "An index: items as causes\n\nExample: the electability of a presidential candidate.\nItems might include: public speaking effectiveness, military service record, physical attractiveness, ability to inspire campaign workers, potential financial resources.\nThese characteristics share no common cause whatsoever — but they do share an effect: increasing the likelihood of a successful campaign.\n\n\n\n\n\n\n\n\nA consequence that is often overlooked\n\n\nIn an index, items need not correlate highly and cannot be interchanged. Computing Cronbach’s alpha for an index is a conceptual error — even though the software will still print a number.",
+    "text": "An index: items as causes\n\nExample: the electability of a presidential candidate.\nItems might include: public speaking effectiveness, military service record, physical attractiveness, ability to inspire campaign workers, potential financial resources.\nThese characteristics share no common cause whatsoever, but they do share an effect: increasing the likelihood of a successful campaign.\n\n\n\n\n\n\n\n\nA consequence that is often overlooked\n\n\nIn an index, items need not correlate highly and cannot be interchanged. Computing Cronbach’s alpha for an index is a conceptual error, even though the software will still print a number.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -2088,7 +2088,7 @@
     "href": "slides/pertemuan1-en.html#an-emergent-variable-merely-grouped",
     "title": "What Is Measurement? Foundations and Philosophy of Psychological Measurement",
     "section": "An emergent variable: merely grouped",
-    "text": "An emergent variable: merely grouped\n\nSentences beginning with a word of fewer than five letters can easily be grouped together.\nThat group shares no common cause and no common effect. It “pops up” purely because someone — or some data-analytic program — perceived a similarity.\n\n\n\n\n\n\n\n\nThe warning most relevant to your project\n\n\nAnalysis software cannot tell these three apart. You can feed anything into jamovi and it will give you \\(\\alpha\\), give you factors, give you a total score.\nWhat determines whether your item set is a scale, an index, or merely an emergent variable is your theory — not the software’s output.",
+    "text": "An emergent variable: merely grouped\n\nSentences beginning with a word of fewer than five letters can easily be grouped together.\nThat group shares no common cause and no common effect. It “pops up” purely because someone (or some data-analytic program) perceived a similarity.\n\n\n\n\n\n\n\n\nThe warning most relevant to your project\n\n\nAnalysis software cannot tell these three apart. You can feed anything into jamovi and it will give you \\(\\alpha\\), give you factors, give you a total score.\nWhat determines whether your item set is a scale, an index, or merely an emergent variable is your theory, not the software’s output.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -2100,7 +2100,7 @@
     "href": "slides/pertemuan1-en.html#in-summary",
     "title": "What Is Measurement? Foundations and Philosophy of Psychological Measurement",
     "section": "In summary",
-    "text": "In summary\n\n\n\n\nDirection of causality\nItems intercorrelated?\nInterchangeable?\n\n\n\n\nScale\nConstruct → items\nThey should be\nYes\n\n\nIndex\nItems → construct\nNot necessarily\nNo\n\n\nEmergent variable\nNeither\nNot relevant\nNo\n\n\n\n\n\n\n\n\n\n\nWhat you will build this semester\n\n\nA scale — with effect indicators, grounded in Classical Test Theory. But you need to know the other two exist, so that you do not mistakenly treat a genuinely formative construct as if it were reflective.",
+    "text": "In summary\n\n\n\n\nDirection of causality\nItems intercorrelated?\nInterchangeable?\n\n\n\n\nScale\nConstruct → items\nThey should be\nYes\n\n\nIndex\nItems → construct\nNot necessarily\nNo\n\n\nEmergent variable\nNeither\nNot relevant\nNo\n\n\n\n\n\n\n\n\n\n\nWhat you will build this semester\n\n\nA scale with effect indicators, grounded in Classical Test Theory. But you need to know the other two exist, so that you do not mistakenly treat a genuinely formative construct as if it were reflective.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -2184,7 +2184,7 @@
     "href": "slides/pertemuan1-en.html#five-key-points",
     "title": "What Is Measurement? Foundations and Philosophy of Psychological Measurement",
     "section": "Five key points",
-    "text": "Five key points\n\nMeasurement precedes science. It was born of a social need for fairness and distribution, not of scientific curiosity.\nThe idea that measurement contains error is only about 250 years old — and without it there would be no Classical Test Theory.\nThe definition of measurement is still contested. Stevens made it permissive enough for psychology to fit; Duncan and Michell argue that the permissiveness conceals an unfinished problem.\nMost psychological data are ordinal but treated as interval. That is allowed — provided you know you are doing it.\nNot every set of items is a scale. What decides is the direction of causality between construct and items.",
+    "text": "Five key points\n\nMeasurement precedes science. It grew out of a social need for fairness and distribution.\nThe idea that measurement contains error is only about 250 years old, and without it there would be no Classical Test Theory.\nThe definition of measurement is still contested. Stevens made it permissive enough for psychology to fit; Duncan and Michell argue that the permissiveness conceals an unfinished problem.\nMost psychological data are ordinal but treated as interval. That is allowed, provided you know you are doing it.\nNot every set of items is a scale. What decides is the direction of causality between construct and items.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -6363,7 +6363,7 @@
     "href": "slides/pertemuan2-en.html#what-we-settled-last-week",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "What we settled last week",
-    "text": "What we settled last week\n\nPsychological measurement is indirect. We work through proxies.\nThe definition of measurement is itself contested, and Michell’s objection — whether psychological attributes are genuinely quantitative — has not really been resolved.\nMost psychological data are ordinal but are treated as interval.\nWhat decides whether your item set is a scale is theory, not software output.",
+    "text": "What we settled last week\n\nPsychological measurement is indirect. We work through proxies.\nThe definition of measurement is itself contested, and Michell’s objection (whether psychological attributes are genuinely quantitative) has not really been resolved.\nMost psychological data are ordinal but are treated as interval.\nWhat decides whether your item set is a scale is theory, not software output.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -6423,7 +6423,7 @@
     "href": "slides/pertemuan2-en.html#what-we-do-when-we-sum-items",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "What we do when we sum items",
-    "text": "What we do when we sum items\nImagine a 10-item anxiety scale, each item scored 1–5. You sum them into a single score from 10 to 50.\n\nIn summing, you have already assumed at least three things:\n\nEvery item carries equal weight. Item 1 counts exactly as much as item 7.\nThe distances between response categories are equal. The step from 1→2 is treated as the step from 4→5.\nThe scores are addable. Someone scoring 40 is treated as having “twice” the anxiety of someone scoring 20 — or at minimum, a 10-point difference means the same thing everywhere on the scale.",
+    "text": "What we do when we sum items\nImagine a 10-item anxiety scale, each item scored 1–5. You sum them into a single score from 10 to 50.\n\nIn summing, you have already assumed at least three things:\n\nEvery item carries equal weight. Item 1 counts exactly as much as item 7.\nThe distances between response categories are equal. The step from 1→2 is treated as the step from 4→5.\nThe scores are addable. Someone scoring 40 is treated as having “twice” the anxiety of someone scoring 20; at minimum, a 10-point difference means the same thing everywhere on the scale.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -6447,7 +6447,7 @@
     "href": "slides/pertemuan2-en.html#where-the-normality-assumption-came-from",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "Where the normality assumption came from",
-    "text": "Where the normality assumption came from\n\nAdolphe Quetelet (1835) introduced l’homme moyen, “the average man”.\n\nHe applied the normal curve — at the time a model of observational error in astronomy — to human characteristics.\n\nThe implication: the normal curve moved from being a model of error to being a model of people.\nGalton then extended it to psychological traits, and normality has been built into psychometrics ever since.\n\nThis is what was used to justify the deeply racist worldview of eugenics.\n\n\n\n\n\n\n\n\n\nWorth being aware of\n\n\nThere was never strong evidence that psychological attributes must be normally distributed. There was only a habit inherited from a very different context.",
+    "text": "Where the normality assumption came from\n\nAdolphe Quetelet (1835) introduced l’homme moyen, “the average man”.\n\nHe applied the normal curve (at the time a model of observational error in astronomy) to human characteristics.\n\nThe implication: the normal curve moved from being a model of error to being a model of people.\nGalton then extended it to psychological traits, and normality has been built into psychometrics ever since.\n\nThis is what was used to justify the deeply racist worldview of eugenics.\n\n\n\n\n\n\n\n\n\nAn inherited habit\n\n\nThere was never strong evidence that psychological attributes must be normally distributed. There was only a habit inherited from a very different context.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -6483,7 +6483,7 @@
     "href": "slides/pertemuan2-en.html#now-look-at-the-total-scores",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "Now look at the total scores",
-    "text": "Now look at the total scores\nTotal score per dimension (10 items, range 10–50), same dataset:\n\n\n\nDimension\nMean\nSD\nSkewness\nKurtosis\n\n\n\n\nExtraversion\n30.11\n9.22\n−0.04\n−0.71\n\n\nNeuroticism\n30.97\n8.62\n−0.08\n−0.60\n\n\nConscientiousness\n33.47\n7.31\n−0.09\n−0.38\n\n\n\n\n\nSkewness is close to zero — the distributions have become symmetric.\nBut kurtosis is negative in every case: the distributions are flatter than a normal curve.",
+    "text": "Now look at the total scores\nTotal score per dimension (10 items, range 10–50), same dataset:\n\n\n\nDimension\nMean\nSD\nSkewness\nKurtosis\n\n\n\n\nExtraversion\n30.11\n9.22\n−0.04\n−0.71\n\n\nNeuroticism\n30.97\n8.62\n−0.08\n−0.60\n\n\nConscientiousness\n33.47\n7.31\n−0.09\n−0.38\n\n\n\n\n\nSkewness is close to zero: the distributions have become symmetric.\nBut kurtosis is negative in every case: the distributions are flatter than a normal curve.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -6507,7 +6507,7 @@
     "href": "slides/pertemuan2-en.html#not-just-in-this-dataset",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "Not just in this dataset",
-    "text": "Not just in this dataset\n\nMicceri (1989) examined 440 large-sample distributions from achievement tests and psychometric instruments.\nThe title of the paper: “The unicorn, the normal curve, and other improbable creatures.”\nHis finding: not one of those distributions met the criteria for normality. Most showed asymmetry, heavy tails, or multimodality.\n\n\n\n\n\n\n\n\nWhy this matters for your project\n\n\nNorms and standard scores depend on this assumption. The percentiles, z-scores, and T-scores you will construct in Session 14 are derived by assuming a particular distributional shape.\nIf the empirical distribution is not that shape, your norms will misplace people — and worst of all at the extremes, which is exactly where decisions get made.",
+    "text": "Not just in this dataset\n\nMicceri (1989) examined 440 large-sample distributions from achievement tests and psychometric instruments.\nThe title of the paper: “The unicorn, the normal curve, and other improbable creatures.”\nHis finding: not one of those distributions met the criteria for normality. Most showed asymmetry, heavy tails, or multimodality.\n\n\n\n\n\n\n\n\nWhy this matters for your project\n\n\nNorms and standard scores depend on this assumption. The percentiles, z-scores, and T-scores you will construct in Session 14 are derived by assuming a particular distributional shape.\nIf the empirical distribution is not that shape, your norms will misplace people, worst of all at the extremes, which is where decisions get made.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -6519,7 +6519,7 @@
     "href": "slides/pertemuan2-en.html#two-possible-shapes-for-a-construct",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "Two possible shapes for a construct",
-    "text": "Two possible shapes for a construct\n\n\nDimensional\nPeople differ in degree.\nThere is no natural boundary; any cut-off is one we impose ourselves.\nExample: height.\n\nTaxonic (categorical)\nThere really are two naturally distinct groups.\nThe boundary is not the researcher’s invention.\nExample: pregnant/not pregnant.\n\n\n\nThe question is not “which is more convenient” but which is true for this construct.\nThat is an empirical question, and there is a method for it: taxometrics, developed by Paul Meehl.",
+    "text": "Two possible shapes for a construct\n\n\nDimensional\nPeople differ in degree.\nThere is no natural boundary; any cut-off is one we impose ourselves.\nExample: height.\n\nTaxonic (categorical)\nThere really are two naturally distinct groups.\nThe boundary is not the researcher’s invention.\nExample: pregnant/not pregnant.\n\n\n\nThe question is which is true for this construct.\nThat is an empirical question, and there is a method for it: taxometrics, developed by Paul Meehl.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -6543,7 +6543,7 @@
     "href": "slides/pertemuan2-en.html#why-this-matters-for-your-scale",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "Why this matters for your scale",
-    "text": "Why this matters for your scale\n\nIf your construct is dimensional but you force categories (“high/medium/low”), you throw away information and create a boundary that does not exist in nature.\nIf your construct is taxonic but you scale it, your middle scores describe a person who does not actually exist.\nMost psychological scales — including the one you are about to build — assume a dimensional construct. That is a common assumption, but it is still one that needs to be tested.\n\nThat said, testing it is beyond the scope of the project you are doing in this course.",
+    "text": "Why this matters for your scale\n\nIf your construct is dimensional but you force categories (“high/medium/low”), you throw away information and create a boundary that does not exist in nature.\nIf your construct is taxonic but you scale it, your middle scores describe a person who does not actually exist.\nMost psychological scales, including the one you are about to build, assume a dimensional construct. That is a common assumption, but it is still one that needs to be tested.\n\nThat said, testing it is beyond the scope of the project you are doing in this course.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -6579,7 +6579,7 @@
     "href": "slides/pertemuan2-en.html#the-local-independence-assumption",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "The local independence assumption",
-    "text": "The local independence assumption\n\nOnce we account for the latent variable, the items should no longer be related to each other.\nIn other words: any correlation between two items should trace entirely to the latent construct, not to anything else.\nThe most common violation: two items that say nearly the same thing.\n\n\n\n\n\n\n\n\nAn example of a violation\n\n\n“I often feel sad” and “I frequently feel down”.\nThese will correlate strongly — but partly because they are almost the same sentence, not only because of depression. Your reliability estimate will look good for the wrong reason.\nWe will cover how to avoid this when we write items in Session 10.",
+    "text": "The local independence assumption\n\nOnce we account for the latent variable, the items should no longer be related to each other.\nIn other words: any correlation between two items should trace entirely to the latent construct, not to anything else.\nThe most common violation: two items that say nearly the same thing.\n\n\n\n\n\n\n\n\nAn example of a violation\n\n\n“I often feel sad” and “I frequently feel down”.\nThese will correlate strongly, but partly because they are almost the same sentence, not only because of depression. Your reliability estimate will look good for the wrong reason.\nWe will cover how to avoid this when we write items in Session 10.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -6603,7 +6603,7 @@
     "href": "slides/pertemuan2-en.html#the-reference-group-effect",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "The reference-group effect",
-    "text": "The reference-group effect\n\nHeine, Lehman, Peng, & Greenholtz (2002) demonstrated a serious problem with cross-cultural Likert comparisons.\nWhen someone answers “I am a conscientious person”, they judge themselves relative to the people around them — not against a universal standard.\nAs a result, participants from a culture with a higher local standard may rate themselves lower, even when their behaviour fits the construct better.\n\n\n\n\n\n\n\n\nThe implication is uncomfortable\n\n\nCross-national comparisons of mean self-report scores can come out backwards relative to reality. And nothing in the data looks wrong.",
+    "text": "The reference-group effect\n\nHeine, Lehman, Peng, & Greenholtz (2002) demonstrated a serious problem with cross-cultural Likert comparisons.\nWhen someone answers “I am a conscientious person”, they judge themselves relative to the people around them, not against a universal standard.\nAs a result, participants from a culture with a higher local standard may rate themselves lower, even when their behaviour fits the construct better.\n\n\n\n\n\n\n\n\nThe implication is uncomfortable\n\n\nCross-national comparisons of mean self-report scores can come out backwards relative to reality. And nothing in the data looks wrong.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -6615,7 +6615,7 @@
     "href": "slides/pertemuan2-en.html#why-this-is-directly-relevant-to-you",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "Why this is directly relevant to you",
-    "text": "Why this is directly relevant to you\n\nMany scales in use in Indonesia are adaptations of English-language instruments.\nBack-translation ensures the words match. It does not ensure the meaning matches, still less that the item functions the same way for Indonesian participants.\nIf your group chooses to adapt an existing scale — one written in a foreign language and whose scores were evaluated empirically in another country — that is not a translation job, it is a psychometric one.\n\n\n\n\n\n\n\n\nA question your group must answer\n\n\nWho is the target population for your scale, and does your item make sense for every subgroup within it? We will use this question again when setting the pilot sample in Session 12.",
+    "text": "Why this is directly relevant to you\n\nMany scales in use in Indonesia are adaptations of English-language instruments.\nBack-translation ensures the words match. It does not ensure the meaning matches, still less that the item functions the same way for Indonesian participants.\nIf your group chooses to adapt an existing scale — one written in a foreign language and whose scores were evaluated empirically in another country — that is a psychometric job as much as a translation one.\n\n\n\n\n\n\n\n\nA question your group must answer\n\n\nWho is the target population for your scale, and does your item make sense for every subgroup within it? We will use this question again when setting the pilot sample in Session 12.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -6675,7 +6675,7 @@
     "href": "slides/pertemuan2-en.html#careless-responding",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "Careless responding",
-    "text": "Careless responding\n\nSome participants complete a questionnaire without reading it — especially long, online, unincentivised ones.\nMeade & Craig (2012) showed the proportion can be large enough to change the results of factor analysis and reliability estimates.\nThis is not only about participant attitude; it is a consequence of instrument design that overburdens people.\n\n\n\n\n\n\n\n\nWhat you can do in your pilot study\n\n\nRecord completion time, watch for flat response patterns (all “3”s), and fix your data-cleaning rules before you look at the results. We will design this together in Session 12.",
+    "text": "Careless responding\n\nSome participants complete a questionnaire without reading it — especially long, online, unincentivised ones.\nMeade & Craig (2012) showed the proportion can be large enough to change the results of factor analysis and reliability estimates.\nThis comes partly from participant attitude and partly from instrument design that overburdens people.\n\n\n\n\n\n\n\n\nWhat you can do in your pilot study\n\n\nRecord completion time, watch for flat response patterns (all “3”s), and fix your data-cleaning rules before you look at the results. We will design this together in Session 12.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -6687,7 +6687,7 @@
     "href": "slides/pertemuan2-en.html#this-is-not-an-argument-for-giving-up",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "This is not an argument for giving up",
-    "text": "This is not an argument for giving up\n\nEverything we discussed today applies equally to well-established, widely used instruments.\nThe wrong conclusion to draw is “psychological measurement is useless.”\nThe right conclusion: psychological measurement is useful to the extent that we are honest about its limits.\n\n\n\n\n\n\n\n\nWhat distinguishes good work\n\n\nNo scale is free of assumptions. The aim is a scale whose assumptions are stated, checked as far as they can be checked, and reported honestly.",
+    "text": "This is not an argument for giving up\n\nEverything we discussed today applies equally to well-established, widely used instruments.\nPsychological measurement is useful to the extent that we are honest about its limits.\n\n\n\n\n\n\n\n\nWhat distinguishes good work\n\n\nNo scale is free of assumptions. The aim is a scale whose assumptions are stated, checked as far as they can be checked, and reported honestly.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -6735,7 +6735,7 @@
     "href": "slides/pertemuan2-en.html#for-session-3",
     "title": "Common Assumptions in Psychological Measurement",
     "section": "For Session 3",
-    "text": "For Session 3\nWe move to the central framework of this course: the latent variable.\n\nWhat it means to call something a latent variable, and what follows from it.\nClassical Test Theory: \\(X = T + E\\), and the assumptions that come with it.\nWhy reliability can be defined as a proportion of variance.\nA glimpse of Item Response Theory as an alternative framework — and what it offers once the unit-weighting assumption is dropped.\n\n\n\n\n\n\n\n\nPreparation\n\n\nRead DeVellis & Thorpe (2022), Chapter 2. If you have time, Chapter 3 of Petersen on constructs.",
+    "text": "For Session 3\nWe move to the central framework of this course: the latent variable.\n\nWhat it means to call something a latent variable, and what follows from it.\nClassical Test Theory: \\(X = T + E\\), and the assumptions that come with it.\nWhy reliability can be defined as a proportion of variance.\nA glimpse of Item Response Theory as an alternative framework, and what it offers once the unit-weighting assumption is dropped.\n\n\n\n\n\n\n\n\nPreparation\n\n\nRead DeVellis & Thorpe (2022), Chapter 2. If you have time, Chapter 3 of Petersen on constructs.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -6771,7 +6771,7 @@
     "href": "slides/pertemuan4-en.html#agenda",
     "title": "Response Formats I: Likert, Semantic Differential, and Guttman",
     "section": "Agenda",
-    "text": "Agenda\n\nWhat we are actually choosing when we choose a response format\nLikert: where it came from, and the four decisions you have to make\nSemantic Differential: when adjective pairs work better than statements\nGuttman: when items really are ordered by logic — and why it rarely works\nComparing the three\nThe closing question: which assumptions does a response format change?",
+    "text": "Agenda\n\nWhat we are actually choosing when we choose a response format\nLikert: where it came from, and the four decisions you have to make\nSemantic Differential: when adjective pairs work better than statements\nGuttman: when items really are ordered by logic, and why it rarely works\nComparing the three\nThe closing question: which assumptions does a response format change?",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -6783,7 +6783,7 @@
     "href": "slides/pertemuan4-en.html#where-we-are",
     "title": "Response Formats I: Likert, Semantic Differential, and Guttman",
     "section": "Where we are",
-    "text": "Where we are\n\nSession 3 gave us the model: \\(X = T + E\\), the latent variable as a cause, and reliability as a proportion of variance.\nSo far all of it has been abstract. Today the model touches a decision you will actually make.\nResponse format is the first place measurement theory turns into something visible on a questionnaire.\n\n\n\n\n\n\n\n\nA response format is not a matter of taste or habit. Each format carries its own package of assumptions, and that package determines which analyses you may later use.",
+    "text": "Where we are\n\nSession 3 gave us the model: \\(X = T + E\\), the latent variable as a cause, and reliability as a proportion of variance.\nSo far all of it has been abstract. Today the model touches a decision you will actually make.\nResponse format is the first place measurement theory turns into something visible on a questionnaire.\n\n\n\n\n\n\n\n\nEach response format carries its own package of assumptions, and that package determines which analyses you may later use.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -6807,7 +6807,7 @@
     "href": "slides/pertemuan4-en.html#where-it-came-from",
     "title": "Response Formats I: Likert, Semantic Differential, and Guttman",
     "section": "Where it came from",
-    "text": "Where it came from\n\nIntroduced by Rensis Likert (1932) in his dissertation, A technique for the measurement of attitudes.\nThe core idea is not the “Strongly Disagree to Strongly Agree” options, but summated ratings: a set of items answered on a graded scale and then added together into one score.\nSo what Likert called a “scale” is the set of items, not the response options.\n\n\n\n\n\n\n\n\nA single item with five options is not a “Likert scale”. It is a Likert-type item.\nA Likert scale exists only when items are summed. Note that this is consistent with Session 3: reliability can only be computed for a set of items.",
+    "text": "Where it came from\n\nIntroduced by Rensis Likert (1932) in his dissertation, A technique for the measurement of attitudes.\nThe core idea is summated ratings: a set of items answered on a graded scale and then added together into one score.\nSo what Likert called a “scale” is the set of items, not the response options.\n\n\n\n\n\n\n\n\nA single item with five options is not a “Likert scale”. It is a Likert-type item.\nA Likert scale exists only when items are summed. Note that this is consistent with Session 3: reliability can only be computed for a set of items.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -6855,7 +6855,7 @@
     "href": "slides/pertemuan4-en.html#the-problem-with-midpoints",
     "title": "Response Formats I: Likert, Semantic Differential, and Guttman",
     "section": "The problem with midpoints",
-    "text": "The problem with midpoints\n\nIf every item has a midpoint, some participants will learn they can always choose it and finish faster.\nThe midpoint becomes the safe, lowest-effort option — not a report of their state.\nKrosnick (1991) calls this satisficing: giving an answer that is good enough rather than the most accurate one.\n\n\n\n\n\nWhen a midpoint is available it is often heavily used. If that happens in your pilot data in Session 12, do not immediately conclude your participants are genuinely neutral.",
+    "text": "The problem with midpoints\n\nIf every item has a midpoint, some participants will learn they can always choose it and finish faster.\nThe midpoint becomes the safe, lowest-effort option, not a report of their state.\nKrosnick (1991) calls this satisficing: giving an answer that is good enough rather than the most accurate one.\n\n\n\n\n\nWhen a midpoint is available it is often heavily used. If that happens in your pilot data in Session 12, do not immediately conclude your participants are genuinely neutral.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -6891,7 +6891,7 @@
     "href": "slides/pertemuan4-en.html#decision-4-which-anchors",
     "title": "Response Formats I: Likert, Semantic Differential, and Guttman",
     "section": "Decision 4: which anchors?",
-    "text": "Decision 4: which anchors?\n\nAgreement — “Strongly Disagree” to “Strongly Agree”. The most common, and the most vulnerable to acquiescence (Session 2).\nFrequency — “Never” to “Always”. More concrete, but it needs an explicit time referent: “often” within a week, or within a year?\nItem-specific anchors — for example “How often do you feel nervous before a presentation?” with “Never/Once or twice/Several times/Almost every time/Always”.\n\n\n\n\n\n\n\n\nAgreement anchors invite agreement\n\n\nAgreement anchors invite participants simply to agree. Weijters et al. (2010) reinforce this point, showing that scale format itself shapes which response styles appear.",
+    "text": "Decision 4: which anchors?\n\nAgreement — “Strongly Disagree” to “Strongly Agree”. The most common, and the most vulnerable to acquiescence (Session 2).\nFrequency — “Never” to “Always”. More concrete, but it needs an explicit time referent: “often” within a week, or within a year?\nItem-specific anchors — for example “How often do you feel nervous before a presentation?” with “Never/Once or twice/Several times/Almost every time/Always”.\n\n\n\n\n\n\n\n\nAgreement anchors invite agreement\n\n\nWeijters et al. (2010) show that scale format itself shapes which response styles appear.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -6939,7 +6939,7 @@
     "href": "slides/pertemuan4-en.html#when-this-format-is-useful",
     "title": "Response Formats I: Likert, Semantic Differential, and Guttman",
     "section": "When this format is useful",
-    "text": "When this format is useful\n\nWhen you are measuring an attitude or impression toward an object — a service, a product, a programme, a group, a public figure.\nWhen you want to compare several objects on the same dimensions.\nWhen reading load must be kept low: adjective pairs are far lighter than rows of long sentences.\n\n\n\n\n\n\n\n\nStill compatible with the Session 3 model\n\n\nSeveral adjective pairs tapping the same thing — honest/dishonest, fair/unfair, truthful/untruthful — can be summed into a single “honesty” score.\nThe logic is identical: one latent variable as the common cause, the items as its indicators.",
+    "text": "When this format is useful\n\nWhen you are measuring an attitude or impression toward an object: a service, a product, a programme, a group, a public figure.\nWhen you want to compare several objects on the same dimensions.\nWhen reading load must be kept low: adjective pairs are far lighter than rows of long sentences.\n\n\n\n\n\n\n\n\nStill compatible with the Session 3 model\n\n\nSeveral adjective pairs tapping the same thing — honest/dishonest, fair/unfair, truthful/untruthful — can be summed into a single “honesty” score.\nThe logic is identical: one latent variable as the common cause, the items as its indicators.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7011,7 +7011,7 @@
     "href": "slides/pertemuan4-en.html#where-guttman-fails",
     "title": "Response Formats I: Likert, Semantic Differential, and Guttman",
     "section": "Where Guttman fails",
-    "text": "Where Guttman fails\n\nAs soon as the construct is not concrete, the ordering stops being the same for everyone.\nTake two items that “might” be ordered:\n\nItem 1: “Being active in student organisations shows good time-management skills.”\nItem 2: “Good time-management skills do not come at the cost of academic achievement.”\n\nUnder Guttman logic, agreeing with item 1 should mean agreeing with item 2 as well.\nBut a participant might believe that being active in student organisations does build time-management skills while also costing academic achievement — a pattern that breaks the Guttman order.\nThe assumption that all items relate equally strongly to the latent variable does not hold for Guttman items.\n\nSo the parallel and tau-equivalent models from Session 3 do not fit a Guttman scale, and Cronbach’s \\(\\alpha\\) is not an appropriate reliability estimate for Guttman scale scores.",
+    "text": "Where Guttman fails\n\nAs soon as the construct is not concrete, the ordering stops being the same for everyone.\nTake two items that “might” be ordered:\n\nItem 1: “Being active in student organisations shows good time-management skills.”\nItem 2: “Good time-management skills do not come at the cost of academic achievement.”\n\nUnder Guttman logic, agreeing with item 1 should mean agreeing with item 2 as well.\nBut a participant might believe that being active in student organisations does build time-management skills while also costing academic achievement, a pattern that breaks the Guttman order.\nThe assumption that all items relate equally strongly to the latent variable does not hold for Guttman items.\n\nSo the parallel and tau-equivalent models from Session 3 do not fit a Guttman scale, and Cronbach’s \\(\\alpha\\) is not an appropriate reliability estimate for Guttman scale scores.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7047,7 +7047,7 @@
     "href": "slides/pertemuan4-en.html#choosing-a-format-means-choosing-assumptions",
     "title": "Response Formats I: Likert, Semantic Differential, and Guttman",
     "section": "Choosing a format means choosing assumptions",
-    "text": "Choosing a format means choosing assumptions\n\nLikert assumes equal intervals between categories, that all participants read the anchors the same way, and that all items carry equal weight.\nSemantic Differential assumes the adjective pair is genuinely bipolar and means the same thing to everyone.\nGuttman assumes a deterministic cumulative order — the strongest assumption of the three.",
+    "text": "Choosing a format means choosing assumptions\n\nLikert assumes equal intervals between categories, that all participants read the anchors the same way, and that all items carry equal weight.\nSemantic Differential assumes the adjective pair is genuinely bipolar and means the same thing to everyone.\nGuttman assumes a deterministic cumulative order, the strongest assumption of the three.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7071,7 +7071,7 @@
     "href": "slides/pertemuan4-en.html#six-key-points",
     "title": "Response Formats I: Likert, Semantic Differential, and Guttman",
     "section": "Six key points",
-    "text": "Six key points\n\nResponse format is not a matter of taste. Each format brings its own package of assumptions.\nA “Likert scale” means a set of summed items, not one item with five options.\nAround 5–7 points is the sensible range; four points or fewer loses information, above 7 adds little.\nMidpoints have costs and benefits. Neither format is automatically better — and “neutral”, “undecided”, and “slightly disagree” are not the same thing.\nSemantic Differential requires adjective pairs that are genuinely opposed in the participant’s language.\nGuttman requires a deterministic cumulative order, so it rarely fits psychological constructs — but its idea reappears inside IRT.",
+    "text": "Six key points\n\nEach response format brings its own package of assumptions.\nA “Likert scale” means a set of summed items, not one item with five options.\nAround 5–7 points is the sensible range; four points or fewer loses information, above 7 adds little.\nMidpoints have costs and benefits. Neither format is automatically better, and “neutral”, “undecided”, and “slightly disagree” are not the same thing.\nSemantic Differential requires adjective pairs that are genuinely opposed in the participant’s language.\nGuttman requires a deterministic cumulative order, so it rarely fits psychological constructs, but its idea reappears inside IRT.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7167,7 +7167,7 @@
     "href": "slides/pertemuan6-en.html#a-simple-idea",
     "title": "Reliability: Core Concepts and Implementation",
     "section": "A simple idea",
-    "text": "A simple idea\n\nSplit the scale into two halves — say odd-numbered and even-numbered items.\nCompute a total for each half and correlate them.\nIf both halves measure the same thing, the correlation should be high.\n\n\nFor the IPIP Extraversion scale (10 items), the odd-even correlation is:\n\\[r = .748\\]",
+    "text": "A simple idea\n\nSplit the scale into two halves (say odd-numbered and even-numbered items).\nCompute a total for each half and correlate them.\nIf both halves measure the same thing, the correlation should be high.\n\n\nFor the IPIP Extraversion scale (10 items), the odd-even correlation is:\n\\[r = .748\\]",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7323,7 +7323,7 @@
     "href": "slides/pertemuan6-en.html#what-is-actually-going-on-inside",
     "title": "Reliability: Core Concepts and Implementation",
     "section": "What is actually going on inside",
-    "text": "What is actually going on inside\n\n\n\n\nMean correlation\n\n\n\n\nBetween items within the Extraversion block\n.436\n\n\nBetween items within the Neuroticism block\n.456\n\n\nBetween blocks\n−.111\n\n\n\n\n\nWithin each block the correlations are high. That alone is enough to lift \\(\\alpha\\) to .616.\nThe between-block correlation is small and negative — a sign that these are not one thing.",
+    "text": "What is actually going on inside\n\n\n\n\nMean correlation\n\n\n\n\nBetween items within the Extraversion block\n.436\n\n\nBetween items within the Neuroticism block\n.456\n\n\nBetween blocks\n−.111\n\n\n\n\n\nWithin each block the correlations are high. That alone is enough to lift \\(\\alpha\\) to .616.\nThe between-block correlation is small and negative, a sign that these are not one thing.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7335,7 +7335,7 @@
     "href": "slides/pertemuan6-en.html#now-compute-omega_h",
     "title": "Reliability: Core Concepts and Implementation",
     "section": "Now compute \\(\\omega_h\\)",
-    "text": "Now compute \\(\\omega_h\\)\n\n\\(\\alpha = .616\\) but \\(\\omega_h \\approx .00\\)\n\n\n\n\\(\\omega\\) hierarchical asks a different question from \\(\\alpha\\): what proportion of total score variance comes from one general latent factor?\nFor this mixed set the answer is almost none — because there is no single general factor there.\nIn short\n\n\\(\\alpha\\) = .616 means “these items correlate with each other”\n\\(\\omega_h \\approx .00\\) means “these items do not measure the same construct”\n\n\n\n\n\n\n\n\n\n\nHow this was computed\n\n\nComputed with psych::omega() in . Alternatively, you can use the Lensym online calculator.",
+    "text": "Now compute \\(\\omega_h\\)\n\n\\(\\alpha = .616\\) but \\(\\omega_h \\approx .00\\)\n\n\n\n\\(\\omega\\) hierarchical asks a different question from \\(\\alpha\\): what proportion of total score variance comes from one general latent factor?\nFor this mixed set the answer is almost none, because there is no single general factor there.\nIn short\n\n\\(\\alpha\\) = .616 means “these items correlate with each other”\n\\(\\omega_h \\approx .00\\) means “these items do not measure the same construct”\n\n\n\n\n\n\n\n\n\n\nHow this was computed\n\n\nComputed with psych::omega() in . Alternatively, you can use the Lensym online calculator.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7347,7 +7347,7 @@
     "href": "slides/pertemuan6-en.html#why-alpha-needs-a-companion",
     "title": "Reliability: Core Concepts and Implementation",
     "section": "Why \\(\\alpha\\) needs a companion",
-    "text": "Why \\(\\alpha\\) needs a companion\n\nRecall from Session 3: \\(\\alpha\\) assumes the tau-equivalent model, in which every item relates equally strongly to the latent variable.\nIf your items are really congeneric — and they almost always are — that assumption does not hold.\n\\(\\omega\\) makes no such assumption. It uses each item’s loading as it is.\n\n\n\\[\\omega = \\frac{\\left(\\sum \\lambda_i\\right)^2}{\\left(\\sum \\lambda_i\\right)^2 + \\sum \\psi_i}\\]\nwhere \\(\\lambda_i\\) is item \\(i\\)’s loading and \\(\\psi_i\\) its error variance.",
+    "text": "Why \\(\\alpha\\) needs a companion\n\nRecall from Session 3: \\(\\alpha\\) assumes the tau-equivalent model, in which every item relates equally strongly to the latent variable.\nIf your items are really congeneric (and they almost always are), that assumption does not hold.\n\\(\\omega\\) makes no such assumption. It uses each item’s loading as it is.\n\n\n\\[\\omega = \\frac{\\left(\\sum \\lambda_i\\right)^2}{\\left(\\sum \\lambda_i\\right)^2 + \\sum \\psi_i}\\]\nwhere \\(\\lambda_i\\) is item \\(i\\)’s loading and \\(\\psi_i\\) its error variance.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7383,7 +7383,7 @@
     "href": "slides/pertemuan6-en.html#varieties-of-omega",
     "title": "Reliability: Core Concepts and Implementation",
     "section": "Varieties of \\(\\omega\\)",
-    "text": "Varieties of \\(\\omega\\)\n\nMcDonald’s \\(\\omega\\) (the original, 1999) — computed from a single latent factor (a congeneric model).\n\nAppropriate when your scale really is unidimensional, and this is what jamovi computes.\n\nZinbarg, Revelle, Yovel, & Li (2005) extended it to scales with one general factor plus several group factors (a bifactor model):\n\n\\(\\omega\\) hierarchical (\\(\\omega_h\\)) — the proportion of variance from the general factor alone.\n\\(\\omega\\) total (\\(\\omega_t\\)) — the proportion of variance from the general factor plus all the group factors.\n\nIf your scale is genuinely unidimensional, all three coincide exactly — there is no group-factor variance to separate out.\n\n\n\n\n\n\n\n\nMcDonald’s ω in jamovi is not \\(\\omega_h\\). It comes from a single-factor model with no bifactor decomposition, so it cannot detect multidimensionality the way we just demonstrated with psych::omega() in .",
+    "text": "Varieties of \\(\\omega\\)\n\nMcDonald’s \\(\\omega\\) (the original, 1999) — computed from a single latent factor (a congeneric model).\n\nAppropriate when your scale really is unidimensional, and this is what jamovi computes.\n\nZinbarg, Revelle, Yovel, & Li (2005) extended it to scales with one general factor plus several group factors (a bifactor model):\n\n\\(\\omega\\) hierarchical (\\(\\omega_h\\)) — the proportion of variance from the general factor alone.\n\\(\\omega\\) total (\\(\\omega_t\\)) — the proportion of variance from the general factor plus all the group factors.\n\nIf your scale is genuinely unidimensional, all three coincide exactly: there is no group-factor variance to separate out.\n\n\n\n\n\n\n\n\nMcDonald’s ω in jamovi is not \\(\\omega_h\\). It comes from a single-factor model with no bifactor decomposition, so it cannot detect multidimensionality the way we just demonstrated with psych::omega() in .",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7443,7 +7443,7 @@
     "href": "slides/pertemuan6-en.html#the-steps",
     "title": "Reliability: Core Concepts and Implementation",
     "section": "The steps",
-    "text": "The steps\n\nOpen the data, then Analyses → Factor → Reliability Analysis.\nMove all of your scale’s items into the Items box.\nOpen the Reverse Scored Items panel and move any reverse-worded items into it. Do not skip this step.\nUnder Scale Statistics, tick Cronbach’s α and McDonald’s ω.\nUnder Item Statistics, tick item-rest correlation plus Cronbach’s α and McDonald’s ω if item dropped.\n\n\n\n\n\n\n\n\nDo not forget to reverse the reverse-worded items. When that step is skipped, your \\(\\alpha\\) drops sharply and it looks like the scale is faulty — when what is actually faulty is the scoring.\nThe tell-tale sign: a negative item-rest correlation.",
+    "text": "The steps\n\nOpen the data, then Analyses → Factor → Reliability Analysis.\nMove all of your scale’s items into the Items box.\nOpen the Reverse Scored Items panel and move any reverse-worded items into it. Do not skip this step.\nUnder Scale Statistics, tick Cronbach’s α and McDonald’s ω.\nUnder Item Statistics, tick item-rest correlation plus Cronbach’s α and McDonald’s ω if item dropped.\n\n\n\n\n\n\n\n\nDo not forget to reverse the reverse-worded items. When that step is skipped, your \\(\\alpha\\) drops sharply and it looks like the scale is faulty, when what is actually faulty is the scoring.\nThe tell-tale sign: a negative item-rest correlation.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7527,7 +7527,7 @@
     "href": "slides/pertemuan6-en.html#six-key-points",
     "title": "Reliability: Core Concepts and Implementation",
     "section": "Six key points",
-    "text": "Six key points\n\nReliability is not one thing. Stability over time and internal consistency are different questions.\nSpearman-Brown corrects split-half to full length, and explains why adding items raises reliability.\n\\(\\alpha\\) is the average of all possible split-halves, and is determined only by \\(k\\) and \\(\\bar{r}\\).\nA high \\(\\alpha\\) can be bought by adding items, and \\(\\alpha\\) cannot detect multidimensionality — \\(\\alpha = .62\\) against \\(\\omega_h \\approx 0\\) is the proof.\nCompute \\(\\alpha\\) and \\(\\omega\\) together, and check dimensionality separately.\nThe .70 threshold is not a fixed rule. The standard depends on what the scores are for.",
+    "text": "Six key points\n\nReliability is not one thing. Stability over time and internal consistency are different questions.\nSpearman-Brown corrects split-half to full length, and explains why adding items raises reliability.\n\\(\\alpha\\) is the average of all possible split-halves, and is determined only by \\(k\\) and \\(\\bar{r}\\).\nA high \\(\\alpha\\) can be bought by adding items, and \\(\\alpha\\) cannot detect multidimensionality; \\(\\alpha = .62\\) against \\(\\omega_h \\approx 0\\) is the proof.\nCompute \\(\\alpha\\) and \\(\\omega\\) together, and check dimensionality separately.\nThe .70 threshold is not a fixed rule. The standard depends on what the scores are for.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7539,7 +7539,7 @@
     "href": "slides/pertemuan6-en.html#for-session-7",
     "title": "Reliability: Core Concepts and Implementation",
     "section": "For Session 7",
-    "text": "For Session 7\nWe turn to validity — and a much harder question.\n\nWhy validity is a property of score interpretations, not of a scale. We touched on it in Session 3; next week we take it in full.\nThe kinds of evidence for validity, and why the old three-way division (content, criterion, construct) has been abandoned.\nContent validity and its connection to the CVI you will compute in Session 11.\nWhy high reliability guarantees nothing about validity.\n\n\n\n\n\n\n\n\nPreparation\n\n\nRead DeVellis & Thorpe (2022), Chapter 4. If you have time, the Psychometric Validity chapter of Bikos.",
+    "text": "For Session 7\nWe turn to validity, a much harder question.\n\nWhy validity is a property of score interpretations, not of a scale. We touched on it in Session 3; next week we take it in full.\nThe kinds of evidence for validity, and why the old three-way division (content, criterion, construct) has been abandoned.\nContent validity and its connection to the CVI you will compute in Session 11.\nWhy high reliability guarantees nothing about validity.\n\n\n\n\n\n\n\n\nPreparation\n\n\nRead DeVellis & Thorpe (2022), Chapter 4. If you have time, the Psychometric Validity chapter of Bikos.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",
@@ -7659,7 +7659,7 @@
     "href": "slides/pertemuan9-en.html#on-whose-attribute",
     "title": "Identifying the Construct and Setting the Estimand",
     "section": "On “whose attribute”",
-    "text": "On “whose attribute”\n\nWe covered this in Session 3: a latent variable is usually a characteristic of whoever supplies the data.\nIf you ask students to rate their lecturer, you are measuring students’ perceptions, not the lecturer’s qualities.\nIf you ask parents to report their child’s behaviour, you are measuring the parents’ report, not the child’s behaviour directly.\n\n\n\n\n\n\n\n\nCheck this\n\n\nThe construct name in your report must match who actually completed the questionnaire. A mismatch here will run through the entire report.",
+    "text": "On “whose attribute”\n\nWe covered this in Session 3: a latent variable is usually a characteristic of whoever supplies the data.\nIf you ask students to rate their lecturer, you are measuring students’ perceptions, not the lecturer’s qualities.\nIf you ask parents to report their child’s behaviour, you are measuring the parents’ report, not the child’s behaviour directly.\n\n\n\n\n\n\n\n\nCheck this\n\n\nThe construct name in your report must match who actually completed the questionnaire. A mismatch here will carry through the report.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi 🇬🇧 ",

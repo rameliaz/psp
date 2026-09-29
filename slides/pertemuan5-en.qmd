@@ -20,7 +20,7 @@ execute:
 
 ## Agenda {.agenda-slide}
 
-1. Three things we have been taking for granted — and the formats that give them up
+1. Three things we have been taking for granted, and the formats that give them up
 2. **Thurstone**: items calibrated in advance by a panel of judges
 3. ***Situational Judgement Tests***: measuring judgement rather than self-description
 4. ***Forced-choice***: when participants must choose, and scores become **ipsative**
@@ -46,7 +46,7 @@ When we use a Likert scale, we quietly accept three things:
 . . .
 
 ::: {.callout-note appearance="simple"}
-Three formats, each of which **gives up one** of these — and pays a price for it.
+Three formats, each of which **gives up one** of these, and pays a price for it.
 :::
 
 ## Today's map
@@ -137,7 +137,7 @@ We have established each item's "difficulty" **before a single participant has a
 
 * A participant's score is the **mean scale value of the statements they endorsed**.
 
-* So someone endorsing statements with scale values 8.5 and 10.5 scores 9.5 — nothing is summed.
+* So someone endorsing statements with scale values 8.5 and 10.5 scores 9.5; nothing is summed.
 
 :::
 
@@ -145,7 +145,7 @@ We have established each item's "difficulty" **before a single participant has a
 
 ::: {.callout-warning}
 #### A fundamental difference from Likert
-In Likert, **the information is in the degree of the answer**. In Thurstone, the information is in **which items were endorsed** — the answer itself is only yes or no.
+In Likert, **the information is in the degree of the answer**. In Thurstone, the information is in **which items were endorsed**; the answer itself is only yes or no.
 :::
 
 ## Why Thurstone is rarely used
@@ -193,7 +193,7 @@ The CVI procedure is **Thurstone's logic applied to content relevance**, rather 
 
 * Participants are given a **realistic scenario** and asked to evaluate several possible actions.
 
-* What is measured is not a self-description but **judgement in a concrete situation**.
+* What is measured is **judgement in a concrete situation**.
 
 * Rooted in personnel selection testing since the 1940s, and revived after [Motowidlo et al. (1990)](https://psycnet.apa.org/record/1991-11281-001) described it as a *low-fidelity simulation*.
 
@@ -271,7 +271,7 @@ The first two **require a panel**, exactly like Thurstone and like the CVI in Se
 
 ::: {.incremental}
 
-* **Concrete context.** Participants are not asked to generalise about themselves but to react to a specific situation.
+* **Concrete context.** Participants react to a specific situation instead of generalising about themselves.
   - This sidesteps part of the introspective-access problem from Session 2.
 
 * **Face relevance**, which makes it easier to accept in a selection setting.
@@ -355,7 +355,7 @@ The classic example is the *Edwards Personal Preference Schedule* (Edwards, 1959
 
 ::: {.incremental}
 
-* The statements in a pair must be **matched for attractiveness** beforehand — which requires its own preliminary study.
+* The statements in a pair must be **matched for attractiveness** beforehand, which requires its own preliminary study.
 
 * Without that matching, the format **does not remove social desirability**: participants will still pick whichever sounds better.
 
@@ -380,14 +380,14 @@ The classic example is the *Edwards Personal Preference Schedule* (Edwards, 1959
 . . .
 
 ::: {.callout-warning appearance="simple"}
-With ipsative data, a score answers *"of all these things, which stands out most in me?"* — **not** *"how much of this trait do I have compared with other people?"*
+With ipsative data, a score answers *"of all these things, which stands out most in me?"* It says nothing about *"how much of this trait do I have compared with other people?"*
 :::
 
 ## Why this breaks the analysis
 
 ::: {.incremental}
 
-* Because the total is forced to be constant, **correlations between scales are forced negative** — even if the underlying constructs are entirely unrelated.
+* Because the total is forced to be constant, **correlations between scales are forced negative**, even if the underlying constructs are entirely unrelated.
 
 * For an ipsative instrument with $k$ scales, the average intercorrelation is:
 
@@ -417,7 +417,7 @@ Those numbers come **from the format**, not from the participants' psychology.
 
 * **Factor analysis becomes misleading**, because the correlation structure was distorted by the format before any analysis began.
 
-* **Classical reliability coefficients become hard to interpret** — the CTT model in Session 3 assumes scores are free to vary, and here they are not.
+* **Classical reliability coefficients become hard to interpret**: the CTT model in Session 3 assumes scores are free to vary, and here they are not.
 
 :::
 
@@ -467,7 +467,7 @@ Thurstone's 1920s idea turns out to be the solution to this problem.
 
 ::: {.callout-note}
 #### So why cover them?
-Because you **will encounter all three** in practice — especially SJTs and forced-choice instruments, which are widely used in assessment and recruitment.
+Because you **will encounter all three** in practice, especially SJTs and forced-choice instruments, which are widely used in assessment and recruitment.
 
 What you should take from today is the ability to **judge whether such an instrument is being used properly**.
 :::
@@ -571,7 +571,7 @@ After five sessions on concepts and formats, we start computing: **reliability**
 * The **Spearman-Brown** formula we have now deferred twice.
 * ***Cronbach's alpha*** and the tau-equivalence assumption that is rarely met.
 * The ***omega*** coefficient and why it is generally more appropriate.
-* Test-retest, split-half, and internal consistency: three different questions, not three ways of computing the same thing.
+* Test-retest, split-half, and internal consistency: three different questions.
 * Which coefficient you should actually report in your project.
 
 :::

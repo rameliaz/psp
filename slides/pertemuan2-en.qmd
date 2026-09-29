@@ -44,7 +44,7 @@ All of the above share the same shape: **we take these assumptions to be true wi
 
 * Psychological measurement is **indirect**. We work through proxies.
 
-* The definition of measurement is itself contested, and Michell's objection — whether psychological attributes are genuinely quantitative — has not really been resolved.
+* The definition of measurement is itself contested, and Michell's objection (whether psychological attributes are genuinely quantitative) has not really been resolved.
 
 * Most psychological data are **ordinal** but are treated as **interval**.
 
@@ -136,7 +136,7 @@ In summing, you have already assumed at least three things:
 
 * **The distances between response categories are equal.** The step from 1→2 is treated as the step from 4→5.
 
-* **The scores are addable.** Someone scoring 40 is treated as having "twice" the anxiety of someone scoring 20 — or at minimum, a 10-point difference means the same thing everywhere on the scale.
+* **The scores are addable.** Someone scoring 40 is treated as having "twice" the anxiety of someone scoring 20; at minimum, a 10-point difference means the same thing everywhere on the scale.
 
 :::
 
@@ -168,7 +168,7 @@ This course uses CTT, so *unit weighting* is an assumption you will be making. W
 ::: {.incremental}
 
 * [**Adolphe Quetelet** (1835)](https://direct.mit.edu/books/monograph/5435/chapter-abstract/3959228/L-Homme-Moyen?redirectedFrom=fulltext) introduced *l'homme moyen*, "the average man".
-  + He applied the normal curve — at the time a model of **observational error** in astronomy — to human characteristics.
+  + He applied the normal curve (at the time a model of **observational error** in astronomy) to human characteristics.
 
 * The implication: the normal curve moved from being **a model of error** to being **a model of people**.
 
@@ -180,7 +180,7 @@ This course uses CTT, so *unit weighting* is an assumption you will be making. W
 . . .
 
 ::: {.callout-warning}
-#### Worth being aware of
+#### An inherited habit
 There was never strong evidence that psychological attributes **must** be normally distributed. There was only a habit inherited from a very different context.
 :::
 
@@ -238,7 +238,7 @@ Total score per dimension (10 items, range 10–50), same dataset:
 
 ::: {.incremental}
 
-* Skewness is close to zero — the distributions have become **symmetric**.
+* Skewness is close to zero: the distributions have become **symmetric**.
 
 * But kurtosis is **negative in every case**: the distributions are **flatter** than a normal curve.
 
@@ -281,7 +281,7 @@ A total-score distribution that "looks normal" is **not evidence** that the unde
 #### Why this matters for your project
 **Norms and standard scores depend on this assumption.** The percentiles, *z*-scores, and *T*-scores you will construct in Session 14 are derived by assuming a particular distributional shape.
 
-If the empirical distribution is not that shape, your norms will **misplace people** — and worst of all at the extremes, which is exactly where decisions get made.
+If the empirical distribution is not that shape, your norms will **misplace people**, worst of all at the extremes, which is where decisions get made.
 :::
 
 # Assumption 3: the attribute is continuous, not categorical {background-color="#14497F" .center}
@@ -317,7 +317,7 @@ Example: pregnant/not pregnant.
 
 ::: {.incremental}
 
-* The question is not "which is more convenient" but **which is true for this construct**.
+* The question is **which is true for this construct**.
 
 * That is an **empirical** question, and there is a method for it: [*taxometrics*, developed by Paul Meehl](https://meehl.umn.edu/sites/meehl.umn.edu/files/files/122txmethodschapter.pdf).
 
@@ -350,7 +350,7 @@ This is also the problem baked into diagnostic and classification systems for me
 
 * If your construct is **taxonic** but you scale it, your middle scores describe a person who does not actually exist.
 
-* Most psychological scales — including the one you are about to build — assume a **dimensional** construct. That is a common assumption, but it is still one that needs to be tested.
+* Most psychological scales, including the one you are about to build, assume a **dimensional** construct. That is a common assumption, but it is still one that needs to be tested.
   + That said, testing it is beyond the scope of the project you are doing in this course.
 
 :::
@@ -421,7 +421,7 @@ A score of 40 might mean "calm mind, struggling financially" or "financially sec
 #### An example of a violation
 *"I often feel sad"* and *"I frequently feel down"*.
 
-These will correlate strongly — but partly because they are **almost the same sentence**, not only because of depression. Your reliability estimate will look good for the wrong reason.
+These will correlate strongly, but partly because they are **almost the same sentence**, not only because of depression. Your reliability estimate will look good for the wrong reason.
 
 We will cover how to avoid this when we write items in Session 10.
 :::
@@ -453,7 +453,7 @@ The formal test requires more complex technical skills and a large sample, so we
 
 * **[Heine, Lehman, Peng, & Greenholtz (2002)](https://psycnet.apa.org/record/2002-02942-003)** demonstrated a serious problem with cross-cultural Likert comparisons.
 
-* When someone answers *"I am a conscientious person"*, they judge themselves **relative to the people around them** — not against a universal standard.
+* When someone answers *"I am a conscientious person"*, they judge themselves **relative to the people around them**, not against a universal standard.
 
 * As a result, participants from a culture with a higher local standard may rate themselves **lower**, even when their behaviour fits the construct better.
 
@@ -474,7 +474,7 @@ Cross-national comparisons of mean self-report scores can come out **backwards**
 
 * Back-translation ensures the **words** match. It does not ensure the **meaning** matches, still less that the item functions the same way for Indonesian participants.
 
-* If your group chooses to adapt an existing scale — one written in a foreign language and whose scores were evaluated empirically in another country — that is not a translation job, it is a psychometric one.
+* If your group chooses to adapt an existing scale — one written in a foreign language and whose scores were evaluated empirically in another country — that is a psychometric job as much as a translation one.
 
 :::
 
@@ -572,7 +572,7 @@ But reverse-worded items bring their own problems: some participants misread the
 
 * **[Meade & Craig (2012)](https://psycnet.apa.org/record/2012-10015-001)** showed the proportion can be large enough to change the results of factor analysis and reliability estimates.
 
-* This is not only about participant attitude; it is a consequence of **instrument design** that overburdens people.
+* This comes partly from participant attitude and partly from **instrument design** that overburdens people.
 
 :::
 
@@ -591,9 +591,7 @@ Record completion time, watch for flat response patterns (all "3"s), and fix you
 
 * Everything we discussed today applies equally to well-established, widely used instruments.
 
-* The wrong conclusion to draw is "psychological measurement is useless."
-
-* The right conclusion: **psychological measurement is useful to the extent that we are honest about its limits**.
+* **Psychological measurement is useful to the extent that we are honest about its limits.**
 
 :::
 
@@ -673,7 +671,7 @@ We move to the central framework of this course: the **latent variable**.
 * What it means to call something a latent variable, and what follows from it.
 * ***Classical Test Theory***: $X = T + E$, and the assumptions that come with it.
 * Why reliability can be defined as a proportion of variance.
-* A glimpse of ***Item Response Theory*** as an alternative framework — and what it offers once the unit-weighting assumption is dropped.
+* A glimpse of ***Item Response Theory*** as an alternative framework, and what it offers once the unit-weighting assumption is dropped.
 
 :::
 

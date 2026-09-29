@@ -23,7 +23,7 @@ execute:
 1. What a **latent variable** is, and why we call it a *cause*
 2. ***Classical Test Theory***: $X = T + E$ and its assumptions
 3. Why reliability can be defined as a **proportion of variance**
-4. What *true score* actually means — and why it is **not** "the real amount of the construct"
+4. What *true score* actually means, and why it is **not** "the real amount of the construct"
 5. Consequences of CTT: number of items, attenuation, and sample dependence
 6. The family of CTT models: *parallel*, *tau-equivalent*, *congeneric*
 7. A glimpse of ***Item Response Theory*** and what it offers
@@ -60,7 +60,7 @@ As long as assumptions are only a list, nothing can be computed from them. Once 
 
 * ***Latent***, not manifest. Not directly observable. Parents' aspirations for their child's achievement cannot be seen, only inferred.
 
-* ***Variable***, not constant. Something about it changes — its strength, its magnitude — across people, times, and situations.
+* ***Variable***, not constant. Something about it changes (its strength, its magnitude) across people, times, and situations.
 
 * A latent variable is usually a **characteristic of the person supplying the data** (e.g., the parent), not of the object being asked about (e.g., the child's achievement).
 
@@ -145,7 +145,7 @@ Inter-item correlations can be computed. The latent variable cannot. So those co
 . . .
 
 ::: {.callout-note appearance="simple"}
-The procedures you will run in Session 13 — corrected item-total correlations, dropping weak items — rest entirely on this logic.
+The procedures you will run in Session 13 (corrected item-total correlations, dropping weak items) rest entirely on this logic.
 :::
 
 # Classical Test Theory {background-color="#14497F" .center}
@@ -189,7 +189,7 @@ The participant's physical state, a passing mood, an ambiguous item, noise in th
 
 ::: {.callout-warning}
 #### Notice what is being assumed
-All three say that error is **random**, not systematic. A consistent bias — for example every participant answering more positively because of social desirability — does **not** enter $E$.
+All three say that error is **random**, not systematic. A consistent bias (for example every participant answering more positively because of social desirability) does **not** enter $E$.
 :::
 
 ## Splitting score variance
@@ -253,7 +253,7 @@ $$30 \pm 1.96 \times 2.24 \;\approx\; 25.6 \text{ to } 34.4$$
 
 * Two people scoring **30** and **33** **cannot** be said to differ. Their ranges overlap almost entirely.
 
-* And scores with $\rho = 0.80$ already counts as good by the usual rules of thumb.
+* And a reliability of $\rho = 0.80$ already counts as good by the usual rules of thumb.
 
 * The lower the reliability, the wider the range, and the less we can say about any individual.
 
@@ -263,7 +263,7 @@ $$30 \pm 1.96 \times 2.24 \;\approx\; 25.6 \text{ to } 34.4$$
 
 ::: {.callout-warning}
 #### Remember this when you build norms
-In Session 14 you will convert scores into categories. If your categories are narrower than your scale's $SEM$, those categories are **not meaningful** — the same person could land in different categories simply by responding on a different day.
+In Session 14 you will convert scores into categories. If your categories are narrower than your scale's $SEM$, those categories are **not meaningful**; the same person could land in different categories simply by responding on a different day.
 :::
 
 # What is a *true score*, really? {background-color="#14497F" .center}
@@ -311,7 +311,7 @@ Which means: **highly reliable scores can come from an instrument that measures 
 
 * **Reliability** is a property of **scores**: how consistent they are when measurement is repeated.
 
-* **Validity** is also a property of scores — more precisely, of the **interpretation of scores for a proposed use**.
+* **Validity** is also a property of scores; more precisely, of the **interpretation of scores for a proposed use**.
 
 * The first does **not guarantee** the second. Scores on your scale can have $\alpha = 0.92$ and its scores still reflect a construct other than the one you claim.
 
@@ -387,7 +387,7 @@ We cover the types of evidence in Session 7.
 
 * Error is random. Some items push a score too high, others too low.
 
-* When items are summed, errors in opposite directions **cancel out** — while true score accumulates.
+* When items are summed, errors in opposite directions **cancel out**, while true score accumulates.
 
 * The more items, the smaller $\sigma^2_E$ is as a proportion of $\sigma^2_X$.
 
@@ -408,7 +408,7 @@ The formula (*Spearman-Brown*) comes in Session 6.
 
 * Adding items only helps if the new items **actually measure the same construct**.
 
-* Adding near-duplicate items will raise $\alpha$ without adding any information — this is the local independence violation from Session 2.
+* Adding near-duplicate items will raise $\alpha$ without adding any information; this is the local independence violation from Session 2.
 
 * And an over-long questionnaire creates new problems: fatigue and careless responding.
 
@@ -433,7 +433,7 @@ $$r_{XY} = \rho_{T_X T_Y} \times \sqrt{\rho_{XX'} \times \rho_{YY'}}$$
 
 * Its origin is now clear: what we correlate is $X$, and $X$ contains $E$.
 
-* The $E$ part correlates with nothing — by CTT's second and third assumptions.
+* The $E$ part correlates with nothing, by CTT's second and third assumptions.
 
 * So error adds to the denominator without adding to the numerator, and the correlation shrinks.
 
@@ -452,7 +452,7 @@ The larger the share of noise in your scores, the smaller every correlation you 
 
 * Reliability in CTT **depends on the sample**.
 
-* If your participants are very uniform on the attribute, their range of true scores is narrow. Inter-item correlations shrink, and the **computed reliability drops** — even though the instrument is unchanged.
+* If your participants are very uniform on the attribute, their range of true scores is narrow. Inter-item correlations shrink, and the **computed reliability drops**, even though the instrument is unchanged.
 
 * Conversely, a highly heterogeneous sample makes scores from the same instrument look more reliable.
 
@@ -469,7 +469,7 @@ DeVellis & Thorpe (2022), Chapter 8.
 The reliability coefficient you report partly reflects **your sample's characteristics**. So always report **sample characteristics** alongside the coefficient.
 :::
 
-## And not only reliability
+## Item statistics depend on the sample too
 
 ::: {.incremental}
 
@@ -672,7 +672,7 @@ The closest CTT equivalent of discrimination is the **item–total correlation**
 . . .
 
 ::: {.callout-note appearance="simple"}
-The first two are precisely assumption 4 from Session 2. IRT does **not remove** assumptions — it demands them more strictly.
+The first two are precisely assumption 4 from Session 2. IRT does **not remove** assumptions; it demands them more strictly.
 :::
 
 ## Why this course still uses CTT
@@ -691,7 +691,7 @@ The first two are precisely assumption 4 from Session 2. IRT does **not remove**
 
 ::: {.callout-tip}
 #### What to take from this section
-Not the ability to run an IRT analysis, but the awareness that **CTT item statistics are relative to your sample** — and that another framework exists which tackles that problem head-on.
+Awareness matters more than the ability to run an IRT analysis: **CTT item statistics are relative to your sample**, and another framework exists that tackles that problem head-on.
 :::
 
 # Group exercise {background-color="#14497F" .center}
@@ -750,11 +750,11 @@ We will use question 3 directly when building the blueprint in Session 10.
 
 1. **The latent variable is a cause**, and that is why items in one scale must correlate.
 
-2. **$X = T + E$**, assuming error is random — not systematic.
+2. **$X = T + E$**, assuming error is random, not systematic.
 
 3. **Reliability is a proportion of variance**: the share of score variability that is not noise.
 
-4. **True score attaches to the instrument**, not to the construct. Scores from a consistently biased instrument can still be highly reliable — and reliability and validity are both properties of **scores**, not of a scale.
+4. **True score attaches to the instrument**, not to the construct. Scores from a consistently biased instrument can still be highly reliable; reliability and validity are both properties of **scores**, not of a scale.
 
 5. **CTT item statistics depend on the sample.** Report sample characteristics alongside every coefficient.
 

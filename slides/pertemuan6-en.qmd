@@ -88,7 +88,7 @@ Reporting $\alpha$ tells you **nothing** about the stability of your scores over
 
 ::: {.incremental}
 
-* Split the scale into two halves — say odd-numbered and even-numbered items.
+* Split the scale into two halves (say odd-numbered and even-numbered items).
 
 * Compute a total for each half and correlate them.
 
@@ -336,7 +336,7 @@ $\alpha = .616$
 
 * Within each block the correlations are high. That alone is enough to lift $\alpha$ to .616.
 
-* The between-block correlation is small and negative — a sign that these are not one thing.
+* The between-block correlation is small and negative, a sign that these are not one thing.
 
 :::
 
@@ -352,7 +352,7 @@ $\alpha = .616$ but $\omega_h \approx .00$
 
 * $\omega$ *hierarchical* asks a different question from $\alpha$: **what proportion of total score variance comes from one general latent factor?**
 
-* For this mixed set the answer is almost none — because there is no single general factor there.
+* For this mixed set the answer is almost none, because there is no single general factor there.
 
 * In short
   + $\alpha$ = .616 means *"these items correlate with each other"*
@@ -375,7 +375,7 @@ Computed with `psych::omega()` in {{< fa brands r-project >}}. Alternatively, yo
 
 * Recall from Session 3: $\alpha$ assumes the **tau-equivalent** model, in which every item relates **equally strongly** to the latent variable.
 
-* If your items are really congeneric — and they almost always are — that assumption does not hold.
+* If your items are really congeneric (and they almost always are), that assumption does not hold.
 
 * $\omega$ makes no such assumption. It uses each item's loading as it is.
 
@@ -440,7 +440,7 @@ Compute **both**. If $\alpha$ and $\omega$ are close, a tau-equivalence violatio
   + **$\omega$ *hierarchical*** ($\omega_h$) — the proportion of variance from the general factor **alone**.
   + **$\omega$ *total*** ($\omega_t$) — the proportion of variance from the general factor **plus all the group factors**.
 
-* If your scale is genuinely unidimensional, all three coincide **exactly** — there is no group-factor variance to separate out.
+* If your scale is genuinely unidimensional, all three coincide **exactly**: there is no group-factor variance to separate out.
 
 :::
 
@@ -529,7 +529,7 @@ Two people scoring 30 and 35 **cannot** be said to differ.
 . . .
 
 ::: {.callout-warning appearance="simple"}
-Do not forget to reverse the reverse-worded items. When that step is skipped, your $\alpha$ drops sharply and it looks like the scale is faulty — when what is actually faulty is the scoring.
+Do not forget to reverse the reverse-worded items. When that step is skipped, your $\alpha$ drops sharply and it looks like the scale is faulty, when what is actually faulty is the scoring.
 
 The tell-tale sign: **a negative item-rest correlation**.
 :::
@@ -666,7 +666,7 @@ reversed; check the scoring before concluding anything about the item.
 
 3. **$\alpha$ is the average of all possible split-halves**, and is determined only by $k$ and $\bar{r}$.
 
-4. **A high $\alpha$ can be bought by adding items**, and **$\alpha$ cannot detect multidimensionality** — $\alpha = .62$ against $\omega_h \approx 0$ is the proof.
+4. **A high $\alpha$ can be bought by adding items**, and **$\alpha$ cannot detect multidimensionality**; $\alpha = .62$ against $\omega_h \approx 0$ is the proof.
 
 5. **Compute $\alpha$ and $\omega$ together**, and check dimensionality separately.
 
@@ -676,7 +676,7 @@ reversed; check the scoring before concluding anything about the item.
 
 ## For Session 7
 
-We turn to **validity** — and a much harder question.
+We turn to **validity**, a much harder question.
 
 ::: {.incremental}
 

@@ -156,11 +156,11 @@ It leads people to think there are **three separate jobs** to be ticked off one 
 
 * [**Cronbach & Meehl (1955)**](https://psycnet.apa.org/record/1956-03730-001) developed the idea of construct validity, first proposed in the APA *Technical Recommendations* (1954), together with the *nomological network*: a construct's meaning lies in its network of relations with other constructs and with observable behaviour.
 
-* [**Loevinger (1957)**](https://journals.sagepub.com/doi/abs/10.2466/pr0.1957.3.3.635) went further: construct validity is **not one type among several** but the whole of validity.
+* [**Loevinger (1957)**](https://journals.sagepub.com/doi/abs/10.2466/pr0.1957.3.3.635) went further: construct validity **is validity itself**, not one type among several.
 
 * **Messick (1989, [1995](https://doi.org/10.1037/0003-066X.50.9.741))** unified it: validity is **a single integrated judgement** of how far evidence and theory support the inferences and actions taken from scores.
 
-* [***The Standards***](https://www.testingstandards.net/) (from the 1999 edition, retained in 2014) turned this into something practical: not "types of validity" but **sources of evidence**, all supporting one interpretation.
+* [***The Standards***](https://www.testingstandards.net/) (from the 1999 edition, retained in 2014) turned this into something practical: **sources of evidence**, all supporting one interpretation.
 
 :::
 
@@ -213,9 +213,9 @@ AERA, APA, & NCME (2014).
 
 ::: {.incremental}
 
-* Do the items you wrote **represent the whole construct** you intend?
+* Do the items you wrote **represent the construct** you intend?
 
-* To answer that, you first need **a clear definition of the domain** — what is in and what is out.
+* To answer that, you first need **a clear definition of the domain**: what is in and what is out.
 
 * That is the work of Session 9. Without a clear construct boundary, there is no way to judge whether the items represent it.
 
@@ -604,7 +604,7 @@ All of it comes down to one sentence: **know which assumptions you are relying o
 
 * It is **multiple choice**, covering the stages of scale construction, Likert, SJT, *Semantic Differential*, and Thurstone.
 
-* What is tested is not memorised names and dates but the ability to **recognise a situation**: which coefficient fits, which assumption is being violated, what a given statement actually demonstrates.
+* What is tested is the ability to **recognise a situation**: which coefficient fits, which assumption is being violated, what a given statement actually demonstrates.
 
 :::
 

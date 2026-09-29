@@ -21,11 +21,11 @@ execute:
 ## Agenda {.agenda-slide}
 
 1. What are we actually doing when we "measure" something?
-2. A short history: measurement was born of social need, not of science
+2. A short history: measurement began with social need, well before science
 3. Why the definition of "measurement" is still contested today
-4. Levels of measurement (Stevens) — and the problem they leave behind
+4. Levels of measurement (Stevens) and the problem they leave behind
 5. Why psychology is forced to measure **indirectly**
-6. Scales, indices, and emergent variables — not every set of items is a scale
+6. Scales, indices, and emergent variables: not every set of items is a scale
 7. What does bad measurement actually cost?
 
 
@@ -49,7 +49,7 @@ execute:
 
 ::: {.callout-tip}
 #### The first half sets up the second
-The first half is **not** just an introduction. Almost every technical decision you will make in the second half — how many items to include, what response format to use, which coefficient to report — follows from the conceptual positions we establish in the first half.
+Almost every technical decision you will make in the second half (how many items to include, what response format to use, which coefficient to report) follows from the conceptual positions we establish in the first half.
 :::
 
 # Let us start from the most basic question {background-color="#14497F" .center}
@@ -58,7 +58,7 @@ The first half is **not** just an introduction. Almost every technical decision 
 
 ::: {.incremental}
 
-1. A health psychologist wants to distinguish what patients **want** to happen from what they **expect** to happen when they see a physician. Existing scales conflate the two. She could invent a few questions herself — but what guarantees that invented questions measure anything at all?
+1. A health psychologist wants to distinguish what patients **want** to happen from what they **expect** to happen when they see a physician. Existing scales conflate the two. She could invent a few questions herself, but what guarantees that invented questions measure anything at all?
 
 2. An epidemiologist has a large national survey dataset with no stress scale in it. A handful of items *seem* to touch on stress. May he pool those items and call the result a "stress scale"?
 
@@ -101,7 +101,7 @@ What makes a number
 
 <br>
 
-Note that this is a **normative** question ("deserve"), which is very different from a technical one like "what's the reliability coefficient of the scores?" The answer is not inside the data — it has to be justified conceptually.
+Note that this is a **normative** question ("deserve"), which is very different from a technical one like "what's the reliability coefficient of the scores?" The answer is not inside the data; it has to be justified conceptually.
 
 # Measurement was born before science {background-color="#14497F" .center}
 
@@ -117,9 +117,9 @@ Note that this is a **normative** question ("deserve"), which is very different 
 
 * Duncan argues that the roots of measurement lie in **social processes**, and that those processes **precede** science.
 
-* Voting, census-taking, systems of job advancement — all of them arose to meet everyday human needs, not as experiments to satisfy scientific curiosity.
+* Voting, census-taking, and systems of job advancement all arose to meet everyday human needs.
 
-* The measurement of length, area, volume, weight, and time was achieved by ancient peoples **in the course of solving practical problems** — and physics was later built on those foundations.
+* The measurement of length, area, volume, weight, and time was achieved by ancient peoples **in the course of solving practical problems**, and physics was later built on those foundations.
 
 :::
 
@@ -129,7 +129,7 @@ Note that this is a **normative** question ("deserve"), which is very different 
 
 * **c. 2200 BCE, China** (per DuBois, 1964; the date is legendary) — civil service examinations for selecting officials.
 
-* A dishonest scale was treated as a moral failing, not merely a technical one — a concern that recurs across religious traditions.
+* A dishonest scale was treated as a moral failing as well as a technical one, a concern that recurs across religious traditions.
   + **Qur'an, Al-Mutaffifin 1–3** — condemns those who demand full measure from others but give less when they weigh or measure for others.
   + **Qur'an, Al-An'am 152** — commands giving full measure and weight, in justice.
   + **Proverbs 11:1** — *"A false balance is an abomination to the Lord, but a just weight is a delight."*
@@ -153,7 +153,7 @@ Every entry is about **fairness**, and less about scientific accuracy. Measureme
 
 * But he **concealed** the practice for decades and did not document it in his early reports.
 
-* Why conceal it? Because at the time, discrepancies between observations were not understood as an inherent feature of measurement — they were read as **evidence of incompetence**.
+* Why conceal it? Because at the time, discrepancies between observations were not understood as an inherent feature of measurement; they were read as **evidence of incompetence**.
 
 :::
 
@@ -178,7 +178,7 @@ It took **a full century after Newton** before scientists widely accepted that *
   + Scientists were expected to produce an "ideal picture" of a natural phenomenon, using their own judgement to decide what should count as ideal.
   + As a result, "accidental" or random deviations were typically excluded from the scientific record ([Daston & Galison, 2007](https://www.amazon.de/-/en/Objectivity-Mit-Press-Lorraine-Daston/dp/189095179X)).
 
-* **The consequence of this shift was enormous**: error, once read as evidence of an observer's incompetence, came to be understood as a lawful, random (*stochastic*) property of the measurement process itself — one that could be modelled and estimated.
+* **The consequence of this shift was enormous**: error, once read as evidence of an observer's incompetence, came to be understood as a lawful, random (*stochastic*) property of the measurement process itself, one that could be modelled and estimated.
 
 * Without this shift, *Classical Test Theory* could not exist as we know it today.
 
@@ -192,7 +192,7 @@ It took **a full century after Newton** before scientists widely accepted that *
 
 * **1777, Daniel Bernoulli** compared the distribution of astronomical observations to **an archer's arrows**: clustering around a central point, with progressively fewer at greater distances from it.
 
-* [Buchwald (2006)](https://link.springer.com/article/10.1007/s00407-006-0116-6) argues the fundamental shortcoming of 18th-century thinking was the **failure to distinguish random from systematic error** — a distinction that only matured in the following century.
+* [Buchwald (2006)](https://link.springer.com/article/10.1007/s00407-006-0116-6) argues the fundamental shortcoming of 18th-century thinking was the **failure to distinguish random from systematic error**; a distinction that only matured in the following century.
 
 :::
 
@@ -275,11 +275,11 @@ A **correspondence** requirement. Numbers must not merely follow a rule; their s
 
 ::: {.incremental}
 
-* **Joel Michell** ([2007](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780444515421500040), [2011](https://bpspsychub.onlinelibrary.wiley.com/doi/abs/10.1111/j.2044-8295.1997.tb02641.x)) argues that Stevens's definition is not merely incomplete — it **obscures the real question**.
+* **Joel Michell** ([2007](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780444515421500040), [2011](https://bpspsychub.onlinelibrary.wiley.com/doi/abs/10.1111/j.2044-8295.1997.tb02641.x)) argues that Stevens's definition is incomplete and **obscures the real question**.
 
 * On his account, genuine measurement is **the estimation of the ratio of a magnitude of a quantitative attribute to a unit of the same attribute**.
 
-* That definition carries an **empirical precondition**: the attribute being measured **must actually be quantitative** — it must genuinely possess additive magnitude structure.
+* That definition carries an **empirical precondition**: the attribute being measured **must actually be quantitative**: it must genuinely possess additive magnitude structure.
 
 :::
 
@@ -304,7 +304,7 @@ Whether psychological attributes (anxiety, personality, motivation) **are in fac
 
 ::: {.callout-tip}
 #### The stance we are training in this course
-This course does not ask you to reject psychometrics, nor to swallow it whole. What it asks is that you be able to say: **I know exactly which assumptions I am borrowing, and what follows if they are wrong.**
+The aim is to be able to say: **I know exactly which assumptions I am borrowing, and what follows if they are wrong.**
 :::
 
 ## Measurement vs assessment
@@ -415,9 +415,9 @@ When the relationship between a variable and its indicator is **much weaker** th
 
 ::: {.callout-warning}
 #### What actually happened
-The comparison was between **marital status** and professional attainment — not social support. Marital status **omits** important aspects of social support (the perceived quality of support received) and **includes** irrelevant ones (being too young to have married).
+The comparison was between **marital status** and professional attainment, not social support. Marital status **omits** important aspects of social support (the perceived quality of support received) and **includes** irrelevant ones (being too young to have married).
 
-The conclusion "social support plays no role" could be **completely wrong** — and nothing inside the data would tell us.
+The conclusion "social support plays no role" could be **completely wrong**, and nothing inside the data would tell us.
 :::
 
 ## This kind of error is common
@@ -526,7 +526,7 @@ Look at the response format you will meet most often:
 
 ::: {.callout-warning}
 #### The statistical consequence
-Under Stevens's framework, means and differences are only meaningful for interval or ratio data, so the parametric techniques you will use — Pearson correlation, *t*-tests, ANOVA, linear regression — **presume interval or ratio data**. Applying them to ordinal data borrows that assumption.
+Under Stevens's framework, means and differences are only meaningful for interval or ratio data, so the parametric techniques you will use (Pearson correlation, *t*-tests, ANOVA, linear regression) **presume interval or ratio data**. Applying them to ordinal data borrows that assumption.
 :::
 
 ## So do we stop?
@@ -543,7 +543,7 @@ Under Stevens's framework, means and differences are only meaningful for interva
 
 ::: {.callout-tip}
 #### What I expect from you
-In your project report, when you sum items into a total score, I want you to be able to **name the assumption you are making** — not simply do it because everyone does. We go deeper in Sessions 2 and 4.
+In your project report, when you sum items into a total score, I want you to be able to **name the assumption you are making**, not simply do it because everyone does. We go deeper in Sessions 2 and 4.
 :::
 
 # Not every set of items is a scale {background-color="#14497F" .center}
@@ -595,7 +595,7 @@ Because all items are driven by the same cause, they **should correlate highly**
 
 * Items might include: public speaking effectiveness, military service record, physical attractiveness, ability to inspire campaign workers, potential financial resources.
 
-* These characteristics **share no common cause whatsoever** — but they do share an **effect**: increasing the likelihood of a successful campaign.
+* These characteristics **share no common cause whatsoever**, but they do share an **effect**: increasing the likelihood of a successful campaign.
 
 :::
 
@@ -603,7 +603,7 @@ Because all items are driven by the same cause, they **should correlate highly**
 
 ::: {.callout-warning}
 #### A consequence that is often overlooked
-In an index, items **need not** correlate highly and **cannot** be interchanged. Computing Cronbach's alpha for an index is a **conceptual error** — even though the software will still print a number.
+In an index, items **need not** correlate highly and **cannot** be interchanged. Computing Cronbach's alpha for an index is a **conceptual error**, even though the software will still print a number.
 :::
 
 ## The formative model
@@ -616,7 +616,7 @@ In an index, items **need not** correlate highly and **cannot** be interchanged.
 
 * Sentences beginning with a word of fewer than five letters can easily be grouped together.
 
-* That group shares **no common cause** and **no common effect**. It "pops up" purely because someone — or some data-analytic program — **perceived a similarity**.
+* That group shares **no common cause** and **no common effect**. It "pops up" purely because someone (or some data-analytic program) **perceived a similarity**.
 
 :::
 
@@ -626,7 +626,7 @@ In an index, items **need not** correlate highly and **cannot** be interchanged.
 #### The warning most relevant to your project
 Analysis software **cannot tell these three apart**. You can feed anything into jamovi and it will give you $\alpha$, give you factors, give you a total score.
 
-What determines whether your item set is a scale, an index, or merely an emergent variable is **your theory** — not the software's output.
+What determines whether your item set is a scale, an index, or merely an emergent variable is **your theory**, not the software's output.
 :::
 
 ## In summary
@@ -641,7 +641,7 @@ What determines whether your item set is a scale, an index, or merely an emergen
 
 ::: {.callout-note}
 #### What you will build this semester
-A **scale** — with effect indicators, grounded in Classical Test Theory. But you need to know the other two exist, so that you do not mistakenly treat a genuinely formative construct as if it were reflective.
+A **scale** with effect indicators, grounded in Classical Test Theory. But you need to know the other two exist, so that you do not mistakenly treat a genuinely formative construct as if it were reflective.
 :::
 
 ## "Assembly", not "development"
@@ -759,13 +759,13 @@ If the data cannot be interpreted in the end, the amount collected is irrelevant
 
 ::: {.incremental}
 
-1. **Measurement precedes science.** It was born of a social need for fairness and distribution, not of scientific curiosity.
+1. **Measurement precedes science.** It grew out of a social need for fairness and distribution.
 
-2. **The idea that measurement contains error is only about 250 years old** — and without it there would be no Classical Test Theory.
+2. **The idea that measurement contains error is only about 250 years old**, and without it there would be no Classical Test Theory.
 
 3. **The definition of measurement is still contested.** Stevens made it permissive enough for psychology to fit; Duncan and Michell argue that the permissiveness conceals an unfinished problem.
 
-4. **Most psychological data are ordinal but treated as interval.** That is allowed — provided you know you are doing it.
+4. **Most psychological data are ordinal but treated as interval.** That is allowed, provided you know you are doing it.
 
 5. **Not every set of items is a scale.** What decides is the direction of causality between construct and items.
 

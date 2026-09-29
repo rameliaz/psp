@@ -135,7 +135,7 @@ Adapted from [Podsakoff, MacKenzie, & Podsakoff (2016)](https://journals.sagepub
 
 ::: {.callout-warning}
 #### Check this
-The construct name in your report must match who actually completed the questionnaire. A mismatch here will run through the entire report.
+The construct name in your report must match who actually completed the questionnaire. A mismatch here will carry through the report.
 :::
 
 ## Common faults
